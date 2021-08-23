@@ -1,17 +1,25 @@
 ![QADB](/util/logo.png)
 
 # CLAS12 Quality Assurance Database
-* provides storage of and access to the QA monitoring results for the 
-  CLAS12 experiment at Jefferson Lab
+provides storage of and access to the QA monitoring results for the 
+CLAS12 experiment at Jefferson Lab
+
+### Table of Contents
+1. [Table of Defect Bits](#table)
+1. [QA Database Access](#access)
+1. [QA data storage](#storage)
+1. [Faraday Cup Charge Access](#charge)
+1. [Database Management](#dev)
+1. [Change Log](#changes)
+
+<a name="table"></a>
+# Table of Defect Bits
 
 * QA information is stored for each DST file, in the form of "defect bits"
   * the user needs only the run number and event number to query the QADB
   * queries will find the DST file associated with the event, and are only
     performed "as needed"
   * full dumps of the QADB are also possible, for browsing
-
-# Table of Defect Bits
-
 * N/F is defined as the electron yield N, normalized by the Faraday Cup charge F; the
   electron yield is for Forward Detector electrons with `status<0`, unless specified otherwise
   * The QA checks for outliers of N/F, along with several other miscellaneous criteria
@@ -33,7 +41,7 @@
 | 9   | `LossFT`               | N/F diminished within FT for several consecutive files |
 
 
-
+<a name="access"></a>
 # QA Database Access
 
 ## Text Access
@@ -91,7 +99,7 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
     instead `source env.csh`
 * then proceed following `srcC/README.md`
 
-
+<a name="storage"></a>
 # QA data storage
 
 ## Table files
@@ -165,7 +173,8 @@ chargeTree.json ─┬─ run number 1
   * `nElec` lists the number of electrons from each sector
 
 
-# Accessing Faraday Cup Charge
+<a name="charge"></a>
+# Faraday Cup Charge Access
 * the charge is stored in the QADB for each DST file, so that it is possible to
   determine the amount of accumulated charge for data that satisfy your
   specified QA criteria.
@@ -187,6 +196,7 @@ chargeTree.json ─┬─ run number 1
     corrections
 
 
+<a name="dev"></a>
 # QADB Management
 
 Documentation for QADB maintenance and revision
@@ -221,6 +231,7 @@ Documentation for QADB maintenance and revision
 
 ***
 
+<a name="changes"></a>
 # Change Log
 
 ### v1.2.0 - August 2021
