@@ -1,19 +1,19 @@
 ![QADB](/util/logo.png)
 
 # CLAS12 Quality Assurance Database
-provides storage of and access to the QA monitoring results for the 
+Provides storage of and access to the QA monitoring results for the 
 CLAS12 experiment at Jefferson Lab
 
 ### Table of Contents
-1. [Table of Defect Bits](#table)
-1. [QA Database Access](#access)
-1. [QA data storage](#storage)
+1. [QA Information](#info)
+1. [Database Access](#access)
+1. [Data storage](#storage)
 1. [Faraday Cup Charge Access](#charge)
 1. [Database Management](#dev)
 1. [Change Log](#changes)
 
-<a name="table"></a>
-# Table of Defect Bits
+<a name="info"></a>
+# QA Information
 
 * QA information is stored for each DST file, in the form of "defect bits"
   * the user needs only the run number and event number to query the QADB
@@ -42,7 +42,7 @@ CLAS12 experiment at Jefferson Lab
 
 
 <a name="access"></a>
-# QA Database Access
+# Database Access
 
 ## Text Access
   * this only provides human-readable access; see below for access with
@@ -100,7 +100,7 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
 * then proceed following `srcC/README.md`
 
 <a name="storage"></a>
-# QA data storage
+# Data Storage
 
 ## Table files
 Human-readable format of QA result, stored in `qadb/qa.*/qaTree.json.table`
