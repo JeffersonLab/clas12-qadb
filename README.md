@@ -1,6 +1,6 @@
 ![QADB](/util/logo.png)
 
-# CLAS12 Quality Assurance Database**
+# CLAS12 Quality Assurance Database
 * provides storage of and access to the QA monitoring results for the 
   CLAS12 experiment at Jefferson Lab
 
@@ -10,14 +10,14 @@
     performed "as needed"
   * full dumps of the QADB are also possible, for browsing
 
-### Defect Bits
+# Table of Defect Bits
 
-N/F is defined as the electron yield N, normalized by the Faraday Cup charge F; the
-electron yield is for Forward Detector electrons with `status<0`, unless specified otherwise
-* The QA checks for outliers of N/F, along with several other miscellaneous criteria
-* The term "golden" means that a file has ***no*** defects
-
-#### Table of Defect Bits
+* N/F is defined as the electron yield N, normalized by the Faraday Cup charge F; the
+  electron yield is for Forward Detector electrons with `status<0`, unless specified otherwise
+  * The QA checks for outliers of N/F, along with several other miscellaneous criteria
+  * The term "golden" means that a file has ***no*** defects
+* The table below lists the defect bits 
+  (Example: `defect=0b11000` has defects `SectorLoss` and `LowLiveTime`)
 
 | Bit | Name                   | Description |
 |-----|------------------------|-------------|
@@ -33,7 +33,6 @@ electron yield is for Forward Detector electrons with `status<0`, unless specifi
 | 9   | `LossFT`               | N/F diminished within FT for several consecutive files |
 
 
-***
 
 # QA Database Access
 
