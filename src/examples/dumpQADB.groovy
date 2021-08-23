@@ -51,12 +51,12 @@ for(int filenum=0; filenum<=qa.getMaxFilenum(runnum); filenum+=5) {
       qa.getEvnumMin() + " to " + qa.getEvnumMax()
 
     // print charge (max accumulated charge minus min accumulated charge)
-    println "- charge (max-min) = " + qa.getCharge() + " nC"
+    printf("- charge (max-min) = %.3f nC\n",qa.getCharge())
 
     // print defect bits (OR over all sectors)
     sep("-",40)
     println "- defect = " + qa.getDefect() + 
-      " = " + qa.util.printBinary(qa.getDefect())
+      " = " + qa.util.printBinary(qa.getDefect(),16)
     if(qa.hasDefect("TotalOutlier"))    println "   - TotalOutlier defect"
     if(qa.hasDefect("TerminalOutlier")) println "   - TerminalOutlier defect"
     if(qa.hasDefect("MarginalOutlier")) println "   - MarginalOutlier defect"
@@ -73,7 +73,7 @@ for(int filenum=0; filenum<=qa.getMaxFilenum(runnum); filenum+=5) {
     (1..6).each{ s ->
       println "  sector $s defect = " +
         qa.getDefect(s) +
-        " = " + qa.util.printBinary(qa.getDefect(s))
+        " = " + qa.util.printBinary(qa.getDefect(s),16)
     }
 
     // if there is a sector loss, print which sectors

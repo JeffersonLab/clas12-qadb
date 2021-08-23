@@ -60,7 +60,7 @@ int main(int argc, char ** argv) {
         << qa->GetEvnumMax() << endl;
 
       // print charge (max accumulated charge minus min accumulated charge)
-      cout << "- charge (max-min) = " << qa->GetCharge() << " nC" << endl;
+      printf("- charge (max-min) = %.3f nC\n",qa->GetCharge());
 
       // print defect bits (OR over all sectors)
       sep("-",40);

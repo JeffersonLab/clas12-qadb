@@ -40,14 +40,9 @@ class Tools {
 
 
   // convert a positive integer into a string binary number
-  def printBinary = { num ->
-    if(num<=0) return "0b0"
+  def printBinary = { num,length ->
     def str = ""
-    def n = num
-    while(n) {
-      str += n&1 ? "1":"0"
-      n>>=1
-    }
+    for(int i=0; i<length; i++) str += (num>>i)&1 ? "1":"0"
     return "0b"+str.reverse()
   }
       

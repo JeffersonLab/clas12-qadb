@@ -219,7 +219,6 @@ namespace QA {
     defectNameMap.insert(std::pair<std::string,int>("MarginalOutlierFT",nbits++));
     defectNameMap.insert(std::pair<std::string,int>("LossFT",nbits++));
 
-    // 6 elements
 
     // defect mask used for asymmetry analysis
     asymMask = 0;

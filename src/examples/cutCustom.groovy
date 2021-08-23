@@ -34,7 +34,7 @@ qa.setMaskBit('LowLiveTime',false)
 qa.setMaskBit('Misc',false)
 
 // print the defect bit mask
-println "\ndefect mask = " + qa.util.printBinary(qa.getMask()) + "\n"
+println "\ndefect mask = " + qa.util.printBinary(qa.getMask(),16) + "\n"
 
 
 // define variables
