@@ -1,13 +1,50 @@
 ![QADB](/util/logo.png)
 
-**CLAS12 Quality Assurance Database**
-* provides storage of and access to the QA monitoring results for the 
-  CLAS12 experiment at Jefferson Lab
+# CLAS12 Quality Assurance Database
+Provides storage of and access to the QA monitoring results for the 
+CLAS12 experiment at Jefferson Lab
+
+### Table of Contents
+1. [QA Information](#info)
+1. [Database Access](#access)
+1. [Data storage](#storage)
+1. [Faraday Cup Charge Access](#charge)
+1. [Database Management](#dev)
+1. [Change Log](#changes)
+
+<a name="info"></a>
+# QA Information
+
+* QA information is stored for each DST file, in the form of "defect bits"
+  * the user needs only the run number and event number to query the QADB
+  * queries will find the DST file associated with the event, and are only
+    performed "as needed"
+  * full dumps of the QADB are also possible, for browsing
+* N/F is defined as the electron yield N, normalized by the Faraday Cup charge F; the
+  electron yield is for Forward Detector electrons with `status<0`, unless specified otherwise
+  * The QA checks for outliers of N/F, along with several other miscellaneous criteria
+  * The term "golden" means that a file has ***no*** defects
+* The table below lists the defect bits 
+  (Example: `defect=0b11000` has defects `SectorLoss` and `LowLiveTime`)
+
+| Bit | Name                   | Description |
+|-----|------------------------|-------------|
+| 0   | `TotalOutlier`         | outlier N/F, but not terminal, marginal, or sector loss |
+| 1   | `TerminalOutlier`      | outlier N/F of first or last file of run, not marginal |
+| 2   | `MarginalOutlier`      | marginal outlier N/F, within one stddev of cut line |
+| 3   | `SectorLoss`           | N/F diminished within a sector for several consecutive files |
+| 4   | `LowLiveTime`          | live time < 0.9 |
+| 5   | `Misc`                 | miscellaneous defect, documented as comment |
+| 6   | `TotalOutlierFT`       | outlier N/F of FT electron, but not terminal, marginal, or sector loss |
+| 7   | `TerminalOutlierFT`    | outlier N/F of FT electron of first or last file of run, not marginal |
+| 8   | `MarginalOutlierFT`    | marginal outlier N/F of FT electron, within one stddev of cut line |
+| 9   | `LossFT`               | N/F diminished within FT for several consecutive files |
 
 
-## QA Database Access
+<a name="access"></a>
+# Database Access
 
-* Text Access
+## Text Access
   * this only provides human-readable access; see below for access with
     common programming languages and software used at CLAS
     * using the Groovy or C++ access is the preferred method to apply QA cuts
@@ -37,51 +74,48 @@
         `silver`
       * defect: not `gold` or `silver`
 
-* Groovy Access
-  * first set environment variables by running `source env.sh`
-    * `bash` is recommended, though if you choose to use `tcsh`, run
-      instead `source env.csh`
-  * then proceed following `src/README.md`
+## Software Access
 
-* C++ Access
-  * __NOTE:__ [`clas12root`](https://github.com/JeffersonLab/clas12root) now provides
-    access to the QADB
-  * needs [`rapidjson`](https://github.com/Tencent/rapidjson/) libary; 
-    it is a submodule of this repository and can be obtained by
-    ```
-    git clone --recurse-submodules https://github.com/JeffersonLab/clasqaDB.git
-    ```
-  * first set environment variables by running `source env.sh`
-    * alternatively, set environment variable `$QADB` to the path to this
-      `clasqaDB` repository
-    * `bash` is recommended, though if you choose to use `tcsh`, run
-      instead `source env.csh`
-  * then proceed following `srcC/README.md`
+Classes in both C++ and Groovy are provided, for access to the QADB within analysis code
 
+### Groovy Access
+* first set environment variables by running `source env.sh`
+  * `bash` is recommended, though if you choose to use `tcsh`, run
+    instead `source env.csh`
+* then proceed following `src/README.md`
 
-## QA data storage
+### C++ Access
+* __NOTE:__ [`clas12root`](https://github.com/JeffersonLab/clas12root) now provides
+  access to the QADB
+* needs [`rapidjson`](https://github.com/Tencent/rapidjson/) libary; 
+  it is a submodule of this repository and can be obtained by
+  ```
+  git clone --recurse-submodules https://github.com/JeffersonLab/clasqaDB.git
+  ```
+* first set environment variables by running `source env.sh`
+  * alternatively, set environment variable `$QADB` to the path to this
+    `clasqaDB` repository
+  * `bash` is recommended, though if you choose to use `tcsh`, run
+    instead `source env.csh`
+* then proceed following `srcC/README.md`
 
-### Table files
+<a name="storage"></a>
+# Data Storage
+
+## Table files
 Human-readable format of QA result, stored in `qadb/qa.*/qaTree.json.table`
 * each run begins with the keyword `RUN:`; lines below are for each of that 
   run's file and its QA result, with the following syntax:
   * `run number` `file number`  `defect bits` `comment`
   * the `defect bits` are listed by name, and the numbers in the `[brackets]`
-    indicate which sectors have that defect; the defect bits are:
-    * `GOLDEN`: if no defect bits are assigned in any sector, the file is called "golden"
-    * `TotalOutlier`: outlier N/F, but not terminal, marginal, or sector loss
-    * `TerminalOutlier`: outlier N/F of first or last file of run, not marginal
-    * `MarginalOutlier`: marginal outlier N/F, within one stddev of cut line
-    * `SectorLoss`: N/F diminished within a sector for several consecutive files
-    * `LowLiveTime`: live time < 0.9
-    * `Misc`: miscellaneous defect, documented as comment
+    indicate which sectors have that defect
   * if a comment is included, it will be printed after the defect bits, following the
     `::` delimiter
 * these table files can be generated from the JSON files using `bin/makeTables.sh`
 
-### JSON files
+## JSON files
 
-#### qaTree.json
+### qaTree.json
 * The QADB itself is stored as JSON files in `qadb/qa.*/qaTree.json`
 * the format is a tree (nested maps):
 ```
@@ -107,7 +141,7 @@ qaTree.json ─┬─ run number 1
     example, `11=0b1011` means the `OR` of the defect bit lists is `[0,1,3]`
   * `comment` stores an optional comment regarding the QA result
 
-#### chargeTree.json
+### chargeTree.json
 * the charge is also stored in JSON files in `qadb/qa.*/chargeTree.json`, with
   a similar format:
 ```
@@ -139,7 +173,8 @@ chargeTree.json ─┬─ run number 1
   * `nElec` lists the number of electrons from each sector
 
 
-## Accessing Faraday Cup Charge
+<a name="charge"></a>
+# Faraday Cup Charge Access
 * the charge is stored in the QADB for each DST file, so that it is possible to
   determine the amount of accumulated charge for data that satisfy your
   specified QA criteria.
@@ -161,6 +196,7 @@ chargeTree.json ─┬─ run number 1
     corrections
 
 
+<a name="dev"></a>
 # QADB Management
 
 Documentation for QADB maintenance and revision
@@ -181,8 +217,26 @@ Documentation for QADB maintenance and revision
   * use `git status` and `git diff` to review changes, then add and commit to
     git, and push to the remote branch
 
+## Adding new defect bits
+* defect bits must be added in the following places:
+  * Groovy:
+    * `src/clasqa/Tools.groovy` (copy from `clasqa` repository version)
+    * `src/clasqa/QADB.groovy`
+    * `src/examples/dumpQADB.groovy` (optional)
+  * C++:
+    * `srcC/include/QADB.h`
+    * `srcC/examples/dumpQADB.cpp` (optional)
+  * Documentation:
+    * bits table in `README.md`
 
+***
+
+<a name="changes"></a>
 # Change Log
+
+### v1.2.0 - August 2021
+* add FT defect bits; currently only the RGK 7.5 GeV period (`qadb/rgk_7`)
+  includes the new FT QA results
 
 ### v1.1.0 - April 2021
 * C++ `QADB` class is now in the namespace `QA`

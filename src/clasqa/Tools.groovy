@@ -17,7 +17,11 @@ class Tools {
     "MarginalOutlier: marginal outlier N/F, within one stddev of cut line",
     "SectorLoss: N/F diminished within a sector for several consecutive files",
     "LowLiveTime: live time < 0.9",
-    "Misc: miscellaneous defect, documented as comment"
+    "Misc: miscellaneous defect, documented as comment",
+    "TotalOutlierFT: outlier N/F, but not terminal, marginal, or sector loss, FT electron",
+    "TerminalOutlierFT: outlier N/F of first or last file of run, not margina, FT electron",
+    "MarginalOutlierFT: marginal outlier N/F, within one stddev of cut line, FT electron",
+    "LossFT: N/F diminished within FT for several consecutive files"
   ]
 
   // list of bit names and descriptions
@@ -36,14 +40,9 @@ class Tools {
 
 
   // convert a positive integer into a string binary number
-  def printBinary = { num ->
-    if(num<=0) return "0b0"
+  def printBinary = { num,length ->
     def str = ""
-    def n = num
-    while(n) {
-      str += n&1 ? "1":"0"
-      n>>=1
-    }
+    for(int i=0; i<length; i++) str += (num>>i)&1 ? "1":"0"
     return "0b"+str.reverse()
   }
       

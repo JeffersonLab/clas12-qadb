@@ -60,25 +60,29 @@ int main(int argc, char ** argv) {
         << qa->GetEvnumMax() << endl;
 
       // print charge (max accumulated charge minus min accumulated charge)
-      cout << "- charge (max-min) = " << qa->GetCharge() << " nC" << endl;
+      printf("- charge (max-min) = %.3f nC\n",qa->GetCharge());
 
       // print defect bits (OR over all sectors)
       sep("-",40);
       cout << "- defect = " << qa->GetDefect() << " = 0b" <<
-        bitset<6>(qa->GetDefect()) << endl;
+        bitset<16>(qa->GetDefect()) << endl;
       if(qa->HasDefect("TotalOutlier"))    cout << "   - TotalOutlier defect" << endl;
       if(qa->HasDefect("TerminalOutlier")) cout << "   - TerminalOutlier defect" << endl;
       if(qa->HasDefect("MarginalOutlier")) cout << "   - MarginalOutlier defect" << endl;
       if(qa->HasDefect("SectorLoss"))      cout << "   - SectorLoss defect" << endl;
       if(qa->HasDefect("LowLiveTime"))     cout << "   - LowLiveTime defect" << endl;
       if(qa->HasDefect("Misc"))            cout << "   - Misc defect" << endl;
+      if(qa->HasDefect("TotalOutlierFT"))    cout << "   - TotalOutlierFT defect" << endl;
+      if(qa->HasDefect("TerminalOutlierFT")) cout << "   - TerminalOutlierFT defect" << endl;
+      if(qa->HasDefect("MarginalOutlierFT")) cout << "   - MarginalOutlierFT defect" << endl;
+      if(qa->HasDefect("LossFT"))            cout << "   - LossFT defect" << endl;
 
       // print defect bits for each sector
       sep(".",40);
       for(int s=1; s<=6; s++) {
         cout << "  sector " << s << " defect = " <<
           qa->GetDefect(s) << " = 0b" <<
-          bitset<6>(qa->GetDefect(s)) << endl;
+          bitset<16>(qa->GetDefect(s)) << endl;
       };
 
       // if there is a sector loss, print which sectors
