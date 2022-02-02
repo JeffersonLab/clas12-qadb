@@ -1,6 +1,16 @@
 #!/bin/bash
-# makes a latex table for the analysis note
-# this is meant to be run after `makeTables.sh`
+# - makes a latex table for the analysis note
+# - this is meant to be run after `makeTables.sh`
+# - columns:
+#   - run number
+#   - fraction of golden files
+#   - fraction of files with defect bit 0
+#   - fraction of files with defect bit 1
+#   - fraction of files with defect bit 2
+#   - fraction of files with defect bit 3
+#   - fraction of files with defect bit 4
+#   - fraction of files with defect bit 5
+# - cf. makeLatexTables2.sh
 if [ -z "$QADB" ]; then
   echo "ERROR: you must source env.sh first"; exit
 fi

@@ -1,4 +1,5 @@
-// used by bin/MakeLatexTables.sh to generate latex tables
+// - used by bin/MakeLatexTables.sh to generate latex tables
+// - cf. makeLatexTable2.groovy
 
 import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
