@@ -11,6 +11,7 @@ CLAS12 experiment at Jefferson Lab
 1. [Faraday Cup Charge Access](#charge)
 1. [Database Management](#dev)
 1. [Change Log](#changes)
+1. [Contributions](#contributions)
 
 <a name="info"></a>
 # QA Information
@@ -258,3 +259,8 @@ Documentation for QADB maintenance and revision
     * `hasDefectName` is no longer used; use `hasDefect` instead
   * C++ class no longer requires the JSON files be merged with a Groovy
     script; the class only requires the environment variable `$QADB`
+
+<a name="contributions"></a>
+# Contributions
+
+All contributions are welcome, whether to the code, examples, documentation, or the QADB itself. You are welcome to open an issue and/or a pull request. If the maintainer(s) do not respond in a reasonable time, send them an email.
