@@ -74,6 +74,8 @@ CLAS12 experiment at Jefferson Lab
         This is also **very strict**: so far, only about half the runs are
         `silver`
       * defect: not `gold` or `silver`
+  * it is also possible to produce `latex` tables; see
+    `util/makeLatexTables.sh` and `util/makeLatexTables2.sh`
 
 ## Software Access
 
