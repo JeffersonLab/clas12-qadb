@@ -16,10 +16,12 @@ pushd $QADB/qadb > /dev/null
 
 # set run period
 if [ $# -ne 1 ]; then
-  echo "USAGE: $0 [run-period-number]"
-  echo "- see case statement in script"
-  echo "- edit the script to add your own run period"
-  echo "- (workaround, QADB does not (yet) store run period name)"
+  echo """
+  USAGE: $0 [run-period-number]
+  - see case statement in script
+  - edit the script to add your own run period
+    (a workaround, since QADB does not (yet) store run period name)
+  """
   exit 2
 fi
 periodNum=$1
@@ -29,16 +31,32 @@ case $periodNum in
     runrange="5032 5419"
     ;;
   1)
+    period="RGA Fall 2018, outbending"
+    runrange="5422 5666"
+    ;;
+  2)
     period="RGA Spring 2019, inbending"
     runrange="6616 6783"
     ;;
-  2)
+  3)
     period="RGB Spring 2019, inbending"
     runrange="6156 6603"
     ;;
-  3)
+  4)
+    period="RGB Fall 2019, outbending"
+    runrange="11093 11283"
+    ;;
+  5)
     period="RGB Spring 2020, inbending"
     runrange="11323 11571"
+    ;;
+  6)
+    period="RGK 7.5 GeV"
+    runrange="5674 5870"
+    ;;
+  7)
+    period="RGK 6.5 GeV"
+    runrange="5875 6000"
     ;;
   *)
     echo "ERROR: unknown run-period-number (edit the script!)"
