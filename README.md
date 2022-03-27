@@ -45,6 +45,12 @@ CLAS12 experiment at Jefferson Lab
 <a name="access"></a>
 # Database Access
 
+## QA Timelines
+View the online QA timelines at the following links:
+* [Run Group A](https://clas12mon.jlab.org/rga/pass1/qa/tlsummary/)
+* [Run Group B](https://clas12mon.jlab.org/rgb/pass1/qa/tlsummary/)
+* [Run Group K](https://clas12mon.jlab.org/rgk/pass1/qa/tlsummary/)
+
 ## Text Access
   * this only provides human-readable access; see below for access with
     common programming languages and software used at CLAS
