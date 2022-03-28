@@ -954,24 +954,24 @@
  6732  defect
  6733  defect
  6734  defect
- 6736  gold (and silver)
+ 6736  defect
  6737  defect
  6738  defect
- 6739  silver
+ 6739  defect
  6740  defect
- 6741  gold (and silver)
- 6742  gold (and silver)
+ 6741  defect
+ 6742  defect
  6743  defect
  6744  defect
  6746  defect
  6747  defect
- 6748  gold (and silver)
+ 6748  defect
  6749  defect
  6750  defect
- 6751  silver
+ 6751  defect
  6753  defect
  6754  defect
- 6755  gold (and silver)
+ 6755  defect
  6756  defect
  6757  defect
  6759  defect
