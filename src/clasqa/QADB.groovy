@@ -108,6 +108,12 @@ class QADB {
                        5159, 5160, 5163, 5165,
                        5166, 5167, 5168, 5169,
                        5180, 5181, 5182, 5183, 5567 ]) return true
+
+      // check if this run had an FADC failure; there is no indication spin
+      // asymmetries are impacted by this issue
+      else if( runnum_ in 6736..6757 ) return true
+
+      // otherwise, this file fails the QA
       else return false
 
     }

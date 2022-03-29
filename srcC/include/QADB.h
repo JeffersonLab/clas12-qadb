@@ -320,6 +320,12 @@ namespace QA {
          runnum_==5182 ||
          runnum_==5183 ||
          runnum_==5567) return true;
+
+      // check if this run had an FADC failure; there is no indication spin
+      // asymmetries are impacted by this issue
+      else if(runnum_>=6736 && runnum_<=6757) return true;
+
+      // otherwise, this file fails the QA
       else return false;
     };
 
