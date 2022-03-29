@@ -27,11 +27,12 @@ qa.getQaTree().sort{a,b ->
     if(runTree["$filenumNxt"]!=null) {
       def fileTreeNxt = runTree["$filenumNxt"]
       def evnumMinNxt = fileTreeNxt['evnumMin']
+      def evnumMaxNxt = fileTreeNxt['evnumMax']
       if( evnumMax > evnumMinNxt) {
         def overlap = evnumMax - evnumMinNxt
         println "SYNC ERROR: runnum=$runnum"
-        println "  file $filenum evnumMax = $evnumMax"
-        println "  file $filenumNxt evnumMin = $evnumMinNxt"
+        println "  file $filenum\tevnumMin = $evnumMin\tevnumMax = $evnumMax"
+        println "  file $filenumNxt\tevnumMin = $evnumMinNxt\tevnumMax = $evnumMaxNxt"
         println "  overlap = $overlap"
         printSep = true
       }
