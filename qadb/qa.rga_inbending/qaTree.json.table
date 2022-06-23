@@ -16199,13 +16199,13 @@ RUN: 5335
 5335 40  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
 
 RUN: 5336
-5336 0  GOLDEN
-5336 5  GOLDEN
-5336 10  GOLDEN
-5336 15  GOLDEN
-5336 20  0-TotalOutlier[1]  :: dc13 issue at end of run
-5336 25  0-TotalOutlier[1]  :: dc13 issue at end of run
-5336 30  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 0  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 5  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 10  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 15  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 20  0-TotalOutlier[1]  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 25  0-TotalOutlier[1]  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 30  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
 
 RUN: 5339
 5339 0  GOLDEN
@@ -23625,30 +23625,30 @@ RUN: 5399
 5399 20  5-Misc[1, 2, 3, 4, 5, 6]  :: marked as junk in logbook
 
 RUN: 5400
-5400 0  GOLDEN
-5400 5  GOLDEN
-5400 10  GOLDEN
-5400 15  GOLDEN
-5400 20  GOLDEN
-5400 25  GOLDEN
-5400 30  GOLDEN
-5400 35  GOLDEN
-5400 40  GOLDEN
-5400 45  GOLDEN
-5400 50  GOLDEN
-5400 55  GOLDEN
-5400 60  GOLDEN
-5400 65  GOLDEN
-5400 70  GOLDEN
-5400 75  GOLDEN
-5400 80  GOLDEN
-5400 85  GOLDEN
-5400 90  GOLDEN
-5400 95  GOLDEN
-5400 100  GOLDEN
-5400 105  GOLDEN
-5400 110  GOLDEN
-5400 115  GOLDEN
+5400 0  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 5  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 10  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 15  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 20  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 25  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 30  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 35  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 40  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 45  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 50  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 55  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 60  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 65  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 70  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 75  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 80  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 85  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 90  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 95  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 100  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 105  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 110  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 115  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
 
 RUN: 5401
 5401 0  GOLDEN

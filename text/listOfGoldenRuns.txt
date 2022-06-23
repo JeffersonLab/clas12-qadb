@@ -159,7 +159,7 @@
  5394  defect
  5398  gold (and silver)
  5399  defect
- 5400  gold (and silver)
+ 5400  defect
  5401  silver
  5402  defect
  5403  gold (and silver)
