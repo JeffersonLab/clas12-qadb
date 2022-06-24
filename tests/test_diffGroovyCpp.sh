@@ -34,8 +34,7 @@ popd
 # c++ test
 echo "EXECUTE C++ TEST $testname RUN $run"
 pushd ${QADB}/srcC/tests
-ls
-test${testname}.exe $run > ${QADB}/tmp/cpp.${run}.out
+./test${testname}.exe $run > ${QADB}/tmp/cpp.${run}.out
 popd
 
 # compare
