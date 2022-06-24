@@ -229,8 +229,8 @@
  5485  silver
  5486  silver
  5487  defect
- 5495  gold (and silver)
- 5496  gold (and silver)
+ 5495  defect
+ 5496  defect
  5497  silver
  5498  silver
  5499  silver
@@ -318,12 +318,12 @@
  5614  defect
  5615  defect
  5616  defect
- 5617  gold (and silver)
+ 5617  defect
  5618  silver
  5619  defect
  5620  defect
- 5621  silver
- 5623  silver
+ 5621  defect
+ 5623  defect
  5624  gold (and silver)
  5625  silver
  5626  gold (and silver)
