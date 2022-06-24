@@ -7,3 +7,6 @@ export JYPATH=$(echo $JYPATH | sed 's/^://')
 
 env|grep --color -w QADB
 env|grep --color -w JYPATH
+echo "---"
+ls $QADB
+echo "---"
