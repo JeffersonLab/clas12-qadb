@@ -6,9 +6,9 @@
  5041  defect
  5043  gold (and silver)
  5045  defect
- 5046  gold (and silver)
- 5047  gold (and silver)
- 5051  gold (and silver)
+ 5046  defect
+ 5047  defect
+ 5051  defect
  5052  silver
  5053  gold (and silver)
  5116  gold (and silver)
