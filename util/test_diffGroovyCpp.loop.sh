@@ -1,5 +1,5 @@
 #!/bin/bash
-# loop over runs in specified dataset
+# loop over runs in specified dataset, running test_diffGroovyCpp.sh on each run
 
 if [ -z "$QADB" ]; then
   echo "ERROR: you must source env.sh first"; exit
@@ -10,8 +10,6 @@ if [ $# -lt 1 ]; then
 fi
 
 dataset=$1
-
-${QADB}/bin/makeTables.sh
 
 grep -E '^RUN: ' ${QADB}/qadb/qa.${dataset}/qaTree.json.table | \
 awk '{print $2}' > ${QADB}/tmp/runlist.${dataset}
