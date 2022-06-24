@@ -36,9 +36,6 @@ jobs:
         run: |
           cd srcC/tests
           make
-      - name: check-groovy
-        run: |
-          groovy -cp "$JYPATH" src/tests/testDumpQADB.groovy 5032
       - name: test-diff-groovy-cpp
         run: |
           tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
