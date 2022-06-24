@@ -20,6 +20,9 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: recursive
+      - name: groovy-check
+        run: |
+          groovy --version
       - name: env
         run: |
           source env.sh
@@ -27,7 +30,7 @@ jobs:
           echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
       - name: compile
         run: |
-          cd srcC/examples
+          cd srcC/tests
           make
       - name: artifacts
         uses: actions/upload-artifact@v2
@@ -35,4 +38,4 @@ jobs:
           name: x_build
           retention-days: 1
           path: |
-            srcC/examples/*.exe
+            srcC/tests/*.exe
