@@ -153,6 +153,8 @@ namespace QA {
       bool found;
       int asymMask;
       int mask;
+
+      std::vector<int> allowForOkForAsymmetry;
   };
 
 
@@ -230,6 +232,26 @@ namespace QA {
     asymMask += 0x1 << Bit("MarginalOutlier");
     asymMask += 0x1 << Bit("SectorLoss");
 
+    // list of runs allowed by OkForAsymmetry, even though they have Misc defect
+    allowForOkForAsymmetry.push_back(5128);
+    allowForOkForAsymmetry.push_back(5129);
+    allowForOkForAsymmetry.push_back(5130);
+    allowForOkForAsymmetry.push_back(5158);
+    allowForOkForAsymmetry.push_back(5159);
+    allowForOkForAsymmetry.push_back(5160);
+    allowForOkForAsymmetry.push_back(5163);
+    allowForOkForAsymmetry.push_back(5165);
+    allowForOkForAsymmetry.push_back(5166);
+    allowForOkForAsymmetry.push_back(5167);
+    allowForOkForAsymmetry.push_back(5168);
+    allowForOkForAsymmetry.push_back(5169);
+    allowForOkForAsymmetry.push_back(5180);
+    allowForOkForAsymmetry.push_back(5181);
+    allowForOkForAsymmetry.push_back(5182);
+    allowForOkForAsymmetry.push_back(5183);
+    allowForOkForAsymmetry.push_back(5567);
+
+
     // initialize local vars
     runnum = -1;
     filenum = -1;
@@ -306,23 +328,8 @@ namespace QA {
       // check if this is a run on the list of runs with a large fraction of
       // events with undefined helicity; if so, accept this run, since none of
       // these files are marked with `Misc` for any other reasons
-      if(runnum_==5128 ||
-         runnum_==5129 ||
-         runnum_==5130 ||
-         runnum_==5158 ||
-         runnum_==5159 ||
-         runnum_==5160 ||
-         runnum_==5163 ||
-         runnum_==5165 ||
-         runnum_==5166 ||
-         runnum_==5167 ||
-         runnum_==5168 ||
-         runnum_==5169 ||
-         runnum_==5180 ||
-         runnum_==5181 ||
-         runnum_==5182 ||
-         runnum_==5183 ||
-         runnum_==5567) return true;
+      if(std::find(allowForOkForAsymmetry.begin(), allowForOkForAsymmetry.end(), runnum_) != allowForOkForAsymmetry.end())
+        return true;
 
       // check if this run had an FADC failure; there is no indication spin
       // asymmetries are impacted by this issue
