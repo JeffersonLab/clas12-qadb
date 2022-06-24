@@ -1,0 +1,38 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+
+# BUILD ---------------------------------------------------------------------------
+  build:
+    runs-on: [ ubuntu-latest ]
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: env
+        run: |
+          source env.sh
+          echo "QADB=${QADB}" >> $GITHUB_ENV
+          echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
+      - name: compile
+        run: |
+          cd srcC/examples
+          make
+      - name: artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: x_build
+          retention-days: 1
+          path: |
+            srcC/examples/*.exe
