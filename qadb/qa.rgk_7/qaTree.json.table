@@ -6520,9 +6520,6 @@ RUN: 5743
 5743 995  3-SectorLoss[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
 5743 1000  3-SectorLoss[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
 
-RUN: 5744
-5744 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
-
 RUN: 5745
 5745 0  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
 5745 5  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
