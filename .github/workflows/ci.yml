@@ -16,7 +16,7 @@ jobs:
   groovy-vs-cpp:
     runs-on: [ ubuntu-latest ]
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
         dataset: [ rga_inbending, rga_outbending, rga_spring19, rgb_fall, rgb_spring, rgb_winter, rgk_6, rgk_7 ]
     steps:
