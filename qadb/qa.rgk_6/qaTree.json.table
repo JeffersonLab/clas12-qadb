@@ -10232,9 +10232,6 @@ RUN: 5943
 5943 165  GOLDEN
 5943 170  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
 
-RUN: 5944
-5944 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk, reboot roc tdcecal6. BSA irregularities.
-
 RUN: 5949
 5949 0  GOLDEN
 5949 5  GOLDEN
@@ -14301,12 +14298,6 @@ RUN: 5971
 RUN: 5972
 5972 0  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity. Notes from logbook: run 5972 ended with only 935 thousand events because they noticed that they did not start a new trigger configuration and beam current.
 5972 5  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity. Notes from logbook: run 5972 ended with only 935 thousand events because they noticed that they did not start a new trigger configuration and beam current.
-
-RUN: 5973
-5973 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk, DAQ error. BSA irregularities.
-
-RUN: 5974
-5974 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk, DAQ error. BSA irregularities.
 
 RUN: 5975
 5975 0  GOLDEN

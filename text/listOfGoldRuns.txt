@@ -362,16 +362,12 @@
  5675  defect
  5676  defect
  5677  defect
- 5678  defect
  5679  defect
  5680  defect
  5681  gold (and silver)
  5682  gold (and silver)
  5683  defect
  5684  defect
- 5685  defect
- 5686  defect
- 5688  defect
  5689  defect
  5690  defect
  5691  defect
@@ -410,7 +406,6 @@
  5735  defect
  5736  gold (and silver)
  5739  gold (and silver)
- 5741  defect
  5742  defect
  5743  defect
  5745  defect
@@ -423,8 +418,6 @@
  5759  defect
  5760  defect
  5761  defect
- 5762  defect
- 5763  defect
  5765  defect
  5766  defect
  5767  defect
@@ -463,9 +456,6 @@
  5815  gold (and silver)
  5816  defect
  5817  defect
- 5818  defect
- 5819  defect
- 5820  defect
  5821  defect
  5822  defect
  5823  defect
@@ -481,9 +471,6 @@
  5836  gold (and silver)
  5838  defect
  5839  gold (and silver)
- 5841  defect
- 5842  defect
- 5843  defect
  5844  defect
  5845  defect
  5846  defect
@@ -500,10 +487,7 @@
  5857  defect
  5858  defect
  5859  defect
- 5860  defect
- 5861  defect
  5862  defect
- 5863  defect
  5864  defect
  5865  defect
  5866  defect
@@ -571,7 +555,6 @@
  5941  gold (and silver)
  5942  defect
  5943  defect
- 5944  defect
  5949  gold (and silver)
  5950  gold (and silver)
  5951  gold (and silver)
@@ -593,8 +576,6 @@
  5970  defect
  5971  gold (and silver)
  5972  defect
- 5973  defect
- 5974  defect
  5975  gold (and silver)
  5976  defect
  5977  defect

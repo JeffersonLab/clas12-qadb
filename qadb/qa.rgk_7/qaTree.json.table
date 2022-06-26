@@ -51,9 +51,6 @@ RUN: 5677
 5677 75  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
 5677 80  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
 
-RUN: 5678
-5678 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs. Junk.
-
 RUN: 5679
 5679 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
 5679 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
@@ -282,15 +279,6 @@ RUN: 5684
 5684 170  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
 5684 175  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
 5684 180  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-
-RUN: 5685
-5685 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk
-
-RUN: 5686
-5686 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk
-
-RUN: 5688
-5688 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk
 
 RUN: 5689
 5689 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Detector test, wrong helicity sign
@@ -6286,9 +6274,6 @@ RUN: 5739
 5739 1035  GOLDEN
 5739 1040  GOLDEN
 
-RUN: 5741
-5741 0  1-TerminalOutlier[1]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-
 RUN: 5742
 5742 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
 5742 5  GOLDEN
@@ -7918,12 +7903,6 @@ RUN: 5761
 5761 210  GOLDEN
 5761 215  GOLDEN
 5761 220  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
-
-RUN: 5762
-5762 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: only one file (DAQ error)
-
-RUN: 5763
-5763 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: only one file (DAQ error)
 
 RUN: 5765
 5765 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]
@@ -12095,15 +12074,6 @@ RUN: 5817
 5817 465  2-MarginalOutlier[4]
 5817 470  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
 
-RUN: 5818
-5818 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
-
-RUN: 5819
-5819 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
-
-RUN: 5820
-5820 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
-
 RUN: 5821
 5821 0  1-TerminalOutlier[1, 3, 4, 5, 6]  2-MarginalOutlier[2]  7-TerminalOutlierFT[1]
 5821 5  GOLDEN
@@ -13047,15 +13017,6 @@ RUN: 5839
 5839 35  GOLDEN
 5839 40  GOLDEN
 5839 45  GOLDEN
-
-RUN: 5841
-5841 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
-
-RUN: 5842
-5842 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
-
-RUN: 5843
-5843 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
 
 RUN: 5844
 5844 0  GOLDEN
@@ -16570,12 +16531,6 @@ RUN: 5859
 5859 45  GOLDEN
 5859 50  GOLDEN
 
-RUN: 5860
-5860 0  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
-
-RUN: 5861
-5861 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
-
 RUN: 5862
 5862 0  1-TerminalOutlier[2]  5-Misc[2]  7-TerminalOutlierFT[1]  :: Junk, only 27 files
 5862 5  0-TotalOutlier[2]  5-Misc[2]  6-TotalOutlierFT[1]  :: Junk, only 27 files
@@ -16583,9 +16538,6 @@ RUN: 5862
 5862 15  0-TotalOutlier[2]  5-Misc[2]  6-TotalOutlierFT[1]  :: Junk, only 27 files
 5862 20  0-TotalOutlier[2]  5-Misc[2]  6-TotalOutlierFT[1]  :: Junk, only 27 files
 5862 25  1-TerminalOutlier[2]  5-Misc[2]  8-MarginalOutlierFT[1]  :: Junk, only 27 files
-
-RUN: 5863
-5863 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
 
 RUN: 5864
 5864 0  GOLDEN
