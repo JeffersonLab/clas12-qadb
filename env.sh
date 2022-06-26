@@ -1,6 +1,10 @@
 #!/bin/bash
 
-export QADB=$(dirname $(realpath $0))
+if [ -z "${BASH_SOURCE[0]}" ]; then
+  export QADB=$(dirname $(realpath $0))
+else
+  export QADB=$(dirname $(realpath ${BASH_SOURCE[0]}))
+fi
 
 JYPATH="${JYPATH}:${QADB}/src/"
 export JYPATH=$(echo $JYPATH | sed 's/^://')

@@ -1,0 +1,41 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+
+# check consistency between Groovy and C++ APIs
+  groovy-vs-cpp:
+    runs-on: [ ubuntu-latest ]
+    strategy:
+      fail-fast: false
+      matrix:
+        dataset: [ rga_inbending, rga_outbending, rga_spring19, rgb_fall, rgb_spring, rgb_winter, rgk_6, rgk_7 ]
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: setup-groovy
+        run: |
+          sudo apt install groovy
+      - name: env
+        run: |
+          source env.sh
+          echo "QADB=${QADB}" >> $GITHUB_ENV
+          echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
+      - name: compile-cpp-tests
+        run: |
+          cd srcC/tests
+          make
+      - name: test-diff-groovy-cpp
+        run: |
+          tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
