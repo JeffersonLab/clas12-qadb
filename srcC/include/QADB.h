@@ -9,6 +9,7 @@
 #include <dirent.h>
 #include <map>
 #include <vector>
+#include <set>
 #include <algorithm>
 
 namespace QA {
@@ -154,7 +155,7 @@ namespace QA {
       int asymMask;
       int mask;
 
-      std::vector<int> allowForOkForAsymmetry;
+      std::set<int> allowForOkForAsymmetry;
   };
 
 
@@ -233,23 +234,23 @@ namespace QA {
     asymMask += 0x1 << Bit("SectorLoss");
 
     // list of runs allowed by OkForAsymmetry, even though they have Misc defect
-    allowForOkForAsymmetry.push_back(5128);
-    allowForOkForAsymmetry.push_back(5129);
-    allowForOkForAsymmetry.push_back(5130);
-    allowForOkForAsymmetry.push_back(5158);
-    allowForOkForAsymmetry.push_back(5159);
-    allowForOkForAsymmetry.push_back(5160);
-    allowForOkForAsymmetry.push_back(5163);
-    allowForOkForAsymmetry.push_back(5165);
-    allowForOkForAsymmetry.push_back(5166);
-    allowForOkForAsymmetry.push_back(5167);
-    allowForOkForAsymmetry.push_back(5168);
-    allowForOkForAsymmetry.push_back(5169);
-    allowForOkForAsymmetry.push_back(5180);
-    allowForOkForAsymmetry.push_back(5181);
-    allowForOkForAsymmetry.push_back(5182);
-    allowForOkForAsymmetry.push_back(5183);
-    allowForOkForAsymmetry.push_back(5567);
+    allowForOkForAsymmetry.insert(5128);
+    allowForOkForAsymmetry.insert(5129);
+    allowForOkForAsymmetry.insert(5130);
+    allowForOkForAsymmetry.insert(5158);
+    allowForOkForAsymmetry.insert(5159);
+    allowForOkForAsymmetry.insert(5160);
+    allowForOkForAsymmetry.insert(5163);
+    allowForOkForAsymmetry.insert(5165);
+    allowForOkForAsymmetry.insert(5166);
+    allowForOkForAsymmetry.insert(5167);
+    allowForOkForAsymmetry.insert(5168);
+    allowForOkForAsymmetry.insert(5169);
+    allowForOkForAsymmetry.insert(5180);
+    allowForOkForAsymmetry.insert(5181);
+    allowForOkForAsymmetry.insert(5182);
+    allowForOkForAsymmetry.insert(5183);
+    allowForOkForAsymmetry.insert(5567);
 
 
     // initialize local vars
@@ -328,7 +329,7 @@ namespace QA {
       // check if this is a run on the list of runs with a large fraction of
       // events with undefined helicity; if so, accept this run, since none of
       // these files are marked with `Misc` for any other reasons
-      if(std::find(allowForOkForAsymmetry.begin(), allowForOkForAsymmetry.end(), runnum_) != allowForOkForAsymmetry.end())
+      if(allowForOkForAsymmetry.find(runnum_) != allowForOkForAsymmetry.end())
         return true;
 
       // check if this run had an FADC failure; there is no indication spin
