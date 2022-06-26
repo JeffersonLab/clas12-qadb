@@ -479,7 +479,6 @@
  5838  defect
  5839  gold (and silver)
  5841  defect
- 5842  defect
  5843  defect
  5844  defect
  5845  defect
