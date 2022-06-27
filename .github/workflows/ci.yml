@@ -39,12 +39,17 @@ jobs:
       - name: test_diff_groovy_cpp
         run: |
           tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
+      - name: concatenate_artifacts
+        run: |
+          mkdir -p artifacts
+          cat tmp/cpp*.out > artifacts/cpp.${{matrix.dataset}}.txt
+          cat tmp/groovy*.out > artifacts/groovy.${{matrix.dataset}}.txt
       - name: upload_artifacts
         uses: actions/upload-artifact@v2
         with:
           name: groovy_vs_cpp--${{matrix.dataset}}
           retention-days: 1
-          path: tmp/*
+          path: artifacts/*
 
 # collect artifacts
   collect:
@@ -58,8 +63,14 @@ jobs:
       - name: download
         uses: actions/download-artifact@v2
         with:
-          path: artifacts
-      - name: tree_artifacts
+          path: artifacts_all
+      - name: tree_artifacts_all
+        run: tree artifacts_all
+      - name: organize
+        run: |
+          mkdir -p artifacts
+          mv -v artifacts_all/groovy_vs_cpp*/*.txt artifacts/
+      - name: tree_artifacts_final
         run: tree artifacts
       - name: upload
         uses: actions/upload-artifact@v2
