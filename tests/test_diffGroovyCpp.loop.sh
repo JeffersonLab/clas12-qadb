@@ -26,6 +26,7 @@ begin TEST:
 
 grep -E '^RUN: ' ${QADB}/qadb/qa.${dataset}/qaTree.json.table |\
   awk '{print $2}' |\
+  head -n3 |\
   while read run; do
     ${QADB}/tests/test_diffGroovyCpp.sh DumpQADB $run
   done
