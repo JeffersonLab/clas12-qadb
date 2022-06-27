@@ -13,7 +13,7 @@ defaults:
 jobs:
 
 # check consistency between Groovy and C++ APIs
-  groovy-vs-cpp:
+  groovy_vs_cpp:
     runs-on: [ ubuntu-latest ]
     strategy:
       fail-fast: false
@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: recursive
-      - name: setup-groovy
+      - name: setup_groovy
         run: |
           sudo apt install groovy
       - name: env
@@ -32,10 +32,38 @@ jobs:
           source env.sh
           echo "QADB=${QADB}" >> $GITHUB_ENV
           echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
-      - name: compile-cpp-tests
+      - name: compile_cpp_tests
         run: |
           cd srcC/tests
           make
-      - name: test-diff-groovy-cpp
+      - name: test_diff_groovy_cpp
         run: |
           tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
+      - name: upload_artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: groovy_vs_cpp--${{matrix.dataset}}
+          retention-days: 1
+          path: tmp/*
+
+# collect artifacts
+  collect:
+    if: ${{always()}}
+    needs: 
+      - groovy_vs_cpp
+    runs-on: [ ubuntu-latest ]
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: download
+        uses: actions/download-artifact@v2
+        with:
+          path: artifacts
+      - name: tree_artifacts
+        run: tree artifacts
+      - name: upload
+        uses: actions/upload-artifact@v2
+        with:
+          retention-days: 14
+          name: _artifacts
+          path: artifacts
