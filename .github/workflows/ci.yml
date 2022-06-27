@@ -59,7 +59,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           path: artifacts
-      - name: tree-artifacts
+      - name: tree_artifacts
         run: tree artifacts
       - name: upload
         uses: actions/upload-artifact@v2
