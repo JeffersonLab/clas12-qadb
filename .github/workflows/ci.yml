@@ -39,16 +39,12 @@ jobs:
       - name: test_diff_groovy_cpp
         run: |
           tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
-      - name: collect_artifacts
-        run: |
-          mkdir -p groovy_vs_cpp/${{matrix.dataset}}
-          mv tmp/* groovy_vs_cpp/${{matrix.dataset}}
       - name: upload_artifacts
         uses: actions/upload-artifact@v2
         with:
           name: groovy_vs_cpp--${{matrix.dataset}}
           retention-days: 1
-          path: groovy_vs_cpp
+          path: tmp/*
 
 # collect artifacts
   collect:
