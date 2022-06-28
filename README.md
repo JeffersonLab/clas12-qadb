@@ -63,14 +63,8 @@ View the online QA timelines at the following links:
       * for now we use JSON out of convenience, although it's not a proper
         database format; future development plans include considering more
         efficient formats, such as SQLlite
-  * run `bin/printGoldenFiles.sh` to print a list of all golden files (that is,
-    files with no defects)
-    * note: first set environment variables by running `source env.sh` (in
-      bash, or in tcsh use `source env.csh`)
-    * for convenience, this list is stored as `text/listOfGoldFiles.txt`
-  * alternatively, run `bin/printGoldenRuns.sh` to print a list of golden runs
-    * for convenience, this list is stored as `text/listOfGoldRuns.txt`
-    * each run is classified as one of the following:
+  * there are also some text files stored in `text/`:
+    * `text/listOfGoldenRuns.txt`: list of runs, each classified as one of the following:
       * `gold`: all files have no defects. Note that this is **very strict**,
         so not many runs are `gold`, since most runs have at least one file
         with a defect; in practice it is better to apply QA cuts per file,
@@ -79,7 +73,10 @@ View the online QA timelines at the following links:
         an outlier); note that `gold` runs are, by definition, also `silver`.
         This is also **very strict**: so far, only about half the runs are
         `silver`
-      * defect: not `gold` or `silver`
+      * `defect`: not `gold` or `silver`
+    * `text/listOfGoldenFiles.txt`: list of files with no defects
+    * `text/summary.txt`: summary table, where for each file the QA criteria result
+      (`Golden`, `OkForAsymmetry`, etc.) is provided
   * it is also possible to produce `latex` tables; see
     `util/makeLatexTables.sh` and `util/makeLatexTables2.sh`
 
@@ -218,10 +215,7 @@ Documentation for QADB maintenance and revision
   * `mkdir qadb/qa.${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
   * run `bin/makeTables.sh`
-  * run `bin/printGoldenRuns.sh > text/listOfGoldRuns.txt`, then remove any
-    extraneous output in `text/listOfGoldRuns.txt`, such as the COATJAVA
-    version; repeat the same procedure for
-    `bin/printGoldenFiles.sh > text/listOfGoldFiles.txt`
+  * run `bin/makeTextFiles.sh` (it will text some time)
   * update customized QA criteria sets, such as `OkForAsymmetry`
   * add any new dataset to the CI tests: `.github/workflows/ci.yml`
   * use `git status` and `git diff` to review changes, then add and commit to
