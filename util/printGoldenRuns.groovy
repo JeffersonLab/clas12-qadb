@@ -9,6 +9,10 @@ QADB qa = new QADB()
 def gold,silver
 def defect
 
+// open output file writer
+def outFileObj = new File(System.getenv('QADB')+"/text/listOfGoldenRuns.txt")
+def outFile = outFileObj.newWriter(false)
+
 // silver masks
 def terminalBitOnly = 0x1 << qa.Bit('TerminalOutlier')
 def terminalAndMarginalOnly = 
@@ -35,8 +39,10 @@ qa.getQaTree().sort{ a,b -> a.key.toInteger() <=> b.key.toInteger() }.each{
     }
   } 
 
-  print " $runnum "
-  if(gold) print " gold (and silver)\n"
-  else if(silver) print " silver\n"
-  else print " defect\n"
+  outFile << " $runnum "
+  if(gold) outFile << " gold (and silver)\n"
+  else if(silver) outFile << " silver\n"
+  else outFile << " defect\n"
 } // end run loop
+
+outFile.close()
