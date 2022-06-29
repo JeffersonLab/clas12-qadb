@@ -83,6 +83,9 @@ namespace QA {
       inline int GetDefect(int sector=0);
       // translate defect name to defect bit
       inline int Bit(const char * defectName);
+      // --- access the full tree
+      inline rapidjson::Document * GetQaTree() { return &qaTree; };
+      inline rapidjson::Document * GetChargeTree() { return &chargeTree; };
 
 
       //.................................................................

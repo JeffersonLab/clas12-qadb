@@ -215,7 +215,7 @@ Documentation for QADB maintenance and revision
   * `mkdir qadb/qa.${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
   * run `bin/makeTables.sh`
-  * run `bin/makeTextFiles.sh` (it will text some time)
+  * run `bin/makeTextFiles.sh`
   * update customized QA criteria sets, such as `OkForAsymmetry`
   * add any new dataset to the CI tests: `.github/workflows/ci.yml`
   * use `git status` and `git diff` to review changes, then add and commit to

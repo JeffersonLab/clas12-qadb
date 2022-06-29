@@ -3,11 +3,12 @@
 if [ -z "$QADB" ]; then
   echo "ERROR: you must source env.sh first"; exit
 fi
+pushd $QADB
 
 # run groovy script $1, filter out header lines, redirect to output file $2
 function exe() {
-  printf "\n\nEXECUTING $1 ...\n\n"
-  run-groovy $1
+  printf "\n\nEXECUTING $* ...\n\n"
+  $*
   printf "\nPRODUCED $(ls -t text/*|head -n1)\n\n"
 }
 
@@ -17,10 +18,18 @@ function col() {
   mv $1{.tmp,}
 }
 
+# build
+pushd util
+make clean
+make
+popd
+
 # execution
-exe util/printGoldenRuns.groovy
-exe util/printGoldenFiles.groovy
-exe util/printSummary.groovy
+exe run-groovy util/printGoldenRuns.groovy
+exe run-groovy util/printGoldenFiles.groovy
+exe util/printSummary.exe
 
 # re-format
 col text/summary.txt
+
+popd
