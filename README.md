@@ -10,7 +10,6 @@ CLAS12 experiment at Jefferson Lab
 1. [Data storage](#storage)
 1. [Faraday Cup Charge Access](#charge)
 1. [Database Management](#dev)
-1. [Change Log](#changes)
 1. [Contributions](#contributions)
 
 <a name="info"></a>
@@ -233,35 +232,6 @@ Documentation for QADB maintenance and revision
   * Documentation:
     * bits table in `README.md`
 
-***
-
-<a name="changes"></a>
-# Change Log
-
-### v1.2.0 - August 2021
-* add FT defect bits; currently only the RGK 7.5 GeV period (`qadb/rgk_7`)
-  includes the new FT QA results
-
-### v1.1.0 - April 2021
-* C++ `QADB` class is now in the namespace `QA`
-  * this is part of a fix for multiple definitions errors from `QADB` functions
-
-### v1.0.0 - December 2020
-* `qa.*/` directories have been moved to the subdirectory `qadb/`
-  `qadb/qa.inbending1` and `qadb/qa.inbending2` have been merged and 
-  renamed to `qadb/qa.rga_inbending`; furthermore, `qadb/qa.outbending`
-  has been renamed to `qadb/qa.rga_outbending`
-* `data_table.dat` files replaced by `chargeTree.json` files
-* FC charge is now accessible in both Groovy and C++ classes; see examples
-* C++ and Groovy classes have been updated and synchronized
-  * several new methods added, especially for charge access
-  * the methods `hasDefect` and/or `hasDefectName` have been changed such
-    that:
-    * `hasDefect` takes a defect *name* as an argument
-    * `hasDefectBit` takes a defect *bit number* as an argument
-    * `hasDefectName` is no longer used; use `hasDefect` instead
-  * C++ class no longer requires the JSON files be merged with a Groovy
-    script; the class only requires the environment variable `$QADB`
 
 <a name="contributions"></a>
 # Contributions
