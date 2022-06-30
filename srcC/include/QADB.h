@@ -234,6 +234,9 @@ namespace QA {
     asymMask += 0x1 << Bit("SectorLoss");
 
     // list of runs allowed by OkForAsymmetry, even though they have Misc defect
+    allowForOkForAsymmetry.insert(5046);
+    allowForOkForAsymmetry.insert(5047);
+    allowForOkForAsymmetry.insert(5051);
     allowForOkForAsymmetry.insert(5128);
     allowForOkForAsymmetry.insert(5129);
     allowForOkForAsymmetry.insert(5130);
@@ -250,7 +253,17 @@ namespace QA {
     allowForOkForAsymmetry.insert(5181);
     allowForOkForAsymmetry.insert(5182);
     allowForOkForAsymmetry.insert(5183);
+    allowForOkForAsymmetry.insert(5400);
+    allowForOkForAsymmetry.insert(5448);
+    allowForOkForAsymmetry.insert(5495);
+    allowForOkForAsymmetry.insert(5496);
+    allowForOkForAsymmetry.insert(5505);
     allowForOkForAsymmetry.insert(5567);
+    allowForOkForAsymmetry.insert(5610);
+    allowForOkForAsymmetry.insert(5617);
+    allowForOkForAsymmetry.insert(5621);
+    allowForOkForAsymmetry.insert(5623);
+
 
 
     // initialize local vars

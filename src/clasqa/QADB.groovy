@@ -62,6 +62,9 @@ class QADB {
 
     // list of runs allowed by OkForAsymmetry, even though they have Misc defect
     allowForOkForAsymmetry = [
+      5046,
+      5047,
+      5051,
       5128,
       5129,
       5130,
@@ -78,7 +81,16 @@ class QADB {
       5181,
       5182,
       5183,
-      5567
+      5400,
+      5448,
+      5495,
+      5496,
+      5505,
+      5567,
+      5610,
+      5617,
+      5621,
+      5623,
     ]
 
     // initialize local vars
