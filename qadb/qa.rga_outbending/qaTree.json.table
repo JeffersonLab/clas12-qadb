@@ -3678,265 +3678,265 @@ RUN: 5447
 5447 1145  2-MarginalOutlier[2, 6]
 
 RUN: 5448
-5448 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
-5448 5  GOLDEN
-5448 10  GOLDEN
-5448 15  GOLDEN
-5448 20  GOLDEN
-5448 25  GOLDEN
-5448 30  GOLDEN
-5448 35  GOLDEN
-5448 40  GOLDEN
-5448 45  GOLDEN
-5448 50  GOLDEN
-5448 55  GOLDEN
-5448 60  GOLDEN
-5448 65  GOLDEN
-5448 70  GOLDEN
-5448 75  GOLDEN
-5448 80  GOLDEN
-5448 85  GOLDEN
-5448 90  GOLDEN
-5448 95  GOLDEN
-5448 100  GOLDEN
-5448 105  GOLDEN
-5448 110  GOLDEN
-5448 115  GOLDEN
-5448 120  GOLDEN
-5448 125  GOLDEN
-5448 130  GOLDEN
-5448 135  GOLDEN
-5448 140  GOLDEN
-5448 145  GOLDEN
-5448 150  GOLDEN
-5448 155  GOLDEN
-5448 160  GOLDEN
-5448 165  GOLDEN
-5448 170  GOLDEN
-5448 175  GOLDEN
-5448 180  GOLDEN
-5448 185  GOLDEN
-5448 190  GOLDEN
-5448 195  GOLDEN
-5448 200  GOLDEN
-5448 205  GOLDEN
-5448 210  GOLDEN
-5448 215  GOLDEN
-5448 220  GOLDEN
-5448 225  GOLDEN
-5448 230  GOLDEN
-5448 235  GOLDEN
-5448 240  GOLDEN
-5448 245  GOLDEN
-5448 250  GOLDEN
-5448 255  GOLDEN
-5448 260  GOLDEN
-5448 265  GOLDEN
-5448 270  GOLDEN
-5448 275  GOLDEN
-5448 280  GOLDEN
-5448 285  GOLDEN
-5448 290  GOLDEN
-5448 295  GOLDEN
-5448 300  GOLDEN
-5448 305  GOLDEN
-5448 310  GOLDEN
-5448 315  GOLDEN
-5448 320  GOLDEN
-5448 325  GOLDEN
-5448 330  GOLDEN
-5448 335  GOLDEN
-5448 340  GOLDEN
-5448 345  GOLDEN
-5448 350  GOLDEN
-5448 355  GOLDEN
-5448 360  GOLDEN
-5448 365  GOLDEN
-5448 370  GOLDEN
-5448 375  GOLDEN
-5448 380  GOLDEN
-5448 385  GOLDEN
-5448 390  GOLDEN
-5448 395  GOLDEN
-5448 400  GOLDEN
-5448 405  GOLDEN
-5448 410  GOLDEN
-5448 415  GOLDEN
-5448 420  GOLDEN
-5448 425  GOLDEN
-5448 430  GOLDEN
-5448 435  GOLDEN
-5448 440  GOLDEN
-5448 445  GOLDEN
-5448 450  GOLDEN
-5448 455  GOLDEN
-5448 460  2-MarginalOutlier[1, 2, 3, 4, 5, 6]
-5448 465  GOLDEN
-5448 470  GOLDEN
-5448 475  GOLDEN
-5448 480  GOLDEN
-5448 485  GOLDEN
-5448 490  GOLDEN
-5448 495  GOLDEN
-5448 500  GOLDEN
-5448 505  GOLDEN
-5448 510  GOLDEN
-5448 515  GOLDEN
-5448 520  GOLDEN
-5448 525  GOLDEN
-5448 530  GOLDEN
-5448 535  GOLDEN
-5448 540  GOLDEN
-5448 545  GOLDEN
-5448 550  GOLDEN
-5448 555  GOLDEN
-5448 560  GOLDEN
-5448 565  GOLDEN
-5448 570  GOLDEN
-5448 575  GOLDEN
-5448 580  GOLDEN
-5448 585  GOLDEN
-5448 590  GOLDEN
-5448 595  GOLDEN
-5448 600  GOLDEN
-5448 605  GOLDEN
-5448 610  GOLDEN
-5448 615  GOLDEN
-5448 620  GOLDEN
-5448 625  GOLDEN
-5448 630  GOLDEN
-5448 635  GOLDEN
-5448 640  GOLDEN
-5448 645  GOLDEN
-5448 650  GOLDEN
-5448 655  GOLDEN
-5448 660  GOLDEN
-5448 665  GOLDEN
-5448 670  GOLDEN
-5448 675  GOLDEN
-5448 680  GOLDEN
-5448 685  GOLDEN
-5448 690  GOLDEN
-5448 695  GOLDEN
-5448 700  GOLDEN
-5448 705  GOLDEN
-5448 710  GOLDEN
-5448 715  GOLDEN
-5448 720  GOLDEN
-5448 725  GOLDEN
-5448 730  GOLDEN
-5448 735  GOLDEN
-5448 740  GOLDEN
-5448 745  GOLDEN
-5448 750  GOLDEN
-5448 755  GOLDEN
-5448 760  GOLDEN
-5448 765  GOLDEN
-5448 770  GOLDEN
-5448 775  GOLDEN
-5448 780  GOLDEN
-5448 785  GOLDEN
-5448 790  GOLDEN
-5448 795  GOLDEN
-5448 800  GOLDEN
-5448 805  GOLDEN
-5448 810  GOLDEN
-5448 815  GOLDEN
-5448 820  GOLDEN
-5448 825  GOLDEN
-5448 830  GOLDEN
-5448 835  GOLDEN
-5448 840  GOLDEN
-5448 845  GOLDEN
-5448 850  GOLDEN
-5448 855  GOLDEN
-5448 860  GOLDEN
-5448 865  GOLDEN
-5448 870  GOLDEN
-5448 875  GOLDEN
-5448 880  GOLDEN
-5448 885  GOLDEN
-5448 890  GOLDEN
-5448 895  GOLDEN
-5448 900  GOLDEN
-5448 905  GOLDEN
-5448 910  GOLDEN
-5448 915  GOLDEN
-5448 920  GOLDEN
-5448 925  GOLDEN
-5448 930  GOLDEN
-5448 935  GOLDEN
-5448 940  GOLDEN
-5448 945  GOLDEN
-5448 950  GOLDEN
-5448 955  GOLDEN
-5448 960  GOLDEN
-5448 965  GOLDEN
-5448 970  GOLDEN
-5448 975  GOLDEN
-5448 980  GOLDEN
-5448 985  GOLDEN
-5448 990  GOLDEN
-5448 995  GOLDEN
-5448 1000  GOLDEN
-5448 1005  GOLDEN
-5448 1010  GOLDEN
-5448 1015  GOLDEN
-5448 1020  GOLDEN
-5448 1025  GOLDEN
-5448 1030  GOLDEN
-5448 1035  GOLDEN
-5448 1040  GOLDEN
-5448 1045  GOLDEN
-5448 1050  GOLDEN
-5448 1055  GOLDEN
-5448 1060  GOLDEN
-5448 1065  GOLDEN
-5448 1070  GOLDEN
-5448 1075  GOLDEN
-5448 1080  GOLDEN
-5448 1085  GOLDEN
-5448 1090  GOLDEN
-5448 1095  GOLDEN
-5448 1100  GOLDEN
-5448 1105  GOLDEN
-5448 1110  GOLDEN
-5448 1115  GOLDEN
-5448 1120  GOLDEN
-5448 1125  GOLDEN
-5448 1130  GOLDEN
-5448 1135  GOLDEN
-5448 1140  GOLDEN
-5448 1145  GOLDEN
-5448 1150  GOLDEN
-5448 1155  GOLDEN
-5448 1160  GOLDEN
-5448 1165  GOLDEN
-5448 1170  GOLDEN
-5448 1175  GOLDEN
-5448 1180  GOLDEN
-5448 1185  GOLDEN
-5448 1190  GOLDEN
-5448 1195  GOLDEN
-5448 1200  GOLDEN
-5448 1205  GOLDEN
-5448 1210  GOLDEN
-5448 1215  GOLDEN
-5448 1220  GOLDEN
-5448 1225  GOLDEN
-5448 1230  GOLDEN
-5448 1235  GOLDEN
-5448 1240  GOLDEN
-5448 1245  GOLDEN
-5448 1250  GOLDEN
-5448 1255  GOLDEN
-5448 1260  GOLDEN
-5448 1265  GOLDEN
-5448 1270  GOLDEN
-5448 1275  GOLDEN
-5448 1280  GOLDEN
-5448 1285  GOLDEN
-5448 1290  1-TerminalOutlier[6]  2-MarginalOutlier[1, 2, 3, 4, 5]
+5448 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 5  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 10  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 15  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 20  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 25  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 30  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 35  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 40  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 45  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 50  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 55  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 60  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 65  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 70  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 75  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 80  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 85  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 90  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 95  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 100  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 105  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 110  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 115  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 120  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 125  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 130  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 135  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 140  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 145  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 150  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 155  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 160  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 165  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 170  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 175  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 180  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 185  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 190  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 195  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 200  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 205  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 210  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 215  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 220  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 225  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 230  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 235  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 240  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 245  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 250  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 255  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 260  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 265  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 270  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 275  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 280  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 285  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 290  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 295  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 300  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 305  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 310  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 315  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 320  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 325  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 330  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 335  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 340  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 345  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 350  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 355  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 360  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 365  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 370  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 375  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 380  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 385  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 390  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 395  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 400  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 405  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 410  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 415  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 420  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 425  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 430  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 435  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 440  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 445  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 450  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 455  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 460  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 465  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 470  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 475  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 480  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 485  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 490  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 495  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 500  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 505  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 510  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 515  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 520  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 525  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 530  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 535  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 540  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 545  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 550  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 555  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 560  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 565  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 570  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 575  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 580  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 585  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 590  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 595  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 600  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 605  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 610  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 615  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 620  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 625  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 630  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 635  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 640  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 645  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 650  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 655  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 660  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 665  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 670  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 675  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 680  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 685  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 690  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 695  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 700  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 705  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 710  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 715  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 720  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 725  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 730  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 735  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 740  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 745  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 750  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 755  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 760  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 765  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 770  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 775  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 780  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 785  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 790  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 795  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 800  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 805  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 810  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 815  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 820  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 825  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 830  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 835  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 840  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 845  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 850  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 855  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 860  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 865  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 870  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 875  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 880  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 885  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 890  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 895  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 900  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 905  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 910  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 915  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 920  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 925  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 930  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 935  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 940  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 945  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 950  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 955  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 960  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 965  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 970  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 975  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 980  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 985  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 990  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 995  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1000  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1005  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1010  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1015  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1020  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1025  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1030  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1035  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1040  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1045  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1050  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1055  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1060  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1065  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1070  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1075  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1080  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1085  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1090  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1095  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1100  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1105  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1110  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1115  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1120  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1125  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1130  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1135  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1140  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1145  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1150  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1155  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1160  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1165  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1170  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1175  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1180  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1185  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1190  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1195  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1200  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1205  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1210  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1215  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1220  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1225  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1230  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1235  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1240  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1245  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1250  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1255  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1260  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1265  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1270  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1275  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1280  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1285  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
+5448 1290  1-TerminalOutlier[6]  2-MarginalOutlier[1, 2, 3, 4, 5]  5-Misc[1, 2, 3, 4, 5, 6]  :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however
 
 RUN: 5449
 5449 0  2-MarginalOutlier[1, 2, 4, 5, 6]
@@ -9583,53 +9583,53 @@ RUN: 5487
 5487 835  2-MarginalOutlier[1, 3, 4, 6]
 
 RUN: 5495
-5495 0  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 5  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 10  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 15  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 20  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 25  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 30  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 35  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 40  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 45  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 50  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 55  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 60  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 65  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 70  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 75  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 80  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 85  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 90  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 95  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 100  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 105  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 110  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 115  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 120  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 125  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 130  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 135  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 140  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 145  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 150  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 155  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 160  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 165  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 170  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 175  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 180  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 185  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 190  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 195  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 200  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
-5495 205  GOLDEN  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 0  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 5  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 10  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 15  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 20  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 25  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 30  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 35  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 40  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 45  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 50  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 55  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 60  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 65  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 70  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 75  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 80  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 85  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 90  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 95  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 100  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 105  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 110  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 115  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 120  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 125  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 130  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 135  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 140  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 145  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 150  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 155  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 160  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 165  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 170  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 175  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 180  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 185  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 190  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 195  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 200  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
+5495 205  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective
 
 RUN: 5496
-5496 0  GOLDEN  :: BST occupancy plots still empty; very short run; looks ok from QA perspective
-5496 5  GOLDEN  :: BST occupancy plots still empty; very short run; looks ok from QA perspective
-5496 10  GOLDEN  :: BST occupancy plots still empty; very short run; looks ok from QA perspective
+5496 0  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots still empty; very short run; looks ok from QA perspective
+5496 5  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots still empty; very short run; looks ok from QA perspective
+5496 10  5-Misc[1, 2, 3, 4, 5, 6]  :: BST occupancy plots still empty; very short run; looks ok from QA perspective
 
 RUN: 5497
 5497 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
@@ -10449,134 +10449,134 @@ RUN: 5504
 5504 80  GOLDEN
 
 RUN: 5505
-5505 0  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 5  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 10  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 15  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 20  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 25  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 30  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 35  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 40  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 45  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 50  2-MarginalOutlier[2]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 55  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 60  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 65  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 70  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 75  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 80  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 85  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 90  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 95  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 100  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 105  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 110  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 115  2-MarginalOutlier[2, 3]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 120  2-MarginalOutlier[2]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 125  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 130  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 135  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 140  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 145  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 150  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 155  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 160  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 165  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 170  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 175  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 180  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 185  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 190  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 195  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 200  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 205  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 210  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 215  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 220  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 225  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 230  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 235  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 240  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 245  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 250  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 255  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 260  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 265  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 270  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 275  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 280  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 285  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 290  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 295  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 300  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 305  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 310  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 315  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 320  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 325  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 330  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 335  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 340  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 345  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 350  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 355  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 360  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 365  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 370  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 375  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 380  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 385  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 390  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 395  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 400  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 405  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 410  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 415  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 420  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 425  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 430  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 435  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 440  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 445  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 450  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 455  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 460  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 465  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 470  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 475  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 480  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 485  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 490  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 495  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 500  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 505  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 510  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 515  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 520  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 525  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 530  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 535  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 540  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 545  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 550  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 555  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 560  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 565  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 570  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 575  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 580  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 585  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 590  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 595  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 600  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 605  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 610  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 615  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 620  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 625  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 630  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
-5505 635  GOLDEN  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 0  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 5  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 10  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 15  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 20  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 25  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 30  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 35  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 40  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 45  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 50  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 55  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 60  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 65  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 70  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 75  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 80  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 85  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 90  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 95  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 100  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 105  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 110  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 115  2-MarginalOutlier[2, 3]  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 120  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 125  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 130  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 135  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 140  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 145  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 150  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 155  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 160  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 165  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 170  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 175  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 180  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 185  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 190  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 195  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 200  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 205  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 210  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 215  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 220  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 225  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 230  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 235  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 240  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 245  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 250  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 255  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 260  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 265  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 270  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 275  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 280  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 285  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 290  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 295  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 300  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 305  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 310  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 315  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 320  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 325  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 330  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 335  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 340  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 345  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 350  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 355  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 360  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 365  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 370  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 375  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 380  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 385  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 390  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 395  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 400  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 405  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 410  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 415  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 420  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 425  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 430  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 435  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 440  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 445  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 450  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 455  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 460  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 465  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 470  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 475  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 480  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 485  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 490  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 495  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 500  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 505  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 510  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 515  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 520  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 525  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 530  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 535  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 540  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 545  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 550  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 555  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 560  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 565  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 570  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 575  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 580  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 585  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 590  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 595  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 600  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 605  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 610  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 615  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 620  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 625  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 630  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 635  5-Misc[1, 2, 3, 4, 5, 6]  :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
 
 RUN: 5507
 5507 0  GOLDEN
@@ -23637,24 +23637,24 @@ RUN: 5609
 5609 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: DAQ test with no beam
 
 RUN: 5610
-5610 0  1-TerminalOutlier[1, 5, 6]  2-MarginalOutlier[2, 3, 4]
-5610 5  GOLDEN
-5610 10  GOLDEN
-5610 15  GOLDEN
-5610 20  GOLDEN
-5610 25  2-MarginalOutlier[2]
-5610 30  GOLDEN
-5610 35  GOLDEN
-5610 40  GOLDEN
-5610 45  GOLDEN
-5610 50  GOLDEN
-5610 55  GOLDEN
-5610 60  GOLDEN
-5610 65  GOLDEN
-5610 70  GOLDEN
-5610 75  GOLDEN
-5610 80  GOLDEN
-5610 85  GOLDEN
+5610 0  1-TerminalOutlier[1, 5, 6]  2-MarginalOutlier[2, 3, 4]  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 5  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 10  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 15  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 20  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 25  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 30  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 35  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 40  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 45  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 50  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 55  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 60  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 65  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 70  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 75  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 80  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5610 85  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
 
 RUN: 5611
 5611 0  GOLDEN
@@ -25117,13 +25117,13 @@ RUN: 5616
 5616 1270  3-SectorLoss[5]
 
 RUN: 5617
-5617 0  GOLDEN
-5617 5  GOLDEN
-5617 10  GOLDEN
-5617 15  GOLDEN
-5617 20  GOLDEN
-5617 25  GOLDEN
-5617 30  GOLDEN
+5617 0  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5617 5  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5617 10  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5617 15  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5617 20  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5617 25  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
+5617 30  5-Misc[1, 2, 3, 4, 5, 6]  :: missing SVT strip
 
 RUN: 5618
 5618 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
@@ -25311,106 +25311,106 @@ RUN: 5619
 5619 740  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
 
 RUN: 5620
-5620 0  1-TerminalOutlier[1, 2, 3]  2-MarginalOutlier[4, 5, 6]  :: beam current ramping
-5620 5  2-MarginalOutlier[1, 2, 3]  :: beam current ramping
-5620 10  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 5, 6]  :: beam current ramping
-5620 15  2-MarginalOutlier[2, 4, 5]  :: beam current ramping
-5620 20  GOLDEN
-5620 25  GOLDEN
-5620 30  GOLDEN
-5620 35  GOLDEN
-5620 40  GOLDEN
-5620 45  GOLDEN
-5620 50  GOLDEN
-5620 55  GOLDEN
-5620 60  GOLDEN
-5620 65  GOLDEN
+5620 0  1-TerminalOutlier[1, 2, 3]  2-MarginalOutlier[4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 5  2-MarginalOutlier[1, 2, 3]  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 10  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 15  2-MarginalOutlier[2, 4, 5]  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 20  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 25  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 30  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 35  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 40  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 45  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 50  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 55  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 60  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
+5620 65  5-Misc[1, 2, 3, 4, 5, 6]  :: test run after accelerator downtime; increasing current
 
 RUN: 5621
-5621 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
-5621 5  GOLDEN
-5621 10  GOLDEN
-5621 15  GOLDEN
-5621 20  GOLDEN
-5621 25  GOLDEN
-5621 30  GOLDEN
-5621 35  GOLDEN
-5621 40  GOLDEN
-5621 45  GOLDEN
-5621 50  GOLDEN
-5621 55  GOLDEN
-5621 60  GOLDEN
-5621 65  GOLDEN
-5621 70  GOLDEN
-5621 75  GOLDEN
-5621 80  GOLDEN
-5621 85  GOLDEN
-5621 90  GOLDEN
-5621 95  GOLDEN
-5621 100  GOLDEN
-5621 105  GOLDEN
-5621 110  GOLDEN
-5621 115  GOLDEN
-5621 120  GOLDEN
-5621 125  GOLDEN
-5621 130  GOLDEN
-5621 135  GOLDEN
-5621 140  GOLDEN
-5621 145  GOLDEN
-5621 150  GOLDEN
-5621 155  GOLDEN
-5621 160  GOLDEN
-5621 165  GOLDEN
-5621 170  GOLDEN
-5621 175  GOLDEN
-5621 180  GOLDEN
-5621 185  GOLDEN
-5621 190  GOLDEN
-5621 195  GOLDEN
-5621 200  GOLDEN
-5621 205  GOLDEN
+5621 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 5  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 10  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 15  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 20  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 25  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 30  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 35  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 40  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 45  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 50  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 55  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 60  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 65  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 70  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 75  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 80  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 85  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 90  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 95  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 100  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 105  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 110  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 115  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 120  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 125  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 130  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 135  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 140  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 145  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 150  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 155  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 160  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 165  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 170  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 175  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 180  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 185  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 190  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 195  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 200  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
+5621 205  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty
 
 RUN: 5623
-5623 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
-5623 5  GOLDEN
-5623 10  GOLDEN
-5623 15  GOLDEN
-5623 20  GOLDEN
-5623 25  GOLDEN
-5623 30  GOLDEN
-5623 35  GOLDEN
-5623 40  GOLDEN
-5623 45  GOLDEN
-5623 50  GOLDEN
-5623 55  GOLDEN
-5623 60  GOLDEN
-5623 65  GOLDEN
-5623 70  GOLDEN
-5623 75  GOLDEN
-5623 80  GOLDEN
-5623 85  GOLDEN
-5623 90  GOLDEN
-5623 95  GOLDEN
-5623 100  GOLDEN
-5623 105  GOLDEN
-5623 110  GOLDEN
-5623 115  GOLDEN
-5623 120  GOLDEN
-5623 125  GOLDEN
-5623 130  GOLDEN
-5623 135  GOLDEN
-5623 140  GOLDEN
-5623 145  GOLDEN
-5623 150  GOLDEN
-5623 155  GOLDEN
-5623 160  GOLDEN
-5623 165  GOLDEN
-5623 170  GOLDEN
-5623 175  GOLDEN
-5623 180  GOLDEN
-5623 185  GOLDEN
-5623 190  GOLDEN
-5623 195  GOLDEN
+5623 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 5  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 10  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 15  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 20  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 25  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 30  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 35  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 40  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 45  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 50  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 55  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 60  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 65  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 70  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 75  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 80  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 85  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 90  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 95  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 100  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 105  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 110  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 115  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 120  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 125  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 130  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 135  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 140  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 145  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 150  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 155  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 160  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 165  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 170  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 175  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 180  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 185  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 190  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
+5623 195  5-Misc[1, 2, 3, 4, 5, 6]  :: CND TDC empty; `roc_reboot` issued mid-run
 
 RUN: 5624
 5624 0  GOLDEN

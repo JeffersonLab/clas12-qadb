@@ -837,405 +837,405 @@ RUN: 5045
 5045 430  GOLDEN
 
 RUN: 5046
-5046 0  GOLDEN
-5046 5  GOLDEN
-5046 10  GOLDEN
-5046 15  GOLDEN
-5046 20  GOLDEN
-5046 25  GOLDEN
-5046 30  GOLDEN
-5046 35  GOLDEN
-5046 40  GOLDEN
-5046 45  GOLDEN
-5046 50  GOLDEN
-5046 55  GOLDEN
-5046 60  GOLDEN
-5046 65  GOLDEN
-5046 70  GOLDEN
-5046 75  GOLDEN
-5046 80  GOLDEN
-5046 85  GOLDEN
-5046 90  GOLDEN
-5046 95  GOLDEN
-5046 100  GOLDEN
-5046 105  GOLDEN
-5046 110  GOLDEN
-5046 115  GOLDEN
-5046 120  GOLDEN
-5046 125  GOLDEN
-5046 130  GOLDEN
-5046 135  GOLDEN
-5046 140  GOLDEN
-5046 145  GOLDEN
-5046 150  GOLDEN
-5046 155  GOLDEN
-5046 160  GOLDEN
-5046 165  GOLDEN
-5046 170  GOLDEN
-5046 175  GOLDEN
-5046 180  GOLDEN
-5046 185  GOLDEN
-5046 190  GOLDEN
-5046 195  GOLDEN
-5046 200  GOLDEN
-5046 205  GOLDEN
-5046 210  GOLDEN
-5046 215  GOLDEN
-5046 220  GOLDEN
-5046 225  GOLDEN
-5046 230  GOLDEN
-5046 235  GOLDEN
-5046 240  GOLDEN
-5046 245  GOLDEN
-5046 250  GOLDEN
-5046 255  GOLDEN
-5046 260  GOLDEN
-5046 265  GOLDEN
-5046 270  GOLDEN
-5046 275  GOLDEN
-5046 280  GOLDEN
-5046 285  GOLDEN
-5046 290  GOLDEN
-5046 295  GOLDEN
-5046 300  GOLDEN
-5046 305  GOLDEN
-5046 310  GOLDEN
-5046 315  GOLDEN
-5046 320  GOLDEN
-5046 325  GOLDEN
-5046 330  GOLDEN
-5046 335  GOLDEN
-5046 340  GOLDEN
-5046 345  GOLDEN
-5046 350  GOLDEN
-5046 355  GOLDEN
-5046 360  GOLDEN
-5046 365  GOLDEN
-5046 370  GOLDEN
-5046 375  GOLDEN
-5046 380  GOLDEN
-5046 385  GOLDEN
-5046 390  GOLDEN
-5046 395  GOLDEN
-5046 400  GOLDEN
-5046 405  GOLDEN
-5046 410  GOLDEN
-5046 415  GOLDEN
-5046 420  GOLDEN
-5046 425  GOLDEN
-5046 430  GOLDEN
-5046 435  GOLDEN
-5046 440  GOLDEN
-5046 445  GOLDEN
-5046 450  GOLDEN
-5046 455  GOLDEN
-5046 460  GOLDEN
-5046 465  GOLDEN
-5046 470  GOLDEN
-5046 475  GOLDEN
-5046 480  GOLDEN
-5046 485  GOLDEN
-5046 490  GOLDEN
-5046 495  GOLDEN
-5046 500  GOLDEN
-5046 505  GOLDEN
-5046 510  GOLDEN
-5046 515  GOLDEN
-5046 520  GOLDEN
-5046 525  GOLDEN
-5046 530  GOLDEN
-5046 535  GOLDEN
-5046 540  GOLDEN
-5046 545  GOLDEN
-5046 550  GOLDEN
-5046 555  GOLDEN
-5046 560  GOLDEN
-5046 565  GOLDEN
-5046 570  GOLDEN
-5046 575  GOLDEN
-5046 580  GOLDEN
-5046 585  GOLDEN
-5046 590  GOLDEN
-5046 595  GOLDEN
-5046 600  GOLDEN
-5046 605  GOLDEN
-5046 610  GOLDEN
-5046 615  GOLDEN
-5046 620  GOLDEN
-5046 625  GOLDEN
-5046 630  GOLDEN
-5046 635  GOLDEN
-5046 640  GOLDEN
-5046 645  GOLDEN
-5046 650  GOLDEN
-5046 655  GOLDEN
-5046 660  GOLDEN
-5046 665  GOLDEN
-5046 670  GOLDEN
-5046 675  GOLDEN
-5046 680  GOLDEN
-5046 685  GOLDEN
-5046 690  GOLDEN
-5046 695  GOLDEN
-5046 700  GOLDEN
-5046 705  GOLDEN
-5046 710  GOLDEN
-5046 715  GOLDEN
-5046 720  GOLDEN
-5046 725  GOLDEN
-5046 730  GOLDEN
-5046 735  GOLDEN
-5046 740  GOLDEN
-5046 745  GOLDEN
-5046 750  GOLDEN
-5046 755  GOLDEN
-5046 760  GOLDEN
-5046 765  GOLDEN
-5046 770  GOLDEN
-5046 775  GOLDEN
-5046 780  GOLDEN
-5046 785  GOLDEN
-5046 790  GOLDEN
-5046 795  GOLDEN
-5046 800  GOLDEN
-5046 805  GOLDEN
-5046 810  GOLDEN
-5046 815  GOLDEN
-5046 820  GOLDEN
-5046 825  GOLDEN
-5046 830  GOLDEN
-5046 835  GOLDEN
-5046 840  GOLDEN
-5046 845  GOLDEN
-5046 850  GOLDEN
-5046 855  GOLDEN
-5046 860  GOLDEN
-5046 865  GOLDEN
-5046 870  GOLDEN
-5046 875  GOLDEN
-5046 880  GOLDEN
-5046 885  GOLDEN
-5046 890  GOLDEN
-5046 895  GOLDEN
-5046 900  GOLDEN
-5046 905  GOLDEN
-5046 910  GOLDEN
-5046 915  GOLDEN
-5046 920  GOLDEN
-5046 925  GOLDEN
-5046 930  GOLDEN
-5046 935  GOLDEN
-5046 940  GOLDEN
-5046 945  GOLDEN
-5046 950  GOLDEN
-5046 955  GOLDEN
-5046 960  GOLDEN
-5046 965  GOLDEN
-5046 970  GOLDEN
-5046 975  GOLDEN
-5046 980  GOLDEN
-5046 985  GOLDEN
-5046 990  GOLDEN
-5046 995  GOLDEN
-5046 1000  GOLDEN
-5046 1005  GOLDEN
-5046 1010  GOLDEN
-5046 1015  GOLDEN
-5046 1020  GOLDEN
-5046 1025  GOLDEN
-5046 1030  GOLDEN
-5046 1035  GOLDEN
-5046 1040  GOLDEN
-5046 1045  GOLDEN
-5046 1050  GOLDEN
-5046 1055  GOLDEN
-5046 1060  GOLDEN
-5046 1065  GOLDEN
-5046 1070  GOLDEN
-5046 1075  GOLDEN
-5046 1080  GOLDEN
-5046 1085  GOLDEN
-5046 1090  GOLDEN
-5046 1095  GOLDEN
-5046 1100  GOLDEN
-5046 1105  GOLDEN
-5046 1110  GOLDEN
+5046 0  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 5  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 10  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 15  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 20  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 25  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 30  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 35  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 40  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 45  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 50  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 55  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 60  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 65  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 70  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 75  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 80  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 85  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 90  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 95  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 100  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 105  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 110  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 115  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 120  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 125  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 130  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 135  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 140  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 145  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 150  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 155  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 160  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 165  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 170  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 175  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 180  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 185  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 190  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 195  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 200  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 205  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 210  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 215  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 220  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 225  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 230  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 235  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 240  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 245  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 250  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 255  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 260  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 265  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 270  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 275  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 280  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 285  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 290  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 295  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 300  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 305  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 310  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 315  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 320  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 325  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 330  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 335  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 340  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 345  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 350  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 355  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 360  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 365  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 370  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 375  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 380  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 385  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 390  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 395  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 400  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 405  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 410  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 415  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 420  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 425  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 430  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 435  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 440  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 445  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 450  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 455  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 460  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 465  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 470  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 475  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 480  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 485  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 490  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 495  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 500  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 505  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 510  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 515  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 520  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 525  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 530  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 535  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 540  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 545  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 550  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 555  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 560  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 565  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 570  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 575  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 580  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 585  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 590  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 595  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 600  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 605  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 610  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 615  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 620  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 625  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 630  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 635  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 640  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 645  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 650  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 655  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 660  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 665  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 670  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 675  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 680  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 685  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 690  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 695  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 700  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 705  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 710  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 715  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 720  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 725  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 730  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 735  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 740  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 745  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 750  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 755  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 760  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 765  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 770  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 775  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 780  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 785  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 790  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 795  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 800  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 805  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 810  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 815  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 820  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 825  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 830  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 835  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 840  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 845  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 850  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 855  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 860  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 865  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 870  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 875  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 880  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 885  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 890  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 895  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 900  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 905  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 910  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 915  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 920  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 925  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 930  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 935  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 940  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 945  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 950  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 955  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 960  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 965  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 970  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 975  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 980  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 985  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 990  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 995  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1000  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1005  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1010  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1015  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1020  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1025  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1030  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1035  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1040  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1045  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1050  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1055  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1060  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1065  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1070  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1075  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1080  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1085  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1090  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1095  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1100  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1105  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5046 1110  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
 
 RUN: 5047
-5047 0  GOLDEN
-5047 5  GOLDEN
-5047 10  GOLDEN
-5047 15  GOLDEN
-5047 20  GOLDEN
-5047 25  GOLDEN
-5047 30  GOLDEN
-5047 35  GOLDEN
-5047 40  GOLDEN
-5047 45  GOLDEN
+5047 0  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 5  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 10  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 15  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 20  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 25  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 30  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 35  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 40  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5047 45  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
 
 RUN: 5051
-5051 0  GOLDEN
-5051 5  GOLDEN
-5051 10  GOLDEN
-5051 15  GOLDEN
-5051 20  GOLDEN
-5051 25  GOLDEN
-5051 30  GOLDEN
-5051 35  GOLDEN
-5051 40  GOLDEN
-5051 45  GOLDEN
-5051 50  GOLDEN
-5051 55  GOLDEN
-5051 60  GOLDEN
-5051 65  GOLDEN
-5051 70  GOLDEN
-5051 75  GOLDEN
-5051 80  GOLDEN
-5051 85  GOLDEN
-5051 90  GOLDEN
-5051 95  GOLDEN
-5051 100  GOLDEN
-5051 105  GOLDEN
-5051 110  GOLDEN
-5051 115  GOLDEN
-5051 120  GOLDEN
-5051 125  GOLDEN
-5051 130  GOLDEN
-5051 135  GOLDEN
-5051 140  GOLDEN
-5051 145  GOLDEN
-5051 150  GOLDEN
-5051 155  GOLDEN
-5051 160  GOLDEN
-5051 165  GOLDEN
-5051 170  GOLDEN
-5051 175  GOLDEN
-5051 180  GOLDEN
-5051 185  GOLDEN
-5051 190  GOLDEN
-5051 195  GOLDEN
-5051 200  GOLDEN
-5051 205  GOLDEN
-5051 210  GOLDEN
-5051 215  GOLDEN
-5051 220  GOLDEN
-5051 225  GOLDEN
-5051 230  GOLDEN
-5051 235  GOLDEN
-5051 240  GOLDEN
-5051 245  GOLDEN
-5051 250  GOLDEN
-5051 255  GOLDEN
-5051 260  GOLDEN
-5051 265  GOLDEN
-5051 270  GOLDEN
-5051 275  GOLDEN
-5051 280  GOLDEN
-5051 285  GOLDEN
-5051 290  GOLDEN
-5051 295  GOLDEN
-5051 300  GOLDEN
-5051 305  GOLDEN
-5051 310  GOLDEN
-5051 315  GOLDEN
-5051 320  GOLDEN
-5051 325  GOLDEN
-5051 330  GOLDEN
-5051 335  GOLDEN
-5051 340  GOLDEN
-5051 345  GOLDEN
-5051 350  GOLDEN
-5051 355  GOLDEN
-5051 360  GOLDEN
-5051 365  GOLDEN
-5051 370  GOLDEN
-5051 375  GOLDEN
-5051 380  GOLDEN
-5051 385  GOLDEN
-5051 390  GOLDEN
-5051 395  GOLDEN
-5051 400  GOLDEN
-5051 405  GOLDEN
-5051 410  GOLDEN
-5051 415  GOLDEN
-5051 420  GOLDEN
-5051 425  GOLDEN
-5051 430  GOLDEN
-5051 435  GOLDEN
-5051 440  GOLDEN
-5051 445  GOLDEN
-5051 450  GOLDEN
-5051 455  GOLDEN
-5051 460  GOLDEN
-5051 465  GOLDEN
-5051 470  GOLDEN
-5051 475  GOLDEN
-5051 480  GOLDEN
-5051 485  GOLDEN
-5051 490  GOLDEN
-5051 495  GOLDEN
-5051 500  GOLDEN
-5051 505  GOLDEN
-5051 510  GOLDEN
-5051 515  GOLDEN
-5051 520  GOLDEN
-5051 525  GOLDEN
-5051 530  GOLDEN
-5051 535  GOLDEN
-5051 540  GOLDEN
-5051 545  GOLDEN
-5051 550  GOLDEN
-5051 555  GOLDEN
-5051 560  GOLDEN
-5051 565  GOLDEN
-5051 570  GOLDEN
-5051 575  GOLDEN
-5051 580  GOLDEN
-5051 585  GOLDEN
-5051 590  GOLDEN
-5051 595  GOLDEN
-5051 600  GOLDEN
-5051 605  GOLDEN
-5051 610  GOLDEN
-5051 615  GOLDEN
-5051 620  GOLDEN
-5051 625  GOLDEN
-5051 630  GOLDEN
-5051 635  GOLDEN
-5051 640  GOLDEN
-5051 645  GOLDEN
-5051 650  GOLDEN
-5051 655  GOLDEN
-5051 660  GOLDEN
-5051 665  GOLDEN
-5051 670  GOLDEN
-5051 675  GOLDEN
-5051 680  GOLDEN
-5051 685  GOLDEN
-5051 690  GOLDEN
-5051 695  GOLDEN
-5051 700  GOLDEN
-5051 705  GOLDEN
-5051 710  GOLDEN
-5051 715  GOLDEN
-5051 720  GOLDEN
-5051 725  GOLDEN
-5051 730  GOLDEN
-5051 735  GOLDEN
-5051 740  GOLDEN
-5051 745  GOLDEN
-5051 750  GOLDEN
-5051 755  GOLDEN
-5051 760  GOLDEN
-5051 765  GOLDEN
-5051 770  GOLDEN
-5051 775  GOLDEN
-5051 780  GOLDEN
-5051 785  GOLDEN
-5051 790  GOLDEN
-5051 795  GOLDEN
-5051 800  GOLDEN
-5051 805  GOLDEN
+5051 0  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 5  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 10  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 15  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 20  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 25  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 30  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 35  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 40  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 45  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 50  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 55  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 60  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 65  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 70  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 75  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 80  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 85  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 90  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 95  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 100  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 105  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 110  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 115  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 120  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 125  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 130  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 135  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 140  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 145  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 150  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 155  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 160  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 165  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 170  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 175  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 180  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 185  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 190  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 195  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 200  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 205  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 210  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 215  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 220  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 225  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 230  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 235  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 240  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 245  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 250  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 255  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 260  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 265  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 270  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 275  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 280  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 285  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 290  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 295  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 300  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 305  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 310  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 315  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 320  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 325  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 330  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 335  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 340  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 345  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 350  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 355  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 360  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 365  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 370  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 375  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 380  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 385  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 390  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 395  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 400  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 405  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 410  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 415  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 420  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 425  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 430  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 435  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 440  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 445  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 450  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 455  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 460  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 465  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 470  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 475  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 480  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 485  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 490  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 495  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 500  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 505  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 510  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 515  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 520  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 525  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 530  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 535  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 540  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 545  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 550  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 555  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 560  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 565  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 570  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 575  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 580  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 585  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 590  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 595  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 600  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 605  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 610  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 615  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 620  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 625  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 630  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 635  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 640  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 645  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 650  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 655  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 660  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 665  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 670  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 675  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 680  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 685  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 690  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 695  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 700  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 705  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 710  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 715  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 720  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 725  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 730  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 735  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 740  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 745  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 750  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 755  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 760  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 765  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 770  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 775  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 780  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 785  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 790  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 795  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 800  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
+5051 805  5-Misc[1, 2, 3, 4, 5, 6]  :: MVT off
 
 RUN: 5052
 5052 0  GOLDEN
@@ -16199,13 +16199,13 @@ RUN: 5335
 5335 40  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
 
 RUN: 5336
-5336 0  GOLDEN
-5336 5  GOLDEN
-5336 10  GOLDEN
-5336 15  GOLDEN
-5336 20  0-TotalOutlier[1]  :: dc13 issue at end of run
-5336 25  0-TotalOutlier[1]  :: dc13 issue at end of run
-5336 30  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 0  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 5  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 10  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 15  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 20  0-TotalOutlier[1]  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 25  0-TotalOutlier[1]  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
+5336 30  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: dc13 issue at end of run
 
 RUN: 5339
 5339 0  GOLDEN
@@ -23625,30 +23625,30 @@ RUN: 5399
 5399 20  5-Misc[1, 2, 3, 4, 5, 6]  :: marked as junk in logbook
 
 RUN: 5400
-5400 0  GOLDEN
-5400 5  GOLDEN
-5400 10  GOLDEN
-5400 15  GOLDEN
-5400 20  GOLDEN
-5400 25  GOLDEN
-5400 30  GOLDEN
-5400 35  GOLDEN
-5400 40  GOLDEN
-5400 45  GOLDEN
-5400 50  GOLDEN
-5400 55  GOLDEN
-5400 60  GOLDEN
-5400 65  GOLDEN
-5400 70  GOLDEN
-5400 75  GOLDEN
-5400 80  GOLDEN
-5400 85  GOLDEN
-5400 90  GOLDEN
-5400 95  GOLDEN
-5400 100  GOLDEN
-5400 105  GOLDEN
-5400 110  GOLDEN
-5400 115  GOLDEN
+5400 0  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 5  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 10  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 15  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 20  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 25  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 30  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 35  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 40  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 45  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 50  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 55  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 60  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 65  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 70  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 75  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 80  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 85  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 90  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 95  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 100  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 105  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 110  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
+5400 115  5-Misc[1, 2, 3, 4, 5, 6]  :: some SVT parts are not registering hits
 
 RUN: 5401
 5401 0  GOLDEN

@@ -9,6 +9,7 @@
 #include <dirent.h>
 #include <map>
 #include <vector>
+#include <set>
 #include <algorithm>
 
 namespace QA {
@@ -153,6 +154,8 @@ namespace QA {
       bool found;
       int asymMask;
       int mask;
+
+      std::set<int> allowForOkForAsymmetry;
   };
 
 
@@ -230,6 +233,39 @@ namespace QA {
     asymMask += 0x1 << Bit("MarginalOutlier");
     asymMask += 0x1 << Bit("SectorLoss");
 
+    // list of runs allowed by OkForAsymmetry, even though they have Misc defect
+    allowForOkForAsymmetry.insert(5046);
+    allowForOkForAsymmetry.insert(5047);
+    allowForOkForAsymmetry.insert(5051);
+    allowForOkForAsymmetry.insert(5128);
+    allowForOkForAsymmetry.insert(5129);
+    allowForOkForAsymmetry.insert(5130);
+    allowForOkForAsymmetry.insert(5158);
+    allowForOkForAsymmetry.insert(5159);
+    allowForOkForAsymmetry.insert(5160);
+    allowForOkForAsymmetry.insert(5163);
+    allowForOkForAsymmetry.insert(5165);
+    allowForOkForAsymmetry.insert(5166);
+    allowForOkForAsymmetry.insert(5167);
+    allowForOkForAsymmetry.insert(5168);
+    allowForOkForAsymmetry.insert(5169);
+    allowForOkForAsymmetry.insert(5180);
+    allowForOkForAsymmetry.insert(5181);
+    allowForOkForAsymmetry.insert(5182);
+    allowForOkForAsymmetry.insert(5183);
+    allowForOkForAsymmetry.insert(5400);
+    allowForOkForAsymmetry.insert(5448);
+    allowForOkForAsymmetry.insert(5495);
+    allowForOkForAsymmetry.insert(5496);
+    allowForOkForAsymmetry.insert(5505);
+    allowForOkForAsymmetry.insert(5567);
+    allowForOkForAsymmetry.insert(5610);
+    allowForOkForAsymmetry.insert(5617);
+    allowForOkForAsymmetry.insert(5621);
+    allowForOkForAsymmetry.insert(5623);
+
+
+
     // initialize local vars
     runnum = -1;
     filenum = -1;
@@ -306,23 +342,8 @@ namespace QA {
       // check if this is a run on the list of runs with a large fraction of
       // events with undefined helicity; if so, accept this run, since none of
       // these files are marked with `Misc` for any other reasons
-      if(runnum_==5128 ||
-         runnum_==5129 ||
-         runnum_==5130 ||
-         runnum_==5158 ||
-         runnum_==5159 ||
-         runnum_==5160 ||
-         runnum_==5163 ||
-         runnum_==5165 ||
-         runnum_==5166 ||
-         runnum_==5167 ||
-         runnum_==5168 ||
-         runnum_==5169 ||
-         runnum_==5180 ||
-         runnum_==5181 ||
-         runnum_==5182 ||
-         runnum_==5183 ||
-         runnum_==5567) return true;
+      if(allowForOkForAsymmetry.find(runnum_) != allowForOkForAsymmetry.end())
+        return true;
 
       // check if this run had an FADC failure; there is no indication spin
       // asymmetries are impacted by this issue

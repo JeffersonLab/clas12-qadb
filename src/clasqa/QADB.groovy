@@ -60,6 +60,39 @@ class QADB {
     asymMask += 0x1 << Bit('MarginalOutlier')
     asymMask += 0x1 << Bit('SectorLoss')
 
+    // list of runs allowed by OkForAsymmetry, even though they have Misc defect
+    allowForOkForAsymmetry = [
+      5046,
+      5047,
+      5051,
+      5128,
+      5129,
+      5130,
+      5158,
+      5159,
+      5160,
+      5163,
+      5165,
+      5166,
+      5167,
+      5168,
+      5169,
+      5180,
+      5181,
+      5182,
+      5183,
+      5400,
+      5448,
+      5495,
+      5496,
+      5505,
+      5567,
+      5610,
+      5617,
+      5621,
+      5623,
+    ]
+
     // initialize local vars
     runnum = -1
     filenum = -1
@@ -104,10 +137,7 @@ class QADB {
       // check if this is a run on the list of runs with a large fraction of
       // events with undefined helicity; if so, accept this run, since none of
       // these files are marked with `Misc` for any other reasons
-      if( runnum_ in [ 5128, 5129, 5130, 5158,
-                       5159, 5160, 5163, 5165,
-                       5166, 5167, 5168, 5169,
-                       5180, 5181, 5182, 5183, 5567 ]) return true
+      if( runnum_ in allowForOkForAsymmetry ) return true
 
       // check if this run had an FADC failure; there is no indication spin
       // asymmetries are impacted by this issue
@@ -348,4 +378,5 @@ class QADB {
   private int nbits
   private def mask
   private def asymMask
+  private def allowForOkForAsymmetry
 }
