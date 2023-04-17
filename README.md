@@ -207,7 +207,7 @@ chargeTree.json ─┬─ run number 1
 Documentation for QADB maintenance and revision
 
 ## Adding to or revising the QADB
-* the QADB files are produced by [`clasqa`](https://github.com/c-dilks/clasqa);
+* the QADB files are produced by [`clasqa` timeline-production code](https://github.com/c-dilks/clasqa);
   if you have produced QA results for a new data set, and would like to add
   them to the QADB, or if you would like to update results for an existing
   dataset, follow the following procedure:
