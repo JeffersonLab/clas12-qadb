@@ -21,7 +21,7 @@ jobs:
         dataset: [ rga_inbending, rga_outbending, rga_spring19, rgb_fall, rgb_spring, rgb_winter, rgk_6, rgk_7 ]
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           submodules: recursive
       - name: setup_groovy
@@ -45,7 +45,7 @@ jobs:
           cat tmp/cpp*.out > artifacts/cpp.${{matrix.dataset}}.txt
           cat tmp/groovy*.out > artifacts/groovy.${{matrix.dataset}}.txt
       - name: upload_artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: groovy_vs_cpp--${{matrix.dataset}}
           retention-days: 1
@@ -59,9 +59,9 @@ jobs:
     runs-on: [ ubuntu-latest ]
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: download
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           path: artifacts_all
       - name: tree_artifacts_all
@@ -73,7 +73,7 @@ jobs:
       - name: tree_artifacts_final
         run: tree artifacts
       - name: upload
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           retention-days: 14
           name: _artifacts
