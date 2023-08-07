@@ -95,11 +95,11 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
 * needs [`rapidjson`](https://github.com/Tencent/rapidjson/) libary; 
   it is a submodule of this repository and can be obtained by
   ```
-  git clone --recurse-submodules https://github.com/JeffersonLab/clasqaDB.git
+  git clone --recurse-submodules https://github.com/JeffersonLab/clas12-qadb.git
   ```
 * first set environment variables by running `source env.sh`
   * alternatively, set environment variable `$QADB` to the path to this
-    `clasqaDB` repository
+    `clas12-qadb` repository
   * `bash` is recommended, though if you choose to use `tcsh`, run
     instead `source env.csh`
 * then proceed following `srcC/README.md`

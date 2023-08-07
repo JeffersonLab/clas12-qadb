@@ -1,6 +1,6 @@
 #!/bin/bash
 # convert json files into human-readable tables
-# run this from top-level directory of `clasqaDB`
+# run this from top-level directory of `clas12-qadb`
 if [ -z "$QADB" ]; then
   echo "ERROR: you must source env.sh first"; exit
 fi

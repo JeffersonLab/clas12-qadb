@@ -1,4 +1,4 @@
-# Groovy access to clasqaDB
+# Groovy access to QADB
 
 this directory contains the Groovy source code to access the QA database
 
