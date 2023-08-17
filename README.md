@@ -18,7 +18,8 @@ CLAS12 experiment at Jefferson Lab
 ## Available Data Sets
 
 ### Run Group A
-* [QA Timelines](https://clas12mon.jlab.org/rga/pass1/qa/tlsummary/)
+* QA Timelines: <https://clas12mon.jlab.org/rga/pass1/qa/tlsummary/>
+
 | Data Set Name        | Pass | Run Range   | Status   | Data Files                                                                  |
 | ---                  | ---  | ---         | ---      | ---                                                                         |
 | `rga_inbending`      | 1    | 5032 - 5419 | In QADB  | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1/v0/dst/recon`   |
@@ -27,7 +28,8 @@ CLAS12 experiment at Jefferson Lab
 | `rga_pass2_spring19` | 2    | 6616 - 6783 | **TODO** | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst/recon`    |
 
 ### Run Group B
-* [QA Timelines](https://clas12mon.jlab.org/rgb/pass1/qa/tlsummary/)
+* QA Timelines <https://clas12mon.jlab.org/rgb/pass1/qa/tlsummary/>
+
 | Data Set Name | Pass | Run Range     | Status  | Data Files                                                                  |
 | ---           | ---  | ---           | ---     | ---                                                                         |
 | `rgb_spring`  | 1    | 6156 - 6603   | In QADB | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst/recon` |
@@ -36,6 +38,7 @@ CLAS12 experiment at Jefferson Lab
 
 ### Run Group F
 * QA Timelines: **TODO**
+
 | Data Set Name          | Pass | Run Range     | Status   | Data Files                                                                                  |
 | ---                    | ---  | ---           | ---      | ---                                                                                         |
 | `rgf_spring20_torusM1` | 1    | 12210 - 12329 | **TODO** | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
@@ -44,7 +47,8 @@ CLAS12 experiment at Jefferson Lab
 | `rgf_summer20_torusM1` | 1    | 12447 - 12951 | **TODO** | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
 
 ### Run Group K
-* [QA Timelines](https://clas12mon.jlab.org/rgk/pass1/qa/tlsummary/)
+* QA Timelines: <https://clas12mon.jlab.org/rgk/pass1/qa/tlsummary/>
+
 | Data Set Name | Pass | Run Range   | Status  | Data Files                                                                                         |
 | ---           | ---  | ---         | ---     | ---                                                                                                |
 | `rgk_7`       | 1    | 5674 - 5870 | In QADB | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon`  |
