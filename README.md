@@ -15,6 +15,44 @@ CLAS12 experiment at Jefferson Lab
 <a name="info"></a>
 # QA Information
 
+## Available Data Sets
+
+### Run Group A
+* [QA Timelines](https://clas12mon.jlab.org/rga/pass1/qa/tlsummary/)
+| Data Set Name        | Pass | Run Range   | Status   | Data Files                                                                  |
+| ---                  | ---  | ---         | ---      | ---                                                                         |
+| `rga_inbending`      | 1    | 5032 - 5419 | In QADB  | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1/v0/dst/recon`   |
+| `rga_outbending`     | 1    | 5422 - 5666 | In QADB  | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1/v0/dst/recon`   |
+| `rga_spring19`       | 1    | 6616 - 6783 | In QADB  | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1/v0/dst/recon` |
+| `rga_pass2_spring19` | 2    | 6616 - 6783 | **TODO** | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst/recon`    |
+
+### Run Group B
+* [QA Timelines](https://clas12mon.jlab.org/rgb/pass1/qa/tlsummary/)
+| Data Set Name | Pass | Run Range     | Status  | Data Files                                                                  |
+| ---           | ---  | ---           | ---     | ---                                                                         |
+| `rgb_spring`  | 1    | 6156 - 6603   | In QADB | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst/recon` |
+| `rgb_fall`    | 1    | 11093 - 11300 | In QADB | `/cache/clas12/rg-b/production/recon/fall2019/torus+1/pass1/v1/dst/recon`   |
+| `rgb_winter`  | 1    | 11323 - 11571 | In QADB | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst/recon` |
+
+### Run Group F
+* QA Timelines: **TODO**
+| Data Set Name          | Pass | Run Range     | Status   | Data Files                                                                                  |
+| ---                    | ---  | ---           | ---      | ---                                                                                         |
+| `rgf_spring20_torusM1` | 1    | 12210 - 12329 | **TODO** | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
+| `rgf_summer20_torusPh` | 1    | 12389 - 12434 | **TODO** | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |
+| `rgf_summer20_torusMh` | 1    | 12436 - 12443 | **TODO** | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
+| `rgf_summer20_torusM1` | 1    | 12447 - 12951 | **TODO** | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
+
+### Run Group K
+* [QA Timelines](https://clas12mon.jlab.org/rgk/pass1/qa/tlsummary/)
+| Data Set Name | Pass | Run Range   | Status  | Data Files                                                                                         |
+| ---           | ---  | ---         | ---     | ---                                                                                                |
+| `rgk_7`       | 1    | 5674 - 5870 | In QADB | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon`  |
+| `rgk_6`       | 1    | 5875 - 6000 | In QADB | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon ` |
+
+
+## Defect Bit Definitions
+
 * QA information is stored for each DST file, in the form of "defect bits"
   * the user needs only the run number and event number to query the QADB
   * queries will find the DST file associated with the event, and are only
@@ -43,12 +81,6 @@ CLAS12 experiment at Jefferson Lab
 
 <a name="access"></a>
 # Database Access
-
-## QA Timelines
-View the online QA timelines at the following links:
-* [Run Group A](https://clas12mon.jlab.org/rga/pass1/qa/tlsummary/)
-* [Run Group B](https://clas12mon.jlab.org/rgb/pass1/qa/tlsummary/)
-* [Run Group K](https://clas12mon.jlab.org/rgk/pass1/qa/tlsummary/)
 
 ## Text Access
   * this only provides human-readable access; see below for access with
