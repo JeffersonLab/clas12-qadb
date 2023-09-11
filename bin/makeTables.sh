@@ -5,7 +5,7 @@ if [ -z "$QADB" ]; then
   echo "ERROR: you must source environ.sh first"; exit
 fi
 pushd $QADB
-for file in qadb/qa.*/qaTree.json; do
+for file in $(find -P qadb -name "qaTree.json"); do
   run-groovy util/parseQaTree.groovy $file
 done
 popd

@@ -18,7 +18,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        dataset: [ rga_inbending, rga_outbending, rga_spring19, rgb_fall, rgb_spring, rgb_winter, rgk_6, rgk_7 ]
+        dataset:
+          - pass1/rga_fa18_inbending
+          - pass1/rga_fa18_outbending
+          - pass1/rga_sp19
+          - pass1/rgb_fa19
+          - pass1/rgb_sp19
+          - pass1/rgb_wi20
+          - pass1/rgk_fa18_6.5GeV
+          - pass1/rgk_fa18_7.5GeV
     steps:
       - name: checkout
         uses: actions/checkout@v3

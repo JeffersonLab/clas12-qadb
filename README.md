@@ -144,7 +144,7 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
 # Data Storage
 
 ## Table files
-Human-readable format of QA result, stored in `qadb/qa.*/qaTree.json.table`
+Human-readable format of QA result, stored in `qadb/*/*/qaTree.json.table`
 * each run begins with the keyword `RUN:`; lines below are for each of that 
   run's file and its QA result, with the following syntax:
   * `run number` `file number`  `defect bits` `comment`
@@ -157,7 +157,7 @@ Human-readable format of QA result, stored in `qadb/qa.*/qaTree.json.table`
 ## JSON files
 
 ### qaTree.json
-* The QADB itself is stored as JSON files in `qadb/qa.*/qaTree.json`
+* The QADB itself is stored as JSON files in `qadb/*/*/qaTree.json`
 * the format is a tree (nested maps):
 ```
 qaTree.json ─┬─ run number 1
@@ -178,12 +178,12 @@ qaTree.json ─┬─ run number 1
     to this file; use this to map a particular event number to a file number
   * `sectorDefects` is a map with sector number keys paired with lists of associated
     defect bits
-  * `defect` is a decimal represantion of the `OR` of each sector's defect bits, for
+  * `defect` is a decimal representantion of the `OR` of each sector's defect bits, for
     example, `11=0b1011` means the `OR` of the defect bit lists is `[0,1,3]`
   * `comment` stores an optional comment regarding the QA result
 
 ### chargeTree.json
-* the charge is also stored in JSON files in `qadb/qa.*/chargeTree.json`, with
+* the charge is also stored in JSON files in `qadb/*/*/chargeTree.json`, with
   a similar format:
 ```
 chargeTree.json ─┬─ run number 1
@@ -247,12 +247,13 @@ Documentation for QADB maintenance and revision
   if you have produced QA results for a new data set, and would like to add
   them to the QADB, or if you would like to update results for an existing
   dataset, follow the following procedure:
-  * `mkdir qadb/qa.${dataset}/`, then copy the final `qaTree.json` and
+  * `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
   * run `bin/makeTables.sh`
   * run `bin/makeTextFiles.sh`
   * update customized QA criteria sets, such as `OkForAsymmetry`
   * add any new dataset to the CI tests: `.github/workflows/ci.yml`
+  * add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
   * use `git status` and `git diff` to review changes, then add and commit to
     git, and push to the remote branch
 

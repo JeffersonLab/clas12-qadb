@@ -8,23 +8,23 @@ if [ -z "$QADB" ]; then
 fi
 
 if [ $# -lt 1 ]; then
-  echo "USAGE: $0 [dataset]"; exit 2
+  echo "USAGE: $0 [pass/dataset]"; exit 2
 fi
 
-dataset=$1
+datasetSubdir=$1
 
 mkdir -p ${QADB}/tmp
 
 echo """
 
 begin TEST:
-- test DumpQADB for dataset ${dataset}
+- test DumpQADB for dataset ${datasetSubdir}
 - check for differences between C++ and Groovy APIs
 - a diff will be dumped for any differences found, and the script will stop
 
 """
 
-grep -E '^RUN: ' ${QADB}/qadb/qa.${dataset}/qaTree.json.table |\
+grep -E '^RUN: ' ${QADB}/qadb/${datasetSubdir}/qaTree.json.table |\
   awk '{print $2}' |\
   while read run; do
     ${QADB}/tests/test_diffGroovyCpp.sh DumpQADB $run
