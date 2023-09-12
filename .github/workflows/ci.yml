@@ -16,7 +16,7 @@ jobs:
   groovy_vs_cpp:
     runs-on: [ ubuntu-latest ]
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         dataset:
           - pass1/rga_fa18_inbending
