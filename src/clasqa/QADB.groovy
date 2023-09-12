@@ -46,11 +46,13 @@ class QADB {
       maxDepth:1,
       nameFilter:dbFilter)
     { dbFile ->
-      if(verbose) println "read " + dbFile.getAbsoluteFile()
-      if(dbFile.name.contains("qaTree.json"))
+      if(dbFile.name.contains("qaTree.json")) {
+        if(verbose) println "read qaTree: " + dbFile
         slurper.parse(dbFile).each{ obj -> slurpAction(qaTree,obj) }
-      else if(dbFile.name.contains("chargeTree.json"))
+      } else if(dbFile.name.contains("chargeTree.json")) {
+        if(verbose) println "read chargeTree: " + dbFile
         slurper.parse(dbFile).each{ obj -> slurpAction(chargeTree,obj) }
+      }
     }
 
     // defect mask used for asymmetry analysis

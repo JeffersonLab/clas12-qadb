@@ -184,6 +184,7 @@ namespace QA {
     struct dirent * dbDirent;
     while((dbDirent=readdir(dbDir))) {
       std::string qaDirN = std::string(dbDirent->d_name);
+      if(qaDirN.at(0)=='.') continue;
       qaJsonList.push_back(dbDirN+"/"+qaDirN+"/qaTree.json");
       chargeJsonList.push_back(dbDirN+"/"+qaDirN+"/chargeTree.json");
     };
