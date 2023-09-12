@@ -18,15 +18,16 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        dataset:
-          - pass1/rga_fa18_inbending
-          - pass1/rga_fa18_outbending
-          - pass1/rga_sp19
-          - pass1/rgb_fa19
-          - pass1/rgb_sp19
-          - pass1/rgb_wi20
-          - pass1/rgk_fa18_6.5GeV
-          - pass1/rgk_fa18_7.5GeV
+        pass: [ pass1 ]
+        include:
+          - { pass: pass1, dataset: rga_fa18_inbending  }
+          - { pass: pass1, dataset: rga_fa18_outbending }
+          - { pass: pass1, dataset: rga_sp19            }
+          - { pass: pass1, dataset: rgb_fa19            }
+          - { pass: pass1, dataset: rgb_sp19            }
+          - { pass: pass1, dataset: rgb_wi20            }
+          - { pass: pass1, dataset: rgk_fa18_6.5GeV     }
+          - { pass: pass1, dataset: rgk_fa18_7.5GeV     }
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -47,16 +48,16 @@ jobs:
           make
       - name: test_diff_groovy_cpp
         run: |
-          tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
+          tests/test_diffGroovyCpp.loop.sh ${{matrix.pass}}/${{matrix.dataset}}
       - name: concatenate_artifacts
         run: |
           mkdir -p artifacts
-          cat tmp/cpp*.out > artifacts/cpp.${{matrix.dataset}}.txt
-          cat tmp/groovy*.out > artifacts/groovy.${{matrix.dataset}}.txt
+          cat tmp/cpp*.out > artifacts/cpp.${{matrix.pass}}.${{matrix.dataset}}.txt
+          cat tmp/groovy*.out > artifacts/groovy.${{matrix.pass}}.${{matrix.dataset}}.txt
       - name: upload_artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: groovy_vs_cpp--${{matrix.dataset}}
+          name: groovy_vs_cpp--${{matrix.pass}}--${{matrix.dataset}}
           retention-days: 1
           path: artifacts/*
 
