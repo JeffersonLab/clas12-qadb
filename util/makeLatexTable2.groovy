@@ -21,7 +21,7 @@ int evnum,runnum
 // output latex file
 def dbDirN = System.getenv('QADB') + '/qadb'
 if(dbDirN==null) {
-  System.err << "ERROR: env var QADB not set; source env.sh\n\n\n"
+  System.err << "ERROR: env var QADB not set; source environ.sh\n\n\n"
   return
 }
 outfileN="${dbDirN}/qaTable.tex"

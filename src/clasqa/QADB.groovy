@@ -22,7 +22,7 @@ class QADB {
     nbits = util.bitDefinitions.size()
     dbDirN = System.getenv('QADB') + '/qadb'
     if(dbDirN==null) {
-      System.err << "ERROR: env var QADB not set; source env.sh\n\n\n"
+      System.err << "ERROR: env var QADB not set; source environ.sh\n\n\n"
       return
     }
     if(verbose) println("QADB dir = ${dbDirN}/qadb")

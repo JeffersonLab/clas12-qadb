@@ -10,7 +10,7 @@
 # - cf. makeLatexTables.sh
 
 if [ -z "$QADB" ]; then
-  echo "ERROR: you must source env.sh first"; exit
+  echo "ERROR: you must source environ.sh first"; exit
 fi
 pushd $QADB/qadb > /dev/null
 

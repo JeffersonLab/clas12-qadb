@@ -3,7 +3,7 @@
 
 if [ $# -ne 1 ]; then echo "specify hipo file"; exit; fi
 if [ -z "$QADB" ]; then
-  echo "ERROR: you must source env.sh first"; exit
+  echo "ERROR: you must source environ.sh first"; exit
 fi
 mkdir -p ${QADB}/tmp
 

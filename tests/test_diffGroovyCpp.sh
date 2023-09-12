@@ -4,7 +4,7 @@
 set -e
 
 if [ -z "$QADB" ]; then
-  echo "ERROR: you must source env.sh first"
+  echo "ERROR: you must source environ.sh first"
   exit 1
 fi
 
