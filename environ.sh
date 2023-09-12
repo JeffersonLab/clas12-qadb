@@ -6,8 +6,5 @@ else
   export QADB=$(dirname $(realpath ${BASH_SOURCE[0]}))
 fi
 
-JYPATH="${JYPATH}:${QADB}/src/"
-export JYPATH=$(echo $JYPATH | sed 's/^://')
-
-env|grep --color -w QADB
-env|grep --color -w JYPATH
+# class path for groovy
+export JYPATH="${QADB}/src/${JYPATH:+:${JYPATH}}"

@@ -30,7 +30,7 @@ jobs:
           groovy-version: 4.x
       - name: env
         run: |
-          source env.sh
+          source environ.sh
           echo "QADB=${QADB}" >> $GITHUB_ENV
           echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
       - name: compile_cpp_tests

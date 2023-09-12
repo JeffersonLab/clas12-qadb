@@ -120,7 +120,7 @@ CLAS12 experiment at Jefferson Lab
 Classes in both C++ and Groovy are provided, for access to the QADB within analysis code
 
 ### Groovy Access
-* first set environment variables by running `source env.sh`
+* first set environment variables by running `source environ.sh`
   * `bash` is recommended, though if you choose to use `tcsh`, run
     instead `source env.csh`
 * then proceed following `src/README.md`
@@ -133,7 +133,7 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
   ```
   git clone --recurse-submodules https://github.com/JeffersonLab/clas12-qadb.git
   ```
-* first set environment variables by running `source env.sh`
+* first set environment variables by running `source environ.sh`
   * alternatively, set environment variable `$QADB` to the path to this
     `clas12-qadb` repository
   * `bash` is recommended, though if you choose to use `tcsh`, run
