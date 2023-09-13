@@ -12,13 +12,21 @@ defaults:
 
 jobs:
 
-# check consistency between Groovy and C++ APIs
+  # check consistency between Groovy and C++ APIs
   groovy_vs_cpp:
-    runs-on: [ ubuntu-latest ]
+    runs-on: ubuntu-latest
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
-        dataset: [ rga_inbending, rga_outbending, rga_spring19, rgb_fall, rgb_spring, rgb_winter, rgk_6, rgk_7 ]
+        dataset:
+          - pass1/rga_fa18_inbending
+          - pass1/rga_fa18_outbending
+          - pass1/rga_sp19
+          - pass1/rgb_fa19
+          - pass1/rgb_sp19
+          - pass1/rgb_wi20
+          - pass1/rgk_fa18_6.5GeV
+          - pass1/rgk_fa18_7.5GeV
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -42,40 +50,21 @@ jobs:
           tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
       - name: concatenate_artifacts
         run: |
-          mkdir -p artifacts
-          cat tmp/cpp*.out > artifacts/cpp.${{matrix.dataset}}.txt
-          cat tmp/groovy*.out > artifacts/groovy.${{matrix.dataset}}.txt
+          mkdir -p artifacts/${{matrix.dataset}}
+          for lang in cpp groovy ; do
+            cat tmp/${lang}*.out > artifacts/${{matrix.dataset}}/${lang}.txt ;
+          done
       - name: upload_artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: groovy_vs_cpp--${{matrix.dataset}}
-          retention-days: 1
+          name: groovy_vs_cpp
+          retention-days: 3
           path: artifacts/*
 
-# collect artifacts
-  collect:
-    if: ${{always()}}
-    needs: 
+  # report status for github status check (successful only if all `groovy_vs_cpp` jobs pass)
+  report:
+    runs-on: ubuntu-latest
+    needs:
       - groovy_vs_cpp
-    runs-on: [ ubuntu-latest ]
     steps:
-      - name: checkout
-        uses: actions/checkout@v3
-      - name: download
-        uses: actions/download-artifact@v3
-        with:
-          path: artifacts_all
-      - name: tree_artifacts_all
-        run: tree artifacts_all
-      - name: organize
-        run: |
-          mkdir -p artifacts
-          mv -v artifacts_all/groovy_vs_cpp*/*.txt artifacts/
-      - name: tree_artifacts_final
-        run: tree artifacts
-      - name: upload
-        uses: actions/upload-artifact@v3
-        with:
-          retention-days: 14
-          name: _artifacts
-          path: artifacts
+      - run: echo success

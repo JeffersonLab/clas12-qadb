@@ -176,7 +176,7 @@ namespace QA {
       std::cerr << "ERROR: QADB environment variable not set" << std::endl;
       return;
     };
-    dbDirN += "/qadb";
+    dbDirN += "/qadb/latest";
     if(verbose) std::cout << "QADB at " << dbDirN << std::endl;
 
     // get list of json files
@@ -184,10 +184,9 @@ namespace QA {
     struct dirent * dbDirent;
     while((dbDirent=readdir(dbDir))) {
       std::string qaDirN = std::string(dbDirent->d_name);
-      if(qaDirN.find("qa.")!=std::string::npos) {
-        qaJsonList.push_back(dbDirN+"/"+qaDirN+"/qaTree.json");
-        chargeJsonList.push_back(dbDirN+"/"+qaDirN+"/chargeTree.json");
-      };
+      if(qaDirN.at(0)=='.') continue;
+      qaJsonList.push_back(dbDirN+"/"+qaDirN+"/qaTree.json");
+      chargeJsonList.push_back(dbDirN+"/"+qaDirN+"/chargeTree.json");
     };
     closedir(dbDir);
     if(verbose) {

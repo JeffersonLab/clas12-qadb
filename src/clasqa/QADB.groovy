@@ -20,12 +20,12 @@ class QADB {
     verbose = verbose_
     util = new Tools()
     nbits = util.bitDefinitions.size()
-    dbDirN = System.getenv('QADB') + '/qadb'
+    dbDirN = System.getenv('QADB') + '/qadb/latest'
     if(dbDirN==null) {
       System.err << "ERROR: env var QADB not set; source environ.sh\n\n\n"
       return
     }
-    if(verbose) println("QADB dir = ${dbDirN}/qadb")
+    if(verbose) println("QADB dir = ${dbDirN}")
 
     // concatenate trees
     qaTree = [:]
@@ -46,11 +46,13 @@ class QADB {
       maxDepth:1,
       nameFilter:dbFilter)
     { dbFile ->
-      if(verbose) println "read " + dbFile.getAbsoluteFile()
-      if(dbFile.name.contains("qaTree.json"))
+      if(dbFile.name.contains("qaTree.json")) {
+        if(verbose) println "read qaTree: " + dbFile
         slurper.parse(dbFile).each{ obj -> slurpAction(qaTree,obj) }
-      else if(dbFile.name.contains("chargeTree.json"))
+      } else if(dbFile.name.contains("chargeTree.json")) {
+        if(verbose) println "read chargeTree: " + dbFile
         slurper.parse(dbFile).each{ obj -> slurpAction(chargeTree,obj) }
+      }
     }
 
     // defect mask used for asymmetry analysis
