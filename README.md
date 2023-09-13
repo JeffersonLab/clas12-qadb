@@ -18,7 +18,7 @@ CLAS12 experiment at Jefferson Lab
 ## Available Data Sets
 The following tables describe the available datasets in the QADB. The columns are:
 - **Pass**: the Pass number of the data set (higher is newer)
-- **Data Set Name**: a unique name for the data-taking period
+- **Data Set Name**: a unique name for the data-taking period; click it to see the corresponding QA timelines
   - Typically `[RUN_GROUP]_[RUN_PERIOD]`
   - `[RUN_PERIOD]` follows the convention `[SEASON(sp/su/fa/wi)]_[YEAR]`, and sometimes includes an additional keyword
 - **Run range**: the run numbers in this data set
@@ -31,40 +31,40 @@ The following tables describe the available datasets in the QADB. The columns ar
 ### Run Group A
 * QA Timelines: <https://clas12mon.jlab.org/rga/pass1/qa/tlsummary/>
 
-| Pass | Data Set Name         | Run Range   | Status       | Data Files                                                                  |
-| ---  | ---                   | ---         | ---          | ---                                                                         |
-| 2    | `rga_sp19`            | 6616 - 6783 | _TO DO_      | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst/recon`    |
-| 1    | `rga_fa18_inbending`  | 5032 - 5419 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1/v0/dst/recon`   |
-| 1    | `rga_fa18_outbending` | 5422 - 5666 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1/v0/dst/recon`   |
-| 1    | `rga_sp19`            | 6616 - 6783 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1/v0/dst/recon` |
+| Pass | Data Set Name and Timelines Link                                                           | Run Range   | Status       | Data Files                                                                  |
+| ---  | ---                                                                                        | ---         | ---          | ---                                                                         |
+| 2    | `rga_sp19`                                                                                 | 6616 - 6783 | _TO DO_      | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst/recon`    |
+| 1    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary)   | 5032 - 5419 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1/v0/dst/recon`   |
+| 1    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary) | 5422 - 5666 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1/v0/dst/recon`   |
+| 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                       | 6616 - 6783 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1/v0/dst/recon` |
 
 ### Run Group B
 * QA Timelines <https://clas12mon.jlab.org/rgb/pass1/qa/tlsummary/>
 
-| Pass | Data Set Name | Run Range     | Status       | Data Files                                                                   |
-| ---  | ---           | ---           | ---          | ---                                                                          |
-| 2    | `rgb_sp19`    | 6156 - 6603   | _TO DO_      | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst/recon/` |
-| 1    | `rgb_sp19`    | 6156 - 6603   | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst/recon`  |
-| 1    | `rgb_fa19`    | 11093 - 11300 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/fall2019/torus+1/pass1/v1/dst/recon`    |
-| 1    | `rgb_wi20`    | 11323 - 11571 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst/recon`  |
+| Pass | Data Set Name and Timelines Link                                     | Run Range     | Status       | Data Files                                                                   |
+| ---  | ---                                                                  | ---           | ---          | ---                                                                          |
+| 2    | `rgb_sp19`                                                           | 6156 - 6603   | _TO DO_      | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst/recon/` |
+| 1    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary) | 6156 - 6603   | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst/recon`  |
+| 1    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary) | 11093 - 11300 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/fall2019/torus+1/pass1/v1/dst/recon`    |
+| 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary) | 11323 - 11571 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst/recon`  |
 
 ### Run Group F
 * QA Timelines: **TODO**
 
-| Pass | Data Set Name      | Run Range     | Status  | Data Files                                                                                  |
-| ---  | ---                | ---           | ---     | ---                                                                                         |
-| 1    | `rgf_sp20_torusM1` | 12210 - 12329 | _TO DO_ | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
-| 1    | `rgf_su20_torusPh` | 12389 - 12434 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |
-| 1    | `rgf_su20_torusMh` | 12436 - 12443 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
-| 1    | `rgf_su20_torusM1` | 12447 - 12951 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
+| Pass | Data Set Name and Timelines Link | Run Range     | Status  | Data Files                                                                                  |
+| ---  | ---                              | ---           | ---     | ---                                                                                         |
+| 1    | `rgf_sp20_torusM1`               | 12210 - 12329 | _TO DO_ | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
+| 1    | `rgf_su20_torusPh`               | 12389 - 12434 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |
+| 1    | `rgf_su20_torusMh`               | 12436 - 12443 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
+| 1    | `rgf_su20_torusM1`               | 12447 - 12951 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
 
 ### Run Group K
 * QA Timelines: <https://clas12mon.jlab.org/rgk/pass1/qa/tlsummary/>
 
-| Pass | Data Set Name     | Run Range   | Status       | Data Files                                                                                        |
-| ---  | ---               | ---         | ---          | ---                                                                                               |
-| 1    | `rgk_fa18_7.5GeV` | 5674 - 5870 | _Up-to-Date_ | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` |
-| 1    | `rgk_fa18_6.5GeV` | 5875 - 6000 | _Up-to-Date_ | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` |
+| Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status       | Data Files                                                                                        |
+| ---  | ---                                                                                | ---         | ---          | ---                                                                                               |
+| 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | _Up-to-Date_ | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` |
+| 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | _Up-to-Date_ | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` |
 
 
 ## Defect Bit Definitions
