@@ -29,7 +29,6 @@ The following tables describe the available datasets in the QADB. The columns ar
 - **Data files**: the DST files used for the QA
 
 ### Run Group A
-* QA Timelines: <https://clas12mon.jlab.org/rga/pass1/qa/tlsummary/>
 
 | Pass | Data Set Name and Timelines Link                                                           | Run Range   | Status       | Data Files                                                                  |
 | ---  | ---                                                                                        | ---         | ---          | ---                                                                         |
@@ -39,7 +38,6 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                       | 6616 - 6783 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1/v0/dst/recon` |
 
 ### Run Group B
-* QA Timelines <https://clas12mon.jlab.org/rgb/pass1/qa/tlsummary/>
 
 | Pass | Data Set Name and Timelines Link                                     | Run Range     | Status       | Data Files                                                                   |
 | ---  | ---                                                                  | ---           | ---          | ---                                                                          |
@@ -49,7 +47,6 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary) | 11323 - 11571 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst/recon`  |
 
 ### Run Group F
-* QA Timelines: **TODO**
 
 | Pass | Data Set Name and Timelines Link | Run Range     | Status  | Data Files                                                                                  |
 | ---  | ---                              | ---           | ---     | ---                                                                                         |
@@ -59,7 +56,6 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 1    | `rgf_su20_torusM1`               | 12447 - 12951 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
 
 ### Run Group K
-* QA Timelines: <https://clas12mon.jlab.org/rgk/pass1/qa/tlsummary/>
 
 | Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status       | Data Files                                                                                        |
 | ---  | ---                                                                                | ---         | ---          | ---                                                                                               |
