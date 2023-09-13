@@ -12,14 +12,14 @@ defaults:
 
 jobs:
 
-# check consistency between Groovy and C++ APIs
+  # check consistency between Groovy and C++ APIs
   groovy_vs_cpp:
-    runs-on: [ ubuntu-latest ]
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: true
       matrix:
         dataset:
-          - pass1/rga_fa18_inbending
+          - ppass1/rga_fa18_inbending
           - pass1/rga_fa18_outbending
           - pass1/rga_sp19
           - pass1/rgb_fa19
@@ -60,3 +60,11 @@ jobs:
           name: groovy_vs_cpp
           retention-days: 3
           path: artifacts/*
+
+  # report status for github status check (successful only if all `groovy_vs_cpp` jobs pass)
+  report:
+    runs-on: ubuntu-latest
+    needs:
+      - groovy_vs_cpp
+    steps:
+      - run: echo success
