@@ -19,7 +19,7 @@ jobs:
       fail-fast: true
       matrix:
         dataset:
-          - ppass1/rga_fa18_inbending
+          - pass1/rga_fa18_inbending
           - pass1/rga_fa18_outbending
           - pass1/rga_sp19
           - pass1/rgb_fa19
