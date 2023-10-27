@@ -260,7 +260,6 @@ Documentation for QADB maintenance and revision
   * run `bin/makeTables.sh`
   * run `bin/makeTextFiles.sh`
   * update customized QA criteria sets, such as `OkForAsymmetry`
-  * add any new dataset to the CI tests: `.github/workflows/ci.yml`
   * add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
   * update the above table of data sets
   * use `git status` and `git diff` to review changes, then add and commit to
