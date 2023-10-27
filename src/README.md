@@ -1,6 +1,6 @@
 # Groovy access to QADB
 
-this directory contains the Groovy source code to access the QA database
+This directory contains the Groovy source code to access the QA database
 
 - first, set environment variables with `source ../environ.sh`
 - then run your analysis script with `run-groovy`, a groovy wrapper script
@@ -14,4 +14,4 @@ this directory contains the Groovy source code to access the QA database
   - the `QADB` class provides several methods for accessing the QA info;
     you only need to provide it a run number and event number
   - database lookups are only performed as needed, so it is safe to
-    use any accessor in a standard analysis event loop
+    use any accessor method in a standard analysis event loop

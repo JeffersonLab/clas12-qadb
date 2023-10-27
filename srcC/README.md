@@ -1,9 +1,9 @@
 # C++ access to QADB
 
-this directory contains the C++ source code to access the QA database
+This directory contains the C++ source code to access the QA database
 
 - first, make sure you have the
-  [`rapidjson`](https://github.com/Tencent/rapidjson/) libary; 
+  [`rapidjson`](https://github.com/Tencent/rapidjson/) library; 
   it is a submodule of this repository and can be obtained by
   ```
   git clone --recurse-submodules https://github.com/JeffersonLab/clas12-qadb.git
@@ -26,7 +26,7 @@ this directory contains the C++ source code to access the QA database
   - the `QADB` class provides several methods for accessing the QA info;
     you only need to provide it a run number and event number
   - database lookups are only performed as needed, so it is safe to
-    use any accessor in a standard analysis event loop
+    use any accessor method in a standard analysis event loop
 - **NOTE** `QADB` has been tested with compiled analysis code, but some users
   encounter problems when interpreting analysis code with ROOT Cling; it is 
   recommended to compile your analysis code

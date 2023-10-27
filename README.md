@@ -81,13 +81,13 @@ The following tables describe the available datasets in the QADB. The columns ar
 |-----|------------------------|-------------|
 | 0   | `TotalOutlier`         | outlier N/F, but not terminal, marginal, or sector loss |
 | 1   | `TerminalOutlier`      | outlier N/F of first or last file of run, not marginal |
-| 2   | `MarginalOutlier`      | marginal outlier N/F, within one stddev of cut line |
+| 2   | `MarginalOutlier`      | marginal outlier N/F, within one standard deviation of cut line |
 | 3   | `SectorLoss`           | N/F diminished within a sector for several consecutive files |
 | 4   | `LowLiveTime`          | live time < 0.9 |
 | 5   | `Misc`                 | miscellaneous defect, documented as comment |
 | 6   | `TotalOutlierFT`       | outlier N/F of FT electron, but not terminal, marginal, or sector loss |
 | 7   | `TerminalOutlierFT`    | outlier N/F of FT electron of first or last file of run, not marginal |
-| 8   | `MarginalOutlierFT`    | marginal outlier N/F of FT electron, within one stddev of cut line |
+| 8   | `MarginalOutlierFT`    | marginal outlier N/F of FT electron, within one standard deviation of cut line |
 | 9   | `LossFT`               | N/F diminished within FT for several consecutive files |
 
 
@@ -105,7 +105,7 @@ The following tables describe the available datasets in the QADB. The columns ar
     * the JSON files are the QADB files
       * for now we use JSON out of convenience, although it's not a proper
         database format; future development plans include considering more
-        efficient formats, such as SQLlite
+        efficient formats, such as `SQLlite`
   * there are also some text files stored in `text/`:
     * `text/listOfGoldenRuns.txt`: list of runs, each classified as one of the following:
       * `gold`: all files have no defects. Note that this is **very strict**,
@@ -136,7 +136,7 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
 ### C++ Access
 * __NOTE:__ [`clas12root`](https://github.com/JeffersonLab/clas12root) now provides
   access to the QADB
-* needs [`rapidjson`](https://github.com/Tencent/rapidjson/) libary; 
+* needs [`rapidjson`](https://github.com/Tencent/rapidjson/) library; 
   it is a submodule of this repository and can be obtained by
   ```
   git clone --recurse-submodules https://github.com/JeffersonLab/clas12-qadb.git
@@ -164,7 +164,7 @@ Human-readable format of QA result, stored in `qadb/*/*/qaTree.json.table`
 
 ## JSON files
 
-### qaTree.json
+### `qaTree.json`
 * The QADB itself is stored as JSON files in `qadb/*/*/qaTree.json`
 * the format is a tree (nested maps):
 ```
@@ -186,11 +186,11 @@ qaTree.json ─┬─ run number 1
     to this file; use this to map a particular event number to a file number
   * `sectorDefects` is a map with sector number keys paired with lists of associated
     defect bits
-  * `defect` is a decimal representantion of the `OR` of each sector's defect bits, for
+  * `defect` is a decimal representation of the `OR` of each sector's defect bits, for
     example, `11=0b1011` means the `OR` of the defect bit lists is `[0,1,3]`
   * `comment` stores an optional comment regarding the QA result
 
-### chargeTree.json
+### `chargeTree.json`
 * the charge is also stored in JSON files in `qadb/*/*/chargeTree.json`, with
   a similar format:
 ```
@@ -230,13 +230,13 @@ chargeTree.json ─┬─ run number 1
 * see `src/examples/chargeSum.groovy` or `srcC/examples/chargeSum.cpp` for
   usage example in an analysis event loop
   * call `QADB::AccumulateCharge()` within your event loop, after your QA cuts
-    are satsified; the QADB instance will keep track of the accumulated charge
+    are satisfied; the QADB instance will keep track of the accumulated charge
     you analyzed (accumulation performed per DST file)
   * at the end of your event loop, the total accumulated charge you analyzed is
     given by `QADB::getAccumulatedCharge()`
-* note: we find some evidence that the charge from file to file may slightly overlap,
+* note: for Pass 1 QA results, we find some evidence that the charge from file to file may slightly overlap,
   or there may be gaps in the accumulated charge between each file; the former leads to
-  a slight overcounting and the latter leads to a slight undercounting
+  a slight over-counting and the latter leads to a slight under-counting
   * for RGK, we find the correction to this issue would be very small
     (no more than the order of 0.1%)
   * corrections of this issue are therefore not applied
