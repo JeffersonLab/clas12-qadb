@@ -1,4 +1,4 @@
-# Examples reading HIPO files using Coatjava
+# Examples reading HIPO files using `coatjava`
 
 Here are some examples of reading HIPO files in an event loop, using
 [`coatjava`](https://github.com/JeffersonLab/clas12-offline-software)

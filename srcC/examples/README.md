@@ -1,4 +1,4 @@
-# Examples using Clas12Root
+# Examples using `clas12root`
 
 Here are some examples of reading HIPO files in an event loop, using
 [`clas12root`](https://github.com/JeffersonLab/clas12root)
