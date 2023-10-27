@@ -1289,3 +1289,532 @@
  11569  defect
  11570  defect
  11571  defect
+ 15019  defect
+ 15020  defect
+ 15022  defect
+ 15023  defect
+ 15024  defect
+ 15025  defect
+ 15026  defect
+ 15027  defect
+ 15028  defect
+ 15029  defect
+ 15030  defect
+ 15031  defect
+ 15032  defect
+ 15033  defect
+ 15034  defect
+ 15035  defect
+ 15036  defect
+ 15045  defect
+ 15046  defect
+ 15047  defect
+ 15049  defect
+ 15050  defect
+ 15051  defect
+ 15052  defect
+ 15053  defect
+ 15054  defect
+ 15055  defect
+ 15056  defect
+ 15057  defect
+ 15058  defect
+ 15059  defect
+ 15060  defect
+ 15061  defect
+ 15062  defect
+ 15065  defect
+ 15066  defect
+ 15067  defect
+ 15072  defect
+ 15073  defect
+ 15074  defect
+ 15075  defect
+ 15077  defect
+ 15078  defect
+ 15079  defect
+ 15081  defect
+ 15082  defect
+ 15093  defect
+ 15094  defect
+ 15095  defect
+ 15096  defect
+ 15097  defect
+ 15098  defect
+ 15099  defect
+ 15100  defect
+ 15101  defect
+ 15102  defect
+ 15103  defect
+ 15104  defect
+ 15105  defect
+ 15106  defect
+ 15109  defect
+ 15110  defect
+ 15111  defect
+ 15113  defect
+ 15114  defect
+ 15116  defect
+ 15117  defect
+ 15128  defect
+ 15132  defect
+ 15133  defect
+ 15134  defect
+ 15136  defect
+ 15137  defect
+ 15139  defect
+ 15141  defect
+ 15142  defect
+ 15143  defect
+ 15145  defect
+ 15147  defect
+ 15148  defect
+ 15149  defect
+ 15150  defect
+ 15151  defect
+ 15153  defect
+ 15154  defect
+ 15155  defect
+ 15156  defect
+ 15157  defect
+ 15158  defect
+ 15159  defect
+ 15160  defect
+ 15164  defect
+ 15186  defect
+ 15187  defect
+ 15188  defect
+ 15189  defect
+ 15190  defect
+ 15191  defect
+ 15192  defect
+ 15193  defect
+ 15194  defect
+ 15196  defect
+ 15199  defect
+ 15200  defect
+ 15202  gold (and silver)
+ 15203  gold (and silver)
+ 15204  defect
+ 15205  defect
+ 15206  defect
+ 15207  defect
+ 15210  gold (and silver)
+ 15212  defect
+ 15213  gold (and silver)
+ 15214  defect
+ 15215  gold (and silver)
+ 15217  gold (and silver)
+ 15219  silver
+ 15220  gold (and silver)
+ 15221  gold (and silver)
+ 15223  defect
+ 15224  silver
+ 15225  defect
+ 15226  gold (and silver)
+ 15228  defect
+ 15234  gold (and silver)
+ 15235  gold (and silver)
+ 15236  defect
+ 15238  defect
+ 15239  gold (and silver)
+ 15240  gold (and silver)
+ 15241  defect
+ 15242  defect
+ 15243  defect
+ 15245  gold (and silver)
+ 15246  defect
+ 15247  gold (and silver)
+ 15248  gold (and silver)
+ 15249  defect
+ 15250  defect
+ 15252  defect
+ 15253  defect
+ 15254  defect
+ 15255  defect
+ 15257  defect
+ 15258  gold (and silver)
+ 15259  gold (and silver)
+ 15260  gold (and silver)
+ 15261  gold (and silver)
+ 15262  gold (and silver)
+ 15263  defect
+ 15264  gold (and silver)
+ 15265  gold (and silver)
+ 15266  gold (and silver)
+ 15269  gold (and silver)
+ 15270  silver
+ 15271  gold (and silver)
+ 15272  gold (and silver)
+ 15273  gold (and silver)
+ 15274  defect
+ 15275  defect
+ 15278  defect
+ 15279  gold (and silver)
+ 15280  gold (and silver)
+ 15282  silver
+ 15283  defect
+ 15284  gold (and silver)
+ 15286  defect
+ 15287  silver
+ 15288  defect
+ 15289  defect
+ 15290  gold (and silver)
+ 15291  silver
+ 15292  gold (and silver)
+ 15293  defect
+ 15294  gold (and silver)
+ 15295  gold (and silver)
+ 15296  gold (and silver)
+ 15298  defect
+ 15300  gold (and silver)
+ 15301  gold (and silver)
+ 15302  defect
+ 15303  gold (and silver)
+ 15304  defect
+ 15305  defect
+ 15306  defect
+ 15307  defect
+ 15308  gold (and silver)
+ 15309  defect
+ 15310  gold (and silver)
+ 15311  defect
+ 15312  defect
+ 15313  defect
+ 15314  defect
+ 15316  defect
+ 15317  defect
+ 15320  defect
+ 15322  defect
+ 15323  gold (and silver)
+ 15324  gold (and silver)
+ 15325  gold (and silver)
+ 15326  gold (and silver)
+ 15327  gold (and silver)
+ 15357  gold (and silver)
+ 15358  gold (and silver)
+ 15359  gold (and silver)
+ 15362  defect
+ 15363  gold (and silver)
+ 15364  defect
+ 15365  defect
+ 15366  defect
+ 15367  defect
+ 15368  defect
+ 15369  gold (and silver)
+ 15370  defect
+ 15371  gold (and silver)
+ 15374  defect
+ 15375  defect
+ 15376  silver
+ 15378  silver
+ 15380  defect
+ 15381  defect
+ 15383  defect
+ 15384  gold (and silver)
+ 15385  gold (and silver)
+ 15387  gold (and silver)
+ 15389  silver
+ 15391  gold (and silver)
+ 15392  gold (and silver)
+ 15395  defect
+ 15396  gold (and silver)
+ 15397  defect
+ 15399  silver
+ 15400  gold (and silver)
+ 15401  gold (and silver)
+ 15402  gold (and silver)
+ 15405  gold (and silver)
+ 15408  gold (and silver)
+ 15409  gold (and silver)
+ 15410  silver
+ 15414  gold (and silver)
+ 15415  gold (and silver)
+ 15416  gold (and silver)
+ 15417  gold (and silver)
+ 15418  gold (and silver)
+ 15419  gold (and silver)
+ 15421  gold (and silver)
+ 15422  defect
+ 15427  gold (and silver)
+ 15428  gold (and silver)
+ 15429  gold (and silver)
+ 15430  defect
+ 15431  gold (and silver)
+ 15432  gold (and silver)
+ 15435  defect
+ 15436  gold (and silver)
+ 15437  defect
+ 15439  defect
+ 15441  gold (and silver)
+ 15442  defect
+ 15443  defect
+ 15444  defect
+ 15445  defect
+ 15447  defect
+ 15448  silver
+ 15449  defect
+ 15450  defect
+ 15451  defect
+ 15452  defect
+ 15454  defect
+ 15455  defect
+ 15456  silver
+ 15458  defect
+ 15459  defect
+ 15461  defect
+ 15462  defect
+ 15463  defect
+ 15465  defect
+ 15466  defect
+ 15468  defect
+ 15469  defect
+ 15471  defect
+ 15472  defect
+ 15475  defect
+ 15476  defect
+ 15477  defect
+ 15478  silver
+ 15480  defect
+ 15481  gold (and silver)
+ 15482  gold (and silver)
+ 15483  defect
+ 15485  defect
+ 15486  defect
+ 15487  defect
+ 15488  defect
+ 15489  defect
+ 15490  defect
+ 15550  defect
+ 15551  defect
+ 15552  defect
+ 15554  defect
+ 15555  defect
+ 15556  defect
+ 15560  defect
+ 15561  defect
+ 15562  defect
+ 15563  defect
+ 15567  defect
+ 15568  defect
+ 15569  defect
+ 15570  defect
+ 15572  defect
+ 15573  defect
+ 15574  defect
+ 15575  defect
+ 15576  defect
+ 15577  defect
+ 15578  defect
+ 15579  defect
+ 15580  defect
+ 15581  defect
+ 15582  defect
+ 15583  defect
+ 15586  defect
+ 15587  defect
+ 15588  defect
+ 15589  defect
+ 15590  defect
+ 15591  defect
+ 15592  defect
+ 15593  defect
+ 15594  defect
+ 15595  defect
+ 15598  defect
+ 15599  defect
+ 15600  defect
+ 15601  defect
+ 15602  defect
+ 15603  defect
+ 15604  gold (and silver)
+ 15606  gold (and silver)
+ 15607  defect
+ 15608  defect
+ 15609  defect
+ 15610  gold (and silver)
+ 15611  defect
+ 15612  defect
+ 15613  gold (and silver)
+ 15614  gold (and silver)
+ 15615  gold (and silver)
+ 15616  defect
+ 15617  defect
+ 15618  gold (and silver)
+ 15619  defect
+ 15620  defect
+ 15622  defect
+ 15623  defect
+ 15624  defect
+ 15625  gold (and silver)
+ 15626  defect
+ 15627  defect
+ 15628  defect
+ 15629  defect
+ 15631  defect
+ 15632  defect
+ 15633  defect
+ 15634  defect
+ 15635  defect
+ 15636  defect
+ 15644  gold (and silver)
+ 15645  defect
+ 15646  defect
+ 15647  gold (and silver)
+ 15650  gold (and silver)
+ 15651  gold (and silver)
+ 15652  defect
+ 15653  gold (and silver)
+ 15654  defect
+ 15655  defect
+ 15656  defect
+ 15657  defect
+ 15658  defect
+ 15659  defect
+ 15660  defect
+ 15661  defect
+ 15662  defect
+ 15663  defect
+ 15664  defect
+ 15665  defect
+ 15666  defect
+ 15667  defect
+ 15668  defect
+ 15669  defect
+ 15670  defect
+ 15672  defect
+ 15673  defect
+ 15674  defect
+ 15675  defect
+ 15676  gold (and silver)
+ 15677  gold (and silver)
+ 15678  defect
+ 15679  defect
+ 15680  defect
+ 15681  gold (and silver)
+ 15682  defect
+ 15683  gold (and silver)
+ 15684  gold (and silver)
+ 15685  gold (and silver)
+ 15686  gold (and silver)
+ 15691  gold (and silver)
+ 15692  defect
+ 15693  defect
+ 15694  defect
+ 15695  defect
+ 15696  defect
+ 15698  defect
+ 15700  defect
+ 15701  defect
+ 15702  defect
+ 15703  defect
+ 15704  defect
+ 15706  defect
+ 15707  defect
+ 15708  defect
+ 15709  defect
+ 15710  defect
+ 15711  defect
+ 15712  defect
+ 15713  defect
+ 15714  defect
+ 15715  defect
+ 15716  defect
+ 15717  defect
+ 15718  defect
+ 15719  defect
+ 15720  defect
+ 15721  defect
+ 15722  gold (and silver)
+ 15723  gold (and silver)
+ 15724  gold (and silver)
+ 15733  defect
+ 15743  gold (and silver)
+ 15744  defect
+ 15745  gold (and silver)
+ 15749  defect
+ 15750  defect
+ 15751  silver
+ 15752  defect
+ 15753  gold (and silver)
+ 15754  gold (and silver)
+ 15755  silver
+ 15756  gold (and silver)
+ 15759  gold (and silver)
+ 15764  gold (and silver)
+ 15766  gold (and silver)
+ 15768  gold (and silver)
+ 15769  defect
+ 15770  defect
+ 15771  defect
+ 15772  gold (and silver)
+ 15773  silver
+ 15775  gold (and silver)
+ 15778  gold (and silver)
+ 15779  defect
+ 15780  gold (and silver)
+ 15781  silver
+ 15782  defect
+ 15783  gold (and silver)
+ 15784  silver
+ 15792  gold (and silver)
+ 15793  gold (and silver)
+ 15794  gold (and silver)
+ 15795  gold (and silver)
+ 15796  gold (and silver)
+ 15797  defect
+ 15798  gold (and silver)
+ 15800  gold (and silver)
+ 15801  gold (and silver)
+ 15802  gold (and silver)
+ 15807  defect
+ 15809  defect
+ 15810  defect
+ 15811  gold (and silver)
+ 15812  gold (and silver)
+ 15814  defect
+ 15815  defect
+ 15816  gold (and silver)
+ 15818  defect
+ 15819  defect
+ 15820  gold (and silver)
+ 15821  gold (and silver)
+ 15822  gold (and silver)
+ 15823  defect
+ 15824  defect
+ 15825  gold (and silver)
+ 15826  gold (and silver)
+ 15827  gold (and silver)
+ 15830  gold (and silver)
+ 15832  defect
+ 15833  gold (and silver)
+ 15834  gold (and silver)
+ 15835  silver
+ 15836  defect
+ 15843  defect
+ 15845  gold (and silver)
+ 15846  gold (and silver)
+ 15847  gold (and silver)
+ 15848  gold (and silver)
+ 15849  gold (and silver)
+ 15851  defect
+ 15852  gold (and silver)
+ 15854  gold (and silver)
+ 15856  gold (and silver)
+ 15858  gold (and silver)
+ 15859  defect
+ 15860  gold (and silver)
+ 15861  gold (and silver)
+ 15863  gold (and silver)
+ 15864  gold (and silver)
+ 15866  defect
+ 15867  gold (and silver)
+ 15868  gold (and silver)
+ 15869  gold (and silver)
+ 15872  gold (and silver)
+ 15873  gold (and silver)
+ 15874  gold (and silver)
+ 15875  gold (and silver)
+ 15880  gold (and silver)
+ 15883  gold (and silver)
+ 15884  gold (and silver)

@@ -62,6 +62,12 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | _Up-to-Date_ | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` |
 | 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | _Up-to-Date_ | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` |
 
+### Run Group M
+
+| Pass | Data Set Name and Timelines Link                                                     | Run Range     | Status       | Data Files                                                  |
+| ---  | ---                                                                                  | ---           | ---          | ---                                                         |
+| 1    | [`rgm_fa21`](https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/) | 15019 - 15884 | _Up-to-Date_ | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/` |
+
 
 ## Defect Bit Definitions
 
@@ -257,10 +263,11 @@ Documentation for QADB maintenance and revision
   dataset, follow the following procedure:
   * `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
+  * add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
+  * run `source environ.sh`
   * run `bin/makeTables.sh`
   * run `bin/makeTextFiles.sh`
   * update customized QA criteria sets, such as `OkForAsymmetry`
-  * add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
   * update the above table of data sets
   * use `git status` and `git diff` to review changes, then add and commit to
     git, and push to the remote branch
