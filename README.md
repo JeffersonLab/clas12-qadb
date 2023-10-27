@@ -57,10 +57,10 @@ The following tables describe the available datasets in the QADB. The columns ar
 
 ### Run Group K
 
-| Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status       | Data Files                                                                                        |
-| ---  | ---                                                                                | ---         | ---          | ---                                                                                               |
-| 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | _Up-to-Date_ | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` |
-| 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | _Up-to-Date_ | `/lustre19/expphy/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` |
+| Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status       | Data Files                                                                        |
+| ---  | ---                                                                                | ---         | ---          | ---                                                                               |
+| 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | _Up-to-Date_ | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` |
+| 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | _Up-to-Date_ | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` |
 
 
 ## Defect Bit Definitions
@@ -130,7 +130,7 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
 ### Groovy Access
 * first set environment variables by running `source environ.sh`
   * `bash` is recommended, though if you choose to use `tcsh`, run
-    instead `source env.csh`
+    instead `source environ.csh`
 * then proceed following `src/README.md`
 
 ### C++ Access
@@ -145,7 +145,7 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
   * alternatively, set environment variable `$QADB` to the path to this
     `clas12-qadb` repository
   * `bash` is recommended, though if you choose to use `tcsh`, run
-    instead `source env.csh`
+    instead `source environ.csh`
 * then proceed following `srcC/README.md`
 
 <a name="storage"></a>
