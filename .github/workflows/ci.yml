@@ -28,7 +28,7 @@ jobs:
         id: datasets
         working-directory: qadb
         run: |
-          ls -d pass*/* | jq -Rs '{"dataset": split("\n")[:-1]}') > list.json
+          ls -d pass*/* | jq -Rs '{"dataset": split("\n")[:-1]}' > list.json
           echo "### List of Datasets" >> $GITHUB_STEP_SUMMARY
           echo '```json' >> $GITHUB_STEP_SUMMARY
           cat list.json | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
