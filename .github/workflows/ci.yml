@@ -27,7 +27,8 @@ jobs:
       - name: get data sets
         id: datasets
         working-directory: qadb
-        run: echo datasets=(ls -d pass*/* | jq -Rcs '{"dataset": split("\n")[:-1]}') >> $GITHUB_OUTPUT
+        run: |
+          echo datasets=(ls -d pass*/* | jq -Rcs '{"dataset": split("\n")[:-1]}') >> $GITHUB_OUTPUT
 
   # check consistency between Groovy and C++ APIs
   groovy_vs_cpp:
