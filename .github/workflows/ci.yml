@@ -16,21 +16,27 @@ concurrency:
 
 jobs:
 
+  # get list of datasets to check
+  get_datasets:
+    runs-on: ubuntu-latest
+    outputs:
+      datasets: ${{ steps.datasets.outputs.datasets }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: get data sets
+        id: datasets
+        working-directory: qadb
+        run: echo datasets=(ls -d pass*/* | jq -Rcs '{"dataset": split("\n")[:-1]}') >> $GITHUB_OUTPUT
+
   # check consistency between Groovy and C++ APIs
   groovy_vs_cpp:
+    needs:
+      - get_datasets
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
-      matrix:
-        dataset:
-          - pass1/rga_fa18_inbending
-          - pass1/rga_fa18_outbending
-          - pass1/rga_sp19
-          - pass1/rgb_fa19
-          - pass1/rgb_sp19
-          - pass1/rgb_wi20
-          - pass1/rgk_fa18_6.5GeV
-          - pass1/rgk_fa18_7.5GeV
+      matrix: ${{ fromJson(needs.get_datasets.outputs.datasets) }}
     steps:
       - name: checkout
         uses: actions/checkout@v3
