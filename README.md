@@ -83,19 +83,18 @@ The following tables describe the available datasets in the QADB. The columns ar
 * The table below lists the defect bits 
   (Example: `defect=0b11000` has defects `SectorLoss` and `LowLiveTime`)
 
-| Bit | Name                   | Description |
-|-----|------------------------|-------------|
-| 0   | `TotalOutlier`         | outlier N/F, but not terminal, marginal, or sector loss |
-| 1   | `TerminalOutlier`      | outlier N/F of first or last file of run, not marginal |
-| 2   | `MarginalOutlier`      | marginal outlier N/F, within one standard deviation of cut line |
-| 3   | `SectorLoss`           | N/F diminished within a sector for several consecutive files |
-| 4   | `LowLiveTime`          | live time < 0.9 |
-| 5   | `Misc`                 | miscellaneous defect, documented as comment |
-| 6   | `TotalOutlierFT`       | outlier N/F of FT electron, but not terminal, marginal, or sector loss |
-| 7   | `TerminalOutlierFT`    | outlier N/F of FT electron of first or last file of run, not marginal |
-| 8   | `MarginalOutlierFT`    | marginal outlier N/F of FT electron, within one standard deviation of cut line |
-| 9   | `LossFT`               | N/F diminished within FT for several consecutive files |
-
+| Bit | Name                | Description                                                                      |
+| --- | ---                 | ---                                                                              |
+| 0   | `TotalOutlier`      | outlier N/F, but not terminal, marginal, or sector loss, for FD electron         |
+| 1   | `TerminalOutlier`   | outlier N/F of first or last file of run, not marginal, for FD electron          |
+| 2   | `MarginalOutlier`   | marginal outlier N/F, within one standard deviation of cut line, for FD electron |
+| 3   | `SectorLoss`        | N/F diminished within a FD sector for several consecutive files                  |
+| 4   | `LowLiveTime`       | live time < 0.9                                                                  |
+| 5   | `Misc`              | miscellaneous defect, documented as comment                                      |
+| 6   | `TotalOutlierFT`    | outlier N/F, but not terminal, marginal, or `LossFT`, FT electron                |
+| 7   | `TerminalOutlierFT` | outlier N/F of first or last file of run, not marginal, FT electron              |
+| 8   | `MarginalOutlierFT` | marginal outlier N/F, within one standard deviation of cut line, FT electron     |
+| 9   | `LossFT`            | N/F diminished within FT for several consecutive files                           |
 
 <a name="access"></a>
 # Database Access
