@@ -27,6 +27,7 @@ datfileWriter << [
   'runnum/I',
   'binnum/I',
   'golden/I',
+  'lastBin/I',
   'fcChargeMin/D',
   'fcChargeMax/D',
   'fcChargeGapToNextBin/D',
@@ -80,15 +81,10 @@ runListHash.eachWithIndex{ hash, runset ->
     def qaTree     = qa.getQaTree()["$runnum"]
     def chargeTree = qa.getChargeTree()["$runnum"]
     qaTree.each{ binnum, bintree ->
-      System.out.print "  $binnum"
 
-      // the last bin has no subsequent bin, so skip it
+      // the last bin has no subsequent bin, so mark it
       def nextBinnum = "${binnum.toInteger()+5}"
-      if(qaTree[nextBinnum] == null) {
-        System.out.println " => last bin => skipping"
-        return
-      }
-      System.out.print '\n'
+      def isLastBin  = qaTree[nextBinnum] == null
 
       // check GOLDEN bins
       def golden = bintree.defect == 0
@@ -97,11 +93,12 @@ runListHash.eachWithIndex{ hash, runset ->
       // def gapCharge = nextBintree.fcChargeMin - bintree.fcChargeMax
       def thisBinChargeTree = chargeTree["$binnum"]
       def nextBinChargeTree = chargeTree["$nextBinnum"]
-      def gapCharge         = nextBinChargeTree.fcChargeMin - thisBinChargeTree.fcChargeMax
+      def gapCharge = isLastBin ? -9999999.0 : nextBinChargeTree.fcChargeMin - thisBinChargeTree.fcChargeMax
       datfileWriter << [
         runnum,
         binnum,
         golden ? 1 : 0,
+        isLastBin ? 1 : 0,
         thisBinChargeTree.fcChargeMin,
         thisBinChargeTree.fcChargeMax,
         gapCharge,
