@@ -96,10 +96,62 @@ void analyzeGapCharge(TString datFileN = "charge_gaps.dat") {
     chargeTot[runnum][kFullRunMax] = std::max(chargeMax, chargeTot[runnum][kFullRunMax]);
   }
 
+  // cross check the accumulated charge
+  enum chargeGrEnum { gGoldenSum, gAllBinsSum, gRunMaxMinusMin, gFracDiff, nChargeGr };
+  TGraph* chargeGr[nChargeGr];
+  for(int g=0; g<nChargeGr; g++)
+    chargeGr[g] = new TGraph();
+  chargeGr[gGoldenSum]->SetName("chargeGrGoldenSum");
+  chargeGr[gAllBinsSum]->SetName("chargeGrAllBinsSum");
+  chargeGr[gRunMaxMinusMin]->SetName("chargeGrRunMaxMinusMin");
+  chargeGr[gFracDiff]->SetName("chargeGrFracDiff");
+  std::cout << "CHARGE CROSS CHECK" << std::endl << "==================" << std::endl;
+  std::cout << "    (1) run num       (2) golden files' sum       (3) all files' sum       (4) run's max-min       100 * [1 - (3)/(4)]" << std::endl;
+  for(auto const& [run_num, charge_hash] : chargeTot) {
+    auto runCharge = charge_hash.at(kFullRunMax) - charge_hash.at(kFullRunMin);
+    auto fracDiff  = (1 - charge_hash.at(kAllFiles) / runCharge);
+    chargeGr[gGoldenSum]->AddPoint(run_num,charge_hash.at(kGoldenFiles));
+    chargeGr[gAllBinsSum]->AddPoint(run_num,charge_hash.at(kAllFiles));
+    chargeGr[gRunMaxMinusMin]->AddPoint(run_num,runCharge);
+    chargeGr[gFracDiff]->AddPoint(run_num,fracDiff);
+    std::cout << ">>> " <<
+      run_num << "       " <<
+      charge_hash.at(kGoldenFiles) << "       " <<
+      charge_hash.at(kAllFiles) << "       " <<
+      runCharge << "       " <<
+      100.0 * fracDiff << "%" <<
+      std::endl;
+  }
+
   // draw plots
+  Int_t padnum;
+
+  auto canv0 = new TCanvas();
+  canv0->Divide(1,2);
+  for(int i=1; i<=2; i++)
+    canv0->GetPad(i)->SetGrid(1,1);
+  chargeGr[gGoldenSum]->SetMarkerColor(kOrange);
+  chargeGr[gAllBinsSum]->SetMarkerColor(kRed+1);
+  chargeGr[gRunMaxMinusMin]->SetMarkerColor(kBlue-4);
+  chargeGr[gFracDiff]->SetMarkerColor(kGreen+1);
+  for(int g=0; g<nChargeGr; g++) {
+    chargeGr[g]->SetMarkerStyle(kFullCircle);
+  }
+  auto chargeMgr = new TMultiGraph();
+  chargeMgr->SetName("chargeMgr");
+  chargeMgr->Add(chargeGr[gGoldenSum]);
+  chargeMgr->Add(chargeGr[gAllBinsSum]);
+  chargeMgr->Add(chargeGr[gRunMaxMinusMin]);
+  chargeMgr->SetTitle("Charge per run;run number;charge [nC]");
+  chargeGr[gFracDiff]->SetTitle("Charge Fractional Difference per run;run number;frac. diff.");
+  canv0->cd(1);
+  chargeMgr->Draw("ap");
+  canv0->cd(2);
+  chargeGr[gFracDiff]->Draw("ap");
+
   auto canv1 = new TCanvas();
   canv1->Divide(2,2);
-  Int_t padnum = 1;
+  padnum = 1;
   for(auto const& [r, c] : runsets) {
     auto pad = canv1->GetPad(padnum++);
     // pad->SetLogy();
@@ -132,19 +184,5 @@ void analyzeGapCharge(TString datFileN = "charge_gaps.dat") {
     auto pad = canv4->GetPad(padnum++);
     pad->cd();
     ratVsBinNum.at(r)->Draw("ap");
-  }
-
-  // cross check the accumulated charge
-  std::cout << "CHARGE CROSS CHECK" << std::endl << "==================" << std::endl;
-  std::cout << "    (1) run num       (2) golden files' sum       (3) all files' sum       (4) run's max-min       100 * [1 - (3)/(4)]" << std::endl;
-  for(auto const& [run_num, charge_hash] : chargeTot) {
-    auto runCharge = charge_hash.at(kFullRunMax) - charge_hash.at(kFullRunMin);
-    std::cout << ">>> " <<
-      run_num << "       " <<
-      charge_hash.at(kGoldenFiles) << "       " <<
-      charge_hash.at(kAllFiles) << "       " <<
-      runCharge << "       " <<
-      100.0 * (1 - charge_hash.at(kAllFiles) / runCharge) << "%" <<
-      std::endl;
   }
 }
