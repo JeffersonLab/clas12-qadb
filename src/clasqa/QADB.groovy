@@ -190,7 +190,7 @@ class QADB {
   public int getEvnumMin() { return found ? evnumMin : -1 }
   public int getEvnumMax() { return found ? evnumMax : -1 }
   public double getCharge() {
-    System.err.println "ERROR: the charge stored in the Pass1 QADB for Run Groups A, B, K, and M is NOT correct! This will be fixed for their Pass 2 data sets."
+    System.err.println "WARNING: the charge stored in the Pass 1 QADB for Run Groups A, B, K, and M is NOT quite correct, and may be off by ~1%, depending on the particular runs! This will be fixed for their Pass 2 data sets."
     return found ? charge : -1
   }
   // --- access QA info
@@ -354,7 +354,7 @@ class QADB {
   // -- accessor
   // call this method at the end of your event loop
   public double getAccumulatedCharge() {
-    System.err.println "ERROR: the charge stored in the Pass1 QADB for Run Groups A, B, K, and M is NOT correct! This will be fixed for their Pass 2 data sets."
+    System.err.println "WARNING: the charge stored in the Pass 1 QADB for Run Groups A, B, K, and M is NOT quite correct, and may be off by ~1%, depending on the particular runs! This will be fixed for their Pass 2 data sets."
     return chargeTotal
   }
   // reset accumulated charge, if you ever need to
