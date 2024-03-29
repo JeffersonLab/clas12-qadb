@@ -1,4 +1,4 @@
-![QADB](/util/logo.png)
+![QADB](/doc/logo.png)
 
 # CLAS12 Quality Assurance Database
 Provides storage of and access to the QA monitoring results for the 
@@ -14,6 +14,9 @@ CLAS12 experiment at Jefferson Lab
 
 <a name="info"></a>
 # QA Information
+
+> [!CAUTION]
+> The QADB for older data sets may have some issues. It is **HIGHLY recommended** to [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
 
 ## Available Data Sets
 The following tables describe the available datasets in the QADB. The columns are:
