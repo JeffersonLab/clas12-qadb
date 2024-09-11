@@ -229,6 +229,16 @@ namespace QA {
     defectNameMap.insert(std::pair<std::string,int>("TerminalOutlierFT",nbits++));
     defectNameMap.insert(std::pair<std::string,int>("MarginalOutlierFT",nbits++));
     defectNameMap.insert(std::pair<std::string,int>("LossFT",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("BSAWrong",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("BSAUnknown",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("TSAWrong",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("TSAUnknown",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("DSAWrong",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("DSAUnknown",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("ChargeHigh",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("ChargeNegative",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("ChargeUnknown",nbits++));
+    defectNameMap.insert(std::pair<std::string,int>("PossiblyNoBeam",nbits++));
 
 
     // defect mask used for asymmetry analysis
