@@ -6027,56 +6027,56 @@ RUN: 16178
 16178 89  GOLDEN
 16178 90  GOLDEN
 16178 91  GOLDEN
-16178 92  GOLDEN
-16178 93  GOLDEN
-16178 94  GOLDEN
-16178 95  GOLDEN
-16178 96  GOLDEN
-16178 97  GOLDEN
-16178 98  GOLDEN
-16178 99  GOLDEN
-16178 100  GOLDEN
-16178 101  GOLDEN
-16178 102  GOLDEN
-16178 103  GOLDEN
-16178 104  GOLDEN
-16178 105  GOLDEN
-16178 106  GOLDEN
-16178 107  GOLDEN
-16178 108  GOLDEN
-16178 109  GOLDEN
-16178 110  GOLDEN
-16178 111  GOLDEN
-16178 112  GOLDEN
-16178 113  GOLDEN
-16178 114  GOLDEN
-16178 115  GOLDEN
-16178 116  GOLDEN
-16178 117  GOLDEN
-16178 118  GOLDEN
-16178 119  GOLDEN
-16178 120  GOLDEN
-16178 121  GOLDEN
-16178 122  GOLDEN
-16178 123  GOLDEN
-16178 124  GOLDEN
-16178 125  GOLDEN
-16178 126  GOLDEN
-16178 127  GOLDEN
-16178 128  GOLDEN
-16178 129  GOLDEN
-16178 130  GOLDEN
-16178 131  GOLDEN
-16178 132  GOLDEN
-16178 133  GOLDEN
-16178 134  GOLDEN
-16178 135  GOLDEN
-16178 136  GOLDEN
-16178 137  GOLDEN
-16178 138  GOLDEN
-16178 139  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16178 140  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16178 141  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16178 92  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 93  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 94  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 95  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 96  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 97  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 98  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 99  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 100  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 101  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 102  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 103  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 104  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 105  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 106  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 107  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 108  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 109  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 110  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 111  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 112  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 113  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 114  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 115  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 116  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 117  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 118  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 119  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 120  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 121  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 122  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 123  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 124  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 125  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 126  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 127  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 128  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 129  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 130  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 131  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 132  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 133  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 134  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 135  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 136  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 137  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 138  GOLDEN  :: slightly higher beam current 4.5 nA
+16178 139  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: slightly higher beam current 4.5 nA
+16178 140  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: slightly higher beam current 4.5 nA
+16178 141  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: slightly higher beam current 4.5 nA
 
 RUN: 16184
 16184 0  1-TerminalOutlier[2, 3, 4, 5, 6]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: empty target
@@ -9297,162 +9297,162 @@ RUN: 16233
 16233 261  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 16234
-16234 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16234 1  0-TotalOutlier[4]  2-MarginalOutlier[1, 2, 5]
-16234 2  2-MarginalOutlier[4]
-16234 3  2-MarginalOutlier[4]
-16234 4  2-MarginalOutlier[4]
-16234 5  2-MarginalOutlier[4]
-16234 6  2-MarginalOutlier[4]
-16234 7  2-MarginalOutlier[4]
-16234 8  2-MarginalOutlier[4]
-16234 9  2-MarginalOutlier[4]
-16234 10  2-MarginalOutlier[4]
-16234 11  2-MarginalOutlier[4]
-16234 12  2-MarginalOutlier[4]
-16234 13  2-MarginalOutlier[4]
-16234 14  2-MarginalOutlier[4]
-16234 15  2-MarginalOutlier[4]
-16234 16  2-MarginalOutlier[4]
-16234 17  2-MarginalOutlier[4]
-16234 18  GOLDEN
-16234 19  0-TotalOutlier[4]  2-MarginalOutlier[1, 2, 3, 5, 6]  8-MarginalOutlierFT[1]  19-PossiblyNoBeam[all]
-16234 20  2-MarginalOutlier[4]
-16234 21  2-MarginalOutlier[4]
-16234 22  2-MarginalOutlier[4]
-16234 23  2-MarginalOutlier[4]
-16234 24  2-MarginalOutlier[4]
-16234 25  2-MarginalOutlier[4]
-16234 26  2-MarginalOutlier[4]
-16234 27  0-TotalOutlier[4]
-16234 28  2-MarginalOutlier[4]
-16234 29  2-MarginalOutlier[4]
-16234 30  2-MarginalOutlier[4]
-16234 31  2-MarginalOutlier[4]
-16234 32  0-TotalOutlier[4]
-16234 33  2-MarginalOutlier[4]
-16234 34  2-MarginalOutlier[4]
-16234 35  2-MarginalOutlier[4]
-16234 36  2-MarginalOutlier[4]
-16234 37  2-MarginalOutlier[4]
-16234 38  2-MarginalOutlier[4]
-16234 39  2-MarginalOutlier[4]
-16234 40  2-MarginalOutlier[4]
-16234 41  2-MarginalOutlier[4]
-16234 42  2-MarginalOutlier[4]
-16234 43  2-MarginalOutlier[4]
-16234 44  2-MarginalOutlier[4]
-16234 45  0-TotalOutlier[4]
-16234 46  2-MarginalOutlier[4]
-16234 47  2-MarginalOutlier[4]
-16234 48  2-MarginalOutlier[4]
-16234 49  2-MarginalOutlier[4]
-16234 50  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16234 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[4]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 1  0-TotalOutlier[4]  2-MarginalOutlier[1, 2, 5]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 2  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 3  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 4  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 5  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 6  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 7  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 8  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 9  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 10  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 11  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 12  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 13  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 14  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 15  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 16  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 17  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 18  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 19  0-TotalOutlier[4]  2-MarginalOutlier[1, 2, 3, 5, 6]  5-Misc[4]  8-MarginalOutlierFT[1]  19-PossiblyNoBeam[all]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 20  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 21  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 22  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 23  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 24  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 25  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 26  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 27  0-TotalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 28  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 29  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 30  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 31  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 32  0-TotalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 33  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 34  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 35  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 36  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 37  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 38  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 39  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 40  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 41  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 42  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 43  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 44  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 45  0-TotalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 46  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 47  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 48  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 49  2-MarginalOutlier[4]  5-Misc[4]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
+16234 50  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[4]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: sector 4 has Problems with RF2, FTOF, ECAL, tdc, N/F is lower but within range
 
 RUN: 16235
-16235 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16235 1  GOLDEN
-16235 2  GOLDEN
-16235 3  GOLDEN
-16235 4  GOLDEN
-16235 5  GOLDEN
-16235 6  GOLDEN
-16235 7  GOLDEN
-16235 8  GOLDEN
-16235 9  GOLDEN
-16235 10  GOLDEN
-16235 11  GOLDEN
-16235 12  GOLDEN
-16235 13  GOLDEN
-16235 14  GOLDEN
-16235 15  GOLDEN
-16235 16  GOLDEN
-16235 17  GOLDEN
-16235 18  GOLDEN
-16235 19  GOLDEN
-16235 20  GOLDEN
-16235 21  GOLDEN
-16235 22  GOLDEN
-16235 23  GOLDEN
-16235 24  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16235 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 1  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 2  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 3  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 4  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 5  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 6  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 7  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 8  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 9  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 10  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 11  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 12  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 13  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 14  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 15  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 16  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 17  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 18  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 19  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 20  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 21  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 22  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 23  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16235 24  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
 
 RUN: 16236
-16236 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16236 1  4-LowLiveTime[all]
-16236 2  GOLDEN
-16236 3  GOLDEN
-16236 4  GOLDEN
-16236 5  GOLDEN
-16236 6  GOLDEN
-16236 7  GOLDEN
-16236 8  GOLDEN
-16236 9  GOLDEN
-16236 10  GOLDEN
-16236 11  GOLDEN
-16236 12  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16236 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16236 14  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16236 15  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16236 16  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16236 17  2-MarginalOutlier[3]
-16236 18  GOLDEN
-16236 19  GOLDEN
-16236 20  GOLDEN
-16236 21  GOLDEN
-16236 22  GOLDEN
-16236 23  GOLDEN
-16236 24  GOLDEN
-16236 25  GOLDEN
-16236 26  GOLDEN
-16236 27  GOLDEN
-16236 28  GOLDEN
-16236 29  GOLDEN
-16236 30  GOLDEN
-16236 31  GOLDEN
-16236 32  GOLDEN
-16236 33  GOLDEN
-16236 34  GOLDEN
-16236 35  GOLDEN
-16236 36  GOLDEN
-16236 37  GOLDEN
-16236 38  GOLDEN
-16236 39  GOLDEN
-16236 40  GOLDEN
-16236 41  GOLDEN
-16236 42  GOLDEN
-16236 43  GOLDEN
-16236 44  GOLDEN
-16236 45  GOLDEN
-16236 46  GOLDEN
-16236 47  GOLDEN
-16236 48  GOLDEN
-16236 49  GOLDEN
-16236 50  GOLDEN
-16236 51  GOLDEN
-16236 52  GOLDEN
-16236 53  GOLDEN
-16236 54  GOLDEN
-16236 55  GOLDEN
-16236 56  GOLDEN
-16236 57  GOLDEN
-16236 58  GOLDEN
-16236 59  GOLDEN
-16236 60  GOLDEN
-16236 61  GOLDEN
-16236 62  GOLDEN
-16236 63  2-MarginalOutlier[1, 2, 4, 6]
-16236 64  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-16236 65  GOLDEN
-16236 66  GOLDEN
-16236 67  GOLDEN
-16236 68  GOLDEN
-16236 69  GOLDEN
-16236 70  GOLDEN
-16236 71  GOLDEN
-16236 72  GOLDEN
-16236 73  GOLDEN
-16236 74  GOLDEN
-16236 75  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16236 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 1  4-LowLiveTime[all]  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 2  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 3  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 4  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 5  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 6  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 7  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 8  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 9  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 10  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 11  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 12  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 13  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 14  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 15  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 16  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 17  2-MarginalOutlier[3]  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 18  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 19  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 20  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 21  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 22  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 23  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 24  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 25  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 26  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 27  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 28  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 29  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 30  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 31  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 32  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 33  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 34  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 35  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 36  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 37  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 38  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 39  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 40  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 41  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 42  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 43  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 44  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 45  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 46  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 47  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 48  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 49  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 50  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 51  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 52  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 53  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 54  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 55  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 56  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 57  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 58  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 59  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 60  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 61  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 62  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 63  2-MarginalOutlier[1, 2, 4, 6]  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 64  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 65  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 66  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 67  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 68  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 69  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 70  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 71  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 72  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 73  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 74  5-Misc[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
+16236 75  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: issues with how slow RF diff, tdc phase, helicity plots filling
 
 RUN: 16238
 16238 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -9494,176 +9494,176 @@ RUN: 16238
 16238 36  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 16243
-16243 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16243 1  GOLDEN
-16243 2  GOLDEN
-16243 3  GOLDEN
-16243 4  GOLDEN
-16243 5  GOLDEN
-16243 6  GOLDEN
-16243 7  GOLDEN
-16243 8  GOLDEN
-16243 9  GOLDEN
-16243 10  GOLDEN
-16243 11  GOLDEN
-16243 12  GOLDEN
-16243 13  GOLDEN
-16243 14  GOLDEN
-16243 15  GOLDEN
-16243 16  GOLDEN
-16243 17  GOLDEN
-16243 18  GOLDEN
-16243 19  GOLDEN
-16243 20  GOLDEN
-16243 21  GOLDEN
-16243 22  GOLDEN
-16243 23  GOLDEN
-16243 24  GOLDEN
-16243 25  GOLDEN
-16243 26  GOLDEN
-16243 27  GOLDEN
-16243 28  GOLDEN
-16243 29  GOLDEN
-16243 30  GOLDEN
-16243 31  GOLDEN
-16243 32  GOLDEN
-16243 33  GOLDEN
-16243 34  GOLDEN
-16243 35  GOLDEN
-16243 36  GOLDEN
-16243 37  GOLDEN
-16243 38  GOLDEN
-16243 39  GOLDEN
-16243 40  GOLDEN
-16243 41  GOLDEN
-16243 42  GOLDEN
-16243 43  GOLDEN
-16243 44  GOLDEN
-16243 45  GOLDEN
-16243 46  GOLDEN
-16243 47  GOLDEN
-16243 48  GOLDEN
-16243 49  GOLDEN
-16243 50  GOLDEN
-16243 51  GOLDEN
-16243 52  GOLDEN
-16243 53  GOLDEN
-16243 54  GOLDEN
-16243 55  GOLDEN
-16243 56  GOLDEN
-16243 57  GOLDEN
-16243 58  GOLDEN
-16243 59  GOLDEN
-16243 60  GOLDEN
-16243 61  GOLDEN
-16243 62  GOLDEN
-16243 63  GOLDEN
-16243 64  GOLDEN
-16243 65  GOLDEN
-16243 66  GOLDEN
-16243 67  GOLDEN
-16243 68  GOLDEN
-16243 69  GOLDEN
-16243 70  GOLDEN
-16243 71  GOLDEN
-16243 72  GOLDEN
-16243 73  GOLDEN
-16243 74  GOLDEN
-16243 75  GOLDEN
-16243 76  GOLDEN
-16243 77  GOLDEN
-16243 78  GOLDEN
-16243 79  GOLDEN
-16243 80  GOLDEN
-16243 81  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16243 82  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16243 83  GOLDEN
-16243 84  GOLDEN
-16243 85  GOLDEN
-16243 86  GOLDEN
-16243 87  GOLDEN
-16243 88  GOLDEN
-16243 89  GOLDEN
-16243 90  GOLDEN
-16243 91  GOLDEN
-16243 92  GOLDEN
-16243 93  GOLDEN
-16243 94  GOLDEN
-16243 95  GOLDEN
-16243 96  GOLDEN
-16243 97  GOLDEN
-16243 98  GOLDEN
-16243 99  GOLDEN
-16243 100  GOLDEN
-16243 101  GOLDEN
-16243 102  GOLDEN
-16243 103  GOLDEN
-16243 104  GOLDEN
-16243 105  GOLDEN
-16243 106  GOLDEN
-16243 107  GOLDEN
-16243 108  GOLDEN
-16243 109  GOLDEN
-16243 110  GOLDEN
-16243 111  GOLDEN
-16243 112  GOLDEN
-16243 113  GOLDEN
-16243 114  GOLDEN
-16243 115  GOLDEN
-16243 116  GOLDEN
-16243 117  GOLDEN
-16243 118  2-MarginalOutlier[2]
-16243 119  GOLDEN
-16243 120  GOLDEN
-16243 121  GOLDEN
-16243 122  GOLDEN
-16243 123  GOLDEN
-16243 124  GOLDEN
-16243 125  GOLDEN
-16243 126  GOLDEN
-16243 127  GOLDEN
-16243 128  GOLDEN
-16243 129  GOLDEN
-16243 130  GOLDEN
-16243 131  GOLDEN
-16243 132  GOLDEN
-16243 133  GOLDEN
-16243 134  GOLDEN
-16243 135  GOLDEN
-16243 136  GOLDEN
-16243 137  GOLDEN
-16243 138  GOLDEN
-16243 139  GOLDEN
-16243 140  GOLDEN
-16243 141  GOLDEN
-16243 142  GOLDEN
-16243 143  GOLDEN
-16243 144  GOLDEN
-16243 145  GOLDEN
-16243 146  GOLDEN
-16243 147  GOLDEN
-16243 148  GOLDEN
-16243 149  GOLDEN
-16243 150  GOLDEN
-16243 151  GOLDEN
-16243 152  GOLDEN
-16243 153  GOLDEN
-16243 154  GOLDEN
-16243 155  GOLDEN
-16243 156  GOLDEN
-16243 157  GOLDEN
-16243 158  GOLDEN
-16243 159  GOLDEN
-16243 160  GOLDEN
-16243 161  GOLDEN
-16243 162  GOLDEN
-16243 163  GOLDEN
-16243 164  GOLDEN
-16243 165  GOLDEN
-16243 166  GOLDEN
-16243 167  GOLDEN
-16243 168  GOLDEN
-16243 169  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16243 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: double rate from FT
+16243 1  5-Misc[all]  :: double rate from FT
+16243 2  5-Misc[all]  :: double rate from FT
+16243 3  5-Misc[all]  :: double rate from FT
+16243 4  5-Misc[all]  :: double rate from FT
+16243 5  5-Misc[all]  :: double rate from FT
+16243 6  5-Misc[all]  :: double rate from FT
+16243 7  5-Misc[all]  :: double rate from FT
+16243 8  5-Misc[all]  :: double rate from FT
+16243 9  5-Misc[all]  :: double rate from FT
+16243 10  5-Misc[all]  :: double rate from FT
+16243 11  5-Misc[all]  :: double rate from FT
+16243 12  5-Misc[all]  :: double rate from FT
+16243 13  5-Misc[all]  :: double rate from FT
+16243 14  5-Misc[all]  :: double rate from FT
+16243 15  5-Misc[all]  :: double rate from FT
+16243 16  5-Misc[all]  :: double rate from FT
+16243 17  5-Misc[all]  :: double rate from FT
+16243 18  5-Misc[all]  :: double rate from FT
+16243 19  5-Misc[all]  :: double rate from FT
+16243 20  5-Misc[all]  :: double rate from FT
+16243 21  5-Misc[all]  :: double rate from FT
+16243 22  5-Misc[all]  :: double rate from FT
+16243 23  5-Misc[all]  :: double rate from FT
+16243 24  5-Misc[all]  :: double rate from FT
+16243 25  5-Misc[all]  :: double rate from FT
+16243 26  5-Misc[all]  :: double rate from FT
+16243 27  5-Misc[all]  :: double rate from FT
+16243 28  5-Misc[all]  :: double rate from FT
+16243 29  5-Misc[all]  :: double rate from FT
+16243 30  5-Misc[all]  :: double rate from FT
+16243 31  5-Misc[all]  :: double rate from FT
+16243 32  5-Misc[all]  :: double rate from FT
+16243 33  5-Misc[all]  :: double rate from FT
+16243 34  5-Misc[all]  :: double rate from FT
+16243 35  5-Misc[all]  :: double rate from FT
+16243 36  5-Misc[all]  :: double rate from FT
+16243 37  5-Misc[all]  :: double rate from FT
+16243 38  5-Misc[all]  :: double rate from FT
+16243 39  5-Misc[all]  :: double rate from FT
+16243 40  5-Misc[all]  :: double rate from FT
+16243 41  5-Misc[all]  :: double rate from FT
+16243 42  5-Misc[all]  :: double rate from FT
+16243 43  5-Misc[all]  :: double rate from FT
+16243 44  5-Misc[all]  :: double rate from FT
+16243 45  5-Misc[all]  :: double rate from FT
+16243 46  5-Misc[all]  :: double rate from FT
+16243 47  5-Misc[all]  :: double rate from FT
+16243 48  5-Misc[all]  :: double rate from FT
+16243 49  5-Misc[all]  :: double rate from FT
+16243 50  5-Misc[all]  :: double rate from FT
+16243 51  5-Misc[all]  :: double rate from FT
+16243 52  5-Misc[all]  :: double rate from FT
+16243 53  5-Misc[all]  :: double rate from FT
+16243 54  5-Misc[all]  :: double rate from FT
+16243 55  5-Misc[all]  :: double rate from FT
+16243 56  5-Misc[all]  :: double rate from FT
+16243 57  5-Misc[all]  :: double rate from FT
+16243 58  5-Misc[all]  :: double rate from FT
+16243 59  5-Misc[all]  :: double rate from FT
+16243 60  5-Misc[all]  :: double rate from FT
+16243 61  5-Misc[all]  :: double rate from FT
+16243 62  5-Misc[all]  :: double rate from FT
+16243 63  5-Misc[all]  :: double rate from FT
+16243 64  5-Misc[all]  :: double rate from FT
+16243 65  5-Misc[all]  :: double rate from FT
+16243 66  5-Misc[all]  :: double rate from FT
+16243 67  5-Misc[all]  :: double rate from FT
+16243 68  5-Misc[all]  :: double rate from FT
+16243 69  5-Misc[all]  :: double rate from FT
+16243 70  5-Misc[all]  :: double rate from FT
+16243 71  5-Misc[all]  :: double rate from FT
+16243 72  5-Misc[all]  :: double rate from FT
+16243 73  5-Misc[all]  :: double rate from FT
+16243 74  5-Misc[all]  :: double rate from FT
+16243 75  5-Misc[all]  :: double rate from FT
+16243 76  5-Misc[all]  :: double rate from FT
+16243 77  5-Misc[all]  :: double rate from FT
+16243 78  5-Misc[all]  :: double rate from FT
+16243 79  5-Misc[all]  :: double rate from FT
+16243 80  5-Misc[all]  :: double rate from FT
+16243 81  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: double rate from FT
+16243 82  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: double rate from FT
+16243 83  5-Misc[all]  :: double rate from FT
+16243 84  5-Misc[all]  :: double rate from FT
+16243 85  5-Misc[all]  :: double rate from FT
+16243 86  5-Misc[all]  :: double rate from FT
+16243 87  5-Misc[all]  :: double rate from FT
+16243 88  5-Misc[all]  :: double rate from FT
+16243 89  5-Misc[all]  :: double rate from FT
+16243 90  5-Misc[all]  :: double rate from FT
+16243 91  5-Misc[all]  :: double rate from FT
+16243 92  5-Misc[all]  :: double rate from FT
+16243 93  5-Misc[all]  :: double rate from FT
+16243 94  5-Misc[all]  :: double rate from FT
+16243 95  5-Misc[all]  :: double rate from FT
+16243 96  5-Misc[all]  :: double rate from FT
+16243 97  5-Misc[all]  :: double rate from FT
+16243 98  5-Misc[all]  :: double rate from FT
+16243 99  5-Misc[all]  :: double rate from FT
+16243 100  5-Misc[all]  :: double rate from FT
+16243 101  5-Misc[all]  :: double rate from FT
+16243 102  5-Misc[all]  :: double rate from FT
+16243 103  5-Misc[all]  :: double rate from FT
+16243 104  5-Misc[all]  :: double rate from FT
+16243 105  5-Misc[all]  :: double rate from FT
+16243 106  5-Misc[all]  :: double rate from FT
+16243 107  5-Misc[all]  :: double rate from FT
+16243 108  5-Misc[all]  :: double rate from FT
+16243 109  5-Misc[all]  :: double rate from FT
+16243 110  5-Misc[all]  :: double rate from FT
+16243 111  5-Misc[all]  :: double rate from FT
+16243 112  5-Misc[all]  :: double rate from FT
+16243 113  5-Misc[all]  :: double rate from FT
+16243 114  5-Misc[all]  :: double rate from FT
+16243 115  5-Misc[all]  :: double rate from FT
+16243 116  5-Misc[all]  :: double rate from FT
+16243 117  5-Misc[all]  :: double rate from FT
+16243 118  2-MarginalOutlier[2]  5-Misc[all]  :: double rate from FT
+16243 119  5-Misc[all]  :: double rate from FT
+16243 120  5-Misc[all]  :: double rate from FT
+16243 121  5-Misc[all]  :: double rate from FT
+16243 122  5-Misc[all]  :: double rate from FT
+16243 123  5-Misc[all]  :: double rate from FT
+16243 124  5-Misc[all]  :: double rate from FT
+16243 125  5-Misc[all]  :: double rate from FT
+16243 126  5-Misc[all]  :: double rate from FT
+16243 127  5-Misc[all]  :: double rate from FT
+16243 128  5-Misc[all]  :: double rate from FT
+16243 129  5-Misc[all]  :: double rate from FT
+16243 130  5-Misc[all]  :: double rate from FT
+16243 131  5-Misc[all]  :: double rate from FT
+16243 132  5-Misc[all]  :: double rate from FT
+16243 133  5-Misc[all]  :: double rate from FT
+16243 134  5-Misc[all]  :: double rate from FT
+16243 135  5-Misc[all]  :: double rate from FT
+16243 136  5-Misc[all]  :: double rate from FT
+16243 137  5-Misc[all]  :: double rate from FT
+16243 138  5-Misc[all]  :: double rate from FT
+16243 139  5-Misc[all]  :: double rate from FT
+16243 140  5-Misc[all]  :: double rate from FT
+16243 141  5-Misc[all]  :: double rate from FT
+16243 142  5-Misc[all]  :: double rate from FT
+16243 143  5-Misc[all]  :: double rate from FT
+16243 144  5-Misc[all]  :: double rate from FT
+16243 145  5-Misc[all]  :: double rate from FT
+16243 146  5-Misc[all]  :: double rate from FT
+16243 147  5-Misc[all]  :: double rate from FT
+16243 148  5-Misc[all]  :: double rate from FT
+16243 149  5-Misc[all]  :: double rate from FT
+16243 150  5-Misc[all]  :: double rate from FT
+16243 151  5-Misc[all]  :: double rate from FT
+16243 152  5-Misc[all]  :: double rate from FT
+16243 153  5-Misc[all]  :: double rate from FT
+16243 154  5-Misc[all]  :: double rate from FT
+16243 155  5-Misc[all]  :: double rate from FT
+16243 156  5-Misc[all]  :: double rate from FT
+16243 157  5-Misc[all]  :: double rate from FT
+16243 158  5-Misc[all]  :: double rate from FT
+16243 159  5-Misc[all]  :: double rate from FT
+16243 160  5-Misc[all]  :: double rate from FT
+16243 161  5-Misc[all]  :: double rate from FT
+16243 162  5-Misc[all]  :: double rate from FT
+16243 163  5-Misc[all]  :: double rate from FT
+16243 164  5-Misc[all]  :: double rate from FT
+16243 165  5-Misc[all]  :: double rate from FT
+16243 166  5-Misc[all]  :: double rate from FT
+16243 167  5-Misc[all]  :: double rate from FT
+16243 168  5-Misc[all]  :: double rate from FT
+16243 169  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: double rate from FT
 
 RUN: 16244
 16244 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -11952,55 +11952,55 @@ RUN: 16260
 16260 132  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 16262
-16262 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16262 1  GOLDEN
-16262 2  GOLDEN
-16262 3  GOLDEN
-16262 4  GOLDEN
-16262 5  GOLDEN
-16262 6  GOLDEN
-16262 7  GOLDEN
-16262 8  GOLDEN
-16262 9  GOLDEN
-16262 10  GOLDEN
-16262 11  GOLDEN
-16262 12  GOLDEN
-16262 13  GOLDEN
-16262 14  GOLDEN
-16262 15  GOLDEN
-16262 16  GOLDEN
-16262 17  GOLDEN
-16262 18  GOLDEN
-16262 19  GOLDEN
-16262 20  GOLDEN
-16262 21  GOLDEN
-16262 22  GOLDEN
-16262 23  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16262 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: raster optimization
+16262 1  5-Misc[all]  :: raster optimization
+16262 2  5-Misc[all]  :: raster optimization
+16262 3  5-Misc[all]  :: raster optimization
+16262 4  5-Misc[all]  :: raster optimization
+16262 5  5-Misc[all]  :: raster optimization
+16262 6  5-Misc[all]  :: raster optimization
+16262 7  5-Misc[all]  :: raster optimization
+16262 8  5-Misc[all]  :: raster optimization
+16262 9  5-Misc[all]  :: raster optimization
+16262 10  5-Misc[all]  :: raster optimization
+16262 11  5-Misc[all]  :: raster optimization
+16262 12  5-Misc[all]  :: raster optimization
+16262 13  5-Misc[all]  :: raster optimization
+16262 14  5-Misc[all]  :: raster optimization
+16262 15  5-Misc[all]  :: raster optimization
+16262 16  5-Misc[all]  :: raster optimization
+16262 17  5-Misc[all]  :: raster optimization
+16262 18  5-Misc[all]  :: raster optimization
+16262 19  5-Misc[all]  :: raster optimization
+16262 20  5-Misc[all]  :: raster optimization
+16262 21  5-Misc[all]  :: raster optimization
+16262 22  5-Misc[all]  :: raster optimization
+16262 23  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: raster optimization
 
 RUN: 16263
-16263 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]
-16263 1  4-LowLiveTime[all]  11-BSAUnknown[all]
-16263 2  11-BSAUnknown[all]
-16263 3  11-BSAUnknown[all]
-16263 4  11-BSAUnknown[all]
-16263 5  11-BSAUnknown[all]
-16263 6  11-BSAUnknown[all]
-16263 7  11-BSAUnknown[all]
-16263 8  11-BSAUnknown[all]
-16263 9  11-BSAUnknown[all]
-16263 10  11-BSAUnknown[all]
-16263 11  11-BSAUnknown[all]
-16263 12  11-BSAUnknown[all]
-16263 13  11-BSAUnknown[all]
-16263 14  11-BSAUnknown[all]
-16263 15  11-BSAUnknown[all]
-16263 16  11-BSAUnknown[all]
-16263 17  11-BSAUnknown[all]
-16263 18  11-BSAUnknown[all]
-16263 19  11-BSAUnknown[all]
-16263 20  11-BSAUnknown[all]
-16263 21  11-BSAUnknown[all]
-16263 22  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]
+16263 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: new Vpp raster test run
+16263 1  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 2  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 3  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 4  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 5  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 6  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 7  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 8  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 9  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 10  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 11  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 12  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 13  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 14  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 15  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 16  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 17  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 18  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 19  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 20  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 21  5-Misc[all]  11-BSAUnknown[all]  :: new Vpp raster test run
+16263 22  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: new Vpp raster test run
 
 RUN: 16270
 16270 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -12211,190 +12211,190 @@ RUN: 16271
 16271 47  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 16273
-16273 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16273 1  4-LowLiveTime[all]
-16273 2  GOLDEN
-16273 3  GOLDEN
-16273 4  GOLDEN
-16273 5  GOLDEN
-16273 6  GOLDEN
-16273 7  GOLDEN
-16273 8  GOLDEN
-16273 9  GOLDEN
-16273 10  GOLDEN
-16273 11  GOLDEN
-16273 12  GOLDEN
-16273 13  GOLDEN
-16273 14  GOLDEN
-16273 15  GOLDEN
-16273 16  GOLDEN
-16273 17  GOLDEN
-16273 18  GOLDEN
-16273 19  GOLDEN
-16273 20  GOLDEN
-16273 21  GOLDEN
-16273 22  GOLDEN
-16273 23  GOLDEN
-16273 24  GOLDEN
-16273 25  GOLDEN
-16273 26  GOLDEN
-16273 27  GOLDEN
-16273 28  GOLDEN
-16273 29  GOLDEN
-16273 30  GOLDEN
-16273 31  GOLDEN
-16273 32  GOLDEN
-16273 33  GOLDEN
-16273 34  GOLDEN
-16273 35  GOLDEN
-16273 36  GOLDEN
-16273 37  GOLDEN
-16273 38  GOLDEN
-16273 39  2-MarginalOutlier[2, 4]
-16273 40  GOLDEN
-16273 41  GOLDEN
-16273 42  GOLDEN
-16273 43  GOLDEN
-16273 44  GOLDEN
-16273 45  GOLDEN
-16273 46  GOLDEN
-16273 47  GOLDEN
-16273 48  GOLDEN
-16273 49  GOLDEN
-16273 50  GOLDEN
-16273 51  GOLDEN
-16273 52  GOLDEN
-16273 53  GOLDEN
-16273 54  GOLDEN
-16273 55  GOLDEN
-16273 56  GOLDEN
-16273 57  GOLDEN
-16273 58  GOLDEN
-16273 59  GOLDEN
-16273 60  2-MarginalOutlier[4]
-16273 61  GOLDEN
-16273 62  GOLDEN
-16273 63  GOLDEN
-16273 64  GOLDEN
-16273 65  GOLDEN
-16273 66  GOLDEN
-16273 67  GOLDEN
-16273 68  GOLDEN
-16273 69  GOLDEN
-16273 70  GOLDEN
-16273 71  GOLDEN
-16273 72  GOLDEN
-16273 73  GOLDEN
-16273 74  GOLDEN
-16273 75  GOLDEN
-16273 76  GOLDEN
-16273 77  GOLDEN
-16273 78  GOLDEN
-16273 79  GOLDEN
-16273 80  GOLDEN
-16273 81  GOLDEN
-16273 82  GOLDEN
-16273 83  GOLDEN
-16273 84  GOLDEN
-16273 85  GOLDEN
-16273 86  GOLDEN
-16273 87  GOLDEN
-16273 88  GOLDEN
-16273 89  GOLDEN
-16273 90  GOLDEN
-16273 91  GOLDEN
-16273 92  GOLDEN
-16273 93  GOLDEN
-16273 94  GOLDEN
-16273 95  GOLDEN
-16273 96  GOLDEN
-16273 97  2-MarginalOutlier[1, 6]
-16273 98  2-MarginalOutlier[1, 2, 4, 6]
-16273 99  GOLDEN
-16273 100  2-MarginalOutlier[1]
-16273 101  GOLDEN
-16273 102  GOLDEN
-16273 103  GOLDEN
-16273 104  GOLDEN
-16273 105  GOLDEN
-16273 106  GOLDEN
-16273 107  GOLDEN
-16273 108  GOLDEN
-16273 109  GOLDEN
-16273 110  GOLDEN
-16273 111  GOLDEN
-16273 112  GOLDEN
-16273 113  GOLDEN
-16273 114  GOLDEN
-16273 115  GOLDEN
-16273 116  GOLDEN
-16273 117  GOLDEN
-16273 118  GOLDEN
-16273 119  GOLDEN
-16273 120  GOLDEN
-16273 121  GOLDEN
-16273 122  GOLDEN
-16273 123  GOLDEN
-16273 124  GOLDEN
-16273 125  GOLDEN
-16273 126  GOLDEN
-16273 127  0-TotalOutlier[1, 3, 4, 5, 6]  2-MarginalOutlier[2]  6-TotalOutlierFT[1]
-16273 128  GOLDEN
-16273 129  GOLDEN
-16273 130  GOLDEN
-16273 131  2-MarginalOutlier[2]
-16273 132  GOLDEN
-16273 133  GOLDEN
-16273 134  GOLDEN
-16273 135  GOLDEN
-16273 136  GOLDEN
-16273 137  GOLDEN
-16273 138  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16273 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: raster optimization
+16273 1  4-LowLiveTime[all]  5-Misc[all]  :: raster optimization
+16273 2  5-Misc[all]  :: raster optimization
+16273 3  5-Misc[all]  :: raster optimization
+16273 4  5-Misc[all]  :: raster optimization
+16273 5  5-Misc[all]  :: raster optimization
+16273 6  5-Misc[all]  :: raster optimization
+16273 7  5-Misc[all]  :: raster optimization
+16273 8  5-Misc[all]  :: raster optimization
+16273 9  5-Misc[all]  :: raster optimization
+16273 10  5-Misc[all]  :: raster optimization
+16273 11  5-Misc[all]  :: raster optimization
+16273 12  5-Misc[all]  :: raster optimization
+16273 13  5-Misc[all]  :: raster optimization
+16273 14  5-Misc[all]  :: raster optimization
+16273 15  5-Misc[all]  :: raster optimization
+16273 16  5-Misc[all]  :: raster optimization
+16273 17  5-Misc[all]  :: raster optimization
+16273 18  5-Misc[all]  :: raster optimization
+16273 19  5-Misc[all]  :: raster optimization
+16273 20  5-Misc[all]  :: raster optimization
+16273 21  5-Misc[all]  :: raster optimization
+16273 22  5-Misc[all]  :: raster optimization
+16273 23  5-Misc[all]  :: raster optimization
+16273 24  5-Misc[all]  :: raster optimization
+16273 25  5-Misc[all]  :: raster optimization
+16273 26  5-Misc[all]  :: raster optimization
+16273 27  5-Misc[all]  :: raster optimization
+16273 28  5-Misc[all]  :: raster optimization
+16273 29  5-Misc[all]  :: raster optimization
+16273 30  5-Misc[all]  :: raster optimization
+16273 31  5-Misc[all]  :: raster optimization
+16273 32  5-Misc[all]  :: raster optimization
+16273 33  5-Misc[all]  :: raster optimization
+16273 34  5-Misc[all]  :: raster optimization
+16273 35  5-Misc[all]  :: raster optimization
+16273 36  5-Misc[all]  :: raster optimization
+16273 37  5-Misc[all]  :: raster optimization
+16273 38  5-Misc[all]  :: raster optimization
+16273 39  2-MarginalOutlier[2, 4]  5-Misc[all]  :: raster optimization
+16273 40  5-Misc[all]  :: raster optimization
+16273 41  5-Misc[all]  :: raster optimization
+16273 42  5-Misc[all]  :: raster optimization
+16273 43  5-Misc[all]  :: raster optimization
+16273 44  5-Misc[all]  :: raster optimization
+16273 45  5-Misc[all]  :: raster optimization
+16273 46  5-Misc[all]  :: raster optimization
+16273 47  5-Misc[all]  :: raster optimization
+16273 48  5-Misc[all]  :: raster optimization
+16273 49  5-Misc[all]  :: raster optimization
+16273 50  5-Misc[all]  :: raster optimization
+16273 51  5-Misc[all]  :: raster optimization
+16273 52  5-Misc[all]  :: raster optimization
+16273 53  5-Misc[all]  :: raster optimization
+16273 54  5-Misc[all]  :: raster optimization
+16273 55  5-Misc[all]  :: raster optimization
+16273 56  5-Misc[all]  :: raster optimization
+16273 57  5-Misc[all]  :: raster optimization
+16273 58  5-Misc[all]  :: raster optimization
+16273 59  5-Misc[all]  :: raster optimization
+16273 60  2-MarginalOutlier[4]  5-Misc[all]  :: raster optimization
+16273 61  5-Misc[all]  :: raster optimization
+16273 62  5-Misc[all]  :: raster optimization
+16273 63  5-Misc[all]  :: raster optimization
+16273 64  5-Misc[all]  :: raster optimization
+16273 65  5-Misc[all]  :: raster optimization
+16273 66  5-Misc[all]  :: raster optimization
+16273 67  5-Misc[all]  :: raster optimization
+16273 68  5-Misc[all]  :: raster optimization
+16273 69  5-Misc[all]  :: raster optimization
+16273 70  5-Misc[all]  :: raster optimization
+16273 71  5-Misc[all]  :: raster optimization
+16273 72  5-Misc[all]  :: raster optimization
+16273 73  5-Misc[all]  :: raster optimization
+16273 74  5-Misc[all]  :: raster optimization
+16273 75  5-Misc[all]  :: raster optimization
+16273 76  5-Misc[all]  :: raster optimization
+16273 77  5-Misc[all]  :: raster optimization
+16273 78  5-Misc[all]  :: raster optimization
+16273 79  5-Misc[all]  :: raster optimization
+16273 80  5-Misc[all]  :: raster optimization
+16273 81  5-Misc[all]  :: raster optimization
+16273 82  5-Misc[all]  :: raster optimization
+16273 83  5-Misc[all]  :: raster optimization
+16273 84  5-Misc[all]  :: raster optimization
+16273 85  5-Misc[all]  :: raster optimization
+16273 86  5-Misc[all]  :: raster optimization
+16273 87  5-Misc[all]  :: raster optimization
+16273 88  5-Misc[all]  :: raster optimization
+16273 89  5-Misc[all]  :: raster optimization
+16273 90  5-Misc[all]  :: raster optimization
+16273 91  5-Misc[all]  :: raster optimization
+16273 92  5-Misc[all]  :: raster optimization
+16273 93  5-Misc[all]  :: raster optimization
+16273 94  5-Misc[all]  :: raster optimization
+16273 95  5-Misc[all]  :: raster optimization
+16273 96  5-Misc[all]  :: raster optimization
+16273 97  2-MarginalOutlier[1, 6]  5-Misc[all]  :: raster optimization
+16273 98  2-MarginalOutlier[1, 2, 4, 6]  5-Misc[all]  :: raster optimization
+16273 99  5-Misc[all]  :: raster optimization
+16273 100  2-MarginalOutlier[1]  5-Misc[all]  :: raster optimization
+16273 101  5-Misc[all]  :: raster optimization
+16273 102  5-Misc[all]  :: raster optimization
+16273 103  5-Misc[all]  :: raster optimization
+16273 104  5-Misc[all]  :: raster optimization
+16273 105  5-Misc[all]  :: raster optimization
+16273 106  5-Misc[all]  :: raster optimization
+16273 107  5-Misc[all]  :: raster optimization
+16273 108  5-Misc[all]  :: raster optimization
+16273 109  5-Misc[all]  :: raster optimization
+16273 110  5-Misc[all]  :: raster optimization
+16273 111  5-Misc[all]  :: raster optimization
+16273 112  5-Misc[all]  :: raster optimization
+16273 113  5-Misc[all]  :: raster optimization
+16273 114  5-Misc[all]  :: raster optimization
+16273 115  5-Misc[all]  :: raster optimization
+16273 116  5-Misc[all]  :: raster optimization
+16273 117  5-Misc[all]  :: raster optimization
+16273 118  5-Misc[all]  :: raster optimization
+16273 119  5-Misc[all]  :: raster optimization
+16273 120  5-Misc[all]  :: raster optimization
+16273 121  5-Misc[all]  :: raster optimization
+16273 122  5-Misc[all]  :: raster optimization
+16273 123  5-Misc[all]  :: raster optimization
+16273 124  5-Misc[all]  :: raster optimization
+16273 125  5-Misc[all]  :: raster optimization
+16273 126  5-Misc[all]  :: raster optimization
+16273 127  0-TotalOutlier[1, 3, 4, 5, 6]  2-MarginalOutlier[2]  5-Misc[all]  6-TotalOutlierFT[1]  :: raster optimization
+16273 128  5-Misc[all]  :: raster optimization
+16273 129  5-Misc[all]  :: raster optimization
+16273 130  5-Misc[all]  :: raster optimization
+16273 131  2-MarginalOutlier[2]  5-Misc[all]  :: raster optimization
+16273 132  5-Misc[all]  :: raster optimization
+16273 133  5-Misc[all]  :: raster optimization
+16273 134  5-Misc[all]  :: raster optimization
+16273 135  5-Misc[all]  :: raster optimization
+16273 136  5-Misc[all]  :: raster optimization
+16273 137  5-Misc[all]  :: raster optimization
+16273 138  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: raster optimization
 
 RUN: 16276
-16276 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16276 1  GOLDEN
-16276 2  GOLDEN
-16276 3  GOLDEN
-16276 4  GOLDEN
-16276 5  GOLDEN
-16276 6  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-16276 7  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-16276 8  GOLDEN
-16276 9  GOLDEN
-16276 10  GOLDEN
-16276 11  GOLDEN
-16276 12  GOLDEN
-16276 13  GOLDEN
-16276 14  GOLDEN
-16276 15  GOLDEN
-16276 16  GOLDEN
-16276 17  GOLDEN
-16276 18  GOLDEN
-16276 19  GOLDEN
-16276 20  GOLDEN
-16276 21  GOLDEN
-16276 22  GOLDEN
-16276 23  GOLDEN
-16276 24  GOLDEN
-16276 25  GOLDEN
-16276 26  GOLDEN
-16276 27  GOLDEN
-16276 28  GOLDEN
-16276 29  GOLDEN
-16276 30  GOLDEN
-16276 31  GOLDEN
-16276 32  GOLDEN
-16276 33  GOLDEN
-16276 34  GOLDEN
-16276 35  GOLDEN
-16276 36  GOLDEN
-16276 37  GOLDEN
-16276 38  GOLDEN
-16276 39  GOLDEN
-16276 40  GOLDEN
-16276 41  GOLDEN
-16276 42  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16276 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: daq test; raster optimization
+16276 1  5-Misc[all]  :: daq test; raster optimization
+16276 2  5-Misc[all]  :: daq test; raster optimization
+16276 3  5-Misc[all]  :: daq test; raster optimization
+16276 4  5-Misc[all]  :: daq test; raster optimization
+16276 5  5-Misc[all]  :: daq test; raster optimization
+16276 6  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: daq test; raster optimization
+16276 7  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: daq test; raster optimization
+16276 8  5-Misc[all]  :: daq test; raster optimization
+16276 9  5-Misc[all]  :: daq test; raster optimization
+16276 10  5-Misc[all]  :: daq test; raster optimization
+16276 11  5-Misc[all]  :: daq test; raster optimization
+16276 12  5-Misc[all]  :: daq test; raster optimization
+16276 13  5-Misc[all]  :: daq test; raster optimization
+16276 14  5-Misc[all]  :: daq test; raster optimization
+16276 15  5-Misc[all]  :: daq test; raster optimization
+16276 16  5-Misc[all]  :: daq test; raster optimization
+16276 17  5-Misc[all]  :: daq test; raster optimization
+16276 18  5-Misc[all]  :: daq test; raster optimization
+16276 19  5-Misc[all]  :: daq test; raster optimization
+16276 20  5-Misc[all]  :: daq test; raster optimization
+16276 21  5-Misc[all]  :: daq test; raster optimization
+16276 22  5-Misc[all]  :: daq test; raster optimization
+16276 23  5-Misc[all]  :: daq test; raster optimization
+16276 24  5-Misc[all]  :: daq test; raster optimization
+16276 25  5-Misc[all]  :: daq test; raster optimization
+16276 26  5-Misc[all]  :: daq test; raster optimization
+16276 27  5-Misc[all]  :: daq test; raster optimization
+16276 28  5-Misc[all]  :: daq test; raster optimization
+16276 29  5-Misc[all]  :: daq test; raster optimization
+16276 30  5-Misc[all]  :: daq test; raster optimization
+16276 31  5-Misc[all]  :: daq test; raster optimization
+16276 32  5-Misc[all]  :: daq test; raster optimization
+16276 33  5-Misc[all]  :: daq test; raster optimization
+16276 34  5-Misc[all]  :: daq test; raster optimization
+16276 35  5-Misc[all]  :: daq test; raster optimization
+16276 36  5-Misc[all]  :: daq test; raster optimization
+16276 37  5-Misc[all]  :: daq test; raster optimization
+16276 38  5-Misc[all]  :: daq test; raster optimization
+16276 39  5-Misc[all]  :: daq test; raster optimization
+16276 40  5-Misc[all]  :: daq test; raster optimization
+16276 41  5-Misc[all]  :: daq test; raster optimization
+16276 42  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: daq test; raster optimization
 
 RUN: 16277
 16277 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -18521,23 +18521,23 @@ RUN: 16323
 16323 91  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 16325
-16325 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16325 1  GOLDEN
-16325 2  GOLDEN
-16325 3  GOLDEN
-16325 4  GOLDEN
-16325 5  GOLDEN
-16325 6  GOLDEN
-16325 7  GOLDEN
-16325 8  GOLDEN
-16325 9  GOLDEN
-16325 10  GOLDEN
-16325 11  GOLDEN
-16325 12  GOLDEN
-16325 13  GOLDEN
-16325 14  GOLDEN
-16325 15  GOLDEN
-16325 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16325 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: trig2vtp issue
+16325 1  5-Misc[all]  :: trig2vtp issue
+16325 2  5-Misc[all]  :: trig2vtp issue
+16325 3  5-Misc[all]  :: trig2vtp issue
+16325 4  5-Misc[all]  :: trig2vtp issue
+16325 5  5-Misc[all]  :: trig2vtp issue
+16325 6  5-Misc[all]  :: trig2vtp issue
+16325 7  5-Misc[all]  :: trig2vtp issue
+16325 8  5-Misc[all]  :: trig2vtp issue
+16325 9  5-Misc[all]  :: trig2vtp issue
+16325 10  5-Misc[all]  :: trig2vtp issue
+16325 11  5-Misc[all]  :: trig2vtp issue
+16325 12  5-Misc[all]  :: trig2vtp issue
+16325 13  5-Misc[all]  :: trig2vtp issue
+16325 14  5-Misc[all]  :: trig2vtp issue
+16325 15  5-Misc[all]  :: trig2vtp issue
+16325 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: trig2vtp issue
 
 RUN: 16326
 16326 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -51289,57 +51289,57 @@ RUN: 16720
 16720 135  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 16721
-16721 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16721 1  GOLDEN
-16721 2  GOLDEN
-16721 3  GOLDEN
-16721 4  GOLDEN
-16721 5  GOLDEN
-16721 6  GOLDEN
-16721 7  GOLDEN
-16721 8  GOLDEN
-16721 9  GOLDEN
-16721 10  GOLDEN
-16721 11  GOLDEN
-16721 12  GOLDEN
-16721 13  GOLDEN
-16721 14  GOLDEN
-16721 15  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16721 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: trigger test run
+16721 1  5-Misc[all]  :: trigger test run
+16721 2  5-Misc[all]  :: trigger test run
+16721 3  5-Misc[all]  :: trigger test run
+16721 4  5-Misc[all]  :: trigger test run
+16721 5  5-Misc[all]  :: trigger test run
+16721 6  5-Misc[all]  :: trigger test run
+16721 7  5-Misc[all]  :: trigger test run
+16721 8  5-Misc[all]  :: trigger test run
+16721 9  5-Misc[all]  :: trigger test run
+16721 10  5-Misc[all]  :: trigger test run
+16721 11  5-Misc[all]  :: trigger test run
+16721 12  5-Misc[all]  :: trigger test run
+16721 13  5-Misc[all]  :: trigger test run
+16721 14  5-Misc[all]  :: trigger test run
+16721 15  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: trigger test run
 
 RUN: 16722
-16722 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16722 1  4-LowLiveTime[all]
-16722 2  GOLDEN
-16722 3  GOLDEN
-16722 4  GOLDEN
-16722 5  GOLDEN
-16722 6  GOLDEN
-16722 7  GOLDEN
-16722 8  GOLDEN
-16722 9  GOLDEN
-16722 10  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-16722 11  GOLDEN
-16722 12  GOLDEN
-16722 13  GOLDEN
-16722 14  GOLDEN
-16722 15  GOLDEN
-16722 16  GOLDEN
-16722 17  GOLDEN
-16722 18  GOLDEN
-16722 19  GOLDEN
-16722 20  GOLDEN
-16722 21  GOLDEN
-16722 22  GOLDEN
-16722 23  GOLDEN
-16722 24  GOLDEN
-16722 25  GOLDEN
-16722 26  GOLDEN
-16722 27  GOLDEN
-16722 28  GOLDEN
-16722 29  GOLDEN
-16722 30  GOLDEN
-16722 31  19-PossiblyNoBeam[all]
-16722 32  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16722 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: trigger test run
+16722 1  4-LowLiveTime[all]  5-Misc[all]  :: trigger test run
+16722 2  5-Misc[all]  :: trigger test run
+16722 3  5-Misc[all]  :: trigger test run
+16722 4  5-Misc[all]  :: trigger test run
+16722 5  5-Misc[all]  :: trigger test run
+16722 6  5-Misc[all]  :: trigger test run
+16722 7  5-Misc[all]  :: trigger test run
+16722 8  5-Misc[all]  :: trigger test run
+16722 9  5-Misc[all]  :: trigger test run
+16722 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: trigger test run
+16722 11  5-Misc[all]  :: trigger test run
+16722 12  5-Misc[all]  :: trigger test run
+16722 13  5-Misc[all]  :: trigger test run
+16722 14  5-Misc[all]  :: trigger test run
+16722 15  5-Misc[all]  :: trigger test run
+16722 16  5-Misc[all]  :: trigger test run
+16722 17  5-Misc[all]  :: trigger test run
+16722 18  5-Misc[all]  :: trigger test run
+16722 19  5-Misc[all]  :: trigger test run
+16722 20  5-Misc[all]  :: trigger test run
+16722 21  5-Misc[all]  :: trigger test run
+16722 22  5-Misc[all]  :: trigger test run
+16722 23  5-Misc[all]  :: trigger test run
+16722 24  5-Misc[all]  :: trigger test run
+16722 25  5-Misc[all]  :: trigger test run
+16722 26  5-Misc[all]  :: trigger test run
+16722 27  5-Misc[all]  :: trigger test run
+16722 28  5-Misc[all]  :: trigger test run
+16722 29  5-Misc[all]  :: trigger test run
+16722 30  5-Misc[all]  :: trigger test run
+16722 31  5-Misc[all]  19-PossiblyNoBeam[all]  :: trigger test run
+16722 32  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: trigger test run
 
 RUN: 16723
 16723 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -52756,300 +52756,300 @@ RUN: 16732
 16732 143  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 16733
-16733 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16733 1  GOLDEN
-16733 2  GOLDEN
-16733 3  GOLDEN
-16733 4  GOLDEN
-16733 5  GOLDEN
-16733 6  GOLDEN
-16733 7  GOLDEN
-16733 8  GOLDEN
-16733 9  GOLDEN
-16733 10  GOLDEN
-16733 11  GOLDEN
-16733 12  GOLDEN
-16733 13  GOLDEN
-16733 14  GOLDEN
-16733 15  GOLDEN
-16733 16  GOLDEN
-16733 17  GOLDEN
-16733 18  GOLDEN
-16733 19  GOLDEN
-16733 20  GOLDEN
-16733 21  GOLDEN
-16733 22  GOLDEN
-16733 23  GOLDEN
-16733 24  GOLDEN
-16733 25  GOLDEN
-16733 26  GOLDEN
-16733 27  GOLDEN
-16733 28  GOLDEN
-16733 29  GOLDEN
-16733 30  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
-16733 31  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16733 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RICH sector 1 off
+16733 1  5-Misc[all]  :: RICH sector 1 off
+16733 2  5-Misc[all]  :: RICH sector 1 off
+16733 3  5-Misc[all]  :: RICH sector 1 off
+16733 4  5-Misc[all]  :: RICH sector 1 off
+16733 5  5-Misc[all]  :: RICH sector 1 off
+16733 6  5-Misc[all]  :: RICH sector 1 off
+16733 7  5-Misc[all]  :: RICH sector 1 off
+16733 8  5-Misc[all]  :: RICH sector 1 off
+16733 9  5-Misc[all]  :: RICH sector 1 off
+16733 10  5-Misc[all]  :: RICH sector 1 off
+16733 11  5-Misc[all]  :: RICH sector 1 off
+16733 12  5-Misc[all]  :: RICH sector 1 off
+16733 13  5-Misc[all]  :: RICH sector 1 off
+16733 14  5-Misc[all]  :: RICH sector 1 off
+16733 15  5-Misc[all]  :: RICH sector 1 off
+16733 16  5-Misc[all]  :: RICH sector 1 off
+16733 17  5-Misc[all]  :: RICH sector 1 off
+16733 18  5-Misc[all]  :: RICH sector 1 off
+16733 19  5-Misc[all]  :: RICH sector 1 off
+16733 20  5-Misc[all]  :: RICH sector 1 off
+16733 21  5-Misc[all]  :: RICH sector 1 off
+16733 22  5-Misc[all]  :: RICH sector 1 off
+16733 23  5-Misc[all]  :: RICH sector 1 off
+16733 24  5-Misc[all]  :: RICH sector 1 off
+16733 25  5-Misc[all]  :: RICH sector 1 off
+16733 26  5-Misc[all]  :: RICH sector 1 off
+16733 27  5-Misc[all]  :: RICH sector 1 off
+16733 28  5-Misc[all]  :: RICH sector 1 off
+16733 29  5-Misc[all]  :: RICH sector 1 off
+16733 30  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: RICH sector 1 off
+16733 31  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RICH sector 1 off
 
 RUN: 16734
-16734 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16734 1  GOLDEN
-16734 2  GOLDEN
-16734 3  GOLDEN
-16734 4  GOLDEN
-16734 5  GOLDEN
-16734 6  GOLDEN
-16734 7  GOLDEN
-16734 8  4-LowLiveTime[all]
-16734 9  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16734 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RICH sector 1 off
+16734 1  5-Misc[all]  :: RICH sector 1 off
+16734 2  5-Misc[all]  :: RICH sector 1 off
+16734 3  5-Misc[all]  :: RICH sector 1 off
+16734 4  5-Misc[all]  :: RICH sector 1 off
+16734 5  5-Misc[all]  :: RICH sector 1 off
+16734 6  5-Misc[all]  :: RICH sector 1 off
+16734 7  5-Misc[all]  :: RICH sector 1 off
+16734 8  4-LowLiveTime[all]  5-Misc[all]  :: RICH sector 1 off
+16734 9  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RICH sector 1 off
 
 RUN: 16736
-16736 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-16736 1  GOLDEN
-16736 2  GOLDEN
-16736 3  GOLDEN
-16736 4  GOLDEN
-16736 5  GOLDEN
-16736 6  GOLDEN
-16736 7  GOLDEN
-16736 8  GOLDEN
-16736 9  GOLDEN
-16736 10  GOLDEN
-16736 11  GOLDEN
-16736 12  GOLDEN
-16736 13  GOLDEN
-16736 14  GOLDEN
-16736 15  GOLDEN
-16736 16  GOLDEN
-16736 17  GOLDEN
-16736 18  GOLDEN
-16736 19  GOLDEN
-16736 20  GOLDEN
-16736 21  GOLDEN
-16736 22  GOLDEN
-16736 23  GOLDEN
-16736 24  GOLDEN
-16736 25  GOLDEN
-16736 26  GOLDEN
-16736 27  GOLDEN
-16736 28  GOLDEN
-16736 29  GOLDEN
-16736 30  GOLDEN
-16736 31  GOLDEN
-16736 32  GOLDEN
-16736 33  GOLDEN
-16736 34  GOLDEN
-16736 35  GOLDEN
-16736 36  GOLDEN
-16736 37  GOLDEN
-16736 38  GOLDEN
-16736 39  GOLDEN
-16736 40  GOLDEN
-16736 41  GOLDEN
-16736 42  GOLDEN
-16736 43  GOLDEN
-16736 44  GOLDEN
-16736 45  GOLDEN
-16736 46  GOLDEN
-16736 47  GOLDEN
-16736 48  GOLDEN
-16736 49  GOLDEN
-16736 50  GOLDEN
-16736 51  GOLDEN
-16736 52  GOLDEN
-16736 53  GOLDEN
-16736 54  GOLDEN
-16736 55  GOLDEN
-16736 56  GOLDEN
-16736 57  GOLDEN
-16736 58  GOLDEN
-16736 59  GOLDEN
-16736 60  GOLDEN
-16736 61  GOLDEN
-16736 62  GOLDEN
-16736 63  GOLDEN
-16736 64  GOLDEN
-16736 65  GOLDEN
-16736 66  GOLDEN
-16736 67  GOLDEN
-16736 68  GOLDEN
-16736 69  GOLDEN
-16736 70  GOLDEN
-16736 71  GOLDEN
-16736 72  GOLDEN
-16736 73  GOLDEN
-16736 74  GOLDEN
-16736 75  GOLDEN
-16736 76  GOLDEN
-16736 77  GOLDEN
-16736 78  GOLDEN
-16736 79  GOLDEN
-16736 80  GOLDEN
-16736 81  GOLDEN
-16736 82  GOLDEN
-16736 83  GOLDEN
-16736 84  GOLDEN
-16736 85  GOLDEN
-16736 86  GOLDEN
-16736 87  GOLDEN
-16736 88  GOLDEN
-16736 89  GOLDEN
-16736 90  GOLDEN
-16736 91  GOLDEN
-16736 92  GOLDEN
-16736 93  GOLDEN
-16736 94  GOLDEN
-16736 95  GOLDEN
-16736 96  GOLDEN
-16736 97  GOLDEN
-16736 98  GOLDEN
-16736 99  GOLDEN
-16736 100  GOLDEN
-16736 101  GOLDEN
-16736 102  GOLDEN
-16736 103  GOLDEN
-16736 104  GOLDEN
-16736 105  GOLDEN
-16736 106  GOLDEN
-16736 107  GOLDEN
-16736 108  GOLDEN
-16736 109  GOLDEN
-16736 110  GOLDEN
-16736 111  GOLDEN
-16736 112  GOLDEN
-16736 113  GOLDEN
-16736 114  GOLDEN
-16736 115  GOLDEN
-16736 116  GOLDEN
-16736 117  GOLDEN
-16736 118  GOLDEN
-16736 119  GOLDEN
-16736 120  GOLDEN
-16736 121  GOLDEN
-16736 122  GOLDEN
-16736 123  GOLDEN
-16736 124  GOLDEN
-16736 125  GOLDEN
-16736 126  GOLDEN
-16736 127  GOLDEN
-16736 128  GOLDEN
-16736 129  GOLDEN
-16736 130  GOLDEN
-16736 131  GOLDEN
-16736 132  GOLDEN
-16736 133  GOLDEN
-16736 134  GOLDEN
-16736 135  GOLDEN
-16736 136  GOLDEN
-16736 137  GOLDEN
-16736 138  GOLDEN
-16736 139  GOLDEN
-16736 140  GOLDEN
-16736 141  GOLDEN
-16736 142  GOLDEN
-16736 143  GOLDEN
-16736 144  GOLDEN
-16736 145  GOLDEN
-16736 146  GOLDEN
-16736 147  GOLDEN
-16736 148  GOLDEN
-16736 149  GOLDEN
-16736 150  GOLDEN
-16736 151  GOLDEN
-16736 152  GOLDEN
-16736 153  GOLDEN
-16736 154  GOLDEN
-16736 155  GOLDEN
-16736 156  GOLDEN
-16736 157  GOLDEN
-16736 158  GOLDEN
-16736 159  GOLDEN
-16736 160  GOLDEN
-16736 161  GOLDEN
-16736 162  GOLDEN
-16736 163  GOLDEN
-16736 164  GOLDEN
-16736 165  GOLDEN
-16736 166  GOLDEN
-16736 167  GOLDEN
-16736 168  GOLDEN
-16736 169  GOLDEN
-16736 170  GOLDEN
-16736 171  GOLDEN
-16736 172  GOLDEN
-16736 173  GOLDEN
-16736 174  GOLDEN
-16736 175  GOLDEN
-16736 176  GOLDEN
-16736 177  GOLDEN
-16736 178  GOLDEN
-16736 179  GOLDEN
-16736 180  GOLDEN
-16736 181  GOLDEN
-16736 182  GOLDEN
-16736 183  GOLDEN
-16736 184  GOLDEN
-16736 185  GOLDEN
-16736 186  GOLDEN
-16736 187  GOLDEN
-16736 188  GOLDEN
-16736 189  GOLDEN
-16736 190  GOLDEN
-16736 191  GOLDEN
-16736 192  GOLDEN
-16736 193  GOLDEN
-16736 194  GOLDEN
-16736 195  GOLDEN
-16736 196  GOLDEN
-16736 197  GOLDEN
-16736 198  GOLDEN
-16736 199  GOLDEN
-16736 200  GOLDEN
-16736 201  GOLDEN
-16736 202  GOLDEN
-16736 203  GOLDEN
-16736 204  GOLDEN
-16736 205  GOLDEN
-16736 206  GOLDEN
-16736 207  GOLDEN
-16736 208  GOLDEN
-16736 209  GOLDEN
-16736 210  GOLDEN
-16736 211  GOLDEN
-16736 212  GOLDEN
-16736 213  GOLDEN
-16736 214  GOLDEN
-16736 215  GOLDEN
-16736 216  GOLDEN
-16736 217  GOLDEN
-16736 218  GOLDEN
-16736 219  GOLDEN
-16736 220  GOLDEN
-16736 221  GOLDEN
-16736 222  GOLDEN
-16736 223  GOLDEN
-16736 224  GOLDEN
-16736 225  GOLDEN
-16736 226  GOLDEN
-16736 227  GOLDEN
-16736 228  GOLDEN
-16736 229  GOLDEN
-16736 230  GOLDEN
-16736 231  GOLDEN
-16736 232  GOLDEN
-16736 233  GOLDEN
-16736 234  GOLDEN
-16736 235  GOLDEN
-16736 236  GOLDEN
-16736 237  GOLDEN
-16736 238  GOLDEN
-16736 239  GOLDEN
-16736 240  GOLDEN
-16736 241  GOLDEN
-16736 242  GOLDEN
-16736 243  GOLDEN
-16736 244  GOLDEN
-16736 245  GOLDEN
-16736 246  GOLDEN
-16736 247  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+16736 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RICH sector 1 off
+16736 1  5-Misc[all]  :: RICH sector 1 off
+16736 2  5-Misc[all]  :: RICH sector 1 off
+16736 3  5-Misc[all]  :: RICH sector 1 off
+16736 4  5-Misc[all]  :: RICH sector 1 off
+16736 5  5-Misc[all]  :: RICH sector 1 off
+16736 6  5-Misc[all]  :: RICH sector 1 off
+16736 7  5-Misc[all]  :: RICH sector 1 off
+16736 8  5-Misc[all]  :: RICH sector 1 off
+16736 9  5-Misc[all]  :: RICH sector 1 off
+16736 10  5-Misc[all]  :: RICH sector 1 off
+16736 11  5-Misc[all]  :: RICH sector 1 off
+16736 12  5-Misc[all]  :: RICH sector 1 off
+16736 13  5-Misc[all]  :: RICH sector 1 off
+16736 14  5-Misc[all]  :: RICH sector 1 off
+16736 15  5-Misc[all]  :: RICH sector 1 off
+16736 16  5-Misc[all]  :: RICH sector 1 off
+16736 17  5-Misc[all]  :: RICH sector 1 off
+16736 18  5-Misc[all]  :: RICH sector 1 off
+16736 19  5-Misc[all]  :: RICH sector 1 off
+16736 20  5-Misc[all]  :: RICH sector 1 off
+16736 21  5-Misc[all]  :: RICH sector 1 off
+16736 22  5-Misc[all]  :: RICH sector 1 off
+16736 23  5-Misc[all]  :: RICH sector 1 off
+16736 24  5-Misc[all]  :: RICH sector 1 off
+16736 25  5-Misc[all]  :: RICH sector 1 off
+16736 26  5-Misc[all]  :: RICH sector 1 off
+16736 27  5-Misc[all]  :: RICH sector 1 off
+16736 28  5-Misc[all]  :: RICH sector 1 off
+16736 29  5-Misc[all]  :: RICH sector 1 off
+16736 30  5-Misc[all]  :: RICH sector 1 off
+16736 31  5-Misc[all]  :: RICH sector 1 off
+16736 32  5-Misc[all]  :: RICH sector 1 off
+16736 33  5-Misc[all]  :: RICH sector 1 off
+16736 34  5-Misc[all]  :: RICH sector 1 off
+16736 35  5-Misc[all]  :: RICH sector 1 off
+16736 36  5-Misc[all]  :: RICH sector 1 off
+16736 37  5-Misc[all]  :: RICH sector 1 off
+16736 38  5-Misc[all]  :: RICH sector 1 off
+16736 39  5-Misc[all]  :: RICH sector 1 off
+16736 40  5-Misc[all]  :: RICH sector 1 off
+16736 41  5-Misc[all]  :: RICH sector 1 off
+16736 42  5-Misc[all]  :: RICH sector 1 off
+16736 43  5-Misc[all]  :: RICH sector 1 off
+16736 44  5-Misc[all]  :: RICH sector 1 off
+16736 45  5-Misc[all]  :: RICH sector 1 off
+16736 46  5-Misc[all]  :: RICH sector 1 off
+16736 47  5-Misc[all]  :: RICH sector 1 off
+16736 48  5-Misc[all]  :: RICH sector 1 off
+16736 49  5-Misc[all]  :: RICH sector 1 off
+16736 50  5-Misc[all]  :: RICH sector 1 off
+16736 51  5-Misc[all]  :: RICH sector 1 off
+16736 52  5-Misc[all]  :: RICH sector 1 off
+16736 53  5-Misc[all]  :: RICH sector 1 off
+16736 54  5-Misc[all]  :: RICH sector 1 off
+16736 55  5-Misc[all]  :: RICH sector 1 off
+16736 56  5-Misc[all]  :: RICH sector 1 off
+16736 57  5-Misc[all]  :: RICH sector 1 off
+16736 58  5-Misc[all]  :: RICH sector 1 off
+16736 59  5-Misc[all]  :: RICH sector 1 off
+16736 60  5-Misc[all]  :: RICH sector 1 off
+16736 61  5-Misc[all]  :: RICH sector 1 off
+16736 62  5-Misc[all]  :: RICH sector 1 off
+16736 63  5-Misc[all]  :: RICH sector 1 off
+16736 64  5-Misc[all]  :: RICH sector 1 off
+16736 65  5-Misc[all]  :: RICH sector 1 off
+16736 66  5-Misc[all]  :: RICH sector 1 off
+16736 67  5-Misc[all]  :: RICH sector 1 off
+16736 68  5-Misc[all]  :: RICH sector 1 off
+16736 69  5-Misc[all]  :: RICH sector 1 off
+16736 70  5-Misc[all]  :: RICH sector 1 off
+16736 71  5-Misc[all]  :: RICH sector 1 off
+16736 72  5-Misc[all]  :: RICH sector 1 off
+16736 73  5-Misc[all]  :: RICH sector 1 off
+16736 74  5-Misc[all]  :: RICH sector 1 off
+16736 75  5-Misc[all]  :: RICH sector 1 off
+16736 76  5-Misc[all]  :: RICH sector 1 off
+16736 77  5-Misc[all]  :: RICH sector 1 off
+16736 78  5-Misc[all]  :: RICH sector 1 off
+16736 79  5-Misc[all]  :: RICH sector 1 off
+16736 80  5-Misc[all]  :: RICH sector 1 off
+16736 81  5-Misc[all]  :: RICH sector 1 off
+16736 82  5-Misc[all]  :: RICH sector 1 off
+16736 83  5-Misc[all]  :: RICH sector 1 off
+16736 84  5-Misc[all]  :: RICH sector 1 off
+16736 85  5-Misc[all]  :: RICH sector 1 off
+16736 86  5-Misc[all]  :: RICH sector 1 off
+16736 87  5-Misc[all]  :: RICH sector 1 off
+16736 88  5-Misc[all]  :: RICH sector 1 off
+16736 89  5-Misc[all]  :: RICH sector 1 off
+16736 90  5-Misc[all]  :: RICH sector 1 off
+16736 91  5-Misc[all]  :: RICH sector 1 off
+16736 92  5-Misc[all]  :: RICH sector 1 off
+16736 93  5-Misc[all]  :: RICH sector 1 off
+16736 94  5-Misc[all]  :: RICH sector 1 off
+16736 95  5-Misc[all]  :: RICH sector 1 off
+16736 96  5-Misc[all]  :: RICH sector 1 off
+16736 97  5-Misc[all]  :: RICH sector 1 off
+16736 98  5-Misc[all]  :: RICH sector 1 off
+16736 99  5-Misc[all]  :: RICH sector 1 off
+16736 100  5-Misc[all]  :: RICH sector 1 off
+16736 101  5-Misc[all]  :: RICH sector 1 off
+16736 102  5-Misc[all]  :: RICH sector 1 off
+16736 103  5-Misc[all]  :: RICH sector 1 off
+16736 104  5-Misc[all]  :: RICH sector 1 off
+16736 105  5-Misc[all]  :: RICH sector 1 off
+16736 106  5-Misc[all]  :: RICH sector 1 off
+16736 107  5-Misc[all]  :: RICH sector 1 off
+16736 108  5-Misc[all]  :: RICH sector 1 off
+16736 109  5-Misc[all]  :: RICH sector 1 off
+16736 110  5-Misc[all]  :: RICH sector 1 off
+16736 111  5-Misc[all]  :: RICH sector 1 off
+16736 112  5-Misc[all]  :: RICH sector 1 off
+16736 113  5-Misc[all]  :: RICH sector 1 off
+16736 114  5-Misc[all]  :: RICH sector 1 off
+16736 115  5-Misc[all]  :: RICH sector 1 off
+16736 116  5-Misc[all]  :: RICH sector 1 off
+16736 117  5-Misc[all]  :: RICH sector 1 off
+16736 118  5-Misc[all]  :: RICH sector 1 off
+16736 119  5-Misc[all]  :: RICH sector 1 off
+16736 120  5-Misc[all]  :: RICH sector 1 off
+16736 121  5-Misc[all]  :: RICH sector 1 off
+16736 122  5-Misc[all]  :: RICH sector 1 off
+16736 123  5-Misc[all]  :: RICH sector 1 off
+16736 124  5-Misc[all]  :: RICH sector 1 off
+16736 125  5-Misc[all]  :: RICH sector 1 off
+16736 126  5-Misc[all]  :: RICH sector 1 off
+16736 127  5-Misc[all]  :: RICH sector 1 off
+16736 128  5-Misc[all]  :: RICH sector 1 off
+16736 129  5-Misc[all]  :: RICH sector 1 off
+16736 130  5-Misc[all]  :: RICH sector 1 off
+16736 131  5-Misc[all]  :: RICH sector 1 off
+16736 132  5-Misc[all]  :: RICH sector 1 off
+16736 133  5-Misc[all]  :: RICH sector 1 off
+16736 134  5-Misc[all]  :: RICH sector 1 off
+16736 135  5-Misc[all]  :: RICH sector 1 off
+16736 136  5-Misc[all]  :: RICH sector 1 off
+16736 137  5-Misc[all]  :: RICH sector 1 off
+16736 138  5-Misc[all]  :: RICH sector 1 off
+16736 139  5-Misc[all]  :: RICH sector 1 off
+16736 140  5-Misc[all]  :: RICH sector 1 off
+16736 141  5-Misc[all]  :: RICH sector 1 off
+16736 142  5-Misc[all]  :: RICH sector 1 off
+16736 143  5-Misc[all]  :: RICH sector 1 off
+16736 144  5-Misc[all]  :: RICH sector 1 off
+16736 145  5-Misc[all]  :: RICH sector 1 off
+16736 146  5-Misc[all]  :: RICH sector 1 off
+16736 147  5-Misc[all]  :: RICH sector 1 off
+16736 148  5-Misc[all]  :: RICH sector 1 off
+16736 149  5-Misc[all]  :: RICH sector 1 off
+16736 150  5-Misc[all]  :: RICH sector 1 off
+16736 151  5-Misc[all]  :: RICH sector 1 off
+16736 152  5-Misc[all]  :: RICH sector 1 off
+16736 153  5-Misc[all]  :: RICH sector 1 off
+16736 154  5-Misc[all]  :: RICH sector 1 off
+16736 155  5-Misc[all]  :: RICH sector 1 off
+16736 156  5-Misc[all]  :: RICH sector 1 off
+16736 157  5-Misc[all]  :: RICH sector 1 off
+16736 158  5-Misc[all]  :: RICH sector 1 off
+16736 159  5-Misc[all]  :: RICH sector 1 off
+16736 160  5-Misc[all]  :: RICH sector 1 off
+16736 161  5-Misc[all]  :: RICH sector 1 off
+16736 162  5-Misc[all]  :: RICH sector 1 off
+16736 163  5-Misc[all]  :: RICH sector 1 off
+16736 164  5-Misc[all]  :: RICH sector 1 off
+16736 165  5-Misc[all]  :: RICH sector 1 off
+16736 166  5-Misc[all]  :: RICH sector 1 off
+16736 167  5-Misc[all]  :: RICH sector 1 off
+16736 168  5-Misc[all]  :: RICH sector 1 off
+16736 169  5-Misc[all]  :: RICH sector 1 off
+16736 170  5-Misc[all]  :: RICH sector 1 off
+16736 171  5-Misc[all]  :: RICH sector 1 off
+16736 172  5-Misc[all]  :: RICH sector 1 off
+16736 173  5-Misc[all]  :: RICH sector 1 off
+16736 174  5-Misc[all]  :: RICH sector 1 off
+16736 175  5-Misc[all]  :: RICH sector 1 off
+16736 176  5-Misc[all]  :: RICH sector 1 off
+16736 177  5-Misc[all]  :: RICH sector 1 off
+16736 178  5-Misc[all]  :: RICH sector 1 off
+16736 179  5-Misc[all]  :: RICH sector 1 off
+16736 180  5-Misc[all]  :: RICH sector 1 off
+16736 181  5-Misc[all]  :: RICH sector 1 off
+16736 182  5-Misc[all]  :: RICH sector 1 off
+16736 183  5-Misc[all]  :: RICH sector 1 off
+16736 184  5-Misc[all]  :: RICH sector 1 off
+16736 185  5-Misc[all]  :: RICH sector 1 off
+16736 186  5-Misc[all]  :: RICH sector 1 off
+16736 187  5-Misc[all]  :: RICH sector 1 off
+16736 188  5-Misc[all]  :: RICH sector 1 off
+16736 189  5-Misc[all]  :: RICH sector 1 off
+16736 190  5-Misc[all]  :: RICH sector 1 off
+16736 191  5-Misc[all]  :: RICH sector 1 off
+16736 192  5-Misc[all]  :: RICH sector 1 off
+16736 193  5-Misc[all]  :: RICH sector 1 off
+16736 194  5-Misc[all]  :: RICH sector 1 off
+16736 195  5-Misc[all]  :: RICH sector 1 off
+16736 196  5-Misc[all]  :: RICH sector 1 off
+16736 197  5-Misc[all]  :: RICH sector 1 off
+16736 198  5-Misc[all]  :: RICH sector 1 off
+16736 199  5-Misc[all]  :: RICH sector 1 off
+16736 200  5-Misc[all]  :: RICH sector 1 off
+16736 201  5-Misc[all]  :: RICH sector 1 off
+16736 202  5-Misc[all]  :: RICH sector 1 off
+16736 203  5-Misc[all]  :: RICH sector 1 off
+16736 204  5-Misc[all]  :: RICH sector 1 off
+16736 205  5-Misc[all]  :: RICH sector 1 off
+16736 206  5-Misc[all]  :: RICH sector 1 off
+16736 207  5-Misc[all]  :: RICH sector 1 off
+16736 208  5-Misc[all]  :: RICH sector 1 off
+16736 209  5-Misc[all]  :: RICH sector 1 off
+16736 210  5-Misc[all]  :: RICH sector 1 off
+16736 211  5-Misc[all]  :: RICH sector 1 off
+16736 212  5-Misc[all]  :: RICH sector 1 off
+16736 213  5-Misc[all]  :: RICH sector 1 off
+16736 214  5-Misc[all]  :: RICH sector 1 off
+16736 215  5-Misc[all]  :: RICH sector 1 off
+16736 216  5-Misc[all]  :: RICH sector 1 off
+16736 217  5-Misc[all]  :: RICH sector 1 off
+16736 218  5-Misc[all]  :: RICH sector 1 off
+16736 219  5-Misc[all]  :: RICH sector 1 off
+16736 220  5-Misc[all]  :: RICH sector 1 off
+16736 221  5-Misc[all]  :: RICH sector 1 off
+16736 222  5-Misc[all]  :: RICH sector 1 off
+16736 223  5-Misc[all]  :: RICH sector 1 off
+16736 224  5-Misc[all]  :: RICH sector 1 off
+16736 225  5-Misc[all]  :: RICH sector 1 off
+16736 226  5-Misc[all]  :: RICH sector 1 off
+16736 227  5-Misc[all]  :: RICH sector 1 off
+16736 228  5-Misc[all]  :: RICH sector 1 off
+16736 229  5-Misc[all]  :: RICH sector 1 off
+16736 230  5-Misc[all]  :: RICH sector 1 off
+16736 231  5-Misc[all]  :: RICH sector 1 off
+16736 232  5-Misc[all]  :: RICH sector 1 off
+16736 233  5-Misc[all]  :: RICH sector 1 off
+16736 234  5-Misc[all]  :: RICH sector 1 off
+16736 235  5-Misc[all]  :: RICH sector 1 off
+16736 236  5-Misc[all]  :: RICH sector 1 off
+16736 237  5-Misc[all]  :: RICH sector 1 off
+16736 238  5-Misc[all]  :: RICH sector 1 off
+16736 239  5-Misc[all]  :: RICH sector 1 off
+16736 240  5-Misc[all]  :: RICH sector 1 off
+16736 241  5-Misc[all]  :: RICH sector 1 off
+16736 242  5-Misc[all]  :: RICH sector 1 off
+16736 243  5-Misc[all]  :: RICH sector 1 off
+16736 244  5-Misc[all]  :: RICH sector 1 off
+16736 245  5-Misc[all]  :: RICH sector 1 off
+16736 246  5-Misc[all]  :: RICH sector 1 off
+16736 247  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RICH sector 1 off
 
 RUN: 16738
 16738 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
