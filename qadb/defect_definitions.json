@@ -1,0 +1,122 @@
+[
+  {
+    "bit_number": 0,
+    "bit_name": "TotalOutlier",
+    "description": "Outlier N/F, but not terminal, marginal, or sector loss, for FD electron",
+    "documentation": ""
+  },
+  {
+    "bit_number": 1,
+    "bit_name": "TerminalOutlier",
+    "description": "Outlier N/F of first or last QA bin of run, not marginal, for FD electron",
+    "documentation": ""
+  },
+  {
+    "bit_number": 2,
+    "bit_name": "MarginalOutlier",
+    "description": "Marginal outlier N/F, within one standard deviation of cut line, for FD electron",
+    "documentation": ""
+  },
+  {
+    "bit_number": 3,
+    "bit_name": "SectorLoss",
+    "description": "N/F diminished within a FD sector for several consecutive QA bin",
+    "documentation": "For older datasets (RG-A,B,K,M pass 1), this bit replaced the assignment of TotalOutlier, TerminalOutlier, and MarginalOutlier; newer datasets only add the SectorLoss bit and do not remove the outlier bits."
+  },
+  {
+    "bit_number": 4,
+    "bit_name": "LowLiveTime",
+    "description": "Live time < 0.9",
+    "documentation": "This assignment of this bit may be correlated with a low fraction of events with a defined (nonzero) helicity."
+  },
+  {
+    "bit_number": 5,
+    "bit_name": "Misc",
+    "description": "Miscellaneous defect, documented as comment",
+    "documentation": "This bit is often assigned to all QA bins within a run, but in some cases, may only be assigned to the relevant QA bins. The analyzer must decide whether data assigned with the Misc bit should be excluded from their analysis; the comment is provided for this purpose. Analyzers are also encouraged to check the Hall B log book for further details."
+  },
+  {
+    "bit_number": 6,
+    "bit_name": "TotalOutlierFT",
+    "description": "Outlier N/F, but not terminal, marginal, or `LossFT`, FT electron",
+    "documentation": "cf. TotalOutlier."
+  },
+  {
+    "bit_number": 7,
+    "bit_name": "TerminalOutlierFT",
+    "description": "Outlier N/F of first or last QA bin of run, not marginal, FT electron",
+    "documentation": "cf. TerminalOutlier."
+  },
+  {
+    "bit_number": 8,
+    "bit_name": "MarginalOutlierFT",
+    "description": "Marginal outlier N/F, within one standard deviation of cut line, FT electron",
+    "documentation": "cf. MarginalOutlier."
+  },
+  {
+    "bit_number": 9,
+    "bit_name": "LossFT",
+    "description": "N/F diminished within FT for several consecutive QA bins",
+    "documentation": "cf. SectorLoss."
+  },
+  {
+    "bit_number": 10,
+    "bit_name": "BSAWrong",
+    "description": "Beam Spin Asymmetry is the wrong sign",
+    "documentation": "This bit is assigned per run. The asymmetry is significant, but the opposite sign than expected; analyzers must therefore flip the helicity sign."
+  },
+  {
+    "bit_number": 11,
+    "bit_name": "BSAUnknown",
+    "description": "Beam Spin Asymmetry is unknown, likely because of low statistics",
+    "documentation": "This bit is assigned per run. We do not have enough statistics to determine if the helicity sign is correct."
+  },
+  {
+    "bit_number": 12,
+    "bit_name": "TSAWrong",
+    "description": "Target Spin Asymmetry is the wrong sign",
+    "documentation": "Not yet used."
+  },
+  {
+    "bit_number": 13,
+    "bit_name": "TSAUnknown",
+    "description": "Target Spin Asymmetry is unknown, likely because of low statistics",
+    "documentation": "Not yet used."
+  },
+  {
+    "bit_number": 14,
+    "bit_name": "DSAWrong",
+    "description": "Double Spin Asymmetry is the wrong sign",
+    "documentation": "Not yet used."
+  },
+  {
+    "bit_number": 15,
+    "bit_name": "DSAUnknown",
+    "description": "Double Spin Asymmetry is unknown, likely because of low statistics",
+    "documentation": "Not yet used."
+  },
+  {
+    "bit_number": 16,
+    "bit_name": "ChargeHigh",
+    "description": "FC Charge is abnormally high",
+    "documentation": "NOTE: the assignment criteria of this bit is still under study."
+  },
+  {
+    "bit_number": 17,
+    "bit_name": "ChargeNegative",
+    "description": "FC Charge is negative",
+    "documentation": "The FC charge is calculated from the charge readout at QA bin boundaries. Normally the later charge readout is higher than the earlier; this bit is assigned when the opposite happens."
+  },
+  {
+    "bit_number": 18,
+    "bit_name": "ChargeUnknown",
+    "description": "FC Charge is unknown; the first and last time bins always have this defect",
+    "documentation": "QA bin boundaries are at scaler charge readouts. The first QA bin, before any readout, has no initial charge; the last QA bin, after all scaler readouts, has no final charge. Therefore, the first and last QA bins have an unknown, but likely very small charge accumulation."
+  },
+  {
+    "bit_number": 19,
+    "bit_name": "PossiblyNoBeam",
+    "description": "Both N and F are low, indicating the beam was possibly off",
+    "documentation": "NOTE: the assignment criteria of this bit is still under study."
+  }
+]
