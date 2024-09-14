@@ -41,7 +41,10 @@ int main(int argc, char ** argv) {
   for(int runnum : runnumList) {
 
     // loop over files
-    for(int filenum=0; filenum<=qa->GetMaxBinnum(runnum); filenum+=5) {
+    for(int filenum=0; filenum<=qa->GetMaxBinnum(runnum); filenum++) {
+
+      // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
+      if(!qa->HasBinnum(runnum, filenum)) continue;
 
       // query by file number
       qa->QueryByBinnum(runnum,filenum);
