@@ -409,7 +409,7 @@ namespace QA {
       WarningBanner(true);
       std::cerr << R"(| WARNING: `QADB::OkForAsymmetry` is DEPRECATED
 |   - you may still use this method, but `OkForAsymmetry` does
-|     not include NEW defect bits 6 and above in its criteria
+|     not include NEW defect bits that have been recently defined
 )";
       DeprecationGuidance();
       std::cerr << R"(| EXAMPLE:
