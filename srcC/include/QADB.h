@@ -17,12 +17,12 @@ namespace QA {
     private:
 
       void DeprecationGuidance() {
-        std::cerr << R"(| INSTEAD:
-|   - please use `QADB::CheckForDefect` to choose which defects you want
+        std::cerr << R"(| INSTEAD: use the general methods
+|   - use `QADB::CheckForDefect` to choose which defects you want
 |     to filter out, then use `QADB::Pass` on each event
 |   - for runs with the `Misc` defect bit (bit 5) assigned:
-|     - use `QADB::GetComment` to check the QADB comment, which explains
-|       why this bit was assigned for the run
+|     - use `QADB::GetComment` to check the QADB comment, which
+|       explains why this bit was assigned for the run
 |     - use `QADB::AllowMiscBit` to ignore the `Misc` bit for certain
 |       runs that you want to allow in your analysis (`OkForAsymmetry`
 |       internally does this for a specific list of RG-A runs)
@@ -412,6 +412,11 @@ namespace QA {
 |     not include NEW defect bits 6 and above in its criteria
 )";
       DeprecationGuidance();
+      std::cerr << R"(| EXAMPLE:
+|   - see '$QADB/srcC/tests/testOkForAsymmetry.cpp' for a
+|     preferred, equivalent implementation; from there, you may
+|     customize your QA criteria and use the new defect bits
+)";
       WarningBanner(false);
     }
 
