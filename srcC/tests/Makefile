@@ -1,6 +1,10 @@
 CXX = g++ -std=c++11
 FLAGS = -g -Wno-deprecated -fPIC -m64 -fno-inline -Wno-write-strings
 
+ifndef QADB
+$(error "ERROR: you need environment variable 'QADB'; run 'source environ.sh'")
+endif
+
 # QADB and rapidjson
 DEPS += -I$(QADB)/srcC/rapidjson/include -I$(QADB)/srcC/include
 

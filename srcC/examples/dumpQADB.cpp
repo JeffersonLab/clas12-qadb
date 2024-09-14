@@ -33,12 +33,12 @@ int main(int argc, char ** argv) {
   
   // loop through files
   int evnum;
-  for(int filenum=0; filenum<=qa->GetMaxFilenum(runnum); filenum+=5) {
+  for(int filenum=0; filenum<=qa->GetMaxBinnum(runnum); filenum+=5) {
     sep("=",50);
     cout << "FILE NUMBER " << filenum << endl;
 
     // perform the lookup, by filenum
-    if(qa->QueryByFilenum(runnum,filenum)) {
+    if(qa->QueryByBinnum(runnum,filenum)) {
 
       // we need an event number within this file, to pass to QA criteria
       // checking methods, such as Golden; no additional Query will be called

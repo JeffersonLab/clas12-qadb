@@ -14,6 +14,28 @@
 
 namespace QA {
   class QADB {
+    private:
+
+      void DeprecationGuidance() {
+        std::cerr << R"(| INSTEAD:
+|   - please use `QADB::CheckForDefect` to choose which defects you want
+|     to filter out, then use `QADB::Pass` on each event
+|   - for runs with the `Misc` defect bit (bit 5) assigned:
+|     - use `QADB::GetComment` to check the QADB comment, which explains
+|       why this bit was assigned for the run
+|     - use `QADB::AllowMiscBit` to ignore the `Misc` bit for certain
+|       runs that you want to allow in your analysis (`OkForAsymmetry`
+|       internally does this for a specific list of RG-A runs)
+)";
+      }
+
+      void WarningBanner(bool first) {
+        if(first)
+          std::cerr << "\nWARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING\n|\n";
+        else
+          std::cerr << "|\nWARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING\n\n";
+      }
+
     public:
 
       //.................
@@ -31,7 +53,19 @@ namespace QA {
       // golden QA cut
       //```````````````````````````````
       // returns false if the event is in a file with *any* defect
-      inline bool Golden(int runnum_, int evnum_) { 
+      inline bool Golden(int runnum_, int evnum_) {
+        if(!dep_warned_Golden) {
+          dep_warned_Golden = true;
+          WarningBanner(true);
+          std::cerr << R"(| WARNING: `QADB::Golden` is DEPRECATED
+|   - you may still use this method, but since many more defect bits have been
+|     defined, and "Golden" means "no defect bits set", you may find that
+|     requiring your data to be "Golden" is too strict for your analysis
+|   - in some cases, none of the data are "Golden"
+)";
+          DeprecationGuidance();
+          WarningBanner(false);
+        }
         bool foundHere = this->Query(runnum_,evnum_);
         return foundHere && defect==0;
       };
@@ -51,11 +85,17 @@ namespace QA {
       // none are set; the variable `mask` will be applied as a mask
       // on the defect bits
       inline void SetMaskBit(const char * defectName, bool state=true);
+      inline void CheckForDefect(const char * defectName, bool state=true); // alias
       // access the custom mask, if you want to double-check it
       inline int GetMask() { return mask; };
       // then call this method to check your custom QA cut for a given
       // run number and event number
       inline bool Pass(int runnum_, int evnum_);
+
+      // ignore certain runs for the `Misc` bit assignment
+      inline void AllowMiscBit(int runnum_) {
+        allowMiscBitList.insert(runnum_);
+      }
 
 
       //.................
@@ -64,6 +104,7 @@ namespace QA {
       // --- access this file's info
       inline int GetRunnum() { return found ? runnum : -1; };
       inline int GetFilenum() { return found ? filenum : -1; };
+      inline int GetBinnum() { return found ? filenum : -1; }; // alias for `GetFilenum`
       inline std::string GetComment() { return found ? comment : ""; };
       inline int GetEvnumMin() { return found ? evnumMin : -1; };
       inline int GetEvnumMax() { return found ? evnumMax : -1; };
@@ -108,7 +149,19 @@ namespace QA {
       inline bool QueryByFilenum(int runnum_, int filenum_);
       // get maximum file number for a given run (useful for QADB validation)
       inline int GetMaxFilenum(int runnum_);
+      // aliases
+      inline bool QueryByBinnum(int runnum_, int filenum_);
+      inline int GetMaxBinnum(int runnum_);
 
+      // check if this bin number exists
+      inline bool HasBinnum(int runnum_, int binnum_) {
+        sprintf(runnumStr,"%d",runnum_);
+        if(qaTree.HasMember(runnumStr)) {
+          sprintf(filenumStr,"%d",binnum_);
+          return qaTree[runnumStr].GetObject().HasMember(filenumStr);
+        }
+        return false;
+      }
 
       //.................................
       // Faraday Cup charge
@@ -154,6 +207,7 @@ namespace QA {
       bool chargeCounted;
       std::vector<std::pair<int,int>> chargeCountedFiles;
 
+
       std::map<std::string,int> defectNameMap;
       int nbits;
 
@@ -162,6 +216,10 @@ namespace QA {
       int mask;
 
       std::set<int> allowForOkForAsymmetry;
+      std::set<int> allowMiscBitList;
+
+      bool dep_warned_Golden;
+      bool dep_warned_OkForAsymmetry;
   };
 
 
@@ -291,6 +349,8 @@ namespace QA {
     charge = 0;
     chargeTotal = 0;
     chargeCounted = false;
+    dep_warned_Golden = false;
+    dep_warned_OkForAsymmetry = false;
   };
 
 
@@ -343,6 +403,18 @@ namespace QA {
   //```````````````````````````````````
   bool QADB::OkForAsymmetry(int runnum_, int evnum_) {
 
+    // deprecation notice
+    if(!dep_warned_OkForAsymmetry) {
+      dep_warned_OkForAsymmetry = true;
+      WarningBanner(true);
+      std::cerr << R"(| WARNING: `QADB::OkForAsymmetry` is DEPRECATED
+|   - you may still use this method, but `OkForAsymmetry` does
+|     not include NEW defect bits 6 and above in its criteria
+)";
+      DeprecationGuidance();
+      WarningBanner(false);
+    }
+
     // perform lookup
     bool foundHere = this->Query(runnum_,evnum_);
     if(!foundHere) return false;
@@ -385,9 +457,19 @@ namespace QA {
       if(state) mask |= (0x1 << defectBit);
     };
   };
+  void QADB::CheckForDefect(const char * defectName, bool state) {
+    SetMaskBit(defectName, state);
+  }
   bool QADB::Pass(int runnum_, int evnum_) {
     bool foundHere = this->Query(runnum_,evnum_);
-    return foundHere && !(defect & mask);
+    if(!foundHere)
+      return false;
+    auto use_mask = mask;
+    if(this->HasDefectBit(5)) {
+      if(allowMiscBitList.find(runnum_) != allowMiscBitList.end())
+        use_mask &= ~(0x1 << 5); // set `use_mask`'s Misc bit to 0
+    }
+    return !(defect & use_mask);
   }
 
 
@@ -519,18 +601,22 @@ namespace QA {
     // result of query
     return found;
   };
+  bool QADB::QueryByBinnum(int runnum_, int filenum_) {
+    return QueryByFilenum(runnum_, filenum_);
+  }
 
   // ----- return maximum filenum for a given runnum
   int QADB::GetMaxFilenum(int runnum_) {
-    int maxFilenum=0;
+    int maxFilenum = 0;
     sprintf(runnumStr,"%d",runnum_);
     auto runTree = qaTree[runnumStr].GetObject();
-    for(auto it=runTree.MemberBegin(); it!=runTree.MemberEnd(); ++it) {
-      maxFilenum = atoi((it->name).GetString()) > maxFilenum ?
-                   atoi((it->name).GetString()) : maxFilenum;
-    };
+    for(auto it=runTree.MemberBegin(); it!=runTree.MemberEnd(); ++it)
+      maxFilenum = std::max(atoi((it->name).GetString()), maxFilenum);
     return maxFilenum;
   };
+  int QADB::GetMaxBinnum(int runnum_) {
+    return GetMaxFilenum(runnum_);
+  }
 
 
 

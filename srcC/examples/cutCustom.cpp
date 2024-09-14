@@ -6,7 +6,7 @@
 #include <bitset>
 
 // clas12root headers
-#include "reader.h"
+#include "hipo4/reader.h"
 #include "clas12reader.h"
 
 // QADB header and namespace
@@ -37,12 +37,12 @@ int main(int argc, char** argv) {
   //   the QA cut if the associated file has any of the specified defects
   // - set to true to check the bit
   // - set to false to ignore the bit (by default, all bits are ignored)
-  qa->SetMaskBit("TotalOutlier",false);
-  qa->SetMaskBit("TerminalOutlier",false);
-  qa->SetMaskBit("MarginalOutlier",false);
-  qa->SetMaskBit("SectorLoss",true); // this is the only bit we check here
-  qa->SetMaskBit("LowLiveTime",false);
-  qa->SetMaskBit("Misc",false);
+  qa->CheckForDefect("TotalOutlier",false);
+  qa->CheckForDefect("TerminalOutlier",false);
+  qa->CheckForDefect("MarginalOutlier",false);
+  qa->CheckForDefect("SectorLoss",true); // this is the only bit we check here
+  qa->CheckForDefect("LowLiveTime",false);
+  qa->CheckForDefect("Misc",false);
 
   // print the defect bit mask
   cout << "\ndefect mask = 0b" << bitset<16>(qa->GetMask()) << endl;

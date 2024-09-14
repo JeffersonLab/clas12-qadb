@@ -42,13 +42,13 @@ int main(int argc, char ** argv) {
   int evnum;
   string defname;
   int chargeInt;
-  for(int filenum=0; filenum<=qa->GetMaxFilenum(runnum); filenum+=5) {
+  for(int filenum=0; filenum<=qa->GetMaxBinnum(runnum); filenum+=5) {
     sep("=",50);
 
     //err("test error print");
 
     // query by file number
-    qa->QueryByFilenum(runnum,filenum);
+    qa->QueryByBinnum(runnum,filenum);
     evnum = qa->GetEvnumMin(); // evnum needed for QA cut methods
 
     // check run and file number accessors: make sure that they
@@ -56,8 +56,8 @@ int main(int argc, char ** argv) {
     cout << "- run,file,evnum" << endl;
     cout << qa->GetRunnum() << " " << runnum << endl;
     if(qa->GetRunnum() != runnum) err("QADB::GetRunnum != runnum");
-    cout << qa->GetFilenum() << " " << filenum << endl;
-    if(qa->GetFilenum() != filenum) err("QADB::GetFilenum != filenum");
+    cout << qa->GetBinnum() << " " << filenum << endl;
+    if(qa->GetBinnum() != filenum) err("QADB::GetBinnum != filenum");
 
     // check event number: report an error if evnum min>=max
     cout << qa->GetEvnumMin() << " " << qa->GetEvnumMax() << endl;
@@ -98,9 +98,9 @@ int main(int argc, char ** argv) {
       for(int sec=1; sec<=6; sec++) 
         cout << " " << qa->HasDefect(defname.c_str(),sec); cout << endl;
       // print bit masking
-      qa->SetMaskBit(defname.c_str());
+      qa->CheckForDefect(defname.c_str());
       cout << qa->GetMask() << " " << qa->Pass(runnum,evnum) << endl;
-      qa->SetMaskBit(defname.c_str(),false);
+      qa->CheckForDefect(defname.c_str(),false);
     };
 
     // print QA cuts (see above for custom cut check with mask)
@@ -116,7 +116,7 @@ int main(int argc, char ** argv) {
   cout << ((int)(1000*qa->GetAccumulatedCharge())) << endl;
 
   // print max file number
-  cout << qa->GetMaxFilenum(runnum) << endl;
+  cout << qa->GetMaxBinnum(runnum) << endl;
 
   sep("=",50);
   

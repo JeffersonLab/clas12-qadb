@@ -33,18 +33,18 @@ int main(int argc, char ** argv) {
   
 
   // specify QA criteria
-  qa->SetMaskBit("SectorLoss");
-  qa->SetMaskBit("MarginalOutlier");
+  qa->CheckForDefect("SectorLoss");
+  qa->CheckForDefect("MarginalOutlier");
 
 
   // loop over runs
   for(int runnum : runnumList) {
 
     // loop over files
-    for(int filenum=0; filenum<=qa->GetMaxFilenum(runnum); filenum+=5) {
+    for(int filenum=0; filenum<=qa->GetMaxBinnum(runnum); filenum+=5) {
 
       // query by file number
-      qa->QueryByFilenum(runnum,filenum);
+      qa->QueryByBinnum(runnum,filenum);
       evnum = qa->GetEvnumMin(); // evnum needed for QA cut methods
 
       // accumulate charge, if QA criteria are satisfied
