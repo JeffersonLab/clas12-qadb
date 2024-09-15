@@ -61,6 +61,8 @@ namespace QA {
 |   - you may still use this method, but since many more defect bits have been
 |     defined, and "Golden" means "no defect bits set", you may find that
 |     requiring your data to be "Golden" is too strict for your analysis
+|     - NOTE: QADBs for Run Groups A, B, K, and M for Pass1 data only use
+|       defect bits 0 to 9, whereas newer QADBs define many more bits
 |   - in some cases, none of the data are "Golden"
 )";
           DeprecationGuidance();
