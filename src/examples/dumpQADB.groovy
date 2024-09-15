@@ -25,12 +25,14 @@ QADB qa = new QADB()
 
 // loop through files
 int evnum
-for(int filenum=0; filenum<=qa.getMaxFilenum(runnum); filenum+=5) {
+for(int filenum=0; filenum<=qa.getMaxBinnum(runnum); filenum++) {
+  // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
+  if(qa.hasBinnum(runnum, filenum)) { continue }
   sep("=",50)
   println "FILE NUMBER $filenum"
 
   // perform the lookup, by filenum
-  if(qa.queryByFilenum(runnum,filenum)) {
+  if(qa.queryByBinnum(runnum,filenum)) {
 
     // we need an event number within this file, to pass to QA criteria
     // checking methods, such as Golden; no additional Query will be called

@@ -26,12 +26,12 @@ QADB qa = new QADB()
 //   the QA cut if the associated file has any of the specified defects
 // - set to true to check the bit
 // - set to false to ignore the bit (by default, all bits are ignored)
-qa.setMaskBit('TotalOutlier',false)
-qa.setMaskBit('TerminalOutlier',false)
-qa.setMaskBit('MarginalOutlier',false)
-qa.setMaskBit('SectorLoss',true) // this is the only bit we check here
-qa.setMaskBit('LowLiveTime',false)
-qa.setMaskBit('Misc',false)
+qa.checkForDefect('TotalOutlier',false)
+qa.checkForDefect('TerminalOutlier',false)
+qa.checkForDefect('MarginalOutlier',false)
+qa.checkForDefect('SectorLoss',true) // this is the only bit we check here
+qa.checkForDefect('LowLiveTime',false)
+qa.checkForDefect('Misc',false)
 
 // print the defect bit mask
 println "\ndefect mask = " + qa.util.printBinary(qa.getMask(),16) + "\n"

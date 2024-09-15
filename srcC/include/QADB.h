@@ -106,7 +106,7 @@ namespace QA {
       // --- access this file's info
       inline int GetRunnum() { return found ? runnum : -1; };
       inline int GetFilenum() { return found ? filenum : -1; };
-      inline int GetBinnum() { return found ? filenum : -1; }; // alias for `GetFilenum`
+      inline int GetBinnum() { return GetFilenum(); }; // alias for `GetFilenum`
       inline std::string GetComment() { return found ? comment : ""; };
       inline int GetEvnumMin() { return found ? evnumMin : -1; };
       inline int GetEvnumMax() { return found ? evnumMax : -1; };
@@ -208,7 +208,6 @@ namespace QA {
       double charge, chargeMin, chargeMax, chargeTotal;
       bool chargeCounted;
       std::vector<std::pair<int,int>> chargeCountedFiles;
-
 
       std::map<std::string,int> defectNameMap;
       int nbits;

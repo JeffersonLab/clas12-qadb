@@ -25,18 +25,21 @@ def runnumList = [
 
 
 // specify QA criteria
-qa.setMaskBit("SectorLoss")
-qa.setMaskBit("MarginalOutlier")
+qa.checkForDefect("SectorLoss")
+qa.checkForDefect("MarginalOutlier")
 
 
 // loop over runs
 runnumList.each{ runnum ->
 
   // loop over files
-  for(int filenum=0; filenum<=qa.getMaxFilenum(runnum); filenum+=5) {
+  for(int filenum=0; filenum<=qa.getMaxBinnum(runnum); filenum++) {
+
+    // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
+    if(qa.hasBinnum(runnum, filenum)) { continue }
 
     // query by file number
-    qa.queryByFilenum(runnum,filenum)
+    qa.queryByBinnum(runnum,filenum)
     evnum = qa.getEvnumMin() // evnum needed for QA cut methods
 
     // accumulate charge, if QA criteria are satisfied

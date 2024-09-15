@@ -43,10 +43,9 @@ int main(int argc, char ** argv) {
   string defname;
   int chargeInt;
   for(int filenum=0; filenum<=qa->GetMaxBinnum(runnum); filenum++) {
-    sep("=",50);
-
     // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
     if(!qa->HasBinnum(runnum, filenum)) continue;
+    sep("=",50);
 
     // query by file number
     qa->QueryByBinnum(runnum,filenum);
