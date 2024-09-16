@@ -49,6 +49,12 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 1    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary) | 11093 - 11300 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/fall2019/torus+1/pass1/v1/dst/recon`    |
 | 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary) | 11323 - 11571 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst/recon`  |
 
+### Run Group C
+
+| Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status       | Data Files                                     |
+| ---  | ---                                                                                           | ---           | ---          | ---                                            |
+| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16771 | _Up-to-Date_ | `/cache/clas12/rg-c/production/summer22/pass1` |
+
 ### Run Group F
 
 | Pass | Data Set Name and Timelines Link | Run Range     | Status  | Data Files                                                                                  |
