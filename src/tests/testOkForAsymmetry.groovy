@@ -2,12 +2,13 @@ import clasqa.QADB
 
 boolean debug = true
 
+System.out.println("WARNING: run with `-Xmx4096m`")
 
 //////////////////////////////////////////////////////////////////////////////////
 // the general method requires the user to choose the defects they want
 // to avoid in their analysis, and a list of runs for which the `Misc` defect bit
 // should be ignored
-System.out.println('Loading QADBs...')
+System.out.println('Loading QADBs...\n...1/3...')
 QADB qa = new QADB()
 qa.checkForDefect('TotalOutlier')     // these choices match the criteria of `OkForAsymmetry`
 qa.checkForDefect('TerminalOutlier')
@@ -30,7 +31,9 @@ qa.checkForDefect('Misc')
 
 
 // instantiate more QADBs, for comparison (`qa` will use the general method)
+System.out.println('...2/3...')
 QADB qa_deprecated = new QADB()  // will use `OkForAsymmetry`, which is deprecated
+System.out.println('...3/3...')
 QADB qa_third_party = new QADB() // a third party, only used for DB traversal
 System.out.println('...done')
 
@@ -89,10 +92,10 @@ System.out.println('...done')
   16722, 16723, 16726, 16727, 16728, 16729, 16730, 16731, 16732, 16733, 16734, 16736, 16738, 16742, 16743, 16744, 16746, 16747, 16748, 16749, 16750, 16751, 16752, 16753, 16754, 16755, 16756, 16757, 16758, 16759, 16761, 16762, 16763, 16765, 16766, 16767, 16768, 16769, 16770, 16771, 16772
 ].each{ runnum ->
 
-  System.out.println("test run $run")
+  System.out.println("test run $runnum")
 
   // loop over QA bins for this run
-  for(int binnum = 0; binnum <= qa_third_party->GetMaxBinnum(runnum); binnum++) {
+  for(int binnum = 0; binnum <= qa_third_party.getMaxBinnum(runnum); binnum++) {
 
     // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
     if(!qa_third_party.hasBinnum(runnum, binnum)) { continue }
@@ -100,7 +103,7 @@ System.out.println('...done')
 
     // we need an event number to query the QADBs
     qa_third_party.queryByBinnum(runnum, binnum)
-    def evnum = (qa_third_party.getEvnumMin() + qa_third_party.getEvnumMax()) / 2
+    def evnum = ((qa_third_party.getEvnumMin() + qa_third_party.getEvnumMax()) / 2).toInteger()
 
     // test equivelance of `OkForAsymmetry` and the general user method (`Pass`)
     def pass_qa_general    = qa.pass(runnum, evnum)

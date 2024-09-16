@@ -27,7 +27,7 @@ QADB qa = new QADB()
 int evnum
 for(int filenum=0; filenum<=qa.getMaxBinnum(runnum); filenum++) {
   // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
-  if(qa.hasBinnum(runnum, filenum)) { continue }
+  if(!qa.hasBinnum(runnum, filenum)) { continue }
   sep("=",50)
   println "FILE NUMBER $filenum"
 

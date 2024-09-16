@@ -2,6 +2,7 @@ package clasqa
 
 import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
+import groovy.json.JsonParserType
 import clasqa.Tools
 
 class QADB {
@@ -30,7 +31,7 @@ class QADB {
     // concatenate trees
     qaTree = [:]
     chargeTree = [:]
-    slurper = new JsonSlurper()
+    slurper = new JsonSlurper().setType(JsonParserType.INDEX_OVERLAY)
     def dbDir = new File(dbDirN)
     def dbFilter = ~/.*Tree.json$/
     def slurpAction = { tree,branch ->
@@ -108,13 +109,14 @@ class QADB {
     chargeCountedFiles = []
     dep_warned_Golden = false
     dep_warned_OkForAsymmetry = false
+    allowMiscBitList = []
   }
 
   //...............................
   // deprecation warnings
   //```````````````````````````````
   private void deprecationGuidance() {
-    System.err.print("""| INSTEAD: use the general methods
+    System.err.print('''| INSTEAD: use the general methods
 |   - use `QADB::checkForDefect` to choose which defects you want
 |     to filter out, then use `QADB::pass` on each event
 |   - for runs with the `Misc` defect bit (bit 5) assigned:
@@ -123,7 +125,7 @@ class QADB {
 |     - use `QADB::allowMiscBit` to ignore the `Misc` bit for certain
 |       runs that you want to allow in your analysis (`OkForAsymmetry`
 |       internally does this for a specific list of RG-A runs)
-""")
+''')
   }
 
   private void warningBanner(boolean first) {
@@ -143,14 +145,14 @@ class QADB {
     if(!dep_warned_Golden) {
       dep_warned_Golden = true
       warningBanner(true)
-      System.err.print("""| WARNING: `QADB::golden` is DEPRECATED
+      System.err.print('''| WARNING: `QADB::golden` is DEPRECATED
 |   - you may still use this method, but since many more defect bits have been
 |     defined, and "Golden" means "no defect bits set", you may find that
 |     requiring your data to be "Golden" is too strict for your analysis
 |     - NOTE: QADBs for Run Groups A, B, K, and M for Pass1 data only use
 |       defect bits 0 to 9, whereas newer QADBs define many more bits
 |   - in some cases, none of the data are "Golden"
-""")
+''')
       deprecationGuidance()
       warningBanner(false)
     }
@@ -168,16 +170,16 @@ class QADB {
     if(!dep_warned_OkForAsymmetry) {
       dep_warned_OkForAsymmetry = true
       warningBanner(true)
-      System.err.print("""| WARNING: `QADB::OkForAsymmetry` is DEPRECATED
+      System.err.print('''| WARNING: `QADB::OkForAsymmetry` is DEPRECATED
 |   - you may still use this method, but `OkForAsymmetry` does
 |     not include NEW defect bits that have been recently defined
-""")
+''')
       deprecationGuidance()
-      System.err.print("""| EXAMPLE:
+      System.err.print('''| EXAMPLE:
 |   - see '$QADB/src/tests/testOkForAsymmetry.groovy' for a
 |     preferred, equivalent implementation; from there, you may
 |     customize your QA criteria and use the new defect bits
-""")
+''')
       warningBanner(false)
     }
 
@@ -401,8 +403,8 @@ class QADB {
 
   // check if this bin number exists
   public boolean hasBinnum(int runnum_, int binnum_) {
-    if(qaTree.containsKey("$runnum_")) {
-      return qaTree["$runnum_"].containsKey("$binnum_")
+    if(qaTree["$runnum_"] != null) {
+      return qaTree["$runnum_"]["$binnum_"] != null
     }
     return false
   }

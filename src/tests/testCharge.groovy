@@ -36,7 +36,7 @@ runnumList.each{ runnum ->
   for(int filenum=0; filenum<=qa.getMaxBinnum(runnum); filenum++) {
 
     // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
-    if(qa.hasBinnum(runnum, filenum)) { continue }
+    if(!qa.hasBinnum(runnum, filenum)) { continue }
 
     // query by file number
     qa.queryByBinnum(runnum,filenum)
