@@ -189,7 +189,7 @@ namespace QA {
     private:
 
       int runnumMin, runnumMax;
-      bool verbose = true;
+      bool verbose = false;
       std::vector<std::string> qaJsonList;
       std::vector<std::string> chargeJsonList;
 
