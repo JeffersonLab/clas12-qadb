@@ -4,7 +4,7 @@
 #include <iostream>
 
 // clas12root headers
-#include "reader.h"
+#include "hipo4/reader.h"
 #include "clas12reader.h"
 
 // QADB header and namespace

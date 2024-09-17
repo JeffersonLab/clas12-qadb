@@ -5,7 +5,7 @@
 #include <iostream>
 
 // clas12root headers
-#include "reader.h"
+#include "hipo4/reader.h"
 #include "clas12reader.h"
 
 // QADB header and namespace
@@ -54,8 +54,8 @@ int main(int argc, char** argv) {
 
       // accumulate charge; note that although the call to
       // QADB::accumulateCharge() charge happens for each
-      // event within a DST file that passed the QA cuts, that
-      // file's charge will only be accumulated once, so
+      // event within a QA bin that passed the QA cuts, that
+      // bin's charge will only be accumulated once, so
       // overcounting is not possible 
       qa->AccumulateCharge();
 

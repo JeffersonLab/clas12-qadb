@@ -7,8 +7,7 @@ This directory contains the Groovy source code to access the QA database
   provided by `coatjava` (at `$COATJAVA/bin/run-groovy`)
 - see example scripts in `examples/` directory
   - a standard usage of QA cuts is demonstrated in
-    `examples/cutAsymmetry.groovy`, where the QA criteria for a spin asymmetry
-    analysis are applied
+    [`examples/cutCustom.groovy`](examples/cutCustom.groovy)
 - usage notes:
   - include the `QADB` class with `import clasqa.QADB`, then instantiate
   - the `QADB` class provides several methods for accessing the QA info;

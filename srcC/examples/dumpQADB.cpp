@@ -1,7 +1,7 @@
 // dump QADB data for a specified run; this demonstrates access to the various
 // data stored in QADB
 // - this program does not require a HIPO file or clas12root; it only loops
-//   through the QADB itself, performing lookup by file number
+//   through the QADB itself, performing lookup by bin number
 // - you can specify a run number as an argument
 
 #include <iostream>
@@ -31,24 +31,26 @@ int main(int argc, char ** argv) {
   //QADB * qa = new QADB(5000,5500);
 
   
-  // loop through files
+  // loop through QA bins
   int evnum;
-  for(int filenum=0; filenum<=qa->GetMaxFilenum(runnum); filenum+=5) {
+  for(int binnum=0; binnum<=qa->GetMaxBinnum(runnum); binnum++) {
+    // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
+    if(!qa->HasBinnum(runnum, binnum)) continue;
     sep("=",50);
-    cout << "FILE NUMBER " << filenum << endl;
+    cout << "BIN NUMBER " << binnum << endl;
 
-    // perform the lookup, by filenum
-    if(qa->QueryByFilenum(runnum,filenum)) {
+    // perform the lookup, by binnum
+    if(qa->QueryByBinnum(runnum,binnum)) {
 
-      // we need an event number within this file, to pass to QA criteria
+      // we need an event number within this bin, to pass to QA criteria
       // checking methods, such as Golden; no additional Query will be called
       evnum = qa->GetEvnumMin();
 
-      // print whether this file passes some QA cuts
+      // print whether this bin passes some QA cuts
       if(qa->Golden(runnum,evnum)) {
-        cout << "- GOLDEN FILE!" << endl;
+        cout << "- GOLDEN BIN!" << endl;
       } else {
-        cout << "- not golden: file has defects" << endl;
+        cout << "- not golden: bin has defects" << endl;
         cout << (qa->OkForAsymmetry(runnum,evnum) ? "- OK" : "- NOT OK");
         cout << " for asymmetry analysis" << endl;
       };

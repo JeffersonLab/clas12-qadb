@@ -2,6 +2,7 @@ package clasqa
 
 import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
+import groovy.json.JsonParserType
 import clasqa.Tools
 
 class QADB {
@@ -30,7 +31,7 @@ class QADB {
     // concatenate trees
     qaTree = [:]
     chargeTree = [:]
-    slurper = new JsonSlurper()
+    slurper = new JsonSlurper().setType(JsonParserType.INDEX_OVERLAY)
     def dbDir = new File(dbDirN)
     def dbFilter = ~/.*Tree.json$/
     def slurpAction = { tree,branch ->
@@ -106,6 +107,33 @@ class QADB {
     chargeTotal = 0
     chargeCounted = false
     chargeCountedFiles = []
+    dep_warned_Golden = false
+    dep_warned_OkForAsymmetry = false
+    allowMiscBitList = []
+  }
+
+  //...............................
+  // deprecation warnings
+  //```````````````````````````````
+  private void deprecationGuidance() {
+    System.err.print('''| INSTEAD: use the general methods
+|   - use `QADB::checkForDefect` to choose which defects you want
+|     to filter out, then use `QADB::pass` on each event
+|   - for runs with the `Misc` defect bit (bit 5) assigned:
+|     - use `QADB::getComment` to check the QADB comment, which
+|       explains why this bit was assigned for the run
+|     - use `QADB::allowMiscBit` to ignore the `Misc` bit for certain
+|       runs that you want to allow in your analysis (`OkForAsymmetry`
+|       internally does this for a specific list of RG-A runs)
+''')
+  }
+
+  private void warningBanner(boolean first) {
+    if(first) {
+      System.err.print("\nWARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING\n|\n")
+    } else {
+      System.err.print("|\nWARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING\n\n")
+    }
   }
 
 
@@ -114,6 +142,20 @@ class QADB {
   //```````````````````````````````
   // returns false if the event is in a file with *any* defect
   public boolean golden(int runnum_, int evnum_) {
+    if(!dep_warned_Golden) {
+      dep_warned_Golden = true
+      warningBanner(true)
+      System.err.print('''| WARNING: `QADB::golden` is DEPRECATED
+|   - you may still use this method, but since many more defect bits have been
+|     defined, and "Golden" means "no defect bits set", you may find that
+|     requiring your data to be "Golden" is too strict for your analysis
+|     - NOTE: QADBs for Run Groups A, B, K, and M for Pass1 data only use
+|       defect bits 0 to 9, whereas newer QADBs define many more bits
+|   - in some cases, none of the data are "Golden"
+''')
+      deprecationGuidance()
+      warningBanner(false)
+    }
     def foundHere = query(runnum_,evnum_)
     return foundHere && defect==0
   }
@@ -124,6 +166,23 @@ class QADB {
   //`````````````````````````````````````
   // if true, this event is good for a spin asymmetry analysis
   public boolean OkForAsymmetry(int runnum_, int evnum_) {
+
+    if(!dep_warned_OkForAsymmetry) {
+      dep_warned_OkForAsymmetry = true
+      warningBanner(true)
+      System.err.print('''| WARNING: `QADB::OkForAsymmetry` is DEPRECATED
+|   - you may still use this method, but `OkForAsymmetry` does
+|     not include NEW defect bits that have been recently defined
+''')
+      deprecationGuidance()
+      System.err.print('''| EXAMPLE:
+|   - see '$QADB/src/tests/testOkForAsymmetry.groovy' for a
+|     preferred, equivalent implementation; from there, you may
+|     customize your QA criteria and use the new defect bits
+''')
+      warningBanner(false)
+    }
+
 
     // perform lookup
     def foundHere = query(runnum_,evnum_)
@@ -170,13 +229,30 @@ class QADB {
       if(state) mask |= (0x1 << defectBit)
     }
   }
+  public void checkForDefect(String bitStr, boolean state=true) { // alias
+    setMaskBit(bitStr, state)
+  }
   // access the custom mask, if you want to double-check it
   public int getMask() { return mask }
   // then call this method to check your custom QA cut for a given
   // run number and event number
   public boolean pass(int runnum_, int evnum_) {
     def foundHere = query(runnum_,evnum_)
-    return foundHere && !(defect & mask)
+    if(!foundHere) {
+      return false
+    }
+    def use_mask = mask
+    if(hasDefectBit(5)) {
+      if(runnum_ in allowMiscBitList) {
+        use_mask &= ~(0x1 << 5) // set `use_mask`'s Misc bit to 0
+      }
+    }
+    return foundHere && !(defect & use_mask)
+  }
+
+  // ignore certain runs for the `Misc` bit assignment
+  public void allowMiscBit(int runnum_) {
+    allowMiscBitList.add(runnum_)
   }
 
 
@@ -186,6 +262,7 @@ class QADB {
   // --- access this file's info
   public int getRunnum() { return found ? runnum.toInteger() : -1 }
   public int getFilenum() { return found ? filenum.toInteger() : -1 }
+  public int getBinnum() { return getFilenum() }
   public String getComment() { return found ? comment : "" }
   public int getEvnumMin() { return found ? evnumMin : -1 }
   public int getEvnumMax() { return found ? evnumMax : -1 }
@@ -319,6 +396,18 @@ class QADB {
     // result of query
     return found
   }
+  // aliases
+  public boolean queryByBinnum(int runnum_, int binnum_) {
+    return queryByFilenum(runnum_, binnum_)
+  }
+
+  // check if this bin number exists
+  public boolean hasBinnum(int runnum_, int binnum_) {
+    if(qaTree["$runnum_"] != null) {
+      return qaTree["$runnum_"]["$binnum_"] != null
+    }
+    return false
+  }
 
 
   // get maximum file number for a given run (useful for QADB validation)
@@ -329,6 +418,9 @@ class QADB {
                    it.key.toInteger() : maxFilenum
     }
     return maxFilenum
+  }
+  public int getMaxBinnum(int runnum_) { // alias
+    return getMaxFilenum(runnum_)
   }
 
 
@@ -387,4 +479,8 @@ class QADB {
   private def mask
   private def asymMask
   private def allowForOkForAsymmetry
+  private def allowMiscBitList
+
+  private boolean dep_warned_Golden
+  private boolean dep_warned_OkForAsymmetry
 }

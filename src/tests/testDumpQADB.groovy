@@ -33,13 +33,15 @@ QADB qa = new QADB()
 int evnum
 def defname
 int chargeInt
-for(int filenum=0; filenum<=qa.getMaxFilenum(runnum); filenum+=5) {
+for(int filenum=0; filenum<=qa.getMaxBinnum(runnum); filenum++) {
+  // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
+  if(!qa.hasBinnum(runnum, filenum)) { continue }
   sep("=",50)
 
   //err("test error print")
 
   // query by file number
-  qa.queryByFilenum(runnum,filenum)
+  qa.queryByBinnum(runnum,filenum)
   evnum = qa.getEvnumMin() // evnum needed for QA cut methods
 
   // check run and file number accessors: make sure that they
@@ -47,8 +49,8 @@ for(int filenum=0; filenum<=qa.getMaxFilenum(runnum); filenum+=5) {
   println "- run,file,evnum"
   println qa.getRunnum() + " " + runnum
   if(qa.getRunnum() != runnum) err("QADB::getRunnum != runnum");
-  println qa.getFilenum() + " " + filenum
-  if(qa.getFilenum() != filenum) err("QADB::GetFilenum != filenum");
+  println qa.getBinnum() + " " + filenum
+  if(qa.getBinnum() != filenum) err("QADB::GetBinnum != filenum");
 
   // check event number: report an error if evnum min>=max
   println qa.getEvnumMin() + " " + qa.getEvnumMax()
@@ -88,9 +90,9 @@ for(int filenum=0; filenum<=qa.getMaxFilenum(runnum); filenum+=5) {
     for(int sec=1; sec<=6; sec++) 
       print " " + (qa.hasDefect(defname,sec)?1:0); println ""
     // print bit masking
-    qa.setMaskBit(defname);
+    qa.checkForDefect(defname);
     println qa.getMask() + " " + (qa.pass(runnum,evnum)?1:0)
-    qa.setMaskBit(defname,false);
+    qa.checkForDefect(defname,false);
   };
 
   // print QA cuts (see above for custom cut check with mask)
@@ -105,6 +107,6 @@ println "- charge, max filenum"
 println ((int)(1000*qa.getAccumulatedCharge()))
 
 // print max file number
-println qa.getMaxFilenum(runnum)
+println qa.getMaxBinnum(runnum)
 
 sep("=",50);
