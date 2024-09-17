@@ -140,8 +140,8 @@ source environ.sh   # for bash, zsh
 source environ.csh  # for csh, tcsh
 ```
 Then:
-- for Groovy, follow [`src/README.md`](/src/README.md)
-- for C++, follow [`srcC/README.md`](/srcC/README.md)
+- for Groovy, follow [`src/README.md`](/src/)
+- for C++, follow [`srcC/README.md`](/srcC/)
 
 > [!IMPORTANT]
 > C++ access needs [`rapidjson`](https://github.com/Tencent/rapidjson/), provided as a
