@@ -56,7 +56,7 @@
   {
     "bit_number": 9,
     "bit_name": "LossFT",
-    "description": "FT electron N/F diminished within FT for several consecutive QA bins",
+    "description": "FT electron N/F diminished for several consecutive QA bins",
     "documentation": "_cf_. `SectorLoss`."
   },
   {

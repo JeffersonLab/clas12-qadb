@@ -105,7 +105,7 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 6 | `TotalOutlierFT` | Outlier FT electron N/F, but not `TerminalOutlierFT` or `MarginalOutlierFT` | _cf_. `TotalOutlier`. |
 | 7 | `TerminalOutlierFT` | Outlier FT electron N/F of first or last QA bin of run | _cf_. `TerminalOutlier`. |
 | 8 | `MarginalOutlierFT` | Marginal FT electron outlier N/F, within one standard deviation of cut line | _cf_. `MarginalOutlier`. |
-| 9 | `LossFT` | FT electron N/F diminished within FT for several consecutive QA bins | _cf_. `SectorLoss`. |
+| 9 | `LossFT` | FT electron N/F diminished for several consecutive QA bins | _cf_. `SectorLoss`. |
 | 10 | `BSAWrong` | Beam Spin Asymmetry is the wrong sign | This bit is assigned per run. The asymmetry is significant, but the opposite sign than expected; analyzers must therefore _flip_ the helicity sign. |
 | 11 | `BSAUnknown` | Beam Spin Asymmetry is unknown, likely because of low statistics | This bit is assigned per run. There are not enough data to determine if the helicity sign is correct for this run. |
 | 12 | `TSAWrong` | Target Spin Asymmetry is the wrong sign | __Not yet used.__ |
