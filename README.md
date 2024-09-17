@@ -143,7 +143,7 @@ Then:
 - for Groovy, follow [`src/README.md`](/src/README.md)
 - for C++, follow [`srcC/README.md`](/srcC/README.md)
 
-> [IMPORTANT] C++ access needs [`rapidjson`](https://github.com/Tencent/rapidjson/), provided as a
+> [!IMPORTANT] C++ access needs [`rapidjson`](https://github.com/Tencent/rapidjson/), provided as a
 > submodule of this repository in [`srcC/rapidjson`](/srcC/rapidjson). If this directory
 > is empty, you can clone the submodule by running
 > ```bash
