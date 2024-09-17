@@ -112,10 +112,10 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 13 | `TSAUnknown` | Target Spin Asymmetry is unknown, likely because of low statistics | __Not yet used.__ |
 | 14 | `DSAWrong` | Double Spin Asymmetry is the wrong sign | __Not yet used.__ |
 | 15 | `DSAUnknown` | Double Spin Asymmetry is unknown, likely because of low statistics | __Not yet used.__ |
-| 16 | `ChargeHigh` | FC Charge is abnormally high | NOTE: the assignment criteria of this bit is still under study. |
+| 16 | `ChargeHigh` | FC Charge is abnormally high | NOTE: the assignment criteria of this bit are still under study. |
 | 17 | `ChargeNegative` | FC Charge is negative | The FC charge is calculated from the charge readout at QA bin boundaries. Normally the later charge readout is higher than the earlier; this bit is assigned when the opposite happens. |
 | 18 | `ChargeUnknown` | FC Charge is unknown; the first and last time bins _always_ have this defect | QA bin boundaries are at scaler charge readouts. The first QA bin, before any readout, has no initial charge; the last QA bin, after all scaler readouts, has no final charge. Therefore, the first and last QA bins have an unknown, but likely _very small_ charge accumulation. |
-| 19 | `PossiblyNoBeam` | Both N and F are low, indicating the beam was possibly off | NOTE: the assignment criteria of this bit is still under study. |
+| 19 | `PossiblyNoBeam` | Both N and F are low, indicating the beam was possibly off | NOTE: the assignment criteria of this bit are still under study. |
 <!-- NOTE: do not update this table manually; instead, use `bin/makeDefectMarkdown.rb` -->
 
 <a name="access"></a>
