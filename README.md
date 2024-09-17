@@ -285,7 +285,7 @@ Documentation for QADB maintenance and revision
   * run `source environ.sh`
   * run `bin/makeTables.sh`
   * run `bin/makeTextFiles.sh`
-  * update customized QA criteria sets, such as `OkForAsymmetry`
+  * ~~update customized QA criteria sets, such as `OkForAsymmetry`~~
   * update the above table of data sets
   * use `git status` and `git diff` to review changes, then add and commit to
     git, and push to the remote branch
