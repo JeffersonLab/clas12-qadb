@@ -1,81 +1,81 @@
 
 RUN: 5674
-5674 0  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
-5674 5  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
-5674 10  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
-5674 15  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
-5674 20  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
-5674 25  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
+5674 0  5-Misc[all]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
+5674 5  5-Misc[all]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
+5674 10  5-Misc[all]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
+5674 15  5-Misc[all]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
+5674 20  5-Misc[all]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
+5674 25  5-Misc[all]  :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis.
 
 RUN: 5675
-5675 0  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 5  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 10  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 15  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 20  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 25  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 30  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 35  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 40  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 45  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 50  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 55  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 60  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 65  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5675 70  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
+5675 0  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 5  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 10  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 15  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 20  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 25  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 30  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 35  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 40  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 45  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 50  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 55  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 60  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 65  5-Misc[all]  :: on Lucilla's list of bad runs
+5675 70  5-Misc[all]  :: on Lucilla's list of bad runs
 
 RUN: 5676
-5676 0  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5676 5  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5676 10  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5676 15  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5676 20  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5676 25  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
+5676 0  5-Misc[all]  :: on Lucilla's list of bad runs
+5676 5  5-Misc[all]  :: on Lucilla's list of bad runs
+5676 10  5-Misc[all]  :: on Lucilla's list of bad runs
+5676 15  5-Misc[all]  :: on Lucilla's list of bad runs
+5676 20  5-Misc[all]  :: on Lucilla's list of bad runs
+5676 25  5-Misc[all]  :: on Lucilla's list of bad runs
 
 RUN: 5677
-5677 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 15  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 20  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 25  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 30  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 35  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 40  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 45  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 50  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 55  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 60  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 65  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 70  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 75  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
-5677 80  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 0  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
+5677 80  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk
 
 RUN: 5678
-5678 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs. Junk.
+5678 0  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs. Junk.
 
 RUN: 5679
-5679 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 15  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 20  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 25  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 30  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 35  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 40  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 45  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 50  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 55  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 60  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 65  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 70  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 75  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
-5679 80  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 0  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5679 80  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
 
 RUN: 5680
-5680 0  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs; Junk
-5680 5  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs; Junk
+5680 0  5-Misc[all]  :: on Lucilla's list of bad runs; Junk
+5680 5  5-Misc[all]  :: on Lucilla's list of bad runs; Junk
 
 RUN: 5681
 5681 0  GOLDEN
@@ -245,118 +245,118 @@ RUN: 5683
 5683 395  3-SectorLoss[6]
 
 RUN: 5684
-5684 0  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 5  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 10  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 15  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 20  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 25  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 30  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 35  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 40  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 45  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 50  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 55  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 60  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 65  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 70  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 75  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 80  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 85  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 90  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 95  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 100  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 105  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 110  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 115  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 120  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 125  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 130  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 135  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 140  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 145  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 150  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 155  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 160  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 165  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 170  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 175  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
-5684 180  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 0  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 5  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 10  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 15  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 20  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 25  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 30  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 35  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 40  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 45  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 50  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 55  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 60  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 65  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 70  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 75  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 80  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 85  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 90  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 95  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 100  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 105  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 110  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 115  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 120  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 125  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 130  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 135  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 140  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 145  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 150  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 155  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 160  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 165  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 170  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 175  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
+5684 180  5-Misc[all]  :: N/F slightly lower than the median for the whole run; Wrong helicity sign
 
 RUN: 5685
-5685 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk
+5685 0  1-TerminalOutlier[all]  5-Misc[all]  :: Junk
 
 RUN: 5686
-5686 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk
+5686 0  1-TerminalOutlier[all]  5-Misc[all]  :: Junk
 
 RUN: 5688
-5688 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: Junk
+5688 0  1-TerminalOutlier[all]  5-Misc[all]  :: Junk
 
 RUN: 5689
-5689 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Detector test, wrong helicity sign
-5689 5  5-Misc[1, 2, 3, 4, 5, 6]  :: Detector test, wrong helicity sign
-5689 10  5-Misc[1, 2, 3, 4, 5, 6]  :: Detector test, wrong helicity sign
+5689 0  5-Misc[all]  :: Detector test, wrong helicity sign
+5689 5  5-Misc[all]  :: Detector test, wrong helicity sign
+5689 10  5-Misc[all]  :: Detector test, wrong helicity sign
 
 RUN: 5690
-5690 0  5-Misc[1, 2, 3, 4, 5, 6]  :: trigger studies, wrong helicity sign
-5690 5  5-Misc[1, 2, 3, 4, 5, 6]  :: trigger studies, wrong helicity sign
-5690 10  5-Misc[1, 2, 3, 4, 5, 6]  :: trigger studies, wrong helicity sign
-5690 15  5-Misc[1, 2, 3, 4, 5, 6]  :: trigger studies, wrong helicity sign
-5690 20  5-Misc[1, 2, 3, 4, 5, 6]  :: trigger studies, wrong helicity sign
-5690 25  5-Misc[1, 2, 3, 4, 5, 6]  :: trigger studies, wrong helicity sign
-5690 30  5-Misc[1, 2, 3, 4, 5, 6]  :: trigger studies, wrong helicity sign
-5690 35  5-Misc[1, 2, 3, 4, 5, 6]  :: trigger studies, wrong helicity sign
+5690 0  5-Misc[all]  :: trigger studies, wrong helicity sign
+5690 5  5-Misc[all]  :: trigger studies, wrong helicity sign
+5690 10  5-Misc[all]  :: trigger studies, wrong helicity sign
+5690 15  5-Misc[all]  :: trigger studies, wrong helicity sign
+5690 20  5-Misc[all]  :: trigger studies, wrong helicity sign
+5690 25  5-Misc[all]  :: trigger studies, wrong helicity sign
+5690 30  5-Misc[all]  :: trigger studies, wrong helicity sign
+5690 35  5-Misc[all]  :: trigger studies, wrong helicity sign
 
 RUN: 5691
-5691 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 5  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 10  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 15  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 20  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 25  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 30  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 35  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 40  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 45  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 50  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 55  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 60  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 65  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 70  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 75  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 80  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 85  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 90  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 95  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
-5691 100  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger studies, wrong helicity sign
+5691 0  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 5  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 10  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 15  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 20  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 25  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 30  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 35  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 40  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 45  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 50  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 55  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 60  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 65  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 70  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 75  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 80  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 85  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 90  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 95  5-Misc[all]  :: Trigger studies, wrong helicity sign
+5691 100  5-Misc[all]  :: Trigger studies, wrong helicity sign
 
 RUN: 5692
-5692 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 5  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 10  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 15  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 20  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 25  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 30  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 35  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 40  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 45  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 50  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 55  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
-5692 60  5-Misc[1, 2, 3, 4, 5, 6]  :: Trigger test, wrong helicity sign
+5692 0  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 5  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 10  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 15  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 20  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 25  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 30  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 35  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 40  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 45  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 50  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 55  5-Misc[all]  :: Trigger test, wrong helicity sign
+5692 60  5-Misc[all]  :: Trigger test, wrong helicity sign
 
 RUN: 5693
-5693 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
-5693 5  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
-5693 10  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
-5693 15  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
-5693 20  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
-5693 25  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
-5693 30  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
-5693 35  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
+5693 0  4-LowLiveTime[all]  5-Misc[all]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
+5693 5  4-LowLiveTime[all]  5-Misc[all]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
+5693 10  4-LowLiveTime[all]  5-Misc[all]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
+5693 15  4-LowLiveTime[all]  5-Misc[all]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
+5693 20  4-LowLiveTime[all]  5-Misc[all]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
+5693 25  4-LowLiveTime[all]  5-Misc[all]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
+5693 30  4-LowLiveTime[all]  5-Misc[all]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
+5693 35  4-LowLiveTime[all]  5-Misc[all]  :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign
 
 RUN: 5694
-5694 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5694 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5694 5  GOLDEN
 5694 10  GOLDEN
 5694 15  GOLDEN
@@ -414,7 +414,7 @@ RUN: 5694
 5694 275  9-LossFT[1]
 
 RUN: 5695
-5695 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5695 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5695 5  GOLDEN
 5695 10  GOLDEN
 5695 15  GOLDEN
@@ -1202,7 +1202,7 @@ RUN: 5700
 5700 940  GOLDEN
 
 RUN: 5701
-5701 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5701 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5701 5  GOLDEN
 5701 10  GOLDEN
 5701 15  GOLDEN
@@ -1822,7 +1822,7 @@ RUN: 5703
 5703 995  GOLDEN
 5703 1000  GOLDEN
 5703 1005  GOLDEN
-5703 1010  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]
+5703 1010  2-MarginalOutlier[all]  8-MarginalOutlierFT[1]
 
 RUN: 5704
 5704 0  GOLDEN
@@ -2029,7 +2029,7 @@ RUN: 5704
 5704 1005  GOLDEN
 
 RUN: 5705
-5705 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5705 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5705 5  GOLDEN
 5705 10  GOLDEN
 5705 15  GOLDEN
@@ -2149,7 +2149,7 @@ RUN: 5705
 5705 585  GOLDEN
 5705 590  GOLDEN
 5705 595  GOLDEN
-5705 600  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+5705 600  4-LowLiveTime[all]
 5705 605  GOLDEN
 5705 610  GOLDEN
 5705 615  GOLDEN
@@ -2575,7 +2575,7 @@ RUN: 5708
 5708 205  GOLDEN
 
 RUN: 5715
-5715 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5715 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5715 5  GOLDEN
 5715 10  GOLDEN
 5715 15  GOLDEN
@@ -2777,7 +2777,7 @@ RUN: 5715
 5715 995  GOLDEN
 
 RUN: 5716
-5716 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5716 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5716 5  GOLDEN
 5716 10  GOLDEN
 5716 15  GOLDEN
@@ -2979,7 +2979,7 @@ RUN: 5716
 5716 995  GOLDEN
 
 RUN: 5717
-5717 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5717 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5717 5  GOLDEN
 5717 10  GOLDEN
 5717 15  GOLDEN
@@ -4846,7 +4846,7 @@ RUN: 5728
 5728 160  GOLDEN
 5728 165  GOLDEN
 5728 170  GOLDEN
-5728 175  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]
+5728 175  2-MarginalOutlier[all]  8-MarginalOutlierFT[1]
 
 RUN: 5729
 5729 0  GOLDEN
@@ -4897,7 +4897,7 @@ RUN: 5729
 5729 225  GOLDEN
 5729 230  GOLDEN
 5729 235  GOLDEN
-5729 240  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]
+5729 240  2-MarginalOutlier[all]  8-MarginalOutlierFT[1]
 5729 245  GOLDEN
 5729 250  GOLDEN
 5729 255  GOLDEN
@@ -5667,7 +5667,7 @@ RUN: 5734
 5734 1020  GOLDEN
 
 RUN: 5735
-5735 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5735 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5735 5  GOLDEN
 5735 10  GOLDEN
 5735 15  GOLDEN
@@ -6287,10 +6287,10 @@ RUN: 5739
 5739 1040  GOLDEN
 
 RUN: 5741
-5741 0  1-TerminalOutlier[1]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
+5741 0  1-TerminalOutlier[1]  5-Misc[all]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs; Junk
 
 RUN: 5742
-5742 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5742 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5742 5  GOLDEN
 5742 10  GOLDEN
 5742 15  GOLDEN
@@ -6609,7 +6609,7 @@ RUN: 5745
 5745 425  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
 5745 430  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
 5745 435  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
-5745 440  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[2]  6-TotalOutlierFT[1]  :: noticed a slight decrease in N/F that persists for several runs afterward
+5745 440  0-TotalOutlier[all]  5-Misc[2]  6-TotalOutlierFT[1]  :: noticed a slight decrease in N/F that persists for several runs afterward
 5745 445  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
 5745 450  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
 5745 455  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
@@ -6726,275 +6726,275 @@ RUN: 5745
 5745 1010  2-MarginalOutlier[2]  5-Misc[2]  :: noticed a slight decrease in N/F that persists for several runs afterward
 
 RUN: 5746
-5746 0  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 5  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 10  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 15  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 20  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 25  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 30  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 35  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 40  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 45  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 50  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 55  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 60  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 65  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 70  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 75  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 80  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 85  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 90  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 95  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 100  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 105  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 110  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 115  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 120  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 125  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 130  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 135  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 140  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 145  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 150  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 155  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 160  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 165  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 170  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 175  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 180  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 185  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 190  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 195  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 200  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 205  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 210  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 215  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 220  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 225  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 230  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 235  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 240  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 245  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 250  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 255  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 260  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 265  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 270  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 275  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 280  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 285  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 290  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 295  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 300  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 305  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 310  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 315  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 320  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 325  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 330  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 335  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 340  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 345  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 350  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 355  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 360  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 365  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 370  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 375  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 380  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 385  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 390  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 395  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 400  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 405  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 410  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 415  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 420  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 425  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 430  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 435  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 440  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 445  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 450  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 455  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 460  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 465  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 470  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 475  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 480  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 485  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 490  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 495  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 500  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 505  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 510  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 515  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 520  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 525  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 530  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 535  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 540  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 545  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 550  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 555  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 560  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 565  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 570  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 575  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 580  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 585  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 590  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 595  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 600  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 605  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 610  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 615  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 620  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 625  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 630  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 635  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 640  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 645  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 650  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 655  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 660  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 665  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 670  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 675  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 680  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 685  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 690  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 695  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 700  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 705  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: helicity sign is wrong
-5746 710  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 715  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 720  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 725  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 730  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 735  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 740  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 745  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 750  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 755  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 760  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 765  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 770  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 775  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 780  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 785  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 790  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 795  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 800  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 805  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 810  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 815  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 820  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 825  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 830  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 835  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 840  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 845  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 850  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 855  5-Misc[1, 2, 3, 4, 5, 6]  :: helicity sign is wrong
-5746 860  1-TerminalOutlier[1, 2, 4, 5]  2-MarginalOutlier[3, 6]  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: helicity sign is wrong
+5746 0  5-Misc[all]  :: helicity sign is wrong
+5746 5  5-Misc[all]  :: helicity sign is wrong
+5746 10  5-Misc[all]  :: helicity sign is wrong
+5746 15  5-Misc[all]  :: helicity sign is wrong
+5746 20  5-Misc[all]  :: helicity sign is wrong
+5746 25  5-Misc[all]  :: helicity sign is wrong
+5746 30  5-Misc[all]  :: helicity sign is wrong
+5746 35  5-Misc[all]  :: helicity sign is wrong
+5746 40  5-Misc[all]  :: helicity sign is wrong
+5746 45  5-Misc[all]  :: helicity sign is wrong
+5746 50  5-Misc[all]  :: helicity sign is wrong
+5746 55  5-Misc[all]  :: helicity sign is wrong
+5746 60  5-Misc[all]  :: helicity sign is wrong
+5746 65  5-Misc[all]  :: helicity sign is wrong
+5746 70  5-Misc[all]  :: helicity sign is wrong
+5746 75  5-Misc[all]  :: helicity sign is wrong
+5746 80  5-Misc[all]  :: helicity sign is wrong
+5746 85  5-Misc[all]  :: helicity sign is wrong
+5746 90  5-Misc[all]  :: helicity sign is wrong
+5746 95  5-Misc[all]  :: helicity sign is wrong
+5746 100  5-Misc[all]  :: helicity sign is wrong
+5746 105  5-Misc[all]  :: helicity sign is wrong
+5746 110  5-Misc[all]  :: helicity sign is wrong
+5746 115  5-Misc[all]  :: helicity sign is wrong
+5746 120  5-Misc[all]  :: helicity sign is wrong
+5746 125  5-Misc[all]  :: helicity sign is wrong
+5746 130  5-Misc[all]  :: helicity sign is wrong
+5746 135  5-Misc[all]  :: helicity sign is wrong
+5746 140  5-Misc[all]  :: helicity sign is wrong
+5746 145  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 150  5-Misc[all]  :: helicity sign is wrong
+5746 155  5-Misc[all]  :: helicity sign is wrong
+5746 160  5-Misc[all]  :: helicity sign is wrong
+5746 165  5-Misc[all]  :: helicity sign is wrong
+5746 170  5-Misc[all]  :: helicity sign is wrong
+5746 175  5-Misc[all]  :: helicity sign is wrong
+5746 180  5-Misc[all]  :: helicity sign is wrong
+5746 185  5-Misc[all]  :: helicity sign is wrong
+5746 190  5-Misc[all]  :: helicity sign is wrong
+5746 195  5-Misc[all]  :: helicity sign is wrong
+5746 200  5-Misc[all]  :: helicity sign is wrong
+5746 205  5-Misc[all]  :: helicity sign is wrong
+5746 210  5-Misc[all]  :: helicity sign is wrong
+5746 215  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 220  5-Misc[all]  :: helicity sign is wrong
+5746 225  5-Misc[all]  :: helicity sign is wrong
+5746 230  5-Misc[all]  :: helicity sign is wrong
+5746 235  5-Misc[all]  :: helicity sign is wrong
+5746 240  5-Misc[all]  :: helicity sign is wrong
+5746 245  5-Misc[all]  :: helicity sign is wrong
+5746 250  5-Misc[all]  :: helicity sign is wrong
+5746 255  5-Misc[all]  :: helicity sign is wrong
+5746 260  5-Misc[all]  :: helicity sign is wrong
+5746 265  5-Misc[all]  :: helicity sign is wrong
+5746 270  5-Misc[all]  :: helicity sign is wrong
+5746 275  5-Misc[all]  :: helicity sign is wrong
+5746 280  5-Misc[all]  :: helicity sign is wrong
+5746 285  5-Misc[all]  :: helicity sign is wrong
+5746 290  5-Misc[all]  :: helicity sign is wrong
+5746 295  5-Misc[all]  :: helicity sign is wrong
+5746 300  5-Misc[all]  :: helicity sign is wrong
+5746 305  5-Misc[all]  :: helicity sign is wrong
+5746 310  5-Misc[all]  :: helicity sign is wrong
+5746 315  5-Misc[all]  :: helicity sign is wrong
+5746 320  5-Misc[all]  :: helicity sign is wrong
+5746 325  5-Misc[all]  :: helicity sign is wrong
+5746 330  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 335  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 340  5-Misc[all]  :: helicity sign is wrong
+5746 345  5-Misc[all]  :: helicity sign is wrong
+5746 350  5-Misc[all]  :: helicity sign is wrong
+5746 355  5-Misc[all]  :: helicity sign is wrong
+5746 360  5-Misc[all]  :: helicity sign is wrong
+5746 365  5-Misc[all]  :: helicity sign is wrong
+5746 370  5-Misc[all]  :: helicity sign is wrong
+5746 375  5-Misc[all]  :: helicity sign is wrong
+5746 380  5-Misc[all]  :: helicity sign is wrong
+5746 385  5-Misc[all]  :: helicity sign is wrong
+5746 390  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 395  5-Misc[all]  :: helicity sign is wrong
+5746 400  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 405  5-Misc[all]  :: helicity sign is wrong
+5746 410  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 415  5-Misc[all]  :: helicity sign is wrong
+5746 420  5-Misc[all]  :: helicity sign is wrong
+5746 425  5-Misc[all]  :: helicity sign is wrong
+5746 430  5-Misc[all]  :: helicity sign is wrong
+5746 435  5-Misc[all]  :: helicity sign is wrong
+5746 440  5-Misc[all]  :: helicity sign is wrong
+5746 445  5-Misc[all]  :: helicity sign is wrong
+5746 450  5-Misc[all]  :: helicity sign is wrong
+5746 455  5-Misc[all]  :: helicity sign is wrong
+5746 460  5-Misc[all]  :: helicity sign is wrong
+5746 465  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 470  5-Misc[all]  :: helicity sign is wrong
+5746 475  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 480  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 485  5-Misc[all]  :: helicity sign is wrong
+5746 490  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 495  5-Misc[all]  :: helicity sign is wrong
+5746 500  5-Misc[all]  :: helicity sign is wrong
+5746 505  5-Misc[all]  :: helicity sign is wrong
+5746 510  5-Misc[all]  :: helicity sign is wrong
+5746 515  5-Misc[all]  :: helicity sign is wrong
+5746 520  5-Misc[all]  :: helicity sign is wrong
+5746 525  5-Misc[all]  :: helicity sign is wrong
+5746 530  5-Misc[all]  :: helicity sign is wrong
+5746 535  5-Misc[all]  :: helicity sign is wrong
+5746 540  5-Misc[all]  :: helicity sign is wrong
+5746 545  5-Misc[all]  :: helicity sign is wrong
+5746 550  5-Misc[all]  :: helicity sign is wrong
+5746 555  5-Misc[all]  :: helicity sign is wrong
+5746 560  5-Misc[all]  :: helicity sign is wrong
+5746 565  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 570  5-Misc[all]  :: helicity sign is wrong
+5746 575  5-Misc[all]  :: helicity sign is wrong
+5746 580  5-Misc[all]  :: helicity sign is wrong
+5746 585  5-Misc[all]  :: helicity sign is wrong
+5746 590  5-Misc[all]  :: helicity sign is wrong
+5746 595  5-Misc[all]  :: helicity sign is wrong
+5746 600  5-Misc[all]  :: helicity sign is wrong
+5746 605  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 610  5-Misc[all]  :: helicity sign is wrong
+5746 615  5-Misc[all]  :: helicity sign is wrong
+5746 620  5-Misc[all]  :: helicity sign is wrong
+5746 625  5-Misc[all]  :: helicity sign is wrong
+5746 630  5-Misc[all]  :: helicity sign is wrong
+5746 635  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 640  5-Misc[all]  :: helicity sign is wrong
+5746 645  5-Misc[all]  :: helicity sign is wrong
+5746 650  5-Misc[all]  :: helicity sign is wrong
+5746 655  5-Misc[all]  :: helicity sign is wrong
+5746 660  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 665  5-Misc[all]  :: helicity sign is wrong
+5746 670  5-Misc[all]  :: helicity sign is wrong
+5746 675  5-Misc[all]  :: helicity sign is wrong
+5746 680  5-Misc[all]  :: helicity sign is wrong
+5746 685  5-Misc[all]  :: helicity sign is wrong
+5746 690  5-Misc[all]  :: helicity sign is wrong
+5746 695  5-Misc[all]  :: helicity sign is wrong
+5746 700  5-Misc[all]  :: helicity sign is wrong
+5746 705  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: helicity sign is wrong
+5746 710  5-Misc[all]  :: helicity sign is wrong
+5746 715  5-Misc[all]  :: helicity sign is wrong
+5746 720  5-Misc[all]  :: helicity sign is wrong
+5746 725  5-Misc[all]  :: helicity sign is wrong
+5746 730  5-Misc[all]  :: helicity sign is wrong
+5746 735  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 740  5-Misc[all]  :: helicity sign is wrong
+5746 745  5-Misc[all]  :: helicity sign is wrong
+5746 750  5-Misc[all]  :: helicity sign is wrong
+5746 755  5-Misc[all]  :: helicity sign is wrong
+5746 760  5-Misc[all]  :: helicity sign is wrong
+5746 765  5-Misc[all]  :: helicity sign is wrong
+5746 770  5-Misc[all]  :: helicity sign is wrong
+5746 775  5-Misc[all]  :: helicity sign is wrong
+5746 780  5-Misc[all]  :: helicity sign is wrong
+5746 785  5-Misc[all]  :: helicity sign is wrong
+5746 790  5-Misc[all]  :: helicity sign is wrong
+5746 795  5-Misc[all]  :: helicity sign is wrong
+5746 800  5-Misc[all]  :: helicity sign is wrong
+5746 805  5-Misc[all]  :: helicity sign is wrong
+5746 810  2-MarginalOutlier[2]  5-Misc[all]  :: helicity sign is wrong
+5746 815  5-Misc[all]  :: helicity sign is wrong
+5746 820  5-Misc[all]  :: helicity sign is wrong
+5746 825  5-Misc[all]  :: helicity sign is wrong
+5746 830  5-Misc[all]  :: helicity sign is wrong
+5746 835  5-Misc[all]  :: helicity sign is wrong
+5746 840  5-Misc[all]  :: helicity sign is wrong
+5746 845  5-Misc[all]  :: helicity sign is wrong
+5746 850  5-Misc[all]  :: helicity sign is wrong
+5746 855  5-Misc[all]  :: helicity sign is wrong
+5746 860  1-TerminalOutlier[1, 2, 4, 5]  2-MarginalOutlier[3, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  :: helicity sign is wrong
 
 RUN: 5749
-5749 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: empty target run
-5749 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 15  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 20  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 25  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 30  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 35  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 40  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 45  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 50  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 55  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 60  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 65  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 70  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 75  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 80  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 85  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 90  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 95  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 100  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 105  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 110  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 115  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 120  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 125  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 130  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 135  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 140  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 145  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 150  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 155  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 160  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 165  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 170  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 175  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 180  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 185  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 190  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 195  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 200  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 205  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 210  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 215  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 220  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 225  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 230  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 235  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 240  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 245  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 250  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 255  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 260  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 265  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 270  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 275  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 280  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 285  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 290  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 295  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 300  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 305  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 310  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 315  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 320  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 325  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 330  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 335  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 340  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 345  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 350  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 355  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 360  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 365  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 370  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 375  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 380  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 385  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 390  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 395  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 400  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 405  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 410  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 415  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 420  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 425  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 430  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 435  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 440  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 445  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 450  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 455  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 460  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: empty target run
-5749 465  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: empty target run
+5749 0  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: empty target run
+5749 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 90  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 95  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 100  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 105  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 110  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 115  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 120  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 125  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 130  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 135  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 140  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 145  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 150  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 155  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 160  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 165  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 170  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 175  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 180  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 185  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 190  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 195  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 200  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 205  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 210  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 215  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 220  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 225  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 230  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 235  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 240  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 245  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 250  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 255  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 260  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 265  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 270  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 275  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 280  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 285  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 290  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 295  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 300  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 305  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 310  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 315  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 320  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 325  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 330  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 335  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 340  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 345  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 350  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 355  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 360  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 365  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 370  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 375  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 380  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 385  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 390  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 395  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 400  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 405  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 410  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 415  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 420  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 425  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 430  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 435  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 440  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 445  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 450  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 455  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 460  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+5749 465  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: empty target run
 
 RUN: 5750
 5750 0  5-Misc[2]  :: noticed a slight decrease in N/F for sector 2 that persists for all the run.
@@ -7410,7 +7410,7 @@ RUN: 5758
 5758 225  GOLDEN
 5758 230  GOLDEN
 5758 235  GOLDEN
-5758 240  0-TotalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5758 240  0-TotalOutlier[all]  6-TotalOutlierFT[1]
 5758 245  GOLDEN
 5758 250  GOLDEN
 5758 255  GOLDEN
@@ -7797,7 +7797,7 @@ RUN: 5759
 5759 1090  9-LossFT[1]
 
 RUN: 5760
-5760 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5760 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5760 5  GOLDEN
 5760 10  GOLDEN
 5760 15  GOLDEN
@@ -7917,16 +7917,16 @@ RUN: 5761
 5761 205  GOLDEN
 5761 210  GOLDEN
 5761 215  GOLDEN
-5761 220  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5761 220  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]
 
 RUN: 5762
-5762 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: only one file (DAQ error)
+5762 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: only one file (DAQ error)
 
 RUN: 5763
-5763 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: only one file (DAQ error)
+5763 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: only one file (DAQ error)
 
 RUN: 5765
-5765 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]
+5765 0  1-TerminalOutlier[all]  8-MarginalOutlierFT[1]
 5765 5  GOLDEN
 5765 10  GOLDEN
 5765 15  GOLDEN
@@ -8117,7 +8117,7 @@ RUN: 5767
 5767 285  GOLDEN
 5767 290  GOLDEN
 5767 295  GOLDEN
-5767 300  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+5767 300  4-LowLiveTime[all]
 5767 305  GOLDEN
 5767 310  GOLDEN
 5767 315  GOLDEN
@@ -8161,7 +8161,7 @@ RUN: 5767
 5767 505  GOLDEN
 5767 510  GOLDEN
 5767 515  GOLDEN
-5767 520  2-MarginalOutlier[1, 2, 3, 4, 5, 6]
+5767 520  2-MarginalOutlier[all]
 5767 525  GOLDEN
 5767 530  GOLDEN
 5767 535  GOLDEN
@@ -8224,40 +8224,40 @@ RUN: 5767
 5767 820  9-LossFT[1]
 
 RUN: 5768
-5768 0  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 5  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 10  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 15  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 20  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 25  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 30  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.87521
-5768 35  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 40  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 45  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 50  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
-5768 55  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.87521
+5768 0  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 5  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 10  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 15  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 20  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 25  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 30  5-Misc[all]  :: Low value of defined helicity fraction, 0.87521
+5768 35  5-Misc[all]  6-TotalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 40  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 45  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 50  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.87521
+5768 55  5-Misc[all]  :: Low value of defined helicity fraction, 0.87521
 
 RUN: 5769
-5769 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.88323
-5769 5  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 10  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 15  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 20  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 25  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 30  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 35  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 40  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 45  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 50  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.88323
-5769 55  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
-5769 60  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.88323
-5769 65  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.88323
-5769 70  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.88323
-5769 75  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.88323
-5769 80  5-Misc[1, 2, 3, 4, 5, 6]  :: Low value of defined helicity fraction, 0.88323
+5769 0  5-Misc[all]  :: Low value of defined helicity fraction, 0.88323
+5769 5  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 10  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 15  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 20  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 25  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 30  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 35  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 40  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 45  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 50  5-Misc[all]  :: Low value of defined helicity fraction, 0.88323
+5769 55  5-Misc[all]  8-MarginalOutlierFT[1]  :: Low value of defined helicity fraction, 0.88323
+5769 60  5-Misc[all]  :: Low value of defined helicity fraction, 0.88323
+5769 65  5-Misc[all]  :: Low value of defined helicity fraction, 0.88323
+5769 70  5-Misc[all]  :: Low value of defined helicity fraction, 0.88323
+5769 75  5-Misc[all]  :: Low value of defined helicity fraction, 0.88323
+5769 80  5-Misc[all]  :: Low value of defined helicity fraction, 0.88323
 
 RUN: 5772
-5772 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5772 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5772 5  GOLDEN
 5772 10  GOLDEN
 5772 15  GOLDEN
@@ -8317,7 +8317,7 @@ RUN: 5772
 5772 285  GOLDEN
 5772 290  GOLDEN
 5772 295  GOLDEN
-5772 300  0-TotalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5772 300  0-TotalOutlier[all]  6-TotalOutlierFT[1]
 5772 305  GOLDEN
 5772 310  GOLDEN
 5772 315  GOLDEN
@@ -8547,23 +8547,23 @@ RUN: 5772
 5772 1435  GOLDEN
 
 RUN: 5774
-5774 0  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 5  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 10  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 15  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 20  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 25  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 30  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 35  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 40  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 45  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 50  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 55  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 60  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5774 65  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
+5774 0  5-Misc[all]  :: BSA irregularity
+5774 5  5-Misc[all]  :: BSA irregularity
+5774 10  5-Misc[all]  :: BSA irregularity
+5774 15  5-Misc[all]  :: BSA irregularity
+5774 20  5-Misc[all]  :: BSA irregularity
+5774 25  5-Misc[all]  :: BSA irregularity
+5774 30  5-Misc[all]  :: BSA irregularity
+5774 35  5-Misc[all]  :: BSA irregularity
+5774 40  5-Misc[all]  :: BSA irregularity
+5774 45  5-Misc[all]  :: BSA irregularity
+5774 50  5-Misc[all]  :: BSA irregularity
+5774 55  5-Misc[all]  :: BSA irregularity
+5774 60  5-Misc[all]  :: BSA irregularity
+5774 65  5-Misc[all]  :: BSA irregularity
 
 RUN: 5777
-5777 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5777 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5777 5  GOLDEN
 5777 10  GOLDEN
 5777 15  GOLDEN
@@ -8730,14 +8730,14 @@ RUN: 5787
 5787 25  GOLDEN
 5787 30  2-MarginalOutlier[1, 6]  8-MarginalOutlierFT[1]
 5787 35  GOLDEN
-5787 40  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
-5787 45  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5787 40  2-MarginalOutlier[all]  6-TotalOutlierFT[1]
+5787 45  2-MarginalOutlier[all]  6-TotalOutlierFT[1]
 5787 50  GOLDEN
 5787 55  GOLDEN
 5787 60  GOLDEN
 5787 65  GOLDEN
-5787 70  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
-5787 75  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5787 70  2-MarginalOutlier[all]  6-TotalOutlierFT[1]
+5787 75  2-MarginalOutlier[all]  6-TotalOutlierFT[1]
 5787 80  GOLDEN
 5787 85  GOLDEN
 5787 90  GOLDEN
@@ -9043,7 +9043,7 @@ RUN: 5790
 5790 10  GOLDEN
 5790 15  GOLDEN
 5790 20  GOLDEN
-5790 25  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5790 25  2-MarginalOutlier[all]  6-TotalOutlierFT[1]
 5790 30  GOLDEN
 5790 35  GOLDEN
 5790 40  GOLDEN
@@ -9212,7 +9212,7 @@ RUN: 5791
 5791 435  GOLDEN
 
 RUN: 5792
-5792 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5792 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5792 5  GOLDEN
 5792 10  GOLDEN
 5792 15  GOLDEN
@@ -9249,7 +9249,7 @@ RUN: 5792
 5792 170  GOLDEN
 5792 175  GOLDEN
 5792 180  GOLDEN
-5792 185  0-TotalOutlier[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]
+5792 185  0-TotalOutlier[all]  8-MarginalOutlierFT[1]
 5792 190  GOLDEN
 5792 195  GOLDEN
 5792 200  GOLDEN
@@ -9370,7 +9370,7 @@ RUN: 5792
 5792 775  GOLDEN
 
 RUN: 5793
-5793 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5793 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5793 5  GOLDEN
 5793 10  GOLDEN
 5793 15  GOLDEN
@@ -10054,7 +10054,7 @@ RUN: 5796
 5796 675  GOLDEN
 
 RUN: 5797
-5797 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5797 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5797 5  GOLDEN
 5797 10  GOLDEN
 5797 15  GOLDEN
@@ -10234,7 +10234,7 @@ RUN: 5798
 5798 110  GOLDEN
 
 RUN: 5799
-5799 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5799 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5799 5  GOLDEN
 5799 10  GOLDEN
 5799 15  GOLDEN
@@ -10389,7 +10389,7 @@ RUN: 5801
 5801 85  GOLDEN
 5801 90  GOLDEN
 5801 95  GOLDEN
-5801 100  0-TotalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5801 100  0-TotalOutlier[all]  6-TotalOutlierFT[1]
 5801 105  GOLDEN
 5801 110  GOLDEN
 5801 115  GOLDEN
@@ -10484,7 +10484,7 @@ RUN: 5801
 5801 560  GOLDEN
 
 RUN: 5802
-5802 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5802 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5802 5  GOLDEN
 5802 10  GOLDEN
 5802 15  GOLDEN
@@ -10948,7 +10948,7 @@ RUN: 5806
 5806 1485  GOLDEN
 
 RUN: 5807
-5807 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5807 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5807 5  GOLDEN
 5807 10  GOLDEN
 5807 15  GOLDEN
@@ -11133,81 +11133,81 @@ RUN: 5807
 5807 910  2-MarginalOutlier[1, 2, 3, 4, 5]
 
 RUN: 5808
-5808 0  1-TerminalOutlier[1, 3, 4, 5, 6]  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: BSA irregularity
-5808 5  5-Misc[1, 2, 3, 4, 5, 6]  :: BSA irregularity
-5808 10  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: BSA irregularity
+5808 0  1-TerminalOutlier[1, 3, 4, 5, 6]  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  :: BSA irregularity
+5808 5  5-Misc[all]  :: BSA irregularity
+5808 10  1-TerminalOutlier[all]  5-Misc[all]  8-MarginalOutlierFT[1]  :: BSA irregularity
 
 RUN: 5809
-5809 0  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 5  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 10  0-TotalOutlier[2, 4]  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 15  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 20  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 25  2-MarginalOutlier[1, 2, 3]  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 30  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 35  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 40  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 45  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 50  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 55  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 60  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 65  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 70  0-TotalOutlier[4, 6]  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 75  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 80  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 85  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 90  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 95  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 100  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 105  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 110  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 115  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: on Lucilla's list of bad runs
-5809 120  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 125  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 130  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 135  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 140  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 145  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 150  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 155  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 160  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 165  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 170  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 175  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 180  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 185  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 190  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 195  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 200  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 205  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 210  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 215  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 220  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 225  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 230  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 235  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 240  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 245  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 250  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 255  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 260  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 265  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 270  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 275  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 280  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 285  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 290  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 295  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 300  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 305  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 310  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 315  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 320  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 325  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 330  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 335  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 340  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
-5809 345  5-Misc[1, 2, 3, 4, 5, 6]  :: on Lucilla's list of bad runs
+5809 0  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  7-TerminalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 5  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 10  0-TotalOutlier[2, 4]  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 15  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 20  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 25  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  8-MarginalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 30  2-MarginalOutlier[all]  5-Misc[all]  8-MarginalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 35  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 40  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 45  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 50  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 55  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 60  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 65  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 70  0-TotalOutlier[4, 6]  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 75  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 80  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 85  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 90  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 95  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 100  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 105  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 110  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 115  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  :: on Lucilla's list of bad runs
+5809 120  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 125  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 130  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 135  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 140  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 145  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 150  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 155  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 160  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 165  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 170  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 175  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 180  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 185  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 190  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 195  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 200  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 205  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 210  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 215  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 220  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 225  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 230  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 235  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 240  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 245  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 250  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 255  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 260  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 265  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 270  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 275  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 280  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 285  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 290  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 295  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 300  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 305  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 310  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 315  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 320  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 325  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 330  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 335  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 340  5-Misc[all]  :: on Lucilla's list of bad runs
+5809 345  5-Misc[all]  :: on Lucilla's list of bad runs
 
 RUN: 5810
 5810 0  GOLDEN
@@ -12093,7 +12093,7 @@ RUN: 5817
 5817 455  GOLDEN
 5817 460  GOLDEN
 5817 465  2-MarginalOutlier[4]
-5817 470  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5817 470  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 
 RUN: 5821
 5821 0  1-TerminalOutlier[1, 3, 4, 5, 6]  2-MarginalOutlier[2]  7-TerminalOutlierFT[1]
@@ -12210,7 +12210,7 @@ RUN: 5821
 5821 555  GOLDEN
 
 RUN: 5822
-5822 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5822 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5822 5  GOLDEN
 5822 10  GOLDEN
 5822 15  GOLDEN
@@ -12505,7 +12505,7 @@ RUN: 5824
 5824 295  GOLDEN
 
 RUN: 5825
-5825 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5825 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5825 5  GOLDEN
 5825 10  GOLDEN
 5825 15  GOLDEN
@@ -12649,17 +12649,17 @@ RUN: 5826
 5826 670  GOLDEN
 
 RUN: 5827
-5827 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: irregularity in the defined helicity fraction
-5827 5  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 10  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 15  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 20  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 25  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 30  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 35  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 40  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 45  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
-5827 50  5-Misc[1, 2, 3, 4, 5, 6]  :: irregularity in the defined helicity fraction
+5827 0  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: irregularity in the defined helicity fraction
+5827 5  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 10  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 15  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 20  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 25  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 30  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 35  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 40  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 45  5-Misc[all]  :: irregularity in the defined helicity fraction
+5827 50  5-Misc[all]  :: irregularity in the defined helicity fraction
 
 RUN: 5828
 5828 0  GOLDEN
@@ -12754,7 +12754,7 @@ RUN: 5828
 5828 445  GOLDEN
 
 RUN: 5829
-5829 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5829 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5829 5  GOLDEN
 5829 10  GOLDEN
 5829 15  GOLDEN
@@ -12808,7 +12808,7 @@ RUN: 5830
 5830 60  GOLDEN
 
 RUN: 5832
-5832 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5832 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5832 5  GOLDEN
 5832 10  GOLDEN
 5832 15  GOLDEN
@@ -12928,10 +12928,10 @@ RUN: 5832
 5832 585  GOLDEN
 5832 590  GOLDEN
 5832 595  GOLDEN
-5832 600  0-TotalOutlier[2, 4]  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: N/F value higher than the median
-5832 605  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: N/F value higher than the median
-5832 610  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]  :: N/F value higher than the median
-5832 615  2-MarginalOutlier[1]  5-Misc[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  :: N/F value higher than the median
+5832 600  0-TotalOutlier[2, 4]  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  6-TotalOutlierFT[1]  :: N/F value higher than the median
+5832 605  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: N/F value higher than the median
+5832 610  2-MarginalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: N/F value higher than the median
+5832 615  2-MarginalOutlier[1]  5-Misc[all]  8-MarginalOutlierFT[1]  :: N/F value higher than the median
 
 RUN: 5835
 5835 0  8-MarginalOutlierFT[1]
@@ -13017,15 +13017,15 @@ RUN: 5836
 5836 145  GOLDEN
 
 RUN: 5838
-5838 0  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
-5838 5  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
-5838 10  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
-5838 15  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
-5838 20  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
-5838 25  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
-5838 30  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
-5838 35  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
-5838 40  5-Misc[1, 2, 3, 4, 5, 6]  :: Beam spin asimmetry irregularity
+5838 0  5-Misc[all]  :: Beam spin asimmetry irregularity
+5838 5  5-Misc[all]  :: Beam spin asimmetry irregularity
+5838 10  5-Misc[all]  :: Beam spin asimmetry irregularity
+5838 15  5-Misc[all]  :: Beam spin asimmetry irregularity
+5838 20  5-Misc[all]  :: Beam spin asimmetry irregularity
+5838 25  5-Misc[all]  :: Beam spin asimmetry irregularity
+5838 30  5-Misc[all]  :: Beam spin asimmetry irregularity
+5838 35  5-Misc[all]  :: Beam spin asimmetry irregularity
+5838 40  5-Misc[all]  :: Beam spin asimmetry irregularity
 
 RUN: 5839
 5839 0  GOLDEN
@@ -13040,10 +13040,10 @@ RUN: 5839
 5839 45  GOLDEN
 
 RUN: 5841
-5841 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
+5841 0  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: Junk
 
 RUN: 5843
-5843 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
+5843 0  1-TerminalOutlier[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: Junk
 
 RUN: 5844
 5844 0  GOLDEN
@@ -13329,7 +13329,7 @@ RUN: 5844
 5844 1400  GOLDEN
 
 RUN: 5845
-5845 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5845 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5845 5  GOLDEN
 5845 10  GOLDEN
 5845 15  GOLDEN
@@ -13842,7 +13842,7 @@ RUN: 5846
 5846 925  GOLDEN
 5846 930  GOLDEN
 5846 935  GOLDEN
-5846 940  0-TotalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5846 940  0-TotalOutlier[all]  6-TotalOutlierFT[1]
 5846 945  GOLDEN
 5846 950  GOLDEN
 5846 955  GOLDEN
@@ -13917,7 +13917,7 @@ RUN: 5846
 5846 1300  GOLDEN
 
 RUN: 5847
-5847 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5847 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5847 5  GOLDEN
 5847 10  GOLDEN
 5847 15  GOLDEN
@@ -14723,7 +14723,7 @@ RUN: 5850
 5850 610  GOLDEN
 5850 615  GOLDEN
 5850 620  GOLDEN
-5850 625  0-TotalOutlier[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]
+5850 625  0-TotalOutlier[all]  8-MarginalOutlierFT[1]
 5850 630  GOLDEN
 5850 635  GOLDEN
 5850 640  GOLDEN
@@ -14762,10 +14762,10 @@ RUN: 5850
 5850 805  9-LossFT[1]
 5850 810  9-LossFT[1]
 5850 815  9-LossFT[1]
-5850 820  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  9-LossFT[1]
+5850 820  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]  9-LossFT[1]
 
 RUN: 5851
-5851 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5851 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5851 5  GOLDEN
 5851 10  GOLDEN
 5851 15  GOLDEN
@@ -15164,7 +15164,7 @@ RUN: 5853
 5853 90  3-SectorLoss[1]  7-TerminalOutlierFT[1]  9-LossFT[1]
 
 RUN: 5854
-5854 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  8-MarginalOutlierFT[1]
+5854 0  1-TerminalOutlier[all]  8-MarginalOutlierFT[1]
 5854 5  GOLDEN
 5854 10  GOLDEN
 5854 15  GOLDEN
@@ -16354,7 +16354,7 @@ RUN: 5858
 5858 50  GOLDEN
 5858 55  GOLDEN
 5858 60  GOLDEN
-5858 65  0-TotalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5858 65  0-TotalOutlier[all]  6-TotalOutlierFT[1]
 5858 70  GOLDEN
 5858 75  GOLDEN
 5858 80  GOLDEN
@@ -16546,7 +16546,7 @@ RUN: 5858
 5858 1010  GOLDEN
 
 RUN: 5859
-5859 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5859 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5859 5  GOLDEN
 5859 10  GOLDEN
 5859 15  GOLDEN
@@ -16559,10 +16559,10 @@ RUN: 5859
 5859 50  GOLDEN
 
 RUN: 5860
-5860 0  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
+5860 0  5-Misc[all]  7-TerminalOutlierFT[1]  :: Junk
 
 RUN: 5861
-5861 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
+5861 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: Junk
 
 RUN: 5862
 5862 0  1-TerminalOutlier[2]  5-Misc[2]  7-TerminalOutlierFT[1]  :: Junk, only 27 files
@@ -16573,7 +16573,7 @@ RUN: 5862
 5862 25  1-TerminalOutlier[2]  5-Misc[2]  8-MarginalOutlierFT[1]  :: Junk, only 27 files
 
 RUN: 5863
-5863 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]  :: Junk
+5863 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  :: Junk
 
 RUN: 5864
 5864 0  GOLDEN
@@ -16779,31 +16779,31 @@ RUN: 5864
 5864 1000  GOLDEN
 5864 1005  GOLDEN
 5864 1010  GOLDEN
-5864 1015  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5864 1015  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 
 RUN: 5865
-5865 0  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 5  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 10  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 15  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 20  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 25  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 30  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 35  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 40  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 45  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 50  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 55  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 60  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 65  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 70  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 75  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 80  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 85  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
-5865 90  5-Misc[1, 2, 3, 4, 5, 6]  :: junk run
+5865 0  5-Misc[all]  :: junk run
+5865 5  5-Misc[all]  :: junk run
+5865 10  5-Misc[all]  :: junk run
+5865 15  5-Misc[all]  :: junk run
+5865 20  5-Misc[all]  :: junk run
+5865 25  5-Misc[all]  :: junk run
+5865 30  5-Misc[all]  :: junk run
+5865 35  5-Misc[all]  :: junk run
+5865 40  5-Misc[all]  :: junk run
+5865 45  5-Misc[all]  :: junk run
+5865 50  5-Misc[all]  :: junk run
+5865 55  5-Misc[all]  :: junk run
+5865 60  5-Misc[all]  :: junk run
+5865 65  5-Misc[all]  :: junk run
+5865 70  5-Misc[all]  :: junk run
+5865 75  5-Misc[all]  :: junk run
+5865 80  5-Misc[all]  :: junk run
+5865 85  5-Misc[all]  :: junk run
+5865 90  5-Misc[all]  :: junk run
 
 RUN: 5866
-5866 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5866 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5866 5  GOLDEN
 5866 10  GOLDEN
 5866 15  GOLDEN
@@ -16883,7 +16883,7 @@ RUN: 5866
 5866 385  GOLDEN
 
 RUN: 5867
-5867 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  7-TerminalOutlierFT[1]
+5867 0  1-TerminalOutlier[all]  7-TerminalOutlierFT[1]
 5867 5  GOLDEN
 5867 10  GOLDEN
 5867 15  GOLDEN
@@ -17157,7 +17157,7 @@ RUN: 5868
 5868 230  GOLDEN
 5868 235  GOLDEN
 5868 240  GOLDEN
-5868 245  0-TotalOutlier[1, 2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
+5868 245  0-TotalOutlier[all]  6-TotalOutlierFT[1]
 5868 250  GOLDEN
 5868 255  GOLDEN
 5868 260  GOLDEN

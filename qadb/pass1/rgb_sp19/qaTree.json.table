@@ -299,74 +299,74 @@ RUN: 6164
 6164 905  GOLDEN
 
 RUN: 6167
-6167 0  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 5  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 10  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 15  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 20  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 25  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 30  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 35  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 40  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 45  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 50  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 55  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 60  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 65  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6167 70  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
+6167 0  5-Misc[all]  :: 10 nA run
+6167 5  5-Misc[all]  :: 10 nA run
+6167 10  5-Misc[all]  :: 10 nA run
+6167 15  5-Misc[all]  :: 10 nA run
+6167 20  5-Misc[all]  :: 10 nA run
+6167 25  5-Misc[all]  :: 10 nA run
+6167 30  5-Misc[all]  :: 10 nA run
+6167 35  5-Misc[all]  :: 10 nA run
+6167 40  5-Misc[all]  :: 10 nA run
+6167 45  5-Misc[all]  :: 10 nA run
+6167 50  5-Misc[all]  :: 10 nA run
+6167 55  5-Misc[all]  :: 10 nA run
+6167 60  5-Misc[all]  :: 10 nA run
+6167 65  5-Misc[all]  :: 10 nA run
+6167 70  5-Misc[all]  :: 10 nA run
 
 RUN: 6168
-6168 0  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6168 5  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6168 10  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6168 15  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6168 20  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
+6168 0  5-Misc[all]  :: 10 nA run
+6168 5  5-Misc[all]  :: 10 nA run
+6168 10  5-Misc[all]  :: 10 nA run
+6168 15  5-Misc[all]  :: 10 nA run
+6168 20  5-Misc[all]  :: 10 nA run
 
 RUN: 6169
-6169 0  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 5  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 10  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 15  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 20  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 25  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 30  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 35  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 40  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 45  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 50  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 55  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 60  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 65  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6169 70  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
+6169 0  5-Misc[all]  :: 10 nA run
+6169 5  5-Misc[all]  :: 10 nA run
+6169 10  5-Misc[all]  :: 10 nA run
+6169 15  5-Misc[all]  :: 10 nA run
+6169 20  5-Misc[all]  :: 10 nA run
+6169 25  5-Misc[all]  :: 10 nA run
+6169 30  5-Misc[all]  :: 10 nA run
+6169 35  5-Misc[all]  :: 10 nA run
+6169 40  5-Misc[all]  :: 10 nA run
+6169 45  5-Misc[all]  :: 10 nA run
+6169 50  5-Misc[all]  :: 10 nA run
+6169 55  5-Misc[all]  :: 10 nA run
+6169 60  5-Misc[all]  :: 10 nA run
+6169 65  5-Misc[all]  :: 10 nA run
+6169 70  5-Misc[all]  :: 10 nA run
 
 RUN: 6170
-6170 0  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 5  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 10  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 15  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 20  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 25  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 30  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 35  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 40  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 45  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 50  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 55  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 60  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 65  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 70  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 75  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 80  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 85  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 90  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 95  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 100  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 105  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 110  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
-6170 115  5-Misc[1, 2, 3, 4, 5, 6]  :: 10 nA run
+6170 0  5-Misc[all]  :: 10 nA run
+6170 5  5-Misc[all]  :: 10 nA run
+6170 10  5-Misc[all]  :: 10 nA run
+6170 15  5-Misc[all]  :: 10 nA run
+6170 20  5-Misc[all]  :: 10 nA run
+6170 25  5-Misc[all]  :: 10 nA run
+6170 30  5-Misc[all]  :: 10 nA run
+6170 35  5-Misc[all]  :: 10 nA run
+6170 40  5-Misc[all]  :: 10 nA run
+6170 45  5-Misc[all]  :: 10 nA run
+6170 50  5-Misc[all]  :: 10 nA run
+6170 55  5-Misc[all]  :: 10 nA run
+6170 60  5-Misc[all]  :: 10 nA run
+6170 65  5-Misc[all]  :: 10 nA run
+6170 70  5-Misc[all]  :: 10 nA run
+6170 75  5-Misc[all]  :: 10 nA run
+6170 80  5-Misc[all]  :: 10 nA run
+6170 85  5-Misc[all]  :: 10 nA run
+6170 90  5-Misc[all]  :: 10 nA run
+6170 95  5-Misc[all]  :: 10 nA run
+6170 100  5-Misc[all]  :: 10 nA run
+6170 105  5-Misc[all]  :: 10 nA run
+6170 110  5-Misc[all]  :: 10 nA run
+6170 115  5-Misc[all]  :: 10 nA run
 
 RUN: 6189
-6189 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6189 0  1-TerminalOutlier[all]  4-LowLiveTime[all]
 6189 5  GOLDEN
 6189 10  GOLDEN
 6189 15  GOLDEN
@@ -814,7 +814,7 @@ RUN: 6194
 6194 90  GOLDEN
 6194 95  GOLDEN
 6194 100  GOLDEN
-6194 105  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6194 105  1-TerminalOutlier[all]  4-LowLiveTime[all]
 
 RUN: 6197
 6197 0  GOLDEN
@@ -1026,8 +1026,8 @@ RUN: 6198
 6198 555  GOLDEN
 
 RUN: 6199
-6199 0  5-Misc[1, 2, 3, 4, 5, 6]  :: short and trippy run
-6199 5  5-Misc[1, 2, 3, 4, 5, 6]  :: short and trippy run
+6199 0  5-Misc[all]  :: short and trippy run
+6199 5  5-Misc[all]  :: short and trippy run
 
 RUN: 6200
 6200 0  GOLDEN
@@ -1059,11 +1059,11 @@ RUN: 6200
 6200 130  GOLDEN
 6200 135  GOLDEN
 6200 140  GOLDEN
-6200 145  0-TotalOutlier[1, 2, 3, 4, 5, 6]
-6200 150  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6200 145  0-TotalOutlier[all]
+6200 150  1-TerminalOutlier[all]
 
 RUN: 6201
-6201 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6201 0  1-TerminalOutlier[all]
 6201 5  GOLDEN
 6201 10  GOLDEN
 6201 15  GOLDEN
@@ -1160,7 +1160,7 @@ RUN: 6202
 6202 90  GOLDEN
 6202 95  GOLDEN
 6202 100  GOLDEN
-6202 105  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6202 105  0-TotalOutlier[all]
 6202 110  GOLDEN
 6202 115  GOLDEN
 6202 120  GOLDEN
@@ -1832,7 +1832,7 @@ RUN: 6214
 6214 960  GOLDEN
 
 RUN: 6215
-6215 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6215 0  4-LowLiveTime[all]
 6215 5  GOLDEN
 6215 10  GOLDEN
 6215 15  GOLDEN
@@ -2060,7 +2060,7 @@ RUN: 6215
 6215 1125  GOLDEN
 
 RUN: 6216
-6216 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6216 0  1-TerminalOutlier[all]
 6216 5  GOLDEN
 6216 10  GOLDEN
 6216 15  GOLDEN
@@ -2120,7 +2120,7 @@ RUN: 6216
 6216 285  GOLDEN
 6216 290  GOLDEN
 6216 295  GOLDEN
-6216 300  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6216 300  0-TotalOutlier[all]
 6216 305  GOLDEN
 6216 310  GOLDEN
 6216 315  GOLDEN
@@ -2130,16 +2130,16 @@ RUN: 6216
 6216 335  GOLDEN
 6216 340  GOLDEN
 6216 345  GOLDEN
-6216 350  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6216 350  1-TerminalOutlier[all]
 
 RUN: 6218
-6218 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6218 5  0-TotalOutlier[2, 5]  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6218 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6218 15  0-TotalOutlier[2, 3, 5, 6]  2-MarginalOutlier[1, 4]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6218 20  0-TotalOutlier[5]  2-MarginalOutlier[1, 2]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6218 25  0-TotalOutlier[5]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6218 30  0-TotalOutlier[5]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6218 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6218 5  0-TotalOutlier[2, 5]  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6218 10  0-TotalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6218 15  0-TotalOutlier[2, 3, 5, 6]  2-MarginalOutlier[1, 4]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6218 20  0-TotalOutlier[5]  2-MarginalOutlier[1, 2]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6218 25  0-TotalOutlier[5]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6218 30  0-TotalOutlier[5]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6218 35  GOLDEN
 6218 40  GOLDEN
 6218 45  GOLDEN
@@ -2244,10 +2244,10 @@ RUN: 6218
 6218 540  GOLDEN
 
 RUN: 6219
-6219 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6219 0  4-LowLiveTime[all]
 6219 5  GOLDEN
 6219 10  GOLDEN
-6219 15  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6219 15  0-TotalOutlier[all]
 6219 20  GOLDEN
 6219 25  GOLDEN
 6219 30  GOLDEN
@@ -2293,7 +2293,7 @@ RUN: 6219
 6219 230  2-MarginalOutlier[3, 4, 6]
 
 RUN: 6220
-6220 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6220 0  4-LowLiveTime[all]
 6220 5  GOLDEN
 6220 10  GOLDEN
 6220 15  GOLDEN
@@ -2377,7 +2377,7 @@ RUN: 6220
 6220 405  GOLDEN
 
 RUN: 6221
-6221 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6221 0  4-LowLiveTime[all]
 6221 5  GOLDEN
 6221 10  GOLDEN
 6221 15  GOLDEN
@@ -2647,12 +2647,12 @@ RUN: 6222
 6222 185  GOLDEN
 6222 190  GOLDEN
 6222 195  GOLDEN
-6222 200  0-TotalOutlier[1, 2, 3, 4, 5, 6]
-6222 205  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6222 200  0-TotalOutlier[all]
+6222 205  1-TerminalOutlier[all]
 
 RUN: 6223
 6223 0  GOLDEN
-6223 5  0-TotalOutlier[1, 2, 3, 4, 6]  2-MarginalOutlier[5]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6223 5  0-TotalOutlier[1, 2, 3, 4, 6]  2-MarginalOutlier[5]  4-LowLiveTime[all]
 6223 10  GOLDEN
 6223 15  GOLDEN
 6223 20  2-MarginalOutlier[3]
@@ -2868,7 +2868,7 @@ RUN: 6223
 6223 1070  GOLDEN
 
 RUN: 6224
-6224 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6224 0  4-LowLiveTime[all]
 6224 5  GOLDEN
 6224 10  GOLDEN
 6224 15  GOLDEN
@@ -3280,90 +3280,90 @@ RUN: 6225
 6225 760  GOLDEN
 6225 765  GOLDEN
 6225 770  GOLDEN
-6225 775  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6225 775  1-TerminalOutlier[all]
 
 RUN: 6226
-6226 0  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 5  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 10  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 15  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 20  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 25  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 30  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 35  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 40  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 45  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 50  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 55  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 60  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 65  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 70  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 75  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 80  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 85  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 90  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 95  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 100  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 105  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 110  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
-6226 115  5-Misc[1, 2, 3, 4, 5, 6]  :: 5 nA run
+6226 0  5-Misc[all]  :: 5 nA run
+6226 5  5-Misc[all]  :: 5 nA run
+6226 10  5-Misc[all]  :: 5 nA run
+6226 15  5-Misc[all]  :: 5 nA run
+6226 20  5-Misc[all]  :: 5 nA run
+6226 25  5-Misc[all]  :: 5 nA run
+6226 30  5-Misc[all]  :: 5 nA run
+6226 35  5-Misc[all]  :: 5 nA run
+6226 40  5-Misc[all]  :: 5 nA run
+6226 45  5-Misc[all]  :: 5 nA run
+6226 50  5-Misc[all]  :: 5 nA run
+6226 55  5-Misc[all]  :: 5 nA run
+6226 60  5-Misc[all]  :: 5 nA run
+6226 65  5-Misc[all]  :: 5 nA run
+6226 70  5-Misc[all]  :: 5 nA run
+6226 75  5-Misc[all]  :: 5 nA run
+6226 80  5-Misc[all]  :: 5 nA run
+6226 85  5-Misc[all]  :: 5 nA run
+6226 90  5-Misc[all]  :: 5 nA run
+6226 95  5-Misc[all]  :: 5 nA run
+6226 100  5-Misc[all]  :: 5 nA run
+6226 105  5-Misc[all]  :: 5 nA run
+6226 110  5-Misc[all]  :: 5 nA run
+6226 115  5-Misc[all]  :: 5 nA run
 
 RUN: 6227
-6227 0  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 5  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 10  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 15  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 20  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 25  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 30  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 35  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 40  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 45  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 50  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 55  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 60  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 65  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 70  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 75  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 80  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 85  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 90  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 95  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 100  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 105  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 110  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 115  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 120  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 125  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 130  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 135  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 140  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 145  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 150  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 155  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 160  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 165  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 170  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 175  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 180  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 185  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 190  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 195  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 200  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 205  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 210  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 215  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 220  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 225  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 230  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 235  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 240  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 245  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 250  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
-6227 255  5-Misc[1, 2, 3, 4, 5, 6]  :: 15 nA run
+6227 0  5-Misc[all]  :: 15 nA run
+6227 5  5-Misc[all]  :: 15 nA run
+6227 10  5-Misc[all]  :: 15 nA run
+6227 15  5-Misc[all]  :: 15 nA run
+6227 20  5-Misc[all]  :: 15 nA run
+6227 25  5-Misc[all]  :: 15 nA run
+6227 30  5-Misc[all]  :: 15 nA run
+6227 35  5-Misc[all]  :: 15 nA run
+6227 40  5-Misc[all]  :: 15 nA run
+6227 45  5-Misc[all]  :: 15 nA run
+6227 50  5-Misc[all]  :: 15 nA run
+6227 55  5-Misc[all]  :: 15 nA run
+6227 60  5-Misc[all]  :: 15 nA run
+6227 65  5-Misc[all]  :: 15 nA run
+6227 70  5-Misc[all]  :: 15 nA run
+6227 75  5-Misc[all]  :: 15 nA run
+6227 80  5-Misc[all]  :: 15 nA run
+6227 85  5-Misc[all]  :: 15 nA run
+6227 90  5-Misc[all]  :: 15 nA run
+6227 95  5-Misc[all]  :: 15 nA run
+6227 100  5-Misc[all]  :: 15 nA run
+6227 105  5-Misc[all]  :: 15 nA run
+6227 110  5-Misc[all]  :: 15 nA run
+6227 115  5-Misc[all]  :: 15 nA run
+6227 120  5-Misc[all]  :: 15 nA run
+6227 125  5-Misc[all]  :: 15 nA run
+6227 130  5-Misc[all]  :: 15 nA run
+6227 135  5-Misc[all]  :: 15 nA run
+6227 140  5-Misc[all]  :: 15 nA run
+6227 145  5-Misc[all]  :: 15 nA run
+6227 150  5-Misc[all]  :: 15 nA run
+6227 155  5-Misc[all]  :: 15 nA run
+6227 160  5-Misc[all]  :: 15 nA run
+6227 165  5-Misc[all]  :: 15 nA run
+6227 170  5-Misc[all]  :: 15 nA run
+6227 175  5-Misc[all]  :: 15 nA run
+6227 180  5-Misc[all]  :: 15 nA run
+6227 185  5-Misc[all]  :: 15 nA run
+6227 190  5-Misc[all]  :: 15 nA run
+6227 195  5-Misc[all]  :: 15 nA run
+6227 200  5-Misc[all]  :: 15 nA run
+6227 205  5-Misc[all]  :: 15 nA run
+6227 210  5-Misc[all]  :: 15 nA run
+6227 215  5-Misc[all]  :: 15 nA run
+6227 220  5-Misc[all]  :: 15 nA run
+6227 225  5-Misc[all]  :: 15 nA run
+6227 230  5-Misc[all]  :: 15 nA run
+6227 235  5-Misc[all]  :: 15 nA run
+6227 240  5-Misc[all]  :: 15 nA run
+6227 245  5-Misc[all]  :: 15 nA run
+6227 250  5-Misc[all]  :: 15 nA run
+6227 255  5-Misc[all]  :: 15 nA run
 
 RUN: 6233
-6233 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6233 0  4-LowLiveTime[all]
 6233 5  GOLDEN
 6233 10  GOLDEN
 6233 15  GOLDEN
@@ -3403,7 +3403,7 @@ RUN: 6233
 6233 185  GOLDEN
 6233 190  GOLDEN
 6233 195  GOLDEN
-6233 200  2-MarginalOutlier[5]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6233 200  2-MarginalOutlier[5]  4-LowLiveTime[all]
 6233 205  GOLDEN
 6233 210  GOLDEN
 6233 215  GOLDEN
@@ -3543,7 +3543,7 @@ RUN: 6233
 6233 885  GOLDEN
 6233 890  GOLDEN
 6233 895  GOLDEN
-6233 900  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6233 900  4-LowLiveTime[all]
 6233 905  GOLDEN
 6233 910  GOLDEN
 6233 915  GOLDEN
@@ -3801,10 +3801,10 @@ RUN: 6235
 6235 1060  GOLDEN
 6235 1065  GOLDEN
 6235 1070  GOLDEN
-6235 1075  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6235 1075  1-TerminalOutlier[all]
 
 RUN: 6236
-6236 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6236 0  4-LowLiveTime[all]
 6236 5  GOLDEN
 6236 10  GOLDEN
 6236 15  GOLDEN
@@ -4004,7 +4004,7 @@ RUN: 6236
 6236 985  GOLDEN
 
 RUN: 6237
-6237 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6237 0  4-LowLiveTime[all]
 6237 5  GOLDEN
 6237 10  GOLDEN
 6237 15  GOLDEN
@@ -4176,7 +4176,7 @@ RUN: 6237
 6237 845  GOLDEN
 
 RUN: 6239
-6239 0  2-MarginalOutlier[1, 2, 3, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6239 0  2-MarginalOutlier[1, 2, 3, 6]  4-LowLiveTime[all]
 6239 5  GOLDEN
 6239 10  GOLDEN
 6239 15  GOLDEN
@@ -4615,8 +4615,8 @@ RUN: 6240
 6240 1330  GOLDEN
 
 RUN: 6241
-6241 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
-6241 5  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6241 0  1-TerminalOutlier[all]
+6241 5  4-LowLiveTime[all]
 6241 10  GOLDEN
 6241 15  GOLDEN
 6241 20  GOLDEN
@@ -4898,10 +4898,10 @@ RUN: 6244
 6244 695  GOLDEN
 6244 700  GOLDEN
 6244 705  GOLDEN
-6244 710  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6244 710  4-LowLiveTime[all]
 
 RUN: 6245
-6245 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6245 0  4-LowLiveTime[all]
 6245 5  GOLDEN
 6245 10  GOLDEN
 6245 15  GOLDEN
@@ -5222,7 +5222,7 @@ RUN: 6248
 6248 185  GOLDEN
 6248 190  GOLDEN
 6248 195  GOLDEN
-6248 200  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6248 200  1-TerminalOutlier[all]
 
 RUN: 6249
 6249 0  GOLDEN
@@ -5445,7 +5445,7 @@ RUN: 6250
 6250 335  GOLDEN
 
 RUN: 6251
-6251 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6251 0  4-LowLiveTime[all]
 6251 5  GOLDEN
 6251 10  GOLDEN
 6251 15  GOLDEN
@@ -5575,7 +5575,7 @@ RUN: 6251
 6251 635  GOLDEN
 
 RUN: 6252
-6252 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6252 0  1-TerminalOutlier[all]  4-LowLiveTime[all]
 6252 5  GOLDEN
 6252 10  GOLDEN
 6252 15  GOLDEN
@@ -5925,8 +5925,8 @@ RUN: 6253
 6253 780  GOLDEN
 
 RUN: 6254
-6254 0  5-Misc[1, 2, 3, 4, 5, 6]  :: beam issue
-6254 5  5-Misc[1, 2, 3, 4, 5, 6]  :: beam issue
+6254 0  5-Misc[all]  :: beam issue
+6254 5  5-Misc[all]  :: beam issue
 
 RUN: 6255
 6255 0  GOLDEN
@@ -6186,7 +6186,7 @@ RUN: 6256
 6256 625  GOLDEN
 6256 630  GOLDEN
 6256 635  GOLDEN
-6256 640  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6256 640  0-TotalOutlier[all]
 6256 645  GOLDEN
 6256 650  GOLDEN
 6256 655  GOLDEN
@@ -6373,7 +6373,7 @@ RUN: 6257
 6257 875  GOLDEN
 
 RUN: 6258
-6258 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6258 0  4-LowLiveTime[all]
 6258 5  GOLDEN
 6258 10  GOLDEN
 6258 15  GOLDEN
@@ -6551,7 +6551,7 @@ RUN: 6258
 6258 875  GOLDEN
 
 RUN: 6259
-6259 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6259 0  4-LowLiveTime[all]
 6259 5  GOLDEN
 6259 10  GOLDEN
 6259 15  GOLDEN
@@ -6742,7 +6742,7 @@ RUN: 6259
 6259 940  GOLDEN
 
 RUN: 6260
-6260 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6260 0  4-LowLiveTime[all]
 6260 5  GOLDEN
 6260 10  GOLDEN
 6260 15  GOLDEN
@@ -6884,80 +6884,80 @@ RUN: 6260
 6260 695  GOLDEN
 6260 700  GOLDEN
 6260 705  GOLDEN
-6260 710  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6260 710  1-TerminalOutlier[all]
 
 RUN: 6262
-6262 0  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6262 5  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
+6262 0  5-Misc[all]  :: empty target run
+6262 5  5-Misc[all]  :: empty target run
 
 RUN: 6263
-6263 0  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 5  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 10  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 15  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 20  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 25  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 30  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 35  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 40  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 45  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 50  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 55  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 60  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 65  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 70  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 75  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 80  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 85  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 90  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 95  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 100  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 105  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 110  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 115  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 120  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 125  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 130  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 135  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 140  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 145  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 150  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 155  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 160  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 165  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 170  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 175  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 180  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 185  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 190  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 195  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 200  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 205  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 210  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 215  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 220  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 225  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 230  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 235  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 240  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 245  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 250  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 255  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 260  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 265  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 270  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 275  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 280  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 285  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 290  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 295  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6263 300  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
+6263 0  5-Misc[all]  :: empty target run
+6263 5  5-Misc[all]  :: empty target run
+6263 10  5-Misc[all]  :: empty target run
+6263 15  5-Misc[all]  :: empty target run
+6263 20  5-Misc[all]  :: empty target run
+6263 25  5-Misc[all]  :: empty target run
+6263 30  5-Misc[all]  :: empty target run
+6263 35  5-Misc[all]  :: empty target run
+6263 40  5-Misc[all]  :: empty target run
+6263 45  5-Misc[all]  :: empty target run
+6263 50  5-Misc[all]  :: empty target run
+6263 55  5-Misc[all]  :: empty target run
+6263 60  5-Misc[all]  :: empty target run
+6263 65  5-Misc[all]  :: empty target run
+6263 70  5-Misc[all]  :: empty target run
+6263 75  5-Misc[all]  :: empty target run
+6263 80  5-Misc[all]  :: empty target run
+6263 85  5-Misc[all]  :: empty target run
+6263 90  5-Misc[all]  :: empty target run
+6263 95  5-Misc[all]  :: empty target run
+6263 100  5-Misc[all]  :: empty target run
+6263 105  5-Misc[all]  :: empty target run
+6263 110  5-Misc[all]  :: empty target run
+6263 115  5-Misc[all]  :: empty target run
+6263 120  5-Misc[all]  :: empty target run
+6263 125  5-Misc[all]  :: empty target run
+6263 130  5-Misc[all]  :: empty target run
+6263 135  5-Misc[all]  :: empty target run
+6263 140  5-Misc[all]  :: empty target run
+6263 145  5-Misc[all]  :: empty target run
+6263 150  5-Misc[all]  :: empty target run
+6263 155  5-Misc[all]  :: empty target run
+6263 160  5-Misc[all]  :: empty target run
+6263 165  5-Misc[all]  :: empty target run
+6263 170  5-Misc[all]  :: empty target run
+6263 175  5-Misc[all]  :: empty target run
+6263 180  5-Misc[all]  :: empty target run
+6263 185  5-Misc[all]  :: empty target run
+6263 190  5-Misc[all]  :: empty target run
+6263 195  5-Misc[all]  :: empty target run
+6263 200  5-Misc[all]  :: empty target run
+6263 205  5-Misc[all]  :: empty target run
+6263 210  5-Misc[all]  :: empty target run
+6263 215  5-Misc[all]  :: empty target run
+6263 220  5-Misc[all]  :: empty target run
+6263 225  5-Misc[all]  :: empty target run
+6263 230  5-Misc[all]  :: empty target run
+6263 235  5-Misc[all]  :: empty target run
+6263 240  5-Misc[all]  :: empty target run
+6263 245  5-Misc[all]  :: empty target run
+6263 250  5-Misc[all]  :: empty target run
+6263 255  5-Misc[all]  :: empty target run
+6263 260  5-Misc[all]  :: empty target run
+6263 265  5-Misc[all]  :: empty target run
+6263 270  5-Misc[all]  :: empty target run
+6263 275  5-Misc[all]  :: empty target run
+6263 280  5-Misc[all]  :: empty target run
+6263 285  5-Misc[all]  :: empty target run
+6263 290  5-Misc[all]  :: empty target run
+6263 295  5-Misc[all]  :: empty target run
+6263 300  5-Misc[all]  :: empty target run
 
 RUN: 6265
-6265 0  5-Misc[1, 2, 3, 4, 5, 6]  :: harp wire as target, for BAND
+6265 0  5-Misc[all]  :: harp wire as target, for BAND
 
 RUN: 6266
-6266 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6266 0  4-LowLiveTime[all]
 6266 5  2-MarginalOutlier[4]
 6266 10  GOLDEN
 6266 15  GOLDEN
@@ -6979,7 +6979,7 @@ RUN: 6285
 6285 55  3-SectorLoss[6]
 
 RUN: 6286
-6286 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6286 0  4-LowLiveTime[all]
 6286 5  GOLDEN
 6286 10  GOLDEN
 6286 15  GOLDEN
@@ -7030,11 +7030,11 @@ RUN: 6286
 6286 240  1-TerminalOutlier[1]  2-MarginalOutlier[2, 4, 5]
 
 RUN: 6287
-6287 0  5-Misc[1, 2, 3, 4, 5, 6]  :: DC and ROC problems
-6287 5  5-Misc[1, 2, 3, 4, 5, 6]  :: DC and ROC problems
+6287 0  5-Misc[all]  :: DC and ROC problems
+6287 5  5-Misc[all]  :: DC and ROC problems
 
 RUN: 6288
-6288 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6288 0  4-LowLiveTime[all]
 6288 5  GOLDEN
 6288 10  GOLDEN
 6288 15  GOLDEN
@@ -7302,11 +7302,11 @@ RUN: 6288
 6288 1325  3-SectorLoss[6]
 
 RUN: 6289
-6289 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6289 0  4-LowLiveTime[all]
 6289 5  GOLDEN
 6289 10  GOLDEN
 6289 15  GOLDEN
-6289 20  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6289 20  0-TotalOutlier[all]
 6289 25  GOLDEN
 6289 30  GOLDEN
 6289 35  GOLDEN
@@ -7685,7 +7685,7 @@ RUN: 6289
 6289 1900  3-SectorLoss[6]
 
 RUN: 6296
-6296 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6296 0  4-LowLiveTime[all]
 6296 5  GOLDEN
 6296 10  GOLDEN
 6296 15  GOLDEN
@@ -7730,7 +7730,7 @@ RUN: 6296
 6296 210  GOLDEN
 6296 215  2-MarginalOutlier[1, 3, 5]
 6296 220  GOLDEN
-6296 225  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6296 225  0-TotalOutlier[all]
 6296 230  GOLDEN
 6296 235  GOLDEN
 6296 240  GOLDEN
@@ -7886,11 +7886,11 @@ RUN: 6296
 6296 990  GOLDEN
 6296 995  GOLDEN
 6296 1000  GOLDEN
-6296 1005  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6296 1005  0-TotalOutlier[all]
 6296 1010  GOLDEN
 6296 1015  GOLDEN
 6296 1020  GOLDEN
-6296 1025  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6296 1025  1-TerminalOutlier[all]
 
 RUN: 6298
 6298 0  2-MarginalOutlier[4]
@@ -8094,7 +8094,7 @@ RUN: 6298
 6298 990  GOLDEN
 
 RUN: 6299
-6299 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6299 0  4-LowLiveTime[all]
 6299 5  GOLDEN
 6299 10  GOLDEN
 6299 15  GOLDEN
@@ -8137,7 +8137,7 @@ RUN: 6299
 6299 200  GOLDEN
 6299 205  GOLDEN
 6299 210  GOLDEN
-6299 215  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6299 215  0-TotalOutlier[all]
 6299 220  GOLDEN
 6299 225  GOLDEN
 6299 230  GOLDEN
@@ -9059,10 +9059,10 @@ RUN: 6303
 6303 1820  GOLDEN
 6303 1825  GOLDEN
 6303 1830  GOLDEN
-6303 1835  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6303 1835  1-TerminalOutlier[all]
 
 RUN: 6305
-6305 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6305 0  4-LowLiveTime[all]
 6305 5  GOLDEN
 6305 10  GOLDEN
 6305 15  GOLDEN
@@ -9084,7 +9084,7 @@ RUN: 6305
 6305 95  GOLDEN
 6305 100  GOLDEN
 6305 105  GOLDEN
-6305 110  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6305 110  0-TotalOutlier[all]
 6305 115  GOLDEN
 6305 120  GOLDEN
 6305 125  GOLDEN
@@ -9382,10 +9382,10 @@ RUN: 6305
 6305 1585  GOLDEN
 6305 1590  GOLDEN
 6305 1595  GOLDEN
-6305 1600  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6305 1600  1-TerminalOutlier[all]
 
 RUN: 6307
-6307 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6307 0  4-LowLiveTime[all]
 6307 5  GOLDEN
 6307 10  GOLDEN
 6307 15  GOLDEN
@@ -9859,7 +9859,7 @@ RUN: 6307
 6307 2355  GOLDEN
 
 RUN: 6308
-6308 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6308 0  4-LowLiveTime[all]
 6308 5  GOLDEN
 6308 10  GOLDEN
 6308 15  GOLDEN
@@ -9920,7 +9920,7 @@ RUN: 6308
 6308 290  GOLDEN
 
 RUN: 6310
-6310 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6310 0  4-LowLiveTime[all]
 6310 5  GOLDEN
 6310 10  GOLDEN
 6310 15  GOLDEN
@@ -10833,7 +10833,7 @@ RUN: 6311
 6311 1950  GOLDEN
 6311 1955  GOLDEN
 6311 1960  GOLDEN
-6311 1965  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6311 1965  0-TotalOutlier[all]
 6311 1970  GOLDEN
 6311 1975  GOLDEN
 6311 1980  GOLDEN
@@ -11405,7 +11405,7 @@ RUN: 6313
 6313 2485  GOLDEN
 
 RUN: 6321
-6321 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6321 0  4-LowLiveTime[all]
 6321 5  GOLDEN
 6321 10  GOLDEN
 6321 15  GOLDEN
@@ -11911,22 +11911,22 @@ RUN: 6321
 6321 2515  GOLDEN
 
 RUN: 6322
-6322 0  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6322 5  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
+6322 0  5-Misc[all]  :: low lumi run
+6322 5  5-Misc[all]  :: low lumi run
 
 RUN: 6323
-6323 0  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 5  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 10  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 15  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 20  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 25  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 30  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 35  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 40  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 45  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 50  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6323 55  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
+6323 0  5-Misc[all]  :: low lumi run
+6323 5  5-Misc[all]  :: low lumi run
+6323 10  5-Misc[all]  :: low lumi run
+6323 15  5-Misc[all]  :: low lumi run
+6323 20  5-Misc[all]  :: low lumi run
+6323 25  5-Misc[all]  :: low lumi run
+6323 30  5-Misc[all]  :: low lumi run
+6323 35  5-Misc[all]  :: low lumi run
+6323 40  5-Misc[all]  :: low lumi run
+6323 45  5-Misc[all]  :: low lumi run
+6323 50  5-Misc[all]  :: low lumi run
+6323 55  5-Misc[all]  :: low lumi run
 
 RUN: 6326
 6326 0  GOLDEN
@@ -13433,7 +13433,7 @@ RUN: 6328
 6328 2605  2-MarginalOutlier[2, 5, 6]
 
 RUN: 6329
-6329 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6329 0  4-LowLiveTime[all]
 6329 5  GOLDEN
 6329 10  GOLDEN
 6329 15  GOLDEN
@@ -13961,7 +13961,7 @@ RUN: 6329
 6329 2625  3-SectorLoss[4]  :: this is only a mild sector loss
 
 RUN: 6330
-6330 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6330 0  4-LowLiveTime[all]
 6330 5  GOLDEN
 6330 10  GOLDEN
 6330 15  GOLDEN
@@ -14447,7 +14447,7 @@ RUN: 6330
 6330 2415  3-SectorLoss[4]  :: this is only a mild sector loss
 
 RUN: 6331
-6331 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6331 0  4-LowLiveTime[all]
 6331 5  GOLDEN
 6331 10  GOLDEN
 6331 15  GOLDEN
@@ -14720,7 +14720,7 @@ RUN: 6331
 6331 1350  GOLDEN
 6331 1355  GOLDEN
 6331 1360  GOLDEN
-6331 1365  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6331 1365  1-TerminalOutlier[all]  4-LowLiveTime[all]
 
 RUN: 6333
 6333 0  GOLDEN
@@ -14756,7 +14756,7 @@ RUN: 6333
 6333 150  GOLDEN
 6333 155  GOLDEN
 6333 160  GOLDEN
-6333 165  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6333 165  4-LowLiveTime[all]
 6333 170  GOLDEN
 6333 175  GOLDEN
 6333 180  GOLDEN
@@ -15213,7 +15213,7 @@ RUN: 6333
 6333 2435  GOLDEN
 
 RUN: 6334
-6334 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6334 0  4-LowLiveTime[all]
 6334 5  GOLDEN
 6334 10  GOLDEN
 6334 15  GOLDEN
@@ -16748,7 +16748,7 @@ RUN: 6337
 6337 2475  GOLDEN
 
 RUN: 6338
-6338 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6338 0  4-LowLiveTime[all]
 6338 5  GOLDEN
 6338 10  GOLDEN
 6338 15  GOLDEN
@@ -16888,7 +16888,7 @@ RUN: 6338
 6338 685  GOLDEN
 6338 690  GOLDEN
 6338 695  GOLDEN
-6338 700  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6338 700  4-LowLiveTime[all]
 6338 705  GOLDEN
 6338 710  GOLDEN
 6338 715  GOLDEN
@@ -16898,7 +16898,7 @@ RUN: 6338
 6338 735  GOLDEN
 
 RUN: 6339
-6339 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6339 0  4-LowLiveTime[all]
 6339 5  GOLDEN
 6339 10  GOLDEN
 6339 15  GOLDEN
@@ -17706,7 +17706,7 @@ RUN: 6341
 6341 100  GOLDEN
 6341 105  GOLDEN
 6341 110  GOLDEN
-6341 115  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6341 115  0-TotalOutlier[all]
 6341 120  GOLDEN
 6341 125  GOLDEN
 6341 130  GOLDEN
@@ -17848,7 +17848,7 @@ RUN: 6341
 6341 810  GOLDEN
 6341 815  GOLDEN
 6341 820  GOLDEN
-6341 825  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6341 825  4-LowLiveTime[all]
 6341 830  GOLDEN
 6341 835  GOLDEN
 6341 840  GOLDEN
@@ -17875,21 +17875,21 @@ RUN: 6341
 6341 945  GOLDEN
 6341 950  GOLDEN
 6341 955  GOLDEN
-6341 960  1-TerminalOutlier[5]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6341 960  1-TerminalOutlier[5]  4-LowLiveTime[all]
 
 RUN: 6342
-6342 0  5-Misc[1, 2, 3, 4, 5, 6]  :: zero-field alignment run
-6342 5  5-Misc[1, 2, 3, 4, 5, 6]  :: zero-field alignment run
-6342 10  5-Misc[1, 2, 3, 4, 5, 6]  :: zero-field alignment run
-6342 15  5-Misc[1, 2, 3, 4, 5, 6]  :: zero-field alignment run
+6342 0  5-Misc[all]  :: zero-field alignment run
+6342 5  5-Misc[all]  :: zero-field alignment run
+6342 10  5-Misc[all]  :: zero-field alignment run
+6342 15  5-Misc[all]  :: zero-field alignment run
 
 RUN: 6346
-6346 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6346 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6346 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6346 15  0-TotalOutlier[1, 2, 3, 6]  2-MarginalOutlier[4, 5]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6346 20  2-MarginalOutlier[2]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6346 25  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6346 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6346 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6346 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6346 15  0-TotalOutlier[1, 2, 3, 6]  2-MarginalOutlier[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6346 20  2-MarginalOutlier[2]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6346 25  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6346 30  GOLDEN
 6346 35  GOLDEN
 6346 40  GOLDEN
@@ -18393,7 +18393,7 @@ RUN: 6346
 6346 2530  GOLDEN
 
 RUN: 6347
-6347 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6347 0  4-LowLiveTime[all]
 6347 5  0-TotalOutlier[2]
 6347 10  0-TotalOutlier[2]
 6347 15  GOLDEN
@@ -18719,7 +18719,7 @@ RUN: 6348
 6348 615  GOLDEN
 6348 620  GOLDEN
 6348 625  GOLDEN
-6348 630  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6348 630  4-LowLiveTime[all]
 6348 635  GOLDEN
 6348 640  GOLDEN
 6348 645  GOLDEN
@@ -18792,10 +18792,10 @@ RUN: 6348
 6348 980  GOLDEN
 6348 985  GOLDEN
 6348 990  GOLDEN
-6348 995  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6348 995  1-TerminalOutlier[all]
 
 RUN: 6349
-6349 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6349 0  4-LowLiveTime[all]
 6349 5  GOLDEN
 6349 10  GOLDEN
 6349 15  GOLDEN
@@ -19021,79 +19021,79 @@ RUN: 6349
 6349 1115  1-TerminalOutlier[1, 2, 3, 4, 6]  2-MarginalOutlier[5]
 
 RUN: 6350
-6350 0  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 5  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 10  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 15  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 20  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 25  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 30  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 35  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 40  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 45  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 50  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 55  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 60  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 65  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 70  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 75  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 80  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 85  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 90  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 95  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 100  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 105  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 110  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 115  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 120  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 125  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 130  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 135  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 140  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 145  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 150  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 155  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 160  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 165  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 170  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 175  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 180  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 185  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 190  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 195  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 200  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 205  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 210  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 215  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 220  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 225  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 230  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 235  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 240  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 245  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 250  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 255  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 260  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 265  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 270  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 275  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 280  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 285  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 290  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 295  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 300  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 305  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 310  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 315  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 320  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 325  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 330  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6350 335  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
+6350 0  5-Misc[all]  :: empty target run
+6350 5  5-Misc[all]  :: empty target run
+6350 10  5-Misc[all]  :: empty target run
+6350 15  5-Misc[all]  :: empty target run
+6350 20  5-Misc[all]  :: empty target run
+6350 25  5-Misc[all]  :: empty target run
+6350 30  5-Misc[all]  :: empty target run
+6350 35  5-Misc[all]  :: empty target run
+6350 40  5-Misc[all]  :: empty target run
+6350 45  5-Misc[all]  :: empty target run
+6350 50  5-Misc[all]  :: empty target run
+6350 55  5-Misc[all]  :: empty target run
+6350 60  5-Misc[all]  :: empty target run
+6350 65  5-Misc[all]  :: empty target run
+6350 70  5-Misc[all]  :: empty target run
+6350 75  5-Misc[all]  :: empty target run
+6350 80  5-Misc[all]  :: empty target run
+6350 85  5-Misc[all]  :: empty target run
+6350 90  5-Misc[all]  :: empty target run
+6350 95  5-Misc[all]  :: empty target run
+6350 100  5-Misc[all]  :: empty target run
+6350 105  5-Misc[all]  :: empty target run
+6350 110  5-Misc[all]  :: empty target run
+6350 115  5-Misc[all]  :: empty target run
+6350 120  5-Misc[all]  :: empty target run
+6350 125  5-Misc[all]  :: empty target run
+6350 130  5-Misc[all]  :: empty target run
+6350 135  5-Misc[all]  :: empty target run
+6350 140  5-Misc[all]  :: empty target run
+6350 145  5-Misc[all]  :: empty target run
+6350 150  5-Misc[all]  :: empty target run
+6350 155  5-Misc[all]  :: empty target run
+6350 160  5-Misc[all]  :: empty target run
+6350 165  5-Misc[all]  :: empty target run
+6350 170  5-Misc[all]  :: empty target run
+6350 175  5-Misc[all]  :: empty target run
+6350 180  5-Misc[all]  :: empty target run
+6350 185  5-Misc[all]  :: empty target run
+6350 190  5-Misc[all]  :: empty target run
+6350 195  5-Misc[all]  :: empty target run
+6350 200  5-Misc[all]  :: empty target run
+6350 205  5-Misc[all]  :: empty target run
+6350 210  5-Misc[all]  :: empty target run
+6350 215  5-Misc[all]  :: empty target run
+6350 220  5-Misc[all]  :: empty target run
+6350 225  5-Misc[all]  :: empty target run
+6350 230  5-Misc[all]  :: empty target run
+6350 235  5-Misc[all]  :: empty target run
+6350 240  5-Misc[all]  :: empty target run
+6350 245  5-Misc[all]  :: empty target run
+6350 250  5-Misc[all]  :: empty target run
+6350 255  5-Misc[all]  :: empty target run
+6350 260  5-Misc[all]  :: empty target run
+6350 265  5-Misc[all]  :: empty target run
+6350 270  5-Misc[all]  :: empty target run
+6350 275  5-Misc[all]  :: empty target run
+6350 280  5-Misc[all]  :: empty target run
+6350 285  5-Misc[all]  :: empty target run
+6350 290  5-Misc[all]  :: empty target run
+6350 295  5-Misc[all]  :: empty target run
+6350 300  5-Misc[all]  :: empty target run
+6350 305  5-Misc[all]  :: empty target run
+6350 310  5-Misc[all]  :: empty target run
+6350 315  5-Misc[all]  :: empty target run
+6350 320  5-Misc[all]  :: empty target run
+6350 325  5-Misc[all]  :: empty target run
+6350 330  5-Misc[all]  :: empty target run
+6350 335  5-Misc[all]  :: empty target run
 
 RUN: 6351
-6351 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6351 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6351 10  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6351 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6351 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6351 10  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6351 15  GOLDEN
 6351 20  GOLDEN
 6351 25  GOLDEN
@@ -19741,7 +19741,7 @@ RUN: 6352
 6352 810  GOLDEN
 6352 815  GOLDEN
 6352 820  GOLDEN
-6352 825  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6352 825  4-LowLiveTime[all]
 6352 830  GOLDEN
 6352 835  GOLDEN
 6352 840  GOLDEN
@@ -20179,7 +20179,7 @@ RUN: 6353
 6353 1175  GOLDEN
 6353 1180  GOLDEN
 6353 1185  GOLDEN
-6353 1190  2-MarginalOutlier[1, 2, 3, 4, 5, 6]
+6353 1190  2-MarginalOutlier[all]
 
 RUN: 6354
 6354 0  GOLDEN
@@ -20259,20 +20259,20 @@ RUN: 6354
 6354 370  GOLDEN
 6354 375  GOLDEN
 6354 380  GOLDEN
-6354 385  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6354 385  1-TerminalOutlier[all]
 
 RUN: 6356
-6356 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 15  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 20  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 25  0-TotalOutlier[1]  2-MarginalOutlier[2, 3, 4, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 30  2-MarginalOutlier[6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 35  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 40  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 45  0-TotalOutlier[1, 2, 3, 4, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6356 50  2-MarginalOutlier[1]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 15  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 20  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 25  0-TotalOutlier[1]  2-MarginalOutlier[2, 3, 4, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 30  2-MarginalOutlier[6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 35  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 40  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 45  0-TotalOutlier[1, 2, 3, 4, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6356 50  2-MarginalOutlier[1]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6356 55  GOLDEN
 6356 60  GOLDEN
 6356 65  GOLDEN
@@ -20553,17 +20553,17 @@ RUN: 6356
 6356 1440  GOLDEN
 6356 1445  GOLDEN
 6356 1450  GOLDEN
-6356 1455  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6356 1455  1-TerminalOutlier[all]
 
 RUN: 6357
-6357 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6357 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6357 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6357 15  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6357 20  0-TotalOutlier[1, 2, 3, 4, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6357 25  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6357 30  2-MarginalOutlier[2, 3, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6357 35  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6357 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6357 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6357 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6357 15  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6357 20  0-TotalOutlier[1, 2, 3, 4, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6357 25  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6357 30  2-MarginalOutlier[2, 3, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6357 35  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6357 40  GOLDEN
 6357 45  GOLDEN
 6357 50  GOLDEN
@@ -20574,7 +20574,7 @@ RUN: 6357
 6357 75  GOLDEN
 6357 80  GOLDEN
 6357 85  GOLDEN
-6357 90  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6357 90  0-TotalOutlier[all]  4-LowLiveTime[all]
 6357 95  GOLDEN
 6357 100  0-TotalOutlier[1, 2, 3, 4, 6]  2-MarginalOutlier[5]
 6357 105  GOLDEN
@@ -20999,7 +20999,7 @@ RUN: 6361
 6361 1120  GOLDEN
 
 RUN: 6362
-6362 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6362 0  4-LowLiveTime[all]
 6362 5  GOLDEN
 6362 10  GOLDEN
 6362 15  GOLDEN
@@ -22192,7 +22192,7 @@ RUN: 6366
 6366 1570  GOLDEN
 6366 1575  GOLDEN
 6366 1580  GOLDEN
-6366 1585  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6366 1585  0-TotalOutlier[all]
 6366 1590  GOLDEN
 6366 1595  GOLDEN
 6366 1600  GOLDEN
@@ -22290,7 +22290,7 @@ RUN: 6366
 6366 2060  GOLDEN
 
 RUN: 6367
-6367 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6367 0  4-LowLiveTime[all]
 6367 5  GOLDEN
 6367 10  GOLDEN
 6367 15  GOLDEN
@@ -22988,7 +22988,7 @@ RUN: 6368
 6368 2070  GOLDEN
 
 RUN: 6369
-6369 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6369 0  4-LowLiveTime[all]
 6369 5  GOLDEN
 6369 10  GOLDEN
 6369 15  GOLDEN
@@ -23766,35 +23766,35 @@ RUN: 6370
 6370 2210  GOLDEN
 
 RUN: 6371
-6371 0  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 5  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 10  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 15  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 20  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 25  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 30  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 35  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 40  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6371 45  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
+6371 0  5-Misc[all]  :: low lumi run
+6371 5  5-Misc[all]  :: low lumi run
+6371 10  5-Misc[all]  :: low lumi run
+6371 15  5-Misc[all]  :: low lumi run
+6371 20  5-Misc[all]  :: low lumi run
+6371 25  5-Misc[all]  :: low lumi run
+6371 30  5-Misc[all]  :: low lumi run
+6371 35  5-Misc[all]  :: low lumi run
+6371 40  5-Misc[all]  :: low lumi run
+6371 45  5-Misc[all]  :: low lumi run
 
 RUN: 6373
-6373 0  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6373 5  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6373 10  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6373 15  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6373 20  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6373 25  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6373 30  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
+6373 0  5-Misc[all]  :: low lumi run
+6373 5  5-Misc[all]  :: low lumi run
+6373 10  5-Misc[all]  :: low lumi run
+6373 15  5-Misc[all]  :: low lumi run
+6373 20  5-Misc[all]  :: low lumi run
+6373 25  5-Misc[all]  :: low lumi run
+6373 30  5-Misc[all]  :: low lumi run
 
 RUN: 6374
-6374 0  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6374 5  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6374 10  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6374 15  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6374 20  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6374 25  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6374 30  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6374 35  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
+6374 0  5-Misc[all]  :: low lumi run
+6374 5  5-Misc[all]  :: low lumi run
+6374 10  5-Misc[all]  :: low lumi run
+6374 15  5-Misc[all]  :: low lumi run
+6374 20  5-Misc[all]  :: low lumi run
+6374 25  5-Misc[all]  :: low lumi run
+6374 30  5-Misc[all]  :: low lumi run
+6374 35  5-Misc[all]  :: low lumi run
 
 RUN: 6377
 6377 0  GOLDEN
@@ -24070,7 +24070,7 @@ RUN: 6377
 6377 1350  GOLDEN
 6377 1355  GOLDEN
 6377 1360  GOLDEN
-6377 1365  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6377 1365  0-TotalOutlier[all]
 6377 1370  GOLDEN
 6377 1375  GOLDEN
 6377 1380  GOLDEN
@@ -24108,383 +24108,383 @@ RUN: 6377
 6377 1540  GOLDEN
 6377 1545  GOLDEN
 6377 1550  GOLDEN
-6377 1555  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6377 1555  1-TerminalOutlier[all]
 
 RUN: 6378
-6378 0  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 5  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 10  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 15  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 20  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 25  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 30  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 35  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 40  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 45  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 50  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 55  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 60  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 65  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 70  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 75  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 80  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 85  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 90  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 95  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 100  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 105  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 110  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 115  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 120  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 125  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 130  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 135  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 140  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 145  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 150  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 155  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 160  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 165  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 170  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 175  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 180  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 185  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 190  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 195  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 200  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 205  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 210  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 215  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 220  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 225  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 230  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 235  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 240  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 245  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 250  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 255  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 260  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 265  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 270  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 275  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 280  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 285  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 290  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 295  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 300  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 305  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 310  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 315  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 320  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 325  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 330  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 335  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 340  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 345  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 350  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 355  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 360  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 365  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 370  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 375  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 380  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 385  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 390  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 395  0-TotalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 400  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 405  2-MarginalOutlier[2]  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 410  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 415  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 420  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 425  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 430  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 435  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 440  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 445  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 450  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 455  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 460  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 465  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 470  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 475  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 480  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 485  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 490  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 495  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 500  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 505  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 510  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 515  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 520  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 525  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 530  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 535  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 540  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 545  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 550  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 555  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 560  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 565  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 570  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 575  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 580  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 585  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 590  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 595  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 600  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 605  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 610  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 615  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 620  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 625  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 630  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 635  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 640  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 645  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 650  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 655  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 660  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 665  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 670  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 675  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 680  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 685  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 690  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 695  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 700  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 705  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 710  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 715  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 720  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 725  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 730  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 735  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 740  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 745  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 750  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 755  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 760  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 765  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 770  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 775  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 780  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 785  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 790  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 795  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 800  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 805  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 810  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 815  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 820  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 825  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 830  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 835  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 840  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 845  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 850  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 855  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 860  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 865  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 870  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 875  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 880  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 885  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 890  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 895  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 900  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 905  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 910  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 915  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 920  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 925  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 930  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 935  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 940  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 945  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 950  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 955  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 960  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 965  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 970  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 975  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 980  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 985  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 990  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 995  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1000  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1005  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1010  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1015  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1020  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1025  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1030  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1035  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1040  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1045  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1050  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1055  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1060  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1065  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1070  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1075  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1080  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1085  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1090  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1095  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1100  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1105  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1110  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1115  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1120  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1125  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1130  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1135  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1140  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1145  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1150  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1155  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1160  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1165  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1170  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1175  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1180  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1185  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1190  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1195  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1200  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1205  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1210  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1215  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1220  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1225  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1230  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1235  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1240  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1245  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1250  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1255  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1260  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1265  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1270  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1275  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1280  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1285  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1290  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1295  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1300  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1305  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1310  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1315  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1320  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1325  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1330  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1335  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1340  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1345  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1350  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1355  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1360  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1365  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1370  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1375  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1380  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1385  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1390  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1395  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1400  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1405  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1410  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1415  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1420  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1425  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1430  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1435  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1440  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1445  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1450  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1455  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1460  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1465  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1470  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1475  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1480  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1485  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1490  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1495  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1500  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1505  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1510  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1515  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1520  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1525  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1530  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1535  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1540  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1545  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1550  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1555  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1560  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1565  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1570  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1575  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1580  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1585  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1590  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1595  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1600  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1605  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1610  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1615  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1620  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1625  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1630  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1635  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1640  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1645  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1650  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1655  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1660  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1665  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1670  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1675  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1680  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1685  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1690  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1695  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1700  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1705  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1710  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1715  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1720  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1725  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1730  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1735  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1740  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1745  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1750  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1755  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1760  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1765  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1770  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1775  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1780  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1785  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1790  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1795  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1800  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1805  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1810  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1815  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1820  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1825  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1830  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1835  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1840  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1845  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1850  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1855  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1860  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
-6378 1865  5-Misc[1, 2, 3, 4, 5, 6]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 0  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 5  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 10  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 15  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 20  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 25  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 30  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 35  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 40  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 45  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 50  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 55  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 60  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 65  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 70  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 75  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 80  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 85  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 90  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 95  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 100  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 105  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 110  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 115  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 120  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 125  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 130  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 135  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 140  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 145  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 150  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 155  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 160  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 165  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 170  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 175  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 180  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 185  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 190  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 195  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 200  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 205  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 210  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 215  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 220  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 225  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 230  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 235  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 240  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 245  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 250  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 255  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 260  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 265  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 270  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 275  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 280  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 285  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 290  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 295  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 300  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 305  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 310  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 315  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 320  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 325  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 330  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 335  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 340  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 345  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 350  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 355  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 360  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 365  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 370  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 375  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 380  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 385  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 390  2-MarginalOutlier[2]  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 395  0-TotalOutlier[2]  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 400  2-MarginalOutlier[2]  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 405  2-MarginalOutlier[2]  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 410  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 415  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 420  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 425  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 430  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 435  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 440  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 445  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 450  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 455  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 460  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 465  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 470  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 475  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 480  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 485  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 490  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 495  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 500  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 505  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 510  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 515  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 520  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 525  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 530  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 535  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 540  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 545  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 550  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 555  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 560  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 565  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 570  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 575  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 580  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 585  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 590  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 595  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 600  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 605  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 610  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 615  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 620  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 625  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 630  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 635  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 640  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 645  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 650  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 655  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 660  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 665  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 670  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 675  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 680  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 685  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 690  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 695  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 700  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 705  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 710  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 715  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 720  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 725  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 730  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 735  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 740  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 745  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 750  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 755  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 760  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 765  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 770  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 775  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 780  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 785  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 790  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 795  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 800  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 805  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 810  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 815  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 820  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 825  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 830  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 835  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 840  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 845  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 850  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 855  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 860  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 865  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 870  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 875  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 880  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 885  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 890  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 895  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 900  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 905  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 910  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 915  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 920  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 925  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 930  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 935  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 940  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 945  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 950  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 955  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 960  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 965  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 970  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 975  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 980  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 985  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 990  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 995  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1000  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1005  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1010  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1015  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1020  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1025  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1030  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1035  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1040  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1045  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1050  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1055  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1060  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1065  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1070  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1075  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1080  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1085  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1090  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1095  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1100  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1105  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1110  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1115  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1120  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1125  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1130  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1135  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1140  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1145  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1150  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1155  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1160  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1165  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1170  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1175  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1180  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1185  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1190  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1195  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1200  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1205  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1210  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1215  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1220  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1225  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1230  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1235  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1240  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1245  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1250  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1255  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1260  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1265  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1270  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1275  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1280  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1285  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1290  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1295  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1300  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1305  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1310  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1315  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1320  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1325  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1330  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1335  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1340  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1345  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1350  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1355  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1360  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1365  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1370  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1375  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1380  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1385  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1390  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1395  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1400  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1405  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1410  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1415  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1420  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1425  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1430  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1435  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1440  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1445  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1450  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1455  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1460  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1465  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1470  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1475  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1480  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1485  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1490  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1495  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1500  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1505  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1510  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1515  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1520  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1525  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1530  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1535  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1540  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1545  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1550  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1555  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1560  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1565  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1570  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1575  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1580  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1585  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1590  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1595  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1600  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1605  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1610  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1615  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1620  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1625  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1630  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1635  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1640  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1645  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1650  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1655  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1660  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1665  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1670  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1675  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1680  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1685  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1690  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1695  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1700  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1705  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1710  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1715  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1720  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1725  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1730  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1735  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1740  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1745  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1750  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1755  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1760  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1765  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1770  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1775  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1780  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1785  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1790  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1795  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1800  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1805  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1810  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1815  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1820  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1825  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1830  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1835  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1840  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1845  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1850  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1855  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1860  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
+6378 1865  5-Misc[all]  :: wrong helicity sign, since piPlus BSA has opposite sign than expected
 
 RUN: 6379
 6379 0  GOLDEN
@@ -24817,7 +24817,7 @@ RUN: 6379
 6379 1635  GOLDEN  :: sector 3 N/F dropped slightly (by about 1 sigma) at filenum 230
 6379 1640  GOLDEN  :: sector 3 N/F dropped slightly (by about 1 sigma) at filenum 230
 6379 1645  GOLDEN  :: sector 3 N/F dropped slightly (by about 1 sigma) at filenum 230
-6379 1650  0-TotalOutlier[1, 2, 3, 4, 5, 6]  :: sector 3 N/F dropped slightly (by about 1 sigma) at filenum 230
+6379 1650  0-TotalOutlier[all]  :: sector 3 N/F dropped slightly (by about 1 sigma) at filenum 230
 6379 1655  GOLDEN  :: sector 3 N/F dropped slightly (by about 1 sigma) at filenum 230
 6379 1660  GOLDEN  :: sector 3 N/F dropped slightly (by about 1 sigma) at filenum 230
 6379 1665  GOLDEN  :: sector 3 N/F dropped slightly (by about 1 sigma) at filenum 230
@@ -25267,7 +25267,7 @@ RUN: 6380
 6380 2180  GOLDEN
 
 RUN: 6381
-6381 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6381 0  4-LowLiveTime[all]
 6381 5  GOLDEN
 6381 10  GOLDEN
 6381 15  GOLDEN
@@ -25634,7 +25634,7 @@ RUN: 6381
 6381 1820  GOLDEN
 
 RUN: 6382
-6382 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6382 0  4-LowLiveTime[all]
 6382 5  GOLDEN
 6382 10  GOLDEN
 6382 15  GOLDEN
@@ -26052,7 +26052,7 @@ RUN: 6383
 6383 500  GOLDEN
 6383 505  GOLDEN
 6383 510  GOLDEN
-6383 515  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6383 515  4-LowLiveTime[all]
 6383 520  GOLDEN
 6383 525  GOLDEN
 6383 530  GOLDEN
@@ -26074,7 +26074,7 @@ RUN: 6383
 6383 610  GOLDEN
 6383 615  GOLDEN
 6383 620  GOLDEN
-6383 625  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6383 625  4-LowLiveTime[all]
 6383 630  GOLDEN
 6383 635  GOLDEN
 6383 640  GOLDEN
@@ -26162,7 +26162,7 @@ RUN: 6383
 6383 1050  GOLDEN
 6383 1055  GOLDEN
 6383 1060  GOLDEN
-6383 1065  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6383 1065  4-LowLiveTime[all]
 6383 1070  GOLDEN
 6383 1075  GOLDEN
 6383 1080  GOLDEN
@@ -26224,10 +26224,10 @@ RUN: 6383
 6383 1360  GOLDEN
 6383 1365  GOLDEN
 6383 1370  GOLDEN
-6383 1375  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6383 1375  4-LowLiveTime[all]
 6383 1380  GOLDEN
 6383 1385  GOLDEN
-6383 1390  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6383 1390  4-LowLiveTime[all]
 6383 1395  GOLDEN
 6383 1400  GOLDEN
 6383 1405  GOLDEN
@@ -26296,14 +26296,14 @@ RUN: 6383
 6383 1720  GOLDEN
 6383 1725  GOLDEN
 6383 1730  GOLDEN
-6383 1735  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6383 1735  4-LowLiveTime[all]
 6383 1740  GOLDEN
 6383 1745  GOLDEN
 6383 1750  GOLDEN
 6383 1755  GOLDEN
 
 RUN: 6384
-6384 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6384 0  4-LowLiveTime[all]
 6384 5  GOLDEN
 6384 10  GOLDEN
 6384 15  GOLDEN
@@ -26312,10 +26312,10 @@ RUN: 6384
 6384 30  GOLDEN
 6384 35  GOLDEN
 6384 40  GOLDEN
-6384 45  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6384 45  4-LowLiveTime[all]
 6384 50  GOLDEN
 6384 55  GOLDEN
-6384 60  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6384 60  0-TotalOutlier[all]
 6384 65  GOLDEN
 6384 70  GOLDEN
 6384 75  GOLDEN
@@ -26351,9 +26351,9 @@ RUN: 6384
 6384 225  GOLDEN
 6384 230  GOLDEN
 6384 235  GOLDEN
-6384 240  4-LowLiveTime[1, 2, 3, 4, 5, 6]
-6384 245  4-LowLiveTime[1, 2, 3, 4, 5, 6]
-6384 250  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6384 240  4-LowLiveTime[all]
+6384 245  4-LowLiveTime[all]
+6384 250  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 6]  4-LowLiveTime[all]
 6384 255  GOLDEN
 6384 260  GOLDEN
 6384 265  GOLDEN
@@ -26386,7 +26386,7 @@ RUN: 6384
 6384 400  GOLDEN
 6384 405  GOLDEN
 6384 410  GOLDEN
-6384 415  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6384 415  4-LowLiveTime[all]
 6384 420  GOLDEN
 6384 425  GOLDEN
 6384 430  GOLDEN
@@ -26409,12 +26409,12 @@ RUN: 6384
 6384 515  GOLDEN
 6384 520  GOLDEN
 6384 525  GOLDEN
-6384 530  4-LowLiveTime[1, 2, 3, 4, 5, 6]
-6384 535  4-LowLiveTime[1, 2, 3, 4, 5, 6]
-6384 540  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6384 530  4-LowLiveTime[all]
+6384 535  4-LowLiveTime[all]
+6384 540  4-LowLiveTime[all]
 6384 545  GOLDEN
 6384 550  GOLDEN
-6384 555  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6384 555  4-LowLiveTime[all]
 6384 560  GOLDEN
 6384 565  GOLDEN
 6384 570  GOLDEN
@@ -26448,9 +26448,9 @@ RUN: 6384
 6384 710  GOLDEN
 6384 715  GOLDEN
 6384 720  GOLDEN
-6384 725  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6384 725  4-LowLiveTime[all]
 6384 730  GOLDEN
-6384 735  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6384 735  4-LowLiveTime[all]
 6384 740  GOLDEN
 6384 745  GOLDEN
 6384 750  GOLDEN
@@ -26466,11 +26466,11 @@ RUN: 6384
 6384 800  GOLDEN
 6384 805  GOLDEN
 6384 810  GOLDEN
-6384 815  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6384 815  1-TerminalOutlier[all]
 
 RUN: 6385
-6385 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6385 5  2-MarginalOutlier[1, 3, 4, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6385 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6385 5  2-MarginalOutlier[1, 3, 4, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6385 10  GOLDEN
 6385 15  GOLDEN
 6385 20  GOLDEN
@@ -26540,8 +26540,8 @@ RUN: 6385
 6385 340  GOLDEN
 6385 345  GOLDEN
 6385 350  GOLDEN
-6385 355  4-LowLiveTime[1, 2, 3, 4, 5, 6]
-6385 360  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6385 355  4-LowLiveTime[all]
+6385 360  4-LowLiveTime[all]
 6385 365  GOLDEN
 6385 370  GOLDEN
 6385 375  GOLDEN
@@ -26568,7 +26568,7 @@ RUN: 6386
 6386 70  GOLDEN
 6386 75  GOLDEN
 6386 80  GOLDEN
-6386 85  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6386 85  4-LowLiveTime[all]
 6386 90  GOLDEN
 6386 95  GOLDEN
 6386 100  GOLDEN
@@ -26578,22 +26578,22 @@ RUN: 6386
 6386 120  GOLDEN
 6386 125  GOLDEN
 6386 130  GOLDEN
-6386 135  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 140  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 145  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 150  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 155  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 160  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 165  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 170  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 175  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 180  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 185  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 190  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 195  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 200  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 205  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
-6386 210  5-Misc[1, 2, 3, 4, 5, 6]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 135  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 140  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 145  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 150  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 155  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 160  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 165  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 170  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 175  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 180  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 185  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 190  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 195  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 200  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 205  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
+6386 210  5-Misc[all]  :: fraction of events with defined helicity dropped to zero for a short period
 6386 215  GOLDEN
 6386 220  GOLDEN
 6386 225  GOLDEN
@@ -26631,35 +26631,35 @@ RUN: 6386
 6386 385  GOLDEN
 
 RUN: 6389
-6389 0  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 5  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 10  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 15  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 20  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 25  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 30  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 35  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 40  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 45  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 50  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 55  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 60  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 65  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 70  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 75  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 80  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 85  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 90  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 95  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 100  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 105  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 110  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 115  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 120  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6389 125  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
+6389 0  5-Misc[all]  :: empty target run
+6389 5  5-Misc[all]  :: empty target run
+6389 10  5-Misc[all]  :: empty target run
+6389 15  5-Misc[all]  :: empty target run
+6389 20  5-Misc[all]  :: empty target run
+6389 25  5-Misc[all]  :: empty target run
+6389 30  5-Misc[all]  :: empty target run
+6389 35  5-Misc[all]  :: empty target run
+6389 40  5-Misc[all]  :: empty target run
+6389 45  5-Misc[all]  :: empty target run
+6389 50  5-Misc[all]  :: empty target run
+6389 55  5-Misc[all]  :: empty target run
+6389 60  5-Misc[all]  :: empty target run
+6389 65  5-Misc[all]  :: empty target run
+6389 70  5-Misc[all]  :: empty target run
+6389 75  5-Misc[all]  :: empty target run
+6389 80  5-Misc[all]  :: empty target run
+6389 85  5-Misc[all]  :: empty target run
+6389 90  5-Misc[all]  :: empty target run
+6389 95  5-Misc[all]  :: empty target run
+6389 100  5-Misc[all]  :: empty target run
+6389 105  5-Misc[all]  :: empty target run
+6389 110  5-Misc[all]  :: empty target run
+6389 115  5-Misc[all]  :: empty target run
+6389 120  5-Misc[all]  :: empty target run
+6389 125  5-Misc[all]  :: empty target run
 
 RUN: 6396
-6396 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6396 0  4-LowLiveTime[all]
 6396 5  GOLDEN
 6396 10  GOLDEN
 6396 15  GOLDEN
@@ -26711,11 +26711,11 @@ RUN: 6396
 6396 245  GOLDEN
 6396 250  GOLDEN
 6396 255  GOLDEN
-6396 260  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6396 260  1-TerminalOutlier[all]
 
 RUN: 6399
-6399 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
-6399 5  2-MarginalOutlier[1, 2, 3, 4]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6399 0  1-TerminalOutlier[all]
+6399 5  2-MarginalOutlier[1, 2, 3, 4]  4-LowLiveTime[all]
 6399 10  GOLDEN
 6399 15  GOLDEN
 6399 20  GOLDEN
@@ -26950,10 +26950,10 @@ RUN: 6399
 6399 1165  GOLDEN
 6399 1170  GOLDEN
 6399 1175  GOLDEN
-6399 1180  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6399 1180  1-TerminalOutlier[all]
 
 RUN: 6420
-6420 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6420 0  4-LowLiveTime[all]
 6420 5  GOLDEN
 6420 10  GOLDEN
 6420 15  GOLDEN
@@ -27406,7 +27406,7 @@ RUN: 6420
 6420 2250  GOLDEN
 
 RUN: 6421
-6421 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6421 0  4-LowLiveTime[all]
 6421 5  GOLDEN
 6421 10  GOLDEN
 6421 15  GOLDEN
@@ -28183,7 +28183,7 @@ RUN: 6422
 6422 1875  GOLDEN
 
 RUN: 6426
-6426 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6426 0  4-LowLiveTime[all]
 6426 5  GOLDEN
 6426 10  GOLDEN
 6426 15  GOLDEN
@@ -28577,7 +28577,7 @@ RUN: 6428
 6428 380  GOLDEN
 6428 385  GOLDEN
 6428 390  GOLDEN
-6428 395  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6428 395  4-LowLiveTime[all]
 6428 400  GOLDEN
 6428 405  GOLDEN
 6428 410  GOLDEN
@@ -28905,7 +28905,7 @@ RUN: 6428
 6428 2020  GOLDEN
 
 RUN: 6429
-6429 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6429 0  4-LowLiveTime[all]
 6429 5  GOLDEN
 6429 10  GOLDEN
 6429 15  GOLDEN
@@ -29074,7 +29074,7 @@ RUN: 6429
 6429 830  GOLDEN
 6429 835  GOLDEN
 6429 840  GOLDEN
-6429 845  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6429 845  0-TotalOutlier[all]
 6429 850  GOLDEN
 6429 855  GOLDEN
 6429 860  GOLDEN
@@ -29454,8 +29454,8 @@ RUN: 6430
 6430 445  GOLDEN
 
 RUN: 6431
-6431 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
-6431 5  2-MarginalOutlier[2, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6431 0  1-TerminalOutlier[all]  4-LowLiveTime[all]
+6431 5  2-MarginalOutlier[2, 6]  4-LowLiveTime[all]
 6431 10  GOLDEN
 6431 15  GOLDEN
 6431 20  GOLDEN
@@ -29817,7 +29817,7 @@ RUN: 6431
 6431 1800  2-MarginalOutlier[1]
 
 RUN: 6432
-6432 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6432 0  4-LowLiveTime[all]
 6432 5  GOLDEN
 6432 10  GOLDEN
 6432 15  GOLDEN
@@ -30250,7 +30250,7 @@ RUN: 6432
 6432 2150  GOLDEN
 
 RUN: 6433
-6433 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6433 0  4-LowLiveTime[all]
 6433 5  GOLDEN
 6433 10  GOLDEN
 6433 15  GOLDEN
@@ -30772,7 +30772,7 @@ RUN: 6433
 6433 2595  GOLDEN
 
 RUN: 6437
-6437 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6437 0  4-LowLiveTime[all]
 6437 5  GOLDEN
 6437 10  GOLDEN
 6437 15  GOLDEN
@@ -30944,15 +30944,15 @@ RUN: 6437
 6437 845  GOLDEN
 6437 850  GOLDEN
 6437 855  GOLDEN
-6437 860  5-Misc[1, 2, 3, 4, 5, 6]  :: ROC problems near the end of this run
-6437 865  5-Misc[1, 2, 3, 4, 5, 6]  :: ROC problems near the end of this run
-6437 870  5-Misc[1, 2, 3, 4, 5, 6]  :: ROC problems near the end of this run
-6437 875  5-Misc[1, 2, 3, 4, 5, 6]  :: ROC problems near the end of this run
-6437 880  5-Misc[1, 2, 3, 4, 5, 6]  :: ROC problems near the end of this run
-6437 885  5-Misc[1, 2, 3, 4, 5, 6]  :: ROC problems near the end of this run
+6437 860  5-Misc[all]  :: ROC problems near the end of this run
+6437 865  5-Misc[all]  :: ROC problems near the end of this run
+6437 870  5-Misc[all]  :: ROC problems near the end of this run
+6437 875  5-Misc[all]  :: ROC problems near the end of this run
+6437 880  5-Misc[all]  :: ROC problems near the end of this run
+6437 885  5-Misc[all]  :: ROC problems near the end of this run
 
 RUN: 6442
-6442 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6442 0  4-LowLiveTime[all]
 6442 5  GOLDEN
 6442 10  GOLDEN
 6442 15  GOLDEN
@@ -31981,10 +31981,10 @@ RUN: 6444
 6444 420  GOLDEN
 6444 425  GOLDEN
 6444 430  GOLDEN
-6444 435  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6444 435  1-TerminalOutlier[all]
 
 RUN: 6445
-6445 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6445 0  4-LowLiveTime[all]
 6445 5  GOLDEN
 6445 10  GOLDEN
 6445 15  GOLDEN
@@ -32437,47 +32437,47 @@ RUN: 6445
 6445 2250  GOLDEN
 
 RUN: 6446
-6446 0  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6446 5  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
+6446 0  5-Misc[all]  :: low lumi run
+6446 5  5-Misc[all]  :: low lumi run
 
 RUN: 6447
-6447 0  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 5  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 10  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 15  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 20  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 25  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 30  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 35  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 40  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 45  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 50  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 55  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 60  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 65  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 70  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6447 75  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
+6447 0  5-Misc[all]  :: low lumi run
+6447 5  5-Misc[all]  :: low lumi run
+6447 10  5-Misc[all]  :: low lumi run
+6447 15  5-Misc[all]  :: low lumi run
+6447 20  5-Misc[all]  :: low lumi run
+6447 25  5-Misc[all]  :: low lumi run
+6447 30  5-Misc[all]  :: low lumi run
+6447 35  5-Misc[all]  :: low lumi run
+6447 40  5-Misc[all]  :: low lumi run
+6447 45  5-Misc[all]  :: low lumi run
+6447 50  5-Misc[all]  :: low lumi run
+6447 55  5-Misc[all]  :: low lumi run
+6447 60  5-Misc[all]  :: low lumi run
+6447 65  5-Misc[all]  :: low lumi run
+6447 70  5-Misc[all]  :: low lumi run
+6447 75  5-Misc[all]  :: low lumi run
 
 RUN: 6448
-6448 0  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 5  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 10  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 15  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 20  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 25  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 30  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 35  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 40  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 45  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 50  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 55  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 60  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 65  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 70  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
-6448 75  5-Misc[1, 2, 3, 4, 5, 6]  :: low lumi run
+6448 0  5-Misc[all]  :: low lumi run
+6448 5  5-Misc[all]  :: low lumi run
+6448 10  5-Misc[all]  :: low lumi run
+6448 15  5-Misc[all]  :: low lumi run
+6448 20  5-Misc[all]  :: low lumi run
+6448 25  5-Misc[all]  :: low lumi run
+6448 30  5-Misc[all]  :: low lumi run
+6448 35  5-Misc[all]  :: low lumi run
+6448 40  5-Misc[all]  :: low lumi run
+6448 45  5-Misc[all]  :: low lumi run
+6448 50  5-Misc[all]  :: low lumi run
+6448 55  5-Misc[all]  :: low lumi run
+6448 60  5-Misc[all]  :: low lumi run
+6448 65  5-Misc[all]  :: low lumi run
+6448 70  5-Misc[all]  :: low lumi run
+6448 75  5-Misc[all]  :: low lumi run
 
 RUN: 6449
-6449 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6449 0  4-LowLiveTime[all]
 6449 5  GOLDEN
 6449 10  GOLDEN
 6449 15  GOLDEN
@@ -33628,7 +33628,7 @@ RUN: 6451
 6451 1310  GOLDEN
 6451 1315  GOLDEN
 6451 1320  GOLDEN
-6451 1325  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6451 1325  4-LowLiveTime[all]
 6451 1330  GOLDEN
 6451 1335  GOLDEN
 6451 1340  GOLDEN
@@ -33805,7 +33805,7 @@ RUN: 6451
 6451 2195  1-TerminalOutlier[6]  2-MarginalOutlier[1, 2, 4]
 
 RUN: 6452
-6452 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6452 0  4-LowLiveTime[all]
 6452 5  GOLDEN
 6452 10  GOLDEN
 6452 15  GOLDEN
@@ -34504,7 +34504,7 @@ RUN: 6453
 6453 1105  GOLDEN
 6453 1110  GOLDEN
 6453 1115  GOLDEN
-6453 1120  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6453 1120  4-LowLiveTime[all]
 6453 1125  GOLDEN
 6453 1130  GOLDEN
 6453 1135  GOLDEN
@@ -34868,13 +34868,13 @@ RUN: 6454
 6454 725  GOLDEN
 6454 730  GOLDEN
 6454 735  GOLDEN
-6454 740  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6454 740  1-TerminalOutlier[all]
 
 RUN: 6455
-6455 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6455 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6455 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6455 15  0-TotalOutlier[1, 4, 6]  2-MarginalOutlier[3, 5]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6455 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6455 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6455 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6455 15  0-TotalOutlier[1, 4, 6]  2-MarginalOutlier[3, 5]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6455 20  GOLDEN
 6455 25  GOLDEN
 6455 30  GOLDEN
@@ -35773,7 +35773,7 @@ RUN: 6456
 6456 2190  GOLDEN
 
 RUN: 6457
-6457 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6457 0  4-LowLiveTime[all]
 6457 5  GOLDEN
 6457 10  GOLDEN
 6457 15  GOLDEN
@@ -35973,7 +35973,7 @@ RUN: 6458
 6458 105  GOLDEN
 6458 110  GOLDEN
 6458 115  GOLDEN
-6458 120  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6458 120  4-LowLiveTime[all]
 6458 125  GOLDEN
 6458 130  GOLDEN
 6458 135  GOLDEN
@@ -36313,7 +36313,7 @@ RUN: 6458
 6458 1805  GOLDEN
 6458 1810  GOLDEN
 6458 1815  GOLDEN
-6458 1820  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6458 1820  4-LowLiveTime[all]
 6458 1825  GOLDEN
 6458 1830  GOLDEN
 6458 1835  GOLDEN
@@ -36351,7 +36351,7 @@ RUN: 6458
 6458 1995  1-TerminalOutlier[1, 4]  2-MarginalOutlier[2, 3, 5, 6]
 
 RUN: 6459
-6459 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6459 0  4-LowLiveTime[all]
 6459 5  GOLDEN
 6459 10  GOLDEN
 6459 15  GOLDEN
@@ -36444,7 +36444,7 @@ RUN: 6459
 6459 450  GOLDEN
 6459 455  GOLDEN
 6459 460  GOLDEN
-6459 465  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6459 465  4-LowLiveTime[all]
 6459 470  GOLDEN
 6459 475  GOLDEN
 6459 480  GOLDEN
@@ -36541,12 +36541,12 @@ RUN: 6459
 6459 935  GOLDEN
 6459 940  GOLDEN
 6459 945  GOLDEN
-6459 950  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6459 950  1-TerminalOutlier[all]
 
 RUN: 6460
-6460 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6460 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6460 10  2-MarginalOutlier[4, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6460 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6460 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6460 10  2-MarginalOutlier[4, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6460 15  GOLDEN
 6460 20  GOLDEN
 6460 25  GOLDEN
@@ -36582,7 +36582,7 @@ RUN: 6460
 6460 175  2-MarginalOutlier[1, 3, 5, 6]
 
 RUN: 6461
-6461 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6461 0  4-LowLiveTime[all]
 6461 5  GOLDEN
 6461 10  GOLDEN
 6461 15  GOLDEN
@@ -36926,7 +36926,7 @@ RUN: 6461
 6461 1705  GOLDEN
 6461 1710  GOLDEN
 6461 1715  GOLDEN
-6461 1720  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6461 1720  4-LowLiveTime[all]
 6461 1725  GOLDEN
 6461 1730  GOLDEN
 6461 1735  GOLDEN
@@ -36994,7 +36994,7 @@ RUN: 6461
 6461 2045  GOLDEN
 
 RUN: 6462
-6462 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6462 0  4-LowLiveTime[all]
 6462 5  GOLDEN
 6462 10  GOLDEN
 6462 15  GOLDEN
@@ -37229,7 +37229,7 @@ RUN: 6462
 6462 1160  GOLDEN
 6462 1165  GOLDEN
 6462 1170  GOLDEN
-6462 1175  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6462 1175  4-LowLiveTime[all]
 6462 1180  GOLDEN
 6462 1185  GOLDEN
 6462 1190  GOLDEN
@@ -37444,7 +37444,7 @@ RUN: 6462
 6462 2235  GOLDEN
 
 RUN: 6463
-6463 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6463 0  4-LowLiveTime[all]
 6463 5  GOLDEN
 6463 10  GOLDEN
 6463 15  GOLDEN
@@ -37808,7 +37808,7 @@ RUN: 6463
 6463 1805  GOLDEN
 6463 1810  GOLDEN
 6463 1815  GOLDEN
-6463 1820  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6463 1820  4-LowLiveTime[all]
 6463 1825  GOLDEN
 6463 1830  GOLDEN
 6463 1835  GOLDEN
@@ -38038,7 +38038,7 @@ RUN: 6464
 6464 1015  GOLDEN
 6464 1020  GOLDEN
 6464 1025  GOLDEN
-6464 1030  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6464 1030  1-TerminalOutlier[all]  4-LowLiveTime[all]
 
 RUN: 6465
 6465 0  GOLDEN
@@ -38520,9 +38520,9 @@ RUN: 6465
 6465 2380  GOLDEN
 
 RUN: 6466
-6466 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6466 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6466 10  0-TotalOutlier[4]  2-MarginalOutlier[1, 3, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6466 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6466 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6466 10  0-TotalOutlier[4]  2-MarginalOutlier[1, 3, 5, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6466 15  GOLDEN
 6466 20  GOLDEN
 6466 25  GOLDEN
@@ -38865,7 +38865,7 @@ RUN: 6466
 6466 1710  GOLDEN
 6466 1715  GOLDEN
 6466 1720  GOLDEN
-6466 1725  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6466 1725  4-LowLiveTime[all]
 6466 1730  GOLDEN
 6466 1735  GOLDEN
 6466 1740  GOLDEN
@@ -38952,7 +38952,7 @@ RUN: 6466
 6466 2145  GOLDEN
 6466 2150  GOLDEN
 6466 2155  GOLDEN
-6466 2160  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6466 2160  4-LowLiveTime[all]
 6466 2165  GOLDEN
 6466 2170  GOLDEN
 6466 2175  GOLDEN
@@ -38987,7 +38987,7 @@ RUN: 6466
 6466 2320  GOLDEN
 
 RUN: 6467
-6467 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6467 0  4-LowLiveTime[all]
 6467 5  GOLDEN
 6467 10  GOLDEN
 6467 15  GOLDEN
@@ -39239,7 +39239,7 @@ RUN: 6467
 6467 1245  GOLDEN
 6467 1250  GOLDEN
 6467 1255  GOLDEN
-6467 1260  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6467 1260  4-LowLiveTime[all]
 6467 1265  GOLDEN
 6467 1270  GOLDEN
 6467 1275  GOLDEN
@@ -39584,14 +39584,14 @@ RUN: 6468
 6468 685  GOLDEN
 6468 690  GOLDEN
 6468 695  GOLDEN
-6468 700  0-TotalOutlier[1, 2, 3, 4, 5, 6]
-6468 705  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6468 700  0-TotalOutlier[all]
+6468 705  1-TerminalOutlier[all]
 
 RUN: 6470
-6470 0  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6470 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6470 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6470 15  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6470 0  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6470 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6470 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6470 15  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6470 20  GOLDEN
 6470 25  GOLDEN
 6470 30  GOLDEN
@@ -39832,8 +39832,8 @@ RUN: 6470
 6470 1205  2-MarginalOutlier[1, 2, 3, 4, 5]
 
 RUN: 6471
-6471 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6471 5  2-MarginalOutlier[1, 3, 4, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6471 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6471 5  2-MarginalOutlier[1, 3, 4, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6471 10  GOLDEN
 6471 15  GOLDEN
 6471 20  GOLDEN
@@ -39871,17 +39871,17 @@ RUN: 6471
 6471 180  GOLDEN
 6471 185  GOLDEN
 6471 190  2-MarginalOutlier[1, 2, 3, 4]
-6471 195  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6471 195  1-TerminalOutlier[all]
 
 RUN: 6472
-6472 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6472 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6472 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6472 15  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6472 20  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6472 25  0-TotalOutlier[3, 4, 5, 6]  2-MarginalOutlier[1, 2]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6472 30  2-MarginalOutlier[3, 5]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6472 35  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6472 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6472 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6472 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6472 15  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6472 20  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6472 25  0-TotalOutlier[3, 4, 5, 6]  2-MarginalOutlier[1, 2]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6472 30  2-MarginalOutlier[3, 5]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6472 35  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6472 40  GOLDEN
 6472 45  GOLDEN
 6472 50  GOLDEN
@@ -40111,7 +40111,7 @@ RUN: 6472
 6472 1170  GOLDEN
 6472 1175  GOLDEN
 6472 1180  GOLDEN
-6472 1185  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6472 1185  4-LowLiveTime[all]
 6472 1190  GOLDEN
 6472 1195  GOLDEN
 6472 1200  GOLDEN
@@ -40297,7 +40297,7 @@ RUN: 6472
 6472 2100  GOLDEN
 6472 2105  GOLDEN
 6472 2110  GOLDEN
-6472 2115  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6472 2115  4-LowLiveTime[all]
 6472 2120  GOLDEN
 6472 2125  GOLDEN
 6472 2130  GOLDEN
@@ -40511,7 +40511,7 @@ RUN: 6473
 6473 635  GOLDEN
 
 RUN: 6474
-6474 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6474 0  4-LowLiveTime[all]
 6474 5  GOLDEN
 6474 10  GOLDEN
 6474 15  GOLDEN
@@ -40597,7 +40597,7 @@ RUN: 6474
 6474 415  GOLDEN
 6474 420  GOLDEN
 6474 425  GOLDEN
-6474 430  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6474 430  4-LowLiveTime[all]
 6474 435  GOLDEN
 6474 440  GOLDEN
 6474 445  GOLDEN
@@ -40666,7 +40666,7 @@ RUN: 6474
 6474 760  GOLDEN
 6474 765  GOLDEN
 6474 770  GOLDEN
-6474 775  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6474 775  4-LowLiveTime[all]
 6474 780  GOLDEN
 6474 785  GOLDEN
 6474 790  GOLDEN
@@ -40816,7 +40816,7 @@ RUN: 6474
 6474 1510  GOLDEN
 6474 1515  GOLDEN
 6474 1520  GOLDEN
-6474 1525  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6474 1525  4-LowLiveTime[all]
 6474 1530  GOLDEN
 6474 1535  GOLDEN
 6474 1540  GOLDEN
@@ -41025,7 +41025,7 @@ RUN: 6474
 6474 2555  GOLDEN
 
 RUN: 6475
-6475 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6475 0  4-LowLiveTime[all]
 6475 5  GOLDEN
 6475 10  GOLDEN
 6475 15  GOLDEN
@@ -41526,11 +41526,11 @@ RUN: 6475
 6475 2490  GOLDEN
 
 RUN: 6476
-6476 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6476 5  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6476 10  0-TotalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6476 15  2-MarginalOutlier[1, 2, 3, 4]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
-6476 20  2-MarginalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]  5-Misc[1, 2, 3, 4, 5, 6]  :: FC charge issue (RUN::scaler:fcupgated)
+6476 0  1-TerminalOutlier[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6476 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6476 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6476 15  2-MarginalOutlier[1, 2, 3, 4]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
+6476 20  2-MarginalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue (RUN::scaler:fcupgated)
 6476 25  GOLDEN
 6476 30  GOLDEN
 6476 35  GOLDEN
@@ -42059,7 +42059,7 @@ RUN: 6479
 6479 1040  GOLDEN
 6479 1045  GOLDEN
 6479 1050  GOLDEN
-6479 1055  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6479 1055  4-LowLiveTime[all]
 6479 1060  GOLDEN
 6479 1065  GOLDEN
 6479 1070  GOLDEN
@@ -42155,11 +42155,11 @@ RUN: 6479
 6479 1520  GOLDEN
 6479 1525  GOLDEN
 6479 1530  GOLDEN
-6479 1535  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6479 1535  4-LowLiveTime[all]
 6479 1540  GOLDEN
 6479 1545  GOLDEN
 6479 1550  GOLDEN
-6479 1555  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6479 1555  4-LowLiveTime[all]
 6479 1560  GOLDEN
 6479 1565  GOLDEN
 6479 1570  GOLDEN
@@ -42292,7 +42292,7 @@ RUN: 6479
 6479 2205  GOLDEN
 6479 2210  GOLDEN
 6479 2215  GOLDEN
-6479 2220  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6479 2220  4-LowLiveTime[all]
 6479 2225  GOLDEN
 6479 2230  GOLDEN
 6479 2235  GOLDEN
@@ -42321,7 +42321,7 @@ RUN: 6479
 6479 2350  GOLDEN
 6479 2355  GOLDEN
 6479 2360  GOLDEN
-6479 2365  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6479 2365  4-LowLiveTime[all]
 6479 2370  GOLDEN
 6479 2375  GOLDEN
 6479 2380  GOLDEN
@@ -42364,11 +42364,11 @@ RUN: 6479
 6479 2565  GOLDEN
 6479 2570  GOLDEN
 6479 2575  GOLDEN
-6479 2580  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6479 2580  4-LowLiveTime[all]
 6479 2585  GOLDEN
 
 RUN: 6481
-6481 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6481 0  4-LowLiveTime[all]
 6481 5  GOLDEN
 6481 10  GOLDEN
 6481 15  GOLDEN
@@ -43357,11 +43357,11 @@ RUN: 6482
 6482 2455  GOLDEN
 6482 2460  GOLDEN
 6482 2465  GOLDEN
-6482 2470  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6482 2470  4-LowLiveTime[all]
 6482 2475  GOLDEN
 
 RUN: 6483
-6483 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6483 0  4-LowLiveTime[all]
 6483 5  GOLDEN
 6483 10  GOLDEN
 6483 15  GOLDEN
@@ -43504,7 +43504,7 @@ RUN: 6483
 6483 700  GOLDEN
 6483 705  GOLDEN
 6483 710  GOLDEN
-6483 715  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6483 715  0-TotalOutlier[all]
 6483 720  GOLDEN
 6483 725  GOLDEN
 6483 730  GOLDEN
@@ -43674,7 +43674,7 @@ RUN: 6483
 6483 1550  GOLDEN
 6483 1555  GOLDEN
 6483 1560  GOLDEN
-6483 1565  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6483 1565  4-LowLiveTime[all]
 6483 1570  GOLDEN
 6483 1575  GOLDEN
 6483 1580  GOLDEN
@@ -43992,7 +43992,7 @@ RUN: 6484
 6484 1420  GOLDEN
 6484 1425  GOLDEN
 6484 1430  GOLDEN
-6484 1435  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6484 1435  4-LowLiveTime[all]
 6484 1440  GOLDEN
 6484 1445  GOLDEN
 6484 1450  GOLDEN
@@ -44203,7 +44203,7 @@ RUN: 6485
 6485 120  GOLDEN
 6485 125  GOLDEN
 6485 130  GOLDEN
-6485 135  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6485 135  0-TotalOutlier[all]
 6485 140  GOLDEN
 6485 145  GOLDEN
 6485 150  GOLDEN
@@ -44400,7 +44400,7 @@ RUN: 6485
 6485 1105  3-SectorLoss[4]
 
 RUN: 6486
-6486 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6486 0  4-LowLiveTime[all]
 6486 5  GOLDEN
 6486 10  GOLDEN
 6486 15  GOLDEN
@@ -44695,7 +44695,7 @@ RUN: 6486
 6486 1460  GOLDEN
 6486 1465  GOLDEN
 6486 1470  GOLDEN
-6486 1475  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6486 1475  0-TotalOutlier[all]
 6486 1480  GOLDEN
 6486 1485  GOLDEN
 6486 1490  GOLDEN
@@ -45765,7 +45765,7 @@ RUN: 6489
 6489 1855  GOLDEN
 6489 1860  GOLDEN
 6489 1865  GOLDEN
-6489 1870  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6489 1870  4-LowLiveTime[all]
 6489 1875  GOLDEN
 6489 1880  GOLDEN
 6489 1885  GOLDEN
@@ -46758,7 +46758,7 @@ RUN: 6492
 6492 2255  GOLDEN
 
 RUN: 6498
-6498 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6498 0  4-LowLiveTime[all]
 6498 5  GOLDEN
 6498 10  GOLDEN
 6498 15  GOLDEN
@@ -46838,7 +46838,7 @@ RUN: 6498
 6498 385  GOLDEN
 6498 390  GOLDEN
 6498 395  GOLDEN
-6498 400  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6498 400  0-TotalOutlier[all]
 6498 405  GOLDEN
 6498 410  GOLDEN
 6498 415  GOLDEN
@@ -47541,7 +47541,7 @@ RUN: 6499
 6499 1805  GOLDEN
 6499 1810  GOLDEN
 6499 1815  GOLDEN
-6499 1820  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6499 1820  0-TotalOutlier[all]
 6499 1825  GOLDEN
 6499 1830  GOLDEN
 6499 1835  GOLDEN
@@ -48096,7 +48096,7 @@ RUN: 6501
 6501 2550  GOLDEN
 
 RUN: 6502
-6502 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6502 0  4-LowLiveTime[all]
 6502 5  GOLDEN
 6502 10  GOLDEN
 6502 15  GOLDEN
@@ -48595,7 +48595,7 @@ RUN: 6502
 6502 2480  GOLDEN
 
 RUN: 6510
-6510 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6510 0  4-LowLiveTime[all]
 6510 5  GOLDEN
 6510 10  GOLDEN
 6510 15  GOLDEN
@@ -48765,7 +48765,7 @@ RUN: 6510
 6510 835  GOLDEN
 
 RUN: 6511
-6511 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6511 0  4-LowLiveTime[all]
 6511 5  GOLDEN
 6511 10  GOLDEN
 6511 15  GOLDEN
@@ -49022,7 +49022,7 @@ RUN: 6511
 6511 1270  GOLDEN
 6511 1275  GOLDEN
 6511 1280  GOLDEN
-6511 1285  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6511 1285  0-TotalOutlier[all]
 6511 1290  GOLDEN
 6511 1295  GOLDEN
 6511 1300  GOLDEN
@@ -49095,7 +49095,7 @@ RUN: 6511
 6511 1635  GOLDEN
 
 RUN: 6512
-6512 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6512 0  4-LowLiveTime[all]
 6512 5  GOLDEN
 6512 10  GOLDEN
 6512 15  GOLDEN
@@ -49181,10 +49181,10 @@ RUN: 6512
 6512 415  GOLDEN
 6512 420  GOLDEN
 6512 425  GOLDEN
-6512 430  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6512 430  0-TotalOutlier[all]
 6512 435  GOLDEN
-6512 440  0-TotalOutlier[1, 2, 3, 4, 5, 6]
-6512 445  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6512 440  0-TotalOutlier[all]
+6512 445  0-TotalOutlier[all]
 6512 450  GOLDEN
 6512 455  GOLDEN
 6512 460  GOLDEN
@@ -49258,7 +49258,7 @@ RUN: 6512
 6512 800  GOLDEN
 6512 805  GOLDEN
 6512 810  GOLDEN
-6512 815  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6512 815  0-TotalOutlier[all]
 6512 820  GOLDEN
 6512 825  GOLDEN
 6512 830  GOLDEN
@@ -50472,7 +50472,7 @@ RUN: 6514
 6514 2340  GOLDEN
 
 RUN: 6515
-6515 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6515 0  4-LowLiveTime[all]
 6515 5  GOLDEN
 6515 10  GOLDEN
 6515 15  GOLDEN
@@ -50979,10 +50979,10 @@ RUN: 6516
 6516 185  GOLDEN
 6516 190  GOLDEN
 6516 195  GOLDEN
-6516 200  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6516 200  1-TerminalOutlier[all]
 
 RUN: 6522
-6522 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6522 0  4-LowLiveTime[all]
 6522 5  GOLDEN
 6522 10  GOLDEN
 6522 15  GOLDEN
@@ -51436,7 +51436,7 @@ RUN: 6522
 6522 2255  GOLDEN
 
 RUN: 6523
-6523 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6523 0  4-LowLiveTime[all]
 6523 5  GOLDEN
 6523 10  GOLDEN
 6523 15  GOLDEN
@@ -51488,7 +51488,7 @@ RUN: 6523
 6523 245  GOLDEN
 6523 250  GOLDEN
 6523 255  GOLDEN
-6523 260  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6523 260  0-TotalOutlier[all]
 6523 265  GOLDEN
 6523 270  GOLDEN
 6523 275  GOLDEN
@@ -51894,7 +51894,7 @@ RUN: 6524
 6524 15  GOLDEN
 6524 20  GOLDEN
 6524 25  GOLDEN
-6524 30  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6524 30  0-TotalOutlier[all]
 6524 35  GOLDEN
 6524 40  GOLDEN
 6524 45  GOLDEN
@@ -52112,12 +52112,12 @@ RUN: 6524
 6524 1105  GOLDEN
 6524 1110  GOLDEN
 6524 1115  GOLDEN
-6524 1120  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6524 1120  4-LowLiveTime[all]
 6524 1125  GOLDEN
 6524 1130  GOLDEN
 6524 1135  GOLDEN
-6524 1140  4-LowLiveTime[1, 2, 3, 4, 5, 6]
-6524 1145  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6524 1140  4-LowLiveTime[all]
+6524 1145  4-LowLiveTime[all]
 6524 1150  GOLDEN
 6524 1155  GOLDEN
 6524 1160  GOLDEN
@@ -52611,7 +52611,7 @@ RUN: 6525
 6525 1205  GOLDEN
 6525 1210  GOLDEN
 6525 1215  GOLDEN
-6525 1220  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6525 1220  4-LowLiveTime[all]
 6525 1225  GOLDEN
 6525 1230  GOLDEN
 6525 1235  GOLDEN
@@ -53638,7 +53638,7 @@ RUN: 6548
 6548 1190  GOLDEN
 6548 1195  GOLDEN
 6548 1200  GOLDEN
-6548 1205  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6548 1205  0-TotalOutlier[all]
 6548 1210  GOLDEN
 6548 1215  GOLDEN
 6548 1220  GOLDEN
@@ -53704,7 +53704,7 @@ RUN: 6548
 6548 1520  GOLDEN
 
 RUN: 6549
-6549 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6549 0  4-LowLiveTime[all]
 6549 5  GOLDEN
 6549 10  GOLDEN
 6549 15  GOLDEN
@@ -53975,7 +53975,7 @@ RUN: 6549
 6549 1340  GOLDEN
 6549 1345  GOLDEN
 6549 1350  GOLDEN
-6549 1355  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6549 1355  0-TotalOutlier[all]
 6549 1360  GOLDEN
 6549 1365  GOLDEN
 6549 1370  GOLDEN
@@ -54009,7 +54009,7 @@ RUN: 6549
 6549 1510  GOLDEN
 
 RUN: 6550
-6550 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6550 0  4-LowLiveTime[all]
 6550 5  GOLDEN
 6550 10  GOLDEN
 6550 15  GOLDEN
@@ -54111,7 +54111,7 @@ RUN: 6550
 6550 495  GOLDEN
 6550 500  GOLDEN
 6550 505  GOLDEN
-6550 510  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6550 510  0-TotalOutlier[all]
 6550 515  GOLDEN
 6550 520  GOLDEN
 6550 525  GOLDEN
@@ -54313,10 +54313,10 @@ RUN: 6550
 6550 1505  GOLDEN
 
 RUN: 6551
-6551 0  5-Misc[1, 2, 3, 4, 5, 6]  :: ROC busy
+6551 0  5-Misc[all]  :: ROC busy
 
 RUN: 6557
-6557 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6557 0  4-LowLiveTime[all]
 6557 5  GOLDEN
 6557 10  GOLDEN
 6557 15  GOLDEN
@@ -54842,7 +54842,7 @@ RUN: 6559
 6559 80  GOLDEN
 6559 85  GOLDEN
 6559 90  GOLDEN
-6559 95  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6559 95  4-LowLiveTime[all]
 6559 100  GOLDEN
 6559 105  GOLDEN
 6559 110  GOLDEN
@@ -55126,7 +55126,7 @@ RUN: 6559
 6559 1500  GOLDEN
 
 RUN: 6560
-6560 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6560 0  4-LowLiveTime[all]
 6560 5  GOLDEN
 6560 10  GOLDEN
 6560 15  GOLDEN
@@ -55159,7 +55159,7 @@ RUN: 6560
 6560 150  GOLDEN
 6560 155  GOLDEN
 6560 160  GOLDEN
-6560 165  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6560 165  0-TotalOutlier[all]
 6560 170  GOLDEN
 6560 175  GOLDEN
 6560 180  GOLDEN
@@ -55326,16 +55326,16 @@ RUN: 6560
 6560 985  GOLDEN
 6560 990  GOLDEN
 6560 995  GOLDEN
-6560 1000  1-TerminalOutlier[1, 2, 3, 4, 5, 6]
+6560 1000  1-TerminalOutlier[all]
 
 RUN: 6561
-6561 0  5-Misc[1, 2, 3, 4, 5, 6]  :: beam tune for hall C; beam in hall B unstable
-6561 5  5-Misc[1, 2, 3, 4, 5, 6]  :: beam tune for hall C; beam in hall B unstable
-6561 10  5-Misc[1, 2, 3, 4, 5, 6]  :: beam tune for hall C; beam in hall B unstable
-6561 15  5-Misc[1, 2, 3, 4, 5, 6]  :: beam tune for hall C; beam in hall B unstable
+6561 0  5-Misc[all]  :: beam tune for hall C; beam in hall B unstable
+6561 5  5-Misc[all]  :: beam tune for hall C; beam in hall B unstable
+6561 10  5-Misc[all]  :: beam tune for hall C; beam in hall B unstable
+6561 15  5-Misc[all]  :: beam tune for hall C; beam in hall B unstable
 
 RUN: 6562
-6562 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6562 0  4-LowLiveTime[all]
 6562 5  GOLDEN
 6562 10  GOLDEN
 6562 15  GOLDEN
@@ -55446,7 +55446,7 @@ RUN: 6563
 6563 410  GOLDEN
 6563 415  GOLDEN
 6563 420  GOLDEN
-6563 425  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6563 425  0-TotalOutlier[all]
 6563 430  GOLDEN
 6563 435  GOLDEN
 6563 440  GOLDEN
@@ -56088,7 +56088,7 @@ RUN: 6566
 6566 1495  GOLDEN
 
 RUN: 6567
-6567 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6567 0  4-LowLiveTime[all]
 6567 5  GOLDEN
 6567 10  GOLDEN
 6567 15  GOLDEN
@@ -56704,7 +56704,7 @@ RUN: 6569
 6569 1490  GOLDEN
 
 RUN: 6570
-6570 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6570 0  4-LowLiveTime[all]
 6570 5  GOLDEN
 6570 10  GOLDEN
 6570 15  GOLDEN
@@ -57625,7 +57625,7 @@ RUN: 6572
 6572 1505  GOLDEN
 
 RUN: 6573
-6573 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6573 0  4-LowLiveTime[all]
 6573 5  GOLDEN
 6573 10  GOLDEN
 6573 15  GOLDEN
@@ -57811,7 +57811,7 @@ RUN: 6573
 6573 915  GOLDEN
 6573 920  GOLDEN
 6573 925  2-MarginalOutlier[1, 6]
-6573 930  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6573 930  0-TotalOutlier[all]
 6573 935  GOLDEN
 6573 940  GOLDEN
 6573 945  GOLDEN
@@ -57877,7 +57877,7 @@ RUN: 6573
 6573 1245  GOLDEN
 6573 1250  GOLDEN
 6573 1255  GOLDEN
-6573 1260  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6573 1260  0-TotalOutlier[all]
 6573 1265  GOLDEN
 6573 1270  GOLDEN
 6573 1275  GOLDEN
@@ -57927,7 +57927,7 @@ RUN: 6573
 6573 1495  GOLDEN
 
 RUN: 6576
-6576 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6576 0  4-LowLiveTime[all]
 6576 5  GOLDEN
 6576 10  GOLDEN
 6576 15  GOLDEN
@@ -58016,7 +58016,7 @@ RUN: 6576
 6576 430  GOLDEN
 6576 435  GOLDEN
 6576 440  GOLDEN
-6576 445  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6576 445  4-LowLiveTime[all]
 6576 450  GOLDEN
 6576 455  GOLDEN
 6576 460  GOLDEN
@@ -58024,7 +58024,7 @@ RUN: 6576
 6576 470  GOLDEN
 6576 475  GOLDEN
 6576 480  GOLDEN
-6576 485  2-MarginalOutlier[1, 2, 3, 4, 5, 6]
+6576 485  2-MarginalOutlier[all]
 6576 490  GOLDEN
 6576 495  GOLDEN
 6576 500  GOLDEN
@@ -58227,7 +58227,7 @@ RUN: 6576
 6576 1485  GOLDEN
 
 RUN: 6577
-6577 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6577 0  4-LowLiveTime[all]
 6577 5  GOLDEN
 6577 10  GOLDEN
 6577 15  GOLDEN
@@ -58368,7 +58368,7 @@ RUN: 6577
 6577 690  GOLDEN
 6577 695  GOLDEN
 6577 700  GOLDEN
-6577 705  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6577 705  0-TotalOutlier[all]
 6577 710  GOLDEN
 6577 715  GOLDEN
 6577 720  GOLDEN
@@ -58529,7 +58529,7 @@ RUN: 6577
 6577 1495  GOLDEN  :: slight decrease in sector 3
 
 RUN: 6578
-6578 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6578 0  4-LowLiveTime[all]
 6578 5  GOLDEN
 6578 10  GOLDEN
 6578 15  GOLDEN
@@ -58726,7 +58726,7 @@ RUN: 6578
 6578 970  GOLDEN
 6578 975  GOLDEN
 6578 980  GOLDEN
-6578 985  3-SectorLoss[2, 3, 4, 5]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6578 985  3-SectorLoss[2, 3, 4, 5]  4-LowLiveTime[all]
 6578 990  3-SectorLoss[2, 3, 4, 5]
 6578 995  3-SectorLoss[2, 3, 4, 5]
 6578 1000  3-SectorLoss[2, 3, 4, 5]
@@ -58745,7 +58745,7 @@ RUN: 6578
 6578 1065  3-SectorLoss[2, 3, 4, 5]
 
 RUN: 6581
-6581 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6581 0  4-LowLiveTime[all]
 6581 5  GOLDEN
 6581 10  GOLDEN
 6581 15  GOLDEN
@@ -58784,7 +58784,7 @@ RUN: 6581
 6581 180  GOLDEN
 
 RUN: 6582
-6582 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6582 0  4-LowLiveTime[all]
 6582 5  GOLDEN
 6582 10  GOLDEN
 6582 15  GOLDEN
@@ -58903,7 +58903,7 @@ RUN: 6582
 6582 580  GOLDEN
 6582 585  GOLDEN
 6582 590  GOLDEN
-6582 595  2-MarginalOutlier[6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6582 595  2-MarginalOutlier[6]  4-LowLiveTime[all]
 
 RUN: 6585
 6585 0  GOLDEN
@@ -59207,7 +59207,7 @@ RUN: 6585
 6585 1490  GOLDEN
 
 RUN: 6586
-6586 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6586 0  4-LowLiveTime[all]
 6586 5  GOLDEN
 6586 10  GOLDEN
 6586 15  GOLDEN
@@ -59710,7 +59710,7 @@ RUN: 6587
 6587 995  GOLDEN
 
 RUN: 6589
-6589 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6589 0  4-LowLiveTime[all]
 6589 5  GOLDEN
 6589 10  GOLDEN
 6589 15  GOLDEN
@@ -59723,7 +59723,7 @@ RUN: 6589
 6589 50  GOLDEN
 6589 55  GOLDEN
 6589 60  GOLDEN
-6589 65  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6589 65  0-TotalOutlier[all]
 6589 70  GOLDEN
 6589 75  GOLDEN
 6589 80  GOLDEN
@@ -59762,7 +59762,7 @@ RUN: 6589
 6589 245  GOLDEN
 
 RUN: 6590
-6590 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6590 0  4-LowLiveTime[all]
 6590 5  GOLDEN
 6590 10  GOLDEN
 6590 15  GOLDEN
@@ -60074,7 +60074,7 @@ RUN: 6590
 6590 1545  GOLDEN
 
 RUN: 6591
-6591 0  1-TerminalOutlier[1, 2, 3, 4, 5, 6]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6591 0  1-TerminalOutlier[all]  4-LowLiveTime[all]
 6591 5  GOLDEN
 6591 10  GOLDEN
 6591 15  GOLDEN
@@ -60219,7 +60219,7 @@ RUN: 6591
 6591 710  GOLDEN
 6591 715  GOLDEN
 6591 720  GOLDEN
-6591 725  0-TotalOutlier[1, 2, 3, 4, 5, 6]
+6591 725  0-TotalOutlier[all]
 6591 730  GOLDEN
 6591 735  GOLDEN
 6591 740  GOLDEN
@@ -60494,7 +60494,7 @@ RUN: 6592
 6592 550  3-SectorLoss[4]
 
 RUN: 6593
-6593 0  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6593 0  4-LowLiveTime[all]
 6593 5  GOLDEN
 6593 10  GOLDEN
 6593 15  GOLDEN
@@ -61113,7 +61113,7 @@ RUN: 6595
 6595 1570  GOLDEN
 
 RUN: 6596
-6596 0  3-SectorLoss[5]  4-LowLiveTime[1, 2, 3, 4, 5, 6]
+6596 0  3-SectorLoss[5]  4-LowLiveTime[all]
 6596 5  3-SectorLoss[5]
 6596 10  3-SectorLoss[5]
 6596 15  3-SectorLoss[5]
@@ -61290,7 +61290,7 @@ RUN: 6597
 6597 435  GOLDEN
 6597 440  GOLDEN
 6597 445  GOLDEN
-6597 450  5-Misc[1, 2, 3, 4, 5, 6]  :: all ROC rates at zero; ended run
+6597 450  5-Misc[all]  :: all ROC rates at zero; ended run
 
 RUN: 6598
 6598 0  GOLDEN
@@ -61311,154 +61311,154 @@ RUN: 6598
 6598 75  GOLDEN
 
 RUN: 6599
-6599 0  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 5  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 10  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 15  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 20  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 25  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 30  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 35  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 40  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 45  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 50  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 55  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 60  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 65  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 70  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 75  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 80  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 85  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 90  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 95  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 100  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 105  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 110  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 115  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 120  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 125  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 130  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 135  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 140  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 145  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 150  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 155  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 160  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 165  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 170  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 175  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 180  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 185  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 190  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 195  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 200  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 205  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 210  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 215  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 220  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 225  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 230  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 235  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 240  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 245  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 250  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 255  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 260  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 265  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 270  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 275  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 280  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 285  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 290  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 295  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 300  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 305  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 310  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 315  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 320  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 325  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 330  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 335  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 340  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 345  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 350  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 355  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 360  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 365  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 370  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6599 375  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
+6599 0  5-Misc[all]  :: empty target run
+6599 5  5-Misc[all]  :: empty target run
+6599 10  5-Misc[all]  :: empty target run
+6599 15  5-Misc[all]  :: empty target run
+6599 20  5-Misc[all]  :: empty target run
+6599 25  5-Misc[all]  :: empty target run
+6599 30  5-Misc[all]  :: empty target run
+6599 35  5-Misc[all]  :: empty target run
+6599 40  5-Misc[all]  :: empty target run
+6599 45  5-Misc[all]  :: empty target run
+6599 50  5-Misc[all]  :: empty target run
+6599 55  5-Misc[all]  :: empty target run
+6599 60  5-Misc[all]  :: empty target run
+6599 65  5-Misc[all]  :: empty target run
+6599 70  5-Misc[all]  :: empty target run
+6599 75  5-Misc[all]  :: empty target run
+6599 80  5-Misc[all]  :: empty target run
+6599 85  5-Misc[all]  :: empty target run
+6599 90  5-Misc[all]  :: empty target run
+6599 95  5-Misc[all]  :: empty target run
+6599 100  5-Misc[all]  :: empty target run
+6599 105  5-Misc[all]  :: empty target run
+6599 110  5-Misc[all]  :: empty target run
+6599 115  5-Misc[all]  :: empty target run
+6599 120  5-Misc[all]  :: empty target run
+6599 125  5-Misc[all]  :: empty target run
+6599 130  5-Misc[all]  :: empty target run
+6599 135  5-Misc[all]  :: empty target run
+6599 140  5-Misc[all]  :: empty target run
+6599 145  5-Misc[all]  :: empty target run
+6599 150  5-Misc[all]  :: empty target run
+6599 155  5-Misc[all]  :: empty target run
+6599 160  5-Misc[all]  :: empty target run
+6599 165  5-Misc[all]  :: empty target run
+6599 170  5-Misc[all]  :: empty target run
+6599 175  5-Misc[all]  :: empty target run
+6599 180  5-Misc[all]  :: empty target run
+6599 185  5-Misc[all]  :: empty target run
+6599 190  5-Misc[all]  :: empty target run
+6599 195  5-Misc[all]  :: empty target run
+6599 200  5-Misc[all]  :: empty target run
+6599 205  5-Misc[all]  :: empty target run
+6599 210  5-Misc[all]  :: empty target run
+6599 215  5-Misc[all]  :: empty target run
+6599 220  5-Misc[all]  :: empty target run
+6599 225  5-Misc[all]  :: empty target run
+6599 230  5-Misc[all]  :: empty target run
+6599 235  5-Misc[all]  :: empty target run
+6599 240  5-Misc[all]  :: empty target run
+6599 245  5-Misc[all]  :: empty target run
+6599 250  5-Misc[all]  :: empty target run
+6599 255  5-Misc[all]  :: empty target run
+6599 260  5-Misc[all]  :: empty target run
+6599 265  5-Misc[all]  :: empty target run
+6599 270  5-Misc[all]  :: empty target run
+6599 275  5-Misc[all]  :: empty target run
+6599 280  5-Misc[all]  :: empty target run
+6599 285  5-Misc[all]  :: empty target run
+6599 290  5-Misc[all]  :: empty target run
+6599 295  5-Misc[all]  :: empty target run
+6599 300  5-Misc[all]  :: empty target run
+6599 305  5-Misc[all]  :: empty target run
+6599 310  5-Misc[all]  :: empty target run
+6599 315  5-Misc[all]  :: empty target run
+6599 320  5-Misc[all]  :: empty target run
+6599 325  5-Misc[all]  :: empty target run
+6599 330  5-Misc[all]  :: empty target run
+6599 335  5-Misc[all]  :: empty target run
+6599 340  5-Misc[all]  :: empty target run
+6599 345  5-Misc[all]  :: empty target run
+6599 350  5-Misc[all]  :: empty target run
+6599 355  5-Misc[all]  :: empty target run
+6599 360  5-Misc[all]  :: empty target run
+6599 365  5-Misc[all]  :: empty target run
+6599 370  5-Misc[all]  :: empty target run
+6599 375  5-Misc[all]  :: empty target run
 
 RUN: 6601
-6601 0  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 5  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 10  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 15  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 20  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 25  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 30  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 35  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 40  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 45  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 50  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 55  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 60  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 65  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 70  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 75  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 80  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 85  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 90  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 95  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 100  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 105  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 110  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 115  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 120  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 125  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 130  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 135  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 140  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 145  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 150  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 155  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 160  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 165  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 170  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 175  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 180  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 185  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 190  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 195  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 200  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 205  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 210  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 215  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 220  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 225  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 230  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 235  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 240  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 245  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6601 250  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
+6601 0  5-Misc[all]  :: empty target run
+6601 5  5-Misc[all]  :: empty target run
+6601 10  5-Misc[all]  :: empty target run
+6601 15  5-Misc[all]  :: empty target run
+6601 20  5-Misc[all]  :: empty target run
+6601 25  5-Misc[all]  :: empty target run
+6601 30  5-Misc[all]  :: empty target run
+6601 35  5-Misc[all]  :: empty target run
+6601 40  5-Misc[all]  :: empty target run
+6601 45  5-Misc[all]  :: empty target run
+6601 50  5-Misc[all]  :: empty target run
+6601 55  5-Misc[all]  :: empty target run
+6601 60  5-Misc[all]  :: empty target run
+6601 65  5-Misc[all]  :: empty target run
+6601 70  5-Misc[all]  :: empty target run
+6601 75  5-Misc[all]  :: empty target run
+6601 80  5-Misc[all]  :: empty target run
+6601 85  5-Misc[all]  :: empty target run
+6601 90  5-Misc[all]  :: empty target run
+6601 95  5-Misc[all]  :: empty target run
+6601 100  5-Misc[all]  :: empty target run
+6601 105  5-Misc[all]  :: empty target run
+6601 110  5-Misc[all]  :: empty target run
+6601 115  5-Misc[all]  :: empty target run
+6601 120  5-Misc[all]  :: empty target run
+6601 125  5-Misc[all]  :: empty target run
+6601 130  5-Misc[all]  :: empty target run
+6601 135  5-Misc[all]  :: empty target run
+6601 140  5-Misc[all]  :: empty target run
+6601 145  5-Misc[all]  :: empty target run
+6601 150  5-Misc[all]  :: empty target run
+6601 155  5-Misc[all]  :: empty target run
+6601 160  5-Misc[all]  :: empty target run
+6601 165  5-Misc[all]  :: empty target run
+6601 170  5-Misc[all]  :: empty target run
+6601 175  5-Misc[all]  :: empty target run
+6601 180  5-Misc[all]  :: empty target run
+6601 185  5-Misc[all]  :: empty target run
+6601 190  5-Misc[all]  :: empty target run
+6601 195  5-Misc[all]  :: empty target run
+6601 200  5-Misc[all]  :: empty target run
+6601 205  5-Misc[all]  :: empty target run
+6601 210  5-Misc[all]  :: empty target run
+6601 215  5-Misc[all]  :: empty target run
+6601 220  5-Misc[all]  :: empty target run
+6601 225  5-Misc[all]  :: empty target run
+6601 230  5-Misc[all]  :: empty target run
+6601 235  5-Misc[all]  :: empty target run
+6601 240  5-Misc[all]  :: empty target run
+6601 245  5-Misc[all]  :: empty target run
+6601 250  5-Misc[all]  :: empty target run
 
 RUN: 6603
-6603 0  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 5  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 10  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 15  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 20  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 25  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 30  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 35  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 40  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 45  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 50  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 55  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 60  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 65  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 70  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 75  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 80  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 85  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 90  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
-6603 95  5-Misc[1, 2, 3, 4, 5, 6]  :: empty target run
+6603 0  5-Misc[all]  :: empty target run
+6603 5  5-Misc[all]  :: empty target run
+6603 10  5-Misc[all]  :: empty target run
+6603 15  5-Misc[all]  :: empty target run
+6603 20  5-Misc[all]  :: empty target run
+6603 25  5-Misc[all]  :: empty target run
+6603 30  5-Misc[all]  :: empty target run
+6603 35  5-Misc[all]  :: empty target run
+6603 40  5-Misc[all]  :: empty target run
+6603 45  5-Misc[all]  :: empty target run
+6603 50  5-Misc[all]  :: empty target run
+6603 55  5-Misc[all]  :: empty target run
+6603 60  5-Misc[all]  :: empty target run
+6603 65  5-Misc[all]  :: empty target run
+6603 70  5-Misc[all]  :: empty target run
+6603 75  5-Misc[all]  :: empty target run
+6603 80  5-Misc[all]  :: empty target run
+6603 85  5-Misc[all]  :: empty target run
+6603 90  5-Misc[all]  :: empty target run
+6603 95  5-Misc[all]  :: empty target run

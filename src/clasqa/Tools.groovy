@@ -22,6 +22,16 @@ class Tools {
     "TerminalOutlierFT: outlier N/F of first or last file of run, not marginal, FT electron",
     "MarginalOutlierFT: marginal outlier N/F, within one standard deviation of cut line, FT electron",
     "LossFT: N/F diminished within FT for several consecutive files",
+    "BSAWrong: Beam Spin Asymmetry is the wrong sign",
+    "BSAUnknown: Beam Spin Asymmetry is unknown, likely because of low statistics",
+    "TSAWrong: Target Spin Asymmetry is the wrong sign",
+    "TSAUnknown: Target Spin Asymmetry is unknown, likely because of low statistics",
+    "DSAWrong: Double Spin Asymmetry is the wrong sign",
+    "DSAUnknown: Double Spin Asymmetry is unknown, likely because of low statistics",
+    "ChargeHigh: FC Charge is abnormally high",
+    "ChargeNegative: FC Charge is negative",
+    "ChargeUnknown: FC Charge is unknown; the first and last time bins always have this defect",
+    "PossiblyNoBeam: Both N and F are low, indicating the beam was possibly off",
   ]
 
   // list of bit names and descriptions

@@ -49,6 +49,12 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 1    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary) | 11093 - 11300 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/fall2019/torus+1/pass1/v1/dst/recon`    |
 | 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary) | 11323 - 11571 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst/recon`  |
 
+### Run Group C
+
+| Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status       | Data Files                                     |
+| ---  | ---                                                                                           | ---           | ---          | ---                                            |
+| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16771 | _Up-to-Date_ | `/cache/clas12/rg-c/production/summer22/pass1` |
+
 ### Run Group F
 
 | Pass | Data Set Name and Timelines Link | Run Range     | Status  | Data Files                                                                                  |
@@ -86,18 +92,28 @@ The following tables describe the available datasets in the QADB. The columns ar
 * The table below lists the defect bits 
   (Example: `defect=0b11000` has defects `SectorLoss` and `LowLiveTime`)
 
-| Bit | Name                | Description                                                                      |
-| --- | ---                 | ---                                                                              |
-| 0   | `TotalOutlier`      | outlier N/F, but not terminal, marginal, or sector loss, for FD electron         |
-| 1   | `TerminalOutlier`   | outlier N/F of first or last file of run, not marginal, for FD electron          |
-| 2   | `MarginalOutlier`   | marginal outlier N/F, within one standard deviation of cut line, for FD electron |
-| 3   | `SectorLoss`        | N/F diminished within a FD sector for several consecutive files                  |
-| 4   | `LowLiveTime`       | live time < 0.9                                                                  |
-| 5   | `Misc`              | miscellaneous defect, documented as comment                                      |
-| 6   | `TotalOutlierFT`    | outlier N/F, but not terminal, marginal, or `LossFT`, FT electron                |
-| 7   | `TerminalOutlierFT` | outlier N/F of first or last file of run, not marginal, FT electron              |
-| 8   | `MarginalOutlierFT` | marginal outlier N/F, within one standard deviation of cut line, FT electron     |
-| 9   | `LossFT`            | N/F diminished within FT for several consecutive files                           |
+| Bit | Name                | Description                                                                           |
+| --- | ---                 | ---                                                                                   |
+| 0   | `TotalOutlier`      | outlier N/F, but not terminal, marginal, or sector loss, for FD electron              |
+| 1   | `TerminalOutlier`   | outlier N/F of first or last file of run, not marginal, for FD electron               |
+| 2   | `MarginalOutlier`   | marginal outlier N/F, within one standard deviation of cut line, for FD electron      |
+| 3   | `SectorLoss`        | N/F diminished within a FD sector for several consecutive files                       |
+| 4   | `LowLiveTime`       | live time < 0.9                                                                       |
+| 5   | `Misc`              | miscellaneous defect, documented as comment                                           |
+| 6   | `TotalOutlierFT`    | outlier N/F, but not terminal, marginal, or `LossFT`, FT electron                     |
+| 7   | `TerminalOutlierFT` | outlier N/F of first or last file of run, not marginal, FT electron                   |
+| 8   | `MarginalOutlierFT` | marginal outlier N/F, within one standard deviation of cut line, FT electron          |
+| 9   | `LossFT`            | N/F diminished within FT for several consecutive files                                |
+| 10  | `BSAWrong`          | Beam Spin Asymmetry is the wrong sign                                                 |
+| 11  | `BSAUnknown`        | Beam Spin Asymmetry is unknown, likely because of low statistics                      |
+| 12  | `TSAWrong`          | __[not yet used]__ Target Spin Asymmetry is the wrong sign                            |
+| 13  | `TSAUnknown`        | __[not yet used]__ Target Spin Asymmetry is unknown, likely because of low statistics |
+| 14  | `DSAWrong`          | __[not yet used]__ Double Spin Asymmetry is the wrong sign                            |
+| 15  | `DSAUnknown`        | __[not yet used]__ Double Spin Asymmetry is unknown, likely because of low statistics |
+| 16  | `ChargeHigh`        | FC Charge is abnormally high                                                          |
+| 17  | `ChargeNegative`    | FC Charge is negative                                                                 |
+| 18  | `ChargeUnknown`     | FC Charge is unknown; the first and last time bins always have this defect            |
+| 19  | `PossiblyNoBeam`    | Both N and F are low, indicating the beam was possibly off                            |
 
 <a name="access"></a>
 # Database Access
