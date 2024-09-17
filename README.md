@@ -145,7 +145,7 @@ Then:
 
 > [!IMPORTANT]
 > C++ access needs [`rapidjson`](https://github.com/Tencent/rapidjson/), provided as a
-> submodule of this repository in [`srcC/rapidjson`](/srcC/rapidjson). If this directory
+> submodule of this repository in `srcC/rapidjson`. If this directory
 > is empty, you can clone the submodule by running
 > ```bash
 > git submodule update --init --recursive
