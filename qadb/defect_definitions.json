@@ -2,13 +2,13 @@
   {
     "bit_number": 0,
     "bit_name": "TotalOutlier",
-    "description": "Outlier FD electron N/F, but not terminal, marginal, or sector loss",
+    "description": "Outlier FD electron N/F, but not `TerminalOutlier` or `MarginalOutlier`",
     "documentation": ""
   },
   {
     "bit_number": 1,
     "bit_name": "TerminalOutlier",
-    "description": "Outlier FD electron N/F of first or last QA bin of run, not marginal",
+    "description": "Outlier FD electron N/F of first or last QA bin of run",
     "documentation": ""
   },
   {
@@ -21,7 +21,7 @@
     "bit_number": 3,
     "bit_name": "SectorLoss",
     "description": "FD electron N/F diminished for several consecutive QA bins",
-    "documentation": "For older datasets (RG-A,B,K,M pass 1), this bit replaced the assignment of TotalOutlier, TerminalOutlier, and MarginalOutlier; newer datasets only add the SectorLoss bit and do not remove the outlier bits."
+    "documentation": "For older datasets (RG-A,B,K,M pass 1), this bit _replaced_ the assignment of `TotalOutlier`, `TerminalOutlier`, and `MarginalOutlier`; newer datasets only add the `SectorLoss` bit and do not remove the outlier bits."
   },
   {
     "bit_number": 4,
@@ -38,62 +38,62 @@
   {
     "bit_number": 6,
     "bit_name": "TotalOutlierFT",
-    "description": "Outlier FT electron N/F, but not terminal, marginal, or `LossFT`",
-    "documentation": "cf. TotalOutlier."
+    "description": "Outlier FT electron N/F, but not `TerminalOutlierFT` or `MarginalOutlierFT`",
+    "documentation": "_cf_. `TotalOutlier`."
   },
   {
     "bit_number": 7,
     "bit_name": "TerminalOutlierFT",
-    "description": "Outlier FT electron N/F of first or last QA bin of run, not marginal",
-    "documentation": "cf. TerminalOutlier."
+    "description": "Outlier FT electron N/F of first or last QA bin of run",
+    "documentation": "_cf_. `TerminalOutlier`."
   },
   {
     "bit_number": 8,
     "bit_name": "MarginalOutlierFT",
     "description": "Marginal FT electron outlier N/F, within one standard deviation of cut line",
-    "documentation": "cf. MarginalOutlier."
+    "documentation": "_cf_. `MarginalOutlier`."
   },
   {
     "bit_number": 9,
     "bit_name": "LossFT",
     "description": "FT electron N/F diminished within FT for several consecutive QA bins",
-    "documentation": "cf. SectorLoss."
+    "documentation": "_cf_. `SectorLoss`."
   },
   {
     "bit_number": 10,
     "bit_name": "BSAWrong",
     "description": "Beam Spin Asymmetry is the wrong sign",
-    "documentation": "This bit is assigned per run. The asymmetry is significant, but the opposite sign than expected; analyzers must therefore flip the helicity sign."
+    "documentation": "This bit is assigned per run. The asymmetry is significant, but the opposite sign than expected; analyzers must therefore _flip_ the helicity sign."
   },
   {
     "bit_number": 11,
     "bit_name": "BSAUnknown",
     "description": "Beam Spin Asymmetry is unknown, likely because of low statistics",
-    "documentation": "This bit is assigned per run. We do not have enough statistics to determine if the helicity sign is correct."
+    "documentation": "This bit is assigned per run. There are not enough data to determine if the helicity sign is correct for this run."
   },
   {
     "bit_number": 12,
     "bit_name": "TSAWrong",
     "description": "Target Spin Asymmetry is the wrong sign",
-    "documentation": "Not yet used."
+    "documentation": "__Not yet used.__"
   },
   {
     "bit_number": 13,
     "bit_name": "TSAUnknown",
     "description": "Target Spin Asymmetry is unknown, likely because of low statistics",
-    "documentation": "Not yet used."
+    "documentation": "__Not yet used.__"
   },
   {
     "bit_number": 14,
     "bit_name": "DSAWrong",
     "description": "Double Spin Asymmetry is the wrong sign",
-    "documentation": "Not yet used."
+    "documentation": "__Not yet used.__"
   },
   {
     "bit_number": 15,
     "bit_name": "DSAUnknown",
     "description": "Double Spin Asymmetry is unknown, likely because of low statistics",
-    "documentation": "Not yet used."
+    "documentation": "__Not yet used.__"
   },
   {
     "bit_number": 16,
@@ -110,8 +110,8 @@
   {
     "bit_number": 18,
     "bit_name": "ChargeUnknown",
-    "description": "FC Charge is unknown; the first and last time bins always have this defect",
-    "documentation": "QA bin boundaries are at scaler charge readouts. The first QA bin, before any readout, has no initial charge; the last QA bin, after all scaler readouts, has no final charge. Therefore, the first and last QA bins have an unknown, but likely very small charge accumulation."
+    "description": "FC Charge is unknown; the first and last time bins _always_ have this defect",
+    "documentation": "QA bin boundaries are at scaler charge readouts. The first QA bin, before any readout, has no initial charge; the last QA bin, after all scaler readouts, has no final charge. Therefore, the first and last QA bins have an unknown, but likely _very small_ charge accumulation."
   },
   {
     "bit_number": 19,

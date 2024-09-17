@@ -93,28 +93,30 @@ The following tables describe the available datasets in the QADB. The columns ar
 
 ### Table of Defect Bits
 
-| Bit | Name                | Description                                                                           |
-| --- | ---                 | ---                                                                                   |
-| 0   | `TotalOutlier`      | outlier N/F, but not terminal, marginal, or sector loss, for FD electron              |
-| 1   | `TerminalOutlier`   | outlier N/F of first or last QA bin of run, not marginal, for FD electron             |
-| 2   | `MarginalOutlier`   | marginal outlier N/F, within one standard deviation of cut line, for FD electron      |
-| 3   | `SectorLoss`        | N/F diminished within a FD sector for several consecutive QA bins                     |
-| 4   | `LowLiveTime`       | live time < 0.9                                                                       |
-| 5   | `Misc`              | miscellaneous defect, documented as comment                                           |
-| 6   | `TotalOutlierFT`    | outlier N/F, but not terminal, marginal, or `LossFT`, FT electron                     |
-| 7   | `TerminalOutlierFT` | outlier N/F of first or last QA bin of run, not marginal, FT electron                 |
-| 8   | `MarginalOutlierFT` | marginal outlier N/F, within one standard deviation of cut line, FT electron          |
-| 9   | `LossFT`            | N/F diminished within FT for several consecutive QA bins                              |
-| 10  | `BSAWrong`          | Beam Spin Asymmetry is the wrong sign                                                 |
-| 11  | `BSAUnknown`        | Beam Spin Asymmetry is unknown, likely because of low statistics                      |
-| 12  | `TSAWrong`          | __[not yet used]__ Target Spin Asymmetry is the wrong sign                            |
-| 13  | `TSAUnknown`        | __[not yet used]__ Target Spin Asymmetry is unknown, likely because of low statistics |
-| 14  | `DSAWrong`          | __[not yet used]__ Double Spin Asymmetry is the wrong sign                            |
-| 15  | `DSAUnknown`        | __[not yet used]__ Double Spin Asymmetry is unknown, likely because of low statistics |
-| 16  | `ChargeHigh`        | FC Charge is abnormally high                                                          |
-| 17  | `ChargeNegative`    | FC Charge is negative                                                                 |
-| 18  | `ChargeUnknown`     | FC Charge is unknown; the first and last time bins always have this defect            |
-| 19  | `PossiblyNoBeam`    | Both N and F are low, indicating the beam was possibly off                            |
+
+| Bit | Name | Description | Additional Notes |
+| --- | --- | --- | --- |
+| 0 | `TotalOutlier` | Outlier FD electron N/F, but not `TerminalOutlier` or `MarginalOutlier` |  |
+| 1 | `TerminalOutlier` | Outlier FD electron N/F of first or last QA bin of run |  |
+| 2 | `MarginalOutlier` | Marginal FD electron outlier N/F, within one standard deviation of cut line |  |
+| 3 | `SectorLoss` | FD electron N/F diminished for several consecutive QA bins | For older datasets (RG-A,B,K,M pass 1), this bit _replaced_ the assignment of `TotalOutlier`, `TerminalOutlier`, and `MarginalOutlier`; newer datasets only add the `SectorLoss` bit and do not remove the outlier bits. |
+| 4 | `LowLiveTime` | Live time < 0.9 | This assignment of this bit may be correlated with a low fraction of events with a defined (nonzero) helicity. |
+| 5 | `Misc` | Miscellaneous defect, documented as comment | This bit is often assigned to all QA bins within a run, but in some cases, may only be assigned to the relevant QA bins. The analyzer must decide whether data assigned with the Misc bit should be excluded from their analysis; the comment is provided for this purpose. Analyzers are also encouraged to check the Hall B log book for further details. |
+| 6 | `TotalOutlierFT` | Outlier FT electron N/F, but not `TerminalOutlierFT` or `MarginalOutlierFT` | _cf_. `TotalOutlier`. |
+| 7 | `TerminalOutlierFT` | Outlier FT electron N/F of first or last QA bin of run | _cf_. `TerminalOutlier`. |
+| 8 | `MarginalOutlierFT` | Marginal FT electron outlier N/F, within one standard deviation of cut line | _cf_. `MarginalOutlier`. |
+| 9 | `LossFT` | FT electron N/F diminished within FT for several consecutive QA bins | _cf_. `SectorLoss`. |
+| 10 | `BSAWrong` | Beam Spin Asymmetry is the wrong sign | This bit is assigned per run. The asymmetry is significant, but the opposite sign than expected; analyzers must therefore _flip_ the helicity sign. |
+| 11 | `BSAUnknown` | Beam Spin Asymmetry is unknown, likely because of low statistics | This bit is assigned per run. There are not enough data to determine if the helicity sign is correct for this run. |
+| 12 | `TSAWrong` | Target Spin Asymmetry is the wrong sign | __Not yet used.__ |
+| 13 | `TSAUnknown` | Target Spin Asymmetry is unknown, likely because of low statistics | __Not yet used.__ |
+| 14 | `DSAWrong` | Double Spin Asymmetry is the wrong sign | __Not yet used.__ |
+| 15 | `DSAUnknown` | Double Spin Asymmetry is unknown, likely because of low statistics | __Not yet used.__ |
+| 16 | `ChargeHigh` | FC Charge is abnormally high | NOTE: the assignment criteria of this bit is still under study. |
+| 17 | `ChargeNegative` | FC Charge is negative | The FC charge is calculated from the charge readout at QA bin boundaries. Normally the later charge readout is higher than the earlier; this bit is assigned when the opposite happens. |
+| 18 | `ChargeUnknown` | FC Charge is unknown; the first and last time bins _always_ have this defect | QA bin boundaries are at scaler charge readouts. The first QA bin, before any readout, has no initial charge; the last QA bin, after all scaler readouts, has no final charge. Therefore, the first and last QA bins have an unknown, but likely _very small_ charge accumulation. |
+| 19 | `PossiblyNoBeam` | Both N and F are low, indicating the beam was possibly off | NOTE: the assignment criteria of this bit is still under study. |
+<!-- NOTE: do not update this table manually; instead, use `bin/makeDefectMarkdown.rb` -->
 
 <a name="access"></a>
 # Database Access
@@ -273,8 +275,8 @@ Documentation for QADB maintenance and revision
     * `srcC/include/QADB.h`
     * `srcC/examples/dumpQADB.cpp` (optional)
   * Documentation:
-    * bits table in `README.md`
-    * `qadb/defect_definitions.json`
+    * `qadb/defect_definitions.json`, then use `bin/makeDefectMarkdown.rb` to generate
+      Markdown table for `README.md`
 
 
 <a name="contributions"></a>
