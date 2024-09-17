@@ -143,7 +143,8 @@ The following tables describe the available datasets in the QADB. The columns ar
       * `defect`: not `gold` or `silver`
     * `text/listOfGoldenFiles.txt`: list of files with no defects
     * `text/summary.txt`: summary table, where for each file the QA criteria result
-      (`Golden`, `OkForAsymmetry`, etc.) is provided
+      (`Golden`, `OkForAsymmetry`, etc.) is provided, but note that these QA criteria
+      are deprecated, in favor users choosing their own criteria
   * it is also possible to produce `latex` tables; see
     `util/makeLatexTables.sh` and `util/makeLatexTables2.sh`
 
