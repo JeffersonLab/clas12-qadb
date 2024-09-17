@@ -104,6 +104,16 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 7   | `TerminalOutlierFT` | outlier N/F of first or last file of run, not marginal, FT electron              |
 | 8   | `MarginalOutlierFT` | marginal outlier N/F, within one standard deviation of cut line, FT electron     |
 | 9   | `LossFT`            | N/F diminished within FT for several consecutive files                           |
+| 10  | `BSAWrong`          | Beam Spin Asymmetry is the wrong sign                                            |
+| 11  | `BSAUnknown`        | Beam Spin Asymmetry is unknown, likely because of low statistics                 |
+| 12  | `TSAWrong`          | Target Spin Asymmetry is the wrong sign                                          |
+| 13  | `TSAUnknown`        | Target Spin Asymmetry is unknown, likely because of low statistics               |
+| 14  | `DSAWrong`          | Double Spin Asymmetry is the wrong sign                                          |
+| 15  | `DSAUnknown`        | Double Spin Asymmetry is unknown, likely because of low statistics               |
+| 16  | `ChargeHigh`        | FC Charge is abnormally high                                                     |
+| 17  | `ChargeNegative`    | FC Charge is negative                                                            |
+| 18  | `ChargeUnknown`     | FC Charge is unknown; the first and last time bins always have this defect       |
+| 19  | `PossiblyNoBeam`    | Both N and F are low, indicating the beam was possibly off                       |
 
 <a name="access"></a>
 # Database Access
