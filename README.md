@@ -29,7 +29,7 @@ The following tables describe the available datasets in the QADB. The columns ar
   - _Up-to-Date_: this is the most recent Pass of these data, and the QADB has been updated for it
   - _Deprecated_: a newer Pass exists for these data, but the QADB for this version is still preserved
   - _TO DO_: the Pass for these data exist, but the QADB has not yet been updated for it
-- **Data files**: the DST files used for the QA
+- **Data files**: the input data files used for the QA
 
 ### Run Group A
 
@@ -80,30 +80,34 @@ The following tables describe the available datasets in the QADB. The columns ar
 
 ## Defect Bit Definitions
 
-* QA information is stored for each DST file, in the form of "defect bits"
+* QA information is stored for "QA bin", in the form of "defect bits"
   * the user needs only the run number and event number to query the QADB
-  * queries will find the DST file associated with the event, and are only
+  * queries will find the QA bin associated with the event, and are only
     performed "as needed"
   * full dumps of the QADB are also possible, for browsing
+* A QA bin is:
+  * the set of events between a fixed number of scaler readouts (roughly a time bin, although
+    there are fluctuations in a bin's duration)
+  * for older QADBs, Run Groups A, B, K, and M of Pass 1 data, the QA bins were DST 5-files
 * N/F is defined as the electron yield N, normalized by the Faraday Cup charge F; the
   electron yield is for Forward Detector electrons with `status<0`, unless specified otherwise
   * The QA checks for outliers of N/F, along with several other miscellaneous criteria
-  * The term "golden" means that a file has ***no*** defects
-* The table below lists the defect bits 
+  * The term "golden" means that a QA bin has ***no*** defects
+* The table below lists the defect bits
   (Example: `defect=0b11000` has defects `SectorLoss` and `LowLiveTime`)
 
 | Bit | Name                | Description                                                                           |
 | --- | ---                 | ---                                                                                   |
 | 0   | `TotalOutlier`      | outlier N/F, but not terminal, marginal, or sector loss, for FD electron              |
-| 1   | `TerminalOutlier`   | outlier N/F of first or last file of run, not marginal, for FD electron               |
+| 1   | `TerminalOutlier`   | outlier N/F of first or last QA bin of run, not marginal, for FD electron             |
 | 2   | `MarginalOutlier`   | marginal outlier N/F, within one standard deviation of cut line, for FD electron      |
-| 3   | `SectorLoss`        | N/F diminished within a FD sector for several consecutive files                       |
+| 3   | `SectorLoss`        | N/F diminished within a FD sector for several consecutive QA bins                     |
 | 4   | `LowLiveTime`       | live time < 0.9                                                                       |
 | 5   | `Misc`              | miscellaneous defect, documented as comment                                           |
 | 6   | `TotalOutlierFT`    | outlier N/F, but not terminal, marginal, or `LossFT`, FT electron                     |
-| 7   | `TerminalOutlierFT` | outlier N/F of first or last file of run, not marginal, FT electron                   |
+| 7   | `TerminalOutlierFT` | outlier N/F of first or last QA bin of run, not marginal, FT electron                 |
 | 8   | `MarginalOutlierFT` | marginal outlier N/F, within one standard deviation of cut line, FT electron          |
-| 9   | `LossFT`            | N/F diminished within FT for several consecutive files                                |
+| 9   | `LossFT`            | N/F diminished within FT for several consecutive QA bins                              |
 | 10  | `BSAWrong`          | Beam Spin Asymmetry is the wrong sign                                                 |
 | 11  | `BSAUnknown`        | Beam Spin Asymmetry is unknown, likely because of low statistics                      |
 | 12  | `TSAWrong`          | __[not yet used]__ Target Spin Asymmetry is the wrong sign                            |
@@ -131,18 +135,20 @@ The following tables describe the available datasets in the QADB. The columns ar
         database format; future development plans include considering more
         efficient formats, such as `SQLlite`
   * there are also some text files stored in `text/`:
+    * **NOTE**: since both `OkForAsymmetry` and `Golden` criteria sets have been deprecated,
+      these text files will no longer be maintained; they are still provided, however
     * `text/listOfGoldenRuns.txt`: list of runs, each classified as one of the following:
-      * `gold`: all files have no defects. Note that this is **very strict**,
-        so not many runs are `gold`, since most runs have at least one file
-        with a defect; in practice it is better to apply QA cuts per file,
+      * `gold`: all QA bins have no defects. Note that this is **very strict**,
+        so not many runs are `gold`, since most runs have at least one QA bin
+        with a defect; in practice it is better to apply QA cuts per QA bin,
         using the QADB software
-      * `silver`: the only defects are terminal outliers (first or last file is
+      * `silver`: the only defects are terminal outliers (first or last QA bin is
         an outlier); note that `gold` runs are, by definition, also `silver`.
         This is also **very strict**: so far, only about half the runs are
         `silver`
       * `defect`: not `gold` or `silver`
-    * `text/listOfGoldenFiles.txt`: list of files with no defects
-    * `text/summary.txt`: summary table, where for each file the QA criteria result
+    * `text/listOfGoldenFiles.txt`: list of QA bins with no defects
+    * `text/summary.txt`: summary table, where for each QA bin the QA criteria result
       (`Golden`, `OkForAsymmetry`, etc.) is provided, but note that these QA criteria
       are deprecated, in favor users choosing their own criteria
   * it is also possible to produce `latex` tables; see
@@ -178,9 +184,9 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
 
 ## Table files
 Human-readable format of QA result, stored in `qadb/*/*/qaTree.json.table`
-* each run begins with the keyword `RUN:`; lines below are for each of that 
-  run's file and its QA result, with the following syntax:
-  * `run number` `file number`  `defect bits` `comment`
+* each run begins with the keyword `RUN:`; lines below are for each of that
+  run's QA bins and its QA result, with the following syntax:
+  * `run number` `bin number`  `defect bits` `comment`
   * the `defect bits` are listed by name, and the numbers in the `[brackets]`
     indicate which sectors have that defect
   * if a comment is included, it will be printed after the defect bits, following the
@@ -194,21 +200,21 @@ Human-readable format of QA result, stored in `qadb/*/*/qaTree.json.table`
 * the format is a tree (nested maps):
 ```
 qaTree.json ─┬─ run number 1
-             ├─ run number 2 ─┬─ file number 1
-             │                ├─ file number 2
-             │                ├─ file number 3 ─┬─ evnumMin
-             │                │                 ├─ evnumMax
-             │                │                 ├─ sectorDefects
-             │                │                 ├─ defect
-             │                │                 └─ comment
-             │                ├─ file number 4
-             │                └─ file number 5
+             ├─ run number 2 ─┬─ bin number 1
+             │                ├─ bin number 2
+             │                ├─ bin number 3 ─┬─ evnumMin
+             │                │                ├─ evnumMax
+             │                │                ├─ sectorDefects
+             │                │                ├─ defect
+             │                │                └─ comment
+             │                ├─ bin number 4
+             │                └─ bin number 5
              ├─ run number 3
              └─ run number 4
 ```
-* for each file, the following variables are defined:
+* for each bin, the following variables are defined:
   * `evnumMin` and `evnumMax` represent the range of event numbers associated
-    to this file; use this to map a particular event number to a file number
+    to this bin; use this to map a particular event number to a bin number
   * `sectorDefects` is a map with sector number keys paired with lists of associated
     defect bits
   * `defect` is a decimal representation of the `OR` of each sector's defect bits, for
@@ -220,47 +226,48 @@ qaTree.json ─┬─ run number 1
   a similar format:
 ```
 chargeTree.json ─┬─ run number 1
-                 ├─ run number 2 ─┬─ file number 1
-                 │                ├─ file number 2
-                 │                ├─ file number 3 ─┬─ fcChargeMin
-                 │                │                 ├─ fcChargeMax
-                 │                │                 ├─ ufcChargeMin
-                 │                │                 ├─ ufcChargeMax
-                 │                │                 └─ nElec ─┬─ sector 1
-                 │                │                           ├─ sector 2
-                 │                │                           ├─ sector 3
-                 │                │                           ├─ sector 4
-                 │                │                           ├─ sector 5
-                 │                │                           └─ sector 6
-                 │                ├─ file number 4
-                 │                └─ file number 5
+                 ├─ run number 2 ─┬─ bin number 1
+                 │                ├─ bin number 2
+                 │                ├─ bin number 3 ─┬─ fcChargeMin
+                 │                │                ├─ fcChargeMax
+                 │                │                ├─ ufcChargeMin
+                 │                │                ├─ ufcChargeMax
+                 │                │                └─ nElec ─┬─ sector 1
+                 │                │                          ├─ sector 2
+                 │                │                          ├─ sector 3
+                 │                │                          ├─ sector 4
+                 │                │                          ├─ sector 5
+                 │                │                          └─ sector 6
+                 │                ├─ bin number 4
+                 │                └─ bin number 5
                  ├─ run number 3
                  └─ run number 4
 ```
-* for each file, the following variables are defined:
+* for each bin, the following variables are defined:
   * `fcChargeMin` and `fcChargeMax` represent the minimum and maximum DAQ-gated
     Faraday cup charge, in nC
   * `ufcChargeMin` and `ufcChargeMax` represent the minimum and maximum FC charge,
     but not gated by the DAQ
   * the difference between the maximum and minimum charge is the accumulated charge
-    in that file
+    in that bin
   * `nElec` lists the number of electrons from each sector
 
 
 <a name="charge"></a>
 # Faraday Cup Charge Access
-* the charge is stored in the QADB for each DST file, so that it is possible to
+* the charge is stored in the QADB for each QA bin, so that it is possible to
   determine the amount of accumulated charge for data that satisfy your
   specified QA criteria.
 * see `src/examples/chargeSum.groovy` or `srcC/examples/chargeSum.cpp` for
   usage example in an analysis event loop
   * call `QADB::AccumulateCharge()` within your event loop, after your QA cuts
     are satisfied; the QADB instance will keep track of the accumulated charge
-    you analyzed (accumulation performed per DST file)
+    you analyzed (accumulation performed per QA bin)
   * at the end of your event loop, the total accumulated charge you analyzed is
     given by `QADB::getAccumulatedCharge()`
-* note: for Pass 1 QA results, we find some evidence that the charge from file to file may slightly overlap,
-  or there may be gaps in the accumulated charge between each file; the former leads to
+* note: for Pass 1 QA results for Run Groups A, B, K, and M, we find some
+  evidence that the charge from bin to bin may slightly overlap,
+  or there may be gaps in the accumulated charge between each bin; the former leads to
   a slight over-counting and the latter leads to a slight under-counting
   * for RGK, we find the correction to this issue would be very small
     (no more than the order of 0.1%)
@@ -286,7 +293,7 @@ Documentation for QADB maintenance and revision
   * run `source environ.sh`
   * run `bin/makeTables.sh`
   * run `bin/makeTextFiles.sh`
-  * ~~update customized QA criteria sets, such as `OkForAsymmetry`~~
+  * ~~update customized QA criteria sets, such as `OkForAsymmetry`~~ this function is no longer maintained
   * update the above table of data sets
   * use `git status` and `git diff` to review changes, then add and commit to
     git, and push to the remote branch

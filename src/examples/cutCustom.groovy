@@ -23,7 +23,7 @@ QADB qa = new QADB()
 
 // custom QA cut definition
 // - decide which defects you want to check for; an event will not pass
-//   the QA cut if the associated file has any of the specified defects
+//   the QA cut if the associated bin has any of the specified defects
 // - set to true to check the bit
 // - set to false to ignore the bit (by default, all bits are ignored)
 qa.checkForDefect('TotalOutlier',false)

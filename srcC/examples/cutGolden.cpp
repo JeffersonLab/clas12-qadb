@@ -1,5 +1,5 @@
-// demonstrates how to select events from golden files only, which 
-// are files that have no defect
+// demonstrates how to select events from golden bins only, which 
+// are bins that have no defect
 // - you must specify a hipo file as an argument
 
 #include <iostream>

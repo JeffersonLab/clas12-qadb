@@ -1,7 +1,7 @@
 // dump QADB data for a specified run; this demonstrates access to the various
 // data stored in QADB
 // - this program does not require a HIPO file or clas12root; it only loops
-//   through the QADB itself, performing lookup by file number
+//   through the QADB itself, performing lookup by bin number
 // - you can specify a run number as an argument
 
 // imports
@@ -23,26 +23,26 @@ QADB qa = new QADB()
 //QADB qa = new QADB(5000,5500);
 
 
-// loop through files
+// loop through QA bins
 int evnum
-for(int filenum=0; filenum<=qa.getMaxBinnum(runnum); filenum++) {
+for(int binnum=0; binnum<=qa.getMaxBinnum(runnum); binnum++) {
   // skip non-existent bin numbers (required since old QADBs' bin numbers are multiples of 5)
-  if(!qa.hasBinnum(runnum, filenum)) { continue }
+  if(!qa.hasBinnum(runnum, binnum)) { continue }
   sep("=",50)
-  println "FILE NUMBER $filenum"
+  println "BIN NUMBER $binnum"
 
-  // perform the lookup, by filenum
-  if(qa.queryByBinnum(runnum,filenum)) {
+  // perform the lookup, by binnum
+  if(qa.queryByBinnum(runnum,binnum)) {
 
-    // we need an event number within this file, to pass to QA criteria
+    // we need an event number within this QA bin, to pass to QA criteria
     // checking methods, such as Golden; no additional Query will be called
     evnum = qa.getEvnumMin();
 
-    // print whether this file passes some QA cuts
+    // print whether this bin passes some QA cuts
     if(qa.golden(runnum,evnum)) {
-      println "- GOLDEN FILE!"
+      println "- GOLDEN BIN!"
     } else {
-      println "- not golden: file has defects"
+      println "- not golden: bin has defects"
       print (qa.OkForAsymmetry(runnum,evnum) ? "- OK" : "- NOT OK")
       println " for asymmetry analysis"
     }
