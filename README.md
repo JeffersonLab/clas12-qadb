@@ -80,21 +80,18 @@ The following tables describe the available datasets in the QADB. The columns ar
 
 ## Defect Bit Definitions
 
-* QA information is stored for "QA bin", in the form of "defect bits"
+* QA information is stored for each **QA bin**, in the form of **defect bits**
   * the user needs only the run number and event number to query the QADB
-  * queries will find the QA bin associated with the event, and are only
-    performed "as needed"
-  * full dumps of the QADB are also possible, for browsing
-* A QA bin is:
+* A **QA bin** is:
   * the set of events between a fixed number of scaler readouts (roughly a time bin, although
     there are fluctuations in a bin's duration)
   * for older QADBs, Run Groups A, B, K, and M of Pass 1 data, the QA bins were DST 5-files
-* N/F is defined as the electron yield N, normalized by the Faraday Cup charge F; the
-  electron yield is for Forward Detector electrons with `status<0`, unless specified otherwise
-  * The QA checks for outliers of N/F, along with several other miscellaneous criteria
-  * The term "golden" means that a QA bin has ***no*** defects
-* The table below lists the defect bits
-  (Example: `defect=0b11000` has defects `SectorLoss` and `LowLiveTime`)
+* A **defect bit** is:
+  * a bit (of a binary number) that is `1` if the QA bin exhibits the corresponding defect or `0` if not
+  * each defect bit corresponds to a different defect, as shown in the table below
+  * many defects check the value of N/F, defined as the trigger electron yield N, normalized by the DAQ-gated Faraday Cup charge F
+
+### Table of Defect Bits
 
 | Bit | Name                | Description                                                                           |
 | --- | ---                 | ---                                                                                   |
@@ -122,62 +119,35 @@ The following tables describe the available datasets in the QADB. The columns ar
 <a name="access"></a>
 # Database Access
 
+You may access the QADB in many ways:
+
 ## Text Access
-  * this only provides human-readable access; see below for access with
-    common programming languages and software used at CLAS
-    * using the Groovy or C++ access is the preferred method to apply QA cuts
-  * the human-readable tables are stored in `qadb/*/qaTree.json.table`; see
-    the section *QA data storage, Table files* below for details for how
-    to read these files
-  * QADB JSON files are stored in `qadb/*/qaTree.json`
-    * the JSON files are the QADB files
-      * for now we use JSON out of convenience, although it's not a proper
-        database format; future development plans include considering more
-        efficient formats, such as `SQLlite`
-  * there are also some text files stored in `text/`:
-    * **NOTE**: since both `OkForAsymmetry` and `Golden` criteria sets have been deprecated,
-      these text files will no longer be maintained; they are still provided, however
-    * `text/listOfGoldenRuns.txt`: list of runs, each classified as one of the following:
-      * `gold`: all QA bins have no defects. Note that this is **very strict**,
-        so not many runs are `gold`, since most runs have at least one QA bin
-        with a defect; in practice it is better to apply QA cuts per QA bin,
-        using the QADB software
-      * `silver`: the only defects are terminal outliers (first or last QA bin is
-        an outlier); note that `gold` runs are, by definition, also `silver`.
-        This is also **very strict**: so far, only about half the runs are
-        `silver`
-      * `defect`: not `gold` or `silver`
-    * `text/listOfGoldenFiles.txt`: list of QA bins with no defects
-    * `text/summary.txt`: summary table, where for each QA bin the QA criteria result
-      (`Golden`, `OkForAsymmetry`, etc.) is provided, but note that these QA criteria
-      are deprecated, in favor users choosing their own criteria
-  * it is also possible to produce `latex` tables; see
-    `util/makeLatexTables.sh` and `util/makeLatexTables2.sh`
+* human-readable tables are stored in `qadb/*/qaTree.json.table`; see
+  the section *QA data storage, Table files* below for details for how
+  to read these files
+* QADB JSON files are stored in `qadb/*/qaTree.json`
+* there are also some text files stored in `text/`, but they are no longer maintained
 
 ## Software Access
 
-Classes in both C++ and Groovy are provided, for access to the QADB within analysis code
+Classes in both C++ and Groovy are provided, for access to the QADB within analysis code.
+In either case, you need environment variables; if you are using an `ifarm` build, they
+have already been set for you, otherwise:
+```bash
+source environ.sh   # for bash, zsh
+source environ.csh  # for csh, tcsh
+```
+Then:
+- for Groovy, follow [`src/README.md`](/src/README.md)
+- for C++, follow [`srcC/README.md`](/srcC/README.md)
 
-### Groovy Access
-* first set environment variables by running `source environ.sh`
-  * `bash` is recommended, though if you choose to use `tcsh`, run
-    instead `source environ.csh`
-* then proceed following `src/README.md`
-
-### C++ Access
-* __NOTE:__ [`clas12root`](https://github.com/JeffersonLab/clas12root) now provides
-  access to the QADB
-* needs [`rapidjson`](https://github.com/Tencent/rapidjson/) library; 
-  it is a submodule of this repository and can be obtained by
-  ```
-  git clone --recurse-submodules https://github.com/JeffersonLab/clas12-qadb.git
-  ```
-* first set environment variables by running `source environ.sh`
-  * alternatively, set environment variable `$QADB` to the path to this
-    `clas12-qadb` repository
-  * `bash` is recommended, though if you choose to use `tcsh`, run
-    instead `source environ.csh`
-* then proceed following `srcC/README.md`
+> [IMPORTANT] C++ access needs [`rapidjson`](https://github.com/Tencent/rapidjson/), provided as a
+> submodule of this repository in [`srcC/rapidjson`](/srcC/rapidjson). If this directory
+> is empty, you can clone the submodule by running
+> ```bash
+> git submodule update --init --recursive
+> ```
+<!--`-->
 
 <a name="storage"></a>
 # Data Storage
@@ -185,19 +155,17 @@ Classes in both C++ and Groovy are provided, for access to the QADB within analy
 ## Table files
 Human-readable format of QA result, stored in `qadb/*/*/qaTree.json.table`
 * each run begins with the keyword `RUN:`; lines below are for each of that
-  run's QA bins and its QA result, with the following syntax:
-  * `run number` `bin number`  `defect bits` `comment`
-  * the `defect bits` are listed by name, and the numbers in the `[brackets]`
-    indicate which sectors have that defect
-  * if a comment is included, it will be printed after the defect bits, following the
-    `::` delimiter
-* these table files can be generated from the JSON files using `bin/makeTables.sh`
+  run's QA bins and their QA results, with the following syntax:
+  * `run_number bin_number defect_bits :: comment`
+    * defect bits have the following form: `bit_number-defect_name[list_of_sectors]`,
+      and `[all]` means that all 6 sectors have this defect
+    * comments are usually associated with `Misc` defects, but not always
 
 ## JSON files
 
 ### `qaTree.json`
 * The QADB itself is stored as JSON files in `qadb/*/*/qaTree.json`
-* the format is a tree (nested maps):
+* the format is a tree:
 ```
 qaTree.json ─┬─ run number 1
              ├─ run number 2 ─┬─ bin number 1
@@ -214,11 +182,11 @@ qaTree.json ─┬─ run number 1
 ```
 * for each bin, the following variables are defined:
   * `evnumMin` and `evnumMax` represent the range of event numbers associated
-    to this bin; use this to map a particular event number to a bin number
+    with this bin; use this to map a particular event number to a bin number
   * `sectorDefects` is a map with sector number keys paired with lists of associated
     defect bits
   * `defect` is a decimal representation of the `OR` of each sector's defect bits, for
-    example, `11=0b1011` means the `OR` of the defect bit lists is `[0,1,3]`
+    example, `11=0b1011` means that the `OR` of the defect bit lists is `[0,1,3]`
   * `comment` stores an optional comment regarding the QA result
 
 ### `chargeTree.json`
@@ -258,24 +226,22 @@ chargeTree.json ─┬─ run number 1
 * the charge is stored in the QADB for each QA bin, so that it is possible to
   determine the amount of accumulated charge for data that satisfy your
   specified QA criteria.
-* see `src/examples/chargeSum.groovy` or `srcC/examples/chargeSum.cpp` for
-  usage example in an analysis event loop
+* see [`chargeSum.groovy`](/src/examples/chargeSum.groovy) or [`chargeSum.cpp`](/srcC/examples/chargeSum.cpp)
+  for usage example in an analysis event loop; basically:
   * call `QADB::AccumulateCharge()` within your event loop, after your QA cuts
     are satisfied; the QADB instance will keep track of the accumulated charge
     you analyzed (accumulation performed per QA bin)
   * at the end of your event loop, the total accumulated charge you analyzed is
-    given by `QADB::getAccumulatedCharge()`
-* note: for Pass 1 QA results for Run Groups A, B, K, and M, we find some
-  evidence that the charge from bin to bin may slightly overlap,
-  or there may be gaps in the accumulated charge between each bin; the former leads to
-  a slight over-counting and the latter leads to a slight under-counting
-  * for RGK, we find the correction to this issue would be very small
-    (no more than the order of 0.1%)
-  * corrections of this issue are therefore not applied
-  * if you require higher precision of the accumulated charge than what is
-    provided, contact the developers to discuss an implementation of the
-    corrections
+    given by `QADB::GetAccumulatedCharge()`
 
+> [!CAUTION]
+> For Pass 1 QA results for Run Groups A, B, K, and M, we find some
+> evidence that the charge from bin to bin may slightly overlap,
+> or there may be gaps in the accumulated charge between each bin; the former leads to
+> a slight over-counting and the latter leads to a slight under-counting
+> * this issue is why we transitioned from using DST files as QA bins to using
+>   nth scaler readouts as bin boundaries
+> * corrections of this issue to these older QADBs will not be applied
 
 <a name="dev"></a>
 # QADB Management
@@ -283,20 +249,19 @@ chargeTree.json ─┬─ run number 1
 Documentation for QADB maintenance and revision
 
 ## Adding to or revising the QADB
-* the QADB files are produced by [`clasqa` timeline-production code](https://github.com/c-dilks/clasqa);
-  if you have produced QA results for a new data set, and would like to add
+* the QADB files are produced by [`clas12-timeline`](https://github.com/JeffersonLab/clas12-timeline)
+* if you have produced QA results for a new data set, and would like to add
   them to the QADB, or if you would like to update results for an existing
   dataset, follow the following procedure:
-  * `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and
+  * [ ] `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
-  * add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
-  * run `source environ.sh`
-  * run `bin/makeTables.sh`
-  * run `bin/makeTextFiles.sh`
-  * ~~update customized QA criteria sets, such as `OkForAsymmetry`~~ this function is no longer maintained
-  * update the above table of data sets
-  * use `git status` and `git diff` to review changes, then add and commit to
-    git, and push to the remote branch
+  * [ ] add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
+  * [ ] run `source environ.sh` and:
+      * [ ] run `bin/makeTables.sh`
+      * [ ] run `bin/makeTextFiles.sh`
+  * [x] ~~update customized QA criteria sets, such as `OkForAsymmetry`~~ this function is no longer maintained
+  * [ ] update the above table of data sets
+  * [ ] submit a pull request
 
 ## Adding new defect bits
 * defect bits must be added in the following places:
@@ -309,9 +274,12 @@ Documentation for QADB maintenance and revision
     * `srcC/examples/dumpQADB.cpp` (optional)
   * Documentation:
     * bits table in `README.md`
+    * `qadb/defect_definitions.json`
 
 
 <a name="contributions"></a>
 # Contributions
 
-All contributions are welcome, whether to the code, examples, documentation, or the QADB itself. You are welcome to open an issue and/or a pull request. If the maintainer(s) do not respond in a reasonable time, send them an email.
+All contributions are welcome, whether to the code, examples, documentation, or
+the QADB itself. You are welcome to open an issue and/or a pull request. If the
+maintainer(s) do not respond in a reasonable time, send them an email.
