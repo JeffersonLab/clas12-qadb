@@ -63,7 +63,7 @@
     "bit_number": 10,
     "bit_name": "BSAWrong",
     "description": "Beam Spin Asymmetry is the wrong sign",
-    "documentation": "This bit is assigned per run. The asymmetry is significant, but the opposite sign than expected; analyzers must therefore _flip_ the helicity sign."
+    "documentation": "This bit is assigned per run. The asymmetry is significant, but the sign is opposite than expected; analyzers must therefore _flip_ the helicity sign."
   },
   {
     "bit_number": 11,
