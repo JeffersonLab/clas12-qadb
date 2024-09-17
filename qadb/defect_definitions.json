@@ -2,25 +2,25 @@
   {
     "bit_number": 0,
     "bit_name": "TotalOutlier",
-    "description": "Outlier N/F, but not terminal, marginal, or sector loss, for FD electron",
+    "description": "Outlier FD electron N/F, but not terminal, marginal, or sector loss",
     "documentation": ""
   },
   {
     "bit_number": 1,
     "bit_name": "TerminalOutlier",
-    "description": "Outlier N/F of first or last QA bin of run, not marginal, for FD electron",
+    "description": "Outlier FD electron N/F of first or last QA bin of run, not marginal",
     "documentation": ""
   },
   {
     "bit_number": 2,
     "bit_name": "MarginalOutlier",
-    "description": "Marginal outlier N/F, within one standard deviation of cut line, for FD electron",
+    "description": "Marginal FD electron outlier N/F, within one standard deviation of cut line",
     "documentation": ""
   },
   {
     "bit_number": 3,
     "bit_name": "SectorLoss",
-    "description": "N/F diminished within a FD sector for several consecutive QA bin",
+    "description": "FD electron N/F diminished for several consecutive QA bins",
     "documentation": "For older datasets (RG-A,B,K,M pass 1), this bit replaced the assignment of TotalOutlier, TerminalOutlier, and MarginalOutlier; newer datasets only add the SectorLoss bit and do not remove the outlier bits."
   },
   {
@@ -38,25 +38,25 @@
   {
     "bit_number": 6,
     "bit_name": "TotalOutlierFT",
-    "description": "Outlier N/F, but not terminal, marginal, or `LossFT`, FT electron",
+    "description": "Outlier FT electron N/F, but not terminal, marginal, or `LossFT`",
     "documentation": "cf. TotalOutlier."
   },
   {
     "bit_number": 7,
     "bit_name": "TerminalOutlierFT",
-    "description": "Outlier N/F of first or last QA bin of run, not marginal, FT electron",
+    "description": "Outlier FT electron N/F of first or last QA bin of run, not marginal",
     "documentation": "cf. TerminalOutlier."
   },
   {
     "bit_number": 8,
     "bit_name": "MarginalOutlierFT",
-    "description": "Marginal outlier N/F, within one standard deviation of cut line, FT electron",
+    "description": "Marginal FT electron outlier N/F, within one standard deviation of cut line",
     "documentation": "cf. MarginalOutlier."
   },
   {
     "bit_number": 9,
     "bit_name": "LossFT",
-    "description": "N/F diminished within FT for several consecutive QA bins",
+    "description": "FT electron N/F diminished within FT for several consecutive QA bins",
     "documentation": "cf. SectorLoss."
   },
   {
