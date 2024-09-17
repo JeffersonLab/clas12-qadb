@@ -152,7 +152,7 @@ namespace QA {
       // get maximum file number for a given run (useful for QADB validation)
       inline int GetMaxFilenum(int runnum_);
       // aliases
-      inline bool QueryByBinnum(int runnum_, int filenum_);
+      inline bool QueryByBinnum(int runnum_, int binnum_);
       inline int GetMaxBinnum(int runnum_);
 
       // check if this bin number exists
@@ -607,8 +607,8 @@ namespace QA {
     // result of query
     return found;
   };
-  bool QADB::QueryByBinnum(int runnum_, int filenum_) {
-    return QueryByFilenum(runnum_, filenum_);
+  bool QADB::QueryByBinnum(int runnum_, int binnum_) {
+    return QueryByFilenum(runnum_, binnum_);
   }
 
   // ----- return maximum filenum for a given runnum
