@@ -14,7 +14,7 @@ int main(int argc, char ** argv) {
   // to avoid in their analysis, and a list of runs for which the `Misc` defect bit
   // should be ignored
   std::cout << "Loading QADBs..." << std::endl;
-  auto qa = new QA::QADB();
+  auto qa = new QA::QADB("latest");
   qa->CheckForDefect("TotalOutlier");     // these choices match the criteria of `OkForAsymmetry`
   qa->CheckForDefect("TerminalOutlier");
   qa->CheckForDefect("MarginalOutlier");
@@ -36,8 +36,8 @@ int main(int argc, char ** argv) {
 
 
   // instantiate more QADBs, for comparison (`qa` will use the general method)
-  auto qa_deprecated = new QA::QADB();  // will use `OkForAsymmetry`, which is deprecated
-  auto qa_third_party = new QA::QADB(); // a third party, only used for DB traversal
+  auto qa_deprecated = new QA::QADB("latest");  // will use `OkForAsymmetry`, which is deprecated
+  auto qa_third_party = new QA::QADB("latest"); // a third party, only used for DB traversal
   std::cout << "...done" << std::endl;
 
   // compare the QADBs' results: prove the above general method is equivalent to `OkForAsymmetry`

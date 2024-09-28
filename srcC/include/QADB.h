@@ -42,12 +42,27 @@ namespace QA {
       // constructor
       //`````````````````
       //arguments:
+      // - cook: which cook (pass) to use:
+      //   - 'latest': just use the latest available one
+      //   - 'pass1': use pass 1
+      //   - 'pass2': use pass 2
       // - runnumMin and runnumMax: if both are negative (default), then the
       //   entire QADB will be read; you can restrict to a specific range of
       //   runs to limit QADB, which may be more effecient
       // - verbose: if true, print (a lot) more information
-      inline QADB(int runnumMin_=-1, int runnumMax=-1, bool verbose_=false);
+      inline QADB(std::string const& cook, int runnumMin_=-1, int runnumMax=-1, bool verbose_=false);
 
+      inline QADB(int runnumMin_=-1, int runnumMax=-1, bool verbose_=false) {
+        std::cerr << R"(| ERROR: QADB constructor now requires you to specify the cook as the first argument
+|   - use "latest" to use the latest available cook's QADB
+|     - see the QADB documentation for the list of available QADBs
+|     - the latest cook may not yet have a QADB
+|   - use "pass1" to restrict to Pass 1 cooks
+|     - older data may have less QA defect bits, or other issues
+|   - use "pass2" to restrict to Pass 2 data, etc.
+)";
+        throw std::runtime_error("please specify the cook");
+      }
 
       //...............................
       // golden QA cut
@@ -228,7 +243,7 @@ namespace QA {
   //...............
   // constructor
   //```````````````
-  QADB::QADB(int runnumMin_, int runnumMax_, bool verbose_) {
+  QADB::QADB(std::string const& cook, int runnumMin_, int runnumMax_, bool verbose_) {
 
     runnumMin = runnumMin_;
     runnumMax = runnumMax_;
@@ -241,7 +256,12 @@ namespace QA {
       std::cerr << "ERROR: QADB environment variable not set" << std::endl;
       return;
     };
-    dbDirN += "/qadb/latest";
+    dbDirN += "/qadb";
+    std::set<std::string> cooks_avail{"latest", "pass1", "pass2"};
+    if(cooks_avail.find(cook) != cooks_avail.end())
+      dbDirN += std::string("/") + cook;
+    else
+      throw std::runtime_error("cook '" + cook + "' is not available");
     if(verbose) std::cout << "QADB at " << dbDirN << std::endl;
 
     // get list of json files
