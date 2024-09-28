@@ -9,7 +9,7 @@ System.out.println("WARNING: run with `-Xmx4096m`")
 // to avoid in their analysis, and a list of runs for which the `Misc` defect bit
 // should be ignored
 System.out.println('Loading QADBs...\n...1/3...')
-QADB qa = new QADB()
+QADB qa = new QADB("latest")
 qa.checkForDefect('TotalOutlier')     // these choices match the criteria of `OkForAsymmetry`
 qa.checkForDefect('TerminalOutlier')
 qa.checkForDefect('MarginalOutlier')
@@ -32,9 +32,9 @@ qa.checkForDefect('Misc')
 
 // instantiate more QADBs, for comparison (`qa` will use the general method)
 System.out.println('...2/3...')
-QADB qa_deprecated = new QADB()  // will use `OkForAsymmetry`, which is deprecated
+QADB qa_deprecated = new QADB("latest")  // will use `OkForAsymmetry`, which is deprecated
 System.out.println('...3/3...')
-QADB qa_third_party = new QADB() // a third party, only used for DB traversal
+QADB qa_third_party = new QADB("latest") // a third party, only used for DB traversal
 System.out.println('...done')
 
 // compare the QADBs' results: prove the above general method is equivalent to `OkForAsymmetry`

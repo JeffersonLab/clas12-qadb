@@ -53,7 +53,7 @@ namespace QA {
       inline QADB(std::string const& cook, int runnumMin_=-1, int runnumMax=-1, bool verbose_=false);
 
       inline QADB(int runnumMin_=-1, int runnumMax=-1, bool verbose_=false) {
-        std::cerr << R"(| ERROR: QADB constructor now requires you to specify the cook as the first argument
+        std::cerr << R"(| ERROR: the QADB constructor now requires you to specify the cook as the first argument
 |   - use "latest" to use the latest available cook's QADB
 |     - see the QADB documentation for the list of available QADBs
 |     - the latest cook may not yet have a QADB

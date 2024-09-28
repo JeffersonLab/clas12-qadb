@@ -11,19 +11,30 @@ class QADB {
   // constructor
   //``````````````
   // arguments:
+  // - cook: which cook (pass) to use:
+  //   - 'latest': just use the latest available one
+  //   - 'pass1': use pass 1
+  //   - 'pass2': use pass 2
   // - runnumMin and runnumMax: if both are negative (default), then the
   //   entire QADB will be read; you can restrict to a specific range of
   //   runs to limit QADB, which may be more effecient
   // - verbose: if true, print (a lot) more information
-  public QADB(int runnumMin=-1, runnumMax=-1, boolean verbose_=false) {
+  public QADB(String cook, int runnumMin=-1, runnumMax=-1, boolean verbose_=false) {
 
     // setup
     verbose = verbose_
     util = new Tools()
     nbits = util.bitDefinitions.size()
-    dbDirN = System.getenv('QADB') + '/qadb/latest'
+    dbDirN = System.getenv('QADB')
     if(dbDirN==null) {
       System.err << "ERROR: env var QADB not set; source environ.sh\n\n\n"
+      return
+    }
+    dbDirN += '/qadb'
+    if(cook in ["latest", "pass1", "pass2"]) {
+      dbDirN += "/${cook}"
+    else {
+      System.err << "cook '${cook}' is not available\n"
       return
     }
     if(verbose) println("QADB dir = ${dbDirN}")
@@ -110,6 +121,18 @@ class QADB {
     dep_warned_Golden = false
     dep_warned_OkForAsymmetry = false
     allowMiscBitList = []
+  }
+
+  public QADB(int runnumMin=-1, runnumMax=-1, boolean verbose_=false) {
+    System.err.print('''| ERROR: the QADB constructor now requires you to specify the cook as the first argument
+|   - use "latest" to use the latest available cook's QADB
+|     - see the QADB documentation for the list of available QADBs
+|     - the latest cook may not yet have a QADB
+|   - use "pass1" to restrict to Pass 1 cooks
+|     - older data may have less QA defect bits, or other issues
+|   - use "pass2" to restrict to Pass 2 data, etc.
+''')
+    return
   }
 
   //...............................

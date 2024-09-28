@@ -15,7 +15,7 @@ if(args.length==2) {
 }
 else { System.err << "ARGUMENTS: [runLB] [runUB]\n"; return; }
 println "run range: $runLB to $runUB"
-QADB qa = new QADB(runLB,runUB)
+QADB qa = new QADB("latest",runLB,runUB)
 
 
 // loop over runs and files
