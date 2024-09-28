@@ -33,8 +33,8 @@ class QADB {
     dbDirN += '/qadb'
     if(cook in ["latest", "pass1", "pass2"]) {
       dbDirN += "/${cook}"
-    else {
-      System.err << "cook '${cook}' is not available\n"
+    } else {
+      System.err << "\nERROR: cook '${cook}' is not available in the QADB\n\n"
       return
     }
     if(verbose) println("QADB dir = ${dbDirN}")

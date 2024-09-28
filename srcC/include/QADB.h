@@ -261,7 +261,7 @@ namespace QA {
     if(cooks_avail.find(cook) != cooks_avail.end())
       dbDirN += std::string("/") + cook;
     else
-      throw std::runtime_error("cook '" + cook + "' is not available");
+      throw std::runtime_error("cook '" + cook + "' is not available in the QADB");
     if(verbose) std::cout << "QADB at " << dbDirN << std::endl;
 
     // get list of json files
