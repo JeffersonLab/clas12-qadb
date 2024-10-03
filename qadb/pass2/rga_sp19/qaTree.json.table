@@ -77,201 +77,201 @@ RUN: 6616
 6616 74  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6618
-6618 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6618 1  10-BSAWrong[all]
-6618 2  10-BSAWrong[all]
-6618 3  10-BSAWrong[all]
-6618 4  10-BSAWrong[all]
-6618 5  10-BSAWrong[all]
-6618 6  10-BSAWrong[all]
-6618 7  10-BSAWrong[all]
-6618 8  10-BSAWrong[all]
-6618 9  10-BSAWrong[all]
-6618 10  10-BSAWrong[all]
-6618 11  10-BSAWrong[all]
-6618 12  10-BSAWrong[all]
-6618 13  10-BSAWrong[all]
-6618 14  10-BSAWrong[all]
-6618 15  10-BSAWrong[all]
-6618 16  10-BSAWrong[all]
-6618 17  10-BSAWrong[all]
-6618 18  10-BSAWrong[all]
-6618 19  10-BSAWrong[all]
-6618 20  10-BSAWrong[all]
-6618 21  10-BSAWrong[all]
-6618 22  10-BSAWrong[all]
-6618 23  10-BSAWrong[all]
-6618 24  10-BSAWrong[all]
-6618 25  10-BSAWrong[all]
-6618 26  10-BSAWrong[all]
-6618 27  10-BSAWrong[all]
-6618 28  10-BSAWrong[all]
-6618 29  10-BSAWrong[all]
-6618 30  10-BSAWrong[all]
-6618 31  10-BSAWrong[all]
-6618 32  10-BSAWrong[all]
-6618 33  10-BSAWrong[all]
-6618 34  10-BSAWrong[all]
-6618 35  10-BSAWrong[all]
-6618 36  10-BSAWrong[all]
-6618 37  10-BSAWrong[all]
-6618 38  10-BSAWrong[all]
-6618 39  10-BSAWrong[all]
-6618 40  10-BSAWrong[all]
-6618 41  10-BSAWrong[all]
-6618 42  10-BSAWrong[all]
-6618 43  10-BSAWrong[all]
-6618 44  10-BSAWrong[all]
-6618 45  10-BSAWrong[all]
-6618 46  10-BSAWrong[all]
-6618 47  10-BSAWrong[all]
-6618 48  10-BSAWrong[all]
-6618 49  10-BSAWrong[all]
-6618 50  10-BSAWrong[all]
-6618 51  10-BSAWrong[all]
-6618 52  10-BSAWrong[all]
-6618 53  10-BSAWrong[all]
-6618 54  10-BSAWrong[all]
-6618 55  10-BSAWrong[all]
-6618 56  10-BSAWrong[all]
-6618 57  10-BSAWrong[all]
-6618 58  10-BSAWrong[all]
-6618 59  10-BSAWrong[all]
-6618 60  10-BSAWrong[all]
-6618 61  10-BSAWrong[all]
-6618 62  10-BSAWrong[all]
-6618 63  10-BSAWrong[all]
-6618 64  10-BSAWrong[all]
-6618 65  10-BSAWrong[all]
-6618 66  10-BSAWrong[all]
-6618 67  10-BSAWrong[all]
-6618 68  10-BSAWrong[all]
-6618 69  10-BSAWrong[all]
-6618 70  10-BSAWrong[all]
-6618 71  10-BSAWrong[all]
-6618 72  10-BSAWrong[all]
-6618 73  10-BSAWrong[all]
-6618 74  10-BSAWrong[all]
-6618 75  10-BSAWrong[all]
-6618 76  10-BSAWrong[all]
-6618 77  10-BSAWrong[all]
-6618 78  10-BSAWrong[all]
-6618 79  10-BSAWrong[all]
-6618 80  10-BSAWrong[all]
-6618 81  2-MarginalOutlier[4, 5, 6]  10-BSAWrong[all]
-6618 82  10-BSAWrong[all]  16-ChargeHigh[all]
-6618 83  2-MarginalOutlier[1, 2, 5, 6]  10-BSAWrong[all]
-6618 84  10-BSAWrong[all]
-6618 85  10-BSAWrong[all]
-6618 86  10-BSAWrong[all]
-6618 87  10-BSAWrong[all]
-6618 88  10-BSAWrong[all]
-6618 89  10-BSAWrong[all]
-6618 90  10-BSAWrong[all]
-6618 91  10-BSAWrong[all]
-6618 92  10-BSAWrong[all]
-6618 93  10-BSAWrong[all]
-6618 94  10-BSAWrong[all]
-6618 95  10-BSAWrong[all]
-6618 96  10-BSAWrong[all]
-6618 97  10-BSAWrong[all]
-6618 98  10-BSAWrong[all]
-6618 99  10-BSAWrong[all]
-6618 100  10-BSAWrong[all]
-6618 101  10-BSAWrong[all]
-6618 102  10-BSAWrong[all]
-6618 103  10-BSAWrong[all]
-6618 104  10-BSAWrong[all]
-6618 105  10-BSAWrong[all]
-6618 106  10-BSAWrong[all]
-6618 107  10-BSAWrong[all]
-6618 108  10-BSAWrong[all]
-6618 109  10-BSAWrong[all]
-6618 110  10-BSAWrong[all]
-6618 111  10-BSAWrong[all]
-6618 112  10-BSAWrong[all]
-6618 113  10-BSAWrong[all]
-6618 114  10-BSAWrong[all]
-6618 115  10-BSAWrong[all]
-6618 116  10-BSAWrong[all]
-6618 117  10-BSAWrong[all]
-6618 118  10-BSAWrong[all]
-6618 119  10-BSAWrong[all]
-6618 120  10-BSAWrong[all]
-6618 121  10-BSAWrong[all]
-6618 122  10-BSAWrong[all]
-6618 123  10-BSAWrong[all]
-6618 124  10-BSAWrong[all]
-6618 125  10-BSAWrong[all]
-6618 126  10-BSAWrong[all]
-6618 127  10-BSAWrong[all]
-6618 128  10-BSAWrong[all]
-6618 129  10-BSAWrong[all]
-6618 130  10-BSAWrong[all]
-6618 131  10-BSAWrong[all]
-6618 132  10-BSAWrong[all]
-6618 133  10-BSAWrong[all]
-6618 134  10-BSAWrong[all]
-6618 135  10-BSAWrong[all]
-6618 136  10-BSAWrong[all]
-6618 137  10-BSAWrong[all]
-6618 138  10-BSAWrong[all]
-6618 139  10-BSAWrong[all]
-6618 140  10-BSAWrong[all]
-6618 141  10-BSAWrong[all]
-6618 142  10-BSAWrong[all]
-6618 143  10-BSAWrong[all]
-6618 144  10-BSAWrong[all]
-6618 145  10-BSAWrong[all]
-6618 146  10-BSAWrong[all]
-6618 147  10-BSAWrong[all]
-6618 148  10-BSAWrong[all]
-6618 149  10-BSAWrong[all]
-6618 150  10-BSAWrong[all]
-6618 151  10-BSAWrong[all]
-6618 152  10-BSAWrong[all]
-6618 153  10-BSAWrong[all]
-6618 154  10-BSAWrong[all]
-6618 155  10-BSAWrong[all]
-6618 156  10-BSAWrong[all]
-6618 157  10-BSAWrong[all]
-6618 158  10-BSAWrong[all]
-6618 159  10-BSAWrong[all]
-6618 160  10-BSAWrong[all]
-6618 161  10-BSAWrong[all]
-6618 162  10-BSAWrong[all]
-6618 163  10-BSAWrong[all]
-6618 164  10-BSAWrong[all]
-6618 165  10-BSAWrong[all]
-6618 166  10-BSAWrong[all]
-6618 167  10-BSAWrong[all]
-6618 168  10-BSAWrong[all]
-6618 169  10-BSAWrong[all]
-6618 170  10-BSAWrong[all]
-6618 171  10-BSAWrong[all]
-6618 172  10-BSAWrong[all]
-6618 173  10-BSAWrong[all]
-6618 174  10-BSAWrong[all]
-6618 175  10-BSAWrong[all]
-6618 176  10-BSAWrong[all]
-6618 177  10-BSAWrong[all]
-6618 178  10-BSAWrong[all]
-6618 179  10-BSAWrong[all]
-6618 180  10-BSAWrong[all]
-6618 181  10-BSAWrong[all]
-6618 182  10-BSAWrong[all]
-6618 183  10-BSAWrong[all]
-6618 184  10-BSAWrong[all]
-6618 185  10-BSAWrong[all]
-6618 186  10-BSAWrong[all]
-6618 187  10-BSAWrong[all]
-6618 188  10-BSAWrong[all]
-6618 189  10-BSAWrong[all]
-6618 190  10-BSAWrong[all]
-6618 191  10-BSAWrong[all]
-6618 192  10-BSAWrong[all]
-6618 193  10-BSAWrong[all]
-6618 194  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6618 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low-intensity run with production configuration
+6618 1  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 2  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 3  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 4  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 5  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 6  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 7  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 8  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 9  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 10  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 11  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 12  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 13  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 14  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 15  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 16  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 17  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 18  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 19  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 20  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 21  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 22  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 23  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 24  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 25  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 26  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 27  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 28  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 29  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 30  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 31  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 32  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 33  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 34  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 35  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 36  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 37  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 38  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 39  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 40  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 41  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 42  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 43  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 44  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 45  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 46  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 47  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 48  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 49  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 50  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 51  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 52  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 53  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 54  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 55  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 56  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 57  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 58  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 59  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 60  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 61  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 62  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 63  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 64  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 65  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 66  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 67  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 68  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 69  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 70  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 71  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 72  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 73  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 74  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 75  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 76  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 77  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 78  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 79  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 80  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 81  2-MarginalOutlier[4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 82  5-Misc[all]  10-BSAWrong[all]  16-ChargeHigh[all]  :: low-intensity run with production configuration
+6618 83  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 84  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 85  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 86  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 87  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 88  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 89  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 90  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 91  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 92  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 93  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 94  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 95  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 96  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 97  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 98  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 99  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 100  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 101  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 102  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 103  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 104  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 105  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 106  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 107  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 108  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 109  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 110  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 111  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 112  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 113  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 114  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 115  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 116  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 117  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 118  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 119  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 120  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 121  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 122  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 123  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 124  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 125  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 126  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 127  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 128  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 129  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 130  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 131  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 132  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 133  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 134  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 135  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 136  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 137  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 138  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 139  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 140  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 141  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 142  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 143  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 144  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 145  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 146  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 147  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 148  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 149  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 150  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 151  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 152  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 153  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 154  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 155  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 156  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 157  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 158  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 159  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 160  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 161  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 162  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 163  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 164  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 165  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 166  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 167  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 168  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 169  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 170  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 171  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 172  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 173  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 174  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 175  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 176  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 177  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 178  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 179  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 180  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 181  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 182  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 183  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 184  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 185  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 186  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 187  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 188  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 189  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 190  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 191  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 192  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 193  5-Misc[all]  10-BSAWrong[all]  :: low-intensity run with production configuration
+6618 194  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low-intensity run with production configuration
 
 RUN: 6619
 6619 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -11536,691 +11536,691 @@ RUN: 6719
 6719 84  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6722
-6722 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6722 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 2  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 3  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 4  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 5  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 6  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 7  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 8  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 9  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 10  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 11  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 13  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 14  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 15  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 16  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 17  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 18  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 19  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 20  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 21  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 22  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 23  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 24  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 25  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 26  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 27  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 28  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 29  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 30  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 31  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 32  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 33  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 34  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 35  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 36  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 37  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 38  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 39  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 40  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 41  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 42  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 43  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 44  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 45  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 46  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 47  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 48  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 49  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 50  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 51  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 52  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 53  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 54  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 55  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 56  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 57  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 58  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 59  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 60  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 61  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 62  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 63  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 64  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 65  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 66  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 67  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 68  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 69  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 70  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 71  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 72  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 73  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 74  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 75  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 76  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 77  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 78  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 79  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 80  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 81  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 82  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 83  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 84  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 85  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 86  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 87  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 88  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 89  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 90  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 91  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 92  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 93  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 94  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 95  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 96  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 97  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 98  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 99  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 100  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 101  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 102  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 103  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 104  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 105  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 106  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 107  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 108  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 109  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 110  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 111  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 112  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 113  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 114  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 115  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 116  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 117  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 118  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 119  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6722 120  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6722 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 4  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 6  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 7  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 8  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 9  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 11  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 12  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 13  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 14  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 19  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 21  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 22  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 23  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 24  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 26  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 27  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 28  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 34  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 36  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 37  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 38  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 39  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 41  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 42  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 43  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 44  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 46  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 47  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 48  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 49  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 51  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 52  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 53  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 54  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 56  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 57  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 58  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 59  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 61  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 62  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 63  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 64  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 66  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 67  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 68  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 69  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 71  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 72  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 73  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 74  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 76  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 77  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 78  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 79  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 81  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 82  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 83  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 84  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 86  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 87  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 88  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 89  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 90  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 91  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 92  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 93  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 94  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 95  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 96  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 97  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 98  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 99  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 100  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 101  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 102  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 103  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 104  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 105  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 106  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 107  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 108  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 109  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 110  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 111  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 112  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 113  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 114  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 115  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 116  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 117  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 118  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 119  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 120  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
 
 RUN: 6723
-6723 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6723 1  10-BSAWrong[all]
-6723 2  10-BSAWrong[all]
-6723 3  10-BSAWrong[all]
-6723 4  10-BSAWrong[all]
-6723 5  10-BSAWrong[all]
-6723 6  10-BSAWrong[all]
-6723 7  10-BSAWrong[all]
-6723 8  10-BSAWrong[all]
-6723 9  10-BSAWrong[all]
-6723 10  10-BSAWrong[all]
-6723 11  10-BSAWrong[all]
-6723 12  10-BSAWrong[all]
-6723 13  10-BSAWrong[all]
-6723 14  10-BSAWrong[all]
-6723 15  2-MarginalOutlier[1]  10-BSAWrong[all]
-6723 16  10-BSAWrong[all]
-6723 17  10-BSAWrong[all]
-6723 18  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 19  10-BSAWrong[all]
-6723 20  10-BSAWrong[all]
-6723 21  10-BSAWrong[all]
-6723 22  10-BSAWrong[all]
-6723 23  10-BSAWrong[all]
-6723 24  10-BSAWrong[all]
-6723 25  10-BSAWrong[all]
-6723 26  10-BSAWrong[all]
-6723 27  10-BSAWrong[all]
-6723 28  10-BSAWrong[all]
-6723 29  10-BSAWrong[all]
-6723 30  10-BSAWrong[all]
-6723 31  10-BSAWrong[all]
-6723 32  10-BSAWrong[all]
-6723 33  10-BSAWrong[all]
-6723 34  10-BSAWrong[all]
-6723 35  10-BSAWrong[all]
-6723 36  10-BSAWrong[all]
-6723 37  10-BSAWrong[all]
-6723 38  10-BSAWrong[all]
-6723 39  10-BSAWrong[all]
-6723 40  10-BSAWrong[all]
-6723 41  10-BSAWrong[all]
-6723 42  10-BSAWrong[all]
-6723 43  10-BSAWrong[all]
-6723 44  10-BSAWrong[all]
-6723 45  10-BSAWrong[all]
-6723 46  10-BSAWrong[all]
-6723 47  10-BSAWrong[all]
-6723 48  10-BSAWrong[all]
-6723 49  10-BSAWrong[all]
-6723 50  10-BSAWrong[all]
-6723 51  10-BSAWrong[all]
-6723 52  10-BSAWrong[all]
-6723 53  10-BSAWrong[all]
-6723 54  10-BSAWrong[all]
-6723 55  10-BSAWrong[all]
-6723 56  10-BSAWrong[all]
-6723 57  10-BSAWrong[all]
-6723 58  10-BSAWrong[all]
-6723 59  10-BSAWrong[all]
-6723 60  10-BSAWrong[all]
-6723 61  10-BSAWrong[all]
-6723 62  10-BSAWrong[all]
-6723 63  10-BSAWrong[all]
-6723 64  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 65  10-BSAWrong[all]
-6723 66  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 67  10-BSAWrong[all]
-6723 68  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 69  10-BSAWrong[all]
-6723 70  10-BSAWrong[all]
-6723 71  10-BSAWrong[all]
-6723 72  10-BSAWrong[all]
-6723 73  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 74  10-BSAWrong[all]
-6723 75  10-BSAWrong[all]
-6723 76  10-BSAWrong[all]
-6723 77  10-BSAWrong[all]
-6723 78  10-BSAWrong[all]
-6723 79  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 80  10-BSAWrong[all]
-6723 81  2-MarginalOutlier[2, 4]  10-BSAWrong[all]
-6723 82  10-BSAWrong[all]
-6723 83  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 84  10-BSAWrong[all]
-6723 85  10-BSAWrong[all]
-6723 86  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 87  10-BSAWrong[all]
-6723 88  2-MarginalOutlier[1]  10-BSAWrong[all]
-6723 89  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 90  10-BSAWrong[all]
-6723 91  10-BSAWrong[all]
-6723 92  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 93  10-BSAWrong[all]
-6723 94  10-BSAWrong[all]
-6723 95  10-BSAWrong[all]
-6723 96  10-BSAWrong[all]
-6723 97  10-BSAWrong[all]
-6723 98  10-BSAWrong[all]
-6723 99  2-MarginalOutlier[1, 4]  10-BSAWrong[all]
-6723 100  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 101  2-MarginalOutlier[1, 2]  10-BSAWrong[all]
-6723 102  10-BSAWrong[all]
-6723 103  10-BSAWrong[all]
-6723 104  10-BSAWrong[all]
-6723 105  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 106  10-BSAWrong[all]
-6723 107  10-BSAWrong[all]
-6723 108  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 109  10-BSAWrong[all]
-6723 110  10-BSAWrong[all]
-6723 111  10-BSAWrong[all]
-6723 112  10-BSAWrong[all]
-6723 113  10-BSAWrong[all]
-6723 114  10-BSAWrong[all]
-6723 115  10-BSAWrong[all]
-6723 116  10-BSAWrong[all]
-6723 117  10-BSAWrong[all]
-6723 118  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 119  10-BSAWrong[all]
-6723 120  10-BSAWrong[all]
-6723 121  10-BSAWrong[all]
-6723 122  10-BSAWrong[all]
-6723 123  10-BSAWrong[all]
-6723 124  10-BSAWrong[all]
-6723 125  10-BSAWrong[all]
-6723 126  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 127  0-TotalOutlier[3]  10-BSAWrong[all]
-6723 128  10-BSAWrong[all]
-6723 129  10-BSAWrong[all]
-6723 130  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 131  10-BSAWrong[all]
-6723 132  10-BSAWrong[all]
-6723 133  10-BSAWrong[all]
-6723 134  10-BSAWrong[all]
-6723 135  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 136  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 137  2-MarginalOutlier[4, 6]  10-BSAWrong[all]
-6723 138  10-BSAWrong[all]
-6723 139  10-BSAWrong[all]
-6723 140  2-MarginalOutlier[2, 4, 5, 6]  10-BSAWrong[all]
-6723 141  10-BSAWrong[all]
-6723 142  2-MarginalOutlier[1, 5]  10-BSAWrong[all]
-6723 143  2-MarginalOutlier[4, 6]  10-BSAWrong[all]
-6723 144  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 145  10-BSAWrong[all]
-6723 146  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 147  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 148  2-MarginalOutlier[4, 5]  10-BSAWrong[all]
-6723 149  2-MarginalOutlier[1, 2, 3, 6]  10-BSAWrong[all]
-6723 150  10-BSAWrong[all]
-6723 151  10-BSAWrong[all]
-6723 152  10-BSAWrong[all]
-6723 153  10-BSAWrong[all]
-6723 154  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 155  10-BSAWrong[all]
-6723 156  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 157  10-BSAWrong[all]
-6723 158  10-BSAWrong[all]
-6723 159  10-BSAWrong[all]
-6723 160  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 161  10-BSAWrong[all]
-6723 162  10-BSAWrong[all]
-6723 163  2-MarginalOutlier[1]  10-BSAWrong[all]
-6723 164  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 165  10-BSAWrong[all]
-6723 166  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 167  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 168  10-BSAWrong[all]
-6723 169  10-BSAWrong[all]
-6723 170  10-BSAWrong[all]
-6723 171  10-BSAWrong[all]
-6723 172  10-BSAWrong[all]
-6723 173  10-BSAWrong[all]
-6723 174  2-MarginalOutlier[1]  10-BSAWrong[all]
-6723 175  2-MarginalOutlier[1, 3]  10-BSAWrong[all]
-6723 176  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 177  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 178  10-BSAWrong[all]
-6723 179  10-BSAWrong[all]
-6723 180  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 181  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 182  10-BSAWrong[all]
-6723 183  10-BSAWrong[all]
-6723 184  2-MarginalOutlier[2, 6]  10-BSAWrong[all]
-6723 185  10-BSAWrong[all]
-6723 186  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 187  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 188  10-BSAWrong[all]
-6723 189  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-6723 190  10-BSAWrong[all]
-6723 191  2-MarginalOutlier[3, 4]  10-BSAWrong[all]
-6723 192  10-BSAWrong[all]
-6723 193  2-MarginalOutlier[1]  10-BSAWrong[all]
-6723 194  10-BSAWrong[all]
-6723 195  10-BSAWrong[all]
-6723 196  10-BSAWrong[all]
-6723 197  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 198  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 199  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 200  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 201  10-BSAWrong[all]
-6723 202  10-BSAWrong[all]
-6723 203  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 204  10-BSAWrong[all]
-6723 205  10-BSAWrong[all]
-6723 206  10-BSAWrong[all]
-6723 207  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 208  10-BSAWrong[all]
-6723 209  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 210  10-BSAWrong[all]
-6723 211  10-BSAWrong[all]
-6723 212  10-BSAWrong[all]
-6723 213  10-BSAWrong[all]
-6723 214  10-BSAWrong[all]
-6723 215  10-BSAWrong[all]
-6723 216  10-BSAWrong[all]
-6723 217  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 218  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 219  10-BSAWrong[all]
-6723 220  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 221  10-BSAWrong[all]
-6723 222  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 223  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 224  10-BSAWrong[all]
-6723 225  10-BSAWrong[all]
-6723 226  10-BSAWrong[all]
-6723 227  10-BSAWrong[all]
-6723 228  10-BSAWrong[all]
-6723 229  10-BSAWrong[all]
-6723 230  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 231  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 232  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 233  10-BSAWrong[all]
-6723 234  2-MarginalOutlier[5]  10-BSAWrong[all]
-6723 235  10-BSAWrong[all]
-6723 236  10-BSAWrong[all]
-6723 237  10-BSAWrong[all]
-6723 238  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 239  10-BSAWrong[all]
-6723 240  10-BSAWrong[all]
-6723 241  10-BSAWrong[all]
-6723 242  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 243  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 244  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 245  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 246  10-BSAWrong[all]
-6723 247  10-BSAWrong[all]
-6723 248  10-BSAWrong[all]
-6723 249  10-BSAWrong[all]
-6723 250  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 251  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 252  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 253  10-BSAWrong[all]
-6723 254  10-BSAWrong[all]
-6723 255  2-MarginalOutlier[1]  10-BSAWrong[all]
-6723 256  10-BSAWrong[all]
-6723 257  10-BSAWrong[all]
-6723 258  10-BSAWrong[all]
-6723 259  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 260  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 261  10-BSAWrong[all]
-6723 262  10-BSAWrong[all]
-6723 263  10-BSAWrong[all]
-6723 264  2-MarginalOutlier[1, 2]  10-BSAWrong[all]
-6723 265  10-BSAWrong[all]
-6723 266  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 267  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 268  10-BSAWrong[all]
-6723 269  10-BSAWrong[all]
-6723 270  10-BSAWrong[all]
-6723 271  10-BSAWrong[all]
-6723 272  2-MarginalOutlier[2, 3]  10-BSAWrong[all]
-6723 273  10-BSAWrong[all]
-6723 274  2-MarginalOutlier[1, 3, 6]  10-BSAWrong[all]
-6723 275  10-BSAWrong[all]
-6723 276  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 277  10-BSAWrong[all]
-6723 278  10-BSAWrong[all]
-6723 279  10-BSAWrong[all]
-6723 280  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 281  10-BSAWrong[all]
-6723 282  10-BSAWrong[all]
-6723 283  10-BSAWrong[all]
-6723 284  10-BSAWrong[all]
-6723 285  2-MarginalOutlier[3]  10-BSAWrong[all]
-6723 286  10-BSAWrong[all]
-6723 287  10-BSAWrong[all]
-6723 288  2-MarginalOutlier[3, 4]  10-BSAWrong[all]
-6723 289  10-BSAWrong[all]
-6723 290  10-BSAWrong[all]
-6723 291  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 292  2-MarginalOutlier[6]  10-BSAWrong[all]
-6723 293  10-BSAWrong[all]
-6723 294  10-BSAWrong[all]
-6723 295  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 296  10-BSAWrong[all]
-6723 297  10-BSAWrong[all]
-6723 298  2-MarginalOutlier[2]  10-BSAWrong[all]
-6723 299  10-BSAWrong[all]
-6723 300  2-MarginalOutlier[4]  10-BSAWrong[all]
-6723 301  10-BSAWrong[all]
-6723 302  10-BSAWrong[all]
-6723 303  10-BSAWrong[all]
-6723 304  10-BSAWrong[all]
-6723 305  10-BSAWrong[all]
-6723 306  10-BSAWrong[all]
-6723 307  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6723 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: 10 nA run
+6723 1  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 2  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 3  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 4  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 5  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 6  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 7  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 8  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 9  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 10  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 11  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 12  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 13  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 14  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 15  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 16  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 17  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 18  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 19  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 20  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 21  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 22  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 23  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 24  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 25  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 26  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 27  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 28  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 29  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 30  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 31  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 32  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 33  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 34  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 35  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 36  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 37  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 38  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 39  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 40  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 41  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 42  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 43  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 44  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 45  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 46  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 47  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 48  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 49  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 50  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 51  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 52  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 53  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 54  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 55  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 56  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 57  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 58  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 59  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 60  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 61  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 62  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 63  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 64  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 65  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 66  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 67  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 68  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 69  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 70  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 71  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 72  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 73  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 74  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 75  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 76  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 77  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 78  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 79  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 80  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 81  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 82  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 83  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 84  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 85  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 86  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 87  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 88  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 89  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 90  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 91  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 92  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 93  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 94  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 95  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 96  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 97  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 98  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 99  2-MarginalOutlier[1, 4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 100  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 101  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 102  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 103  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 104  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 105  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 106  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 107  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 108  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 109  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 110  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 111  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 112  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 113  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 114  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 115  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 116  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 117  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 118  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 119  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 120  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 121  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 122  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 123  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 124  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 125  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 126  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 127  0-TotalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 128  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 129  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 130  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 131  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 132  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 133  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 134  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 135  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 136  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 137  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 138  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 139  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 140  2-MarginalOutlier[2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 141  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 142  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 143  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 144  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 145  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 146  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 147  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 148  2-MarginalOutlier[4, 5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 149  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 150  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 151  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 152  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 153  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 154  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 155  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 156  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 157  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 158  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 159  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 160  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 161  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 162  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 163  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 164  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 165  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 166  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 167  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 168  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 169  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 170  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 171  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 172  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 173  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 174  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 175  2-MarginalOutlier[1, 3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 176  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 177  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 178  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 179  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 180  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 181  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 182  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 183  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 184  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 185  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 186  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 187  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 188  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 189  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: 10 nA run
+6723 190  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 191  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 192  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 193  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 194  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 195  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 196  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 197  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 198  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 199  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 200  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 201  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 202  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 203  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 204  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 205  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 206  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 207  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 208  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 209  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 210  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 211  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 212  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 213  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 214  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 215  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 216  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 217  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 218  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 219  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 220  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 221  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 222  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 223  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 224  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 225  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 226  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 227  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 228  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 229  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 230  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 231  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 232  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 233  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 234  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 235  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 236  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 237  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 238  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 239  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 240  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 241  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 242  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 243  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 244  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 245  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 246  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 247  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 248  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 249  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 250  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 251  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 252  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 253  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 254  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 255  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 256  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 257  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 258  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 259  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 260  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 261  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 262  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 263  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 264  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 265  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 266  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 267  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 268  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 269  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 270  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 271  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 272  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 273  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 274  2-MarginalOutlier[1, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 275  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 276  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 277  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 278  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 279  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 280  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 281  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 282  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 283  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 284  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 285  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 286  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 287  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 288  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 289  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 290  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 291  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 292  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 293  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 294  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 295  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 296  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 297  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 298  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 299  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 300  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 301  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 302  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 303  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 304  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 305  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 306  5-Misc[all]  10-BSAWrong[all]  :: 10 nA run
+6723 307  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: 10 nA run
 
 RUN: 6724
-6724 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6724 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 2  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 3  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 4  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 5  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 6  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 7  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 8  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 9  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 10  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 11  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 13  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 14  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 15  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 16  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 17  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 18  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 19  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 20  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 21  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 22  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 23  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 24  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 25  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 26  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 27  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 28  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 29  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 30  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 31  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 32  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 33  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 34  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 35  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 36  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 37  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 38  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 39  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 40  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 41  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 42  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 43  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 44  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 45  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 46  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 47  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 48  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 49  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 50  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 51  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 52  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 53  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 54  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 55  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 56  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 57  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 58  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 59  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 60  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 61  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 62  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 63  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 64  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 65  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 66  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 67  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 68  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 69  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 70  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 71  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 72  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 73  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 74  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 75  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 76  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 77  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 78  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 79  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 80  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 81  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 82  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 83  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 84  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 85  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 86  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 87  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  16-ChargeHigh[all]
-6724 88  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]
-6724 89  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]
-6724 90  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]
-6724 91  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 92  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 93  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 94  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 95  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 96  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 97  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 98  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 99  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 100  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 101  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 102  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 103  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 104  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 105  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 106  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 107  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 108  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 109  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 110  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 111  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 112  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 113  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 114  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 115  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 116  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 117  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 118  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 119  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 120  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 121  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 122  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 123  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 124  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 125  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 126  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 127  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 128  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 129  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 130  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 131  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 132  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 133  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 134  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 135  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 136  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 137  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 138  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 139  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 140  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 141  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 142  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 143  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 144  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 145  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 146  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 147  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 148  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 149  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 150  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 151  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 152  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 153  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 154  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 155  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 156  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 157  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 158  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 159  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 160  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 161  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 162  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 163  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 164  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 165  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 166  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 167  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 168  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 169  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 170  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 171  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 172  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 173  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 174  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 175  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 176  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 177  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 178  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 179  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 180  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6724 181  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6724 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: empty target run
+6724 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 4  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 6  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 7  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 8  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 9  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 11  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 12  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 13  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 14  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 19  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 21  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 22  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 23  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 24  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 26  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 27  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 28  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 34  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 36  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 37  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 38  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 39  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 41  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 42  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 43  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 44  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 46  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 47  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 48  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 49  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 51  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 52  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 53  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 54  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 56  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 57  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 58  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 59  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 61  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 62  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 63  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 64  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 66  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 67  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 68  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 69  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 71  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 72  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 73  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 74  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 76  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 77  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 78  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 79  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 81  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 82  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 83  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 84  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 86  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 87  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  16-ChargeHigh[all]  :: empty target run
+6724 88  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: empty target run
+6724 89  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: empty target run
+6724 90  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: empty target run
+6724 91  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 92  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 93  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 94  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 95  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 96  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 97  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 98  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 99  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 100  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 101  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 102  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 103  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 104  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 105  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 106  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 107  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 108  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 109  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 110  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 111  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 112  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 113  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 114  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 115  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 116  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 117  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 118  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 119  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 120  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 121  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 122  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 123  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 124  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 125  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 126  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 127  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 128  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 129  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 130  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 131  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 132  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 133  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 134  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 135  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 136  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 137  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 138  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 139  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 140  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 141  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 142  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 143  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 144  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 145  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 146  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 147  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 148  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 149  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 150  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 151  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 152  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 153  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 154  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 155  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 156  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 157  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 158  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 159  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 160  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 161  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 162  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 163  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 164  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 165  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 166  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 167  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 168  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 169  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 170  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 171  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 172  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 173  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 174  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 175  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 176  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 177  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 178  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 179  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 180  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 181  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: empty target run
 
 RUN: 6725
-6725 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-6725 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 2  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 3  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 4  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 5  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 6  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 7  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 8  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 9  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 10  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 11  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 13  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 14  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 15  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 16  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 17  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 18  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 19  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 20  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 21  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 22  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 23  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 24  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 25  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 26  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 27  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 28  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 29  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 30  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 31  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 32  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 33  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 34  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 35  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 36  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 37  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 38  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 39  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 40  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 41  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 42  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 43  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 44  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 45  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 46  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 47  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 48  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 49  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 50  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 51  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 52  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 53  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 54  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 55  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 56  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 57  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 58  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 59  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 60  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 61  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 62  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 63  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 64  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 65  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-6725 66  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-6725 67  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+6725 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: empty target run
+6725 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 4  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 6  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 7  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 8  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 9  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 11  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 12  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 13  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 14  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 19  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 21  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 22  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 23  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 24  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 26  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 27  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 28  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 34  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 36  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 37  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 38  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 39  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 41  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 42  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 43  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 44  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 46  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 47  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 48  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 49  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 51  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 52  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 53  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 54  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 56  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 57  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 58  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 59  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 61  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 62  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 63  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 64  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: empty target run
+6725 66  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: empty target run
+6725 67  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: empty target run
 
 RUN: 6728
 6728 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -16066,10 +16066,10 @@ RUN: 6750
 6750 140  10-BSAWrong[all]
 6750 141  10-BSAWrong[all]
 6750 142  10-BSAWrong[all]
-6750 143  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6750 144  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6750 145  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6750 146  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6750 143  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6750 144  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6750 145  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6750 146  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
 
 RUN: 6753
 6753 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -16954,11 +16954,11 @@ RUN: 6763
 6763 9  10-BSAWrong[all]
 6763 10  10-BSAWrong[all]
 6763 11  10-BSAWrong[all]
-6763 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6763 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6763 14  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6763 15  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6763 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6763 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6763 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6763 14  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6763 15  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6763 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
 
 RUN: 6764
 6764 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -17734,17 +17734,17 @@ RUN: 6769
 6769 73  10-BSAWrong[all]
 6769 74  10-BSAWrong[all]
 6769 75  10-BSAWrong[all]
-6769 76  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 77  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 78  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 79  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 80  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 81  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 82  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 83  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 84  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 85  0-TotalOutlier[4]  10-BSAWrong[all]
-6769 86  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6769 76  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 77  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 78  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 79  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 80  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 81  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 82  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 83  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 84  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 85  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6769 86  1-TerminalOutlier[all]  3-SectorLoss[4]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6775
 6775 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -18172,11 +18172,11 @@ RUN: 6776
 6776 191  10-BSAWrong[all]
 6776 192  10-BSAWrong[all]
 6776 193  10-BSAWrong[all]
-6776 194  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6776 195  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6776 196  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6776 197  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6776 198  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6776 194  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6776 195  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6776 196  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6776 197  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6776 198  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
 
 RUN: 6777
 6777 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -18760,53 +18760,53 @@ RUN: 6779
 6779 165  10-BSAWrong[all]
 6779 166  10-BSAWrong[all]
 6779 167  10-BSAWrong[all]
-6779 168  0-TotalOutlier[4]  4-LowLiveTime[all]  10-BSAWrong[all]
-6779 169  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 170  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 171  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 172  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 173  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 174  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 175  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 176  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 177  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 178  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 179  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 180  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 181  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 182  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 183  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 184  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 185  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 186  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 187  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 188  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 189  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 190  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 191  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 192  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 193  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 194  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 195  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 196  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 197  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 198  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 199  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 200  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 201  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 202  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 203  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 204  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 205  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 206  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 207  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 208  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 209  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 210  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 211  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 212  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 213  0-TotalOutlier[4]  10-BSAWrong[all]
-6779 214  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6779 168  0-TotalOutlier[4]  3-SectorLoss[4]  4-LowLiveTime[all]  10-BSAWrong[all]
+6779 169  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 170  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 171  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 172  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 173  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 174  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 175  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 176  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 177  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 178  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 179  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 180  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 181  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 182  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 183  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 184  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 185  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 186  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 187  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 188  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 189  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 190  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 191  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 192  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 193  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 194  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 195  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 196  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 197  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 198  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 199  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 200  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 201  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 202  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 203  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 204  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 205  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 206  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 207  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 208  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 209  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 210  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 211  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 212  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 213  0-TotalOutlier[4]  3-SectorLoss[4]  10-BSAWrong[all]
+6779 214  1-TerminalOutlier[all]  3-SectorLoss[4]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6780
 6780 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -19157,12 +19157,12 @@ RUN: 6781
 6781 128  10-BSAWrong[all]
 6781 129  10-BSAWrong[all]
 6781 130  10-BSAWrong[all]
-6781 131  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6781 132  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6781 133  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6781 134  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6781 135  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6781 136  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6781 131  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6781 132  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6781 133  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6781 134  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6781 135  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6781 136  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
 
 RUN: 6783
 6783 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
