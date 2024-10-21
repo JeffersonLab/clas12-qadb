@@ -11536,127 +11536,127 @@ RUN: 6719
 6719 84  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6722
-6722 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 4  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 6  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 7  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 8  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 9  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 11  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 12  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 13  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 14  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 19  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 21  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 22  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 23  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 24  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 26  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 27  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 28  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 34  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 36  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 37  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 38  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 39  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 41  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 42  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 43  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 44  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 46  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 47  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 48  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 49  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 51  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 52  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 53  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 54  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 56  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 57  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 58  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 59  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 61  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 62  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 63  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 64  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 66  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 67  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 68  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 69  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 71  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 72  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 73  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 74  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 76  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 77  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 78  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 79  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 81  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 82  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 83  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 84  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 86  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 87  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 88  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 89  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 90  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 91  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 92  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 93  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 94  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 95  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 96  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 97  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 98  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 99  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 100  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 101  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 102  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 103  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 104  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 105  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 106  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 107  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 108  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 109  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 110  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 111  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 112  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 113  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 114  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 115  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 116  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 117  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 118  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 119  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
-6722 120  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: rgb_v9_1_faraday_noprescale trigger configuration
+6722 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 4  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 6  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 7  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 8  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 9  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 11  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 12  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 13  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 14  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 19  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 21  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 22  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 23  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 24  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 26  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 27  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 28  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 34  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 36  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 37  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 38  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 39  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 41  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 42  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 43  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 44  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 46  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 47  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 48  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 49  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 51  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 52  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 53  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 54  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 56  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 57  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 58  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 59  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 61  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 62  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 63  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 64  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 66  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 67  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 68  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 69  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 71  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 72  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 73  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 74  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 76  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 77  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 78  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 79  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 81  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 82  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 83  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 84  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 86  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 87  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 88  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 89  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 90  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 91  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 92  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 93  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 94  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 95  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 96  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 97  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 98  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 99  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 100  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 101  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 102  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 103  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 104  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 105  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 106  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 107  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 108  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 109  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 110  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 111  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 112  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 113  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 114  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 115  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 116  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 117  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 118  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 119  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
+6722 120  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA
 
 RUN: 6723
 6723 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run
@@ -12223,215 +12223,215 @@ RUN: 6725
 6725 67  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: empty target run
 
 RUN: 6728
-6728 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6728 1  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 2  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 3  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 4  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 5  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 6  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 7  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 8  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 9  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 10  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 11  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 12  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 13  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 14  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 15  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 16  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 17  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 18  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 19  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 20  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 21  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 22  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 23  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 24  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 25  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 26  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 27  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 28  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 29  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 30  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 31  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 32  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 33  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 34  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 35  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 36  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 37  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 38  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 39  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 40  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 41  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 42  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 43  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 44  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 45  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 46  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 47  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 48  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 49  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 50  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 51  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 52  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 53  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 54  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 55  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 56  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 57  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 58  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 59  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 60  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 61  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 62  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 63  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 64  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 65  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 66  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 67  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 68  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 69  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 70  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 71  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 72  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 73  0-TotalOutlier[6]  2-MarginalOutlier[4, 5]  10-BSAWrong[all]
-6728 74  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 75  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 76  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 77  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 78  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 79  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 80  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 81  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 82  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 83  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 84  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 85  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 86  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 87  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 88  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 89  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 90  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 91  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 92  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 93  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 94  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 95  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 96  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 97  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 98  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 99  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 100  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 101  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 102  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 103  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 104  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 105  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 106  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 107  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 108  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 109  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 110  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 111  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 112  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 113  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 114  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 115  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 116  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 117  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 118  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 119  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 120  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 121  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 122  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 123  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 124  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 125  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 126  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 127  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 128  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 129  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 130  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 131  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 132  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 133  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 134  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 135  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 136  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 137  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 138  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 139  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 140  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 141  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 142  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 143  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 144  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 145  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 146  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 147  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 148  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 149  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 150  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 151  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 152  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 153  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 154  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 155  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 156  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 157  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 158  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 159  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 160  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 161  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 162  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 163  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 164  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 165  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 166  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 167  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 168  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 169  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 170  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 171  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 172  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 173  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 174  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 175  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 176  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 177  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 178  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 179  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 180  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 181  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 182  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 183  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 184  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 185  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 186  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 187  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 188  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 189  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 190  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 191  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 192  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 193  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 194  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 195  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 196  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 197  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 198  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 199  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 200  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 201  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 202  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 203  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 204  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 205  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 206  0-TotalOutlier[6]  10-BSAWrong[all]
-6728 207  0-TotalOutlier[6]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-6728 208  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6728 0  1-TerminalOutlier[all]  3-SectorLoss[6]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6728 1  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 2  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 3  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 4  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 5  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 6  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 7  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 8  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 9  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 10  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 11  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 12  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 13  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 14  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 15  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 16  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 17  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 18  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 19  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 20  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 21  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 22  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 23  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 24  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 25  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 26  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 27  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 28  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 29  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 30  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 31  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 32  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 33  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 34  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 35  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 36  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 37  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 38  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 39  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 40  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 41  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 42  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 43  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 44  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 45  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 46  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 47  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 48  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 49  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 50  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 51  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 52  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 53  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 54  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 55  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 56  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 57  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 58  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 59  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 60  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 61  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 62  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 63  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 64  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 65  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 66  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 67  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 68  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 69  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 70  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 71  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 72  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 73  0-TotalOutlier[6]  2-MarginalOutlier[4, 5]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 74  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 75  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 76  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 77  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 78  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 79  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 80  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 81  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 82  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 83  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 84  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 85  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 86  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 87  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 88  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 89  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 90  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 91  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 92  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 93  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 94  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 95  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 96  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 97  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 98  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 99  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 100  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 101  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 102  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 103  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 104  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 105  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 106  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 107  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 108  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 109  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 110  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 111  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 112  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 113  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 114  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 115  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 116  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 117  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 118  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 119  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 120  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 121  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 122  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 123  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 124  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 125  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 126  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 127  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 128  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 129  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 130  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 131  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 132  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 133  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 134  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 135  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 136  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 137  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 138  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 139  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 140  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 141  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 142  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 143  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 144  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 145  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 146  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 147  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 148  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 149  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 150  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 151  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 152  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 153  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 154  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 155  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 156  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 157  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 158  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 159  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 160  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 161  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 162  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 163  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 164  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 165  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 166  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 167  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 168  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 169  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 170  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 171  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 172  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 173  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 174  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 175  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 176  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 177  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 178  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 179  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 180  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 181  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 182  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 183  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 184  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 185  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 186  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 187  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 188  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 189  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 190  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 191  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 192  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 193  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 194  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 195  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 196  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 197  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 198  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 199  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 200  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 201  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 202  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 203  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 204  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 205  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 206  0-TotalOutlier[6]  3-SectorLoss[6]  10-BSAWrong[all]
+6728 207  0-TotalOutlier[6]  3-SectorLoss[6]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
+6728 208  1-TerminalOutlier[all]  3-SectorLoss[6]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6729
 6729 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -12619,172 +12619,172 @@ RUN: 6730
 6730 7  10-BSAWrong[all]
 6730 8  10-BSAWrong[all]
 6730 9  10-BSAWrong[all]
-6730 10  10-BSAWrong[all]
-6730 11  10-BSAWrong[all]
-6730 12  10-BSAWrong[all]
-6730 13  10-BSAWrong[all]
-6730 14  10-BSAWrong[all]
-6730 15  10-BSAWrong[all]
-6730 16  10-BSAWrong[all]
-6730 17  10-BSAWrong[all]
-6730 18  10-BSAWrong[all]
-6730 19  10-BSAWrong[all]
-6730 20  10-BSAWrong[all]
-6730 21  10-BSAWrong[all]
-6730 22  10-BSAWrong[all]
-6730 23  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6730 24  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6730 25  10-BSAWrong[all]
-6730 26  10-BSAWrong[all]
-6730 27  10-BSAWrong[all]
-6730 28  10-BSAWrong[all]
-6730 29  10-BSAWrong[all]
-6730 30  10-BSAWrong[all]
-6730 31  10-BSAWrong[all]
-6730 32  10-BSAWrong[all]
-6730 33  10-BSAWrong[all]
-6730 34  10-BSAWrong[all]
-6730 35  10-BSAWrong[all]
-6730 36  10-BSAWrong[all]
-6730 37  10-BSAWrong[all]
-6730 38  10-BSAWrong[all]
-6730 39  10-BSAWrong[all]
-6730 40  10-BSAWrong[all]
-6730 41  10-BSAWrong[all]
-6730 42  10-BSAWrong[all]
-6730 43  10-BSAWrong[all]
-6730 44  10-BSAWrong[all]
-6730 45  10-BSAWrong[all]
-6730 46  0-TotalOutlier[all]  10-BSAWrong[all]
-6730 47  2-MarginalOutlier[1, 3, 5]  10-BSAWrong[all]
-6730 48  10-BSAWrong[all]
-6730 49  10-BSAWrong[all]
-6730 50  10-BSAWrong[all]
-6730 51  10-BSAWrong[all]
-6730 52  10-BSAWrong[all]
-6730 53  10-BSAWrong[all]
-6730 54  10-BSAWrong[all]
-6730 55  10-BSAWrong[all]
-6730 56  10-BSAWrong[all]
-6730 57  10-BSAWrong[all]
-6730 58  10-BSAWrong[all]
-6730 59  10-BSAWrong[all]
-6730 60  10-BSAWrong[all]
-6730 61  10-BSAWrong[all]
-6730 62  10-BSAWrong[all]
-6730 63  10-BSAWrong[all]
-6730 64  10-BSAWrong[all]
-6730 65  10-BSAWrong[all]
-6730 66  10-BSAWrong[all]
-6730 67  10-BSAWrong[all]
-6730 68  10-BSAWrong[all]
-6730 69  2-MarginalOutlier[5]  10-BSAWrong[all]
-6730 70  10-BSAWrong[all]
-6730 71  10-BSAWrong[all]
-6730 72  10-BSAWrong[all]
-6730 73  10-BSAWrong[all]
-6730 74  10-BSAWrong[all]
-6730 75  10-BSAWrong[all]
-6730 76  10-BSAWrong[all]
-6730 77  10-BSAWrong[all]
-6730 78  10-BSAWrong[all]
-6730 79  10-BSAWrong[all]
-6730 80  10-BSAWrong[all]
-6730 81  10-BSAWrong[all]
-6730 82  10-BSAWrong[all]
-6730 83  10-BSAWrong[all]
-6730 84  10-BSAWrong[all]
-6730 85  10-BSAWrong[all]
-6730 86  10-BSAWrong[all]
-6730 87  10-BSAWrong[all]
-6730 88  10-BSAWrong[all]
-6730 89  10-BSAWrong[all]
-6730 90  10-BSAWrong[all]
-6730 91  10-BSAWrong[all]
-6730 92  10-BSAWrong[all]
-6730 93  10-BSAWrong[all]
-6730 94  10-BSAWrong[all]
-6730 95  10-BSAWrong[all]
-6730 96  10-BSAWrong[all]
-6730 97  10-BSAWrong[all]
-6730 98  10-BSAWrong[all]
-6730 99  10-BSAWrong[all]
-6730 100  10-BSAWrong[all]
-6730 101  10-BSAWrong[all]
-6730 102  10-BSAWrong[all]
-6730 103  10-BSAWrong[all]
-6730 104  10-BSAWrong[all]
-6730 105  10-BSAWrong[all]
-6730 106  10-BSAWrong[all]
-6730 107  10-BSAWrong[all]
-6730 108  10-BSAWrong[all]
-6730 109  10-BSAWrong[all]
-6730 110  10-BSAWrong[all]
-6730 111  10-BSAWrong[all]
-6730 112  10-BSAWrong[all]
-6730 113  10-BSAWrong[all]
-6730 114  10-BSAWrong[all]
-6730 115  10-BSAWrong[all]
-6730 116  10-BSAWrong[all]
-6730 117  10-BSAWrong[all]
-6730 118  10-BSAWrong[all]
-6730 119  10-BSAWrong[all]
-6730 120  10-BSAWrong[all]
-6730 121  10-BSAWrong[all]
-6730 122  10-BSAWrong[all]
-6730 123  10-BSAWrong[all]
-6730 124  10-BSAWrong[all]
-6730 125  10-BSAWrong[all]
-6730 126  10-BSAWrong[all]
-6730 127  10-BSAWrong[all]
-6730 128  10-BSAWrong[all]
-6730 129  10-BSAWrong[all]
-6730 130  10-BSAWrong[all]
-6730 131  10-BSAWrong[all]
-6730 132  10-BSAWrong[all]
-6730 133  10-BSAWrong[all]
-6730 134  10-BSAWrong[all]
-6730 135  10-BSAWrong[all]
-6730 136  10-BSAWrong[all]
-6730 137  10-BSAWrong[all]
-6730 138  10-BSAWrong[all]
-6730 139  10-BSAWrong[all]
-6730 140  10-BSAWrong[all]
-6730 141  10-BSAWrong[all]
-6730 142  10-BSAWrong[all]
-6730 143  10-BSAWrong[all]
-6730 144  10-BSAWrong[all]
-6730 145  10-BSAWrong[all]
-6730 146  10-BSAWrong[all]
-6730 147  10-BSAWrong[all]
-6730 148  10-BSAWrong[all]
-6730 149  10-BSAWrong[all]
-6730 150  10-BSAWrong[all]
-6730 151  10-BSAWrong[all]
-6730 152  10-BSAWrong[all]
-6730 153  10-BSAWrong[all]
-6730 154  10-BSAWrong[all]
-6730 155  10-BSAWrong[all]
-6730 156  10-BSAWrong[all]
-6730 157  10-BSAWrong[all]
-6730 158  10-BSAWrong[all]
-6730 159  10-BSAWrong[all]
-6730 160  10-BSAWrong[all]
-6730 161  10-BSAWrong[all]
-6730 162  4-LowLiveTime[all]  10-BSAWrong[all]
-6730 163  10-BSAWrong[all]
-6730 164  10-BSAWrong[all]
-6730 165  10-BSAWrong[all]
-6730 166  10-BSAWrong[all]
-6730 167  10-BSAWrong[all]
-6730 168  10-BSAWrong[all]
-6730 169  10-BSAWrong[all]
-6730 170  10-BSAWrong[all]
-6730 171  10-BSAWrong[all]
-6730 172  10-BSAWrong[all]
-6730 173  10-BSAWrong[all]
-6730 174  10-BSAWrong[all]
-6730 175  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6730 10  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 11  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 12  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 13  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 14  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 15  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 16  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 17  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 18  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 19  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 20  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 21  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 22  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 23  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[5]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 24  0-TotalOutlier[all]  5-Misc[5]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 25  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 26  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 27  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 28  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 29  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 30  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 31  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 32  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 33  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 34  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 35  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 36  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 37  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 38  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 39  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 40  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 41  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 42  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 43  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 44  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 45  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 46  0-TotalOutlier[all]  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 47  2-MarginalOutlier[1, 3, 5]  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 48  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 49  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 50  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 51  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 52  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 53  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 54  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 55  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 56  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 57  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 58  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 59  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 60  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 61  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 62  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 63  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 64  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 65  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 66  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 67  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 68  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 69  2-MarginalOutlier[5]  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 70  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 71  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 72  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 73  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 74  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 75  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 76  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 77  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 78  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 79  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 80  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 81  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 82  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 83  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 84  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 85  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 86  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 87  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 88  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 89  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 90  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 91  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 92  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 93  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 94  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 95  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 96  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 97  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 98  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 99  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 100  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 101  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 102  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 103  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 104  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 105  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 106  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 107  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 108  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 109  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 110  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 111  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 112  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 113  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 114  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 115  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 116  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 117  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 118  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 119  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 120  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 121  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 122  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 123  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 124  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 125  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 126  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 127  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 128  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 129  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 130  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 131  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 132  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 133  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 134  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 135  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 136  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 137  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 138  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 139  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 140  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 141  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 142  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 143  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 144  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 145  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 146  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 147  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 148  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 149  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 150  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 151  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 152  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 153  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 154  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 155  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 156  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 157  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 158  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 159  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 160  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 161  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 162  4-LowLiveTime[all]  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 163  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 164  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 165  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 166  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 167  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 168  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 169  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 170  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 171  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 172  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 173  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 174  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 175  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[5]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
 
 RUN: 6731
 6731 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
