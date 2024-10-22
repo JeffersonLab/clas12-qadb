@@ -5,7 +5,7 @@
 
 // open QADB
 import clasqa.QADB
-QADB qa = new QADB()
+QADB qa = new QADB("latest")
 
 
 def printSep

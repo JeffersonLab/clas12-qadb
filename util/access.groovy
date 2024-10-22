@@ -9,7 +9,7 @@ import clasqa.QADB
 import clasqa.Tools
 
 Tools T = new Tools()
-QADB qa = new QADB()
+QADB qa = new QADB("latest")
 
 /*
 println "=========== raw"

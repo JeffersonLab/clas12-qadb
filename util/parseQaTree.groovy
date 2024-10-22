@@ -6,7 +6,7 @@ import clasqa.Tools
 Tools T = new Tools()
 /*
 import clasqa.QADB
-QADB qa = new QADB()
+QADB qa = new QADB("latest")
 */
 
 infile="qa/qaTree.json"
