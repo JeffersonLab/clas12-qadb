@@ -23,7 +23,7 @@ jobs:
       datasets: ${{ steps.datasets.outputs.datasets }}
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: get data sets
         id: datasets
         working-directory: qadb
@@ -45,11 +45,11 @@ jobs:
       matrix: ${{ fromJson(needs.get_datasets.outputs.datasets) }}
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
       - name: setup_groovy
-        uses: wtfjoke/setup-groovy@v1
+        uses: wtfjoke/setup-groovy@v2
         with:
           groovy-version: 4.x
       - name: env
@@ -65,15 +65,17 @@ jobs:
         run: |
           tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
       - name: concatenate_artifacts
+        id: artifacts
         run: |
           mkdir -p artifacts/${{matrix.dataset}}
           for lang in cpp groovy ; do
             cat tmp/${lang}*.out > artifacts/${{matrix.dataset}}/${lang}.txt ;
           done
+          echo "artifact_name=groovy_vs_cpp__$(echo ${{matrix.dataset}} | sed 's;/;_;g')" | tee -a $GITHUB_OUTPUT
       - name: upload_artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: groovy_vs_cpp
+          name: ${{ steps.artifacts.outputs.artifact_name }}
           retention-days: 3
           path: artifacts/*
 
