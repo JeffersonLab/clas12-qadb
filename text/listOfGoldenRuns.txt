@@ -877,17 +877,17 @@
  6639  defect
  6640  defect
  6642  defect
- 6645  gold (and silver)
+ 6645  defect
  6647  defect
- 6648  gold (and silver)
- 6650  silver
+ 6648  defect
+ 6650  defect
  6651  defect
  6652  defect
  6654  defect
  6655  defect
  6656  defect
  6657  defect
- 6658  silver
+ 6658  defect
  6660  defect
  6661  defect
  6662  defect
@@ -895,19 +895,19 @@
  6664  defect
  6665  defect
  6666  defect
- 6667  gold (and silver)
+ 6667  defect
  6668  defect
- 6669  gold (and silver)
+ 6669  defect
  6670  defect
  6672  defect
- 6673  gold (and silver)
+ 6673  defect
  6675  defect
  6676  defect
  6677  defect
  6678  defect
  6680  defect
- 6682  silver
- 6683  gold (and silver)
+ 6682  defect
+ 6683  defect
  6684  defect
  6685  defect
  6687  defect
@@ -936,8 +936,8 @@
  6715  defect
  6716  defect
  6717  defect
- 6718  gold (and silver)
- 6719  gold (and silver)
+ 6718  defect
+ 6719  defect
  6722  defect
  6723  defect
  6724  defect
@@ -945,7 +945,7 @@
  6728  defect
  6729  defect
  6730  defect
- 6731  gold (and silver)
+ 6731  defect
  6732  defect
  6733  defect
  6734  defect
@@ -963,7 +963,6 @@
  6748  defect
  6749  defect
  6750  defect
- 6751  defect
  6753  defect
  6754  defect
  6755  defect
@@ -971,9 +970,9 @@
  6757  defect
  6759  defect
  6760  defect
- 6762  gold (and silver)
+ 6762  defect
  6763  defect
- 6764  gold (and silver)
+ 6764  defect
  6765  defect
  6767  defect
  6768  defect
