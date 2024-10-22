@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc, char ** argv) {
 
-  QA::QADB * qa = new QA::QADB();
+  QA::QADB * qa = new QA::QADB("latest");
   
   /// get sorted list of runs
   auto qaTree = qa->GetQaTree();

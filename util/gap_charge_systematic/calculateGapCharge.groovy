@@ -16,7 +16,7 @@ if(args.length<1) {
   System.exit(101)
 }
 def arg_runnum = args[0].toInteger()
-QADB qa = new QADB()
+QADB qa = new QADB("latest")
 
 // define output file
 def datfileName   = "charge_gaps.dat"

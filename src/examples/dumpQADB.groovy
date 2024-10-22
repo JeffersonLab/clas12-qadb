@@ -18,9 +18,9 @@ println "dump QADB for RUN NUMBER $runnum"
 
 
 // instantiate QADB
-QADB qa = new QADB()
+QADB qa = new QADB("latest")
 // alternatively, specify run range to restrict QADB (may be more efficient)
-//QADB qa = new QADB(5000,5500);
+//QADB qa = new QADB("latest",5000,5500);
 
 
 // loop through QA bins

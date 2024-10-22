@@ -5,7 +5,7 @@
 
 import clasqa.QADB
 
-QADB qa = new QADB()
+QADB qa = new QADB("latest")
 def gold,silver
 def defect
 

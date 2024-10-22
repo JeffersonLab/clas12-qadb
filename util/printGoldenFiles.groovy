@@ -2,7 +2,7 @@
 // - "golden" means no defects
 
 import clasqa.QADB
-QADB qa = new QADB()
+QADB qa = new QADB("latest")
 
 // open output file writer
 def outFileObj = new File(System.getenv('QADB')+"/text/listOfGoldenFiles.txt")

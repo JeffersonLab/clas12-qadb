@@ -28,9 +28,9 @@ int main(int argc, char** argv) {
 
 
   // instantiate QADB
-  QADB * qa = new QADB();
+  QADB * qa = new QADB("latest");
   // alternatively, specify run range to restrict QADB (may be more efficient)
-  //QADB * qa = new QADB(5000,5500);
+  //QADB * qa = new QADB("latest",5000,5500);
 
   // custom QA cut definition
   // - decide which defects you want to check for; an event will not pass
