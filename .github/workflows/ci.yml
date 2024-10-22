@@ -65,15 +65,17 @@ jobs:
         run: |
           tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
       - name: concatenate_artifacts
+        id: artifacts
         run: |
           mkdir -p artifacts/${{matrix.dataset}}
           for lang in cpp groovy ; do
             cat tmp/${lang}*.out > artifacts/${{matrix.dataset}}/${lang}.txt ;
           done
+          echo "artifact_name=groovy_vs_cpp__$(echo ${{matrix.dataset}} | sed 's;/;_;g')" | tee -a $GITHUB_OUTPUT
       - name: upload_artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: groovy_vs_cpp__${{matrix.dataset}}
+          name: ${{ steps.artifacts.outputs.artifact_name }}
           retention-days: 3
           path: artifacts/*
 
