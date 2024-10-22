@@ -134,7 +134,6 @@ You may access the QADB in many ways:
   the section *QA data storage, Table files* below for details for how
   to read these files
 * QADB JSON files are stored in `qadb/*/qaTree.json`
-* there are also some text files stored in `text/`, but they are no longer maintained
 
 ## Software Access
 
@@ -265,9 +264,7 @@ Documentation for QADB maintenance and revision
   * [ ] `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
   * [ ] add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
-  * [ ] run `source environ.sh` and:
-      * [ ] run `bin/makeTables.sh`
-      * [ ] run `bin/makeTextFiles.sh`
+  * [ ] run `source environ.sh`, then `bin/makeTables.sh`
   * [x] ~~update customized QA criteria sets, such as `OkForAsymmetry`~~ this function is no longer maintained
   * [ ] update the above table of data sets
   * [ ] submit a pull request
