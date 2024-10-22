@@ -55,7 +55,8 @@ namespace QA {
       inline QADB(int runnumMin_=-1, int runnumMax=-1, bool verbose_=false) {
         std::cerr << R"(| ERROR: the QADB constructor now requires you to specify the cook as the first argument
 |   - use "latest" to use the latest available cook's QADB
-|     - see the QADB documentation for the list of available QADBs
+|     - see the QADB documentation for the list of available QADBs,
+|       https://github.com/JeffersonLab/clas12-qadb/blob/main/README.md
 |     - the latest cook may not yet have a QADB
 |   - use "pass1" to restrict to Pass 1 cooks
 |     - older data may have less QA defect bits, or other issues
@@ -253,8 +254,7 @@ namespace QA {
     if(verbose) std::cout << "\n[+] find json files" << std::endl;
     std::string dbDirN = getenv("QADB") ? getenv("QADB") : "";
     if(dbDirN.compare("")==0) {
-      std::cerr << "ERROR: QADB environment variable not set" << std::endl;
-      return;
+      throw std::runtime_error("QADB environment variable not set");
     };
     dbDirN += "/qadb";
     std::set<std::string> cooks_avail{"latest", "pass1", "pass2"};

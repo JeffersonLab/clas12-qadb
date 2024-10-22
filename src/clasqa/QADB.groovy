@@ -27,15 +27,13 @@ class QADB {
     nbits = util.bitDefinitions.size()
     dbDirN = System.getenv('QADB')
     if(dbDirN==null) {
-      System.err << "ERROR: env var QADB not set; source environ.sh\n\n\n"
-      return
+      throw new Exception("env var QADB not set; source environ.sh")
     }
     dbDirN += '/qadb'
     if(cook in ["latest", "pass1", "pass2"]) {
       dbDirN += "/${cook}"
     } else {
-      System.err << "\nERROR: cook '${cook}' is not available in the QADB\n\n"
-      return
+      throw new Exception("cook '${cook}' is not available in the QADB")
     }
     if(verbose) println("QADB dir = ${dbDirN}")
 
@@ -126,13 +124,14 @@ class QADB {
   public QADB(int runnumMin=-1, runnumMax=-1, boolean verbose_=false) {
     System.err.print('''| ERROR: the QADB constructor now requires you to specify the cook as the first argument
 |   - use "latest" to use the latest available cook's QADB
-|     - see the QADB documentation for the list of available QADBs
+|     - see the QADB documentation for the list of available QADBs,
+|       https://github.com/JeffersonLab/clas12-qadb/blob/main/README.md
 |     - the latest cook may not yet have a QADB
 |   - use "pass1" to restrict to Pass 1 cooks
 |     - older data may have less QA defect bits, or other issues
 |   - use "pass2" to restrict to Pass 2 data, etc.
 ''')
-    return
+    throw new Exception("please specify the cook");
   }
 
   //...............................
