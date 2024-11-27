@@ -41,7 +41,7 @@ jobs:
       - get_datasets
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix: ${{ fromJson(needs.get_datasets.outputs.datasets) }}
     steps:
       - name: checkout
