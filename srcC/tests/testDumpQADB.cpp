@@ -27,14 +27,16 @@ int main(int argc, char ** argv) {
 
   // specify run number
   int runnum = 5160; // default
+  std::string cook = "latest";
   if(argc>1) runnum = (int) strtof(argv[1],NULL);
-  cout << "test QADB for RUN NUMBER " << runnum << endl;
+  if(argc>2) cook = std::string(argv[2]);
+  cout << "test QADB for RUN NUMBER " << runnum << " COOK " << cook << endl;
 
 
   // instantiate QADB
-  QADB * qa = new QADB("latest");
+  QADB * qa = new QADB(cook);
   // alternatively, specify run range to restrict QADB (may be more efficient)
-  //QADB * qa = new QADB("latest",5000,5500);
+  //QADB * qa = new QADB(cook,5000,5500);
 
 
   
@@ -65,13 +67,13 @@ int main(int argc, char ** argv) {
       err("GetEvnumMin() >= GetEvnumMax()");
 
     // print charge (convert to pC and truncate, for easier comparison)
-    chargeInt = (int) (1000*qa->GetCharge());
-    cout << "- charge,comment" << endl;
-    cout << chargeInt << endl;
+    // chargeInt = (int) (1000*qa->GetCharge()); // FIXME: too many warnings
+    // cout << "- charge" << endl;
+    // cout << chargeInt << endl;
     qa->AccumulateCharge();
 
     // print comment
-    cout << "\"" << qa->GetComment() << "\"" << endl;
+    cout << "comment: \"" << qa->GetComment() << "\"" << endl;
 
 
     // print overall defect info
@@ -104,9 +106,9 @@ int main(int argc, char ** argv) {
     };
 
     // print QA cuts (see above for custom cut check with mask)
-    cout << "- cuts" << endl;
-    cout << qa->Golden(runnum,evnum) << endl;
-    cout << qa->OkForAsymmetry(runnum,evnum) << endl;
+    // cout << "- cuts" << endl;
+    // cout << qa->Golden(runnum,evnum) << endl; // disabled, because of verbose deprecation warnings
+    // cout << qa->OkForAsymmetry(runnum,evnum) << endl;
   };
 
   sep("=",50);

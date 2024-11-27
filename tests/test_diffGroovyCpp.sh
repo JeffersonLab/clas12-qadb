@@ -8,9 +8,10 @@ if [ -z "$QADB" ]; then
   exit 1
 fi
 
+cook=latest
 if [ $# -lt 2 ]; then
   echo """
-USAGE: $0 [test name] [run number]
+USAGE: $0 [test name] [run number] [cook(default=$cook)]
 
 - [test name] can be any of:
 $(ls src/tests | sed 's/^test//' | sed 's/\.groovy$//')
@@ -22,19 +23,20 @@ fi
 
 testname=$1
 run=$2
+[ $# -ge 3 ] && cook=$3
 
 mkdir -p ${QADB}/tmp
 
 # groovy test
 echo "EXECUTE GROOVY TEST $testname RUN $run"
 pushd ${QADB}/src/tests
-groovy -cp "$JYPATH" test${testname}.groovy $run > ${QADB}/tmp/groovy.${run}.out
+groovy -cp "$JYPATH" test${testname}.groovy $run $cook > ${QADB}/tmp/groovy.${run}.out
 popd
 
 # c++ test
 echo "EXECUTE C++ TEST $testname RUN $run"
 pushd ${QADB}/srcC/tests
-./test${testname}.exe $run > ${QADB}/tmp/cpp.${run}.out
+./test${testname}.exe $run $cook > ${QADB}/tmp/cpp.${run}.out
 popd
 
 # compare
