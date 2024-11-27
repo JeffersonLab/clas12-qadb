@@ -58,12 +58,12 @@ for(int filenum=0; filenum<=qa.getMaxBinnum(runnum); filenum++) {
     err("GetEvnumMin() >= GetEvnumMax()");
 
   // print charge (convert to pC and truncate, for easier comparison)
-  println "- charge,comment"
-  println ((int)(1000*qa.getCharge()))
+  // println "- charge"
+  // println ((int)(1000*qa.getCharge())) // FIXME: too many warnings
   qa.accumulateCharge();
 
   // print comment
-  println "\"" + qa.getComment() + "\""
+  println "comment: \"" + qa.getComment() + "\""
 
 
   // print overall defect info

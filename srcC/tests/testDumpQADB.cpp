@@ -65,13 +65,13 @@ int main(int argc, char ** argv) {
       err("GetEvnumMin() >= GetEvnumMax()");
 
     // print charge (convert to pC and truncate, for easier comparison)
-    chargeInt = (int) (1000*qa->GetCharge());
-    cout << "- charge,comment" << endl;
-    cout << chargeInt << endl;
+    // chargeInt = (int) (1000*qa->GetCharge()); // FIXME: too many warnings
+    // cout << "- charge" << endl;
+    // cout << chargeInt << endl;
     qa->AccumulateCharge();
 
     // print comment
-    cout << "\"" << qa->GetComment() << "\"" << endl;
+    cout << "comment: \"" << qa->GetComment() << "\"" << endl;
 
 
     // print overall defect info
