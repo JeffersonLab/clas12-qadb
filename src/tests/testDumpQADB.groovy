@@ -19,14 +19,16 @@ def err = { s -> System.err << "ERROR: $s\n" }
 
 // specify run number
 int runnum = 5160
+String cook = "latest"
 if(args.length>=1) runnum = args[0].toInteger()
-println "test QADB for RUN NUMBER $runnum"
+if(args.length>=2) cook = args[1]
+println "test QADB for RUN NUMBER $runnum COOK $cook"
 
 
 // instantiate QADB
-QADB qa = new QADB("latest")
+QADB qa = new QADB(cook)
 // alternatively, specify run range to restrict QADB (may be more efficient)
-//QADB qa = new QADB("latest",5000,5500);
+//QADB qa = new QADB(cook,5000,5500);
 
 
 // loop through files
