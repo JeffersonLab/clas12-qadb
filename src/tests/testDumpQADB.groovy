@@ -96,9 +96,9 @@ for(int filenum=0; filenum<=qa.getMaxBinnum(runnum); filenum++) {
   };
 
   // print QA cuts (see above for custom cut check with mask)
-  println "- cuts"
-  println (qa.golden(runnum,evnum)?1:0)
-  println (qa.OkForAsymmetry(runnum,evnum)?1:0)
+  // println "- cuts"
+  // println (qa.golden(runnum,evnum)?1:0) // disabled, because of verbose deprecation warnings
+  // println (qa.OkForAsymmetry(runnum,evnum)?1:0)
 }
 sep("=",50);
 

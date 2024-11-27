@@ -104,9 +104,9 @@ int main(int argc, char ** argv) {
     };
 
     // print QA cuts (see above for custom cut check with mask)
-    cout << "- cuts" << endl;
-    cout << qa->Golden(runnum,evnum) << endl;
-    cout << qa->OkForAsymmetry(runnum,evnum) << endl;
+    // cout << "- cuts" << endl;
+    // cout << qa->Golden(runnum,evnum) << endl; // disabled, because of verbose deprecation warnings
+    // cout << qa->OkForAsymmetry(runnum,evnum) << endl;
   };
 
   sep("=",50);
