@@ -592,296 +592,296 @@ RUN: 5045
 5045 63  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 5046
-5046 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5046 1  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]
-5046 2  0-TotalOutlier[all]  4-LowLiveTime[all]  10-BSAWrong[all]
-5046 3  10-BSAWrong[all]
-5046 4  10-BSAWrong[all]
-5046 5  10-BSAWrong[all]
-5046 6  10-BSAWrong[all]
-5046 7  10-BSAWrong[all]
-5046 8  10-BSAWrong[all]
-5046 9  10-BSAWrong[all]
-5046 10  10-BSAWrong[all]
-5046 11  10-BSAWrong[all]
-5046 12  10-BSAWrong[all]
-5046 13  10-BSAWrong[all]
-5046 14  10-BSAWrong[all]
-5046 15  10-BSAWrong[all]
-5046 16  10-BSAWrong[all]
-5046 17  10-BSAWrong[all]
-5046 18  10-BSAWrong[all]
-5046 19  10-BSAWrong[all]
-5046 20  10-BSAWrong[all]
-5046 21  10-BSAWrong[all]
-5046 22  10-BSAWrong[all]
-5046 23  10-BSAWrong[all]
-5046 24  10-BSAWrong[all]
-5046 25  10-BSAWrong[all]
-5046 26  10-BSAWrong[all]
-5046 27  10-BSAWrong[all]
-5046 28  10-BSAWrong[all]
-5046 29  10-BSAWrong[all]
-5046 30  10-BSAWrong[all]
-5046 31  10-BSAWrong[all]
-5046 32  10-BSAWrong[all]
-5046 33  10-BSAWrong[all]
-5046 34  10-BSAWrong[all]
-5046 35  10-BSAWrong[all]
-5046 36  10-BSAWrong[all]
-5046 37  10-BSAWrong[all]
-5046 38  10-BSAWrong[all]
-5046 39  10-BSAWrong[all]
-5046 40  10-BSAWrong[all]
-5046 41  10-BSAWrong[all]
-5046 42  10-BSAWrong[all]
-5046 43  10-BSAWrong[all]
-5046 44  10-BSAWrong[all]
-5046 45  10-BSAWrong[all]
-5046 46  10-BSAWrong[all]
-5046 47  10-BSAWrong[all]
-5046 48  10-BSAWrong[all]
-5046 49  10-BSAWrong[all]
-5046 50  10-BSAWrong[all]
-5046 51  10-BSAWrong[all]
-5046 52  10-BSAWrong[all]
-5046 53  10-BSAWrong[all]
-5046 54  10-BSAWrong[all]
-5046 55  10-BSAWrong[all]
-5046 56  10-BSAWrong[all]
-5046 57  10-BSAWrong[all]
-5046 58  10-BSAWrong[all]
-5046 59  10-BSAWrong[all]
-5046 60  10-BSAWrong[all]
-5046 61  10-BSAWrong[all]
-5046 62  10-BSAWrong[all]
-5046 63  10-BSAWrong[all]
-5046 64  10-BSAWrong[all]
-5046 65  10-BSAWrong[all]
-5046 66  10-BSAWrong[all]
-5046 67  10-BSAWrong[all]
-5046 68  10-BSAWrong[all]
-5046 69  10-BSAWrong[all]
-5046 70  10-BSAWrong[all]
-5046 71  10-BSAWrong[all]
-5046 72  10-BSAWrong[all]
-5046 73  10-BSAWrong[all]
-5046 74  10-BSAWrong[all]
-5046 75  10-BSAWrong[all]
-5046 76  10-BSAWrong[all]
-5046 77  10-BSAWrong[all]
-5046 78  10-BSAWrong[all]
-5046 79  10-BSAWrong[all]
-5046 80  10-BSAWrong[all]
-5046 81  10-BSAWrong[all]
-5046 82  10-BSAWrong[all]
-5046 83  10-BSAWrong[all]
-5046 84  10-BSAWrong[all]
-5046 85  10-BSAWrong[all]
-5046 86  10-BSAWrong[all]
-5046 87  10-BSAWrong[all]
-5046 88  10-BSAWrong[all]
-5046 89  10-BSAWrong[all]
-5046 90  10-BSAWrong[all]
-5046 91  10-BSAWrong[all]
-5046 92  10-BSAWrong[all]
-5046 93  10-BSAWrong[all]
-5046 94  10-BSAWrong[all]
-5046 95  10-BSAWrong[all]
-5046 96  10-BSAWrong[all]
-5046 97  10-BSAWrong[all]
-5046 98  10-BSAWrong[all]
-5046 99  10-BSAWrong[all]
-5046 100  10-BSAWrong[all]
-5046 101  10-BSAWrong[all]
-5046 102  10-BSAWrong[all]
-5046 103  10-BSAWrong[all]
-5046 104  10-BSAWrong[all]
-5046 105  10-BSAWrong[all]
-5046 106  10-BSAWrong[all]
-5046 107  10-BSAWrong[all]
-5046 108  10-BSAWrong[all]
-5046 109  10-BSAWrong[all]
-5046 110  10-BSAWrong[all]
-5046 111  10-BSAWrong[all]
-5046 112  10-BSAWrong[all]
-5046 113  10-BSAWrong[all]
-5046 114  10-BSAWrong[all]
-5046 115  10-BSAWrong[all]
-5046 116  10-BSAWrong[all]
-5046 117  10-BSAWrong[all]
-5046 118  10-BSAWrong[all]
-5046 119  10-BSAWrong[all]
-5046 120  10-BSAWrong[all]
-5046 121  10-BSAWrong[all]
-5046 122  10-BSAWrong[all]
-5046 123  10-BSAWrong[all]
-5046 124  10-BSAWrong[all]
-5046 125  10-BSAWrong[all]
-5046 126  10-BSAWrong[all]
-5046 127  10-BSAWrong[all]
-5046 128  10-BSAWrong[all]
-5046 129  10-BSAWrong[all]
-5046 130  10-BSAWrong[all]
-5046 131  10-BSAWrong[all]
-5046 132  10-BSAWrong[all]
-5046 133  10-BSAWrong[all]
-5046 134  10-BSAWrong[all]
-5046 135  10-BSAWrong[all]
-5046 136  10-BSAWrong[all]
-5046 137  10-BSAWrong[all]
-5046 138  10-BSAWrong[all]
-5046 139  10-BSAWrong[all]
-5046 140  10-BSAWrong[all]
-5046 141  10-BSAWrong[all]
-5046 142  10-BSAWrong[all]
-5046 143  10-BSAWrong[all]
-5046 144  10-BSAWrong[all]
-5046 145  10-BSAWrong[all]
-5046 146  10-BSAWrong[all]
-5046 147  10-BSAWrong[all]
-5046 148  10-BSAWrong[all]
-5046 149  10-BSAWrong[all]
-5046 150  10-BSAWrong[all]
-5046 151  10-BSAWrong[all]
-5046 152  10-BSAWrong[all]
-5046 153  10-BSAWrong[all]
-5046 154  10-BSAWrong[all]
-5046 155  10-BSAWrong[all]
-5046 156  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5046 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT HV off
+5046 1  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: MVT HV off
+5046 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 3  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 4  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 5  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 6  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 7  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 8  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 9  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 10  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 11  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 12  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 13  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 14  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 15  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 16  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 17  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 18  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 19  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 20  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 21  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 22  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 23  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 24  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 25  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 26  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 27  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 28  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 29  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 30  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 31  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 32  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 33  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 34  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 35  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 36  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 37  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 38  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 39  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 40  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 41  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 42  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 43  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 44  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 45  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 46  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 47  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 48  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 49  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 50  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 51  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 52  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 53  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 54  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 55  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 56  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 57  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 58  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 59  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 60  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 61  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 62  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 63  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 64  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 65  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 66  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 67  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 68  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 69  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 70  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 71  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 72  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 73  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 74  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 75  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 76  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 77  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 78  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 79  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 80  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 81  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 82  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 83  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 84  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 85  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 86  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 87  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 88  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 89  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 90  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 91  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 92  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 93  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 94  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 95  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 96  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 97  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 98  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 99  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 100  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 101  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 102  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 103  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 104  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 105  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 106  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 107  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 108  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 109  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 110  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 111  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 112  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 113  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 114  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 115  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 116  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 117  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 118  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 119  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 120  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 121  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 122  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 123  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 124  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 125  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 126  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 127  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 128  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 129  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 130  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 131  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 132  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 133  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 134  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 135  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 136  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 137  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 138  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 139  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 140  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 141  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 142  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 143  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 144  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 145  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 146  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 147  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 148  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 149  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 150  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 151  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 152  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 153  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 154  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 155  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5046 156  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT HV off
 
 RUN: 5047
-5047 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5047 1  10-BSAWrong[all]
-5047 2  10-BSAWrong[all]
-5047 3  10-BSAWrong[all]
-5047 4  10-BSAWrong[all]
-5047 5  10-BSAWrong[all]
-5047 6  10-BSAWrong[all]
-5047 7  10-BSAWrong[all]
-5047 8  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5047 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT HV off
+5047 1  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5047 2  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5047 3  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5047 4  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5047 5  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5047 6  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5047 7  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5047 8  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT HV off
 
 RUN: 5051
-5051 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT one sector off
-5051 1  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 2  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 3  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 4  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 5  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 6  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 7  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 8  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 9  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 10  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 11  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 12  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 13  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 14  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 15  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 16  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 17  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 18  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 19  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 20  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 21  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 22  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 23  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 24  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 25  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 26  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 27  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 28  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 29  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 30  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 31  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 32  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 33  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 34  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 35  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 36  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 37  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 38  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 39  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 40  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 41  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 42  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 43  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 44  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 45  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 46  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 47  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 48  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 49  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 50  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 51  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 52  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 53  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 54  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 55  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 56  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 57  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 58  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 59  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 60  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 61  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 62  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 63  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 64  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 65  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 66  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 67  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 68  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 69  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 70  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 71  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 72  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 73  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 74  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 75  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 76  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 77  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 78  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 79  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 80  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 81  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 82  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 83  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 84  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 85  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 86  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 87  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 88  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 89  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 90  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 91  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 92  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 93  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 94  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 95  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 96  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 97  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 98  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 99  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 100  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 101  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 102  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 103  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 104  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 105  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 106  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 107  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 108  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 109  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 110  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 111  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 112  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 113  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 114  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 115  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 116  5-Misc[all]  10-BSAWrong[all]  :: MVT one sector off
-5051 117  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: MVT one sector off
-5051 118  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: MVT one sector off
-5051 119  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT one sector off
+5051 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT HV off
+5051 1  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 2  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 3  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 4  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 5  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 6  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 7  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 8  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 9  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 10  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 11  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 12  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 13  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 14  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 15  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 16  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 17  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 18  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 19  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 20  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 21  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 22  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 23  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 24  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 25  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 26  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 27  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 28  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 29  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 30  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 31  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 32  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 33  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 34  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 35  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 36  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 37  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 38  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 39  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 40  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 41  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 42  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 43  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 44  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 45  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 46  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 47  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 48  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 49  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 50  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 51  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 52  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 53  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 54  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 55  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 56  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 57  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 58  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 59  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 60  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 61  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 62  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 63  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 64  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 65  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 66  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 67  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 68  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 69  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 70  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 71  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 72  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 73  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 74  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 75  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 76  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 77  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 78  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 79  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 80  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 81  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 82  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 83  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 84  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 85  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 86  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 87  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 88  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 89  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 90  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 91  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 92  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 93  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 94  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 95  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 96  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 97  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 98  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 99  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 100  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 101  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 102  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 103  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 104  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 105  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 106  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 107  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 108  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 109  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 110  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 111  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 112  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 113  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 114  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 115  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 116  5-Misc[all]  10-BSAWrong[all]  :: MVT HV off
+5051 117  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: MVT HV off
+5051 118  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: MVT HV off
+5051 119  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT HV off
 
 RUN: 5052
 5052 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -17347,293 +17347,293 @@ RUN: 5417
 5417 97  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: no htcc in trigger
 
 RUN: 5418
-5418 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5418 1  10-BSAWrong[all]
-5418 2  10-BSAWrong[all]
-5418 3  10-BSAWrong[all]
-5418 4  10-BSAWrong[all]
-5418 5  10-BSAWrong[all]
-5418 6  10-BSAWrong[all]
-5418 7  10-BSAWrong[all]
-5418 8  10-BSAWrong[all]
-5418 9  2-MarginalOutlier[2]  10-BSAWrong[all]
-5418 10  10-BSAWrong[all]
-5418 11  10-BSAWrong[all]
-5418 12  10-BSAWrong[all]
-5418 13  10-BSAWrong[all]
-5418 14  10-BSAWrong[all]
-5418 15  10-BSAWrong[all]
-5418 16  10-BSAWrong[all]
-5418 17  10-BSAWrong[all]
-5418 18  10-BSAWrong[all]
-5418 19  10-BSAWrong[all]
-5418 20  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5418 21  10-BSAWrong[all]
-5418 22  10-BSAWrong[all]
-5418 23  10-BSAWrong[all]
-5418 24  10-BSAWrong[all]
-5418 25  2-MarginalOutlier[6]  10-BSAWrong[all]
-5418 26  10-BSAWrong[all]
-5418 27  10-BSAWrong[all]
-5418 28  10-BSAWrong[all]
-5418 29  10-BSAWrong[all]
-5418 30  10-BSAWrong[all]
-5418 31  10-BSAWrong[all]
-5418 32  10-BSAWrong[all]
-5418 33  10-BSAWrong[all]
-5418 34  10-BSAWrong[all]
-5418 35  10-BSAWrong[all]
-5418 36  10-BSAWrong[all]
-5418 37  10-BSAWrong[all]
-5418 38  10-BSAWrong[all]
-5418 39  10-BSAWrong[all]
-5418 40  10-BSAWrong[all]
-5418 41  10-BSAWrong[all]
-5418 42  2-MarginalOutlier[5]  10-BSAWrong[all]
-5418 43  10-BSAWrong[all]
-5418 44  2-MarginalOutlier[6]  10-BSAWrong[all]
-5418 45  10-BSAWrong[all]
-5418 46  10-BSAWrong[all]
-5418 47  2-MarginalOutlier[5]  10-BSAWrong[all]
-5418 48  10-BSAWrong[all]
-5418 49  10-BSAWrong[all]
-5418 50  10-BSAWrong[all]
-5418 51  2-MarginalOutlier[6]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5418 52  2-MarginalOutlier[6]  10-BSAWrong[all]
-5418 53  10-BSAWrong[all]
-5418 54  10-BSAWrong[all]
-5418 55  10-BSAWrong[all]
-5418 56  10-BSAWrong[all]
-5418 57  2-MarginalOutlier[6]  10-BSAWrong[all]
-5418 58  2-MarginalOutlier[6]  10-BSAWrong[all]
-5418 59  10-BSAWrong[all]
-5418 60  10-BSAWrong[all]
-5418 61  10-BSAWrong[all]
-5418 62  10-BSAWrong[all]
-5418 63  10-BSAWrong[all]
-5418 64  2-MarginalOutlier[5]  10-BSAWrong[all]
-5418 65  10-BSAWrong[all]
-5418 66  10-BSAWrong[all]
-5418 67  10-BSAWrong[all]
-5418 68  10-BSAWrong[all]
-5418 69  10-BSAWrong[all]
-5418 70  10-BSAWrong[all]
-5418 71  2-MarginalOutlier[6]  10-BSAWrong[all]
-5418 72  10-BSAWrong[all]
-5418 73  10-BSAWrong[all]
-5418 74  10-BSAWrong[all]
-5418 75  10-BSAWrong[all]
-5418 76  10-BSAWrong[all]
-5418 77  10-BSAWrong[all]
-5418 78  10-BSAWrong[all]
-5418 79  10-BSAWrong[all]
-5418 80  10-BSAWrong[all]
-5418 81  10-BSAWrong[all]
-5418 82  10-BSAWrong[all]
-5418 83  10-BSAWrong[all]
-5418 84  10-BSAWrong[all]
-5418 85  2-MarginalOutlier[6]  10-BSAWrong[all]
-5418 86  10-BSAWrong[all]
-5418 87  10-BSAWrong[all]
-5418 88  10-BSAWrong[all]
-5418 89  10-BSAWrong[all]
-5418 90  10-BSAWrong[all]
-5418 91  2-MarginalOutlier[1, 5]  10-BSAWrong[all]
-5418 92  10-BSAWrong[all]
-5418 93  10-BSAWrong[all]
-5418 94  2-MarginalOutlier[3]  10-BSAWrong[all]
-5418 95  10-BSAWrong[all]
-5418 96  10-BSAWrong[all]
-5418 97  10-BSAWrong[all]
-5418 98  10-BSAWrong[all]
-5418 99  10-BSAWrong[all]
-5418 100  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5418 101  10-BSAWrong[all]
-5418 102  2-MarginalOutlier[4]  10-BSAWrong[all]
-5418 103  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5418 104  10-BSAWrong[all]
-5418 105  10-BSAWrong[all]
-5418 106  10-BSAWrong[all]
-5418 107  10-BSAWrong[all]
-5418 108  10-BSAWrong[all]
-5418 109  10-BSAWrong[all]
-5418 110  10-BSAWrong[all]
-5418 111  10-BSAWrong[all]
-5418 112  10-BSAWrong[all]
-5418 113  10-BSAWrong[all]
-5418 114  10-BSAWrong[all]
-5418 115  10-BSAWrong[all]
-5418 116  10-BSAWrong[all]
-5418 117  10-BSAWrong[all]
-5418 118  10-BSAWrong[all]
-5418 119  10-BSAWrong[all]
-5418 120  10-BSAWrong[all]
-5418 121  10-BSAWrong[all]
-5418 122  10-BSAWrong[all]
-5418 123  10-BSAWrong[all]
-5418 124  2-MarginalOutlier[3]  10-BSAWrong[all]
-5418 125  10-BSAWrong[all]
-5418 126  10-BSAWrong[all]
-5418 127  10-BSAWrong[all]
-5418 128  10-BSAWrong[all]
-5418 129  10-BSAWrong[all]
-5418 130  10-BSAWrong[all]
-5418 131  10-BSAWrong[all]
-5418 132  2-MarginalOutlier[all]  10-BSAWrong[all]
-5418 133  10-BSAWrong[all]
-5418 134  10-BSAWrong[all]
-5418 135  10-BSAWrong[all]
-5418 136  10-BSAWrong[all]
-5418 137  10-BSAWrong[all]
-5418 138  10-BSAWrong[all]
-5418 139  10-BSAWrong[all]
-5418 140  10-BSAWrong[all]
-5418 141  10-BSAWrong[all]
-5418 142  10-BSAWrong[all]
-5418 143  10-BSAWrong[all]
-5418 144  10-BSAWrong[all]
-5418 145  10-BSAWrong[all]
-5418 146  10-BSAWrong[all]
-5418 147  10-BSAWrong[all]
-5418 148  10-BSAWrong[all]
-5418 149  10-BSAWrong[all]
-5418 150  10-BSAWrong[all]
-5418 151  10-BSAWrong[all]
-5418 152  10-BSAWrong[all]
-5418 153  2-MarginalOutlier[4, 6]  10-BSAWrong[all]
-5418 154  10-BSAWrong[all]
-5418 155  10-BSAWrong[all]
-5418 156  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-5418 157  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5418 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run
+5418 1  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 2  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 3  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 4  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 5  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 6  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 7  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 8  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 9  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 10  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 11  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 12  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 13  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 14  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 15  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 16  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 17  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 18  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 19  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 20  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5418 21  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 22  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 23  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 24  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 25  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 26  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 27  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 28  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 29  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 30  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 31  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 32  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 33  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 34  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 35  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 36  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 37  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 38  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 39  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 40  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 41  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 42  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 43  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 44  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 45  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 46  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 47  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 48  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 49  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 50  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 51  2-MarginalOutlier[6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5418 52  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 53  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 54  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 55  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 56  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 57  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 58  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 59  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 60  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 61  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 62  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 63  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 64  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 65  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 66  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 67  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 68  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 69  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 70  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 71  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 72  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 73  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 74  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 75  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 76  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 77  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 78  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 79  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 80  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 81  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 82  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 83  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 84  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 85  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 86  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 87  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 88  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 89  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 90  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 91  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 92  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 93  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 94  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 95  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 96  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 97  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 98  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 99  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 100  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5418 101  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 102  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 103  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5418 104  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 105  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 106  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 107  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 108  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 109  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 110  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 111  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 112  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 113  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 114  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 115  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 116  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 117  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 118  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 119  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 120  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 121  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 122  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 123  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 124  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 125  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 126  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 127  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 128  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 129  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 130  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 131  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 132  2-MarginalOutlier[all]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 133  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 134  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 135  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 136  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 137  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 138  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 139  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 140  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 141  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 142  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 143  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 144  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 145  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 146  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 147  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 148  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 149  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 150  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 151  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 152  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 153  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 154  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 155  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5418 156  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: low lumi run
+5418 157  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run
 
 RUN: 5419
-5419 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5419 1  10-BSAWrong[all]
-5419 2  10-BSAWrong[all]
-5419 3  10-BSAWrong[all]
-5419 4  10-BSAWrong[all]
-5419 5  10-BSAWrong[all]
-5419 6  10-BSAWrong[all]
-5419 7  10-BSAWrong[all]
-5419 8  10-BSAWrong[all]
-5419 9  10-BSAWrong[all]
-5419 10  10-BSAWrong[all]
-5419 11  10-BSAWrong[all]
-5419 12  2-MarginalOutlier[3]  10-BSAWrong[all]
-5419 13  10-BSAWrong[all]
-5419 14  10-BSAWrong[all]
-5419 15  10-BSAWrong[all]
-5419 16  10-BSAWrong[all]
-5419 17  10-BSAWrong[all]
-5419 18  10-BSAWrong[all]
-5419 19  10-BSAWrong[all]
-5419 20  10-BSAWrong[all]
-5419 21  10-BSAWrong[all]
-5419 22  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5419 23  10-BSAWrong[all]
-5419 24  10-BSAWrong[all]
-5419 25  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5419 26  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 5, 6]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5419 27  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-5419 28  10-BSAWrong[all]
-5419 29  10-BSAWrong[all]
-5419 30  10-BSAWrong[all]
-5419 31  10-BSAWrong[all]
-5419 32  10-BSAWrong[all]
-5419 33  10-BSAWrong[all]
-5419 34  10-BSAWrong[all]
-5419 35  10-BSAWrong[all]
-5419 36  10-BSAWrong[all]
-5419 37  10-BSAWrong[all]
-5419 38  10-BSAWrong[all]
-5419 39  10-BSAWrong[all]
-5419 40  10-BSAWrong[all]
-5419 41  10-BSAWrong[all]
-5419 42  10-BSAWrong[all]
-5419 43  10-BSAWrong[all]
-5419 44  2-MarginalOutlier[1]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5419 45  10-BSAWrong[all]
-5419 46  10-BSAWrong[all]
-5419 47  10-BSAWrong[all]
-5419 48  10-BSAWrong[all]
-5419 49  10-BSAWrong[all]
-5419 50  10-BSAWrong[all]
-5419 51  10-BSAWrong[all]
-5419 52  10-BSAWrong[all]
-5419 53  10-BSAWrong[all]
-5419 54  10-BSAWrong[all]
-5419 55  10-BSAWrong[all]
-5419 56  2-MarginalOutlier[6]  10-BSAWrong[all]
-5419 57  10-BSAWrong[all]
-5419 58  10-BSAWrong[all]
-5419 59  10-BSAWrong[all]
-5419 60  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5419 61  2-MarginalOutlier[3]  10-BSAWrong[all]
-5419 62  2-MarginalOutlier[5]  10-BSAWrong[all]
-5419 63  10-BSAWrong[all]
-5419 64  10-BSAWrong[all]
-5419 65  10-BSAWrong[all]
-5419 66  2-MarginalOutlier[5]  10-BSAWrong[all]
-5419 67  10-BSAWrong[all]
-5419 68  10-BSAWrong[all]
-5419 69  10-BSAWrong[all]
-5419 70  10-BSAWrong[all]
-5419 71  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5419 72  10-BSAWrong[all]
-5419 73  10-BSAWrong[all]
-5419 74  10-BSAWrong[all]
-5419 75  10-BSAWrong[all]
-5419 76  10-BSAWrong[all]
-5419 77  10-BSAWrong[all]
-5419 78  10-BSAWrong[all]
-5419 79  10-BSAWrong[all]
-5419 80  10-BSAWrong[all]
-5419 81  10-BSAWrong[all]
-5419 82  2-MarginalOutlier[2]  10-BSAWrong[all]
-5419 83  2-MarginalOutlier[all]  10-BSAWrong[all]
-5419 84  2-MarginalOutlier[4]  10-BSAWrong[all]
-5419 85  10-BSAWrong[all]
-5419 86  2-MarginalOutlier[4]  10-BSAWrong[all]
-5419 87  10-BSAWrong[all]
-5419 88  10-BSAWrong[all]
-5419 89  10-BSAWrong[all]
-5419 90  10-BSAWrong[all]
-5419 91  10-BSAWrong[all]
-5419 92  10-BSAWrong[all]
-5419 93  10-BSAWrong[all]
-5419 94  10-BSAWrong[all]
-5419 95  10-BSAWrong[all]
-5419 96  10-BSAWrong[all]
-5419 97  10-BSAWrong[all]
-5419 98  2-MarginalOutlier[2]  10-BSAWrong[all]
-5419 99  10-BSAWrong[all]
-5419 100  2-MarginalOutlier[2]  10-BSAWrong[all]
-5419 101  10-BSAWrong[all]
-5419 102  10-BSAWrong[all]
-5419 103  2-MarginalOutlier[4]  10-BSAWrong[all]
-5419 104  10-BSAWrong[all]
-5419 105  10-BSAWrong[all]
-5419 106  10-BSAWrong[all]
-5419 107  10-BSAWrong[all]
-5419 108  10-BSAWrong[all]
-5419 109  10-BSAWrong[all]
-5419 110  2-MarginalOutlier[6]  10-BSAWrong[all]
-5419 111  10-BSAWrong[all]
-5419 112  10-BSAWrong[all]
-5419 113  2-MarginalOutlier[4, 6]  10-BSAWrong[all]
-5419 114  10-BSAWrong[all]
-5419 115  10-BSAWrong[all]
-5419 116  2-MarginalOutlier[4]  10-BSAWrong[all]
-5419 117  10-BSAWrong[all]
-5419 118  10-BSAWrong[all]
-5419 119  10-BSAWrong[all]
-5419 120  2-MarginalOutlier[5]  10-BSAWrong[all]
-5419 121  2-MarginalOutlier[2, 4]  10-BSAWrong[all]
-5419 122  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-5419 123  0-TotalOutlier[1, 3, 5, 6]  2-MarginalOutlier[2, 4]  10-BSAWrong[all]
-5419 124  10-BSAWrong[all]
-5419 125  10-BSAWrong[all]
-5419 126  2-MarginalOutlier[1, 3, 4, 5, 6]  10-BSAWrong[all]
-5419 127  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-5419 128  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-5419 129  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5419 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run
+5419 1  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 2  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 3  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 4  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 5  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 6  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 7  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 8  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 9  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 10  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 11  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 12  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 13  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 14  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 15  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 16  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 17  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 18  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 19  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 20  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 21  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 22  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5419 23  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 24  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 25  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5419 26  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5419 27  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: low lumi run
+5419 28  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 29  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 30  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 31  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 32  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 33  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 34  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 35  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 36  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 37  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 38  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 39  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 40  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 41  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 42  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 43  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 44  2-MarginalOutlier[1]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5419 45  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 46  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 47  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 48  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 49  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 50  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 51  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 52  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 53  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 54  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 55  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 56  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 57  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 58  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 59  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 60  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5419 61  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 62  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 63  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 64  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 65  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 66  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 67  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 68  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 69  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 70  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 71  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5419 72  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 73  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 74  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 75  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 76  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 77  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 78  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 79  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 80  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 81  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 82  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 83  2-MarginalOutlier[all]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 84  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 85  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 86  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 87  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 88  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 89  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 90  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 91  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 92  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 93  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 94  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 95  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 96  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 97  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 98  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 99  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 100  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 101  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 102  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 103  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 104  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 105  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 106  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 107  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 108  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 109  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 110  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 111  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 112  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 113  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 114  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 115  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 116  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 117  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 118  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 119  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 120  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 121  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 122  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run
+5419 123  0-TotalOutlier[1, 3, 5, 6]  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 124  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 125  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 126  2-MarginalOutlier[1, 3, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run
+5419 127  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: low lumi run
+5419 128  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: low lumi run
+5419 129  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run
