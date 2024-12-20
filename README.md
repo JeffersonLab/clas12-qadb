@@ -15,8 +15,13 @@ CLAS12 experiment at Jefferson Lab
 <a name="info"></a>
 # QA Information
 
-> [!CAUTION]
-> The QADB for older data sets may have some issues. It is **HIGHLY recommended** to [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
+## QA Ground Rules
+
+> [!IMPORTANT]
+> The following rules are enforced for the QA procedure and the resulting QADB:
+> 1. The QA procedure runs on the data as they are and does not fix any of their problems.
+> 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
+> 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
 
 > [!NOTE]
 > The QADB is available on `ifarm` as the `qadb` module:
@@ -46,6 +51,11 @@ The following tables describe the available datasets in the QADB. The columns ar
 > ```
 > You may also check currently loaded version of this `README` file on `ifarm`, which is found at `$QADB/README.md`.
 <!--`-->
+
+> [!CAUTION]
+> The QADB for older data sets may have some issues, and may even violate the
+> above ground rules. It is **HIGHLY recommended** to
+> [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
 
 ### Run Group A
 
