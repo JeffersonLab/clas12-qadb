@@ -2535,161 +2535,161 @@ RUN: 5447
 5447 137  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 5448
-5448 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5448 1  4-LowLiveTime[all]  10-BSAWrong[all]
-5448 2  10-BSAWrong[all]
-5448 3  10-BSAWrong[all]
-5448 4  10-BSAWrong[all]
-5448 5  10-BSAWrong[all]
-5448 6  10-BSAWrong[all]
-5448 7  10-BSAWrong[all]
-5448 8  10-BSAWrong[all]
-5448 9  10-BSAWrong[all]
-5448 10  10-BSAWrong[all]
-5448 11  10-BSAWrong[all]
-5448 12  10-BSAWrong[all]
-5448 13  10-BSAWrong[all]
-5448 14  10-BSAWrong[all]
-5448 15  10-BSAWrong[all]
-5448 16  10-BSAWrong[all]
-5448 17  10-BSAWrong[all]
-5448 18  10-BSAWrong[all]
-5448 19  10-BSAWrong[all]
-5448 20  10-BSAWrong[all]
-5448 21  10-BSAWrong[all]
-5448 22  10-BSAWrong[all]
-5448 23  10-BSAWrong[all]
-5448 24  10-BSAWrong[all]
-5448 25  10-BSAWrong[all]
-5448 26  10-BSAWrong[all]
-5448 27  10-BSAWrong[all]
-5448 28  10-BSAWrong[all]
-5448 29  10-BSAWrong[all]
-5448 30  10-BSAWrong[all]
-5448 31  10-BSAWrong[all]
-5448 32  10-BSAWrong[all]
-5448 33  10-BSAWrong[all]
-5448 34  10-BSAWrong[all]
-5448 35  10-BSAWrong[all]
-5448 36  10-BSAWrong[all]
-5448 37  10-BSAWrong[all]
-5448 38  10-BSAWrong[all]
-5448 39  10-BSAWrong[all]
-5448 40  10-BSAWrong[all]
-5448 41  10-BSAWrong[all]
-5448 42  10-BSAWrong[all]
-5448 43  10-BSAWrong[all]
-5448 44  10-BSAWrong[all]
-5448 45  10-BSAWrong[all]
-5448 46  10-BSAWrong[all]
-5448 47  10-BSAWrong[all]
-5448 48  10-BSAWrong[all]
-5448 49  10-BSAWrong[all]
-5448 50  10-BSAWrong[all]
-5448 51  10-BSAWrong[all]
-5448 52  10-BSAWrong[all]
-5448 53  10-BSAWrong[all]
-5448 54  10-BSAWrong[all]
-5448 55  10-BSAWrong[all]
-5448 56  4-LowLiveTime[all]  10-BSAWrong[all]
-5448 57  10-BSAWrong[all]
-5448 58  10-BSAWrong[all]
-5448 59  10-BSAWrong[all]
-5448 60  10-BSAWrong[all]
-5448 61  10-BSAWrong[all]
-5448 62  10-BSAWrong[all]
-5448 63  10-BSAWrong[all]
-5448 64  10-BSAWrong[all]
-5448 65  10-BSAWrong[all]
-5448 66  10-BSAWrong[all]
-5448 67  10-BSAWrong[all]
-5448 68  10-BSAWrong[all]
-5448 69  10-BSAWrong[all]
-5448 70  10-BSAWrong[all]
-5448 71  10-BSAWrong[all]
-5448 72  10-BSAWrong[all]
-5448 73  10-BSAWrong[all]
-5448 74  10-BSAWrong[all]
-5448 75  10-BSAWrong[all]
-5448 76  10-BSAWrong[all]
-5448 77  10-BSAWrong[all]
-5448 78  10-BSAWrong[all]
-5448 79  10-BSAWrong[all]
-5448 80  10-BSAWrong[all]
-5448 81  10-BSAWrong[all]
-5448 82  10-BSAWrong[all]
-5448 83  10-BSAWrong[all]
-5448 84  10-BSAWrong[all]
-5448 85  10-BSAWrong[all]
-5448 86  10-BSAWrong[all]
-5448 87  10-BSAWrong[all]
-5448 88  10-BSAWrong[all]
-5448 89  10-BSAWrong[all]
-5448 90  10-BSAWrong[all]
-5448 91  10-BSAWrong[all]
-5448 92  10-BSAWrong[all]
-5448 93  10-BSAWrong[all]
-5448 94  10-BSAWrong[all]
-5448 95  10-BSAWrong[all]
-5448 96  10-BSAWrong[all]
-5448 97  10-BSAWrong[all]
-5448 98  10-BSAWrong[all]
-5448 99  10-BSAWrong[all]
-5448 100  10-BSAWrong[all]
-5448 101  10-BSAWrong[all]
-5448 102  10-BSAWrong[all]
-5448 103  10-BSAWrong[all]
-5448 104  10-BSAWrong[all]
-5448 105  10-BSAWrong[all]
-5448 106  10-BSAWrong[all]
-5448 107  10-BSAWrong[all]
-5448 108  10-BSAWrong[all]
-5448 109  10-BSAWrong[all]
-5448 110  10-BSAWrong[all]
-5448 111  10-BSAWrong[all]
-5448 112  10-BSAWrong[all]
-5448 113  10-BSAWrong[all]
-5448 114  10-BSAWrong[all]
-5448 115  10-BSAWrong[all]
-5448 116  10-BSAWrong[all]
-5448 117  10-BSAWrong[all]
-5448 118  10-BSAWrong[all]
-5448 119  10-BSAWrong[all]
-5448 120  10-BSAWrong[all]
-5448 121  10-BSAWrong[all]
-5448 122  10-BSAWrong[all]
-5448 123  10-BSAWrong[all]
-5448 124  10-BSAWrong[all]
-5448 125  10-BSAWrong[all]
-5448 126  10-BSAWrong[all]
-5448 127  10-BSAWrong[all]
-5448 128  10-BSAWrong[all]
-5448 129  10-BSAWrong[all]
-5448 130  10-BSAWrong[all]
-5448 131  10-BSAWrong[all]
-5448 132  10-BSAWrong[all]
-5448 133  10-BSAWrong[all]
-5448 134  10-BSAWrong[all]
-5448 135  10-BSAWrong[all]
-5448 136  10-BSAWrong[all]
-5448 137  10-BSAWrong[all]
-5448 138  10-BSAWrong[all]
-5448 139  10-BSAWrong[all]
-5448 140  10-BSAWrong[all]
-5448 141  10-BSAWrong[all]
-5448 142  10-BSAWrong[all]
-5448 143  10-BSAWrong[all]
-5448 144  10-BSAWrong[all]
-5448 145  10-BSAWrong[all]
-5448 146  10-BSAWrong[all]
-5448 147  10-BSAWrong[all]
-5448 148  10-BSAWrong[all]
-5448 149  10-BSAWrong[all]
-5448 150  10-BSAWrong[all]
-5448 151  10-BSAWrong[all]
-5448 152  10-BSAWrong[all]
-5448 153  10-BSAWrong[all]
-5448 154  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5448 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 1  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 2  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 3  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 4  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 5  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 6  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 7  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 8  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 9  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 10  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 11  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 12  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 13  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 14  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 15  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 16  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 17  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 18  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 19  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 20  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 21  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 22  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 23  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 24  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 25  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 26  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 27  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 28  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 29  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 30  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 31  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 32  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 33  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 34  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 35  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 36  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 37  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 38  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 39  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 40  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 41  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 42  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 43  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 44  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 45  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 46  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 47  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 48  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 49  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 50  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 51  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 52  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 53  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 54  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 55  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 56  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 57  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 58  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 59  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 60  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 61  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 62  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 63  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 64  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 65  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 66  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 67  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 68  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 69  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 70  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 71  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 72  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 73  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 74  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 75  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 76  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 77  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 78  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 79  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 80  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 81  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 82  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 83  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 84  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 85  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 86  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 87  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 88  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 89  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 90  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 91  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 92  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 93  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 94  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 95  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 96  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 97  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 98  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 99  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 100  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 101  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 102  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 103  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 104  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 105  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 106  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 107  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 108  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 109  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 110  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 111  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 112  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 113  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 114  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 115  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 116  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 117  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 118  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 119  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 120  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 121  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 122  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 123  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 124  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 125  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 126  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 127  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 128  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 129  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 130  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 131  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 132  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 133  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 134  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 135  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 136  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 137  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 138  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 139  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 140  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 141  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 142  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 143  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 144  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 145  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 146  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 147  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 148  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 149  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 150  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 151  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 152  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 153  5-Misc[all]  10-BSAWrong[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
+5448 154  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: N/F for DVCS exclusivity cuts is 25% lower than adjacent runs; however, trigger N/F is consistent
 
 RUN: 5449
 5449 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -6906,73 +6906,73 @@ RUN: 5504
 5504 12  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: unstable beam; DAQ problem at end of run
 
 RUN: 5505
-5505 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: started with 40nA, then increased to 50
-5505 1  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 2  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 3  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 4  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 5  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 6  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 7  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 8  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 9  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 10  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 11  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 12  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 13  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 14  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 15  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 16  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 17  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 18  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 19  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 20  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 21  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 22  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 23  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 24  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 25  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 26  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 27  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 28  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 29  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 30  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 31  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 32  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 33  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 34  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 35  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 36  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 37  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 38  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 39  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 40  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 41  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 42  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 43  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 44  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 45  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 46  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 47  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 48  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 49  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 50  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 51  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 52  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 53  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 54  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 55  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 56  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 57  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 58  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 59  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 60  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 61  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 62  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 63  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 64  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 65  5-Misc[all]  10-BSAWrong[all]  :: started with 40nA, then increased to 50
-5505 66  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: started with 40nA, then increased to 50
+5505 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 1  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 2  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 3  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 4  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 5  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 6  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 7  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 8  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 9  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 10  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 11  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 12  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 13  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 14  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 15  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 16  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 17  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 18  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 19  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 20  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 21  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 22  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 23  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 24  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 25  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 26  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 27  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 28  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 29  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 30  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 31  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 32  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 33  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 34  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 35  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 36  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 37  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 38  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 39  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 40  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 41  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 42  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 43  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 44  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 45  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 46  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 47  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 48  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 49  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 50  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 51  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 52  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 53  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 54  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 55  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 56  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 57  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 58  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 59  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 60  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 61  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 62  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 63  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 64  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 65  5-Misc[all]  10-BSAWrong[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
+5505 66  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run
 
 RUN: 5507
 5507 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -10467,113 +10467,113 @@ RUN: 5552
 5552 106  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 5554
-5554 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5554 1  4-LowLiveTime[all]  10-BSAWrong[all]
-5554 2  10-BSAWrong[all]
-5554 3  10-BSAWrong[all]
-5554 4  10-BSAWrong[all]
-5554 5  10-BSAWrong[all]
-5554 6  10-BSAWrong[all]
-5554 7  10-BSAWrong[all]
-5554 8  10-BSAWrong[all]
-5554 9  10-BSAWrong[all]
-5554 10  10-BSAWrong[all]
-5554 11  10-BSAWrong[all]
-5554 12  10-BSAWrong[all]
-5554 13  10-BSAWrong[all]
-5554 14  10-BSAWrong[all]
-5554 15  10-BSAWrong[all]
-5554 16  10-BSAWrong[all]
-5554 17  10-BSAWrong[all]
-5554 18  10-BSAWrong[all]
-5554 19  10-BSAWrong[all]
-5554 20  10-BSAWrong[all]
-5554 21  10-BSAWrong[all]
-5554 22  10-BSAWrong[all]
-5554 23  10-BSAWrong[all]
-5554 24  10-BSAWrong[all]
-5554 25  10-BSAWrong[all]
-5554 26  10-BSAWrong[all]
-5554 27  10-BSAWrong[all]
-5554 28  10-BSAWrong[all]
-5554 29  10-BSAWrong[all]
-5554 30  10-BSAWrong[all]
-5554 31  10-BSAWrong[all]
-5554 32  10-BSAWrong[all]
-5554 33  10-BSAWrong[all]
-5554 34  10-BSAWrong[all]
-5554 35  10-BSAWrong[all]
-5554 36  10-BSAWrong[all]
-5554 37  10-BSAWrong[all]
-5554 38  10-BSAWrong[all]
-5554 39  10-BSAWrong[all]
-5554 40  10-BSAWrong[all]
-5554 41  10-BSAWrong[all]
-5554 42  10-BSAWrong[all]
-5554 43  10-BSAWrong[all]
-5554 44  10-BSAWrong[all]
-5554 45  10-BSAWrong[all]
-5554 46  10-BSAWrong[all]
-5554 47  10-BSAWrong[all]
-5554 48  10-BSAWrong[all]
-5554 49  10-BSAWrong[all]
-5554 50  10-BSAWrong[all]
-5554 51  10-BSAWrong[all]
-5554 52  10-BSAWrong[all]
-5554 53  10-BSAWrong[all]
-5554 54  10-BSAWrong[all]
-5554 55  10-BSAWrong[all]
-5554 56  10-BSAWrong[all]
-5554 57  10-BSAWrong[all]
-5554 58  10-BSAWrong[all]
-5554 59  10-BSAWrong[all]
-5554 60  10-BSAWrong[all]
-5554 61  10-BSAWrong[all]
-5554 62  10-BSAWrong[all]
-5554 63  10-BSAWrong[all]
-5554 64  10-BSAWrong[all]
-5554 65  10-BSAWrong[all]
-5554 66  10-BSAWrong[all]
-5554 67  10-BSAWrong[all]
-5554 68  10-BSAWrong[all]
-5554 69  10-BSAWrong[all]
-5554 70  0-TotalOutlier[all]  10-BSAWrong[all]  16-ChargeHigh[all]
-5554 71  10-BSAWrong[all]
-5554 72  10-BSAWrong[all]
-5554 73  10-BSAWrong[all]
-5554 74  10-BSAWrong[all]
-5554 75  10-BSAWrong[all]
-5554 76  10-BSAWrong[all]
-5554 77  10-BSAWrong[all]
-5554 78  10-BSAWrong[all]
-5554 79  10-BSAWrong[all]
-5554 80  10-BSAWrong[all]
-5554 81  10-BSAWrong[all]
-5554 82  10-BSAWrong[all]
-5554 83  10-BSAWrong[all]
-5554 84  10-BSAWrong[all]
-5554 85  10-BSAWrong[all]
-5554 86  10-BSAWrong[all]
-5554 87  10-BSAWrong[all]
-5554 88  10-BSAWrong[all]
-5554 89  10-BSAWrong[all]
-5554 90  10-BSAWrong[all]
-5554 91  10-BSAWrong[all]
-5554 92  10-BSAWrong[all]
-5554 93  10-BSAWrong[all]
-5554 94  10-BSAWrong[all]
-5554 95  10-BSAWrong[all]
-5554 96  10-BSAWrong[all]
-5554 97  10-BSAWrong[all]
-5554 98  10-BSAWrong[all]
-5554 99  10-BSAWrong[all]
-5554 100  10-BSAWrong[all]
-5554 101  10-BSAWrong[all]
-5554 102  10-BSAWrong[all]
-5554 103  10-BSAWrong[all]
-5554 104  10-BSAWrong[all]
-5554 105  10-BSAWrong[all]
-5554 106  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5554 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 1  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 2  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 3  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 4  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 5  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 6  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 7  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 8  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 9  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 10  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 11  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 12  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 13  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 14  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 15  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 16  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 17  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 18  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 19  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 20  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 21  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 22  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 23  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 24  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 25  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 26  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 27  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 28  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 29  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 30  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 31  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 32  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 33  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 34  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 35  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 36  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 37  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 38  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 39  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 40  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 41  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 42  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 43  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 44  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 45  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 46  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 47  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 48  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 49  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 50  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 51  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 52  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 53  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 54  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 55  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 56  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 57  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 58  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 59  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 60  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 61  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 62  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 63  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 64  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 65  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 66  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 67  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 68  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 69  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 70  0-TotalOutlier[all]  5-Misc[all]  10-BSAWrong[all]  16-ChargeHigh[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 71  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 72  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 73  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 74  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 75  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 76  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 77  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 78  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 79  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 80  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 81  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 82  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 83  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 84  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 85  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 86  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 87  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 88  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 89  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 90  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 91  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 92  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 93  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 94  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 95  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 96  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 97  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 98  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 99  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 100  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 101  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 102  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 103  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 104  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 105  5-Misc[all]  10-BSAWrong[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
+5554 106  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: N/F in sector 1 is slightly lower than normal, for the whole run, but not enough to be an outlier
 
 RUN: 5555
 5555 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -11193,447 +11193,447 @@ RUN: 5562
 5562 5  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 5564
-5564 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA
-5564 1  2-MarginalOutlier[2, 3]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 2  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 3  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 4  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 5  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 6  2-MarginalOutlier[1, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 7  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 8  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 9  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 10  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 11  2-MarginalOutlier[1, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 12  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 13  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 14  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 15  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 16  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 17  2-MarginalOutlier[4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 18  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 19  2-MarginalOutlier[4, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 20  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 21  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 22  2-MarginalOutlier[3, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 23  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 24  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 25  2-MarginalOutlier[5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 26  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 27  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 28  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 29  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 30  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 31  2-MarginalOutlier[2, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 32  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 33  2-MarginalOutlier[2, 4]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 34  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 35  2-MarginalOutlier[2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 36  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 37  2-MarginalOutlier[1, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 38  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 39  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 40  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 41  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 42  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 43  2-MarginalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 44  2-MarginalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 45  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 46  2-MarginalOutlier[3]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 47  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 48  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 49  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 50  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 51  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 52  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 53  2-MarginalOutlier[1, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 54  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 55  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 56  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 57  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 58  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 59  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 60  2-MarginalOutlier[1, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 61  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 62  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 63  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 64  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 65  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 66  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 67  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 68  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 69  2-MarginalOutlier[1, 4]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 70  2-MarginalOutlier[1, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 71  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 72  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 73  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 74  2-MarginalOutlier[5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 75  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 76  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 77  2-MarginalOutlier[5, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 78  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 79  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 80  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 81  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 82  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 83  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 84  2-MarginalOutlier[5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 85  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 86  2-MarginalOutlier[2, 3, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 87  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 88  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 89  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 90  2-MarginalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 91  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 92  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 93  2-MarginalOutlier[1, 2, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 94  2-MarginalOutlier[2, 4, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 95  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 96  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 97  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 98  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 99  2-MarginalOutlier[2, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 100  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 101  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 102  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 103  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 104  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 105  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 106  2-MarginalOutlier[3, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 107  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 108  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 109  2-MarginalOutlier[2, 4, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 110  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 111  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 112  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 113  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 114  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 115  2-MarginalOutlier[5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 116  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 117  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 118  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 119  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 120  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 121  2-MarginalOutlier[1, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 122  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 123  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 124  2-MarginalOutlier[6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 125  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 126  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 127  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 128  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 129  2-MarginalOutlier[1, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 130  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 131  2-MarginalOutlier[6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 132  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 133  2-MarginalOutlier[1, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 134  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 135  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 136  0-TotalOutlier[6]  2-MarginalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5564 137  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA
+5564 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 1  2-MarginalOutlier[2, 3]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 2  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 3  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 4  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 5  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 6  2-MarginalOutlier[1, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 7  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 8  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 9  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 10  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 11  2-MarginalOutlier[1, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 12  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 13  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 14  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 15  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 16  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 17  2-MarginalOutlier[4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 18  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 19  2-MarginalOutlier[4, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 20  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 21  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 22  2-MarginalOutlier[3, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 23  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 24  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 25  2-MarginalOutlier[5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 26  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 27  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 28  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 29  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 30  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 31  2-MarginalOutlier[2, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 32  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 33  2-MarginalOutlier[2, 4]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 34  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 35  2-MarginalOutlier[2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 36  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 37  2-MarginalOutlier[1, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 38  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 39  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 40  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 41  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 42  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 43  2-MarginalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 44  2-MarginalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 45  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 46  2-MarginalOutlier[3]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 47  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 48  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 49  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 50  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 51  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 52  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 53  2-MarginalOutlier[1, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 54  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 55  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 56  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 57  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 58  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 59  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 60  2-MarginalOutlier[1, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 61  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 62  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 63  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 64  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 65  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 66  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 67  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 68  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 69  2-MarginalOutlier[1, 4]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 70  2-MarginalOutlier[1, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 71  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 72  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 73  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 74  2-MarginalOutlier[5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 75  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 76  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 77  2-MarginalOutlier[5, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 78  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 79  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 80  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 81  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 82  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 83  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 84  2-MarginalOutlier[5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 85  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 86  2-MarginalOutlier[2, 3, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 87  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 88  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 89  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 90  2-MarginalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 91  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 92  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 93  2-MarginalOutlier[1, 2, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 94  2-MarginalOutlier[2, 4, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 95  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 96  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 97  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 98  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 99  2-MarginalOutlier[2, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 100  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 101  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 102  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 103  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 104  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 105  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 106  2-MarginalOutlier[3, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 107  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 108  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 109  2-MarginalOutlier[2, 4, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 110  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 111  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 112  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 113  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 114  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 115  2-MarginalOutlier[5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 116  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 117  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 118  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 119  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 120  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 121  2-MarginalOutlier[1, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 122  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 123  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 124  2-MarginalOutlier[6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 125  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 126  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 127  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 128  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 129  2-MarginalOutlier[1, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 130  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 131  2-MarginalOutlier[6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 132  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 133  2-MarginalOutlier[1, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 134  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 135  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 136  0-TotalOutlier[6]  2-MarginalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5564 137  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
 
 RUN: 5565
-5565 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA
-5565 1  2-MarginalOutlier[2, 5]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 2  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 3  2-MarginalOutlier[2, 4, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 4  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 5  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  8-MarginalOutlierFT[1]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 6  2-MarginalOutlier[2, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 7  2-MarginalOutlier[1, 2, 3, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 8  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 9  2-MarginalOutlier[1, 4, 5]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 10  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 11  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 12  2-MarginalOutlier[2, 3, 4]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 13  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 14  2-MarginalOutlier[4, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 15  2-MarginalOutlier[2, 3, 4]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 16  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 17  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 18  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 19  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 20  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 21  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 22  2-MarginalOutlier[3]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 23  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 24  2-MarginalOutlier[1, 2, 4, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 25  0-TotalOutlier[5]  2-MarginalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  11-BSAUnknown[all]  :: low lumi run, 5 nA
-5565 26  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA
+5565 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 1  2-MarginalOutlier[2, 5]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 2  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 3  2-MarginalOutlier[2, 4, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 4  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 5  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  8-MarginalOutlierFT[1]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 6  2-MarginalOutlier[2, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 7  2-MarginalOutlier[1, 2, 3, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 8  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 9  2-MarginalOutlier[1, 4, 5]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 10  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 11  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 12  2-MarginalOutlier[2, 3, 4]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 13  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 14  2-MarginalOutlier[4, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 15  2-MarginalOutlier[2, 3, 4]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 16  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 17  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 18  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 19  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 20  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 21  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 22  2-MarginalOutlier[3]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 23  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 24  2-MarginalOutlier[1, 2, 4, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 25  0-TotalOutlier[5]  2-MarginalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  11-BSAUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5565 26  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
 
 RUN: 5566
-5566 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA
-5566 1  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 2  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 3  2-MarginalOutlier[1, 2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 4  2-MarginalOutlier[1, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 5  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 6  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 7  2-MarginalOutlier[4]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 8  2-MarginalOutlier[1, 2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 9  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 10  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 11  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 12  2-MarginalOutlier[3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 13  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 14  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 15  2-MarginalOutlier[3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 16  2-MarginalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 17  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 18  2-MarginalOutlier[1, 2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 19  2-MarginalOutlier[1, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 20  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 21  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 22  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 23  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 24  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 25  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 26  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 27  2-MarginalOutlier[2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 28  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 29  2-MarginalOutlier[2, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 30  2-MarginalOutlier[1, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 31  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 32  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 33  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 34  2-MarginalOutlier[3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 35  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 36  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 37  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 38  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 39  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 40  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 41  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 42  2-MarginalOutlier[1, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 43  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 44  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 45  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 46  2-MarginalOutlier[1, 2, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 47  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 48  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 49  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 50  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 51  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 52  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 53  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 54  2-MarginalOutlier[1, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 55  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 56  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 57  2-MarginalOutlier[2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 58  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 59  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 60  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 61  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 62  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 63  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 64  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 65  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 66  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 67  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 68  2-MarginalOutlier[1, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 69  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 70  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 71  2-MarginalOutlier[1, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 72  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 73  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 74  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 75  2-MarginalOutlier[2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 76  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 77  2-MarginalOutlier[1, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 78  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 79  2-MarginalOutlier[2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 80  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 81  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 82  2-MarginalOutlier[1, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 83  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 84  2-MarginalOutlier[1, 3, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 85  2-MarginalOutlier[1, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 86  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 87  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 88  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 89  2-MarginalOutlier[2, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 90  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 91  2-MarginalOutlier[1, 2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 92  2-MarginalOutlier[5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 93  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 94  2-MarginalOutlier[1, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 95  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 96  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 97  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 98  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 99  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 100  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 101  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 102  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 103  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 104  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 105  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 106  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 107  2-MarginalOutlier[6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 108  2-MarginalOutlier[2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 109  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 110  2-MarginalOutlier[1, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 111  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 112  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 113  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 114  2-MarginalOutlier[5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 115  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 116  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 117  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 118  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 119  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 120  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 121  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 122  2-MarginalOutlier[2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 123  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 124  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 125  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 126  2-MarginalOutlier[2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 127  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 128  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 129  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 130  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 131  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 132  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 133  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 134  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 135  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 136  2-MarginalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 137  2-MarginalOutlier[1, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 138  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 139  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 140  2-MarginalOutlier[1, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 141  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 142  2-MarginalOutlier[2, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 143  2-MarginalOutlier[5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 144  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 145  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 146  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 147  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 148  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 149  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 150  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 151  0-TotalOutlier[2]  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 152  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 153  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 154  2-MarginalOutlier[3, 4, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 155  2-MarginalOutlier[2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 156  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 157  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 158  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 159  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 160  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 161  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 162  2-MarginalOutlier[2, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 163  2-MarginalOutlier[1, 2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 164  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 165  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 166  2-MarginalOutlier[2, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 167  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 168  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 169  2-MarginalOutlier[2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 170  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 171  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 172  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 173  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 174  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 175  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 176  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 177  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 178  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 179  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 180  2-MarginalOutlier[1, 2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 181  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 182  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 183  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 184  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 185  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 186  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 187  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 188  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 189  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 190  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 191  2-MarginalOutlier[5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 192  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 193  2-MarginalOutlier[4, 5, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 194  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 195  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 196  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 197  2-MarginalOutlier[3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 198  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 199  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 200  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 201  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 202  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 203  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 204  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 205  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 206  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 207  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 208  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 209  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 210  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 211  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 212  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 213  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 214  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 215  2-MarginalOutlier[4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 216  2-MarginalOutlier[3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 217  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 218  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 219  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 220  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 221  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 222  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 223  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 224  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 225  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 226  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 227  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 228  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 229  2-MarginalOutlier[1, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 230  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 231  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 232  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 233  2-MarginalOutlier[1, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 234  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 235  0-TotalOutlier[3, 6]  2-MarginalOutlier[1, 2, 4, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA
-5566 236  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA
+5566 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 1  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 2  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 3  2-MarginalOutlier[1, 2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 4  2-MarginalOutlier[1, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 5  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 6  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 7  2-MarginalOutlier[4]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 8  2-MarginalOutlier[1, 2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 9  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 10  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 11  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 12  2-MarginalOutlier[3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 13  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 14  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 15  2-MarginalOutlier[3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 16  2-MarginalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 17  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 18  2-MarginalOutlier[1, 2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 19  2-MarginalOutlier[1, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 20  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 21  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 22  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 23  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 24  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 25  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 26  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 27  2-MarginalOutlier[2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 28  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 29  2-MarginalOutlier[2, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 30  2-MarginalOutlier[1, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 31  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 32  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 33  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 34  2-MarginalOutlier[3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 35  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 36  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 37  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 38  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 39  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 40  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 41  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 42  2-MarginalOutlier[1, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 43  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 44  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 45  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 46  2-MarginalOutlier[1, 2, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 47  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 48  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 49  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 50  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 51  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 52  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 53  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 54  2-MarginalOutlier[1, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 55  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 56  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 57  2-MarginalOutlier[2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 58  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 59  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 60  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 61  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 62  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 63  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 64  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 65  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 66  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 67  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 68  2-MarginalOutlier[1, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 69  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 70  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 71  2-MarginalOutlier[1, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 72  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 73  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 74  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 75  2-MarginalOutlier[2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 76  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 77  2-MarginalOutlier[1, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 78  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 79  2-MarginalOutlier[2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 80  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 81  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 82  2-MarginalOutlier[1, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 83  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 84  2-MarginalOutlier[1, 3, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 85  2-MarginalOutlier[1, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 86  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 87  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 88  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 89  2-MarginalOutlier[2, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 90  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 91  2-MarginalOutlier[1, 2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 92  2-MarginalOutlier[5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 93  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 94  2-MarginalOutlier[1, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 95  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 96  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 97  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 98  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 99  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 100  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 101  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 102  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 103  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 104  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 105  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 106  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 107  2-MarginalOutlier[6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 108  2-MarginalOutlier[2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 109  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 110  2-MarginalOutlier[1, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 111  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 112  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 113  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 114  2-MarginalOutlier[5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 115  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 116  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 117  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 118  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 119  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 120  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 121  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 122  2-MarginalOutlier[2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 123  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 124  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 125  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 126  2-MarginalOutlier[2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 127  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 128  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 129  2-MarginalOutlier[2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 130  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 131  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 132  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 133  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 134  2-MarginalOutlier[2, 3, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 135  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 136  2-MarginalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 137  2-MarginalOutlier[1, 3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 138  2-MarginalOutlier[1, 2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 139  2-MarginalOutlier[1, 2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 140  2-MarginalOutlier[1, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 141  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 142  2-MarginalOutlier[2, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 143  2-MarginalOutlier[5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 144  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 145  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 146  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 147  2-MarginalOutlier[3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 148  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 149  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 150  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 151  0-TotalOutlier[2]  2-MarginalOutlier[1, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 152  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 153  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 154  2-MarginalOutlier[3, 4, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 155  2-MarginalOutlier[2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 156  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 157  2-MarginalOutlier[3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 158  2-MarginalOutlier[1, 2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 159  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 160  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 161  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 162  2-MarginalOutlier[2, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 163  2-MarginalOutlier[1, 2, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 164  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 165  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 166  2-MarginalOutlier[2, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 167  2-MarginalOutlier[2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 168  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 169  2-MarginalOutlier[2, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 170  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 171  2-MarginalOutlier[1, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 172  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 173  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 174  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 175  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 176  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 177  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 178  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 179  2-MarginalOutlier[1, 2, 3, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 180  2-MarginalOutlier[1, 2, 3, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 181  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 182  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 183  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 184  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 185  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 186  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 187  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 188  2-MarginalOutlier[2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 189  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 190  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 191  2-MarginalOutlier[5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 192  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 193  2-MarginalOutlier[4, 5, 6]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 194  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 195  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 196  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 197  2-MarginalOutlier[3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 198  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 199  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 200  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 201  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 202  2-MarginalOutlier[2, 3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 203  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 204  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 205  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 206  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 207  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 208  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 209  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 210  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 211  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 212  2-MarginalOutlier[2]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 213  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 214  2-MarginalOutlier[1]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 215  2-MarginalOutlier[4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 216  2-MarginalOutlier[3, 4, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 217  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 218  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 219  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 220  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 221  2-MarginalOutlier[2, 4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 222  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 223  2-MarginalOutlier[2, 3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 224  2-MarginalOutlier[2, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 225  2-MarginalOutlier[3]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 226  2-MarginalOutlier[2, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 227  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 228  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 229  2-MarginalOutlier[1, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 230  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 231  2-MarginalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 232  2-MarginalOutlier[4]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 233  2-MarginalOutlier[1, 3, 5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 234  2-MarginalOutlier[5]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 235  0-TotalOutlier[3, 6]  2-MarginalOutlier[1, 2, 4, 5]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
+5566 236  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 5 nA; fraction of events with defined helicity is low
 
 RUN: 5567
-5567 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5567 1  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-5567 2  10-BSAWrong[all]
-5567 3  10-BSAWrong[all]
-5567 4  10-BSAWrong[all]
-5567 5  10-BSAWrong[all]
-5567 6  10-BSAWrong[all]
-5567 7  10-BSAWrong[all]
-5567 8  10-BSAWrong[all]
-5567 9  10-BSAWrong[all]
-5567 10  10-BSAWrong[all]
-5567 11  10-BSAWrong[all]
-5567 12  10-BSAWrong[all]
-5567 13  10-BSAWrong[all]
-5567 14  10-BSAWrong[all]
-5567 15  10-BSAWrong[all]
-5567 16  10-BSAWrong[all]
-5567 17  10-BSAWrong[all]
-5567 18  10-BSAWrong[all]
-5567 19  10-BSAWrong[all]
-5567 20  10-BSAWrong[all]
-5567 21  10-BSAWrong[all]
-5567 22  10-BSAWrong[all]
-5567 23  10-BSAWrong[all]
-5567 24  10-BSAWrong[all]
-5567 25  10-BSAWrong[all]
-5567 26  10-BSAWrong[all]
-5567 27  10-BSAWrong[all]
-5567 28  10-BSAWrong[all]
-5567 29  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-5567 30  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-5567 31  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-5567 32  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5567 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: fraction of events with defined helicity is low
+5567 1  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 2  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 3  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 4  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 5  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 6  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 7  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 8  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 9  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 10  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 11  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 12  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 13  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 14  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 15  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 16  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 17  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 18  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 19  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 20  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 21  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 22  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 23  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 24  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 25  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 26  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 27  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 28  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5567 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low
+5567 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low
+5567 31  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low
+5567 32  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: fraction of events with defined helicity is low
 
 RUN: 5569
 5569 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -14277,26 +14277,26 @@ RUN: 5620
 5620 13  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: ramping beam current 5 to 50 nA
 
 RUN: 5621
-5621 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5621 1  4-LowLiveTime[all]  10-BSAWrong[all]
-5621 2  10-BSAWrong[all]
-5621 3  10-BSAWrong[all]
-5621 4  10-BSAWrong[all]
-5621 5  10-BSAWrong[all]
-5621 6  10-BSAWrong[all]
-5621 7  10-BSAWrong[all]
-5621 8  10-BSAWrong[all]
-5621 9  10-BSAWrong[all]
-5621 10  10-BSAWrong[all]
-5621 11  10-BSAWrong[all]
-5621 12  10-BSAWrong[all]
-5621 13  10-BSAWrong[all]
-5621 14  10-BSAWrong[all]
-5621 15  10-BSAWrong[all]
-5621 16  10-BSAWrong[all]
-5621 17  10-BSAWrong[all]
-5621 18  10-BSAWrong[all]
-5621 19  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5621 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: CND TDC problem
+5621 1  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 2  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 3  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 4  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 5  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 6  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 7  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 8  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 9  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 10  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 11  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 12  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 13  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 14  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 15  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 16  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 17  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 18  5-Misc[all]  10-BSAWrong[all]  :: CND TDC problem
+5621 19  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: CND TDC problem
 
 RUN: 5623
 5623 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: CND TDC problem, ROC rebooted while DAQ was running
