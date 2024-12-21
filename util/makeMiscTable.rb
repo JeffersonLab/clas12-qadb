@@ -2,15 +2,16 @@
 
 require 'json'
 
-defect_defs_file = 'qadb/defect_definitions.json'
 if ARGV.empty?
-  puts "USAGE: #{$0} [qaTree.json file] [defect_definitions (default=#{defect_defs_file}]"
+  puts "USAGE: #{$0} [qaTree.json file]"
   exit 2
 end
+raise 'source environment variables first' if ENV['QADB'].nil?
+defect_defs_file = "#{ENV['QADB']}/qadb/defect_definitions.json"
 
 # parse arguments
-qa_tree_file     = ARGV[0]
-defect_defs_file = ARGV[1] if ARGV.length > 1
+qa_tree_file  = ARGV[0]
+out_file_name = File.dirname(qa_tree_file) + '/miscTable.md'
 [qa_tree_file, defect_defs_file].each do |f|
   raise "#{f} does not exist" unless File.exist? f
 end
@@ -26,7 +27,8 @@ def has_defect(bit, defect)
 end
 
 # table header
-puts """
+out_file = File.open out_file_name, 'w'
+out_file.puts """
 For each run, the table shows:
 - `Misc` defect?:
   - \"yes\" if _any_ of the QA bins in this runs has the `Misc` defect
@@ -59,12 +61,19 @@ qa_tree.each do |runnum, qa_tree_run|
   # remove empty comments
   comments.reject!{ |comment| comment.empty? }
 
+  # format comments
+  comments.map!{ |comment| "<pre>#{comment}</pre>" }
+
   # dump the table
   has_misc_bit_str = has_misc_bit ? "yes" : "no"
-  puts '| ' + [
+  out_file.puts '| ' + [
     runnum.ljust(10),
     has_misc_bit_str.ljust(5),
-    comments.join('; '),
+    comments.join(''),
   ].join(' | ') + ' |'
 
 end
+
+# close
+out_file.close
+puts "produced #{out_file_name}"
