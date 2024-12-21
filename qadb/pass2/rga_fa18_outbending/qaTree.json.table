@@ -1914,8 +1914,8 @@ RUN: 5442
 5442 85  10-BSAWrong[all]
 5442 86  10-BSAWrong[all]
 5442 87  10-BSAWrong[all]
-5442 88  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-5442 89  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+5442 88  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+5442 89  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 5442 90  10-BSAWrong[all]
 5442 91  10-BSAWrong[all]
 5442 92  10-BSAWrong[all]
@@ -3790,7 +3790,7 @@ RUN: 5457
 5457 6  0-TotalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 16 nA; problem in HTCC sector 2
 5457 7  0-TotalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 16 nA; problem in HTCC sector 2
 5457 8  0-TotalOutlier[2]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 16 nA; problem in HTCC sector 2
-5457 9  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 16 nA; problem in HTCC sector 2
+5457 9  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 5, 6]  5-Misc[all]  10-BSAWrong[all]  19-PossiblyNoBeam[2]  :: low lumi run, 16 nA; problem in HTCC sector 2
 5457 10  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: low lumi run, 16 nA; problem in HTCC sector 2
 5457 11  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 16 nA; problem in HTCC sector 2
 
@@ -4139,7 +4139,7 @@ RUN: 5465
 5465 51  10-BSAWrong[all]
 5465 52  0-TotalOutlier[1, 2, 6]  10-BSAWrong[all]
 5465 53  0-TotalOutlier[1, 2, 6]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-5465 54  0-TotalOutlier[1, 2, 6]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+5465 54  0-TotalOutlier[1, 2, 6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[1, 2, 6]
 5465 55  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 5466
@@ -4466,7 +4466,7 @@ RUN: 5468
 5468 101  10-BSAWrong[all]
 5468 102  10-BSAWrong[all]
 5468 103  0-TotalOutlier[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-5468 104  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+5468 104  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 5468 105  10-BSAWrong[all]
 5468 106  10-BSAWrong[all]
 5468 107  10-BSAWrong[all]
@@ -13020,7 +13020,7 @@ RUN: 5601
 5601 102  10-BSAWrong[all]
 5601 103  10-BSAWrong[all]
 5601 104  0-TotalOutlier[all]  10-BSAWrong[all]
-5601 105  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+5601 105  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 5601 106  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 5601 107  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
