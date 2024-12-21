@@ -38,7 +38,7 @@ For each run, the table shows:
   - not all bins have to have the same comment
   - this table shows the _unique_ comments that are found for this run
 
-See the QA file for more detailed, bin-by-bin information: `#{qa_tree_file}.table`
+See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin information.
 
 ### Misc Comments
 
