@@ -199,11 +199,12 @@ Then:
 <a name="storage"></a>
 ## Data Storage Details
 
-The QADB is stored in the [`qadb/` subdirectory](/qadb). Within `qadb/`, the
-`latest/` directory has the QADB for the _latest cook_ of each data set, while
-the `pass*/` directories have each cook's QADB (`pass1`, `pass2`, _etc_.).
+The QADB is stored in the [`qadb/` subdirectory](/qadb):
+- within `qadb/`, the `pass*/` directories are for each cook (`pass1`, `pass2`, _etc_.)
+  - within each `pass*/` directory are subdirectories for each dataset
+- the `latest/` directory contains symbolic links to the _latest_ cook of each data set with a QADB
 
-In each data set's directory, there are a few files:
+In each dataset's directory, there are a few files:
 - Summary tables regarding the `Misc` defect bit assignment are stored in `miscTable.md`;
   use these to help decide which runs' `Misc` bits you want to omit from your analysis
 - A human-readable table of the full QADB is stored in `qaTree.json.table`, a "Table File";
