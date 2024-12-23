@@ -16066,9 +16066,9 @@ RUN: 6750
 6750 140  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6750 141  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6750 142  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6750 143  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6750 144  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6750 145  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6750 143  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6750 144  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6750 145  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6750 146  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 
 RUN: 6753
