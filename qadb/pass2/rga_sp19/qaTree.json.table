@@ -16069,7 +16069,7 @@ RUN: 6750
 6750 143  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6750 144  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6750 145  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6750 146  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: manually added PossiblyNoBeam defect bit; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6750 146  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 
 RUN: 6753
 6753 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
@@ -16954,11 +16954,11 @@ RUN: 6763
 6763 9  10-BSAWrong[all]
 6763 10  10-BSAWrong[all]
 6763 11  10-BSAWrong[all]
-6763 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: manually added PossiblyNoBeam defect bit
+6763 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
 6763 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6763 14  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6763 15  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6763 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: manually added PossiblyNoBeam defect bit
+6763 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6764
 6764 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -19162,7 +19162,7 @@ RUN: 6781
 6781 133  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6781 134  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6781 135  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6781 136  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: manually added PossiblyNoBeam defect bit
+6781 136  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6783
 6783 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
