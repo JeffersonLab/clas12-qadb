@@ -471,13 +471,13 @@ RUN: 6619
 6619 194  10-BSAWrong[all]
 6619 195  10-BSAWrong[all]
 6619 196  10-BSAWrong[all]
-6619 197  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6619 198  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6619 197  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6619 198  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6619 199  10-BSAWrong[all]
-6619 200  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6619 201  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6619 202  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6619 203  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6619 200  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[2, 3, 4, 5, 6]
+6619 201  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6619 202  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6619 203  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6619 204  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6620
@@ -728,7 +728,7 @@ RUN: 6631
 6631 14  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6631 15  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6631 16  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
-6631 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
+6631 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6631 18  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6631 19  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6631 20  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
@@ -1328,12 +1328,12 @@ RUN: 6638
 6638 52  10-BSAWrong[all]
 6638 53  10-BSAWrong[all]
 6638 54  10-BSAWrong[all]
-6638 55  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6638 56  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6638 55  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6638 56  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6638 57  10-BSAWrong[all]
 6638 58  10-BSAWrong[all]
 6638 59  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6638 60  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6638 60  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6638 61  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6639
@@ -1393,8 +1393,8 @@ RUN: 6639
 6639 53  10-BSAWrong[all]
 6639 54  10-BSAWrong[all]
 6639 55  10-BSAWrong[all]
-6639 56  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6639 57  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6639 56  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6639 57  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6639 58  0-TotalOutlier[1]  2-MarginalOutlier[3, 4, 5, 6]  10-BSAWrong[all]
 6639 59  10-BSAWrong[all]
 6639 60  10-BSAWrong[all]
@@ -1406,7 +1406,7 @@ RUN: 6639
 6639 66  10-BSAWrong[all]
 6639 67  10-BSAWrong[all]
 6639 68  10-BSAWrong[all]
-6639 69  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6639 69  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6639 70  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6640
@@ -1475,9 +1475,9 @@ RUN: 6640
 6640 62  10-BSAWrong[all]
 6640 63  10-BSAWrong[all]
 6640 64  10-BSAWrong[all]
-6640 65  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6640 66  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6640 67  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6640 65  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6640 66  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6640 67  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6640 68  0-TotalOutlier[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
 6640 69  10-BSAWrong[all]
 6640 70  10-BSAWrong[all]
@@ -1696,14 +1696,14 @@ RUN: 6642
 6642 77  10-BSAWrong[all]
 6642 78  10-BSAWrong[all]
 6642 79  10-BSAWrong[all]
-6642 80  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6642 81  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6642 82  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6642 83  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6642 84  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6642 85  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6642 86  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6642 87  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6642 80  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6642 81  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6642 82  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6642 83  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6642 84  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6642 85  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6642 86  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6642 87  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6642 88  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6645
@@ -2130,10 +2130,10 @@ RUN: 6650
 6650 8  10-BSAWrong[all]
 6650 9  10-BSAWrong[all]
 6650 10  10-BSAWrong[all]
-6650 11  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6650 12  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6650 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6650 14  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6650 11  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6650 12  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6650 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6650 14  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6650 15  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6651
@@ -2278,9 +2278,9 @@ RUN: 6651
 6651 138  10-BSAWrong[all]
 6651 139  10-BSAWrong[all]
 6651 140  10-BSAWrong[all]
-6651 141  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6651 142  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6651 143  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6651 141  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6651 142  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6651 143  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6651 144  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6652
@@ -2316,8 +2316,8 @@ RUN: 6652
 6652 29  10-BSAWrong[all]
 6652 30  10-BSAWrong[all]
 6652 31  10-BSAWrong[all]
-6652 32  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6652 33  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6652 32  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6652 33  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6652 34  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6654
@@ -3164,7 +3164,7 @@ RUN: 6660
 6660 143  10-BSAWrong[all]
 6660 144  10-BSAWrong[all]
 6660 145  10-BSAWrong[all]
-6660 146  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6660 146  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6660 147  10-BSAWrong[all]
 6660 148  10-BSAWrong[all]
 6660 149  10-BSAWrong[all]
@@ -3755,12 +3755,12 @@ RUN: 6663
 6663 105  0-TotalOutlier[1, 2, 4, 5, 6]  2-MarginalOutlier[3]  10-BSAWrong[all]
 6663 106  10-BSAWrong[all]
 6663 107  10-BSAWrong[all]
-6663 108  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6663 109  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6663 110  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6663 111  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6663 112  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6663 113  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6663 108  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6663 109  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6663 110  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6663 111  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6663 112  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6663 113  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6663 114  10-BSAWrong[all]
 6663 115  10-BSAWrong[all]
 6663 116  10-BSAWrong[all]
@@ -4066,7 +4066,7 @@ RUN: 6665
 6665 79  10-BSAWrong[all]
 6665 80  10-BSAWrong[all]
 6665 81  0-TotalOutlier[all]  10-BSAWrong[all]
-6665 82  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6665 82  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6665 83  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6665 84  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
@@ -4536,7 +4536,7 @@ RUN: 6668
 6668 137  10-BSAWrong[all]
 6668 138  10-BSAWrong[all]
 6668 139  10-BSAWrong[all]
-6668 140  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6668 140  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6668 141  10-BSAWrong[all]
 6668 142  10-BSAWrong[all]
 6668 143  10-BSAWrong[all]
@@ -5446,8 +5446,8 @@ RUN: 6676
 6676 74  10-BSAWrong[all]
 6676 75  10-BSAWrong[all]
 6676 76  0-TotalOutlier[all]  10-BSAWrong[all]
-6676 77  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6676 78  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6676 77  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6676 78  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6676 79  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6676 80  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
@@ -5589,7 +5589,7 @@ RUN: 6677
 6677 134  10-BSAWrong[all]
 6677 135  10-BSAWrong[all]
 6677 136  10-BSAWrong[all]
-6677 137  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6677 137  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6677 138  10-BSAWrong[all]
 6677 139  10-BSAWrong[all]
 6677 140  10-BSAWrong[all]
@@ -5667,9 +5667,9 @@ RUN: 6678
 6678 5  10-BSAWrong[all]
 6678 6  10-BSAWrong[all]
 6678 7  10-BSAWrong[all]
-6678 8  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6678 9  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6678 10  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6678 8  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6678 9  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6678 10  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6678 11  10-BSAWrong[all]
 6678 12  10-BSAWrong[all]
 6678 13  10-BSAWrong[all]
@@ -6113,8 +6113,8 @@ RUN: 6682
 6682 84  10-BSAWrong[all]
 6682 85  10-BSAWrong[all]
 6682 86  0-TotalOutlier[all]  10-BSAWrong[all]
-6682 87  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6682 88  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6682 87  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6682 88  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6682 89  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6683
@@ -6468,8 +6468,8 @@ RUN: 6684
 6684 119  10-BSAWrong[all]
 6684 120  10-BSAWrong[all]
 6684 121  10-BSAWrong[all]
-6684 122  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6684 123  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6684 122  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6684 123  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6684 124  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6685
@@ -6766,7 +6766,7 @@ RUN: 6687
 6687 72  10-BSAWrong[all]
 6687 73  10-BSAWrong[all]
 6687 74  10-BSAWrong[all]
-6687 75  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6687 75  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6687 76  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6688
@@ -6804,8 +6804,8 @@ RUN: 6688
 6688 31  10-BSAWrong[all]
 6688 32  10-BSAWrong[all]
 6688 33  10-BSAWrong[all]
-6688 34  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6688 35  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6688 34  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6688 35  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6688 36  10-BSAWrong[all]
 6688 37  10-BSAWrong[all]
 6688 38  10-BSAWrong[all]
@@ -7391,7 +7391,7 @@ RUN: 6691
 6691 190  10-BSAWrong[all]
 6691 191  10-BSAWrong[all]
 6691 192  10-BSAWrong[all]
-6691 193  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6691 193  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6691 194  10-BSAWrong[all]
 6691 195  10-BSAWrong[all]
 6691 196  10-BSAWrong[all]
@@ -8065,7 +8065,7 @@ RUN: 6695
 6695 112  10-BSAWrong[all]
 6695 113  10-BSAWrong[all]
 6695 114  10-BSAWrong[all]
-6695 115  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6695 115  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6695 116  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6696
@@ -8092,8 +8092,8 @@ RUN: 6696
 6696 20  10-BSAWrong[all]
 6696 21  10-BSAWrong[all]
 6696 22  0-TotalOutlier[1, 2, 4]  2-MarginalOutlier[3, 5, 6]  10-BSAWrong[all]
-6696 23  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6696 24  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6696 23  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6696 24  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6696 25  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6697
@@ -8526,7 +8526,7 @@ RUN: 6699
 6699 6  10-BSAWrong[all]
 6699 7  10-BSAWrong[all]
 6699 8  10-BSAWrong[all]
-6699 9  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6699 9  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6699 10  10-BSAWrong[all]
 6699 11  10-BSAWrong[all]
 6699 12  10-BSAWrong[all]
@@ -9295,8 +9295,8 @@ RUN: 6707
 6707 44  10-BSAWrong[all]
 6707 45  10-BSAWrong[all]
 6707 46  0-TotalOutlier[1]  2-MarginalOutlier[3, 4, 5]  10-BSAWrong[all]
-6707 47  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6707 48  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6707 47  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6707 48  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6707 49  0-TotalOutlier[all]  10-BSAWrong[all]
 6707 50  10-BSAWrong[all]
 6707 51  10-BSAWrong[all]
@@ -9312,7 +9312,7 @@ RUN: 6707
 6707 61  10-BSAWrong[all]
 6707 62  10-BSAWrong[all]
 6707 63  10-BSAWrong[all]
-6707 64  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6707 64  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6707 65  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6708
@@ -9614,12 +9614,12 @@ RUN: 6709
 6709 155  10-BSAWrong[all]
 6709 156  10-BSAWrong[all]
 6709 157  10-BSAWrong[all]
-6709 158  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6709 159  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6709 160  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6709 158  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6709 159  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6709 160  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6709 161  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
 6709 162  0-TotalOutlier[all]  10-BSAWrong[all]
-6709 163  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6709 163  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6709 164  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6710
@@ -9697,9 +9697,9 @@ RUN: 6710
 6710 71  10-BSAWrong[all]
 6710 72  10-BSAWrong[all]
 6710 73  10-BSAWrong[all]
-6710 74  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6710 75  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6710 76  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6710 74  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6710 75  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6710 76  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6710 77  10-BSAWrong[all]
 6710 78  10-BSAWrong[all]
 6710 79  10-BSAWrong[all]
@@ -10946,7 +10946,7 @@ RUN: 6716
 6716 153  10-BSAWrong[all]
 6716 154  10-BSAWrong[all]
 6716 155  10-BSAWrong[all]
-6716 156  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6716 156  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6716 157  0-TotalOutlier[all]  10-BSAWrong[all]
 6716 158  10-BSAWrong[all]
 6716 159  10-BSAWrong[all]
@@ -12139,17 +12139,17 @@ RUN: 6724
 6724 167  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
 6724 168  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
 6724 169  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 170  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 171  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 172  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 173  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 174  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 175  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 176  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 177  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 178  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 179  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
-6724 180  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6724 170  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 171  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 172  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 173  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 174  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 175  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 176  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 177  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 178  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 179  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
+6724 180  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: empty target run
 6724 181  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: empty target run
 
 RUN: 6725
@@ -12559,9 +12559,9 @@ RUN: 6729
 6729 122  10-BSAWrong[all]
 6729 123  10-BSAWrong[all]
 6729 124  0-TotalOutlier[all]  10-BSAWrong[all]
-6729 125  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6729 126  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6729 127  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6729 125  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6729 126  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6729 127  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6729 128  10-BSAWrong[all]
 6729 129  10-BSAWrong[all]
 6729 130  0-TotalOutlier[all]  10-BSAWrong[all]
@@ -12603,8 +12603,8 @@ RUN: 6729
 6729 166  10-BSAWrong[all]
 6729 167  10-BSAWrong[all]
 6729 168  0-TotalOutlier[1, 4, 5]  2-MarginalOutlier[2, 6]  10-BSAWrong[all]
-6729 169  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6729 170  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6729 169  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6729 170  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6729 171  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
 6729 172  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
@@ -12632,7 +12632,7 @@ RUN: 6730
 6730 20  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
 6730 21  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
 6730 22  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
-6730 23  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[5]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
+6730 23  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[5]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
 6730 24  0-TotalOutlier[all]  5-Misc[5]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
 6730 25  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
 6730 26  5-Misc[5]  10-BSAWrong[all]  :: N/F for sector 5 is slightly lower than that for adjacent runs, but not outlying
@@ -13778,7 +13778,7 @@ RUN: 6737
 6737 62  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6737 63  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6737 64  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6737 65  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6737 65  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6737 66  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6737 67  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6737 68  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
@@ -14336,7 +14336,7 @@ RUN: 6739
 6739 191  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6739 192  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6739 193  0-TotalOutlier[2, 3, 4, 5]  2-MarginalOutlier[1, 6]  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6739 194  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6739 194  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6739 195  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 
 RUN: 6740
@@ -15201,8 +15201,8 @@ RUN: 6744
 6744 161  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6744 162  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6744 163  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6744 164  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6744 165  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6744 164  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6744 165  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6744 166  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 
 RUN: 6746
@@ -15654,7 +15654,7 @@ RUN: 6747
 6747 217  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6747 218  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6747 219  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6747 220  0-TotalOutlier[all]  5-Misc[6]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6747 220  0-TotalOutlier[all]  5-Misc[6]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6747 221  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 
 RUN: 6748
@@ -16066,10 +16066,10 @@ RUN: 6750
 6750 140  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6750 141  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6750 142  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6750 143  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6750 144  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6750 145  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6750 146  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6750 143  0-TotalOutlier[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6750 144  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6750 145  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6750 146  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 
 RUN: 6753
 6753 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
@@ -16382,7 +16382,7 @@ RUN: 6757
 6757 33  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6757 34  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6757 35  5-Misc[6]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
-6757 36  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
+6757 36  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 6757 37  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[6]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262
 
 RUN: 6759
@@ -16954,11 +16954,11 @@ RUN: 6763
 6763 9  10-BSAWrong[all]
 6763 10  10-BSAWrong[all]
 6763 11  10-BSAWrong[all]
-6763 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6763 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6763 14  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6763 15  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6763 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6763 12  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6763 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6763 14  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6763 15  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6763 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6764
 6764 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -18176,7 +18176,7 @@ RUN: 6776
 6776 195  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6776 196  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6776 197  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
-6776 198  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
+6776 198  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 
 RUN: 6777
 6777 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
@@ -18426,8 +18426,8 @@ RUN: 6778
 6778 12  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 13  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 14  0-TotalOutlier[5]  2-MarginalOutlier[1, 2, 3]  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
-6778 15  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
-6778 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
+6778 15  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
+6778 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 17  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 18  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 19  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
@@ -18486,7 +18486,7 @@ RUN: 6778
 6778 72  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 73  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 74  0-TotalOutlier[all]  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
-6778 75  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
+6778 75  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 76  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 77  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
 6778 78  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal
@@ -18822,8 +18822,8 @@ RUN: 6780
 6780 10  10-BSAWrong[all]
 6780 11  10-BSAWrong[all]
 6780 12  10-BSAWrong[all]
-6780 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6780 14  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6780 13  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6780 14  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6780 15  2-MarginalOutlier[1, 3, 5]  10-BSAWrong[all]
 6780 16  10-BSAWrong[all]
 6780 17  10-BSAWrong[all]
@@ -18916,7 +18916,7 @@ RUN: 6780
 6780 104  10-BSAWrong[all]
 6780 105  10-BSAWrong[all]
 6780 106  10-BSAWrong[all]
-6780 107  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6780 107  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6780 108  10-BSAWrong[all]
 6780 109  10-BSAWrong[all]
 6780 110  10-BSAWrong[all]
@@ -19157,12 +19157,12 @@ RUN: 6781
 6781 128  10-BSAWrong[all]
 6781 129  10-BSAWrong[all]
 6781 130  10-BSAWrong[all]
-6781 131  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6781 132  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6781 133  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6781 134  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6781 135  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
-6781 136  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  19-PossiblyNoBeam[all]  :: manually added PossiblyNoBeam defect bit
+6781 131  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6781 132  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6781 133  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6781 134  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6781 135  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+6781 136  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6783
 6783 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -19170,7 +19170,7 @@ RUN: 6783
 6783 2  10-BSAWrong[all]
 6783 3  10-BSAWrong[all]
 6783 4  10-BSAWrong[all]
-6783 5  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6783 5  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 6783 6  10-BSAWrong[all]
 6783 7  10-BSAWrong[all]
 6783 8  10-BSAWrong[all]
