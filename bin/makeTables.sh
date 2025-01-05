@@ -1,12 +1,18 @@
 #!/bin/bash
-# convert json files into human-readable tables
-# run this from top-level directory of `clas12-qadb`
-if [ -z "$QADB" ]; then
-  echo "ERROR: you must source environ.sh first"; exit
-fi
+# git pre-commit hook:
+# - convert json files into human-readable tables
+# - generate misc table files
+
+source environ.sh
+
 pushd $QADB
 for file in $(find -P qadb -name "qaTree.json"); do
   run-groovy util/parseQaTree.groovy $file
   util/makeMiscTable.rb $file
 done
 popd
+
+git status --porcelain=v1 |\
+  grep -E '\.table$|miscTable\.md$' \
+  && (echo "generated files have changed" && exit 1) \
+  || exit 0
