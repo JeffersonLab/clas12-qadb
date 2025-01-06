@@ -26,16 +26,19 @@ not be assigned. See the [table of available data sets](#datasets) for which
 data are included in the QADB.
 
 The user must decide which defect bits should be filtered out of their
-analysis. See [the table of defect bits](#bitdefs) to decide; special care must
-be taken for the `Misc` defect bit, which is assigned for runs (or part of
-runs) that have abnormal conditions, whether found on the timelines or
-documented in the log book.
-- Each QA bin that has the `Misc` defect bit set includes a _comment_ in the
-  QADB, explaining _why_ the bit was set
-- The analyzer must decide whether or not data with the `Misc` defect bit
-  should be excluded from their analysis
-- To help with this decision-making, [`Misc` summary tables are provided](#storage),
-  which contain the comment(s) for each run
+analysis. See [the table of defect bits](#bitdefs) and decide which
+bits to use in the filter.
+
+> [!IMPORTANT]
+> Special care must be taken for the `Misc` defect bit, which is assigned for
+> runs (or part of runs) that have abnormal conditions, whether found on the
+> timelines or documented in the log book:
+> - Each QA bin that has the `Misc` defect bit set includes a _comment_ in the
+>   QADB, explaining _why_ the bit was set
+> - The analyzer must decide whether or not data with the `Misc` defect bit
+>   should be excluded from their analysis
+> - To help with this decision-making, [`Misc` summary tables are provided](#storage),
+>   which contain the comment(s) for each run
 
 <a name="info"></a>
 # QA Information
