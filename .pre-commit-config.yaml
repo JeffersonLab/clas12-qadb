@@ -1,0 +1,8 @@
+repos:
+- repo: local
+  hooks:
+    - id: makeTables
+      name: make tables
+      entry: util/makeTables.sh
+      language: script
+      pass_filenames: false

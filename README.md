@@ -1,16 +1,45 @@
 ![QADB](/doc/logo.png)
 
 # CLAS12 Quality Assurance Database
-Provides storage of and access to the QA monitoring results for the 
+Provides storage of and access to the QA monitoring results for the
 CLAS12 experiment at Jefferson Lab
 
 ### Table of Contents
+1. [How to Use the QADB in Your Analysis](#use)
 1. [QA Information](#info)
-1. [Database Access](#access)
-1. [Data storage](#storage)
-1. [Faraday Cup Charge Access](#charge)
-1. [Database Management](#dev)
+    - [Available Data Sets](#datasets)
+    - [Defect Bit Definitions](#bitdefs)
+1. [How to Access the QADB](#access)
+    - [Software Access](#software)
+    - [QADB Files and Tables](#files)
+1. [How to Access the Faraday Cup Charge](#charge)
+1. [Database Maintenance](#dev)
 1. [Contributions](#contributions)
+
+<a name="use"></a>
+# How to Use the QADB in Your Analysis
+
+The QADB is used to _filter_ data based on Quality Assurance (QA) observations.
+The database stores information about the "defects" of each run: each run is
+subdivided into "QA bins", and for each bin, a set of "defect bits" may or may
+not be assigned. See the [table of available data sets](#datasets) for which
+data are included in the QADB.
+
+The user must decide which defect bits should be filtered out of their
+analysis. See [the table of defect bits](#bitdefs) and decide which
+bits to use in the filter.
+
+> [!IMPORTANT]
+> Special care must be taken for the `Misc` defect bit, which is assigned for
+> runs (or part of runs) that have abnormal conditions, whether found on the
+> timelines or documented in the log book:
+> - Each QA bin that has the `Misc` defect bit set includes a _comment_ in the
+>   QADB, explaining _why_ the bit was set
+> - The analyzer must decide whether or not data with the `Misc` defect bit
+>   should be excluded from their analysis
+> - To help with this decision-making,
+>   [`Misc` summary tables are found in each dataset's directory](#files),
+>   which provide the comment(s) for each run
 
 <a name="info"></a>
 # QA Information
@@ -23,8 +52,9 @@ CLAS12 experiment at Jefferson Lab
 > 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
 > 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
 
+<a name="datasets"></a>
 ## Available Data Sets
-The following tables describe the available datasets in the QADB. The columns are:
+The following tables describe the available data sets in the QADB. The columns are:
 - **Pass**: the Pass number of the data set (higher is newer)
 - **Data Set Name**: a unique name for the data-taking period; click it to see the corresponding QA timelines
   - Typically `[RUN_GROUP]_[RUN_PERIOD]`
@@ -94,6 +124,7 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 1    | [`rgm_fa21`](https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/) | 15019 - 15884 | _Up-to-Date_ | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/` |
 
 
+<a name="bitdefs"></a>
 ## Defect Bit Definitions
 
 * QA information is stored for each **QA bin**, in the form of **defect bits**
@@ -132,10 +163,10 @@ The following tables describe the available datasets in the QADB. The columns ar
 | 17 | `ChargeNegative` | FC Charge is negative | The FC charge is calculated from the charge readout at QA bin boundaries. Normally the later charge readout is higher than the earlier; this bit is assigned when the opposite happens. |
 | 18 | `ChargeUnknown` | FC Charge is unknown; the first and last time bins _always_ have this defect | QA bin boundaries are at scaler charge readouts. The first QA bin, before any readout, has no initial charge; the last QA bin, after all scaler readouts, has no final charge. Therefore, the first and last QA bins have an unknown, but likely _very small_ charge accumulation. |
 | 19 | `PossiblyNoBeam` | Both N and F are low, indicating the beam was possibly off | NOTE: the assignment criteria of this bit are still under study. |
-<!-- NOTE: do not update this table manually; instead, use `bin/makeDefectMarkdown.rb` -->
+<!-- NOTE: do not update this table manually; instead, use `util/makeDefectMarkdown.rb` -->
 
 <a name="access"></a>
-# Database Access
+# How to Access the QADB
 
 You may access the QADB in many ways:
 
@@ -145,6 +176,7 @@ You may access the QADB in many ways:
   to read these files
 * QADB JSON files are stored in `qadb/*/qaTree.json`
 
+<a name="software"></a>
 ## Software Access
 
 Classes in both C++ and Groovy are provided, for access to the QADB within analysis code.
@@ -167,11 +199,26 @@ Then:
 > ```
 <!--`-->
 
-<a name="storage"></a>
-# Data Storage
+<a name="files"></a>
+## QADB Files and Tables
 
-## Table files
-Human-readable format of QA result, stored in `qadb/*/*/qaTree.json.table`
+The QADB files are organized by dataset: one subdirectory of [`qadb/`](/qadb) per dataset.
+Each directory contains:
+- Summary tables regarding the `Misc` defect bit assignment are stored in `miscTable.md`;
+  **use these to help decide which runs' `Misc` bits you want to omit from your analysis**
+- A human-readable table of the full QADB is stored in `qaTree.json.table`, a "Table File";
+  see below for how to interpret this file
+- The QADB itself is stored in `json` files, meant for programmatic access
+
+The dataset directories are organized by cook number (pass):
+- within `qadb/`, the `pass*/` directories are for each cook (`pass1`, `pass2`, _etc_.)
+  - within each `pass*/` directory are subdirectories for each dataset
+- the `latest/` directory contains symbolic links to the _latest_ cook of each data set with a QADB
+
+
+### Table Files
+
+Human-readable format of QA result, stored in `qaTree.json.table`
 * each run begins with the keyword `RUN:`; lines below are for each of that
   run's QA bins and their QA results, with the following syntax:
   * `run_number bin_number defect_bits :: comment`
@@ -179,10 +226,11 @@ Human-readable format of QA result, stored in `qadb/*/*/qaTree.json.table`
       and `[all]` means that all 6 sectors have this defect
     * comments are usually associated with `Misc` defects, but not always
 
-## JSON files
 
-### `qaTree.json`
-* The QADB itself is stored as JSON files in `qadb/*/*/qaTree.json`
+### JSON files
+
+#### `qaTree.json`
+* The QADB itself is stored as JSON files in `qaTree.json`
 * the format is a tree:
 ```
 qaTree.json ─┬─ run number 1
@@ -207,8 +255,8 @@ qaTree.json ─┬─ run number 1
     example, `11=0b1011` means that the `OR` of the defect bit lists is `[0,1,3]`
   * `comment` stores an optional comment regarding the QA result
 
-### `chargeTree.json`
-* the charge is also stored in JSON files in `qadb/*/*/chargeTree.json`, with
+#### `chargeTree.json`
+* the charge is also stored in JSON files in `chargeTree.json`, with
   a similar format:
 ```
 chargeTree.json ─┬─ run number 1
@@ -240,7 +288,7 @@ chargeTree.json ─┬─ run number 1
 
 
 <a name="charge"></a>
-# Faraday Cup Charge Access
+# How to Access the Faraday Cup Charge
 * the charge is stored in the QADB for each QA bin, so that it is possible to
   determine the amount of accumulated charge for data that satisfy your
   specified QA criteria.
@@ -262,7 +310,7 @@ chargeTree.json ─┬─ run number 1
 > * corrections of this issue to these older QADBs will not be applied
 
 <a name="dev"></a>
-# QADB Management
+# QADB Maintenance
 
 Documentation for QADB maintenance and revision
 
@@ -274,7 +322,7 @@ Documentation for QADB maintenance and revision
   * [ ] `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
   * [ ] add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
-  * [ ] run `source environ.sh`, then `bin/makeTables.sh`
+  * [x] ~~run `util/makeTables.sh`~~ a pre-commit hook will take care of this
   * [x] ~~update customized QA criteria sets, such as `OkForAsymmetry`~~ this function is no longer maintained
   * [ ] update the above table of data sets
   * [ ] submit a pull request
@@ -289,7 +337,7 @@ Documentation for QADB maintenance and revision
     * `srcC/include/QADB.h`
     * `srcC/examples/dumpQADB.cpp` (optional)
   * Documentation:
-    * `qadb/defect_definitions.json`, then use `bin/makeDefectMarkdown.rb` to generate
+    * `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate
       Markdown table for `README.md`
 
 
