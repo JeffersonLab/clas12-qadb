@@ -38,7 +38,7 @@ bits to use in the filter.
 > - The analyzer must decide whether or not data with the `Misc` defect bit
 >   should be excluded from their analysis
 > - To help with this decision-making,
->   [`Misc` summary tables are found in each dataset's directory](#storage),
+>   [`Misc` summary tables are found in each dataset's directory](#files),
 >   which provide the comment(s) for each run
 
 <a name="info"></a>
