@@ -1,4 +1,4 @@
-# Misc Table for dataset `qadb/pass1/rga_fa18_outbending`
+# Misc Defect Comments Table for dataset `qadb/pass1/rga_fa18_outbending`
 
 For each run, the table shows:
 - `Misc` defect?:

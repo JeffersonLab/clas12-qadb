@@ -1,4 +1,4 @@
-# Misc Table for dataset `qadb/pass1/rgc_su22`
+# Misc Defect Comments Table for dataset `qadb/pass1/rgc_su22`
 
 For each run, the table shows:
 - `Misc` defect?:
