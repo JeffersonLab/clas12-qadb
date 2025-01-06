@@ -28,7 +28,7 @@ end
 
 # table header
 out_file = File.open out_file_name, 'w'
-out_file.puts """# MMisc Defect Comments Table for dataset `#{File.dirname qa_tree_file}`
+out_file.puts """# MMMisc Defect Comments Table for dataset `#{File.dirname qa_tree_file}`
 
 For each run, the table shows:
 - `Misc` defect?:
