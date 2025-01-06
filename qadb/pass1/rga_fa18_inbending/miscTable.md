@@ -1,4 +1,4 @@
-# Misc Defect Comments Table for dataset `qadb/pass1/rga_fa18_inbending`
+# MMMisc Defect Comments Table for dataset `qadb/pass1/rga_fa18_inbending`
 
 For each run, the table shows:
 - `Misc` defect?:
