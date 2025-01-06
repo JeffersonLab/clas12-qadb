@@ -37,8 +37,9 @@ bits to use in the filter.
 >   QADB, explaining _why_ the bit was set
 > - The analyzer must decide whether or not data with the `Misc` defect bit
 >   should be excluded from their analysis
-> - To help with this decision-making, [`Misc` summary tables are provided](#storage),
->   which contain the comment(s) for each run
+> - To help with this decision-making,
+>   [`Misc` summary tables are found in each dataset's directory](#storage),
+>   which provide the comment(s) for each run
 
 <a name="info"></a>
 # QA Information
@@ -208,7 +209,7 @@ The QADB is stored in the [`qadb/` subdirectory](/qadb):
 
 In each dataset's directory, there are a few files:
 - Summary tables regarding the `Misc` defect bit assignment are stored in `miscTable.md`;
-  use these to help decide which runs' `Misc` bits you want to omit from your analysis
+  **use these to help decide which runs' `Misc` bits you want to omit from your analysis**
 - A human-readable table of the full QADB is stored in `qaTree.json.table`, a "Table File";
   see below for how to interpret this file
 - The QADB itself is stored in `json` files, meant for programmatic access
