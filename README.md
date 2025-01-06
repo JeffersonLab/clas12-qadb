@@ -11,7 +11,7 @@ CLAS12 experiment at Jefferson Lab
     - [Defect Bit Definitions](#bitdefs)
 1. [How to Access the QADB](#access)
     - [Software Access](#software)
-    - [Data Storage Details](#storage)
+    - [QADB Files and Tables](#files)
 1. [How to Access the Faraday Cup Charge](#charge)
 1. [Database Maintenance](#dev)
 1. [Contributions](#contributions)
@@ -199,20 +199,22 @@ Then:
 > ```
 <!--`-->
 
-<a name="storage"></a>
-## Data Storage Details
+<a name="files"></a>
+## QADB Files and Tables
 
-The QADB is stored in the [`qadb/` subdirectory](/qadb):
-- within `qadb/`, the `pass*/` directories are for each cook (`pass1`, `pass2`, _etc_.)
-  - within each `pass*/` directory are subdirectories for each dataset
-- the `latest/` directory contains symbolic links to the _latest_ cook of each data set with a QADB
-
-In each dataset's directory, there are a few files:
+The QADB files are organized by dataset: one subdirectory of [`qadb/`](/qadb) per dataset.
+Each directory contains:
 - Summary tables regarding the `Misc` defect bit assignment are stored in `miscTable.md`;
   **use these to help decide which runs' `Misc` bits you want to omit from your analysis**
 - A human-readable table of the full QADB is stored in `qaTree.json.table`, a "Table File";
   see below for how to interpret this file
 - The QADB itself is stored in `json` files, meant for programmatic access
+
+The dataset directories are organized by cook number (pass):
+- within `qadb/`, the `pass*/` directories are for each cook (`pass1`, `pass2`, _etc_.)
+  - within each `pass*/` directory are subdirectories for each dataset
+- the `latest/` directory contains symbolic links to the _latest_ cook of each data set with a QADB
+
 
 ### Table Files
 
