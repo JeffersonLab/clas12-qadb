@@ -3,6 +3,7 @@
 # - convert json files into human-readable tables
 # - generate misc table files
 
+set -e
 source environ.sh
 
 pushd $QADB
@@ -14,5 +15,5 @@ popd
 
 git status --porcelain=v1 |\
   grep -E '\.table$|miscTable\.md$' \
-  && (echo "generated files have changed" && exit 1) \
+  && { echo "generated files have changed" >&2; exit 1; } \
   || exit 0

@@ -1,3 +1,4 @@
+# Misc Table for dataset `qadb/pass2/rga_sp19`
 
 For each run, the table shows:
 - `Misc` defect?:
@@ -111,7 +112,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6747       | yes   | <pre>FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre> |
 | 6748       | yes   | <pre>FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre> |
 | 6749       | yes   | <pre>FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre> |
-| 6750       | yes   | <pre>FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre><pre>manually added PossiblyNoBeam defect bit; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre> |
+| 6750       | yes   | <pre>FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre> |
 | 6753       | yes   | <pre>FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre> |
 | 6754       | yes   | <pre>FC charge issue; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre><pre>FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre> |
 | 6755       | yes   | <pre>FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262</pre> |
@@ -120,7 +121,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6759       | no    |  |
 | 6760       | yes   | <pre>FC charge issue</pre> |
 | 6762       | no    |  |
-| 6763       | no    | <pre>manually added PossiblyNoBeam defect bit</pre> |
+| 6763       | no    |  |
 | 6764       | no    |  |
 | 6765       | no    |  |
 | 6767       | no    |  |
@@ -132,5 +133,5 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6778       | yes   | <pre>fraction of events with defined helicity is low; pi+ beam asymmetry looks normal</pre> |
 | 6779       | no    |  |
 | 6780       | no    |  |
-| 6781       | no    | <pre>manually added PossiblyNoBeam defect bit</pre> |
+| 6781       | no    |  |
 | 6783       | no    |  |

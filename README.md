@@ -160,7 +160,7 @@ The following tables describe the available data sets in the QADB. The columns a
 | 17 | `ChargeNegative` | FC Charge is negative | The FC charge is calculated from the charge readout at QA bin boundaries. Normally the later charge readout is higher than the earlier; this bit is assigned when the opposite happens. |
 | 18 | `ChargeUnknown` | FC Charge is unknown; the first and last time bins _always_ have this defect | QA bin boundaries are at scaler charge readouts. The first QA bin, before any readout, has no initial charge; the last QA bin, after all scaler readouts, has no final charge. Therefore, the first and last QA bins have an unknown, but likely _very small_ charge accumulation. |
 | 19 | `PossiblyNoBeam` | Both N and F are low, indicating the beam was possibly off | NOTE: the assignment criteria of this bit are still under study. |
-<!-- NOTE: do not update this table manually; instead, use `bin/makeDefectMarkdown.rb` -->
+<!-- NOTE: do not update this table manually; instead, use `util/makeDefectMarkdown.rb` -->
 
 <a name="access"></a>
 # How to Access the QADB
@@ -317,7 +317,7 @@ Documentation for QADB maintenance and revision
   * [ ] `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
   * [ ] add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
-  * [ ] run `source environ.sh`, then `bin/makeTables.sh`
+  * [x] ~~run `util/makeTables.sh`~~ a pre-commit hook will take care of this
   * [x] ~~update customized QA criteria sets, such as `OkForAsymmetry`~~ this function is no longer maintained
   * [ ] update the above table of data sets
   * [ ] submit a pull request
@@ -332,7 +332,7 @@ Documentation for QADB maintenance and revision
     * `srcC/include/QADB.h`
     * `srcC/examples/dumpQADB.cpp` (optional)
   * Documentation:
-    * `qadb/defect_definitions.json`, then use `bin/makeDefectMarkdown.rb` to generate
+    * `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate
       Markdown table for `README.md`
 
 

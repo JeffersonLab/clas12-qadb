@@ -28,7 +28,8 @@ end
 
 # table header
 out_file = File.open out_file_name, 'w'
-out_file.puts """
+out_file.puts """# Misc Table for dataset `#{File.dirname qa_tree_file}`
+
 For each run, the table shows:
 - `Misc` defect?:
   - \"yes\" if _any_ of the QA bins in this runs has the `Misc` defect
