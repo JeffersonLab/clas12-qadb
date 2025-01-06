@@ -8,7 +8,7 @@ source environ.sh
 
 pushd $QADB
 for file in $(find -P qadb -name "qaTree.json"); do
-  echo run-groovy util/parseQaTree.groovy $file # FIXME # FIXME # FIXME # FIXME # FIXME # FIXME # FIXME # FIXME # FIXME
+  run-groovy util/parseQaTree.groovy $file
   util/makeMiscTable.rb $file
 done
 popd
