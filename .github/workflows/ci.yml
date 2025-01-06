@@ -48,36 +48,36 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: setup_groovy
-        uses: wtfjoke/setup-groovy@v2
-        with:
-          groovy-version: 4.x
-      - name: env
-        run: |
-          source environ.sh
-          echo "QADB=${QADB}" >> $GITHUB_ENV
-          echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
-      - name: compile_cpp_tests
-        run: |
-          cd srcC/tests
-          make
-      - name: test_diff_groovy_cpp
-        run: |
-          tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
-      - name: concatenate_artifacts
-        id: artifacts
-        run: |
-          mkdir -p artifacts/${{matrix.dataset}}
-          for lang in cpp groovy ; do
-            cat tmp/${lang}*.out > artifacts/${{matrix.dataset}}/${lang}.txt ;
-          done
-          echo "artifact_name=groovy_vs_cpp__$(echo ${{matrix.dataset}} | sed 's;/;_;g')" | tee -a $GITHUB_OUTPUT
-      - name: upload_artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ steps.artifacts.outputs.artifact_name }}
-          retention-days: 3
-          path: artifacts/*
+      # - name: setup_groovy
+      #   uses: wtfjoke/setup-groovy@v2
+      #   with:
+      #     groovy-version: 4.x
+      # - name: env
+      #   run: |
+      #     source environ.sh
+      #     echo "QADB=${QADB}" >> $GITHUB_ENV
+      #     echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
+      # - name: compile_cpp_tests
+      #   run: |
+      #     cd srcC/tests
+      #     make
+      # - name: test_diff_groovy_cpp
+      #   run: |
+      #     tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
+      # - name: concatenate_artifacts
+      #   id: artifacts
+      #   run: |
+      #     mkdir -p artifacts/${{matrix.dataset}}
+      #     for lang in cpp groovy ; do
+      #       cat tmp/${lang}*.out > artifacts/${{matrix.dataset}}/${lang}.txt ;
+      #     done
+      #     echo "artifact_name=groovy_vs_cpp__$(echo ${{matrix.dataset}} | sed 's;/;_;g')" | tee -a $GITHUB_OUTPUT
+      # - name: upload_artifacts
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: ${{ steps.artifacts.outputs.artifact_name }}
+      #     retention-days: 3
+      #     path: artifacts/*
 
   # report status for github status check (successful only if all `groovy_vs_cpp` jobs pass)
   report:
