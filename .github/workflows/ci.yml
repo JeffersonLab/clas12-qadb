@@ -60,8 +60,12 @@ jobs:
       - name: make sure all the table files exist # since pre-commit.ci auto-fix bot will not `git add` *new* files, we fallback to checking their existence here
         working-directory: qadb/${{matrix.dataset}}
         run: |
-          ls qaTree.json.table
-          ls miscTable.md
+          for f in qaTree.json.table miscTable.md; do
+            if [ ! -f $f ]; then
+              echo "missing table file '$f'; run pre-commit hook manually and commit new file(s)"
+              exit 1
+            fi
+          done
       - name: compile c++ tests
         run: |
           cd srcC/tests
