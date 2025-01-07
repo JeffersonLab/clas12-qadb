@@ -117,6 +117,9 @@ runlistFile.eachLine { runnumStr ->
   // print max bin number
   println qa.getMaxBinnum(runnum)
 
+  // reset charge acummulator for the next run
+  qa.resetAccumulatedCharge()
+
   sep("=",50);
 
 }

@@ -125,6 +125,9 @@ int main(int argc, char ** argv) {
     // print max bin number
     cout << qa->GetMaxBinnum(runnum) << endl;
 
+    // reset charge acummulator for the next run
+    qa->ResetAccumulatedCharge();
+
     sep("=",50);
   }
 
