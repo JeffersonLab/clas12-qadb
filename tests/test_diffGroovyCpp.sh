@@ -33,13 +33,13 @@ runSuffix=$(echo $run | sed 's;/;.;g')
 # groovy test
 echo "EXECUTE GROOVY TEST $testname FOR $run"
 pushd ${QADB}/src/tests
-groovy -cp "$JYPATH" test${testname}.groovy $run $cook > ${QADB}/tmp/groovy.${runSuffix}.out
+groovy -cp "$JYPATH" test${testname}.groovy $run $cook | tee ${QADB}/tmp/groovy.${runSuffix}.out
 popd
 
 # c++ test
 echo "EXECUTE C++ TEST $testname FOR $run"
 pushd ${QADB}/srcC/tests
-./test${testname}.exe $run $cook > ${QADB}/tmp/cpp.${runSuffix}.out
+./test${testname}.exe $run $cook | tee ${QADB}/tmp/cpp.${runSuffix}.out
 popd
 
 # compare
