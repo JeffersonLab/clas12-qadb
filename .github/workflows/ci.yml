@@ -28,12 +28,12 @@ jobs:
         id: datasets
         working-directory: qadb
         run: |
-          ls -d pass*/* | jq -Rs '{"dataset": split("\n")[:-1]}' > list.json
+          ls -d pass*/* | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
           echo "### List of Datasets" >> $GITHUB_STEP_SUMMARY
           echo '```json' >> $GITHUB_STEP_SUMMARY
-          cat list.json | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
+          cat datasets.json >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          echo datasets=$(jq -c . list.json) >> $GITHUB_OUTPUT
+          echo datasets=$(jq -c . datasets.json) >> $GITHUB_OUTPUT
 
   # check consistency between Groovy and C++ APIs
   groovy_vs_cpp:
