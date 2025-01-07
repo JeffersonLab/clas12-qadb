@@ -68,8 +68,11 @@ int main(int argc, char ** argv) {
 
       // check event number: report an error if evnum min>=max
       cout << qa->GetEvnumMin() << " " << qa->GetEvnumMax() << endl;
-      if(qa->GetEvnumMin() >= qa->GetEvnumMax())
-        err("GetEvnumMin() >= GetEvnumMax()");
+      if(qa->GetEvnumMin() >= qa->GetEvnumMax()) {
+        if(binnum != 0 && binnum != qa->GetMaxBinnum(runnum)) { // don't bother, if not first or last bin
+          err("GetEvnumMin() >= GetEvnumMax()");
+        }
+      }
 
       // print charge (convert to pC and truncate, for easier comparison)
       // chargeInt = (int) (1000*qa->GetCharge()); // FIXME: too many warnings
