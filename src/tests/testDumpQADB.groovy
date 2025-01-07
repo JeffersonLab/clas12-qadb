@@ -34,7 +34,8 @@ runlistFile = new File(runlist)
 if(!(runlistFile.exists())) {
   throw new Exception("runlist does not exist")
 }
-runlistFile.eachLine { runnum ->
+runlistFile.eachLine { runnumStr ->
+  def runnum = runnumStr.toInteger()
 
   // loop through bins
   int evnum
