@@ -126,10 +126,7 @@ namespace QA {
       inline std::string GetComment() { return found ? comment : ""; };
       inline int GetEvnumMin() { return found ? evnumMin : -1; };
       inline int GetEvnumMax() { return found ? evnumMax : -1; };
-      inline double GetCharge() {
-        std::cerr << "WARNING: the charge stored in the Pass 1 QADB for Run Groups A, B, K, and M is NOT quite correct, and may be off by ~1%, depending on the particular runs! This will be fixed for their Pass 2 data sets." << std::endl;
-        return found ? charge : -1;
-      }
+      inline double GetCharge() { return found ? charge : -1; };
       // --- access QA info
       // check if the file has a particular defect
       // - if sector==0, checks the OR of all the sectors
@@ -194,7 +191,6 @@ namespace QA {
       // returns total accumlated charge that passed your QA cuts; call this
       // method after your event loop
       inline double GetAccumulatedCharge() {
-        std::cerr << "WARNING: the charge stored in the Pass 1 QADB for Run Groups A, B, K, and M is NOT quite correct, and may be off by ~1%, depending on the particular runs! This will be fixed for their Pass 2 data sets." << std::endl;
         return chargeTotal;
       }
       // reset accumulated charge, if you ever need to
