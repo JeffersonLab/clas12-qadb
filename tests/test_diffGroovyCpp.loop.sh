@@ -26,8 +26,9 @@ begin TEST:
 
 """
 
+runList=${QADB}/qadb/${datasetSubdir}/runList.tmp
 grep -E '^RUN: ' ${QADB}/qadb/${datasetSubdir}/qaTree.json.table |\
   awk '{print $2}' |\
-  while read run; do
-    ${QADB}/tests/test_diffGroovyCpp.sh DumpQADB $run $cook
-  done
+  tee $runList
+${QADB}/tests/test_diffGroovyCpp.sh DumpQADB $runList $cook
+rm $runList
