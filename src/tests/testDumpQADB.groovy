@@ -62,8 +62,11 @@ runlistFile.eachLine { runnumStr ->
 
     // check event number: report an error if evnum min>=max
     println qa.getEvnumMin() + " " + qa.getEvnumMax()
-    if(qa.getEvnumMin() >= qa.getEvnumMax())
-      err("GetEvnumMin() >= GetEvnumMax()");
+    if(qa.getEvnumMin() >= qa.getEvnumMax()) {
+      if(binnum != 0 && binnum != qa.getMaxBinnum(runnum)) { // don't bother, if not first or last bin
+        err("GetEvnumMin() >= GetEvnumMax()")
+      }
+    }
 
     // print charge (convert to pC and truncate, for easier comparison)
     // println "- charge"
