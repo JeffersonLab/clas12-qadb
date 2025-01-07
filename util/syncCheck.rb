@@ -55,4 +55,22 @@ qa_tree.sort{ |a,b| a.first.to_i <=> b.first.to_i }.each do |runnum, run_tree|
   puts "RUN #{runnum} #{found_issue_in_run ? "has issues (see stderr)" : "is okay"}"
 end
 
-exit 1 if found_issue_anywhere
+if found_issue_anywhere
+  if [ # datasets which used DST 5-files as QA bins
+      "pass1/rga_fa18_inbending",
+      "pass1/rga_fa18_outbending",
+      "pass1/rga_sp19",
+      "pass1/rgb_fa19",
+      "pass1/rgb_sp19",
+      "pass1/rgb_wi20",
+      "pass1/rgk_fa18_6.5GeV",
+      "pass1/rgk_fa18_7.5GeV",
+      "pass1/rgm_fa21",
+  ].include? dataset
+    $stderr.puts "WARNING: this dataset was done using DST 5-files as QA bins, which inherently causes SYNC ERRORS; now exitting with 0"
+    exit 0
+  else
+    $stderr.puts "ERROR: this dataset should not have any errors"
+    exit 1
+  end
+end
