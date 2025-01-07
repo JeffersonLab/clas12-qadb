@@ -1,4 +1,3 @@
-
 RUN: 16042
 16042 0  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: raster test
 16042 1  5-Misc[all]  11-BSAUnknown[all]  :: raster test
@@ -58752,3 +58751,4 @@ RUN: 16772
 16772 211  GOLDEN
 16772 212  GOLDEN
 16772 213  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+
