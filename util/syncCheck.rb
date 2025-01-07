@@ -9,8 +9,9 @@ if ARGV.empty?
   exit(2)
 end
 raise 'source environment variables first' if ENV['QADB'].nil?
+dataset = ARGV.first
 
-qa_tree_file = File.join ENV['QADB'], 'qadb', ARGV.first.split('/'), 'qaTree.json'
+qa_tree_file = File.join ENV['QADB'], 'qadb', dataset.split('/'), 'qaTree.json'
 raise "#{qa_tree_file} does not exist" unless File.exist? qa_tree_file
 qa_tree = JSON.load_file qa_tree_file
 
