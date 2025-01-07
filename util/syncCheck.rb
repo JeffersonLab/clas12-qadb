@@ -29,8 +29,8 @@ qa_tree.sort{ |a,b| a.first.to_i <=> b.first.to_i }.each do |runnum, run_tree|
     # check that min event number < max
     evnumMin = bin_tree['evnumMin']
     evnumMax = bin_tree['evnumMax']
-    if evnumMin >= evnumMax
-      $stderr.puts "ERROR run=#{runnum} bin=#{binnum}: evnumMin >= evnumMax: #{evnumMin} >= #{evnumMax}"
+    if evnumMin > evnumMax
+      $stderr.puts "ERROR run=#{runnum} bin=#{binnum}: evnumMin > evnumMax: #{evnumMin} > #{evnumMax}"
       found_issue_anywhere = true
       found_issue_in_run = true
     end
