@@ -75,7 +75,7 @@ int main(int argc, char ** argv) {
       }
 
       // print charge (convert to pC and truncate, for easier comparison)
-      // chargeInt = (int) (1000*qa->GetCharge()); // FIXME: too many warnings
+      // chargeInt = (long) (1000*qa->GetCharge()); // FIXME: too many warnings
       // cout << "- charge" << endl;
       // cout << chargeInt << endl;
       qa->AccumulateCharge();
@@ -123,7 +123,7 @@ int main(int argc, char ** argv) {
 
     // print accumulated charge
     cout << "- charge, max binnum" << endl;
-    cout << ((int)(1000*qa->GetAccumulatedCharge())) << endl;
+    cout << ((long)(1000*qa->GetAccumulatedCharge())) << endl;
 
     // print max bin number
     cout << qa->GetMaxBinnum(runnum) << endl;

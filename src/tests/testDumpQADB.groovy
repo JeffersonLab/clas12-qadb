@@ -70,7 +70,7 @@ runlistFile.eachLine { runnumStr ->
 
     // print charge (convert to pC and truncate, for easier comparison)
     // println "- charge"
-    // println ((int)(1000*qa.getCharge())) // FIXME: too many warnings
+    // println ((long)(1000*qa.getCharge())) // FIXME: too many warnings
     qa.accumulateCharge();
 
     // print comment
@@ -115,7 +115,7 @@ runlistFile.eachLine { runnumStr ->
 
   // print accumulated charge
   println "- charge, max binnum"
-  println ((int)(1000*qa.getAccumulatedCharge()))
+  println ((long)(1000*qa.getAccumulatedCharge()))
 
   // print max bin number
   println qa.getMaxBinnum(runnum)
