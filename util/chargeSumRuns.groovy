@@ -1,6 +1,6 @@
 // calculate total analyzed charge for a run period,
 // with specified QA cuts enabled
-// note: if syncCheck.groovy errors are present in the run range,
+// note: if syncCheck.rb errors are present in the run range,
 // the final charge value might be a bit wrong...
 
 import org.jlab.io.hipo.HipoDataSource
