@@ -63,7 +63,7 @@ jobs:
             fi
           done
       - name: sync check
-        run: util/syncCheck.rb ${{ matrix.dataset }}
+        run: stdbuf -i0 -e0 -o0 util/syncCheck.rb ${{ matrix.dataset }}
       - name: diff the Groovy and C++ QADB dumps
         run: |
           make -C srcC/tests
