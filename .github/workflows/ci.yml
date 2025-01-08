@@ -28,20 +28,16 @@ jobs:
         id: datasets
         working-directory: qadb
         run: |
-          ls -d pass*/* | jq -Rs '{"dataset": split("\n")[:-1]}' > list.json
-          echo "### List of Datasets" >> $GITHUB_STEP_SUMMARY
-          echo '```json' >> $GITHUB_STEP_SUMMARY
-          cat list.json | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-          echo datasets=$(jq -c . list.json) >> $GITHUB_OUTPUT
+          ls -d pass*/* | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
+          echo datasets=$(jq -c . datasets.json) >> $GITHUB_OUTPUT
 
   # check consistency between Groovy and C++ APIs
-  groovy_vs_cpp:
+  test_dataset:
     needs:
       - get_datasets
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix: ${{ fromJson(needs.get_datasets.outputs.datasets) }}
     steps:
       - name: checkout
@@ -57,21 +53,29 @@ jobs:
           source environ.sh
           echo "QADB=${QADB}" >> $GITHUB_ENV
           echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
-      - name: compile_cpp_tests
+      - name: make sure all the table files exist # since pre-commit.ci auto-fix bot will not `git add` *new* files, we fallback to checking their existence here
+        working-directory: qadb/${{ matrix.dataset }}
         run: |
-          cd srcC/tests
-          make
-      - name: test_diff_groovy_cpp
+          for f in qaTree.json.table miscTable.md; do
+            if [ ! -f $f ]; then
+              echo "missing table file '$f'; run pre-commit hook manually and commit new file(s)"
+              exit 1
+            fi
+          done
+      - name: sync check
+        run: stdbuf -i0 -e0 -o0 util/syncCheck.rb ${{ matrix.dataset }}
+      - name: diff the Groovy and C++ QADB dumps
         run: |
-          tests/test_diffGroovyCpp.loop.sh ${{matrix.dataset}}
-      - name: concatenate_artifacts
+          make -C srcC/tests
+          tests/test_diffGroovyCpp.loop.sh ${{ matrix.dataset }}
+      - name: concatenate artifacts
         id: artifacts
         run: |
-          mkdir -p artifacts/${{matrix.dataset}}
+          mkdir -p artifacts/${{ matrix.dataset }}
           for lang in cpp groovy ; do
-            cat tmp/${lang}*.out > artifacts/${{matrix.dataset}}/${lang}.txt ;
+            cat tmp/${lang}*.out > artifacts/${{ matrix.dataset }}/${lang}.txt ;
           done
-          echo "artifact_name=groovy_vs_cpp__$(echo ${{matrix.dataset}} | sed 's;/;_;g')" | tee -a $GITHUB_OUTPUT
+          echo "artifact_name=groovy_vs_cpp__$(echo ${{ matrix.dataset }} | sed 's;/;_;g')" | tee -a $GITHUB_OUTPUT
       - name: upload_artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -79,10 +83,10 @@ jobs:
           retention-days: 3
           path: artifacts/*
 
-  # report status for github status check (successful only if all `groovy_vs_cpp` jobs pass)
+  # report status for github status check (successful only if all `test_dataset` jobs pass)
   report:
     runs-on: ubuntu-latest
     needs:
-      - groovy_vs_cpp
+      - test_dataset
     steps:
       - run: echo success
