@@ -64,7 +64,8 @@ The following tables describe the available data sets in the QADB. The columns a
   - _Up-to-Date_: this is the most recent Pass of these data, and the QADB has been updated for it
   - _Deprecated_: a newer Pass exists for these data, but the QADB for this version is still preserved
   - _TO DO_: the Pass for these data exist, but the QADB has not yet been updated for it
-- **Data files**: the input data files used for the QA
+- **Data Directory**: the input data used for the QA; this is the top level directory, where trains (skim files) and full DSTs are stored
+- **Data Files**: the specific files (_e.g._ train) used for the QA
 
 > [!CAUTION]
 > The QADB for older data sets may have some issues, and may even violate the
@@ -95,33 +96,33 @@ The following tables describe the available data sets in the QADB. The columns a
 
 ### Run Group C
 
-| Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status       | Data Files                                     |
-| ---  | ---                                                                                           | ---           | ---          | ---                                            |
-| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16771 | _Up-to-Date_ | `/cache/clas12/rg-c/production/summer22/pass1` |
+| Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status       | Data Directory                                 | Data Files        |
+| ---  | ---                                                                                           | ---           | ---          | ---                                            | ---               |
+| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16771 | _Up-to-Date_ | `/cache/clas12/rg-c/production/summer22/pass1` | `sidisdvcs` train |
 
 ### Run Group F
 
-| Pass | Data Set Name and Timelines Link | Run Range     | Status  | Data Files                                                                                  |
-| ---  | ---                              | ---           | ---     | ---                                                                                         |
-| 1    | `rgf_sp20_torusM1`               | 12210 - 12329 | _TO DO_ | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
-| 1    | `rgf_su20_torusPh`               | 12389 - 12434 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |
-| 1    | `rgf_su20_torusMh`               | 12436 - 12443 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
-| 1    | `rgf_su20_torusM1`               | 12447 - 12951 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
+| Pass | Data Set Name and Timelines Link | Run Range     | Status  | Data Directory                                                                              | Data Files |
+| ---  | ---                              | ---           | ---     | ---                                                                                         | ---        |
+| 1    | `rgf_sp20_torusM1`               | 12210 - 12329 | _TO DO_ | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |            |
+| 1    | `rgf_su20_torusPh`               | 12389 - 12434 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |            |
+| 1    | `rgf_su20_torusMh`               | 12436 - 12443 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |            |
+| 1    | `rgf_su20_torusM1`               | 12447 - 12951 | _TO DO_ | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |            |
 
 ### Run Group K
 
-| Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status       | Data Files                                                                        |
-| ---  | ---                                                                                | ---         | ---          | ---                                                                               |
-| 2    | `rgk_fa18_7.5GeV`                                                                  | 5674 - 5870 | _TO DO_      |                                                                                   |
-| 2    | `rgk_fa18_6.5GeV`                                                                  | 5875 - 6000 | _TO DO_      |                                                                                   |
-| 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | _Up-to-Date_ | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` |
-| 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | _Up-to-Date_ | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` |
+| Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status       | Data Directory                                                                    | Data Files     |
+| ---  | ---                                                                                | ---         | ---          | ---                                                                               | ---            |
+| 2    | `rgk_fa18_7.5GeV`                                                                  | 5674 - 5870 | _TO DO_      |                                                                                   |                |
+| 2    | `rgk_fa18_6.5GeV`                                                                  | 5875 - 6000 | _TO DO_      |                                                                                   |                |
+| 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | _Up-to-Date_ | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` | full DST files |
+| 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | _Up-to-Date_ | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` | full DST files |
 
 ### Run Group M
 
-| Pass | Data Set Name and Timelines Link                                                     | Run Range     | Status       | Data Files                                                  |
-| ---  | ---                                                                                  | ---           | ---          | ---                                                         |
-| 1    | [`rgm_fa21`](https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/) | 15019 - 15884 | _Up-to-Date_ | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/` |
+| Pass | Data Set Name and Timelines Link                                                     | Run Range     | Status       | Data Directory                                              | Data Files     |
+| ---  | ---                                                                                  | ---           | ---          | ---                                                         | ---            |
+| 1    | [`rgm_fa21`](https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/) | 15019 - 15884 | _Up-to-Date_ | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/` | full DST files |
 
 
 <a name="bitdefs"></a>
