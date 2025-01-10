@@ -53,12 +53,18 @@ jobs:
           source environ.sh
           echo "QADB=${QADB}" >> $GITHUB_ENV
           echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
-      - name: make sure all the table files exist # since pre-commit.ci auto-fix bot will not `git add` *new* files, we fallback to checking their existence here
+      - name: make sure all necessary files exist # since pre-commit.ci auto-fix bot will not `git add` *new* files, we fallback to checking their existence here
         working-directory: qadb/${{ matrix.dataset }}
         run: |
           for f in qaTree.json.table miscTable.md; do
             if [ ! -f $f ]; then
               echo "missing table file '$f'; run pre-commit hook manually and commit new file(s)"
+              exit 1
+            fi
+          done
+          for f in qaTree.json chargeTree.json; do
+            if [ ! -f $f ]; then
+              echo "missing file '$f'"
               exit 1
             fi
           done
