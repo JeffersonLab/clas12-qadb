@@ -18,6 +18,7 @@ jobs:
 
   # get list of datasets to check
   get_datasets:
+    name: Datasets
     runs-on: ubuntu-latest
     outputs:
       datasets: ${{ steps.datasets.outputs.datasets }}
@@ -30,6 +31,11 @@ jobs:
         run: |
           ls -d pass*/* | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
           echo datasets=$(jq -c . datasets.json) >> $GITHUB_OUTPUT
+      - name: run qadb-info
+        run: |
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          bin/qadb-info | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
 
   # check consistency between Groovy and C++ APIs
   test_dataset:

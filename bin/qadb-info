@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+#
+# dump some info about the available datasets
+#
+
+set -e
+set -u
+
+cd $(dirname $0)/../qadb
+
+datasets=($(find -L -name qaTree.json | xargs dirname | sort | sed 's;^\./;;'))
+
+subdir=''
+for dataset in ${datasets[@]}; do
+
+  this_subdir=$(dirname $dataset)
+  if [ "$subdir" != "$this_subdir" ]; then
+    printf "\n%s datasets\n---------------\n" $this_subdir
+    subdir=$this_subdir
+  fi
+
+  runs=''
+  json=$dataset/qaTree.json
+  if [ -f $json ]; then
+    runlist=($(jq 'keys[]' $dataset/qaTree.json -r | sort -n))
+    runs="runs ${runlist[0]} to ${runlist[${#runlist[@]}-1]}"
+  fi
+
+  printf "%30s  ::  %s\n" $dataset "$runs"
+done

@@ -54,6 +54,13 @@ bits to use in the filter.
 
 <a name="datasets"></a>
 ## Available Data Sets
+
+For a list of all the available datasets by name, run
+```bash
+qadb-info
+```
+If it's not in your path, run `bin/qadb-info` or `$QADB/bin/qadb-info`.
+
 The following tables describe the available data sets in the QADB. The columns are:
 - **Pass**: the Pass number of the data set (higher is newer)
 - **Data Set Name**: a unique name for the data-taking period; click it to see the corresponding QA timelines
