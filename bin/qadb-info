@@ -1,30 +1,83 @@
-#!/usr/bin/env bash
-#
-# dump some info about the available datasets
-#
+#!/usr/bin/env ruby
 
-set -e
-set -u
+require 'json'
+require 'optparse'
+require 'ostruct'
 
-cd $(dirname $0)/../qadb
+# check environment
+raise 'source environment variables first' if ENV['QADB'].nil?
+qa_dir = File.join ENV['QADB'], 'qadb'
 
-datasets=($(find -L -name qaTree.json | xargs dirname | sort | sed 's;^\./;;'))
+# parse options
+options = OpenStruct.new
+options.dump_all      = false
+options.list_datasets = false
+options.list_defects  = false
+OptionParser.new do |o|
+  o.banner = "USAGE: #{$0} [OPTIONS]..."
+  o.separator ''
+  o.separator 'OPTIONS:'
+  o.separator ''
+  o.on('-a', '--all', 'dump all general information about the', 'datasets and defect definitions') do options.dump_all = true end
+  o.on('-l', '--list', 'list the available datasets') do options.list_datasets = true end
+  o.on('-d', '--defects', 'list the defects and their definitions;', 'see documentation for more info') do options.list_defects = true end
 
-subdir=''
-for dataset in ${datasets[@]}; do
+  o.separator ''
+  o.on('-v', '--version', 'print the QADB version number') do
+    ver=`cd #{ENV['QADB']} && git describe --tags --abbrev=0`
+    raise 'version detection failed; try using the `module` command instead, if you are on `ifarm`' unless $?.success?
+    puts ver
+    exit
+  end
+  o.on_tail('-h', '--help', 'show this message') do
+    puts o
+    exit
+  end
+end.parse!(ARGV.length > 0 ? ARGV : ['--help'])
 
-  this_subdir=$(dirname $dataset)
-  if [ "$subdir" != "$this_subdir" ]; then
-    printf "\n%s datasets\n---------------\n" $this_subdir
-    subdir=$this_subdir
-  fi
+# list the defects
+defect_defs = JSON.load_file(File.join qa_dir, 'defect_definitions.json')
+if options.list_defects or options.dump_all
+  puts """
+defect bits
+==========="""
+  defect_defs.sort{ |a,b| a['bit_number'] <=> b['bit_number'] }.each do |defect_def|
+    puts "#{defect_def['bit_number'].to_s.rjust 5}  #{defect_def['bit_name']}"
+  end
+  exit unless options.dump_all
+end
 
-  runs=''
-  json=$dataset/qaTree.json
-  if [ -f $json ]; then
-    runlist=($(jq 'keys[]' $dataset/qaTree.json -r | sort -n))
-    runs="runs ${runlist[0]} to ${runlist[${#runlist[@]}-1]}"
-  fi
+# get list of datasets
+dataset_list = `cd #{qa_dir} && find -L -name qaTree.json | sed 's;^\./;;' | xargs dirname | sort `.split "\n"
+raise 'qadb-info failed' unless $?.success?
+datasets = dataset_list.map do |dataset|
+  [ dataset, {
+    :cook       => dataset.split('/').first,
+    :qaTree     => File.join(qa_dir, dataset, 'qaTree.json'),
+    :chargeTree => File.join(qa_dir, dataset, 'chargTree.json'),
+  }]
+end.to_h
 
-  printf "%30s  ::  %s\n" $dataset "$runs"
-done
+# list the datasets and exit
+if options.list_datasets and not options.dump_all
+  datasets.keys.each do |dataset_name|
+    puts dataset_name
+  end
+  exit
+end
+
+# print info about each dataset
+if options.dump_all
+  puts """
+available datasets and info
+==========================="""
+  cook = ''
+  datasets.each do |dataset_name, dataset|
+    if cook != dataset[:cook]
+      cook = dataset[:cook]
+      puts "\n#{cook} datasets\n---------------\n"
+    end
+    runlist = JSON.load_file(dataset[:qaTree]).keys.map(&:to_i).sort
+    puts "#{dataset_name.rjust 30}  ::  runs #{runlist.first} to #{runlist.last}"
+  end
+end
