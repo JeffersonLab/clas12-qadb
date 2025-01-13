@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'json'
+require 'yaml'
 require 'optparse'
 
 ExeName = 'qadb-info'
@@ -28,10 +29,12 @@ opts = {
   :charge => {
     :datasets      => [],
     :runs          => [],
-    :allow_defect  => [],
     :reject_defect => [],
-    :allow_misc    => [],
+    :allow_defect  => [],
     :reject_misc   => [],
+    :allow_misc    => [],
+    :verbose       => false,
+    :output        => 'default',
   },
 }
 
@@ -110,18 +113,41 @@ subcommand_parser = {
     NOTE: all `LIST` arguments must be delimited by commas, for example:
             #{ExeName} charge --datasets rgb_sp19,rgb_fa19,rgb_wi20
     """
-    o.on('-d', '--datasets LIST', Array, 'list of datasets to include', 'default: all the latest cooks\' datasets') do |a|
+    o.on('-d', '--datasets LIST', Array, 'list of datasets to include', 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
       opts[:charge][:datasets] = a
     end
     o.separator ''
-    o.on('--runs', 'list of runs to include', 'default: all of them of the datasets from `--datasets`') do end
+    o.on('-r', '--runs LIST', Array, 'list of runs to include', 'default: all of them of the datasets from `--datasets`') do |a|
+      opts[:charge][:runs] = a
+    end
     o.separator ''
-    o.on('--reject', 'list of defect bit numbers to reject, and allow all others;', 'do not use this together with --allow') do end
-    o.on('--allow',  'list of defect bit numbers to allow, and reject all others;', 'do not use this together with --reject') do end
+    o.on('--reject LIST', Array, 'list of defect bit numbers to reject, and allow all others;', 'do not use this together with --allow') do |a|
+      opts[:charge][:reject_defect] = a.map &:to_i
+    end
+    o.on('--allow LIST',  Array, 'list of defect bit numbers to allow, and reject all others;', 'do not use this together with --reject') do |a|
+      opts[:charge][:allow_defect] = a.map &:to_i
+    end
     o.separator ''
-    o.on('--reject-misc', 'list of runs to reject, if they have the "Misc" defect;', 'do not use this together with --allow-misc') do end
-    o.on('--allow-misc',  'list of runs to allow, if they have the "Misc" defect;', 'do not use this together with --allow-misc') do end
+    o.on('--reject-misc LIST', Array, 'list of runs to reject, if they have the "Misc" defect;', 'do not use this together with --allow-misc') do |a|
+      opts[:charge][:reject_misc] = a.map &:to_i
+    end
+    o.on('--allow-misc LIST',  Array, 'list of runs to allow, if they have the "Misc" defect;', 'do not use this together with --reject-misc') do |a|
+      opts[:charge][:allow_misc] = a.map &:to_i
+    end
     o.separator ''
+    o.on('-v', '--[no-]verbose', 'print more information') do |a|
+      opts[:charge][:verbose] = a
+    end
+    o.separator ''
+    o.separator 'OUTPUT OPTIONS'
+    o.on('--json', 'output JSON format') do |a|
+      opts[:charge][:output] = 'json'
+    end
+    o.on('--yaml', 'output YAML format') do |a|
+      opts[:charge][:output] = 'yaml'
+    end
+    o.separator ''
+    o.separator 'OTHER OPTIONS'
     on_help o
   end,
 }
@@ -136,7 +162,7 @@ subcommand_parser[Command].order!(ARGV.empty? ? ['--help'] : ARGV)
 defect_defs = JSON.load_file(File.join qa_dir, 'defect_definitions.json')
 
 # get list of datasets
-datasets = Hash.new
+dataset_hash = Hash.new
 Dir.chdir(qa_dir) do
   Dir.glob("**/*").each do |path|
 
@@ -167,13 +193,14 @@ Dir.chdir(qa_dir) do
     end
 
     if opts[:print][:run_group].nil? or dataset_name.match?(/rg#{opts[:print][:run_group].downcase}/)
-      datasets[dataset_name] = dataset_info
+      dataset_hash[dataset_name] = dataset_info
     end
 
   end
 end
 
-raise "run group '#{opts[:print][:run_group]}' has no QADB available" if datasets.empty?
+raise "run group '#{opts[:print][:run_group]}' has no QADB available" if dataset_hash.empty?
+
 
 ##################################################################################
 # print command
@@ -188,7 +215,7 @@ if Command == 'print'
     puts underline*title.length
   end
 
-  max_dataset_name_length = datasets
+  max_dataset_name_length = dataset_hash
     .select{ |k,v| v[:cook] == 'latest' }
     .map{ |k,v| k.length }
     .max
@@ -204,7 +231,7 @@ if Command == 'print'
     end
 
   when 'list'
-    datasets.each do |dataset_name, dataset|
+    dataset_hash.each do |dataset_name, dataset|
       if opts[:print][:porcelain]
         puts dataset_name
       else
@@ -221,9 +248,9 @@ if Command == 'print'
     $stderr.puts "WARNING: '--porcelain' option ignored" if opts[:print][:porcelain]
     print_title "#{opts[:print][:run_group].nil? ? 'All' : "Run Group #{opts[:print][:run_group].upcase}"} Datasets and Info", '='
     printout = {}
-    datasets.values.map{ |v| v[:cook] }.uniq.sort.each do |cook|
+    dataset_hash.values.map{ |v| v[:cook] }.uniq.sort.each do |cook|
       print_title "#{cook} cook", '-'
-      datasets.select{ |k,v| v[:cook] == cook }.sort{ |a,b| a.first <=> b.first }.each do |dataset_name, dataset|
+      dataset_hash.select{ |k,v| v[:cook] == cook }.sort{ |a,b| a.first <=> b.first }.each do |dataset_name, dataset|
         runlist = JSON.load_file(dataset[:qaTree]).keys.map(&:to_i).sort
         puts [
           dataset_name.rjust(30),
@@ -244,5 +271,90 @@ end
 ##################################################################################
 
 if Command == 'charge'
-  puts opts[:charge][:datasets]
+
+  verb = Proc.new do |message|
+    puts message if opts[:charge][:verbose]
+  end
+
+  # check for conflicting options
+  raise "cannot set both '--reject' and '--allow' options" if opts[:charge][:reject_defect].length>0 and opts[:charge][:allow_defect].length>0
+  raise "cannot set both '--reject-misc' and '--allow-misc' options" if opts[:charge][:reject_misc].length>0 and opts[:charge][:allow_misc].length>0
+  ['json', 'yaml'].each do |s|
+    raise "cannot set both '--verbose' and '--#{s}' options" if opts[:charge][:verbose] and opts[:charge][:output]==s
+  end
+
+
+  # check list of datasets
+  datasets = []
+  if opts[:charge][:datasets].empty?
+    datasets = dataset_hash
+      .select{ |k,v| v[:cook] == 'latest' }
+      .map{ |k,v| k}
+  else
+    opts[:charge][:datasets].each do |dataset|
+      if dataset_hash.has_key? dataset
+        datasets << dataset
+      else
+        $stderr.puts "WARNING: dataset '#{dataset}' does not exist"
+      end
+    end
+  end
+  raise "no valid datasets chosen" if datasets.empty?
+
+  # open chargeTrees and qaTrees
+  chargeTree = {}
+  qaTree     = {}
+  def mergeTree(a,b,name)
+    a.merge!(b) do
+      raise "dataset '#{name}' has run(s) found in another dataset; please make sure all your datasets are unique (e.g., don't pick two cooks for the same data)"
+    end
+  end
+  verb.call "loading QADBs..."
+  datasets.each do |dataset_name|
+    verb.call "  - #{dataset_name}"
+    mergeTree chargeTree, JSON.load_file(dataset_hash[dataset_name][:chargeTree]), dataset_name
+    mergeTree qaTree,     JSON.load_file(dataset_hash[dataset_name][:qaTree]),     dataset_name
+  end
+  verb.call "...done loading QADBs"
+
+  # filter by run number
+  runlist = opts[:charge][:runs]
+  runlist = qaTree.keys if runlist.empty?
+
+  # calculate charge
+  verb.call "calculating charges..."
+  out_hash = {}
+  runlist.each do |runnum|
+    fcCharge  = 0.0
+    ufcCharge = 0.0
+    unless chargeTree.has_key? runnum
+      $stderr.puts "WARNING: run #{runnum} not found in any dataset"
+      next
+    end
+    chargeTree[runnum].each do |binnum, charge_h|
+      fcCharge  += charge_h['fcChargeMax']  - charge_h['fcChargeMin']
+      ufcCharge += charge_h['ufcChargeMax'] - charge_h['ufcChargeMin']
+    end
+    out_hash[runnum] = {
+      'fcCharge'  => fcCharge,
+      'ufcCharge' => ufcCharge,
+    }
+  end
+  verb.call "...done calculating charges"
+
+  # print output
+  raise 'no charge information found for these criteria' if out_hash.empty?
+  case opts[:charge][:output]
+  when 'default'
+    out_hash.each do |runnum, vals|
+      puts "#{runnum.ljust 8}  #{vals['fcCharge']}  #{vals['ufcCharge']}"
+    end
+  when 'json'
+    puts out_hash.to_json
+  when 'yaml'
+    puts out_hash.to_yaml
+  else
+    raise 'unknown output option'
+  end
+
 end
