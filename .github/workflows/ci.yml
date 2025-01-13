@@ -27,7 +27,6 @@ jobs:
         uses: actions/checkout@v4
       - name: get data sets
         id: datasets
-        working-directory: qadb
         run: |
           bin/qadb-info print --list --no-latest --porcelain | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
           echo datasets=$(jq -c . datasets.json) >> $GITHUB_OUTPUT
