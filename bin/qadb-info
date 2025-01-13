@@ -2,82 +2,247 @@
 
 require 'json'
 require 'optparse'
-require 'ostruct'
+
+ExeName = 'qadb-info'
+ver = `cd #{ENV['QADB']} && git describe --tags --abbrev=0`
+ver = 'UNKNOWN' unless $?.success?
+Version = ver
 
 # check environment
 raise 'source environment variables first' if ENV['QADB'].nil?
 qa_dir = File.join ENV['QADB'], 'qadb'
 
-# parse options
-options = OpenStruct.new
-options.dump_all      = false
-options.list_datasets = false
-options.list_defects  = false
-OptionParser.new do |o|
-  o.banner = "USAGE: #{$0} [OPTIONS]..."
-  o.separator ''
-  o.separator 'OPTIONS:'
-  o.separator ''
-  o.on('-a', '--all', 'dump all general information about the', 'datasets and defect definitions') do options.dump_all = true end
-  o.on('-l', '--list', 'list the available datasets') do options.list_datasets = true end
-  o.on('-d', '--defects', 'list the defects and their definitions;', 'see documentation for more info') do options.list_defects = true end
 
+##################################################################################
+# parse options
+##################################################################################
+
+# default options
+opts = {
+  :print => {
+    :mode        => '',
+    :run_group   => nil,
+    :only_latest => nil,
+    :porcelain   => false,
+  },
+  :charge => {
+    :datasets      => [],
+    :runs          => [],
+    :allow_defect  => [],
+    :reject_defect => [],
+    :allow_misc    => [],
+    :reject_misc   => [],
+  },
+}
+
+# helper functions
+def command_banner(o, c)
+  o.banner = "USAGE: #{ExeName} #{c} [OPTIONS]..."
   o.separator ''
-  o.on('-v', '--version', 'print the QADB version number') do
-    ver=`cd #{ENV['QADB']} && git describe --tags --abbrev=0`
-    raise 'version detection failed; try using the `module` command instead, if you are on `ifarm`' unless $?.success?
-    puts ver
-    exit
-  end
+  o.separator 'OPTIONS'
+end
+
+def on_help(o)
   o.on_tail('-h', '--help', 'show this message') do
     puts o
     exit
   end
-end.parse!(ARGV.length > 0 ? ARGV : ['--help'])
-
-# list the defects
-defect_defs = JSON.load_file(File.join qa_dir, 'defect_definitions.json')
-if options.list_defects or options.dump_all
-  puts """
-defect bits
-==========="""
-  defect_defs.sort{ |a,b| a['bit_number'] <=> b['bit_number'] }.each do |defect_def|
-    puts "#{defect_def['bit_number'].to_s.rjust 5}  #{defect_def['bit_name']}"
-  end
-  exit unless options.dump_all
 end
+
+# parser for the command
+command_parser = OptionParser.new do |o|
+  o.banner = "USAGE: #{ExeName} [COMMAND] [OPTIONS]..."
+  o.separator """
+  This program prints information about the QADB and its contents: QA data for
+  each run as well as charge, which may be filtered by the QA. It is meant for
+  single-use, that is, do not use this program in an event loop, since it is
+  not designed to be efficient; instead, use the QADB Iguana algorithm for
+  efficient analysis.
+
+COMMANDS
+    print      print some general information about the QADB datasets
+               and defect bit definitions
+
+    charge     get the Faraday Cup (FC) charge
+
+  For usage guidance of each COMMAND, run with no further options (or with --help)
+
+MISC OPTIONS"""
+  o.on('-v', '--version', 'print the QADB version number') do
+    puts o.version()
+    exit
+  end
+  on_help o
+end
+
+# parser for the command's options
+subcommand_parser = {
+  'print' => OptionParser.new do |o|
+    command_banner o, 'print'
+    o.on('-l', '--list', 'list the available datasets') do
+      opts[:print][:mode] = 'list'
+    end
+    o.on('-v', '--verbose', 'print verbose information about the datasets') do
+      opts[:print][:mode] = 'verbose'
+    end
+    o.separator ''
+    o.on('-d', '--defects', 'list the defects and their definitions;', 'see documentation for more info') do
+      opts[:print][:mode] = 'defects'
+    end
+    o.separator ''
+    o.separator 'FILTERING OPTIONS'
+    o.on('-R', '--run-group RUN_GROUP', String, 'only include datasets for this run group') do |a|
+      opts[:print][:run_group] = a
+    end
+    o.on('-L', '--[no-]latest', 'only list the "latest" cooks\' datasets', 'default: lists all datasets') do |a|
+      opts[:print][:only_latest] = a
+    end
+    o.on('-P', '--[no-]porcelain', 'keep printout simple, for scripts') do |a|
+      opts[:print][:porcelain] = a
+    end
+    o.separator ''
+    o.separator 'OTHER OPTIONS'
+    on_help o
+  end,
+  'charge' => OptionParser.new do |o|
+    command_banner o, 'charge'
+    o.separator """
+    NOTE: all `LIST` arguments must be delimited by commas, for example:
+            #{ExeName} charge --datasets rgb_sp19,rgb_fa19,rgb_wi20
+    """
+    o.on('-d', '--datasets LIST', Array, 'list of datasets to include', 'default: all the latest cooks\' datasets') do |a|
+      opts[:charge][:datasets] = a
+    end
+    o.separator ''
+    o.on('--runs', 'list of runs to include', 'default: all of them of the datasets from `--datasets`') do end
+    o.separator ''
+    o.on('--reject', 'list of defect bit numbers to reject, and allow all others;', 'do not use this together with --allow') do end
+    o.on('--allow',  'list of defect bit numbers to allow, and reject all others;', 'do not use this together with --reject') do end
+    o.separator ''
+    o.on('--reject-misc', 'list of runs to reject, if they have the "Misc" defect;', 'do not use this together with --allow-misc') do end
+    o.on('--allow-misc',  'list of runs to allow, if they have the "Misc" defect;', 'do not use this together with --allow-misc') do end
+    o.separator ''
+    on_help o
+  end,
+}
+
+# do the parsing
+command_parser.order!(ARGV.empty? ? ['--help'] : ARGV)
+Command = ARGV.shift
+raise "unknown command '#{Command}'; for guidance, run '#{ExeName} --help'" unless subcommand_parser.has_key? Command
+subcommand_parser[Command].order!(ARGV.empty? ? ['--help'] : ARGV)
+
+# get list of defects
+defect_defs = JSON.load_file(File.join qa_dir, 'defect_definitions.json')
 
 # get list of datasets
-dataset_list = `cd #{qa_dir} && find -L -name qaTree.json | sed 's;^\./;;' | xargs dirname | sort `.split "\n"
-raise 'qadb-info failed' unless $?.success?
-datasets = dataset_list.map do |dataset|
-  [ dataset, {
-    :cook       => dataset.split('/').first,
-    :qaTree     => File.join(qa_dir, dataset, 'qaTree.json'),
-    :chargeTree => File.join(qa_dir, dataset, 'chargTree.json'),
-  }]
-end.to_h
+datasets = Hash.new
+Dir.chdir(qa_dir) do
+  Dir.glob("**/*").each do |path|
 
-# list the datasets and exit
-if options.list_datasets and not options.dump_all
-  datasets.keys.each do |dataset_name|
-    puts dataset_name
+    dataset_name = ''
+    dataset_info = Hash.new
+
+    if File.symlink?(path) and path.split('/').include?('latest')
+      dataset_name = File.basename path
+      next unless opts[:print][:only_latest].nil? or opts[:print][:only_latest]==true
+      dataset_info = {
+        :cook       => 'latest',
+        :refers_to  => File.readlink(path).split('/')[1],
+        :qaTree     => File.join(qa_dir, path, "qaTree.json"),
+        :chargeTree => File.join(qa_dir, path, "chargeTree.json"),
+      }
+
+    elsif File.file?(path) and File.basename(path) == 'qaTree.json'
+      dataset_name = File.dirname path
+      next unless opts[:print][:only_latest].nil? or opts[:print][:only_latest]==false
+      dataset_info = {
+        :cook       => dataset_name.split('/').first,
+        :qaTree     => File.join(qa_dir, path),
+        :chargeTree => File.join(qa_dir, path),
+      }
+
+    else
+      next
+    end
+
+    if opts[:print][:run_group].nil? or dataset_name.match?(/rg#{opts[:print][:run_group].downcase}/)
+      datasets[dataset_name] = dataset_info
+    end
+
   end
-  exit
 end
 
-# print info about each dataset
-if options.dump_all
-  puts """
-available datasets and info
-==========================="""
-  cook = ''
-  datasets.each do |dataset_name, dataset|
-    if cook != dataset[:cook]
-      cook = dataset[:cook]
-      puts "\n#{cook} datasets\n---------------\n"
-    end
-    runlist = JSON.load_file(dataset[:qaTree]).keys.map(&:to_i).sort
-    puts "#{dataset_name.rjust 30}  ::  runs #{runlist.first} to #{runlist.last}"
+raise "run group '#{opts[:print][:run_group]}' has no QADB available" if datasets.empty?
+
+##################################################################################
+# print command
+##################################################################################
+
+# print info
+if Command == 'print'
+
+  def print_title(title, underline)
+    puts ''
+    puts title
+    puts underline*title.length
   end
+
+  max_dataset_name_length = datasets
+    .select{ |k,v| v[:cook] == 'latest' }
+    .map{ |k,v| k.length }
+    .max
+
+  case opts[:print][:mode]
+  when 'defects'
+    defect_defs.sort{ |a,b| a['bit_number'] <=> b['bit_number'] }.each do |defect_def|
+      if opts[:print][:porcelain]
+        puts defect_def['bit_number']
+      else
+        puts "#{defect_def['bit_number'].to_s.rjust 5}  #{defect_def['bit_name']}"
+      end
+    end
+
+  when 'list'
+    datasets.each do |dataset_name, dataset|
+      if opts[:print][:porcelain]
+        puts dataset_name
+      else
+        if dataset[:cook] == 'latest'
+          puts "#{dataset_name.ljust max_dataset_name_length}  ->  refers to #{dataset[:refers_to]}/#{dataset_name}"
+        else
+          puts dataset_name
+        end
+      end
+    end
+    exit
+
+  when 'verbose'
+    $stderr.puts "WARNING: '--porcelain' option ignored" if opts[:print][:porcelain]
+    print_title "#{opts[:print][:run_group].nil? ? 'All' : "Run Group #{opts[:print][:run_group].upcase}"} Datasets and Info", '='
+    printout = {}
+    datasets.values.map{ |v| v[:cook] }.uniq.sort.each do |cook|
+      print_title "#{cook} cook", '-'
+      datasets.select{ |k,v| v[:cook] == cook }.sort{ |a,b| a.first <=> b.first }.each do |dataset_name, dataset|
+        runlist = JSON.load_file(dataset[:qaTree]).keys.map(&:to_i).sort
+        puts [
+          dataset_name.rjust(30),
+          cook == 'latest' ? "refers to #{dataset[:refers_to]} cook" : nil,
+          "runs #{runlist.first} to #{runlist.last}",
+        ].compact.join '  ::  '
+      end
+    end
+
+  else
+    raise "nothing to print; run '#{ExeName} print' for guidance"
+  end
+end
+
+
+##################################################################################
+# charge command
+##################################################################################
+
+if Command == 'charge'
+  puts opts[:charge][:datasets]
 end
