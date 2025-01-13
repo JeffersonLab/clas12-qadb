@@ -4,14 +4,13 @@ require 'json'
 require 'yaml'
 require 'optparse'
 
-ExeName = 'qadb-info'
-ver = `cd #{ENV['QADB']} && git describe --tags --abbrev=0`
+# get software info
+TopDir  = File.realpath(File.join __dir__, '..')
+QaDir   = File.realpath(File.join TopDir, 'qadb')
+ExeName = File.basename __FILE__
+ver = `cd #{TopDir} && git describe --tags --abbrev=0`
 ver = 'UNKNOWN' unless $?.success?
 Version = ver
-
-# check environment
-raise 'source environment variables first' if ENV['QADB'].nil?
-qa_dir = File.join ENV['QADB'], 'qadb'
 
 
 ##################################################################################
@@ -159,11 +158,11 @@ raise "unknown command '#{Command}'; for guidance, run '#{ExeName} --help'" unle
 subcommand_parser[Command].order!(ARGV.empty? ? ['--help'] : ARGV)
 
 # get list of defects
-defect_defs = JSON.load_file(File.join qa_dir, 'defect_definitions.json')
+defect_defs = JSON.load_file(File.join QaDir, 'defect_definitions.json')
 
 # get list of datasets
 dataset_hash = Hash.new
-Dir.chdir(qa_dir) do
+Dir.chdir(QaDir) do
   Dir.glob("**/*").each do |path|
 
     dataset_name = ''
@@ -175,8 +174,8 @@ Dir.chdir(qa_dir) do
       dataset_info = {
         :cook       => 'latest',
         :refers_to  => File.readlink(path).split('/')[1],
-        :qaTree     => File.join(qa_dir, path, "qaTree.json"),
-        :chargeTree => File.join(qa_dir, path, "chargeTree.json"),
+        :qaTree     => File.join(QaDir, path, "qaTree.json"),
+        :chargeTree => File.join(QaDir, path, "chargeTree.json"),
       }
 
     elsif File.file?(path) and File.basename(path) == 'qaTree.json'
@@ -184,8 +183,8 @@ Dir.chdir(qa_dir) do
       next unless opts[:print][:only_latest].nil? or opts[:print][:only_latest]==false
       dataset_info = {
         :cook       => dataset_name.split('/').first,
-        :qaTree     => File.join(qa_dir, path),
-        :chargeTree => File.join(qa_dir, path),
+        :qaTree     => File.join(QaDir, path),
+        :chargeTree => File.join(QaDir, path),
       }
 
     else
