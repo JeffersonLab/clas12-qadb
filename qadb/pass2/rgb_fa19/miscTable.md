@@ -33,9 +33,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11111      | no    |  |
 | 11113      | no    |  |
 | 11114      | no    |  |
-| 11117      | no    |  |
-| 11119      | no    |  |
-| 11120      | no    |  |
+| 11117      | yes   | <pre>low lumi run, 7 nA</pre> |
+| 11119      | yes   | <pre>empty target run</pre> |
+| 11120      | yes   | <pre>low lumi run, 7 nA</pre> |
 | 11121      | no    |  |
 | 11122      | no    |  |
 | 11124      | no    |  |
@@ -44,8 +44,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11127      | no    |  |
 | 11128      | no    |  |
 | 11129      | no    |  |
-| 11132      | no    |  |
-| 11143      | no    |  |
+| 11132      | yes   | <pre>N/F a bit higher than usual</pre> |
+| 11143      | yes   | <pre>FC charge issue</pre> |
 | 11156      | no    |  |
 | 11158      | no    |  |
 | 11159      | no    |  |
@@ -65,17 +65,17 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11190      | no    |  |
 | 11193      | no    |  |
 | 11194      | no    |  |
-| 11195      | no    |  |
+| 11195      | yes   | <pre>trigger bit alarm</pre> |
 | 11197      | no    |  |
 | 11198      | no    |  |
 | 11199      | no    |  |
-| 11200      | no    |  |
-| 11201      | no    |  |
-| 11202      | no    |  |
-| 11203      | no    |  |
-| 11206      | no    |  |
-| 11207      | no    |  |
-| 11210      | no    |  |
+| 11200      | yes   | <pre>low lumi run, 7 nA</pre> |
+| 11201      | yes   | <pre>low lumi run, 7 nA</pre> |
+| 11202      | yes   | <pre>low lumi run, 7 nA</pre> |
+| 11203      | yes   | <pre>low lumi run, 7 nA</pre> |
+| 11206      | yes   | <pre>low lumi run, 7 nA</pre> |
+| 11207      | yes   | <pre>low lumi run, 7 nA</pre> |
+| 11210      | yes   | <pre>low lumi run, 20 nA</pre> |
 | 11211      | no    |  |
 | 11212      | no    |  |
 | 11213      | no    |  |
@@ -98,7 +98,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11239      | no    |  |
 | 11241      | no    |  |
 | 11243      | no    |  |
-| 11244      | no    |  |
+| 11244      | yes   | <pre>test run</pre> |
 | 11247      | no    |  |
 | 11248      | no    |  |
 | 11250      | no    |  |
@@ -123,7 +123,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11282      | no    |  |
 | 11283      | no    |  |
 | 11286      | no    |  |
-| 11287      | no    |  |
+| 11287      | yes   | <pre>update trigger file to add FT triggers</pre> |
 | 11288      | no    |  |
 | 11289      | no    |  |
 | 11290      | no    |  |
