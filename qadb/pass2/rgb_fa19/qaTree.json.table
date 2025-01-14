@@ -11154,9 +11154,9 @@ RUN: 11160
 11160 39  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11162
-11162 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11162 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]
-11162 2  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
+11162 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue
+11162 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]  :: FC charge issue
+11162 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue
 11162 3  4-LowLiveTime[all]
 11162 4  4-LowLiveTime[all]
 11162 5  2-MarginalOutlier[4]  4-LowLiveTime[all]

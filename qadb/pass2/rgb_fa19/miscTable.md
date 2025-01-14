@@ -50,7 +50,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11158      | no    |  |
 | 11159      | no    |  |
 | 11160      | no    |  |
-| 11162      | no    |  |
+| 11162      | yes   | <pre>FC charge issue</pre> |
 | 11165      | no    |  |
 | 11171      | no    |  |
 | 11174      | no    |  |
