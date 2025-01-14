@@ -25,12 +25,17 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+        with: # settings needed for version number detection in qadb-info
+          clean: false
+          fetch-tags: true
+          fetch-depth: 0
       - name: get data sets
         id: datasets
         run: |
           bin/qadb-info print --list --no-latest --porcelain | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
           echo datasets=$(jq -c . datasets.json) >> $GITHUB_OUTPUT
-      - name: run qadb-info
+      - run: qadb-info --version
+      - name: qadb-info summary
         run: |
           echo '```' >> $GITHUB_STEP_SUMMARY
           bin/qadb-info print --verbose | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
