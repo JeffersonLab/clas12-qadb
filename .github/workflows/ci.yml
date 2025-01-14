@@ -17,8 +17,7 @@ concurrency:
 jobs:
 
   # get list of datasets to check
-  get_datasets:
-    name: Datasets
+  info:
     runs-on: ubuntu-latest
     outputs:
       datasets: ${{ steps.datasets.outputs.datasets }}
@@ -29,26 +28,29 @@ jobs:
           clean: false
           fetch-tags: true
           fetch-depth: 0
+      - name: add bin to PATH
+        run: echo "PATH=$GITHUB_WORKSPACE/bin${PATH:+:${PATH}}" | tee -a $GITHUB_ENV
       - name: get data sets
         id: datasets
         run: |
-          bin/qadb-info print --list --no-latest --porcelain | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
+          qadb-info print --list --no-latest --porcelain | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
           echo datasets=$(jq -c . datasets.json) >> $GITHUB_OUTPUT
       - run: qadb-info --version
       - name: qadb-info summary
         run: |
           echo '```' >> $GITHUB_STEP_SUMMARY
-          bin/qadb-info print --verbose | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
+          qadb-info print --verbose | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
   # check consistency between Groovy and C++ APIs
   test_dataset:
+    name: test
     needs:
-      - get_datasets
+      - info
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix: ${{ fromJson(needs.get_datasets.outputs.datasets) }}
+      matrix: ${{ fromJson(needs.info.outputs.datasets) }}
     steps:
       - name: checkout
         uses: actions/checkout@v4
