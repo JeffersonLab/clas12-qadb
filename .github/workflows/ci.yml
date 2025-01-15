@@ -29,7 +29,9 @@ jobs:
           fetch-tags: true
           fetch-depth: 0
       - name: add bin to PATH
-        run: echo "PATH=$GITHUB_WORKSPACE/bin${PATH:+:${PATH}}" | tee -a $GITHUB_ENV
+        run: |
+          source environ.sh
+          echo "PATH=$PATH" | tee -a $GITHUB_ENV
       - name: get data sets
         id: datasets
         run: |
