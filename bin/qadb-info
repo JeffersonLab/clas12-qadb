@@ -248,20 +248,22 @@ raise "run group '#{opts[:print][:run_group]}' has no QADB available" if dataset
 
 # check user's list of datasets
 selected_datasets = []
-if opts[:datasets].empty?
-  selected_datasets = dataset_hash
-    .select{ |k,v| v[:cook] == 'latest' }
-    .map{ |k,v| k}
-else
-  opts[:datasets].each do |dataset|
-    if dataset_hash.has_key? dataset
-      selected_datasets << dataset
-    else
-      $stderr.puts "WARNING: dataset '#{dataset}' does not exist"
+unless Command == 'print'
+  if opts[:datasets].empty?
+    selected_datasets = dataset_hash
+      .select{ |k,v| v[:cook] == 'latest' }
+      .map{ |k,v| k}
+  else
+    opts[:datasets].each do |dataset|
+      if dataset_hash.has_key? dataset
+        selected_datasets << dataset
+      else
+        $stderr.puts "WARNING: dataset '#{dataset}' does not exist"
+      end
     end
   end
+  raise "no valid datasets chosen" if selected_datasets.empty?
 end
-raise "no valid datasets chosen" if selected_datasets.empty?
 
 # open chargeTrees and qaTrees, and set run list
 chargeTree = {}
