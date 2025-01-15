@@ -2141,8 +2141,8 @@ RUN: 11338
 11338 74  4-LowLiveTime[all]
 11338 75  4-LowLiveTime[all]
 11338 76  4-LowLiveTime[all]
-11338 77  2-MarginalOutlier[4]
-11338 78  GOLDEN
+11338 77  0-TotalOutlier[4]  2-MarginalOutlier[1]
+11338 78  2-MarginalOutlier[1, 4]
 11338 79  4-LowLiveTime[all]
 11338 80  4-LowLiveTime[all]
 11338 81  4-LowLiveTime[all]
@@ -2577,7 +2577,7 @@ RUN: 11340
 11340 36  GOLDEN
 11340 37  GOLDEN
 11340 38  4-LowLiveTime[all]
-11340 39  GOLDEN
+11340 39  2-MarginalOutlier[4]
 11340 40  4-LowLiveTime[all]
 11340 41  GOLDEN
 11340 42  GOLDEN
@@ -2839,7 +2839,7 @@ RUN: 11340
 11340 298  GOLDEN
 11340 299  GOLDEN
 11340 300  GOLDEN
-11340 301  GOLDEN
+11340 301  2-MarginalOutlier[4]
 11340 302  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11340 303  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11340 304  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
@@ -2959,109 +2959,109 @@ RUN: 11341
 11341 109  4-LowLiveTime[all]
 11341 110  4-LowLiveTime[all]
 11341 111  4-LowLiveTime[all]
-11341 112  0-TotalOutlier[5]
-11341 113  0-TotalOutlier[5]
-11341 114  0-TotalOutlier[5]
-11341 115  0-TotalOutlier[5]
+11341 112  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 113  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 114  0-TotalOutlier[4, 5]
+11341 115  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 116  0-TotalOutlier[5]
-11341 117  0-TotalOutlier[5]
-11341 118  0-TotalOutlier[5]  4-LowLiveTime[all]
-11341 119  0-TotalOutlier[5]
-11341 120  0-TotalOutlier[5]
-11341 121  0-TotalOutlier[5]
+11341 117  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 118  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]
+11341 119  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 120  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 121  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 122  0-TotalOutlier[5]
-11341 123  0-TotalOutlier[5]
-11341 124  0-TotalOutlier[5]
-11341 125  0-TotalOutlier[5]
+11341 123  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 124  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 125  0-TotalOutlier[4, 5]
 11341 126  0-TotalOutlier[5]
-11341 127  0-TotalOutlier[5]
-11341 128  0-TotalOutlier[5]
-11341 129  0-TotalOutlier[5]
-11341 130  0-TotalOutlier[5]
+11341 127  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 128  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 129  0-TotalOutlier[4, 5]
+11341 130  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 131  0-TotalOutlier[5]
-11341 132  0-TotalOutlier[5]
-11341 133  0-TotalOutlier[5]
+11341 132  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 133  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 134  0-TotalOutlier[5]
-11341 135  0-TotalOutlier[5]
-11341 136  0-TotalOutlier[5]
-11341 137  0-TotalOutlier[5]
-11341 138  0-TotalOutlier[5]
-11341 139  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 140  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 141  0-TotalOutlier[5]
-11341 142  0-TotalOutlier[5]
-11341 143  0-TotalOutlier[5]
-11341 144  0-TotalOutlier[5]
+11341 135  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 136  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 137  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 138  0-TotalOutlier[4, 5]
+11341 139  0-TotalOutlier[4, 5]
+11341 140  0-TotalOutlier[4, 5]
+11341 141  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 142  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 143  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 144  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 145  0-TotalOutlier[5]
-11341 146  0-TotalOutlier[5]
-11341 147  0-TotalOutlier[5]
-11341 148  0-TotalOutlier[5]
+11341 146  0-TotalOutlier[4, 5]
+11341 147  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 148  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 149  0-TotalOutlier[5]
-11341 150  0-TotalOutlier[5]
-11341 151  0-TotalOutlier[5]
-11341 152  0-TotalOutlier[5]
-11341 153  0-TotalOutlier[5]
+11341 150  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 151  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 152  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 153  0-TotalOutlier[4, 5]
 11341 154  0-TotalOutlier[5]
-11341 155  0-TotalOutlier[5]
-11341 156  0-TotalOutlier[5]
-11341 157  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 158  0-TotalOutlier[5]
-11341 159  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 160  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 161  0-TotalOutlier[5]
-11341 162  0-TotalOutlier[5]
-11341 163  0-TotalOutlier[5]
+11341 155  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 156  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 157  0-TotalOutlier[4, 5]
+11341 158  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 159  0-TotalOutlier[4, 5]
+11341 160  0-TotalOutlier[4, 5]
+11341 161  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 162  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 163  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 164  0-TotalOutlier[5]
-11341 165  0-TotalOutlier[5]
-11341 166  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 167  0-TotalOutlier[5]
-11341 168  0-TotalOutlier[5]
-11341 169  0-TotalOutlier[5]
-11341 170  0-TotalOutlier[5]
-11341 171  0-TotalOutlier[5]
-11341 172  0-TotalOutlier[5]
+11341 165  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 166  0-TotalOutlier[4, 5]
+11341 167  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 168  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 169  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 170  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 171  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 172  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 173  0-TotalOutlier[5]
-11341 174  0-TotalOutlier[5]
-11341 175  0-TotalOutlier[5]
-11341 176  0-TotalOutlier[5]
+11341 174  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 175  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 176  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 177  0-TotalOutlier[5]
-11341 178  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 179  0-TotalOutlier[5]
-11341 180  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]
-11341 181  0-TotalOutlier[5]
-11341 182  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 178  0-TotalOutlier[4, 5]
+11341 179  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 180  0-TotalOutlier[4, 5]  4-LowLiveTime[all]
+11341 181  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 182  0-TotalOutlier[4, 5]
 11341 183  0-TotalOutlier[5]
-11341 184  0-TotalOutlier[5]
+11341 184  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 185  0-TotalOutlier[5]
-11341 186  0-TotalOutlier[5]
-11341 187  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 188  0-TotalOutlier[5]
-11341 189  0-TotalOutlier[5]
-11341 190  0-TotalOutlier[5]
-11341 191  0-TotalOutlier[5]
-11341 192  0-TotalOutlier[5]
-11341 193  0-TotalOutlier[5]
-11341 194  0-TotalOutlier[5]
-11341 195  0-TotalOutlier[5]  4-LowLiveTime[all]
-11341 196  0-TotalOutlier[5]
-11341 197  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 198  0-TotalOutlier[5]
-11341 199  0-TotalOutlier[5]
-11341 200  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 201  0-TotalOutlier[5]
-11341 202  0-TotalOutlier[5]  4-LowLiveTime[all]
-11341 203  0-TotalOutlier[5]  4-LowLiveTime[all]
-11341 204  0-TotalOutlier[5]  4-LowLiveTime[all]
-11341 205  0-TotalOutlier[5]
-11341 206  0-TotalOutlier[5]  2-MarginalOutlier[4]
-11341 207  0-TotalOutlier[5]
-11341 208  0-TotalOutlier[5]
+11341 186  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 187  0-TotalOutlier[4, 5]
+11341 188  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 189  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 190  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 191  0-TotalOutlier[4, 5]
+11341 192  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 193  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 194  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 195  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]
+11341 196  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 197  0-TotalOutlier[4, 5]
+11341 198  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 199  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 200  0-TotalOutlier[4, 5]
+11341 201  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 202  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]
+11341 203  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]
+11341 204  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]
+11341 205  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 206  0-TotalOutlier[4, 5]
+11341 207  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 208  0-TotalOutlier[4, 5]
 11341 209  0-TotalOutlier[5]
-11341 210  0-TotalOutlier[5]
-11341 211  0-TotalOutlier[5]
-11341 212  0-TotalOutlier[5]
+11341 210  0-TotalOutlier[4, 5]
+11341 211  0-TotalOutlier[5]  2-MarginalOutlier[4]
+11341 212  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 213  0-TotalOutlier[5]
-11341 214  0-TotalOutlier[5]
+11341 214  0-TotalOutlier[5]  2-MarginalOutlier[4]
 11341 215  0-TotalOutlier[5]
 11341 216  0-TotalOutlier[5]
 11341 217  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -3264,7 +3264,7 @@ RUN: 11352
 
 RUN: 11354
 11354 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11354 1  0-TotalOutlier[1, 2, 3]  2-MarginalOutlier[4, 5]
+11354 1  0-TotalOutlier[1, 2, 3, 4, 5]
 11354 2  4-LowLiveTime[all]
 11354 3  4-LowLiveTime[all]
 11354 4  4-LowLiveTime[all]
@@ -3329,7 +3329,7 @@ RUN: 11357
 11357 14  4-LowLiveTime[all]
 11357 15  4-LowLiveTime[all]
 11357 16  4-LowLiveTime[all]
-11357 17  0-TotalOutlier[1, 2, 3]  2-MarginalOutlier[5]
+11357 17  0-TotalOutlier[1, 2, 3, 5]  2-MarginalOutlier[4]
 11357 18  GOLDEN
 11357 19  4-LowLiveTime[all]
 11357 20  4-LowLiveTime[all]
@@ -3646,7 +3646,7 @@ RUN: 11358
 11358 12  4-LowLiveTime[all]
 11358 13  4-LowLiveTime[all]
 11358 14  GOLDEN
-11358 15  GOLDEN
+11358 15  2-MarginalOutlier[1]
 11358 16  GOLDEN
 11358 17  4-LowLiveTime[all]
 11358 18  GOLDEN
@@ -3698,13 +3698,13 @@ RUN: 11358
 11358 64  4-LowLiveTime[all]
 11358 65  4-LowLiveTime[all]
 11358 66  4-LowLiveTime[all]
-11358 67  GOLDEN
+11358 67  2-MarginalOutlier[4, 5]
 11358 68  GOLDEN
 11358 69  GOLDEN
 11358 70  GOLDEN
 11358 71  GOLDEN
 11358 72  GOLDEN
-11358 73  0-TotalOutlier[1, 2, 3, 4]  2-MarginalOutlier[5]
+11358 73  0-TotalOutlier[1, 2, 3, 4, 5]
 11358 74  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11358 75  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11358 76  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
@@ -3742,7 +3742,7 @@ RUN: 11361
 11361 3  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]
 11361 4  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
 11361 5  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
-11361 6  0-TotalOutlier[1, 2, 3, 4, 5]  4-LowLiveTime[all]  8-MarginalOutlierFT[1]
+11361 6  0-TotalOutlier[1, 2, 3, 4, 5]  2-MarginalOutlier[6]  4-LowLiveTime[all]  8-MarginalOutlierFT[1]
 11361 7  4-LowLiveTime[all]
 11361 8  4-LowLiveTime[all]
 11361 9  4-LowLiveTime[all]
@@ -5381,7 +5381,7 @@ RUN: 11364
 11364 380  GOLDEN
 11364 381  GOLDEN
 11364 382  GOLDEN
-11364 383  2-MarginalOutlier[1]
+11364 383  2-MarginalOutlier[1, 4]
 11364 384  0-TotalOutlier[all]  8-MarginalOutlierFT[1]
 11364 385  GOLDEN
 11364 386  GOLDEN
@@ -6095,7 +6095,7 @@ RUN: 11366
 11366 153  GOLDEN
 11366 154  GOLDEN
 11366 155  GOLDEN
-11366 156  2-MarginalOutlier[all]
+11366 156  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 5, 6]
 11366 157  GOLDEN
 11366 158  GOLDEN
 11366 159  GOLDEN
@@ -7200,7 +7200,7 @@ RUN: 11368
 11368 521  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]
 11368 522  0-TotalOutlier[4, 5]  6-TotalOutlierFT[1]
 11368 523  0-TotalOutlier[4, 5]  6-TotalOutlierFT[1]
-11368 524  0-TotalOutlier[4, 5]  8-MarginalOutlierFT[1]
+11368 524  0-TotalOutlier[4, 5]  6-TotalOutlierFT[1]
 11368 525  0-TotalOutlier[4, 5]  8-MarginalOutlierFT[1]  19-PossiblyNoBeam[4, 5]
 11368 526  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
@@ -7869,7 +7869,7 @@ RUN: 11372
 11372 182  GOLDEN
 11372 183  GOLDEN
 11372 184  GOLDEN
-11372 185  GOLDEN
+11372 185  2-MarginalOutlier[2]
 11372 186  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11373
@@ -8816,7 +8816,7 @@ RUN: 11375
 11375 18  GOLDEN
 11375 19  GOLDEN
 11375 20  GOLDEN
-11375 21  2-MarginalOutlier[1, 4]
+11375 21  2-MarginalOutlier[1, 4, 5]
 11375 22  GOLDEN
 11375 23  GOLDEN
 11375 24  GOLDEN
@@ -9127,7 +9127,7 @@ RUN: 11375
 11375 329  0-TotalOutlier[6]  2-MarginalOutlier[1, 2, 3, 4, 5]
 11375 330  GOLDEN
 11375 331  GOLDEN
-11375 332  0-TotalOutlier[1]  2-MarginalOutlier[2, 3, 4, 5, 6]
+11375 332  0-TotalOutlier[1, 3]  2-MarginalOutlier[2, 4, 5, 6]
 11375 333  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11375 334  GOLDEN
 11375 335  GOLDEN
@@ -9749,7 +9749,7 @@ RUN: 11376
 
 RUN: 11378
 11378 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11378 1  16-ChargeHigh[all]
+11378 1  2-MarginalOutlier[6]  16-ChargeHigh[all]
 11378 2  GOLDEN
 11378 3  GOLDEN
 11378 4  GOLDEN
@@ -10094,7 +10094,7 @@ RUN: 11379
 11379 56  GOLDEN
 11379 57  GOLDEN
 11379 58  GOLDEN
-11379 59  2-MarginalOutlier[4, 5]
+11379 59  2-MarginalOutlier[4, 5, 6]
 11379 60  GOLDEN
 11379 61  GOLDEN
 11379 62  GOLDEN
@@ -10267,7 +10267,7 @@ RUN: 11379
 
 RUN: 11381
 11381 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11381 1  0-TotalOutlier[all]  8-MarginalOutlierFT[1]  16-ChargeHigh[all]
+11381 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]
 11381 2  2-MarginalOutlier[all]  4-LowLiveTime[all]
 11381 3  GOLDEN
 11381 4  GOLDEN
@@ -10605,7 +10605,7 @@ RUN: 11381
 11381 336  GOLDEN
 11381 337  GOLDEN
 11381 338  GOLDEN
-11381 339  2-MarginalOutlier[2, 4]
+11381 339  2-MarginalOutlier[2, 3, 4]
 11381 340  2-MarginalOutlier[5]
 11381 341  GOLDEN
 11381 342  GOLDEN
@@ -11294,7 +11294,7 @@ RUN: 11386
 11386 412  GOLDEN
 11386 413  GOLDEN
 11386 414  GOLDEN
-11386 415  2-MarginalOutlier[1, 2, 3, 4]
+11386 415  2-MarginalOutlier[1, 2, 3, 4]  8-MarginalOutlierFT[1]
 11386 416  GOLDEN
 11386 417  GOLDEN
 11386 418  GOLDEN
@@ -11655,7 +11655,7 @@ RUN: 11389
 11389 40  GOLDEN
 11389 41  GOLDEN
 11389 42  GOLDEN
-11389 43  2-MarginalOutlier[4, 6]
+11389 43  2-MarginalOutlier[1, 4, 6]
 11389 44  0-TotalOutlier[all]  8-MarginalOutlierFT[1]
 11389 45  GOLDEN
 11389 46  2-MarginalOutlier[1, 2, 3, 5, 6]
@@ -11787,7 +11787,7 @@ RUN: 11389
 11389 172  GOLDEN
 11389 173  GOLDEN
 11389 174  GOLDEN
-11389 175  2-MarginalOutlier[4]
+11389 175  2-MarginalOutlier[1, 4]
 11389 176  GOLDEN
 11389 177  GOLDEN
 11389 178  GOLDEN
@@ -11813,7 +11813,7 @@ RUN: 11389
 11389 198  GOLDEN
 11389 199  GOLDEN
 11389 200  GOLDEN
-11389 201  GOLDEN
+11389 201  2-MarginalOutlier[1]
 11389 202  0-TotalOutlier[all]  6-TotalOutlierFT[1]
 11389 203  GOLDEN
 11389 204  GOLDEN
@@ -12887,7 +12887,7 @@ RUN: 11395
 11395 197  GOLDEN
 11395 198  GOLDEN
 11395 199  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11395 200  2-MarginalOutlier[5]
+11395 200  2-MarginalOutlier[5, 6]
 11395 201  GOLDEN
 11395 202  GOLDEN
 11395 203  GOLDEN
@@ -15239,7 +15239,7 @@ RUN: 11403
 11403 236  GOLDEN
 11403 237  GOLDEN
 11403 238  GOLDEN
-11403 239  2-MarginalOutlier[all]
+11403 239  0-TotalOutlier[6]  2-MarginalOutlier[1, 2, 3, 4, 5]
 11403 240  GOLDEN
 11403 241  GOLDEN
 11403 242  GOLDEN
@@ -15291,7 +15291,7 @@ RUN: 11403
 11403 288  GOLDEN
 11403 289  GOLDEN
 11403 290  GOLDEN
-11403 291  GOLDEN
+11403 291  2-MarginalOutlier[4]
 11403 292  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11404
@@ -15643,7 +15643,7 @@ RUN: 11412
 11412 13  GOLDEN
 11412 14  GOLDEN
 11412 15  GOLDEN
-11412 16  GOLDEN
+11412 16  2-MarginalOutlier[1]
 11412 17  GOLDEN
 11412 18  GOLDEN
 11412 19  GOLDEN
@@ -16123,7 +16123,7 @@ RUN: 11413
 11413 162  GOLDEN
 11413 163  GOLDEN
 11413 164  GOLDEN
-11413 165  2-MarginalOutlier[1, 2, 5]
+11413 165  2-MarginalOutlier[1, 2, 4, 5]
 11413 166  GOLDEN
 11413 167  GOLDEN
 11413 168  GOLDEN
@@ -16145,7 +16145,7 @@ RUN: 11414
 11414 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]
 11414 2  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
 11414 3  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
-11414 4  0-TotalOutlier[all]  4-LowLiveTime[all]  8-MarginalOutlierFT[1]
+11414 4  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
 11414 5  0-TotalOutlier[all]  4-LowLiveTime[all]
 11414 6  0-TotalOutlier[2, 3, 4, 5, 6]  2-MarginalOutlier[1]  4-LowLiveTime[all]
 11414 7  2-MarginalOutlier[1, 2, 3, 4, 6]  4-LowLiveTime[all]
@@ -16780,7 +16780,7 @@ RUN: 11415
 11415 308  GOLDEN
 11415 309  GOLDEN
 11415 310  GOLDEN
-11415 311  GOLDEN
+11415 311  8-MarginalOutlierFT[1]
 11415 312  GOLDEN
 11415 313  GOLDEN
 11415 314  GOLDEN
@@ -16937,7 +16937,7 @@ RUN: 11416
 11416 133  GOLDEN
 11416 134  GOLDEN
 11416 135  GOLDEN
-11416 136  2-MarginalOutlier[1, 2]
+11416 136  2-MarginalOutlier[1, 2, 5]
 11416 137  0-TotalOutlier[all]  6-TotalOutlierFT[1]
 11416 138  GOLDEN
 11416 139  GOLDEN
@@ -17002,7 +17002,7 @@ RUN: 11416
 11416 198  GOLDEN
 11416 199  GOLDEN
 11416 200  GOLDEN
-11416 201  GOLDEN
+11416 201  2-MarginalOutlier[2]
 11416 202  GOLDEN
 11416 203  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[5]
 11416 204  GOLDEN
@@ -17143,7 +17143,7 @@ RUN: 11416
 11416 339  GOLDEN
 11416 340  GOLDEN
 11416 341  GOLDEN
-11416 342  GOLDEN
+11416 342  2-MarginalOutlier[6]
 11416 343  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11416 344  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11416 345  0-TotalOutlier[all]  8-MarginalOutlierFT[1]
@@ -17172,7 +17172,7 @@ RUN: 11417
 11417 18  GOLDEN
 11417 19  GOLDEN
 11417 20  GOLDEN
-11417 21  0-TotalOutlier[5]  2-MarginalOutlier[2, 3, 6]
+11417 21  0-TotalOutlier[5, 6]  2-MarginalOutlier[2, 3]
 11417 22  GOLDEN
 11417 23  GOLDEN
 11417 24  GOLDEN
@@ -17550,8 +17550,8 @@ RUN: 11418
 11418 72  GOLDEN
 11418 73  GOLDEN
 11418 74  GOLDEN
-11418 75  2-MarginalOutlier[2]
-11418 76  2-MarginalOutlier[5, 6]
+11418 75  2-MarginalOutlier[1, 2]
+11418 76  2-MarginalOutlier[2, 4, 5, 6]
 11418 77  GOLDEN
 11418 78  GOLDEN
 11418 79  GOLDEN
@@ -17569,7 +17569,7 @@ RUN: 11418
 11418 91  GOLDEN
 11418 92  GOLDEN
 11418 93  0-TotalOutlier[1]  2-MarginalOutlier[2, 3, 4, 5, 6]  6-TotalOutlierFT[1]
-11418 94  2-MarginalOutlier[1, 2, 6]  8-MarginalOutlierFT[1]
+11418 94  2-MarginalOutlier[1, 2, 5, 6]  8-MarginalOutlierFT[1]
 11418 95  2-MarginalOutlier[1]
 11418 96  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[1, 2, 3, 5]
 11418 97  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
@@ -18814,7 +18814,7 @@ RUN: 11430
 11430 31  GOLDEN
 11430 32  GOLDEN
 11430 33  GOLDEN
-11430 34  2-MarginalOutlier[3, 4, 5]
+11430 34  2-MarginalOutlier[3, 4, 5, 6]
 11430 35  2-MarginalOutlier[4]
 11430 36  GOLDEN
 11430 37  2-MarginalOutlier[6]
@@ -20184,7 +20184,7 @@ RUN: 11434
 11434 252  GOLDEN
 11434 253  GOLDEN
 11434 254  2-MarginalOutlier[2]
-11434 255  2-MarginalOutlier[3, 4]
+11434 255  2-MarginalOutlier[1, 3, 4]
 11434 256  0-TotalOutlier[2, 3, 5, 6]  2-MarginalOutlier[1, 4]
 11434 257  GOLDEN
 11434 258  GOLDEN
@@ -22055,7 +22055,7 @@ RUN: 11440
 11440 239  GOLDEN
 11440 240  GOLDEN
 11440 241  GOLDEN
-11440 242  2-MarginalOutlier[6]
+11440 242  2-MarginalOutlier[2, 6]
 11440 243  GOLDEN
 11440 244  GOLDEN
 11440 245  GOLDEN
@@ -22493,7 +22493,7 @@ RUN: 11442
 11442 99  GOLDEN
 11442 100  GOLDEN
 11442 101  2-MarginalOutlier[1, 3, 4, 5]
-11442 102  2-MarginalOutlier[all]  4-LowLiveTime[all]
+11442 102  0-TotalOutlier[6]  2-MarginalOutlier[1, 2, 3, 4, 5]  4-LowLiveTime[all]
 11442 103  GOLDEN
 11442 104  16-ChargeHigh[all]
 11442 105  16-ChargeHigh[all]
@@ -23007,7 +23007,7 @@ RUN: 11444
 11444 176  GOLDEN
 11444 177  GOLDEN
 11444 178  GOLDEN
-11444 179  0-TotalOutlier[1, 2, 4, 5, 6]  2-MarginalOutlier[3]  8-MarginalOutlierFT[1]
+11444 179  0-TotalOutlier[all]  8-MarginalOutlierFT[1]
 11444 180  GOLDEN
 11444 181  GOLDEN
 11444 182  GOLDEN
@@ -23236,7 +23236,7 @@ RUN: 11445
 11445 35  GOLDEN
 11445 36  2-MarginalOutlier[1, 2, 4, 5, 6]
 11445 37  0-TotalOutlier[1, 2]  2-MarginalOutlier[3, 4, 5, 6]  8-MarginalOutlierFT[1]
-11445 38  0-TotalOutlier[4]  2-MarginalOutlier[2, 3, 6]
+11445 38  0-TotalOutlier[4]  2-MarginalOutlier[1, 2, 3, 6]
 11445 39  GOLDEN
 11445 40  GOLDEN
 11445 41  GOLDEN
@@ -23447,7 +23447,7 @@ RUN: 11445
 11445 246  0-TotalOutlier[5]
 11445 247  0-TotalOutlier[5]
 11445 248  0-TotalOutlier[5]
-11445 249  0-TotalOutlier[5]  19-PossiblyNoBeam[5]
+11445 249  0-TotalOutlier[5]  8-MarginalOutlierFT[1]  19-PossiblyNoBeam[5]
 11445 250  0-TotalOutlier[5]
 11445 251  0-TotalOutlier[5]
 11445 252  0-TotalOutlier[5]
@@ -23619,7 +23619,7 @@ RUN: 11446
 11446 9  GOLDEN
 11446 10  GOLDEN
 11446 11  GOLDEN
-11446 12  2-MarginalOutlier[1, 2]
+11446 12  2-MarginalOutlier[1, 2, 3]
 11446 13  GOLDEN
 11446 14  GOLDEN
 11446 15  GOLDEN
@@ -26136,7 +26136,7 @@ RUN: 11465
 11465 39  GOLDEN
 11465 40  GOLDEN
 11465 41  GOLDEN
-11465 42  GOLDEN
+11465 42  2-MarginalOutlier[6]
 11465 43  GOLDEN
 11465 44  GOLDEN
 11465 45  GOLDEN
@@ -27172,7 +27172,7 @@ RUN: 11468
 11468 76  GOLDEN
 11468 77  GOLDEN
 11468 78  GOLDEN
-11468 79  0-TotalOutlier[2, 3, 4, 5]  2-MarginalOutlier[1, 6]
+11468 79  0-TotalOutlier[2, 3, 4, 5]  2-MarginalOutlier[1, 6]  8-MarginalOutlierFT[1]
 11468 80  GOLDEN
 11468 81  GOLDEN
 11468 82  GOLDEN
@@ -31663,7 +31663,7 @@ RUN: 11485
 11485 27  GOLDEN
 11485 28  GOLDEN
 11485 29  2-MarginalOutlier[2, 5, 6]
-11485 30  2-MarginalOutlier[1, 3, 4, 6]
+11485 30  2-MarginalOutlier[1, 3, 4, 5, 6]
 11485 31  GOLDEN
 11485 32  GOLDEN
 11485 33  GOLDEN
@@ -31898,7 +31898,7 @@ RUN: 11486
 11486 109  GOLDEN
 11486 110  GOLDEN
 11486 111  GOLDEN
-11486 112  GOLDEN
+11486 112  2-MarginalOutlier[6]
 11486 113  GOLDEN
 11486 114  GOLDEN
 11486 115  GOLDEN
@@ -32654,7 +32654,7 @@ RUN: 11492
 11492 105  GOLDEN
 11492 106  GOLDEN
 11492 107  GOLDEN
-11492 108  2-MarginalOutlier[1]
+11492 108  2-MarginalOutlier[1]  8-MarginalOutlierFT[1]
 11492 109  GOLDEN
 11492 110  GOLDEN
 11492 111  GOLDEN
@@ -34317,7 +34317,7 @@ RUN: 11497
 11497 101  GOLDEN
 11497 102  GOLDEN
 11497 103  GOLDEN
-11497 104  GOLDEN
+11497 104  8-MarginalOutlierFT[1]
 11497 105  GOLDEN
 11497 106  GOLDEN
 11497 107  GOLDEN
@@ -34781,7 +34781,7 @@ RUN: 11499
 11499 254  GOLDEN
 11499 255  GOLDEN
 11499 256  GOLDEN
-11499 257  2-MarginalOutlier[1]
+11499 257  2-MarginalOutlier[1, 5]
 11499 258  GOLDEN
 11499 259  GOLDEN
 11499 260  GOLDEN
@@ -35211,7 +35211,7 @@ RUN: 11504
 11504 20  GOLDEN
 11504 21  GOLDEN
 11504 22  GOLDEN
-11504 23  2-MarginalOutlier[1, 2, 3]
+11504 23  2-MarginalOutlier[1, 2, 3, 4]
 11504 24  0-TotalOutlier[all]  8-MarginalOutlierFT[1]
 11504 25  GOLDEN
 11504 26  GOLDEN
@@ -36318,7 +36318,7 @@ RUN: 11509
 11509 33  4-LowLiveTime[all]
 11509 34  GOLDEN
 11509 35  GOLDEN
-11509 36  GOLDEN
+11509 36  2-MarginalOutlier[6]
 11509 37  GOLDEN
 11509 38  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11509 39  0-TotalOutlier[all]  6-TotalOutlierFT[1]
@@ -37686,7 +37686,7 @@ RUN: 11513
 11513 214  GOLDEN
 11513 215  GOLDEN
 11513 216  GOLDEN
-11513 217  0-TotalOutlier[1, 2, 4, 5]  2-MarginalOutlier[3, 6]  6-TotalOutlierFT[1]
+11513 217  0-TotalOutlier[1, 2, 3, 4, 5]  2-MarginalOutlier[6]  6-TotalOutlierFT[1]
 11513 218  GOLDEN
 11513 219  GOLDEN
 11513 220  GOLDEN
@@ -45057,7 +45057,7 @@ RUN: 11550
 
 RUN: 11553
 11553 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11553 1  2-MarginalOutlier[1, 3, 4, 5]
+11553 1  2-MarginalOutlier[1, 3, 4, 5]  8-MarginalOutlierFT[1]
 11553 2  GOLDEN
 11553 3  GOLDEN
 11553 4  GOLDEN
@@ -45864,7 +45864,7 @@ RUN: 11557
 11557 125  GOLDEN
 11557 126  GOLDEN
 11557 127  GOLDEN
-11557 128  2-MarginalOutlier[2, 4]
+11557 128  2-MarginalOutlier[2, 4, 5]
 11557 129  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11557 130  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
 11557 131  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
@@ -48048,7 +48048,7 @@ RUN: 11565
 11565 311  GOLDEN
 11565 312  GOLDEN
 11565 313  GOLDEN
-11565 314  GOLDEN
+11565 314  2-MarginalOutlier[2]
 11565 315  GOLDEN
 11565 316  GOLDEN
 11565 317  GOLDEN
@@ -49063,7 +49063,7 @@ RUN: 11568
 11568 280  GOLDEN
 11568 281  GOLDEN
 11568 282  GOLDEN
-11568 283  GOLDEN
+11568 283  8-MarginalOutlierFT[1]
 11568 284  GOLDEN
 11568 285  GOLDEN
 11568 286  GOLDEN
@@ -49435,7 +49435,7 @@ RUN: 11569
 11569 317  GOLDEN
 11569 318  GOLDEN
 11569 319  GOLDEN
-11569 320  GOLDEN
+11569 320  2-MarginalOutlier[5]
 11569 321  GOLDEN
 11569 322  GOLDEN
 11569 323  GOLDEN
