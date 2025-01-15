@@ -82,6 +82,7 @@ end
 
 # parser for the command's options
 subcommand_parser = {
+
   'print' => OptionParser.new do |o|
     command_banner o, 'print'
     o.on('-l', '--list', 'list the available datasets') do
@@ -109,6 +110,7 @@ subcommand_parser = {
     o.separator 'OTHER OPTIONS'
     on_help o
   end,
+
   'charge' => OptionParser.new do |o|
     command_banner o, 'charge'
     o.separator """
@@ -142,16 +144,24 @@ subcommand_parser = {
     end
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
+    o.separator '''
+    NOTE: unless one of the following options is used, the default output is a
+          table, with values that may be rounded for readability
+    '''
     o.on('--json', 'output JSON format') do |a|
       opts[:charge][:output] = 'json'
     end
     o.on('--yaml', 'output YAML format') do |a|
       opts[:charge][:output] = 'yaml'
     end
+    o.on('--ttree', 'text table for ROOT\'s `TTree::ReadFile`') do |a|
+      opts[:charge][:output] = 'ttree'
+    end
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
   end,
+
 }
 
 # do the parsing
@@ -160,10 +170,10 @@ Command = ARGV.shift
 raise "unknown command '#{Command}'; for guidance, run '#{ExeName} --help'" unless subcommand_parser.has_key? Command
 subcommand_parser[Command].order!(ARGV.empty? ? ['--help'] : ARGV)
 
-# get list of defects
+# get defect bits
 defect_defs = JSON.load_file(File.join QaDir, 'defect_definitions.json')
 
-# get list of datasets
+# get datasets
 dataset_hash = Hash.new
 Dir.chdir(QaDir) do
   Dir.glob("**/*").each do |path|
@@ -204,12 +214,19 @@ end
 raise "run group '#{opts[:print][:run_group]}' has no QADB available" if dataset_hash.empty?
 
 
+
 ##################################################################################
-# print command
+##################################################################################
+# COMMAND IMPLEMENTATIONS
+##################################################################################
 ##################################################################################
 
-# print info
-if Command == 'print'
+case Command
+
+##################################################################################
+# Command == 'print'
+##################################################################################
+when 'print'
 
   def print_title(title, underline)
     puts ''
@@ -244,7 +261,6 @@ if Command == 'print'
         end
       end
     end
-    exit
 
   when 'verbose'
     $stderr.puts "WARNING: '--porcelain' option ignored" if opts[:print][:porcelain]
@@ -265,14 +281,12 @@ if Command == 'print'
   else
     raise "nothing to print; run '#{ExeName} print' for guidance"
   end
-end
 
 
 ##################################################################################
 # charge command
 ##################################################################################
-
-if Command == 'charge'
+when 'charge'
 
   verb = Proc.new do |message|
     puts message if opts[:charge][:verbose]
@@ -281,7 +295,7 @@ if Command == 'charge'
   # check for conflicting options
   raise "cannot set both '--reject' and '--allow' options" if opts[:charge][:reject_defect].length>0 and opts[:charge][:allow_defect].length>0
   raise "cannot set both '--reject-misc' and '--allow-misc' options" if opts[:charge][:reject_misc].length>0 and opts[:charge][:allow_misc].length>0
-  ['json', 'yaml'].each do |s|
+  ['json', 'yaml', 'ttree'].each do |s|
     raise "cannot set both '--verbose' and '--#{s}' options" if opts[:charge][:verbose] and opts[:charge][:output]==s
   end
 
@@ -348,8 +362,18 @@ if Command == 'charge'
   raise 'no charge information found for these criteria' if out_hash.empty?
   case opts[:charge][:output]
   when 'default'
+    def row(cols)
+      puts cols.map{|it|it.to_s.ljust 25}.join(' ')
+    end
+    row ['run number', 'gated charge', 'ungated charge']
+    row ['----------', '------------', '--------------']
     out_hash.each do |runnum, vals|
-      puts "#{runnum.ljust 8}  #{vals['fcCharge']}  #{vals['ufcCharge']}"
+      row [runnum, vals['fcCharge'].round(5), vals['ufcCharge'].round(5)]
+    end
+  when 'ttree'
+    puts ['runnum/I', 'fc/D', 'ufc/D'].join(':')
+    out_hash.each do |runnum, vals|
+      puts [runnum, vals['fcCharge'], vals['ufcCharge']].join(' ')
     end
   when 'json'
     puts out_hash.to_json
@@ -359,4 +383,4 @@ if Command == 'charge'
     raise 'unknown output option'
   end
 
-end
+end ### case Command
