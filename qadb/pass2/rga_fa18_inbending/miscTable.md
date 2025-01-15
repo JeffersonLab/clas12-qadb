@@ -15,7 +15,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 5032       | yes   | <pre>more TDC window adjustmant</pre> |
+| 5032       | yes   | <pre>TDC window adjustment</pre> |
 | 5036       | no    |  |
 | 5038       | no    |  |
 | 5039       | no    |  |
@@ -28,8 +28,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 5051       | yes   | <pre>MVT HV off</pre> |
 | 5052       | no    |  |
 | 5053       | no    |  |
-| 5116       | yes   | <pre>Detector 15 of MVT dead, rebooting crate</pre> |
-| 5117       | no    |  |
+| 5116       | yes   | <pre>MVT detector 2 and 15 are off</pre> |
+| 5117       | yes   | <pre>MVT detector 2 and 15 are off</pre> |
 | 5119       | yes   | <pre>scaler1 was in disconnected state</pre> |
 | 5120       | no    |  |
 | 5124       | no    |  |

@@ -1,20 +1,20 @@
 RUN: 5032
-5032 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: more TDC window adjustmant
-5032 1  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 2  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 3  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 4  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 5  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 6  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 7  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 8  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 9  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 10  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 11  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 12  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 13  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 14  5-Misc[all]  10-BSAWrong[all]  :: more TDC window adjustmant
-5032 15  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: more TDC window adjustmant
+5032 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: TDC window adjustment
+5032 1  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 2  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 3  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 4  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 5  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 6  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 7  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 8  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 9  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 10  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 11  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 12  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 13  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 14  5-Misc[all]  10-BSAWrong[all]  :: TDC window adjustment
+5032 15  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: TDC window adjustment
 
 RUN: 5036
 5036 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -932,182 +932,182 @@ RUN: 5053
 5053 22  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 5116
-5116 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 1  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 2  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 3  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 4  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 5  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 6  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 7  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 8  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 9  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 10  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 11  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 12  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 13  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 14  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 15  5-Misc[all]  10-BSAWrong[all]  :: Detector 15 of MVT dead, rebooting crate
-5116 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: Detector 15 of MVT dead, rebooting crate
+5116 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT detector 2 and 15 are off
+5116 1  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 2  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 3  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 4  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 5  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 6  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 7  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 8  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 9  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 10  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 11  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 12  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 13  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 14  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 15  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5116 16  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT detector 2 and 15 are off
 
 RUN: 5117
-5117 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-5117 1  10-BSAWrong[all]
-5117 2  10-BSAWrong[all]
-5117 3  10-BSAWrong[all]
-5117 4  10-BSAWrong[all]
-5117 5  10-BSAWrong[all]
-5117 6  10-BSAWrong[all]
-5117 7  10-BSAWrong[all]
-5117 8  10-BSAWrong[all]
-5117 9  10-BSAWrong[all]
-5117 10  10-BSAWrong[all]
-5117 11  10-BSAWrong[all]
-5117 12  10-BSAWrong[all]
-5117 13  10-BSAWrong[all]
-5117 14  10-BSAWrong[all]
-5117 15  10-BSAWrong[all]
-5117 16  10-BSAWrong[all]
-5117 17  10-BSAWrong[all]
-5117 18  10-BSAWrong[all]
-5117 19  10-BSAWrong[all]
-5117 20  10-BSAWrong[all]
-5117 21  10-BSAWrong[all]
-5117 22  10-BSAWrong[all]
-5117 23  10-BSAWrong[all]
-5117 24  10-BSAWrong[all]
-5117 25  10-BSAWrong[all]
-5117 26  10-BSAWrong[all]
-5117 27  10-BSAWrong[all]
-5117 28  10-BSAWrong[all]
-5117 29  10-BSAWrong[all]
-5117 30  10-BSAWrong[all]
-5117 31  10-BSAWrong[all]
-5117 32  10-BSAWrong[all]
-5117 33  10-BSAWrong[all]
-5117 34  10-BSAWrong[all]
-5117 35  10-BSAWrong[all]
-5117 36  10-BSAWrong[all]
-5117 37  10-BSAWrong[all]
-5117 38  10-BSAWrong[all]
-5117 39  10-BSAWrong[all]
-5117 40  10-BSAWrong[all]
-5117 41  10-BSAWrong[all]
-5117 42  10-BSAWrong[all]
-5117 43  10-BSAWrong[all]
-5117 44  10-BSAWrong[all]
-5117 45  10-BSAWrong[all]
-5117 46  10-BSAWrong[all]
-5117 47  10-BSAWrong[all]
-5117 48  10-BSAWrong[all]
-5117 49  10-BSAWrong[all]
-5117 50  10-BSAWrong[all]
-5117 51  10-BSAWrong[all]
-5117 52  10-BSAWrong[all]
-5117 53  10-BSAWrong[all]
-5117 54  10-BSAWrong[all]
-5117 55  10-BSAWrong[all]
-5117 56  10-BSAWrong[all]
-5117 57  10-BSAWrong[all]
-5117 58  10-BSAWrong[all]
-5117 59  10-BSAWrong[all]
-5117 60  10-BSAWrong[all]
-5117 61  10-BSAWrong[all]
-5117 62  10-BSAWrong[all]
-5117 63  10-BSAWrong[all]
-5117 64  10-BSAWrong[all]
-5117 65  10-BSAWrong[all]
-5117 66  10-BSAWrong[all]
-5117 67  10-BSAWrong[all]
-5117 68  10-BSAWrong[all]
-5117 69  10-BSAWrong[all]
-5117 70  10-BSAWrong[all]
-5117 71  10-BSAWrong[all]
-5117 72  10-BSAWrong[all]
-5117 73  10-BSAWrong[all]
-5117 74  10-BSAWrong[all]
-5117 75  10-BSAWrong[all]
-5117 76  10-BSAWrong[all]
-5117 77  10-BSAWrong[all]
-5117 78  10-BSAWrong[all]
-5117 79  10-BSAWrong[all]
-5117 80  10-BSAWrong[all]
-5117 81  10-BSAWrong[all]
-5117 82  10-BSAWrong[all]
-5117 83  10-BSAWrong[all]
-5117 84  10-BSAWrong[all]
-5117 85  10-BSAWrong[all]
-5117 86  10-BSAWrong[all]
-5117 87  10-BSAWrong[all]
-5117 88  10-BSAWrong[all]
-5117 89  10-BSAWrong[all]
-5117 90  10-BSAWrong[all]
-5117 91  10-BSAWrong[all]
-5117 92  10-BSAWrong[all]
-5117 93  10-BSAWrong[all]
-5117 94  10-BSAWrong[all]
-5117 95  10-BSAWrong[all]
-5117 96  10-BSAWrong[all]
-5117 97  10-BSAWrong[all]
-5117 98  10-BSAWrong[all]
-5117 99  10-BSAWrong[all]
-5117 100  10-BSAWrong[all]
-5117 101  10-BSAWrong[all]
-5117 102  10-BSAWrong[all]
-5117 103  10-BSAWrong[all]
-5117 104  10-BSAWrong[all]
-5117 105  10-BSAWrong[all]
-5117 106  10-BSAWrong[all]
-5117 107  10-BSAWrong[all]
-5117 108  10-BSAWrong[all]
-5117 109  10-BSAWrong[all]
-5117 110  10-BSAWrong[all]
-5117 111  10-BSAWrong[all]
-5117 112  10-BSAWrong[all]
-5117 113  10-BSAWrong[all]
-5117 114  10-BSAWrong[all]
-5117 115  10-BSAWrong[all]
-5117 116  10-BSAWrong[all]
-5117 117  10-BSAWrong[all]
-5117 118  10-BSAWrong[all]
-5117 119  10-BSAWrong[all]
-5117 120  10-BSAWrong[all]
-5117 121  10-BSAWrong[all]
-5117 122  10-BSAWrong[all]
-5117 123  10-BSAWrong[all]
-5117 124  10-BSAWrong[all]
-5117 125  10-BSAWrong[all]
-5117 126  10-BSAWrong[all]
-5117 127  10-BSAWrong[all]
-5117 128  10-BSAWrong[all]
-5117 129  10-BSAWrong[all]
-5117 130  10-BSAWrong[all]
-5117 131  10-BSAWrong[all]
-5117 132  10-BSAWrong[all]
-5117 133  10-BSAWrong[all]
-5117 134  10-BSAWrong[all]
-5117 135  10-BSAWrong[all]
-5117 136  10-BSAWrong[all]
-5117 137  10-BSAWrong[all]
-5117 138  10-BSAWrong[all]
-5117 139  10-BSAWrong[all]
-5117 140  10-BSAWrong[all]
-5117 141  10-BSAWrong[all]
-5117 142  10-BSAWrong[all]
-5117 143  10-BSAWrong[all]
-5117 144  10-BSAWrong[all]
-5117 145  10-BSAWrong[all]
-5117 146  10-BSAWrong[all]
-5117 147  10-BSAWrong[all]
-5117 148  10-BSAWrong[all]
-5117 149  10-BSAWrong[all]
-5117 150  10-BSAWrong[all]
-5117 151  10-BSAWrong[all]
-5117 152  10-BSAWrong[all]
-5117 153  10-BSAWrong[all]
-5117 154  10-BSAWrong[all]
-5117 155  10-BSAWrong[all]
-5117 156  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5117 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT detector 2 and 15 are off
+5117 1  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 2  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 3  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 4  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 5  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 6  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 7  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 8  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 9  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 10  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 11  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 12  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 13  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 14  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 15  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 16  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 17  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 18  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 19  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 20  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 21  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 22  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 23  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 24  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 25  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 26  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 27  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 28  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 29  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 30  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 31  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 32  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 33  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 34  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 35  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 36  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 37  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 38  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 39  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 40  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 41  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 42  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 43  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 44  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 45  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 46  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 47  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 48  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 49  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 50  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 51  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 52  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 53  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 54  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 55  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 56  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 57  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 58  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 59  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 60  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 61  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 62  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 63  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 64  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 65  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 66  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 67  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 68  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 69  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 70  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 71  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 72  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 73  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 74  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 75  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 76  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 77  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 78  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 79  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 80  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 81  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 82  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 83  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 84  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 85  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 86  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 87  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 88  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 89  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 90  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 91  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 92  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 93  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 94  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 95  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 96  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 97  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 98  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 99  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 100  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 101  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 102  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 103  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 104  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 105  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 106  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 107  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 108  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 109  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 110  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 111  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 112  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 113  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 114  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 115  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 116  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 117  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 118  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 119  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 120  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 121  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 122  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 123  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 124  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 125  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 126  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 127  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 128  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 129  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 130  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 131  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 132  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 133  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 134  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 135  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 136  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 137  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 138  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 139  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 140  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 141  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 142  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 143  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 144  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 145  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 146  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 147  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 148  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 149  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 150  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 151  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 152  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 153  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 154  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 155  5-Misc[all]  10-BSAWrong[all]  :: MVT detector 2 and 15 are off
+5117 156  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: MVT detector 2 and 15 are off
 
 RUN: 5119
 5119 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: scaler1 was in disconnected state
@@ -2195,18 +2195,18 @@ RUN: 5153
 5153 28  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 5158
-5158 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: fraction of events with defined helicity is low
-5158 1  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5158 2  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5158 3  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5158 4  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5158 5  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5158 6  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5158 7  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5158 8  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low
-5158 9  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low
-5158 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low
-5158 11  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low
+5158 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5158 1  10-BSAWrong[all]
+5158 2  10-BSAWrong[all]
+5158 3  10-BSAWrong[all]
+5158 4  10-BSAWrong[all]
+5158 5  10-BSAWrong[all]
+5158 6  10-BSAWrong[all]
+5158 7  10-BSAWrong[all]
+5158 8  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+5158 9  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+5158 10  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+5158 11  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
 5158 12  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
 5158 13  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
 5158 14  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
@@ -2527,24 +2527,24 @@ RUN: 5162
 5162 37  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 5163
-5163 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: fraction of events with defined helicity is low
-5163 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: fraction of events with defined helicity is low
-5163 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[2, 3, 5, 6]  :: fraction of events with defined helicity is low
-5163 3  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 4  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 5  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 6  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 7  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 8  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 9  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 10  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 11  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 12  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 13  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 14  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 15  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 16  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5163 17  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5163 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5163 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
+5163 2  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[2, 3, 5, 6]
+5163 3  10-BSAWrong[all]
+5163 4  10-BSAWrong[all]
+5163 5  10-BSAWrong[all]
+5163 6  10-BSAWrong[all]
+5163 7  10-BSAWrong[all]
+5163 8  10-BSAWrong[all]
+5163 9  10-BSAWrong[all]
+5163 10  10-BSAWrong[all]
+5163 11  10-BSAWrong[all]
+5163 12  10-BSAWrong[all]
+5163 13  10-BSAWrong[all]
+5163 14  10-BSAWrong[all]
+5163 15  10-BSAWrong[all]
+5163 16  10-BSAWrong[all]
+5163 17  10-BSAWrong[all]
 5163 18  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
 5163 19  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
 5163 20  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
@@ -3557,15 +3557,15 @@ RUN: 5180
 5180 95  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: fraction of events with defined helicity is low
 
 RUN: 5181
-5181 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: fraction of events with defined helicity is low
-5181 1  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5181 2  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5181 3  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5181 4  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5181 5  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5181 6  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5181 7  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
-5181 8  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
+5181 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+5181 1  10-BSAWrong[all]
+5181 2  10-BSAWrong[all]
+5181 3  10-BSAWrong[all]
+5181 4  10-BSAWrong[all]
+5181 5  10-BSAWrong[all]
+5181 6  10-BSAWrong[all]
+5181 7  10-BSAWrong[all]
+5181 8  10-BSAWrong[all]
 5181 9  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
 5181 10  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
 5181 11  5-Misc[all]  10-BSAWrong[all]  :: fraction of events with defined helicity is low
