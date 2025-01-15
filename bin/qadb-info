@@ -23,30 +23,47 @@ opts = {
     :porcelain   => false,
   },
   :charge => {
-    :datasets      => [],
-    :runs          => [],
     :reject_defect => [],
     :allow_defect  => [],
     :reject_misc   => [],
     :allow_misc    => [],
-    :verbose       => false,
     :output        => 'default',
   },
+  # common options
+  :verbose  => false,
+  :datasets => [],
+  :runs     => [],
 }
 
 # helper functions
-def command_banner(o, c)
-  o.banner = "USAGE: #{ExeName} #{c} [OPTIONS]..."
-  o.separator ''
-  o.separator 'OPTIONS'
+def command_banner(o_, command_)
+  o_.banner = "USAGE: #{ExeName} #{command_} [OPTIONS]..."
+  o_.separator ''
+  o_.separator 'OPTIONS'
 end
 
-def on_help(o)
-  o.on_tail('-h', '--help', 'show this message') do
-    puts o
+def on_help(o_)
+  o_.on_tail('-h', '--help', 'show this message') do
+    puts o_
     exit
   end
 end
+
+def on_data_selection(o_, opts_, command_)
+  o_.separator """
+    NOTE: all `LIST` arguments must be delimited by commas, for example:
+            #{ExeName} #{command_} --datasets rgb_sp19,rgb_fa19,rgb_wi20
+  """
+  o_.on('-d', '--datasets LIST', Array, 'list of datasets to include', 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
+    opts_[:datasets] = a
+  end
+  o_.separator ''
+  o_.on('-r', '--runs LIST', Array, 'list of runs to include', 'default: all of them of the datasets from `--datasets`') do |a|
+    opts_[:runs] = a
+  end
+  o_.separator ''
+end
+
 
 # parser for the command
 command_parser = OptionParser.new do |o|
@@ -63,6 +80,8 @@ COMMANDS
                and defect bit definitions
 
     charge     get the Faraday Cup (FC) charge
+
+    misc       explain why the 'Misc' defect bit was assigned
 
   For usage guidance of each COMMAND, run with no further options (or with --help)
 
@@ -113,18 +132,7 @@ subcommand_parser = {
 
   'charge' => OptionParser.new do |o|
     command_banner o, 'charge'
-    o.separator """
-    NOTE: all `LIST` arguments must be delimited by commas, for example:
-            #{ExeName} charge --datasets rgb_sp19,rgb_fa19,rgb_wi20
-    """
-    o.on('-d', '--datasets LIST', Array, 'list of datasets to include', 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
-      opts[:charge][:datasets] = a
-    end
-    o.separator ''
-    o.on('-r', '--runs LIST', Array, 'list of runs to include', 'default: all of them of the datasets from `--datasets`') do |a|
-      opts[:charge][:runs] = a
-    end
-    o.separator ''
+    on_data_selection o, opts, 'charge'
     o.on('--reject LIST', Array, 'list of defect bit numbers to reject, and allow all others;', 'do not use this together with --allow') do |a|
       opts[:charge][:reject_defect] = a.map &:to_i
     end
@@ -140,7 +148,7 @@ subcommand_parser = {
     end
     o.separator ''
     o.on('-v', '--[no-]verbose', 'print more information') do |a|
-      opts[:charge][:verbose] = a
+      opts[:verbose] = a
     end
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
@@ -162,6 +170,25 @@ subcommand_parser = {
     on_help o
   end,
 
+  'misc' => OptionParser.new do |o|
+    command_banner o, 'misc'
+    on_data_selection o, opts, 'misc'
+    o.separator ''
+    o.separator 'OUTPUT OPTIONS'
+    o.separator '''
+    NOTE: unless one of the following options is used, the default output is a table
+    '''
+    o.on('--json', 'output JSON format') do |a|
+      opts[:misc][:output] = 'json'
+    end
+    o.on('--yaml', 'output YAML format') do |a|
+      opts[:misc][:output] = 'yaml'
+    end
+    o.separator ''
+    o.separator 'OTHER OPTIONS'
+    on_help o
+  end,
+
 }
 
 # do the parsing
@@ -169,6 +196,11 @@ command_parser.order!(ARGV.empty? ? ['--help'] : ARGV)
 Command = ARGV.shift
 raise "unknown command '#{Command}'; for guidance, run '#{ExeName} --help'" unless subcommand_parser.has_key? Command
 subcommand_parser[Command].order!(ARGV.empty? ? ['--help'] : ARGV)
+
+# verbose printout
+verb = Proc.new do |message|
+  puts message if opts[:verbose]
+end
 
 # get defect bits
 defect_defs = JSON.load_file(File.join QaDir, 'defect_definitions.json')
@@ -213,6 +245,49 @@ end
 
 raise "run group '#{opts[:print][:run_group]}' has no QADB available" if dataset_hash.empty?
 
+
+# check user's list of datasets
+selected_datasets = []
+if opts[:datasets].empty?
+  selected_datasets = dataset_hash
+    .select{ |k,v| v[:cook] == 'latest' }
+    .map{ |k,v| k}
+else
+  opts[:datasets].each do |dataset|
+    if dataset_hash.has_key? dataset
+      selected_datasets << dataset
+    else
+      $stderr.puts "WARNING: dataset '#{dataset}' does not exist"
+    end
+  end
+end
+raise "no valid datasets chosen" if selected_datasets.empty?
+
+# open chargeTrees and qaTrees, and set run list
+chargeTree = {}
+qaTree     = {}
+selected_runs = opts[:runs]
+unless Command == 'print'
+
+  # merge trees together, but throw an error if duplicate keys (runs) are found
+  def mergeTree(a,b,name)
+    a.merge!(b) do
+      raise "dataset '#{name}' has run(s) found in another dataset; please make sure all your datasets are unique (e.g., don't pick two cooks for the same data)"
+    end
+  end
+
+  # parse JSON
+  verb.call "loading QADBs..."
+  selected_datasets.each do |dataset_name|
+    verb.call "  - #{dataset_name}"
+    mergeTree chargeTree, JSON.load_file(dataset_hash[dataset_name][:chargeTree]), dataset_name
+    mergeTree qaTree,     JSON.load_file(dataset_hash[dataset_name][:qaTree]),     dataset_name
+  end
+  verb.call "...done loading QADBs"
+
+  # use ALL the runs, if the user did not specify any
+  selected_runs = qaTree.keys if selected_runs.empty?
+end
 
 
 ##################################################################################
@@ -288,59 +363,17 @@ when 'print'
 ##################################################################################
 when 'charge'
 
-  verb = Proc.new do |message|
-    puts message if opts[:charge][:verbose]
-  end
-
   # check for conflicting options
   raise "cannot set both '--reject' and '--allow' options" if opts[:charge][:reject_defect].length>0 and opts[:charge][:allow_defect].length>0
   raise "cannot set both '--reject-misc' and '--allow-misc' options" if opts[:charge][:reject_misc].length>0 and opts[:charge][:allow_misc].length>0
   ['json', 'yaml', 'ttree'].each do |s|
-    raise "cannot set both '--verbose' and '--#{s}' options" if opts[:charge][:verbose] and opts[:charge][:output]==s
+    raise "cannot set both '--verbose' and '--#{s}' options" if opts[:verbose] and opts[:charge][:output]==s
   end
-
-
-  # check list of datasets
-  datasets = []
-  if opts[:charge][:datasets].empty?
-    datasets = dataset_hash
-      .select{ |k,v| v[:cook] == 'latest' }
-      .map{ |k,v| k}
-  else
-    opts[:charge][:datasets].each do |dataset|
-      if dataset_hash.has_key? dataset
-        datasets << dataset
-      else
-        $stderr.puts "WARNING: dataset '#{dataset}' does not exist"
-      end
-    end
-  end
-  raise "no valid datasets chosen" if datasets.empty?
-
-  # open chargeTrees and qaTrees
-  chargeTree = {}
-  qaTree     = {}
-  def mergeTree(a,b,name)
-    a.merge!(b) do
-      raise "dataset '#{name}' has run(s) found in another dataset; please make sure all your datasets are unique (e.g., don't pick two cooks for the same data)"
-    end
-  end
-  verb.call "loading QADBs..."
-  datasets.each do |dataset_name|
-    verb.call "  - #{dataset_name}"
-    mergeTree chargeTree, JSON.load_file(dataset_hash[dataset_name][:chargeTree]), dataset_name
-    mergeTree qaTree,     JSON.load_file(dataset_hash[dataset_name][:qaTree]),     dataset_name
-  end
-  verb.call "...done loading QADBs"
-
-  # filter by run number
-  runlist = opts[:charge][:runs]
-  runlist = qaTree.keys if runlist.empty?
 
   # calculate charge
   verb.call "calculating charges..."
   out_hash = {}
-  runlist.each do |runnum|
+  selected_runs.each do |runnum|
     fcCharge  = 0.0
     ufcCharge = 0.0
     unless chargeTree.has_key? runnum
