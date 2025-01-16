@@ -35,7 +35,7 @@ jobs:
       - name: get data sets
         id: datasets
         run: |
-          qadb-info print --list --no-latest --porcelain | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
+          qadb-info print --list --no-latest --simple | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
           echo datasets=$(jq -c . datasets.json) >> $GITHUB_OUTPUT
       - run: qadb-info --version
       - name: qadb-info summary

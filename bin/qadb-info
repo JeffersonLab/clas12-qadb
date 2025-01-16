@@ -68,7 +68,7 @@ opts = {
     :mode        => '',
     :run_group   => nil,
     :only_latest => nil,
-    :porcelain   => false,
+    :simple      => false,
   },
   :charge => {
     :reject_defect => [],
@@ -148,8 +148,8 @@ subcommand_parser = {
     o.on('-L', '--[no-]latest', 'only list the "latest" cooks\' datasets', 'default: lists all datasets') do |a|
       opts[:print][:only_latest] = a
     end
-    o.on('-P', '--[no-]porcelain', 'keep printout simple, for scripts') do |a|
-      opts[:print][:porcelain] = a
+    o.on('-S', '--[no-]simple', 'keep printout simple, for scripts') do |a|
+      opts[:print][:simple] = a
     end
     o.separator ''
     o.separator 'OTHER OPTIONS'
@@ -398,7 +398,7 @@ when 'print'
   case opts[:print][:mode]
   when 'defects'
     DefectDefs.sort{ |a,b| a['bit_number'] <=> b['bit_number'] }.each do |defect_def|
-      if opts[:print][:porcelain]
+      if opts[:print][:simple]
         puts defect_def['bit_number']
       else
         puts "#{defect_def['bit_number'].to_s.rjust 5}  #{defect_def['bit_name']}"
@@ -407,7 +407,7 @@ when 'print'
 
   when 'list'
     dataset_hash.each do |dataset_name, dataset|
-      if opts[:print][:porcelain]
+      if opts[:print][:simple]
         puts dataset_name
       else
         if dataset[:cook] == 'latest'
@@ -419,7 +419,7 @@ when 'print'
     end
 
   when 'more'
-    $stderr.puts "WARNING: '--porcelain' option ignored" if opts[:print][:porcelain]
+    $stderr.puts "WARNING: '--simple' option ignored" if opts[:print][:simple]
     print_title "#{opts[:print][:run_group].nil? ? 'All' : "Run Group #{opts[:print][:run_group].upcase}"} Datasets and Info", '='
     printout = {}
     dataset_hash.values.map{ |v| v[:cook] }.uniq.sort.each do |cook|
