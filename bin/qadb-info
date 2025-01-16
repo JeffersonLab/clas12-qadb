@@ -90,6 +90,8 @@ opts = {
   :verbose  => false,
   :datasets => [],
   :runs     => [],
+  :bins     => [],
+  :events   => [],
   :output   => nil,
 }
 
@@ -110,6 +112,8 @@ COMMANDS
     charge     get the Faraday Cup (FC) charge
 
     misc       explain why the `Misc` defect bit was assigned
+
+    query      access data from the QADB
 
   For usage guidance of each COMMAND, run with no further options (or with --help)
 
@@ -255,6 +259,39 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
     on_verbose o, opts
     o.separator ''
     o.separator 'OTHER OPTIONS'
+    on_help o
+  end,
+
+  'query' => OptionParser.new do |o|
+    command_banner o, 'query'
+    o.separator """
+    CAUTION ======================================================================= CAUTION
+      Do not use this command in an analysis event loop, it will be too slow !
+      -> instead, see the documentation for more efficient ways
+    CAUTION ======================================================================= CAUTION
+    """
+    on_data_selection o, opts, 'query'
+    o.separator '''QUERY OPTIONS:
+    Choose one of these to restrict which bins are printed, otherwise
+    all bins from the dataset/run list(s) will be included
+    '''
+    o.on('-b', '--bins LIST', Array, 'list of QA bins to include') do |a|
+      opts[:bins] = a
+    end
+    o.on('-e', '--events LIST', Array, 'list of event numbers to include') do |a|
+      opts[:events] = a
+    end
+    o.separator ''
+    o.separator 'OUTPUT OPTIONS'
+    o.on('--json', 'output JSON format (the default)', 'TIP: pipe through `jq` for readability') do |a|
+      opts[:output] = 'json'
+    end
+    o.on('--yaml', 'output YAML format') do |a|
+      opts[:output] = 'yaml'
+    end
+    o.separator ''
+    o.separator 'OTHER OPTIONS'
+    on_verbose o, opts
     on_help o
   end,
 
@@ -643,4 +680,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
     raise 'unknown output option'
   end
 
+##################################################################################
+# query command
+##################################################################################
+when 'query'
+  raise 'TODO'
+
+##################################################################################
+else raise "unknown command `#{Command}`"
 end ### case Command
