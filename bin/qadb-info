@@ -110,11 +110,12 @@ COMMANDS
 
 MISC OPTIONS"""
   o.on('-v', '--version', 'print the QADB version number') do
-    ver = `cd #{TopDir} && git describe --tags --abbrev=0`
+    ver = `cd #{TopDir} && git describe --tags --abbrev=0 || module info-loaded qadb`
     if $?.success?
       puts ver
       exit
     else
+      $stderr.puts 'ERROR: version detection failed'
       puts 'UNKNOWN'
       exit 1
     end
