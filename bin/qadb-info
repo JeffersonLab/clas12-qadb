@@ -11,6 +11,54 @@ ExeName = File.basename __FILE__
 
 
 ##################################################################################
+# helper functions
+##################################################################################
+
+# print option parser banner
+def command_banner(o_, command_)
+  o_.banner = "USAGE: #{ExeName} #{command_} [OPTIONS]..."
+  o_.separator ''
+  o_.separator 'OPTIONS'
+end
+
+# handle help arguments in option parser
+def on_help(o_)
+  o_.on_tail('-h', '--help', 'show this message') do
+    puts o_
+    exit
+  end
+end
+
+# handle selection arguments in option parser
+def on_data_selection(o_, opts_, command_)
+  o_.separator """
+    NOTE: all `LIST` arguments must be delimited by commas, for example:
+            #{ExeName} #{command_} --datasets rgb_sp19,rgb_fa19,rgb_wi20
+  """
+  o_.on('-d', '--datasets LIST', Array, 'list of datasets to include', 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
+    opts_[:datasets] = a
+  end
+  o_.separator ''
+  o_.on('-r', '--runs LIST', Array, 'list of runs to include', 'default: all of them of the datasets from `--datasets`') do |a|
+    opts_[:runs] = a
+  end
+  o_.separator ''
+end
+
+# handle verbose argument in option parser
+def on_verbose(o_, opts_)
+  o_.on('-v', '--[no-]verbose', 'print more information') do |a|
+    opts_[:verbose] = a
+  end
+end
+
+# return whether or not `defect` has defect bit `bit` set
+def has_defect(bit_, defect_)
+  (defect_ >> bit_) & 0x1 == 1
+end
+
+
+##################################################################################
 # parse options
 ##################################################################################
 
@@ -27,43 +75,17 @@ opts = {
     :allow_defect  => [],
     :reject_misc   => [],
     :allow_misc    => [],
-    :output        => 'default',
+  },
+  :misc => {
+    :comment_delim => nil,
+    :list_bins     => false,
   },
   # common options
   :verbose  => false,
   :datasets => [],
   :runs     => [],
+  :output   => nil,
 }
-
-# helper functions
-def command_banner(o_, command_)
-  o_.banner = "USAGE: #{ExeName} #{command_} [OPTIONS]..."
-  o_.separator ''
-  o_.separator 'OPTIONS'
-end
-
-def on_help(o_)
-  o_.on_tail('-h', '--help', 'show this message') do
-    puts o_
-    exit
-  end
-end
-
-def on_data_selection(o_, opts_, command_)
-  o_.separator """
-    NOTE: all `LIST` arguments must be delimited by commas, for example:
-            #{ExeName} #{command_} --datasets rgb_sp19,rgb_fa19,rgb_wi20
-  """
-  o_.on('-d', '--datasets LIST', Array, 'list of datasets to include', 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
-    opts_[:datasets] = a
-  end
-  o_.separator ''
-  o_.on('-r', '--runs LIST', Array, 'list of runs to include', 'default: all of them of the datasets from `--datasets`') do |a|
-    opts_[:runs] = a
-  end
-  o_.separator ''
-end
-
 
 # parser for the command
 command_parser = OptionParser.new do |o|
@@ -107,8 +129,11 @@ subcommand_parser = {
     o.on('-l', '--list', 'list the available datasets') do
       opts[:print][:mode] = 'list'
     end
-    o.on('-v', '--verbose', 'print verbose information about the datasets') do
-      opts[:print][:mode] = 'verbose'
+    o.on('-m', '--more', 'print more information about the datasets') do
+      opts[:print][:mode] = 'more'
+    end
+    o.on('-q', '--qa-tree', 'list the qaTree.json files') do
+      opts[:print][:mode] = 'qa-tree'
     end
     o.separator ''
     o.on('-d', '--defects', 'list the defects and their definitions;', 'see documentation for more info') do
@@ -147,9 +172,7 @@ subcommand_parser = {
       opts[:charge][:allow_misc] = a.map &:to_i
     end
     o.separator ''
-    o.on('-v', '--[no-]verbose', 'print more information') do |a|
-      opts[:verbose] = a
-    end
+    on_verbose o, opts
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
     o.separator '''
@@ -157,13 +180,13 @@ subcommand_parser = {
           table, with values that may be rounded for readability
     '''
     o.on('--json', 'output JSON format') do |a|
-      opts[:charge][:output] = 'json'
+      opts[:output] = 'json'
     end
     o.on('--yaml', 'output YAML format') do |a|
-      opts[:charge][:output] = 'yaml'
+      opts[:output] = 'yaml'
     end
     o.on('--ttree', 'text table for ROOT\'s `TTree::ReadFile`') do |a|
-      opts[:charge][:output] = 'ttree'
+      opts[:output] = 'ttree'
     end
     o.separator ''
     o.separator 'OTHER OPTIONS'
@@ -176,14 +199,39 @@ subcommand_parser = {
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
     o.separator '''
-    NOTE: unless one of the following options is used, the default output is a table
+    NOTE: unless one of the following options is used, the default output is a table,
+          excluding runs without the \'Misc\' bit
     '''
+    o.on('--code COMMENT_DELIM',
+         'output code, with QADB comments as in-line comments, using',
+         'the delimiter COMMENT_DELIM; this is convenient to copy to',
+         'your analysis code and modify; only runs with the \'Misc\'',
+         'bit are printed',
+         '  example: --code \'#\' for Python',
+         '           --code \'//\' for C++',) do |a|
+           opts[:output] = 'code'
+           opts[:misc][:comment_delim] = a
+         end
     o.on('--json', 'output JSON format') do |a|
-      opts[:misc][:output] = 'json'
+      opts[:output] = 'json'
     end
     o.on('--yaml', 'output YAML format') do |a|
-      opts[:misc][:output] = 'yaml'
+      opts[:output] = 'yaml'
     end
+    o.on('--markdown', 'output a Markdown table') do |a|
+      opts[:output] = 'markdown'
+    end
+    o.separator ''
+    o.separator '    ADDITIONAL OUTPUT CONTROL:'
+    o.on('--[no-]list-bins',
+         'for each comment, list the QA bins that have this comment;',
+         'only applies to some output formats, such as JSON and YAML;',
+         'use this for more fine-grained details, such as when',
+         '\'Misc\' is assigned for multiple reasons') do |a|
+      opts[:misc][:list_bins] = a
+    end
+    o.separator ''
+    on_verbose o, opts
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
@@ -200,6 +248,11 @@ subcommand_parser[Command].order!(ARGV.empty? ? ['--help'] : ARGV)
 # verbose printout
 verb = Proc.new do |message|
   puts message if opts[:verbose]
+end
+
+# discourage verbose mode when an output mode is selected
+if opts[:verbose] and !opts[:output].nil?
+  $stderr.puts "WARNING: --verbose mode set, but an OUTPUT OPTION is also set; this means your output will include additional verbose printouts"
 end
 
 # get defect bits
@@ -291,6 +344,16 @@ unless Command == 'print'
   selected_runs = qaTree.keys if selected_runs.empty?
 end
 
+# define runnum loop: loops over runs, executing `block(runnum)` on each
+loop_over_runs = Proc.new do |&block|
+  selected_runs.each do |runnum|
+    unless qaTree.has_key? runnum
+      $stderr.puts "WARNING: run #{runnum} not found in any dataset"
+      next
+    end
+    block.call runnum
+  end
+end
 
 ##################################################################################
 ##################################################################################
@@ -339,7 +402,7 @@ when 'print'
       end
     end
 
-  when 'verbose'
+  when 'more'
     $stderr.puts "WARNING: '--porcelain' option ignored" if opts[:print][:porcelain]
     print_title "#{opts[:print][:run_group].nil? ? 'All' : "Run Group #{opts[:print][:run_group].upcase}"} Datasets and Info", '='
     printout = {}
@@ -355,6 +418,11 @@ when 'print'
       end
     end
 
+  when 'qa-tree'
+    dataset_hash.each do |dataset_name, dataset|
+      puts dataset[:qaTree]
+    end
+
   else
     raise "nothing to print; run '#{ExeName} print' for guidance"
   end
@@ -368,20 +436,13 @@ when 'charge'
   # check for conflicting options
   raise "cannot set both '--reject' and '--allow' options" if opts[:charge][:reject_defect].length>0 and opts[:charge][:allow_defect].length>0
   raise "cannot set both '--reject-misc' and '--allow-misc' options" if opts[:charge][:reject_misc].length>0 and opts[:charge][:allow_misc].length>0
-  ['json', 'yaml', 'ttree'].each do |s|
-    raise "cannot set both '--verbose' and '--#{s}' options" if opts[:verbose] and opts[:charge][:output]==s
-  end
 
   # calculate charge
   verb.call "calculating charges..."
-  out_hash = {}
-  selected_runs.each do |runnum|
+  out_hash = Hash.new
+  loop_over_runs.call do |runnum|
     fcCharge  = 0.0
     ufcCharge = 0.0
-    unless chargeTree.has_key? runnum
-      $stderr.puts "WARNING: run #{runnum} not found in any dataset"
-      next
-    end
     chargeTree[runnum].each do |binnum, charge_h|
       fcCharge  += charge_h['fcChargeMax']  - charge_h['fcChargeMin']
       ufcCharge += charge_h['ufcChargeMax'] - charge_h['ufcChargeMin']
@@ -394,26 +455,122 @@ when 'charge'
   verb.call "...done calculating charges"
 
   # print output
-  raise 'no charge information found for these criteria' if out_hash.empty?
-  case opts[:charge][:output]
-  when 'default'
+  raise 'no information found for these criteria' if out_hash.empty?
+  case opts[:output]
+  when nil
     def row(cols)
       puts cols.map{|it|it.to_s.ljust 25}.join(' ')
     end
     row ['run number', 'gated charge', 'ungated charge']
     row ['----------', '------------', '--------------']
-    out_hash.each do |runnum, vals|
-      row [runnum, vals['fcCharge'].round(5), vals['ufcCharge'].round(5)]
+    out_hash.each do |runnum, h|
+      row [runnum, h['fcCharge'].round(5), h['ufcCharge'].round(5)]
     end
   when 'ttree'
     puts ['runnum/I', 'fc/D', 'ufc/D'].join(':')
-    out_hash.each do |runnum, vals|
-      puts [runnum, vals['fcCharge'], vals['ufcCharge']].join(' ')
+    out_hash.each do |runnum, h|
+      puts [runnum, h['fcCharge'], h['ufcCharge']].join(' ')
     end
   when 'json'
     puts out_hash.to_json
   when 'yaml'
     puts out_hash.to_yaml
+  else
+    raise 'unknown output option'
+  end
+
+##################################################################################
+# misc command
+##################################################################################
+when 'misc'
+
+  # get the bit number for 'Misc'
+  MiscBit = defect_defs.find{ |d| d['bit_name'] == 'Misc' }['bit_number']
+
+  # loop over runs, getting unique comments from each
+  out_hash = Hash.new
+  loop_over_runs.call do |runnum|
+    out_hash[runnum] = {
+      :comments     => Hash.new,
+      :has_misc_bit => false,
+    }
+    # loop over QA bins
+    qaTree[runnum].each do |binnum, qa_result|
+      unless qa_result['comment'].empty?
+        ( out_hash[runnum][:comments][qa_result['comment']] ||= [] ) << binnum # map 'comment' -> 'list of bins that have that comment'
+      end
+      out_hash[runnum][:has_misc_bit] |= has_defect MiscBit, qa_result['defect']
+    end
+  end
+
+  # remove bin lists, if desired
+  handle_bin_lists = Proc.new do
+    unless opts[:misc][:list_bins]
+      out_hash.each do |runnum, h|
+        cmt_list = h[:comments].keys
+        h[:comments] = cmt_list
+      end
+    end
+  end
+
+  # print output
+  raise 'no information found for these criteria' if out_hash.empty?
+  case opts[:output]
+  when nil, 'code'
+    puts 'misc_qa_runs = [' if opts[:output] == 'code'
+    num_runs = out_hash.values.select{|h| h[:has_misc_bit]}.length
+    cnt = 0
+    out_hash.each do |runnum, h|
+      next unless h[:has_misc_bit]
+      runnum_str = "  #{runnum}"
+      runnum_str += ',' if opts[:output] == 'code' and cnt+1 < num_runs
+      runnum_str = runnum_str.ljust 10
+      puts "#{runnum_str} NO COMMENTS" if h[:comments].empty?
+      h[:comments].keys.each_with_index do |cmt, i|
+        runnum_str = ' '*runnum_str.length if i > 0
+        if opts[:output] == 'code'
+          puts "#{runnum_str} #{opts[:misc][:comment_delim]} #{cmt}"
+        else
+          puts "#{runnum_str} #{cmt}"
+        end
+      end
+      cnt += 1
+    end
+    puts ']' if opts[:output] == 'code'
+  when 'json'
+    handle_bin_lists.call
+    puts out_hash.to_json
+  when 'yaml'
+    handle_bin_lists.call
+    puts out_hash.to_yaml
+  when 'markdown'
+    puts """# Misc Defect Comments Table
+
+For each run, the table shows:
+- `Misc` defect?:
+  - \"yes\" if _any_ of the QA bins in this runs has the `Misc` defect
+  - this does not mean this defect is present for the entire run
+- Unique Comments:
+  - each QA bin can have its own comment, which is usually set when a bin has the `Misc` defect
+  - not all bins have to have the same comment
+  - this table shows the _unique_ comments that are found for this run
+
+See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin information.
+
+### Misc Comments
+
+| Run | `Misc` defect? | Unique Comments |
+| --- | ---            | ---             |
+"""
+    out_hash.each do |runnum, h|
+      md_comments = h[:comments].keys.map{ |comment| "<pre>#{comment}</pre>" }
+      md_has_misc_bit = h[:has_misc_bit] ? "yes" : "no"
+      puts '| ' + [
+        runnum.ljust(10),
+        md_has_misc_bit.ljust(5),
+        md_comments.join(''),
+      ].join(' | ') + ' |'
+    end
   else
     raise 'unknown output option'
   end

@@ -1,4 +1,4 @@
-# Misc Defect Comments Table for dataset `qadb/pass1/rgk_fa18_7.5GeV`
+# Misc Defect Comments Table
 
 For each run, the table shows:
 - `Misc` defect?:

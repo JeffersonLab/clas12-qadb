@@ -6,9 +6,12 @@
 set -e
 source environ.sh
 
-pushd $QADB
-for file in $(find -P qadb -name "qaTree.json"); do
-  util/parseQaTree.rb $file
-  util/makeMiscTable.rb $file
+for file in $(qadb-info print --qa-tree --no-latest --porcelain); do
+  $QADB/util/parseQaTree.rb $file
 done
-popd
+
+for dataset in $(qadb-info print --list --no-latest --porcelain); do
+  outfile=$QADB/qadb/$dataset/miscTable.md
+  qadb-info misc --datasets $dataset --markdown > $outfile
+  echo "produced $outfile"
+done
