@@ -75,6 +75,7 @@ opts = {
     :allow_defect  => [],
     :reject_misc   => [],
     :allow_misc    => [],
+    :golden        => false,
   },
   :misc => {
     :comment_delim => nil,
@@ -157,7 +158,20 @@ subcommand_parser = {
 
   'charge' => OptionParser.new do |o|
     command_banner o, 'charge'
+    o.separator """
+    CAUTION ======================================================================= CAUTION
+      The charge calculated here still needs to be cross checked with other methods !!!
+      -> #{ExeName} is a new program, please report any issues
+    CAUTION ======================================================================= CAUTION
+    """
     on_data_selection o, opts, 'charge'
+    on_verbose o, opts
+    o.separator """
+QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
+
+    NOTE: use `#{ExeName} print --defects` for the defect bit numbers;
+          see documentation for details
+    """
     o.on('--reject LIST', Array, 'list of defect bit numbers to reject, and allow all others;', 'do not use this together with --allow') do |a|
       opts[:charge][:reject_defect] = a.map &:to_i
     end
@@ -165,14 +179,15 @@ subcommand_parser = {
       opts[:charge][:allow_defect] = a.map &:to_i
     end
     o.separator ''
-    o.on('--reject-misc LIST', Array, 'list of runs to reject, if they have the "Misc" defect;', 'do not use this together with --allow-misc') do |a|
-      opts[:charge][:reject_misc] = a.map &:to_i
+    o.on('--reject-misc LIST', Array, 'list of runs to reject, if they ONLY have the "Misc" defect;', 'do not use this together with --allow-misc') do |a|
+      opts[:charge][:reject_misc] = a
     end
-    o.on('--allow-misc LIST',  Array, 'list of runs to allow, if they have the "Misc" defect;', 'do not use this together with --reject-misc') do |a|
-      opts[:charge][:allow_misc] = a.map &:to_i
+    o.on('--allow-misc LIST',  Array, 'list of runs to allow, if they ONLY have the "Misc" defect;', 'do not use this together with --reject-misc') do |a|
+      opts[:charge][:allow_misc] = a
     end
-    o.separator ''
-    on_verbose o, opts
+    o.on('--golden', 'do not allow any defects (may be too strict for some data)') do |a|
+      opts[:charge][:golden] = true
+    end
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
     o.separator '''
@@ -256,7 +271,8 @@ if opts[:verbose] and !opts[:output].nil?
 end
 
 # get defect bits
-defect_defs = JSON.load_file(File.join QaDir, 'defect_definitions.json')
+DefectDefs = JSON.load_file(File.join QaDir, 'defect_definitions.json')
+MiscBit    = DefectDefs.find{ |d| d['bit_name'] == 'Misc' }['bit_number']
 
 # get datasets
 dataset_hash = Hash.new
@@ -381,7 +397,7 @@ when 'print'
 
   case opts[:print][:mode]
   when 'defects'
-    defect_defs.sort{ |a,b| a['bit_number'] <=> b['bit_number'] }.each do |defect_def|
+    DefectDefs.sort{ |a,b| a['bit_number'] <=> b['bit_number'] }.each do |defect_def|
       if opts[:print][:porcelain]
         puts defect_def['bit_number']
       else
@@ -437,6 +453,19 @@ when 'charge'
   raise "cannot set both '--reject' and '--allow' options" if opts[:charge][:reject_defect].length>0 and opts[:charge][:allow_defect].length>0
   raise "cannot set both '--reject-misc' and '--allow-misc' options" if opts[:charge][:reject_misc].length>0 and opts[:charge][:allow_misc].length>0
 
+  # determine which defect bits to reject
+  reject_these_defects = []
+  if opts[:charge][:golden]
+    reject_these_defects = DefectDefs.map{ |it| it['bit_number'] }
+  end
+  if opts[:charge][:reject_defect].length > 0
+    reject_these_defects = opts[:charge][:reject_defect]
+  elsif opts[:charge][:allow_defect].length > 0
+    reject_these_defects = DefectDefs.map{ |it| it['bit_number'] }
+      .reject{ |it| opts[:charge][:allow_defect].include? it }
+  end
+  verb.call "The following defects will be rejected: [#{reject_these_defects.join ', '}]"
+
   # calculate charge
   verb.call "calculating charges..."
   out_hash = Hash.new
@@ -444,13 +473,47 @@ when 'charge'
     fcCharge  = 0.0
     ufcCharge = 0.0
     chargeTree[runnum].each do |binnum, charge_h|
-      fcCharge  += charge_h['fcChargeMax']  - charge_h['fcChargeMin']
-      ufcCharge += charge_h['ufcChargeMax'] - charge_h['ufcChargeMin']
+
+      # QA filter
+      allowed = true
+      unless reject_these_defects.empty?
+        qa_h = qaTree[runnum][binnum]
+
+        # if this bin ONLY has the Misc defect, check the runnum
+        if qa_h['defect'] == 0x1 << MiscBit
+          if reject_these_defects.include? MiscBit
+            if opts[:charge][:allow_misc].length > 0 and opts[:charge][:allow_misc].include? runnum
+              allowed = true
+            elsif opts[:charge][:reject_misc].length > 0 and ! opts[:charge][:reject_misc].include? runnum
+              allowed = true
+            else
+              allowed = false
+            end
+          end
+
+        # otherwise check other defects
+        else
+          reject_these_defects.each do |bit|
+            if has_defect bit, qa_h['defect']
+              allowed = false
+              break
+            end
+          end
+        end
+      end
+
+      # accumulate charge
+      if allowed
+        fcCharge  += charge_h['fcChargeMax']  - charge_h['fcChargeMin']
+        ufcCharge += charge_h['ufcChargeMax'] - charge_h['ufcChargeMin']
+      end
     end
+
     out_hash[runnum] = {
       'fcCharge'  => fcCharge,
       'ufcCharge' => ufcCharge,
     }
+
   end
   verb.call "...done calculating charges"
 
@@ -483,9 +546,6 @@ when 'charge'
 # misc command
 ##################################################################################
 when 'misc'
-
-  # get the bit number for 'Misc'
-  MiscBit = defect_defs.find{ |d| d['bit_name'] == 'Misc' }['bit_number']
 
   # loop over runs, getting unique comments from each
   out_hash = Hash.new
