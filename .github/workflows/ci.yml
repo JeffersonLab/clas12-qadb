@@ -41,7 +41,7 @@ jobs:
       - name: qadb-info summary
         run: |
           echo '```' >> $GITHUB_STEP_SUMMARY
-          qadb-info print --verbose | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
+          qadb-info print --more | xargs -0 -I{} echo {} >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
   # check consistency between Groovy and C++ APIs
