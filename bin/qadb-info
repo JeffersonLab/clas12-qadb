@@ -418,18 +418,28 @@ loop_over_runs = Proc.new do |&block|
   end
 end
 
-# determine list of bins for each run
+# determine list of bins for each run, if the user requested specific events or bins
 selected_bins = Hash.new
 if Command == 'query'
   unless opts[:bins].empty? and opts[:events].empty?
+    verb.call "handling user specified bin/event selection..."
     option_conflict '--bins', '--events' if opts[:bins].length>0 and opts[:events].length>0
     loop_over_runs.call do |runnum|
-      if opts[:bins].length > 0
-        selected_bins[runnum] = opts[:bins]
-      else
+      qaTree_run = qaTree[runnum]
+
+      if opts[:bins].length > 0 ### handle --bins argument
+        opts[:bins].each do |binnum|
+          if qaTree_run.keys.include? binnum
+            ( selected_bins[runnum] ||= [] ) << binnum
+          else
+            warn "bin #{binnum} not found for run #{runnum}"
+          end
+        end
+
+      else ### handle --events argument
         opts[:events].each do |evnum|
           found = false
-          qaTree[runnum].each do |binnum, qa_h|
+          qaTree_run.each do |binnum, qa_h|
             if qa_h['evnumMin'] <= evnum and evnum <= qa_h['evnumMax']
               ( selected_bins[runnum] ||= [] ) << binnum
               found = true
@@ -439,8 +449,19 @@ if Command == 'query'
           warn "event #{evnum} not found in any bin for run #{runnum}" unless found
         end
       end
+
     end
+
+    verb.call "...done"
+    if opts[:verbose]
+      verb.call 'filtering by the following runs and QA bins:'
+      selected_bins.each do |runnum, binlist|
+        verb.call "  #{runnum} => [#{binlist.join ', '}]"
+      end
+    end
+
     raise 'no information found for these criteria' if selected_bins.empty?
+
   end
 end
 
