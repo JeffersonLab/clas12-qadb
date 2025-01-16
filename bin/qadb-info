@@ -52,6 +52,11 @@ def on_verbose(o_, opts_)
   end
 end
 
+# raise exception for conflicting options
+def option_conflict(o1, o2)
+  raise "cannot set both `#{o1}` and `#{o2}` options"
+end
+
 # return whether or not `defect` has defect bit `bit` set
 def has_defect(bit_, defect_)
   (defect_ >> bit_) & 0x1 == 1
@@ -451,8 +456,10 @@ when 'print'
 when 'charge'
 
   # check for conflicting options
-  raise "cannot set both '--reject' and '--allow' options" if opts[:charge][:reject_defect].length>0 and opts[:charge][:allow_defect].length>0
-  raise "cannot set both '--reject-misc' and '--allow-misc' options" if opts[:charge][:reject_misc].length>0 and opts[:charge][:allow_misc].length>0
+  option_conflict '--reject',      '--allow'      if opts[:charge][:reject_defect].length>0 and opts[:charge][:allow_defect].length>0
+  option_conflict '--reject-misc', '--allow-misc' if opts[:charge][:reject_misc].length>0   and opts[:charge][:allow_misc].length>0
+  option_conflict '--golden',      '--reject'     if opts[:charge][:golden]                 and opts[:charge][:reject_defect].length>0
+  option_conflict '--golden',      '--allow'      if opts[:charge][:golden]                 and opts[:charge][:allow_defect].length>0
 
   # determine which defect bits to reject
   reject_these_defects = []
