@@ -272,7 +272,7 @@ if opts[:verbose] and !opts[:output].nil?
 end
 
 # get defect bits
-DefectDefs = JSON.load_file(File.join QaDir, 'defect_definitions.json')
+DefectDefs = JSON.parse(File.read(File.join QaDir, 'defect_definitions.json'))
 MiscBit    = DefectDefs.find{ |d| d['bit_name'] == 'Misc' }['bit_number']
 
 # get datasets
@@ -352,8 +352,8 @@ unless Command == 'print'
   verb.call "loading QADBs..."
   selected_datasets.each do |dataset_name|
     verb.call "  - #{dataset_name}"
-    mergeTree chargeTree, JSON.load_file(dataset_hash[dataset_name][:chargeTree]), dataset_name
-    mergeTree qaTree,     JSON.load_file(dataset_hash[dataset_name][:qaTree]),     dataset_name
+    mergeTree chargeTree, JSON.parse(File.read dataset_hash[dataset_name][:chargeTree]), dataset_name
+    mergeTree qaTree,     JSON.parse(File.read dataset_hash[dataset_name][:qaTree]),     dataset_name
   end
   verb.call "...done loading QADBs"
 
@@ -426,7 +426,7 @@ when 'print'
     dataset_hash.values.map{ |v| v[:cook] }.uniq.sort.each do |cook|
       print_title "#{cook} cook", '-'
       dataset_hash.select{ |k,v| v[:cook] == cook }.sort{ |a,b| a.first <=> b.first }.each do |dataset_name, dataset|
-        runlist = JSON.load_file(dataset[:qaTree]).keys.map(&:to_i).sort
+        runlist = JSON.parse(File.read dataset[:qaTree]).keys.map(&:to_i).sort
         puts [
           dataset_name.rjust(30),
           cook == 'latest' ? "refers to #{dataset[:refers_to]} cook" : nil,
