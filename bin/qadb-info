@@ -57,6 +57,10 @@ def option_conflict(o1, o2)
   raise "cannot set both `#{o1}` and `#{o2}` options"
 end
 
+def warn(msg)
+  $stderr.puts "WARNING: #{msg}"
+end
+
 # return whether or not `defect` has defect bit `bit` set
 def has_defect(bit_, defect_)
   (defect_ >> bit_) & 0x1 == 1
@@ -279,7 +283,7 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
       opts[:bins] = a
     end
     o.on('-e', '--events LIST', Array, 'list of event numbers to include') do |a|
-      opts[:events] = a
+      opts[:events] = a.map &:to_i
     end
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
@@ -310,7 +314,7 @@ end
 
 # discourage verbose mode when an output mode is selected
 if opts[:verbose] and !opts[:output].nil?
-  $stderr.puts "WARNING: --verbose mode set, but an OUTPUT OPTION is also set; this means your output will include additional verbose printouts"
+  warn "`--verbose` mode set, but an OUTPUT OPTION is also set; this means your output will include additional verbose printouts"
 end
 
 # get defect bits
@@ -370,7 +374,7 @@ unless Command == 'print'
       if dataset_hash.has_key? dataset
         selected_datasets << dataset
       else
-        $stderr.puts "WARNING: dataset `#{dataset}` does not exist"
+        warn "dataset `#{dataset}` does not exist"
       end
     end
   end
@@ -407,12 +411,39 @@ end
 loop_over_runs = Proc.new do |&block|
   selected_runs.each do |runnum|
     unless qaTree.has_key? runnum
-      $stderr.puts "WARNING: run #{runnum} not found in any dataset"
+      warn "run #{runnum} not found in any dataset"
       next
     end
     block.call runnum
   end
 end
+
+# determine list of bins for each run
+selected_bins = Hash.new
+if Command == 'query'
+  unless opts[:bins].empty? and opts[:events].empty?
+    option_conflict '--bins', '--events' if opts[:bins].length>0 and opts[:events].length>0
+    loop_over_runs.call do |runnum|
+      if opts[:bins].length > 0
+        selected_bins[runnum] = opts[:bins]
+      else
+        opts[:events].each do |evnum|
+          found = false
+          qaTree[runnum].each do |binnum, qa_h|
+            if qa_h['evnumMin'] <= evnum and evnum <= qa_h['evnumMax']
+              ( selected_bins[runnum] ||= [] ) << binnum
+              found = true
+              break
+            end
+          end
+          warn "event #{evnum} not found in any bin for run #{runnum}" unless found
+        end
+      end
+    end
+    raise 'no information found for these criteria' if selected_bins.empty?
+  end
+end
+
 
 ##################################################################################
 ##################################################################################
@@ -462,7 +493,7 @@ when 'print'
     end
 
   when 'more'
-    $stderr.puts "WARNING: `--simple` option ignored" if opts[:print][:simple]
+    warn "`--simple` option ignored" if opts[:print][:simple]
     print_title "#{opts[:print][:run_group].nil? ? 'All' : "Run Group #{opts[:print][:run_group].upcase}"} Datasets and Info", '='
     printout = {}
     dataset_hash.values.map{ |v| v[:cook] }.uniq.sort.each do |cook|
