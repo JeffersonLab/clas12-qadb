@@ -109,7 +109,7 @@ COMMANDS
 
     charge     get the Faraday Cup (FC) charge
 
-    misc       explain why the 'Misc' defect bit was assigned
+    misc       explain why the `Misc` defect bit was assigned
 
   For usage guidance of each COMMAND, run with no further options (or with --help)
 
@@ -178,17 +178,17 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
     NOTE: use `#{ExeName} print --defects` for the defect bit numbers;
           see documentation for details
     """
-    o.on('--reject LIST', Array, 'list of defect bit numbers to reject, and allow all others;', 'do not use this together with --allow') do |a|
+    o.on('--reject LIST', Array, 'list of defect bit numbers to reject, and allow all others;', 'do not use this together with `--allow`') do |a|
       opts[:charge][:reject_defect] = a.map &:to_i
     end
-    o.on('--allow LIST',  Array, 'list of defect bit numbers to allow, and reject all others;', 'do not use this together with --reject') do |a|
+    o.on('--allow LIST',  Array, 'list of defect bit numbers to allow, and reject all others;', 'do not use this together with `--reject`') do |a|
       opts[:charge][:allow_defect] = a.map &:to_i
     end
     o.separator ''
-    o.on('--reject-misc LIST', Array, 'list of runs to reject, if they ONLY have the "Misc" defect;', 'do not use this together with --allow-misc') do |a|
+    o.on('--reject-misc LIST', Array, 'list of runs to reject, if they ONLY have the "Misc" defect;', 'do not use this together with `--allow-misc`') do |a|
       opts[:charge][:reject_misc] = a
     end
-    o.on('--allow-misc LIST',  Array, 'list of runs to allow, if they ONLY have the "Misc" defect;', 'do not use this together with --reject-misc') do |a|
+    o.on('--allow-misc LIST',  Array, 'list of runs to allow, if they ONLY have the "Misc" defect;', 'do not use this together with `--reject-misc`') do |a|
       opts[:charge][:allow_misc] = a
     end
     o.on('--golden', 'do not allow any defects (may be too strict for some data)') do |a|
@@ -221,12 +221,12 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
     o.separator 'OUTPUT OPTIONS'
     o.separator '''
     NOTE: unless one of the following options is used, the default output is a table,
-          excluding runs without the \'Misc\' bit
+          excluding runs without the `Misc` bit
     '''
     o.on('--code COMMENT_DELIM',
          'output code, with QADB comments as in-line comments, using',
          'the delimiter COMMENT_DELIM; this is convenient to copy to',
-         'your analysis code and modify; only runs with the \'Misc\'',
+         'your analysis code and modify; only runs with the `Misc`',
          'bit are printed',
          '  example: --code \'#\' for Python',
          '           --code \'//\' for C++',) do |a|
@@ -248,7 +248,7 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
          'for each comment, list the QA bins that have this comment;',
          'only applies to some output formats, such as JSON and YAML;',
          'use this for more fine-grained details, such as when',
-         '\'Misc\' is assigned for multiple reasons') do |a|
+         '`Misc` is assigned for multiple reasons') do |a|
       opts[:misc][:list_bins] = a
     end
     o.separator ''
@@ -263,7 +263,7 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
 # do the parsing
 command_parser.order!(ARGV.empty? ? ['--help'] : ARGV)
 Command = ARGV.shift
-raise "unknown command '#{Command}'; for guidance, run '#{ExeName} --help'" unless subcommand_parser.has_key? Command
+raise "unknown command `#{Command}`; for guidance, run `#{ExeName} --help`" unless subcommand_parser.has_key? Command
 subcommand_parser[Command].order!(ARGV.empty? ? ['--help'] : ARGV)
 
 # verbose printout
@@ -333,7 +333,7 @@ unless Command == 'print'
       if dataset_hash.has_key? dataset
         selected_datasets << dataset
       else
-        $stderr.puts "WARNING: dataset '#{dataset}' does not exist"
+        $stderr.puts "WARNING: dataset `#{dataset}` does not exist"
       end
     end
   end
@@ -349,7 +349,7 @@ unless Command == 'print'
   # merge trees together, but throw an error if duplicate keys (runs) are found
   def mergeTree(a,b,name)
     a.merge!(b) do
-      raise "dataset '#{name}' has run(s) found in another dataset; please make sure all your datasets are unique (e.g., don't pick two cooks for the same data)"
+      raise "dataset `#{name}` has run(s) found in another dataset; please make sure all your datasets are unique (e.g., don't pick two cooks for the same data)"
     end
   end
 
@@ -425,7 +425,7 @@ when 'print'
     end
 
   when 'more'
-    $stderr.puts "WARNING: '--simple' option ignored" if opts[:print][:simple]
+    $stderr.puts "WARNING: `--simple` option ignored" if opts[:print][:simple]
     print_title "#{opts[:print][:run_group].nil? ? 'All' : "Run Group #{opts[:print][:run_group].upcase}"} Datasets and Info", '='
     printout = {}
     dataset_hash.values.map{ |v| v[:cook] }.uniq.sort.each do |cook|
@@ -446,7 +446,7 @@ when 'print'
     end
 
   else
-    raise "nothing to print; run '#{ExeName} print' for guidance"
+    raise "nothing to print; run `#{ExeName} print` for guidance"
   end
 
 
