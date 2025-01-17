@@ -4,6 +4,9 @@ require 'json'
 require 'yaml'
 require 'optparse'
 
+require 'rubygems/text'
+include Gem::Text # for `format_text`
+
 # get software info
 TopDir  = File.realpath(File.join __dir__, '..')
 QaDir   = File.realpath(File.join TopDir, 'qadb')
@@ -130,7 +133,7 @@ MISC OPTIONS"""
         "#{ExeName} print --list",
       ],
       [
-        "list defect bits:",
+        "list defect bits and their descriptions:",
         "#{ExeName} print --defects",
       ],
       [
@@ -527,9 +530,12 @@ when 'print'
   when 'defects'
     DefectDefs.sort{ |a,b| a['bit_number'] <=> b['bit_number'] }.each do |defect_def|
       if opts[:print][:simple]
-        puts defect_def['bit_number']
+        puts "#{defect_def['bit_number'].to_s.ljust 3}  #{defect_def['bit_name']}"
       else
-        puts "#{defect_def['bit_number'].to_s.rjust 5}  #{defect_def['bit_name']}"
+        puts """
+bit:  #{defect_def['bit_number']}     #{defect_def['bit_name']}
+  #{defect_def['description']}
+  #{format_text defect_def['documentation'], 80, 6}"""
       end
     end
 
