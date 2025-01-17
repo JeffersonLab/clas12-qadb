@@ -14,6 +14,7 @@ CLAS12 experiment at Jefferson Lab
     - [QADB Files and Tables](#files)
 1. [How to Access the Faraday Cup Charge](#charge)
 1. [Database Maintenance](#dev)
+1. [QA Ground Rules](#rules)
 1. [Contributions](#contributions)
 
 <a name="use"></a>
@@ -37,7 +38,7 @@ bits to use in the filter.
 >   QADB, explaining _why_ the bit was set
 > - The analyzer must decide whether or not data with the `Misc` defect bit
 >   should be excluded from their analysis
-> - To help with this decision-making,
+> - To help with this decision-making, use the `qadb-info misc` command, or use the
 >   [`Misc` summary tables are found in each dataset's directory](#files),
 >   which provide the comment(s) for each run
 
@@ -55,13 +56,32 @@ source clas12-qadb/environ.sh  # or environ.csh, if using csh
 <a name="info"></a>
 # QA Information
 
-## QA Ground Rules
+## Information from `qadb-info`
 
-> [!IMPORTANT]
-> The following rules are enforced for the QA procedure and the resulting QADB:
-> 1. The QA procedure runs on the data as they are and does not fix any of their problems.
-> 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
-> 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
+The program `qadb-info` may be used to get information about the QADB, including:
+- available data sets
+- defect bits
+- FC charge, filtered by QA defects chosen by the user
+- query the QADB by run number, event number, and/or QA bin number
+
+For usage guidance, just run:
+```bash
+qadb-info
+```
+
+> [!TIP]
+> If `qadb-info` is not found, either:
+> - it's at `./bin/qadb-info`, so type the full path to it
+> - add `bin/` to your `$PATH`, which you can do with
+> ```bash
+> source environ.sh   # for bash, zsh
+> source environ.csh  # for csh, tcsh
+> ```
+<!--`-->
+
+> [!CAUTION]
+> Do not call `qadb-info` in an analysis event loop, since it will run too slowly.
+> Instead, use [the provided software](#software) or operate on the QADB files directly.
 
 <a name="datasets"></a>
 ## Available Data Sets
@@ -89,7 +109,7 @@ The following tables describe the available data sets in the QADB. The columns a
 
 > [!CAUTION]
 > The QADB for older data sets may have some issues, and may even violate the
-> above ground rules. It is **HIGHLY recommended** to
+> [QA ground rules](#rules). It is **HIGHLY recommended** to
 > [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
 
 ### Run Group A
@@ -312,11 +332,19 @@ chargeTree.json ─┬─ run number 1
 
 <a name="charge"></a>
 # How to Access the Faraday Cup Charge
-* the charge is stored in the QADB for each QA bin, so that it is possible to
-  determine the amount of accumulated charge for data that satisfy your
-  specified QA criteria.
-* see [`chargeSum.groovy`](/src/examples/chargeSum.groovy) or [`chargeSum.cpp`](/srcC/examples/chargeSum.cpp)
-  for usage example in an analysis event loop; basically:
+The charge is stored in the QADB for each QA bin, so that it is possible to
+determine the amount of accumulated charge for data that satisfy your specified
+QA criteria. To calculate the charge, you'll need to add up the charge from each
+bin that you include in your analysis. To help, you can either:
+* use the command `qadb-info charge`; use its options to specify:
+  * the dataset and/or list of runs
+  * which defect bits that you want to allow or reject
+  * of the runs which only have the `Misc` bit, choose those that you want to
+    allow or reject
+  * the output format
+* use the software: see [`chargeSum.groovy`](/src/examples/chargeSum.groovy)
+  or [`chargeSum.cpp`](/srcC/examples/chargeSum.cpp) for usage example in an
+  analysis event loop; basically:
   * call `QADB::AccumulateCharge()` within your event loop, after your QA cuts
     are satisfied; the QADB instance will keep track of the accumulated charge
     you analyzed (accumulation performed per QA bin)
@@ -363,6 +391,14 @@ Documentation for QADB maintenance and revision
     * `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate
       Markdown table for `README.md`
 
+<a name="rules"></a>
+# QA Ground Rules
+
+> [!IMPORTANT]
+> The following rules are enforced for the QA procedure and the resulting QADB:
+> 1. The QA procedure runs on the data as they are and does not fix any of their problems.
+> 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
+> 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
 
 <a name="contributions"></a>
 # Contributions
