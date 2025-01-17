@@ -14,6 +14,7 @@ CLAS12 experiment at Jefferson Lab
     - [QADB Files and Tables](#files)
 1. [How to Access the Faraday Cup Charge](#charge)
 1. [Database Maintenance](#dev)
+1. [QA Ground Rules](#rules)
 1. [Contributions](#contributions)
 
 <a name="use"></a>
@@ -54,14 +55,6 @@ source clas12-qadb/environ.sh  # or environ.csh, if using csh
 
 <a name="info"></a>
 # QA Information
-
-## QA Ground Rules
-
-> [!IMPORTANT]
-> The following rules are enforced for the QA procedure and the resulting QADB:
-> 1. The QA procedure runs on the data as they are and does not fix any of their problems.
-> 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
-> 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
 
 ## Information from `qadb-info`
 
@@ -112,7 +105,7 @@ The following tables describe the available data sets in the QADB. The columns a
 
 > [!CAUTION]
 > The QADB for older data sets may have some issues, and may even violate the
-> above ground rules. It is **HIGHLY recommended** to
+> [QA ground rules](#rules). It is **HIGHLY recommended** to
 > [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
 
 ### Run Group A
@@ -386,6 +379,14 @@ Documentation for QADB maintenance and revision
     * `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate
       Markdown table for `README.md`
 
+<a name="rules"></a>
+# QA Ground Rules
+
+> [!IMPORTANT]
+> The following rules are enforced for the QA procedure and the resulting QADB:
+> 1. The QA procedure runs on the data as they are and does not fix any of their problems.
+> 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
+> 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
 
 <a name="contributions"></a>
 # Contributions
