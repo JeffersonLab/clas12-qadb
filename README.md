@@ -332,11 +332,19 @@ chargeTree.json ─┬─ run number 1
 
 <a name="charge"></a>
 # How to Access the Faraday Cup Charge
-* the charge is stored in the QADB for each QA bin, so that it is possible to
-  determine the amount of accumulated charge for data that satisfy your
-  specified QA criteria.
-* see [`chargeSum.groovy`](/src/examples/chargeSum.groovy) or [`chargeSum.cpp`](/srcC/examples/chargeSum.cpp)
-  for usage example in an analysis event loop; basically:
+The charge is stored in the QADB for each QA bin, so that it is possible to
+determine the amount of accumulated charge for data that satisfy your specified
+QA criteria. To calculate the charge, you'll need to add up the charge from each
+bin that you include in your analysis. To help, you can either:
+* use the command `qadb-info charge`; use its options to specify:
+  * the dataset and/or list of runs
+  * which defect bits that you want to allow or reject
+  * of the runs which only have the `Misc` bit, choose those that you want to
+    allow or reject
+  * the output format
+* use the software: see [`chargeSum.groovy`](/src/examples/chargeSum.groovy)
+  or [`chargeSum.cpp`](/srcC/examples/chargeSum.cpp) for usage example in an
+  analysis event loop; basically:
   * call `QADB::AccumulateCharge()` within your event loop, after your QA cuts
     are satisfied; the QADB instance will keep track of the accumulated charge
     you analyzed (accumulation performed per QA bin)
