@@ -69,7 +69,7 @@ For usage guidance, just run:
 qadb-info
 ```
 
-> [!NOTE]
+> [!TIP]
 > If `qadb-info` is not found, either:
 > - it's at `./bin/qadb-info`, so type the full path to it
 > - add `bin/` to your `$PATH`, which you can do with
@@ -78,6 +78,10 @@ qadb-info
 > source environ.csh  # for csh, tcsh
 > ```
 <!--`-->
+
+> [!CAUTION]
+> Do not call `qadb-info` in an analysis event loop, since it will run too slowly.
+> Instead, use [the provided software](#software) or operate on the QADB files directly.
 
 <a name="datasets"></a>
 ## Available Data Sets
