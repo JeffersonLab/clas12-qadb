@@ -37,7 +37,9 @@ bits to use in the filter.
 >   QADB, explaining _why_ the bit was set
 > - The analyzer must decide whether or not data with the `Misc` defect bit
 >   should be excluded from their analysis
-> - To help with this decision-making, use `qadb-info misc`
+> - To help with this decision-making, use the `qadb-info misc` command, or use the
+>   [`Misc` summary tables are found in each dataset's directory](#files),
+>   which provide the comment(s) for each run
 
 <a name="info"></a>
 # QA Information
@@ -50,15 +52,31 @@ bits to use in the filter.
 > 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
 > 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
 
-<a name="datasets"></a>
-## Available Data Sets
+## Information from `qadb-info`
 
-For a list of all the available datasets by name, run
+The program `qadb-info` may be used to get information about the QADB, including:
+- available data sets
+- defect bits
+- FC charge, filtered by QA defects chosen by the user
+- query the QADB by run number, event number, and/or QA bin number
+
+For usage guidance, just run:
 ```bash
 qadb-info
 ```
-If it's not in your path, run `bin/qadb-info` or `$QADB/bin/qadb-info`.
 
+> [!NOTE]
+> If `qadb-info` is not found, either:
+> - it's at `./bin/qadb-info`, so type the full path to it
+> - add `bin/` to your `$PATH`, which you can do with
+> ```bash
+> source environ.sh   # for bash, zsh
+> source environ.csh  # for csh, tcsh
+> ```
+<!--`-->
+
+<a name="datasets"></a>
+## Available Data Sets
 The following tables describe the available data sets in the QADB. The columns are:
 - **Pass**: the Pass number of the data set (higher is newer)
 - **Data Set Name**: a unique name for the data-taking period; click it to see the corresponding QA timelines
