@@ -119,9 +119,42 @@ COMMANDS
 
     query      access data from the QADB
 
-  For usage guidance of each COMMAND, run with no further options (or with --help)
+  For usage guidance of each COMMAND, run with no further options (or with --help);
+  see also examples by running `#{ExeName} --examples`
 
 MISC OPTIONS"""
+  o.on('-e', '--examples', 'show some examples') do
+    [
+      [
+        "list all datasets:",
+        "#{ExeName} print --list",
+      ],
+      [
+        "list defect bits:",
+        "#{ExeName} print --defects",
+      ],
+      [
+        "calculate run-by-run FC charge for RG-A Spring 2019, allowing only a",
+        "couple defect bits, `LowLiveTime` and `BSAWrong`:",
+        "#{ExeName} charge --datasets rga_sp19 --allow 4,10",
+      ],
+      [
+        "print some Python code for a list of runs which have the `Misc`",
+        "defect, with comments taken from the QADB comments:",
+        "#{ExeName} misc --datasets rgb_fa19 --code '#'",
+      ],
+    ].each do |example|
+      example.each_with_index do |line, i|
+        if i+1 < example.length
+          puts line
+        else
+          puts "$  #{line}"
+        end
+      end
+      puts ''
+    end
+    exit
+  end
   o.on('-v', '--version', 'print the QADB version number') do
     ver = `cd #{TopDir} && git describe --tags --abbrev=0`
     if $?.success?
