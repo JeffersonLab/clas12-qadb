@@ -33,7 +33,7 @@
     "bit_number": 5,
     "bit_name": "Misc",
     "description": "Miscellaneous defect, documented as comment",
-    "documentation": "This bit is often assigned to all QA bins within a run, but in some cases, may only be assigned to the relevant QA bins. The analyzer must decide whether data assigned with the `Misc` bit should be excluded from their analysis; the comment is provided for this purpose. Analyzers are also encouraged to check the Hall B log book for further details."
+    "documentation": "This bit is often assigned to all QA bins within a run, but in some cases, may only be assigned to the relevant QA bins. The analyzer must decide whether data assigned with the `Misc` bit should be excluded from their analysis; the comment is provided for this purpose. Analyzers are also encouraged to check the Hall B log book for further details. Note that special runs, such as empty target or low luminosity runs, also typically have this bit set; for such runs, the other defect bits may be meaningless, namely the outlier bits."
   },
   {
     "bit_number": 6,

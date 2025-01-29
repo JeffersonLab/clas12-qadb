@@ -14,6 +14,7 @@ CLAS12 experiment at Jefferson Lab
     - [QADB Files and Tables](#files)
 1. [How to Access the Faraday Cup Charge](#charge)
 1. [Database Maintenance](#dev)
+1. [QA Ground Rules](#rules)
 1. [Contributions](#contributions)
 
 <a name="use"></a>
@@ -37,20 +38,50 @@ bits to use in the filter.
 >   QADB, explaining _why_ the bit was set
 > - The analyzer must decide whether or not data with the `Misc` defect bit
 >   should be excluded from their analysis
-> - To help with this decision-making,
+> - To help with this decision-making, use the `qadb-info misc` command, or use the
 >   [`Misc` summary tables are found in each dataset's directory](#files),
 >   which provide the comment(s) for each run
+
+The QADB is available on `ifarm` as the `qadb` module:
+```bash
+module avail qadb
+# then 'module load' the one you want
+```
+Alternatively, you may download and use this repository locally:
+```bash
+git clone --recurse-submodules https://github.com/JeffersonLab/clas12-qadb.git
+source clas12-qadb/environ.sh  # or environ.csh, if using csh
+```
 
 <a name="info"></a>
 # QA Information
 
-## QA Ground Rules
+## Information from `qadb-info`
 
-> [!IMPORTANT]
-> The following rules are enforced for the QA procedure and the resulting QADB:
-> 1. The QA procedure runs on the data as they are and does not fix any of their problems.
-> 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
-> 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
+The program `qadb-info` may be used to get information about the QADB, including:
+- available data sets
+- defect bits
+- FC charge, filtered by QA defects chosen by the user
+- query the QADB by run number, event number, and/or QA bin number
+
+For usage guidance, just run:
+```bash
+qadb-info
+```
+
+> [!TIP]
+> If `qadb-info` is not found, either:
+> - it's at `./bin/qadb-info`, so type the full path to it
+> - add `bin/` to your `$PATH`, which you can do with
+> ```bash
+> source environ.sh   # for bash, zsh
+> source environ.csh  # for csh, tcsh
+> ```
+<!--`-->
+
+> [!CAUTION]
+> Do not call `qadb-info` in an analysis event loop, since it will run too slowly.
+> Instead, use [the provided software](#software) or operate on the QADB files directly.
 
 <a name="datasets"></a>
 ## Available Data Sets
@@ -67,21 +98,30 @@ The following tables describe the available data sets in the QADB. The columns a
 - **Data Directory**: the input data used for the QA; this is the top level directory, where trains (skim files) and full DSTs are stored
 - **Data Files**: the specific files (_e.g._ train) used for the QA
 
+> [!NOTE]
+> The tables below are for the _latest_ version of this repository, which may not be in a tagged version yet. If you
+> are on `ifarm`, the latest QADB version is found as the `qadb/dev` module, and you may switch to it via:
+> ```bash
+> module switch qadb/dev
+> ```
+> You may also check currently loaded version of this `README` file on `ifarm`, which is found at `$QADB/README.md`.
+<!--`-->
+
 > [!CAUTION]
 > The QADB for older data sets may have some issues, and may even violate the
-> above ground rules. It is **HIGHLY recommended** to
+> [QA ground rules](#rules). It is **HIGHLY recommended** to
 > [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
 
 ### Run Group A
 
-| Pass | Data Set Name and Timelines Link                                                           | Run Range   | Status       | Data Files                                                                  |
-| ---  | ---                                                                                        | ---         | ---          | ---                                                                         |
-| 2    | `rga_fa18_inbending`                                                                       | 5032 - 5419 | _TO DO_      |                                                                             |
-| 2    | `rga_fa18_outbending`                                                                      | 5422 - 5666 | _TO DO_      |                                                                             |
-| 2    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary)       | 6616 - 6783 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst/recon`    |
-| 1    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary)   | 5032 - 5419 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1/v0/dst/recon`   |
-| 1    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary) | 5422 - 5666 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1/v0/dst/recon`   |
-| 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                       | 6616 - 6783 | _Deprecated_ | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1/v0/dst/recon` |
+| Pass | Data Set Name and Timelines Link                                                                            | Run Range   | Status       | Data Directory                                                     | Data Files     |
+| ---  | ---                                                                                                         | ---         | ---          | ---                                                                | ---            |
+| 2    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/)   | 5032 - 5419 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main`  | `nSidis` train |
+| 2    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/) | 5422 - 5666 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`       | `nSidis` train |
+| 2    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary)                        | 6616 - 6783 | _Up-to-Date_ | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst` | `nSidis` train |
+| 1    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary)                    | 5032 - 5419 | _Deprecated_ | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`       | full DST files |
+| 1    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary)                  | 5422 - 5666 | _Deprecated_ | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`       | full DST files |
+| 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                                        | 6616 - 6783 | _Deprecated_ | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`     | full DST files |
 
 ### Run Group B
 
@@ -141,19 +181,19 @@ The following tables describe the available data sets in the QADB. The columns a
 
 ### Table of Defect Bits
 
-
+<!-- THE TABLE BELOW WAS GENERATED BY bin/makeDefectMarkdown.rb -->
 | Bit | Name | Description | Additional Notes |
 | --- | --- | --- | --- |
 | 0 | `TotalOutlier` | Outlier FD electron N/F, but not `TerminalOutlier` or `MarginalOutlier` |  |
 | 1 | `TerminalOutlier` | Outlier FD electron N/F of first or last QA bin of run |  |
 | 2 | `MarginalOutlier` | Marginal FD electron outlier N/F, within one standard deviation of cut line |  |
-| 3 | `SectorLoss` | FD electron N/F diminished for several consecutive QA bins | For older datasets (RG-A,B,K,M pass 1), this bit _replaced_ the assignment of `TotalOutlier`, `TerminalOutlier`, and `MarginalOutlier`; newer datasets only add the `SectorLoss` bit and do not remove the outlier bits. |
+| 3 | `SectorLoss`<sup>1</sup> | FD electron N/F diminished for several consecutive QA bins | For older datasets (RG-A,B,K,M pass 1), this bit _replaced_ the assignment of `TotalOutlier`, `TerminalOutlier`, and `MarginalOutlier`; newer datasets only add the `SectorLoss` bit and do not remove the outlier bits. |
 | 4 | `LowLiveTime` | Live time < 0.9 | This assignment of this bit may be correlated with a low fraction of events with a defined (nonzero) helicity. |
-| 5 | `Misc` | Miscellaneous defect, documented as comment | This bit is often assigned to all QA bins within a run, but in some cases, may only be assigned to the relevant QA bins. The analyzer must decide whether data assigned with the `Misc` bit should be excluded from their analysis; the comment is provided for this purpose. Analyzers are also encouraged to check the Hall B log book for further details. |
+| 5 | `Misc` | Miscellaneous defect, documented as comment | This bit is often assigned to all QA bins within a run, but in some cases, may only be assigned to the relevant QA bins. The analyzer must decide whether data assigned with the `Misc` bit should be excluded from their analysis; the comment is provided for this purpose. Analyzers are also encouraged to check the Hall B log book for further details. Note that special runs, such as empty target or low luminosity runs, also typically have this bit set; for such runs, the other defect bits may be meaningless, namely the outlier bits. |
 | 6 | `TotalOutlierFT` | Outlier FT electron N/F, but not `TerminalOutlierFT` or `MarginalOutlierFT` | _cf_. `TotalOutlier`. |
 | 7 | `TerminalOutlierFT` | Outlier FT electron N/F of first or last QA bin of run | _cf_. `TerminalOutlier`. |
 | 8 | `MarginalOutlierFT` | Marginal FT electron outlier N/F, within one standard deviation of cut line | _cf_. `MarginalOutlier`. |
-| 9 | `LossFT` | FT electron N/F diminished for several consecutive QA bins | _cf_. `SectorLoss`. |
+| 9 | `LossFT`<sup>1</sup> | FT electron N/F diminished for several consecutive QA bins | _cf_. `SectorLoss`. |
 | 10 | `BSAWrong` | Beam Spin Asymmetry is the wrong sign | This bit is assigned per run. The asymmetry is significant, but the sign is opposite than expected; analyzers must therefore _flip_ the helicity sign. |
 | 11 | `BSAUnknown` | Beam Spin Asymmetry is unknown, likely because of low statistics | This bit is assigned per run. There are not enough data to determine if the helicity sign is correct for this run. |
 | 12 | `TSAWrong` | Target Spin Asymmetry is the wrong sign | __Not yet used.__ |
@@ -164,7 +204,9 @@ The following tables describe the available data sets in the QADB. The columns a
 | 17 | `ChargeNegative` | FC Charge is negative | The FC charge is calculated from the charge readout at QA bin boundaries. Normally the later charge readout is higher than the earlier; this bit is assigned when the opposite happens. |
 | 18 | `ChargeUnknown` | FC Charge is unknown; the first and last time bins _always_ have this defect | QA bin boundaries are at scaler charge readouts. The first QA bin, before any readout, has no initial charge; the last QA bin, after all scaler readouts, has no final charge. Therefore, the first and last QA bins have an unknown, but likely _very small_ charge accumulation. |
 | 19 | `PossiblyNoBeam` | Both N and F are low, indicating the beam was possibly off | NOTE: the assignment criteria of this bit are still under study. |
-<!-- NOTE: do not update this table manually; instead, use `util/makeDefectMarkdown.rb` -->
+
+> 1. this bit may not be reliably defined in later datasets; use the other outlier bits instead
+<!-- THE TABLE ABOVE WAS GENERATED BY bin/makeDefectMarkdown.rb -->
 
 <a name="access"></a>
 # How to Access the QADB
@@ -290,11 +332,19 @@ chargeTree.json ─┬─ run number 1
 
 <a name="charge"></a>
 # How to Access the Faraday Cup Charge
-* the charge is stored in the QADB for each QA bin, so that it is possible to
-  determine the amount of accumulated charge for data that satisfy your
-  specified QA criteria.
-* see [`chargeSum.groovy`](/src/examples/chargeSum.groovy) or [`chargeSum.cpp`](/srcC/examples/chargeSum.cpp)
-  for usage example in an analysis event loop; basically:
+The charge is stored in the QADB for each QA bin, so that it is possible to
+determine the amount of accumulated charge for data that satisfy your specified
+QA criteria. To calculate the charge, you'll need to add up the charge from each
+bin that you include in your analysis. To help, you can either:
+* use the command `qadb-info charge`; use its options to specify:
+  * the dataset and/or list of runs
+  * which defect bits that you want to allow or reject
+  * of the runs which only have the `Misc` bit, choose those that you want to
+    allow or reject
+  * the output format
+* use the software: see [`chargeSum.groovy`](/src/examples/chargeSum.groovy)
+  or [`chargeSum.cpp`](/srcC/examples/chargeSum.cpp) for usage example in an
+  analysis event loop; basically:
   * call `QADB::AccumulateCharge()` within your event loop, after your QA cuts
     are satisfied; the QADB instance will keep track of the accumulated charge
     you analyzed (accumulation performed per QA bin)
@@ -341,6 +391,14 @@ Documentation for QADB maintenance and revision
     * `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate
       Markdown table for `README.md`
 
+<a name="rules"></a>
+# QA Ground Rules
+
+> [!IMPORTANT]
+> The following rules are enforced for the QA procedure and the resulting QADB:
+> 1. The QA procedure runs on the data as they are and does not fix any of their problems.
+> 2. The QADB only provides defect identification and does not provide analysis-specific decisions.
+> 3. At least two people independently perform the "manual QA" part of the QA procedure, and the results are cross checked and merged.
 
 <a name="contributions"></a>
 # Contributions
