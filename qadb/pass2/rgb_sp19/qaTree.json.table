@@ -4708,115 +4708,115 @@ RUN: 6260
 6260 72  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6262
-6262 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: high current run, 150 nA
-6262 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: high current run, 150 nA
-6262 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: high current run, 150 nA
-6262 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: high current run, 150 nA
-6262 4  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: high current run, 150 nA
+6262 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: empty target run
+6262 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: empty target run
+6262 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: empty target run
+6262 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: empty target run
+6262 4  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: empty target run
 
 RUN: 6263
-6263 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: high current run, 150 nA
-6263 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 4  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 6  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 7  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 8  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 9  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 11  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 12  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 13  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 14  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 19  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 21  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 22  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 23  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 24  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 26  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 27  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 28  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 34  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 36  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 37  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 38  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 39  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 41  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 42  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 43  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 44  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 46  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 47  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 48  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 49  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 51  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 52  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 53  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 54  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 56  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 57  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 58  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 59  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 61  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 62  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 63  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 64  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 66  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 67  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 68  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 69  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 71  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 72  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 73  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 74  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 76  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 77  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 78  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 79  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 81  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 82  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 83  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 84  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 86  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 87  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 88  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 89  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 90  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 91  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 92  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 93  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 94  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 95  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 96  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: high current run, 150 nA
-6263 97  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  16-ChargeHigh[all]  :: high current run, 150 nA
-6263 98  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: high current run, 150 nA
-6263 99  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: high current run, 150 nA
-6263 100  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: high current run, 150 nA
-6263 101  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: high current run, 150 nA
+6263 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: empty target run
+6263 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 4  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 5  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 6  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 7  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 8  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 9  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 10  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 11  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 12  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 13  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 14  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 15  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 16  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 19  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 20  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 21  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 22  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 23  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 24  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 25  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 26  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 27  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 28  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 34  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 35  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 36  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 37  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 38  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 39  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 40  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 41  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 42  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 43  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 44  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 45  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 46  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 47  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 48  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 49  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 50  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 51  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 52  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 53  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 54  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 55  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 56  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 57  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 58  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 59  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 60  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 61  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 62  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 63  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 64  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 65  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 66  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 67  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 68  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 69  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 70  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 71  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 72  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 73  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 74  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 76  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 77  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 78  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 79  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 81  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 82  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 83  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 84  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 86  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 87  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 88  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 89  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 90  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 91  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 92  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 93  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 94  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 95  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 96  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: empty target run
+6263 97  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  16-ChargeHigh[all]  :: empty target run
+6263 98  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: empty target run
+6263 99  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: empty target run
+6263 100  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: empty target run
+6263 101  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: empty target run
 
 RUN: 6265
 6265 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: band harp wire run
@@ -4876,13 +4876,13 @@ RUN: 6286
 6286 28  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6287
-6287 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: mmft1 ROC issue
-6287 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC issue
-6287 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC issue
-6287 3  0-TotalOutlier[1, 2, 3, 4, 5]  2-MarginalOutlier[6]  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  :: mmft1 ROC issue
-6287 4  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  8-MarginalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC issue
-6287 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  19-PossiblyNoBeam[all]  :: mmft1 ROC issue
-6287 6  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: mmft1 ROC issue
+6287 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: mmft1 ROC issue; no helicity info
+6287 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC issue; no helicity info
+6287 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC issue; no helicity info
+6287 3  0-TotalOutlier[1, 2, 3, 4, 5]  2-MarginalOutlier[6]  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  :: mmft1 ROC issue; no helicity info
+6287 4  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  8-MarginalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC issue; no helicity info
+6287 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  19-PossiblyNoBeam[all]  :: mmft1 ROC issue; no helicity info
+6287 6  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: mmft1 ROC issue; no helicity info
 
 RUN: 6288
 6288 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -14477,52 +14477,52 @@ RUN: 6386
 6386 12  10-BSAWrong[all]
 6386 13  10-BSAWrong[all]
 6386 14  10-BSAWrong[all]
-6386 15  10-BSAWrong[all]
-6386 16  10-BSAWrong[all]
-6386 17  10-BSAWrong[all]
-6386 18  10-BSAWrong[all]
-6386 19  10-BSAWrong[all]
-6386 20  10-BSAWrong[all]
-6386 21  10-BSAWrong[all]
-6386 22  10-BSAWrong[all]
-6386 23  10-BSAWrong[all]
-6386 24  10-BSAWrong[all]
-6386 25  10-BSAWrong[all]
-6386 26  10-BSAWrong[all]
-6386 27  10-BSAWrong[all]
-6386 28  10-BSAWrong[all]
-6386 29  2-MarginalOutlier[2, 4, 6]  10-BSAWrong[all]
-6386 30  2-MarginalOutlier[3, 4, 6]  10-BSAWrong[all]
-6386 31  10-BSAWrong[all]
-6386 32  10-BSAWrong[all]
-6386 33  10-BSAWrong[all]
-6386 34  10-BSAWrong[all]
-6386 35  10-BSAWrong[all]
-6386 36  10-BSAWrong[all]
-6386 37  10-BSAWrong[all]
-6386 38  10-BSAWrong[all]
-6386 39  10-BSAWrong[all]
-6386 40  10-BSAWrong[all]
-6386 41  10-BSAWrong[all]
-6386 42  10-BSAWrong[all]
-6386 43  10-BSAWrong[all]
-6386 44  10-BSAWrong[all]
-6386 45  10-BSAWrong[all]
-6386 46  10-BSAWrong[all]
-6386 47  10-BSAWrong[all]
-6386 48  10-BSAWrong[all]
-6386 49  10-BSAWrong[all]
-6386 50  10-BSAWrong[all]
-6386 51  10-BSAWrong[all]
-6386 52  10-BSAWrong[all]
-6386 53  10-BSAWrong[all]
-6386 54  10-BSAWrong[all]
-6386 55  10-BSAWrong[all]
-6386 56  10-BSAWrong[all]
-6386 57  10-BSAWrong[all]
-6386 58  10-BSAWrong[all]
-6386 59  10-BSAWrong[all]
-6386 60  10-BSAWrong[all]
+6386 15  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 16  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 17  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 18  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 19  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 20  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 21  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 22  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 23  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 24  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 25  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 26  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 27  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 28  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 29  2-MarginalOutlier[2, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 30  2-MarginalOutlier[3, 4, 6]  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 31  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 32  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 33  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 34  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 35  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 36  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 37  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 38  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 39  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 40  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 41  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 42  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 43  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 44  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 45  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 46  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 47  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 48  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 49  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 50  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 51  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 52  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 53  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 54  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 55  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 56  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 57  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 58  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 59  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
+6386 60  5-Misc[all]  10-BSAWrong[all]  :: no helicity info for QA bins 15 to 60
 6386 61  10-BSAWrong[all]
 6386 62  10-BSAWrong[all]
 6386 63  10-BSAWrong[all]
@@ -27745,106 +27745,106 @@ RUN: 6548
 6548 28  10-BSAWrong[all]
 6548 29  10-BSAWrong[all]
 6548 30  10-BSAWrong[all]
-6548 31  10-BSAWrong[all]
-6548 32  10-BSAWrong[all]
-6548 33  10-BSAWrong[all]
-6548 34  10-BSAWrong[all]
-6548 35  10-BSAWrong[all]
-6548 36  10-BSAWrong[all]
-6548 37  10-BSAWrong[all]
-6548 38  10-BSAWrong[all]
-6548 39  10-BSAWrong[all]
-6548 40  10-BSAWrong[all]
-6548 41  10-BSAWrong[all]
-6548 42  10-BSAWrong[all]
-6548 43  10-BSAWrong[all]
-6548 44  10-BSAWrong[all]
-6548 45  10-BSAWrong[all]
-6548 46  10-BSAWrong[all]
-6548 47  10-BSAWrong[all]
-6548 48  10-BSAWrong[all]
-6548 49  10-BSAWrong[all]
-6548 50  10-BSAWrong[all]
-6548 51  10-BSAWrong[all]
-6548 52  10-BSAWrong[all]
-6548 53  10-BSAWrong[all]
-6548 54  10-BSAWrong[all]
-6548 55  10-BSAWrong[all]
-6548 56  10-BSAWrong[all]
-6548 57  10-BSAWrong[all]
-6548 58  10-BSAWrong[all]
-6548 59  10-BSAWrong[all]
-6548 60  10-BSAWrong[all]
-6548 61  10-BSAWrong[all]
-6548 62  10-BSAWrong[all]
-6548 63  10-BSAWrong[all]
-6548 64  10-BSAWrong[all]
-6548 65  10-BSAWrong[all]
-6548 66  10-BSAWrong[all]
-6548 67  10-BSAWrong[all]
-6548 68  10-BSAWrong[all]
-6548 69  10-BSAWrong[all]
-6548 70  10-BSAWrong[all]
-6548 71  10-BSAWrong[all]
-6548 72  10-BSAWrong[all]
-6548 73  10-BSAWrong[all]
-6548 74  10-BSAWrong[all]
-6548 75  10-BSAWrong[all]
-6548 76  10-BSAWrong[all]
-6548 77  10-BSAWrong[all]
-6548 78  10-BSAWrong[all]
-6548 79  10-BSAWrong[all]
-6548 80  10-BSAWrong[all]
-6548 81  10-BSAWrong[all]
-6548 82  10-BSAWrong[all]
-6548 83  10-BSAWrong[all]
-6548 84  10-BSAWrong[all]
-6548 85  10-BSAWrong[all]
-6548 86  10-BSAWrong[all]
-6548 87  10-BSAWrong[all]
-6548 88  10-BSAWrong[all]
-6548 89  10-BSAWrong[all]
-6548 90  10-BSAWrong[all]
-6548 91  10-BSAWrong[all]
-6548 92  10-BSAWrong[all]
-6548 93  10-BSAWrong[all]
-6548 94  10-BSAWrong[all]
-6548 95  10-BSAWrong[all]
-6548 96  10-BSAWrong[all]
-6548 97  10-BSAWrong[all]
-6548 98  10-BSAWrong[all]
-6548 99  10-BSAWrong[all]
-6548 100  10-BSAWrong[all]
-6548 101  0-TotalOutlier[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-6548 102  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6548 103  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
-6548 104  10-BSAWrong[all]
-6548 105  10-BSAWrong[all]
-6548 106  10-BSAWrong[all]
-6548 107  10-BSAWrong[all]
-6548 108  10-BSAWrong[all]
-6548 109  10-BSAWrong[all]
-6548 110  10-BSAWrong[all]
-6548 111  10-BSAWrong[all]
-6548 112  10-BSAWrong[all]
-6548 113  10-BSAWrong[all]
-6548 114  10-BSAWrong[all]
-6548 115  10-BSAWrong[all]
-6548 116  10-BSAWrong[all]
-6548 117  10-BSAWrong[all]
-6548 118  10-BSAWrong[all]
-6548 119  10-BSAWrong[all]
-6548 120  10-BSAWrong[all]
-6548 121  10-BSAWrong[all]
-6548 122  10-BSAWrong[all]
-6548 123  10-BSAWrong[all]
-6548 124  10-BSAWrong[all]
-6548 125  10-BSAWrong[all]
-6548 126  10-BSAWrong[all]
-6548 127  10-BSAWrong[all]
-6548 128  10-BSAWrong[all]
-6548 129  10-BSAWrong[all]
-6548 130  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6548 31  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 32  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 33  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 34  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 35  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 36  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 37  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 38  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 39  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 40  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 41  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 42  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 43  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 44  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 45  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 46  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 47  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 48  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 49  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 50  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 51  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 52  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 53  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 54  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 55  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 56  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 57  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 58  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 59  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 60  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 61  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 62  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 63  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 64  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 65  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 66  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 67  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 68  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 69  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 70  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 71  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 72  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 73  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 74  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 75  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 76  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 77  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 78  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 79  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 80  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 81  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 82  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 83  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 84  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 85  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 86  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 87  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 88  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 89  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 90  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 91  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 92  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 93  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 94  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 95  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 96  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 97  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 98  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 99  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 100  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 101  0-TotalOutlier[all]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 102  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 103  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 104  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 105  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 106  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 107  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 108  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 109  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 110  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 111  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 112  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 113  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 114  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 115  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 116  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 117  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 118  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 119  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 120  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 121  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 122  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 123  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 124  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 125  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 126  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 127  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 128  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 129  5-Misc[all]  10-BSAWrong[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
+6548 130  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: many QA bins have low fraction of events with helicity info, starting from QA bin 31
 
 RUN: 6549
 6549 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -28110,11 +28110,11 @@ RUN: 6550
 6550 128  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6551
-6551 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: mmft1 ROC busy
-6551 1  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC busy
-6551 2  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  :: mmft1 ROC busy
-6551 3  2-MarginalOutlier[2, 6]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC busy
-6551 4  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: mmft1 ROC busy
+6551 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: mmft1 ROC busy; no helicity info
+6551 1  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC busy; no helicity info
+6551 2  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  :: mmft1 ROC busy; no helicity info
+6551 3  2-MarginalOutlier[2, 6]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  11-BSAUnknown[all]  :: mmft1 ROC busy; no helicity info
+6551 4  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: mmft1 ROC busy; no helicity info
 
 RUN: 6557
 6557 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]

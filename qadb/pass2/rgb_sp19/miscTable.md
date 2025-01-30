@@ -76,13 +76,13 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6258       | no    |  |
 | 6259       | no    |  |
 | 6260       | no    |  |
-| 6262       | yes   | <pre>high current run, 150 nA</pre> |
-| 6263       | yes   | <pre>high current run, 150 nA</pre> |
+| 6262       | yes   | <pre>empty target run</pre> |
+| 6263       | yes   | <pre>empty target run</pre> |
 | 6265       | yes   | <pre>band harp wire run</pre> |
 | 6266       | no    |  |
 | 6285       | no    |  |
 | 6286       | no    |  |
-| 6287       | yes   | <pre>mmft1 ROC issue</pre> |
+| 6287       | yes   | <pre>mmft1 ROC issue; no helicity info</pre> |
 | 6288       | no    |  |
 | 6289       | no    |  |
 | 6296       | no    |  |
@@ -147,7 +147,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6383       | no    |  |
 | 6384       | no    |  |
 | 6385       | no    |  |
-| 6386       | no    |  |
+| 6386       | yes   | <pre>no helicity info for QA bins 15 to 60</pre> |
 | 6389       | yes   | <pre>empty target run</pre> |
 | 6396       | yes   | <pre>no MVT1</pre> |
 | 6399       | no    |  |
@@ -224,10 +224,10 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6525       | no    |  |
 | 6546       | no    |  |
 | 6547       | no    |  |
-| 6548       | no    |  |
+| 6548       | yes   | <pre>many QA bins have low fraction of events with helicity info, starting from QA bin 31</pre> |
 | 6549       | no    |  |
 | 6550       | no    |  |
-| 6551       | yes   | <pre>mmft1 ROC busy</pre> |
+| 6551       | yes   | <pre>mmft1 ROC busy; no helicity info</pre> |
 | 6557       | no    |  |
 | 6558       | no    |  |
 | 6559       | no    |  |
