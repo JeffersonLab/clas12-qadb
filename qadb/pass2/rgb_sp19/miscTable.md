@@ -15,7 +15,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 6156       | no    |  |
+| 6156       | yes   | <pre>FTH and FTT HV off</pre> |
 | 6157       | no    |  |
 | 6164       | no    |  |
 | 6167       | no    |  |
@@ -29,13 +29,13 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6194       | no    |  |
 | 6197       | no    |  |
 | 6198       | no    |  |
-| 6199       | no    |  |
+| 6199       | yes   | <pre>production run - short - lot of beam trips</pre> |
 | 6200       | no    |  |
 | 6201       | no    |  |
 | 6202       | no    |  |
 | 6204       | no    |  |
 | 6206       | no    |  |
-| 6208       | no    |  |
+| 6208       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6209       | no    |  |
 | 6210       | no    |  |
 | 6214       | no    |  |
@@ -45,12 +45,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6219       | no    |  |
 | 6220       | no    |  |
 | 6221       | no    |  |
-| 6222       | no    |  |
+| 6222       | yes   | <pre>production. Lots of beam trips and MVT channel trips.</pre> |
 | 6223       | no    |  |
 | 6224       | no    |  |
 | 6225       | no    |  |
-| 6226       | no    |  |
-| 6227       | no    |  |
+| 6226       | yes   | <pre>low lumi run, 5 nA</pre> |
+| 6227       | yes   | <pre>low lumi run, 15 nA</pre> |
 | 6233       | no    |  |
 | 6235       | no    |  |
 | 6236       | no    |  |
@@ -69,24 +69,24 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6251       | no    |  |
 | 6252       | no    |  |
 | 6253       | no    |  |
-| 6254       | no    |  |
+| 6254       | yes   | <pre>radiation monitor tripped in the Hall truck ramp</pre> |
 | 6255       | no    |  |
 | 6256       | no    |  |
 | 6257       | no    |  |
 | 6258       | no    |  |
 | 6259       | no    |  |
 | 6260       | no    |  |
-| 6262       | no    |  |
-| 6263       | no    |  |
-| 6265       | no    |  |
+| 6262       | yes   | <pre>high current run, 150 nA</pre> |
+| 6263       | yes   | <pre>high current run, 150 nA</pre> |
+| 6265       | yes   | <pre>band harp wire run</pre> |
 | 6266       | no    |  |
 | 6285       | no    |  |
 | 6286       | no    |  |
-| 6287       | no    |  |
+| 6287       | yes   | <pre>mmft1 ROC issue</pre> |
 | 6288       | no    |  |
 | 6289       | no    |  |
 | 6296       | no    |  |
-| 6298       | no    |  |
+| 6298       | yes   | <pre>Production with new trigger configuration, current started at 35 nA, then increased to 50 nA</pre> |
 | 6299       | no    |  |
 | 6302       | no    |  |
 | 6303       | no    |  |
@@ -97,8 +97,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6311       | no    |  |
 | 6313       | no    |  |
 | 6321       | no    |  |
-| 6322       | no    |  |
-| 6323       | no    |  |
+| 6322       | yes   | <pre>low lumi run, 5 nA</pre> |
+| 6323       | yes   | <pre>low lumi run, 5 nA</pre> |
 | 6326       | no    |  |
 | 6327       | no    |  |
 | 6328       | no    |  |
@@ -114,18 +114,18 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6339       | no    |  |
 | 6340       | no    |  |
 | 6341       | no    |  |
-| 6342       | no    |  |
+| 6342       | yes   | <pre>alignment run</pre> |
 | 6346       | no    |  |
 | 6347       | no    |  |
 | 6348       | no    |  |
 | 6349       | no    |  |
-| 6350       | no    |  |
+| 6350       | yes   | <pre>empty target run</pre> |
 | 6351       | no    |  |
 | 6352       | no    |  |
 | 6353       | no    |  |
 | 6354       | no    |  |
-| 6356       | no    |  |
-| 6357       | no    |  |
+| 6356       | yes   | <pre>FC charge issue at beginning of run</pre> |
+| 6357       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6359       | no    |  |
 | 6361       | no    |  |
 | 6362       | no    |  |
@@ -135,9 +135,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6368       | no    |  |
 | 6369       | no    |  |
 | 6370       | no    |  |
-| 6371       | no    |  |
-| 6373       | no    |  |
-| 6374       | no    |  |
+| 6371       | yes   | <pre>low lumi run, 5 nA</pre> |
+| 6373       | yes   | <pre>low lumi run, 5 nA</pre> |
+| 6374       | yes   | <pre>low lumi run, 5 nA</pre> |
 | 6377       | no    |  |
 | 6378       | no    |  |
 | 6379       | no    |  |
@@ -148,8 +148,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6384       | no    |  |
 | 6385       | no    |  |
 | 6386       | no    |  |
-| 6389       | no    |  |
-| 6396       | no    |  |
+| 6389       | yes   | <pre>empty target run</pre> |
+| 6396       | yes   | <pre>no MVT1</pre> |
 | 6399       | no    |  |
 | 6420       | no    |  |
 | 6421       | no    |  |
@@ -166,9 +166,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6443       | no    |  |
 | 6444       | no    |  |
 | 6445       | no    |  |
-| 6446       | no    |  |
-| 6447       | no    |  |
-| 6448       | no    |  |
+| 6446       | yes   | <pre>low lumi run, 5 nA</pre> |
+| 6447       | yes   | <pre>low lumi run, 5 nA</pre> |
+| 6448       | yes   | <pre>low lumi run, 5 nA</pre> |
 | 6449       | no    |  |
 | 6450       | no    |  |
 | 6451       | no    |  |
@@ -191,11 +191,11 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6468       | no    |  |
 | 6470       | no    |  |
 | 6471       | no    |  |
-| 6472       | no    |  |
+| 6472       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6473       | no    |  |
 | 6474       | no    |  |
 | 6475       | no    |  |
-| 6476       | no    |  |
+| 6476       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6479       | no    |  |
 | 6481       | no    |  |
 | 6482       | no    |  |
@@ -227,13 +227,13 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6548       | no    |  |
 | 6549       | no    |  |
 | 6550       | no    |  |
-| 6551       | no    |  |
+| 6551       | yes   | <pre>mmft1 ROC busy</pre> |
 | 6557       | no    |  |
 | 6558       | no    |  |
 | 6559       | no    |  |
 | 6560       | no    |  |
-| 6561       | no    |  |
-| 6562       | no    |  |
+| 6561       | yes   | <pre>unstable beam current in Hall B; beam tune to Hall C</pre> |
+| 6562       | yes   | <pre>beam current started at 40 nA, but was increased to 50 nA for the last 1/4 of the run</pre> |
 | 6563       | no    |  |
 | 6565       | no    |  |
 | 6566       | no    |  |
@@ -258,9 +258,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6592       | no    |  |
 | 6593       | no    |  |
 | 6595       | no    |  |
-| 6596       | no    |  |
+| 6596       | yes   | <pre>PCAL and ECAL TDC ROCS for sector 5 give error messages</pre> |
 | 6597       | no    |  |
 | 6598       | no    |  |
-| 6599       | no    |  |
-| 6601       | no    |  |
-| 6603       | no    |  |
+| 6599       | yes   | <pre>empty target run</pre> |
+| 6601       | yes   | <pre>empty target run</pre> |
+| 6603       | yes   | <pre>empty target run</pre> |
