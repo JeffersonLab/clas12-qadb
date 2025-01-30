@@ -18,10 +18,10 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6156       | yes   | <pre>FTH and FTT HV off</pre> |
 | 6157       | no    |  |
 | 6164       | no    |  |
-| 6167       | no    |  |
-| 6168       | no    |  |
-| 6169       | no    |  |
-| 6170       | no    |  |
+| 6167       | yes   | <pre>low lumi run, 10 nA</pre> |
+| 6168       | yes   | <pre>low lumi run, 10 nA</pre> |
+| 6169       | yes   | <pre>low lumi run, 10 nA</pre> |
+| 6170       | yes   | <pre>low lumi run, 10 nA</pre> |
 | 6189       | no    |  |
 | 6190       | no    |  |
 | 6191       | no    |  |

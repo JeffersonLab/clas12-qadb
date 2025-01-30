@@ -367,255 +367,255 @@ RUN: 6164
 6164 144  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6167
-6167 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6167 1  10-BSAWrong[all]
-6167 2  10-BSAWrong[all]
-6167 3  10-BSAWrong[all]
-6167 4  10-BSAWrong[all]
-6167 5  10-BSAWrong[all]
-6167 6  10-BSAWrong[all]
-6167 7  10-BSAWrong[all]
-6167 8  10-BSAWrong[all]
-6167 9  10-BSAWrong[all]
-6167 10  10-BSAWrong[all]
-6167 11  10-BSAWrong[all]
-6167 12  10-BSAWrong[all]
-6167 13  10-BSAWrong[all]
-6167 14  10-BSAWrong[all]
-6167 15  10-BSAWrong[all]
-6167 16  10-BSAWrong[all]
-6167 17  10-BSAWrong[all]
-6167 18  10-BSAWrong[all]
-6167 19  10-BSAWrong[all]
-6167 20  10-BSAWrong[all]
-6167 21  10-BSAWrong[all]
-6167 22  10-BSAWrong[all]
-6167 23  10-BSAWrong[all]
-6167 24  10-BSAWrong[all]
-6167 25  10-BSAWrong[all]
-6167 26  10-BSAWrong[all]
-6167 27  10-BSAWrong[all]
-6167 28  10-BSAWrong[all]
-6167 29  10-BSAWrong[all]
-6167 30  10-BSAWrong[all]
-6167 31  10-BSAWrong[all]
-6167 32  10-BSAWrong[all]
-6167 33  10-BSAWrong[all]
-6167 34  10-BSAWrong[all]
-6167 35  10-BSAWrong[all]
-6167 36  10-BSAWrong[all]
-6167 37  10-BSAWrong[all]
-6167 38  10-BSAWrong[all]
-6167 39  10-BSAWrong[all]
-6167 40  10-BSAWrong[all]
-6167 41  10-BSAWrong[all]
-6167 42  10-BSAWrong[all]
-6167 43  10-BSAWrong[all]
-6167 44  10-BSAWrong[all]
-6167 45  10-BSAWrong[all]
-6167 46  10-BSAWrong[all]
-6167 47  10-BSAWrong[all]
-6167 48  10-BSAWrong[all]
-6167 49  10-BSAWrong[all]
-6167 50  10-BSAWrong[all]
-6167 51  0-TotalOutlier[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
-6167 52  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6167 53  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-6167 54  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6167 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 10 nA
+6167 1  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 2  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 3  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 4  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 5  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 6  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 7  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 8  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 9  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 10  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 11  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 12  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 13  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 14  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 15  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 16  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 17  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 18  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 19  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 20  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 21  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 22  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 23  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 24  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 25  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 26  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 27  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 28  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 29  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 30  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 31  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 32  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 33  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 34  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 35  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 36  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 37  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 38  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 39  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 40  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 41  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 42  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 43  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 44  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 45  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 46  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 47  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 48  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 49  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 50  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 51  0-TotalOutlier[all]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6167 52  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: low lumi run, 10 nA
+6167 53  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: low lumi run, 10 nA
+6167 54  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 10 nA
 
 RUN: 6168
-6168 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6168 1  10-BSAWrong[all]
-6168 2  10-BSAWrong[all]
-6168 3  10-BSAWrong[all]
-6168 4  10-BSAWrong[all]
-6168 5  10-BSAWrong[all]
-6168 6  10-BSAWrong[all]
-6168 7  10-BSAWrong[all]
-6168 8  10-BSAWrong[all]
-6168 9  10-BSAWrong[all]
-6168 10  10-BSAWrong[all]
-6168 11  10-BSAWrong[all]
-6168 12  10-BSAWrong[all]
-6168 13  10-BSAWrong[all]
-6168 14  10-BSAWrong[all]
-6168 15  10-BSAWrong[all]
-6168 16  10-BSAWrong[all]
-6168 17  10-BSAWrong[all]
-6168 18  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6168 19  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6168 20  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6168 21  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-6168 22  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6168 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 10 nA
+6168 1  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 2  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 3  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 4  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 5  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 6  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 7  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 8  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 9  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 10  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 11  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 12  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 13  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 14  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 15  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 16  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 17  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6168 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: low lumi run, 10 nA
+6168 19  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: low lumi run, 10 nA
+6168 20  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: low lumi run, 10 nA
+6168 21  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: low lumi run, 10 nA
+6168 22  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 10 nA
 
 RUN: 6169
-6169 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6169 1  10-BSAWrong[all]
-6169 2  10-BSAWrong[all]
-6169 3  10-BSAWrong[all]
-6169 4  10-BSAWrong[all]
-6169 5  10-BSAWrong[all]
-6169 6  10-BSAWrong[all]
-6169 7  10-BSAWrong[all]
-6169 8  10-BSAWrong[all]
-6169 9  10-BSAWrong[all]
-6169 10  10-BSAWrong[all]
-6169 11  10-BSAWrong[all]
-6169 12  10-BSAWrong[all]
-6169 13  10-BSAWrong[all]
-6169 14  10-BSAWrong[all]
-6169 15  10-BSAWrong[all]
-6169 16  10-BSAWrong[all]
-6169 17  10-BSAWrong[all]
-6169 18  10-BSAWrong[all]
-6169 19  10-BSAWrong[all]
-6169 20  10-BSAWrong[all]
-6169 21  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6169 22  10-BSAWrong[all]
-6169 23  10-BSAWrong[all]
-6169 24  10-BSAWrong[all]
-6169 25  10-BSAWrong[all]
-6169 26  10-BSAWrong[all]
-6169 27  10-BSAWrong[all]
-6169 28  10-BSAWrong[all]
-6169 29  10-BSAWrong[all]
-6169 30  10-BSAWrong[all]
-6169 31  10-BSAWrong[all]
-6169 32  10-BSAWrong[all]
-6169 33  10-BSAWrong[all]
-6169 34  10-BSAWrong[all]
-6169 35  10-BSAWrong[all]
-6169 36  10-BSAWrong[all]
-6169 37  10-BSAWrong[all]
-6169 38  10-BSAWrong[all]
-6169 39  2-MarginalOutlier[4, 6]  10-BSAWrong[all]
-6169 40  10-BSAWrong[all]
-6169 41  10-BSAWrong[all]
-6169 42  10-BSAWrong[all]
-6169 43  10-BSAWrong[all]
-6169 44  10-BSAWrong[all]
-6169 45  10-BSAWrong[all]
-6169 46  10-BSAWrong[all]
-6169 47  10-BSAWrong[all]
-6169 48  10-BSAWrong[all]
-6169 49  10-BSAWrong[all]
-6169 50  10-BSAWrong[all]
-6169 51  10-BSAWrong[all]
-6169 52  10-BSAWrong[all]
-6169 53  2-MarginalOutlier[6]  10-BSAWrong[all]
-6169 54  10-BSAWrong[all]
-6169 55  10-BSAWrong[all]
-6169 56  10-BSAWrong[all]
-6169 57  10-BSAWrong[all]
-6169 58  10-BSAWrong[all]
-6169 59  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6169 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 10 nA
+6169 1  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 2  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 3  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 4  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 5  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 6  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 7  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 8  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 9  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 10  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 11  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 12  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 13  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 14  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 15  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 16  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 17  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 18  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 19  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 20  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 21  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: low lumi run, 10 nA
+6169 22  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 23  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 24  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 25  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 26  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 27  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 28  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 29  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 30  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 31  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 32  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 33  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 34  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 35  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 36  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 37  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 38  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 39  2-MarginalOutlier[4, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 40  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 41  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 42  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 43  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 44  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 45  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 46  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 47  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 48  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 49  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 50  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 51  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 52  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 53  2-MarginalOutlier[6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 54  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 55  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 56  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 57  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 58  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6169 59  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 10 nA
 
 RUN: 6170
-6170 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6170 1  10-BSAWrong[all]
-6170 2  10-BSAWrong[all]
-6170 3  10-BSAWrong[all]
-6170 4  10-BSAWrong[all]
-6170 5  10-BSAWrong[all]
-6170 6  10-BSAWrong[all]
-6170 7  10-BSAWrong[all]
-6170 8  10-BSAWrong[all]
-6170 9  10-BSAWrong[all]
-6170 10  10-BSAWrong[all]
-6170 11  10-BSAWrong[all]  16-ChargeHigh[all]
-6170 12  10-BSAWrong[all]
-6170 13  10-BSAWrong[all]
-6170 14  10-BSAWrong[all]
-6170 15  10-BSAWrong[all]
-6170 16  10-BSAWrong[all]
-6170 17  10-BSAWrong[all]
-6170 18  10-BSAWrong[all]
-6170 19  10-BSAWrong[all]
-6170 20  10-BSAWrong[all]
-6170 21  10-BSAWrong[all]  16-ChargeHigh[all]
-6170 22  10-BSAWrong[all]
-6170 23  10-BSAWrong[all]
-6170 24  10-BSAWrong[all]
-6170 25  10-BSAWrong[all]
-6170 26  10-BSAWrong[all]
-6170 27  10-BSAWrong[all]
-6170 28  10-BSAWrong[all]
-6170 29  10-BSAWrong[all]
-6170 30  10-BSAWrong[all]
-6170 31  10-BSAWrong[all]
-6170 32  10-BSAWrong[all]
-6170 33  10-BSAWrong[all]
-6170 34  10-BSAWrong[all]
-6170 35  10-BSAWrong[all]
-6170 36  10-BSAWrong[all]
-6170 37  10-BSAWrong[all]
-6170 38  10-BSAWrong[all]
-6170 39  10-BSAWrong[all]
-6170 40  10-BSAWrong[all]
-6170 41  10-BSAWrong[all]
-6170 42  10-BSAWrong[all]
-6170 43  10-BSAWrong[all]
-6170 44  10-BSAWrong[all]
-6170 45  10-BSAWrong[all]
-6170 46  10-BSAWrong[all]
-6170 47  10-BSAWrong[all]
-6170 48  10-BSAWrong[all]
-6170 49  10-BSAWrong[all]
-6170 50  10-BSAWrong[all]
-6170 51  10-BSAWrong[all]
-6170 52  10-BSAWrong[all]
-6170 53  10-BSAWrong[all]
-6170 54  10-BSAWrong[all]
-6170 55  10-BSAWrong[all]
-6170 56  10-BSAWrong[all]
-6170 57  10-BSAWrong[all]
-6170 58  10-BSAWrong[all]
-6170 59  10-BSAWrong[all]
-6170 60  10-BSAWrong[all]
-6170 61  10-BSAWrong[all]
-6170 62  10-BSAWrong[all]
-6170 63  10-BSAWrong[all]
-6170 64  10-BSAWrong[all]
-6170 65  10-BSAWrong[all]
-6170 66  10-BSAWrong[all]
-6170 67  10-BSAWrong[all]
-6170 68  10-BSAWrong[all]
-6170 69  10-BSAWrong[all]
-6170 70  10-BSAWrong[all]
-6170 71  10-BSAWrong[all]
-6170 72  10-BSAWrong[all]
-6170 73  10-BSAWrong[all]
-6170 74  10-BSAWrong[all]
-6170 75  10-BSAWrong[all]
-6170 76  10-BSAWrong[all]
-6170 77  10-BSAWrong[all]
-6170 78  10-BSAWrong[all]
-6170 79  10-BSAWrong[all]
-6170 80  10-BSAWrong[all]
-6170 81  10-BSAWrong[all]
-6170 82  10-BSAWrong[all]
-6170 83  10-BSAWrong[all]
-6170 84  10-BSAWrong[all]
-6170 85  10-BSAWrong[all]
-6170 86  10-BSAWrong[all]
-6170 87  10-BSAWrong[all]
-6170 88  10-BSAWrong[all]
-6170 89  10-BSAWrong[all]
-6170 90  10-BSAWrong[all]
-6170 91  10-BSAWrong[all]
-6170 92  10-BSAWrong[all]
-6170 93  10-BSAWrong[all]
-6170 94  10-BSAWrong[all]
-6170 95  10-BSAWrong[all]
-6170 96  10-BSAWrong[all]
-6170 97  10-BSAWrong[all]
-6170 98  10-BSAWrong[all]
-6170 99  10-BSAWrong[all]
-6170 100  10-BSAWrong[all]
-6170 101  10-BSAWrong[all]
-6170 102  10-BSAWrong[all]
-6170 103  2-MarginalOutlier[1, 2, 3, 5, 6]  10-BSAWrong[all]
-6170 104  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6170 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 10 nA
+6170 1  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 2  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 3  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 4  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 5  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 6  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 7  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 8  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 9  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 10  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 11  5-Misc[all]  10-BSAWrong[all]  16-ChargeHigh[all]  :: low lumi run, 10 nA
+6170 12  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 13  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 14  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 15  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 16  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 17  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 18  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 19  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 20  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 21  5-Misc[all]  10-BSAWrong[all]  16-ChargeHigh[all]  :: low lumi run, 10 nA
+6170 22  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 23  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 24  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 25  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 26  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 27  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 28  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 29  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 30  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 31  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 32  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 33  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 34  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 35  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 36  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 37  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 38  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 39  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 40  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 41  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 42  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 43  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 44  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 45  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 46  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 47  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 48  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 49  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 50  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 51  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 52  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 53  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 54  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 55  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 56  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 57  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 58  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 59  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 60  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 61  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 62  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 63  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 64  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 65  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 66  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 67  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 68  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 69  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 70  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 71  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 72  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 73  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 74  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 75  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 76  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 77  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 78  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 79  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 80  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 81  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 82  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 83  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 84  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 85  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 86  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 87  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 88  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 89  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 90  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 91  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 92  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 93  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 94  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 95  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 96  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 97  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 98  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 99  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 100  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 101  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 102  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 103  2-MarginalOutlier[1, 2, 3, 5, 6]  5-Misc[all]  10-BSAWrong[all]  :: low lumi run, 10 nA
+6170 104  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: low lumi run, 10 nA
 
 RUN: 6189
 6189 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
