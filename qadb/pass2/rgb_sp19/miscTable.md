@@ -115,7 +115,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6340       | no    |  |
 | 6341       | no    |  |
 | 6342       | yes   | <pre>alignment run</pre> |
-| 6346       | no    |  |
+| 6346       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6347       | no    |  |
 | 6348       | no    |  |
 | 6349       | no    |  |
@@ -146,7 +146,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6382       | no    |  |
 | 6383       | no    |  |
 | 6384       | no    |  |
-| 6385       | no    |  |
+| 6385       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6386       | yes   | <pre>no helicity info for QA bins 15 to 60</pre> |
 | 6389       | yes   | <pre>empty target run</pre> |
 | 6396       | yes   | <pre>no MVT1</pre> |
@@ -175,7 +175,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6452       | no    |  |
 | 6453       | no    |  |
 | 6454       | no    |  |
-| 6455       | no    |  |
+| 6455       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6456       | no    |  |
 | 6457       | no    |  |
 | 6458       | no    |  |

@@ -9772,9 +9772,9 @@ RUN: 6342
 6342 28  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: alignment run
 
 RUN: 6346
-6346 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6346 1  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]
-6346 2  0-TotalOutlier[all]  4-LowLiveTime[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]
+6346 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+6346 1  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: FC charge issue at beginning of run
+6346 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  8-MarginalOutlierFT[1]  10-BSAWrong[all]  :: FC charge issue at beginning of run
 6346 3  10-BSAWrong[all]
 6346 4  10-BSAWrong[all]
 6346 5  10-BSAWrong[all]
@@ -14420,8 +14420,8 @@ RUN: 6384
 6384 93  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6385
-6385 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6385 1  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]
+6385 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+6385 1  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  :: FC charge issue at beginning of run
 6385 2  10-BSAWrong[all]
 6385 3  10-BSAWrong[all]
 6385 4  10-BSAWrong[all]
@@ -18929,9 +18929,9 @@ RUN: 6454
 6454 72  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6455
-6455 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6455 1  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]
-6455 2  0-TotalOutlier[all]  4-LowLiveTime[all]  10-BSAWrong[all]
+6455 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+6455 1  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  17-ChargeNegative[all]  :: FC charge issue at beginning of run
+6455 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: FC charge issue at beginning of run
 6455 3  10-BSAWrong[all]
 6455 4  10-BSAWrong[all]
 6455 5  10-BSAWrong[all]
