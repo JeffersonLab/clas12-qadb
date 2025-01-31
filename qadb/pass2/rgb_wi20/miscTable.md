@@ -15,30 +15,30 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 11323      | no    |  |
-| 11324      | no    |  |
-| 11325      | no    |  |
-| 11326      | no    |  |
-| 11327      | no    |  |
+| 11323      | yes   | <pre>low lumi run, 5 nA</pre> |
+| 11324      | yes   | <pre>low lumi run, 10 nA</pre> |
+| 11325      | yes   | <pre>low lumi run, 10 nA</pre> |
+| 11326      | yes   | <pre>Short run at 30 nA to make sure DAQ is good</pre> |
+| 11327      | yes   | <pre>50 nA production run - lots of problems with DC HV trips</pre> |
 | 11328      | no    |  |
 | 11329      | no    |  |
 | 11330      | no    |  |
 | 11331      | no    |  |
-| 11336      | no    |  |
-| 11338      | no    |  |
+| 11336      | yes   | <pre>low livetime (0.8) for most of the run</pre> |
+| 11338      | yes   | <pre>low livetime (0.7-0.8) for most of the run</pre> |
 | 11339      | no    |  |
-| 11340      | no    |  |
-| 11341      | no    |  |
-| 11342      | no    |  |
-| 11345      | no    |  |
-| 11347      | no    |  |
-| 11348      | no    |  |
-| 11352      | no    |  |
-| 11354      | no    |  |
-| 11356      | no    |  |
-| 11357      | no    |  |
-| 11358      | no    |  |
-| 11361      | no    |  |
+| 11340      | yes   | <pre>beam modulation problems</pre> |
+| 11341      | yes   | <pre>beam modulation problems</pre> |
+| 11342      | yes   | <pre>beam modulation problems; bad trigger timing</pre> |
+| 11345      | yes   | <pre>low livetime (0.7) for most of the run</pre> |
+| 11347      | yes   | <pre>varied beam current</pre> |
+| 11348      | yes   | <pre>continued RF phase tuning</pre> |
+| 11352      | yes   | <pre>RF phase tuning</pre> |
+| 11354      | yes   | <pre>RF phase tuning</pre> |
+| 11356      | yes   | <pre>RF phase tuning; varied beam current</pre> |
+| 11357      | yes   | <pre>low livetime (0.75) for most of the run</pre> |
+| 11358      | yes   | <pre>low livetime (0.8) for most of the run</pre> |
+| 11361      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11362      | no    |  |
 | 11363      | no    |  |
 | 11364      | no    |  |
@@ -60,8 +60,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11387      | no    |  |
 | 11389      | no    |  |
 | 11390      | no    |  |
-| 11394      | no    |  |
-| 11395      | no    |  |
+| 11394      | yes   | <pre>FC charge issue at beginning of run</pre> |
+| 11395      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11396      | no    |  |
 | 11397      | no    |  |
 | 11398      | no    |  |
@@ -97,7 +97,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11441      | no    |  |
 | 11442      | no    |  |
 | 11443      | no    |  |
-| 11444      | no    |  |
+| 11444      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11445      | no    |  |
 | 11446      | no    |  |
 | 11447      | no    |  |
@@ -126,9 +126,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11481      | no    |  |
 | 11483      | no    |  |
 | 11484      | no    |  |
-| 11485      | no    |  |
-| 11486      | no    |  |
-| 11487      | no    |  |
+| 11485      | yes   | <pre>low lumi run, 10 nA</pre> |
+| 11486      | yes   | <pre>low lumi run, 10 nA</pre> |
+| 11487      | yes   | <pre>low lumi run, 10 nA</pre> |
 | 11490      | no    |  |
 | 11491      | no    |  |
 | 11492      | no    |  |
@@ -140,7 +140,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11498      | no    |  |
 | 11499      | no    |  |
 | 11501      | no    |  |
-| 11502      | no    |  |
+| 11502      | yes   | <pre>beam current oscillations: https://logbooks.jlab.org/entry/3770100</pre> |
 | 11504      | no    |  |
 | 11505      | no    |  |
 | 11506      | no    |  |
@@ -157,7 +157,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11517      | no    |  |
 | 11518      | no    |  |
 | 11519      | no    |  |
-| 11521      | no    |  |
+| 11521      | yes   | <pre>Bad beam quality: Multiple DC channel trips due to beam current spikes</pre> |
 | 11522      | no    |  |
 | 11524      | no    |  |
 | 11525      | no    |  |
@@ -175,10 +175,10 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11539      | no    |  |
 | 11540      | no    |  |
 | 11541      | no    |  |
-| 11544      | no    |  |
+| 11544      | yes   | <pre>poor beam current stability</pre> |
 | 11545      | no    |  |
 | 11546      | no    |  |
-| 11548      | no    |  |
+| 11548      | yes   | <pre>the beam is pretty awful and this run is junk, says the logbook</pre> |
 | 11550      | no    |  |
 | 11553      | no    |  |
 | 11554      | no    |  |
