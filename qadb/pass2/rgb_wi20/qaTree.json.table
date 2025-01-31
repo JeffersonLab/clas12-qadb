@@ -7684,193 +7684,193 @@ RUN: 11370
 11370 476  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11372
-11372 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11372 1  4-LowLiveTime[all]
-11372 2  GOLDEN
-11372 3  GOLDEN
-11372 4  GOLDEN
-11372 5  GOLDEN
-11372 6  GOLDEN
-11372 7  GOLDEN
-11372 8  GOLDEN
-11372 9  GOLDEN
-11372 10  GOLDEN
-11372 11  GOLDEN
-11372 12  GOLDEN
-11372 13  GOLDEN
-11372 14  GOLDEN
-11372 15  GOLDEN
-11372 16  GOLDEN
-11372 17  GOLDEN
-11372 18  GOLDEN
-11372 19  GOLDEN
-11372 20  GOLDEN
-11372 21  GOLDEN
-11372 22  GOLDEN
-11372 23  GOLDEN
-11372 24  GOLDEN
-11372 25  GOLDEN
-11372 26  GOLDEN
-11372 27  GOLDEN
-11372 28  GOLDEN
-11372 29  GOLDEN
-11372 30  GOLDEN
-11372 31  GOLDEN
-11372 32  GOLDEN
-11372 33  GOLDEN
-11372 34  GOLDEN
-11372 35  GOLDEN
-11372 36  GOLDEN
-11372 37  GOLDEN
-11372 38  GOLDEN
-11372 39  GOLDEN
-11372 40  GOLDEN
-11372 41  GOLDEN
-11372 42  GOLDEN
-11372 43  GOLDEN
-11372 44  GOLDEN
-11372 45  GOLDEN
-11372 46  GOLDEN
-11372 47  GOLDEN
-11372 48  GOLDEN
-11372 49  GOLDEN
-11372 50  GOLDEN
-11372 51  GOLDEN
-11372 52  GOLDEN
-11372 53  GOLDEN
-11372 54  GOLDEN
-11372 55  GOLDEN
-11372 56  GOLDEN
-11372 57  GOLDEN
-11372 58  GOLDEN
-11372 59  GOLDEN
-11372 60  GOLDEN
-11372 61  GOLDEN
-11372 62  GOLDEN
-11372 63  GOLDEN
-11372 64  GOLDEN
-11372 65  GOLDEN
-11372 66  GOLDEN
-11372 67  GOLDEN
-11372 68  GOLDEN
-11372 69  GOLDEN
-11372 70  GOLDEN
-11372 71  GOLDEN
-11372 72  GOLDEN
-11372 73  GOLDEN
-11372 74  GOLDEN
-11372 75  GOLDEN
-11372 76  GOLDEN
-11372 77  GOLDEN
-11372 78  GOLDEN
-11372 79  GOLDEN
-11372 80  GOLDEN
-11372 81  GOLDEN
-11372 82  GOLDEN
-11372 83  GOLDEN
-11372 84  GOLDEN
-11372 85  GOLDEN
-11372 86  GOLDEN
-11372 87  GOLDEN
-11372 88  GOLDEN
-11372 89  GOLDEN
-11372 90  GOLDEN
-11372 91  GOLDEN
-11372 92  GOLDEN
-11372 93  GOLDEN
-11372 94  GOLDEN
-11372 95  GOLDEN
-11372 96  GOLDEN
-11372 97  GOLDEN
-11372 98  GOLDEN
-11372 99  GOLDEN
-11372 100  GOLDEN
-11372 101  GOLDEN
-11372 102  GOLDEN
-11372 103  GOLDEN
-11372 104  GOLDEN
-11372 105  GOLDEN
-11372 106  GOLDEN
-11372 107  GOLDEN
-11372 108  GOLDEN
-11372 109  GOLDEN
-11372 110  GOLDEN
-11372 111  GOLDEN
-11372 112  GOLDEN
-11372 113  GOLDEN
-11372 114  GOLDEN
-11372 115  GOLDEN
-11372 116  GOLDEN
-11372 117  GOLDEN
-11372 118  GOLDEN
-11372 119  GOLDEN
-11372 120  GOLDEN
-11372 121  GOLDEN
-11372 122  GOLDEN
-11372 123  GOLDEN
-11372 124  GOLDEN
-11372 125  GOLDEN
-11372 126  GOLDEN
-11372 127  GOLDEN
-11372 128  GOLDEN
-11372 129  2-MarginalOutlier[5]
-11372 130  GOLDEN
-11372 131  GOLDEN
-11372 132  GOLDEN
-11372 133  GOLDEN
-11372 134  GOLDEN
-11372 135  GOLDEN
-11372 136  GOLDEN
-11372 137  GOLDEN
-11372 138  GOLDEN
-11372 139  GOLDEN
-11372 140  GOLDEN
-11372 141  GOLDEN
-11372 142  GOLDEN
-11372 143  GOLDEN
-11372 144  GOLDEN
-11372 145  GOLDEN
-11372 146  GOLDEN
-11372 147  GOLDEN
-11372 148  GOLDEN
-11372 149  GOLDEN
-11372 150  GOLDEN
-11372 151  GOLDEN
-11372 152  GOLDEN
-11372 153  GOLDEN
-11372 154  GOLDEN
-11372 155  GOLDEN
-11372 156  GOLDEN
-11372 157  GOLDEN
-11372 158  GOLDEN
-11372 159  GOLDEN
-11372 160  GOLDEN
-11372 161  GOLDEN
-11372 162  GOLDEN
-11372 163  GOLDEN
-11372 164  GOLDEN
-11372 165  GOLDEN
-11372 166  GOLDEN
-11372 167  GOLDEN
-11372 168  GOLDEN
-11372 169  GOLDEN
-11372 170  GOLDEN
-11372 171  GOLDEN
-11372 172  GOLDEN
-11372 173  GOLDEN
-11372 174  GOLDEN
-11372 175  0-TotalOutlier[1, 2, 3, 5, 6]  2-MarginalOutlier[4]  8-MarginalOutlierFT[1]
-11372 176  GOLDEN
-11372 177  GOLDEN
-11372 178  2-MarginalOutlier[1, 2, 4, 6]
-11372 179  GOLDEN
-11372 180  GOLDEN
-11372 181  GOLDEN
-11372 182  GOLDEN
-11372 183  GOLDEN
-11372 184  GOLDEN
-11372 185  2-MarginalOutlier[2]
-11372 186  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11372 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 1  4-LowLiveTime[all]  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 2  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 3  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 4  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 5  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 6  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 7  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 8  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 9  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 10  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 11  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 12  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 13  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 14  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 15  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 16  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 17  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 18  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 19  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 20  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 21  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 22  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 23  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 24  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 25  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 26  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 27  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 28  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 29  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 30  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 31  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 32  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 33  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 34  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 35  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 36  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 37  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 38  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 39  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 40  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 41  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 42  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 43  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 44  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 45  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 46  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 47  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 48  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 49  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 50  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 51  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 52  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 53  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 54  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 55  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 56  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 57  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 58  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 59  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 60  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 61  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 62  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 63  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 64  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 65  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 66  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 67  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 68  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 69  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 70  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 71  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 72  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 73  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 74  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 75  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 76  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 77  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 78  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 79  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 80  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 81  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 82  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 83  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 84  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 85  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 86  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 87  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 88  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 89  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 90  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 91  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 92  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 93  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 94  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 95  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 96  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 97  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 98  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 99  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 100  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 101  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 102  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 103  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 104  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 105  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 106  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 107  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 108  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 109  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 110  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 111  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 112  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 113  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 114  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 115  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 116  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 117  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 118  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 119  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 120  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 121  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 122  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 123  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 124  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 125  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 126  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 127  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 128  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 129  2-MarginalOutlier[5]  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 130  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 131  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 132  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 133  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 134  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 135  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 136  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 137  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 138  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 139  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 140  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 141  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 142  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 143  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 144  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 145  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 146  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 147  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 148  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 149  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 150  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 151  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 152  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 153  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 154  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 155  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 156  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 157  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 158  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 159  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 160  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 161  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 162  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 163  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 164  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 165  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 166  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 167  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 168  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 169  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 170  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 171  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 172  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 173  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 174  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 175  0-TotalOutlier[1, 2, 3, 5, 6]  2-MarginalOutlier[4]  5-Misc[all]  8-MarginalOutlierFT[1]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 176  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 177  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 178  2-MarginalOutlier[1, 2, 4, 6]  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 179  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 180  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 181  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 182  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 183  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 184  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 185  2-MarginalOutlier[2]  5-Misc[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
+11372 186  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA
 
 RUN: 11373
 11373 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]

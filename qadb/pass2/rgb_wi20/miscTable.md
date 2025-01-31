@@ -47,7 +47,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11367      | no    |  |
 | 11368      | no    |  |
 | 11370      | no    |  |
-| 11372      | no    |  |
+| 11372      | yes   | <pre>used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA</pre> |
 | 11373      | no    |  |
 | 11374      | no    |  |
 | 11375      | no    |  |
