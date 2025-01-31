@@ -24,20 +24,20 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11329      | no    |  |
 | 11330      | no    |  |
 | 11331      | no    |  |
-| 11336      | yes   | <pre>low livetime (0.8) for most of the run</pre> |
-| 11338      | yes   | <pre>low livetime (0.7-0.8) for most of the run</pre> |
+| 11336      | yes   | <pre>low livetime (0.8) for most of the run; fraction of events with defined helicity is low</pre> |
+| 11338      | yes   | <pre>low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low</pre> |
 | 11339      | no    |  |
 | 11340      | yes   | <pre>beam modulation problems</pre> |
 | 11341      | yes   | <pre>beam modulation problems</pre> |
-| 11342      | yes   | <pre>beam modulation problems; bad trigger timing</pre> |
-| 11345      | yes   | <pre>low livetime (0.7) for most of the run</pre> |
+| 11342      | yes   | <pre>beam modulation problems; bad trigger timing; fraction of events with defined helicity is low</pre> |
+| 11345      | yes   | <pre>low livetime (0.7) for most of the run; fraction of events with defined helicity is low</pre> |
 | 11347      | yes   | <pre>varied beam current</pre> |
 | 11348      | yes   | <pre>continued RF phase tuning</pre> |
 | 11352      | yes   | <pre>RF phase tuning</pre> |
-| 11354      | yes   | <pre>RF phase tuning</pre> |
-| 11356      | yes   | <pre>RF phase tuning; varied beam current</pre> |
-| 11357      | yes   | <pre>low livetime (0.75) for most of the run</pre> |
-| 11358      | yes   | <pre>low livetime (0.8) for most of the run</pre> |
+| 11354      | yes   | <pre>RF phase tuning; fraction of events with defined helicity is low</pre> |
+| 11356      | yes   | <pre>RF phase tuning; varied beam current</pre><pre>RF phase tuning; varied beam current; fraction of events with defined helicity is low</pre> |
+| 11357      | yes   | <pre>low livetime (0.75) for most of the run; fraction of events with defined helicity is low</pre> |
+| 11358      | yes   | <pre>low livetime (0.8) for most of the run; fraction of events with defined helicity is low</pre> |
 | 11361      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11362      | no    |  |
 | 11363      | no    |  |

@@ -2026,293 +2026,293 @@ RUN: 11331
 11331 38  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11336
-11336 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run
-11336 1  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 2  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 7  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 9  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 13  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 14  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 15  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 16  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 17  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 18  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 27  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11336 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: low livetime (0.8) for most of the run
-11336 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11336 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11336 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11336 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11336 34  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11336 35  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run
+11336 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 1  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 2  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 7  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 9  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 13  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 14  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 15  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 16  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 17  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 18  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 27  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 29  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 30  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 31  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 32  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 33  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 34  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11336 35  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
 
 RUN: 11338
-11338 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7-0.8) for most of the run
-11338 1  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 2  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 7  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 9  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 13  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 14  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 15  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 16  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 17  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 18  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 27  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 29  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 30  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 31  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 32  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 33  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 34  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 35  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 36  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 37  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 38  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 39  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 40  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 41  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 42  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 43  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 44  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 45  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 46  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 47  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 48  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 49  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 50  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 51  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 52  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 53  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 54  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 55  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 56  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 57  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 58  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 59  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 60  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 61  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 62  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 63  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 64  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 65  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 66  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 67  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 68  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 69  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 70  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 71  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 72  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 73  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 74  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 75  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 76  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 77  0-TotalOutlier[4]  2-MarginalOutlier[1]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 78  2-MarginalOutlier[1, 4]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 79  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 80  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 81  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 82  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 83  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 84  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 85  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 86  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 87  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 88  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 89  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 90  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 91  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 92  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 93  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 94  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 95  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 96  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 97  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 98  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 99  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 100  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 101  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 102  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 103  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 104  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 105  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 106  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 107  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 108  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 109  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 110  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 111  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 112  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 113  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 114  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 115  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 116  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 117  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 118  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 119  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 120  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 121  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 122  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 123  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 124  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 125  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 126  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 127  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 128  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 129  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 130  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 131  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 132  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 133  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 134  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 135  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 136  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 137  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 138  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 139  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 140  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 141  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 142  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 143  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 144  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 145  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 146  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 147  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 148  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 149  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 150  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 151  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 152  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 153  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 154  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 155  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 156  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 157  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 158  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 159  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 160  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 161  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 162  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 163  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 164  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 165  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 166  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 167  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 168  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 169  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 170  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 171  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 172  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 173  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 174  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 175  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 176  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 177  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 178  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: low livetime (0.7-0.8) for most of the run
-11338 179  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.7-0.8) for most of the run
-11338 180  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: low livetime (0.7-0.8) for most of the run
-11338 181  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 182  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 183  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 184  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 185  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 186  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 187  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 188  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 189  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 190  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 191  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 192  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 193  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 194  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 195  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 196  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 197  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 198  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 199  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 200  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 201  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 202  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 203  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 204  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 205  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 206  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 207  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 208  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 209  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 210  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 211  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 212  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 213  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 214  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 215  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 216  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 217  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 218  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 219  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 220  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 221  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 222  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 223  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 224  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 225  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 226  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 227  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 228  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 229  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 230  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 231  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 232  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 233  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 234  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 235  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 236  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 237  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 238  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 239  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 240  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 241  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 242  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 243  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 244  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 245  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 246  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 247  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run
-11338 248  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7-0.8) for most of the run
+11338 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 1  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 2  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 7  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 9  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 13  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 14  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 15  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 16  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 17  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 18  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 27  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 29  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 30  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 31  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 32  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 33  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 34  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 35  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 36  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 37  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 38  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 39  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 40  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 41  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 42  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 43  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 44  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 45  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 46  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 47  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 48  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 49  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 50  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 51  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 52  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 53  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 54  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 55  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 56  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 57  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 58  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 59  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 60  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 61  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 62  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 63  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 64  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 65  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 66  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 67  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 68  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 69  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 70  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 71  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 72  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 73  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 74  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 75  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 76  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 77  0-TotalOutlier[4]  2-MarginalOutlier[1]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 78  2-MarginalOutlier[1, 4]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 79  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 80  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 81  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 82  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 83  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 84  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 85  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 86  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 87  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 88  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 89  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 90  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 91  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 92  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 93  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 94  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 95  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 96  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 97  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 98  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 99  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 100  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 101  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 102  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 103  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 104  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 105  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 106  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 107  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 108  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 109  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 110  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 111  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 112  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 113  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 114  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 115  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 116  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 117  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 118  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 119  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 120  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 121  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 122  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 123  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 124  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 125  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 126  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 127  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 128  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 129  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 130  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 131  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 132  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 133  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 134  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 135  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 136  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 137  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 138  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 139  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 140  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 141  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 142  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 143  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 144  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 145  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 146  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 147  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 148  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 149  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 150  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 151  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 152  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 153  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 154  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 155  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 156  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 157  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 158  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 159  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 160  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 161  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 162  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 163  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 164  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 165  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 166  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 167  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 168  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 169  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 170  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 171  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 172  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 173  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 174  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 175  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 176  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 177  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 178  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 179  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 180  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 181  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 182  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 183  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 184  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 185  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 186  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 187  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 188  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 189  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 190  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 191  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 192  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 193  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 194  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 195  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 196  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 197  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 198  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 199  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 200  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 201  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 202  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 203  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 204  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 205  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 206  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 207  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 208  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 209  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 210  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 211  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 212  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 213  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 214  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 215  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 216  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 217  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 218  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 219  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 220  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 221  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 222  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 223  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 224  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 225  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 226  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 227  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 228  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 229  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 230  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 231  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 232  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 233  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 234  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 235  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 236  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 237  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 238  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 239  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 240  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 241  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 242  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 243  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 244  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 245  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 246  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 247  5-Misc[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
+11338 248  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low
 
 RUN: 11339
 11339 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -3067,83 +3067,83 @@ RUN: 11341
 11341 217  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems
 
 RUN: 11342
-11342 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems; bad trigger timing
-11342 1  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 2  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 3  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 4  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 5  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 6  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 7  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 8  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 9  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 10  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 11  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 12  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 13  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 14  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 15  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 16  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 17  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 18  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 19  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 20  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 21  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 22  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 23  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 24  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 25  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 26  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 27  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 28  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 29  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 30  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing
-11342 31  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems; bad trigger timing
+11342 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 1  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 2  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 3  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 4  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 5  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 6  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 7  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 8  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 9  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 10  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 11  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 12  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 13  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 14  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 15  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 16  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 17  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 18  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 19  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 20  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 21  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 22  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 23  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 24  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 25  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 26  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 27  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 28  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 29  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 30  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
+11342 31  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
 
 RUN: 11345
-11345 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7) for most of the run
-11345 1  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 2  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 7  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 9  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 13  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 14  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 15  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 16  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 17  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 18  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 27  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 29  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 30  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 31  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 32  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 33  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 34  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 35  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 36  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 37  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 38  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 39  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 40  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 41  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run
-11345 42  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7) for most of the run
+11345 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 1  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 2  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 7  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 9  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 13  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 14  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 15  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 16  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 17  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 18  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 27  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 29  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 30  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 31  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 32  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 33  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 34  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 35  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 36  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 37  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 38  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 39  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 40  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 41  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
+11345 42  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
 
 RUN: 11347
 11347 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: varied beam current
@@ -3263,20 +3263,20 @@ RUN: 11352
 11352 17  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RF phase tuning
 
 RUN: 11354
-11354 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RF phase tuning
-11354 1  0-TotalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  :: RF phase tuning
-11354 2  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning
-11354 3  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning
-11354 4  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning
-11354 5  5-Misc[all]  :: RF phase tuning
-11354 6  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning
-11354 7  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning
-11354 8  5-Misc[all]  :: RF phase tuning
-11354 9  5-Misc[all]  :: RF phase tuning
-11354 10  5-Misc[all]  :: RF phase tuning
-11354 11  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning
-11354 12  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning
-11354 13  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RF phase tuning
+11354 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 1  0-TotalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 2  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 3  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 4  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 5  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 6  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 7  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 8  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 9  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 10  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 11  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 12  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; fraction of events with defined helicity is low
+11354 13  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RF phase tuning; fraction of events with defined helicity is low
 
 RUN: 11356
 11356 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RF phase tuning; varied beam current
@@ -3294,446 +3294,446 @@ RUN: 11356
 11356 12  5-Misc[all]  :: RF phase tuning; varied beam current
 11356 13  5-Misc[all]  :: RF phase tuning; varied beam current
 11356 14  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 15  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 16  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 17  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 18  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 19  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 20  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 21  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 22  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 23  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 24  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 25  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 26  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 27  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 28  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 29  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current
-11356 30  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RF phase tuning; varied beam current
+11356 15  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 16  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 17  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 18  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 19  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 20  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 21  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 22  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 23  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 24  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 25  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 26  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 27  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 28  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 29  4-LowLiveTime[all]  5-Misc[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
+11356 30  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: RF phase tuning; varied beam current; fraction of events with defined helicity is low
 
 RUN: 11357
-11357 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.75) for most of the run
-11357 1  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 2  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 7  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 9  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 13  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 14  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 15  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 16  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 17  0-TotalOutlier[1, 2, 3, 5]  2-MarginalOutlier[4]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 18  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 27  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 29  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 30  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 31  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 32  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 33  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 34  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 35  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 36  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 37  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 38  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 39  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 40  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 41  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 42  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 43  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 44  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 45  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 46  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 47  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 48  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 49  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 50  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 51  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 52  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 53  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 54  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 55  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 56  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 57  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 58  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 59  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 60  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 61  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 62  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 63  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 64  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 65  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 66  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 67  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 68  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 69  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 70  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 71  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 72  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 73  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 74  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 75  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 76  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 77  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 78  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 79  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 80  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 81  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 82  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 83  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 84  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 85  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 86  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: low livetime (0.75) for most of the run
-11357 87  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 88  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 89  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 90  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 91  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 92  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 93  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 94  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 95  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 96  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 97  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 98  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 99  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 100  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 101  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 102  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 103  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 104  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 105  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 106  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 107  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 108  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 109  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 110  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 111  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 112  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 113  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 114  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 115  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 116  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 117  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 118  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 119  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 120  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 121  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 122  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 123  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 124  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 125  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 126  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 127  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 128  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 129  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 130  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 131  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 132  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 133  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 134  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 135  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 136  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 137  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 138  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 139  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 140  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 141  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 142  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 143  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 144  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 145  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 146  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 147  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 148  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 149  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 150  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 151  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 152  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 153  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 154  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 155  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 156  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 157  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 158  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 159  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 160  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 161  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 162  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 163  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 164  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 165  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 166  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 167  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 168  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 169  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 170  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 171  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 172  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 173  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 174  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 175  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 176  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 177  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 178  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 179  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 180  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 181  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 182  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 183  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 184  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 185  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 186  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 187  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 188  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 189  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 190  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 191  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 192  0-TotalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 193  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 194  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 195  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 196  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 197  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 198  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 199  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 200  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 201  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 202  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 203  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 204  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 205  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 206  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 207  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 208  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 209  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 210  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 211  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 212  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 213  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 214  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 215  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 216  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 217  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 218  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 219  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 220  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 221  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 222  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 223  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 224  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 225  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 226  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 227  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 228  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 229  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 230  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 231  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 232  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 233  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 234  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 235  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 236  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 237  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 238  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 239  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 240  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 241  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 242  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 243  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 244  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 245  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 246  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 247  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 248  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 249  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 250  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 251  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 252  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 253  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 254  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 255  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 256  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 257  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 258  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 259  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 260  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 261  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 262  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 263  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 264  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 265  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 266  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 267  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 268  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 269  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 270  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 271  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 272  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 273  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 274  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 275  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 276  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 277  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 278  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 279  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 280  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 281  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 282  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 283  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 284  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 285  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 286  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 287  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 288  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 289  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 290  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 291  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 292  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 293  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 294  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 295  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 296  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 297  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 298  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 299  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 300  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 301  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 302  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 303  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 304  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 305  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 306  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 307  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 308  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 309  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 310  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 311  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 312  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 313  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 314  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 315  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run
-11357 316  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.75) for most of the run
+11357 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 1  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 2  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 7  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 9  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 13  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 14  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 15  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 16  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 17  0-TotalOutlier[1, 2, 3, 5]  2-MarginalOutlier[4]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 18  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 27  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 29  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 30  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 31  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 32  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 33  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 34  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 35  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 36  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 37  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 38  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 39  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 40  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 41  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 42  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 43  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 44  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 45  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 46  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 47  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 48  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 49  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 50  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 51  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 52  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 53  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 54  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 55  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 56  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 57  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 58  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 59  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 60  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 61  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 62  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 63  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 64  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 65  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 66  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 67  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 68  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 69  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 70  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 71  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 72  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 73  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 74  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 75  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 76  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 77  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 78  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 79  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 80  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 81  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 82  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 83  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 84  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 85  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 86  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 87  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 88  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 89  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 90  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 91  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 92  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 93  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 94  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 95  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 96  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 97  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 98  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 99  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 100  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 101  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 102  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 103  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 104  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 105  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 106  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 107  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 108  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 109  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 110  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 111  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 112  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 113  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 114  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 115  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 116  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 117  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 118  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 119  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 120  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 121  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 122  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 123  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 124  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 125  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 126  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 127  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 128  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 129  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 130  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 131  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 132  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 133  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 134  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 135  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 136  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 137  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 138  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 139  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 140  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 141  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 142  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 143  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 144  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 145  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 146  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 147  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 148  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 149  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 150  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 151  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 152  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 153  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 154  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 155  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 156  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 157  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 158  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 159  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 160  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 161  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 162  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 163  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 164  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 165  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 166  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 167  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 168  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 169  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 170  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 171  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 172  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 173  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 174  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 175  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 176  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 177  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 178  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 179  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 180  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 181  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 182  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 183  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 184  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 185  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 186  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 187  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 188  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 189  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 190  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 191  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 192  0-TotalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 193  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 194  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 195  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 196  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 197  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 198  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 199  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 200  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 201  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 202  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 203  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 204  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 205  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 206  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 207  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 208  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 209  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 210  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 211  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 212  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 213  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 214  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 215  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 216  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 217  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 218  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 219  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 220  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 221  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 222  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 223  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 224  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 225  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 226  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 227  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 228  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 229  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 230  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 231  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 232  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 233  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 234  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 235  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 236  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 237  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 238  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 239  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 240  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 241  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 242  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 243  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 244  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 245  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 246  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 247  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 248  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 249  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 250  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 251  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 252  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 253  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 254  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 255  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 256  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 257  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 258  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 259  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 260  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 261  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 262  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 263  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 264  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 265  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 266  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 267  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 268  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 269  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 270  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 271  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 272  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 273  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 274  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 275  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 276  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 277  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 278  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 279  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 280  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 281  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 282  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 283  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 284  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 285  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 286  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 287  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 288  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 289  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 290  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 291  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 292  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 293  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 294  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 295  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 296  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 297  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 298  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 299  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 300  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 301  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 302  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 303  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 304  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 305  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 306  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 307  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 308  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 309  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 310  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 311  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 312  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 313  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 314  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 315  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
+11357 316  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low
 
 RUN: 11358
-11358 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run
-11358 1  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 2  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 7  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 9  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 13  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 14  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 15  2-MarginalOutlier[1]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 16  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 17  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 18  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 27  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 29  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 30  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 31  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 32  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 33  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 34  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 35  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 36  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 37  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 38  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 39  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 40  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 41  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 42  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 43  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 44  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 45  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 46  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 47  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 48  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 49  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 50  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 51  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 52  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 53  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 54  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 55  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 56  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 57  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 58  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 59  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 60  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 61  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 62  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 63  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 64  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 65  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 66  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 67  2-MarginalOutlier[4, 5]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 68  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 69  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 70  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 71  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 72  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 73  0-TotalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 74  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 76  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 77  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 78  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 79  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 81  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 82  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 83  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 84  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 86  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 87  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 88  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 89  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 90  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 91  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 92  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 93  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 94  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 95  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run
-11358 96  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 97  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 98  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 99  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 100  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 101  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run
-11358 102  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run
+11358 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 1  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 2  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 3  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 4  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 5  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 6  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 7  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 8  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 9  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 10  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 11  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 12  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 13  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 14  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 15  2-MarginalOutlier[1]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 16  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 17  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 18  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 19  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 20  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 21  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 22  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 23  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 24  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 25  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 26  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 27  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 28  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 29  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 30  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 31  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 32  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 33  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 34  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 35  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 36  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 37  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 38  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 39  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 40  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 41  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 42  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 43  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 44  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 45  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 46  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 47  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 48  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 49  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 50  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 51  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 52  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 53  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 54  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 55  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 56  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 57  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 58  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 59  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 60  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 61  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 62  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 63  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 64  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 65  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 66  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 67  2-MarginalOutlier[4, 5]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 68  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 69  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 70  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 71  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 72  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 73  0-TotalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 74  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 75  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 76  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 77  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 78  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 79  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 80  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 81  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 82  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 83  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 84  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 85  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 86  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 87  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 88  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 89  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 90  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 91  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 92  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 93  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 94  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 95  4-LowLiveTime[all]  5-Misc[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 96  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 97  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 98  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 99  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 100  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 101  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
+11358 102  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
 
 RUN: 11361
 11361 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
