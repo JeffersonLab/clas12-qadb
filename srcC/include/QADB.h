@@ -13,6 +13,10 @@
 #include <algorithm>
 
 namespace QA {
+
+  int const MISC_BIT     = 5;  // FIXME: should be obtained from `defect_definitions.json`
+  int const BSAWRONG_BIT = 10;
+
   class QADB {
     private:
 
@@ -178,6 +182,7 @@ namespace QA {
         return false;
       }
 
+
       //.................................
       // Faraday Cup charge
       //`````````````````````````````````
@@ -196,6 +201,22 @@ namespace QA {
       // reset accumulated charge, if you ever need to
       inline void ResetAccumulatedCharge() { chargeTotal = 0; };
 
+
+      //.................................
+      // Helicity Sign Correction
+      //`````````````````````````````````
+      // use this method to get the correct helicity sign:
+      // - this method returns -1 if the QA bin has the `BSAWrong` defect,
+      //   which indicates the helicity sign in the data is incorrect
+      // - therefore:
+      //   'true helicity' = 'helicity from data' * CorrectHelicitySign(run_number, event_number)
+      // - zero is returned, if the event is not found in the QADB
+      // - the return value is constant for a run, but is still assigned per QA bin, for
+      //   full generality
+      // - the return value may NOT be constant for all runs in a data set; for example,
+      //   deviations from the normal value happen when a single run is cooked with the
+      //   wrong HWP position
+      inline int CorrectHelicitySign(int runnum_, int evnum_);
 
 
     private:
@@ -487,9 +508,9 @@ namespace QA {
     if(!foundHere)
       return false;
     auto use_mask = mask;
-    if(this->HasDefectBit(5)) {
+    if(this->HasDefectBit(MISC_BIT)) {
       if(allowMiscBitList.find(runnum_) != allowMiscBitList.end())
-        use_mask &= ~(0x1 << 5); // set `use_mask`'s Misc bit to 0
+        use_mask &= ~(0x1 << MISC_BIT); // set `use_mask`'s Misc bit to 0
     }
     return !(defect & use_mask);
   }
@@ -661,6 +682,16 @@ namespace QA {
       chargeCounted = true;
     };
   };
+
+  //.................................
+  // Helicity Sign Correction
+  //`````````````````````````````````
+  int QADB::CorrectHelicitySign(int runnum_, int evnum_) {
+    bool foundHere = this->Query(runnum_,evnum_);
+    if(!foundHere)
+      return 0;
+    return this->HasDefectBit(BSAWRONG_BIT) ? -1 : 1;
+  }
 
 };
 
