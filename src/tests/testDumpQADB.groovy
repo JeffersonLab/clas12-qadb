@@ -76,6 +76,8 @@ runlistFile.eachLine { runnumStr ->
     // print comment
     println "comment: \"" + qa.getComment() + "\""
 
+    // print helicity sign correction
+    println "helicity sign: ${qa.correctHelicitySign(runnum, evnum)}"
 
     // print overall defect info
     println "- defect"
