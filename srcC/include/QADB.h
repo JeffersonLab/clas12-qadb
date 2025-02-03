@@ -14,8 +14,9 @@
 
 namespace QA {
 
-  int const MISC_BIT     = 5;  // FIXME: should be obtained from `defect_definitions.json`
-  int const BSAWRONG_BIT = 10;
+  int const MISC_BIT       = 5;  // FIXME: should be obtained from `defect_definitions.json`
+  int const BSAWRONG_BIT   = 10;
+  int const BSAUNKNOWN_BIT = 11;
 
   class QADB {
     private:
@@ -210,7 +211,8 @@ namespace QA {
       //   which indicates the helicity sign in the data is incorrect
       // - therefore:
       //   'true helicity' = 'helicity from data' * CorrectHelicitySign(run_number, event_number)
-      // - zero is returned, if the event is not found in the QADB
+      // - zero is returned, if the event is not found in the QADB or if the pion BSA
+      //   sign is not distinguishable from zero
       // - the return value is constant for a run, but is still assigned per QA bin, for
       //   full generality
       // - the return value may NOT be constant for all runs in a data set; for example,
@@ -689,6 +691,8 @@ namespace QA {
   int QADB::CorrectHelicitySign(int runnum_, int evnum_) {
     bool foundHere = this->Query(runnum_,evnum_);
     if(!foundHere)
+      return 0;
+    if(this->HasDefectBit(BSAUNKNOWN_BIT))
       return 0;
     return this->HasDefectBit(BSAWRONG_BIT) ? -1 : 1;
   }

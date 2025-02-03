@@ -7,8 +7,9 @@ import clasqa.Tools
 
 class QADB {
 
-  final MISC_BIT     = 5 // FIXME: should be obtained from `defect_definitions.json`
-  final BSAWRONG_BIT = 10
+  final MISC_BIT       = 5 // FIXME: should be obtained from `defect_definitions.json`
+  final BSAWRONG_BIT   = 10
+  final BSAUNKNOWN_BIT = 11
 
   //..............
   // constructor
@@ -482,7 +483,8 @@ class QADB {
   //   which indicates the helicity sign in the data is incorrect
   // - therefore:
   //   'true helicity' = 'helicity from data' * CorrectHelicitySign(run_number, event_number)
-  // - zero is returned, if the event is not found in the QADB
+  // - zero is returned, if the event is not found in the QADB or if the pion BSA
+  //   sign is not distinguishable from zero
   // - the return value is constant for a run, but is still assigned per QA bin, for
   //   full generality
   // - the return value may NOT be constant for all runs in a data set; for example,
@@ -491,6 +493,9 @@ class QADB {
   public int correctHelicitySign(int runnum_, int evnum_) {
     def foundHere = query(runnum_,evnum_)
     if(!foundHere) {
+      return 0
+    }
+    if(hasDefectBit(BSAUNKNOWN_BIT)) {
       return 0
     }
     return hasDefectBit(BSAWRONG_BIT) ? -1 : 1
