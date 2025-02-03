@@ -83,6 +83,8 @@ int main(int argc, char ** argv) {
       // print comment
       cout << "comment: \"" << qa->GetComment() << "\"" << endl;
 
+      // print helicity sign correction
+      cout << "helicity sign: " << qa->CorrectHelicitySign(runnum, evnum) << endl;
 
       // print overall defect info
       cout << "- defect" << endl;

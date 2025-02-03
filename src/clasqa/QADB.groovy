@@ -7,6 +7,10 @@ import clasqa.Tools
 
 class QADB {
 
+  final MISC_BIT       = 5 // FIXME: should be obtained from `defect_definitions.json`
+  final BSAWRONG_BIT   = 10
+  final BSAUNKNOWN_BIT = 11
+
   //..............
   // constructor
   //``````````````
@@ -264,9 +268,9 @@ class QADB {
       return false
     }
     def use_mask = mask
-    if(hasDefectBit(5)) {
+    if(hasDefectBit(MISC_BIT)) {
       if(runnum_ in allowMiscBitList) {
-        use_mask &= ~(0x1 << 5) // set `use_mask`'s Misc bit to 0
+        use_mask &= ~(0x1 << MISC_BIT) // set `use_mask`'s Misc bit to 0
       }
     }
     return foundHere && !(defect & use_mask)
@@ -470,6 +474,32 @@ class QADB {
   // reset accumulated charge, if you ever need to
   public void resetAccumulatedCharge() { chargeTotal = 0 }
 
+
+  //.................................
+  // Helicity Sign Correction
+  //`````````````````````````````````
+  // use this method to get the correct helicity sign:
+  // - this method returns -1 if the QA bin has the `BSAWrong` defect,
+  //   which indicates the helicity sign in the data is incorrect
+  // - therefore:
+  //   'true helicity' = 'helicity from data' * CorrectHelicitySign(run_number, event_number)
+  // - zero is returned, if the event is not found in the QADB or if the pion BSA
+  //   sign is not distinguishable from zero
+  // - the return value is constant for a run, but is still assigned per QA bin, for
+  //   full generality
+  // - the return value may NOT be constant for all runs in a data set; for example,
+  //   deviations from the normal value happen when a single run is cooked with the
+  //   wrong HWP position
+  public int correctHelicitySign(int runnum_, int evnum_) {
+    def foundHere = query(runnum_,evnum_)
+    if(!foundHere) {
+      return 0
+    }
+    if(hasDefectBit(BSAUNKNOWN_BIT)) {
+      return 0
+    }
+    return hasDefectBit(BSAWRONG_BIT) ? -1 : 1
+  }
 
 
   //===============================================================
