@@ -23,7 +23,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6169       | yes   | <pre>low lumi run, 10 nA</pre> |
 | 6170       | yes   | <pre>low lumi run, 10 nA</pre> |
 | 6189       | no    |  |
-| 6190       | no    |  |
+| 6190       | yes   | <pre>Run ended due to bug in trig file</pre> |
 | 6191       | no    |  |
 | 6193       | no    |  |
 | 6194       | no    |  |
@@ -42,8 +42,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6215       | no    |  |
 | 6216       | no    |  |
 | 6218       | no    |  |
-| 6219       | no    |  |
-| 6220       | no    |  |
+| 6219       | yes   | <pre>FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984</pre> |
+| 6220       | yes   | <pre>FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984</pre> |
 | 6221       | no    |  |
 | 6222       | yes   | <pre>production. Lots of beam trips and MVT channel trips.</pre> |
 | 6223       | no    |  |
@@ -79,7 +79,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6262       | yes   | <pre>empty target run</pre> |
 | 6263       | yes   | <pre>empty target run</pre> |
 | 6265       | yes   | <pre>band harp wire run</pre> |
-| 6266       | no    |  |
+| 6266       | yes   | <pre>possibly a test run after vtp libraries changed</pre> |
 | 6285       | no    |  |
 | 6286       | no    |  |
 | 6287       | yes   | <pre>mmft1 ROC issue; no helicity info</pre> |

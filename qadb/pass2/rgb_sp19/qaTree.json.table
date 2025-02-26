@@ -717,39 +717,39 @@ RUN: 6189
 6189 96  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6190
-6190 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6190 1  10-BSAWrong[all]
-6190 2  10-BSAWrong[all]
-6190 3  10-BSAWrong[all]
-6190 4  10-BSAWrong[all]
-6190 5  10-BSAWrong[all]
-6190 6  10-BSAWrong[all]
-6190 7  10-BSAWrong[all]
-6190 8  10-BSAWrong[all]
-6190 9  10-BSAWrong[all]
-6190 10  10-BSAWrong[all]
-6190 11  10-BSAWrong[all]
-6190 12  10-BSAWrong[all]
-6190 13  10-BSAWrong[all]
-6190 14  10-BSAWrong[all]
-6190 15  10-BSAWrong[all]
-6190 16  10-BSAWrong[all]
-6190 17  10-BSAWrong[all]
-6190 18  10-BSAWrong[all]
-6190 19  10-BSAWrong[all]
-6190 20  10-BSAWrong[all]
-6190 21  10-BSAWrong[all]
-6190 22  10-BSAWrong[all]
-6190 23  10-BSAWrong[all]
-6190 24  10-BSAWrong[all]
-6190 25  10-BSAWrong[all]
-6190 26  10-BSAWrong[all]
-6190 27  10-BSAWrong[all]
-6190 28  10-BSAWrong[all]
-6190 29  10-BSAWrong[all]
-6190 30  10-BSAWrong[all]
-6190 31  10-BSAWrong[all]
-6190 32  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6190 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: Run ended due to bug in trig file
+6190 1  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 2  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 3  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 4  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 5  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 6  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 7  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 8  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 9  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 10  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 11  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 12  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 13  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 14  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 15  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 16  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 17  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 18  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 19  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 20  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 21  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 22  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 23  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 24  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 25  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 26  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 27  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 28  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 29  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 30  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 31  5-Misc[all]  10-BSAWrong[all]  :: Run ended due to bug in trig file
+6190 32  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: Run ended due to bug in trig file
 
 RUN: 6191
 6191 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -1935,76 +1935,76 @@ RUN: 6218
 6218 60  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
 
 RUN: 6219
-6219 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6219 1  10-BSAWrong[all]
-6219 2  10-BSAWrong[all]
-6219 3  0-TotalOutlier[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]
-6219 4  10-BSAWrong[all]
-6219 5  10-BSAWrong[all]
-6219 6  10-BSAWrong[all]
-6219 7  10-BSAWrong[all]
-6219 8  10-BSAWrong[all]
-6219 9  10-BSAWrong[all]
-6219 10  10-BSAWrong[all]
-6219 11  10-BSAWrong[all]
-6219 12  10-BSAWrong[all]
-6219 13  10-BSAWrong[all]
-6219 14  10-BSAWrong[all]
-6219 15  10-BSAWrong[all]
-6219 16  10-BSAWrong[all]
-6219 17  10-BSAWrong[all]
-6219 18  10-BSAWrong[all]
-6219 19  10-BSAWrong[all]
-6219 20  10-BSAWrong[all]
-6219 21  10-BSAWrong[all]
-6219 22  10-BSAWrong[all]
-6219 23  10-BSAWrong[all]
-6219 24  10-BSAWrong[all]
-6219 25  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6219 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 1  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 2  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 3  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  10-BSAWrong[all]  19-PossiblyNoBeam[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 4  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 5  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 6  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 7  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 8  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 9  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 10  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 11  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 12  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 13  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 14  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 15  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 16  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 17  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 18  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 19  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 20  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 21  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 22  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 23  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 24  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6219 25  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
 
 RUN: 6220
-6220 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6220 1  4-LowLiveTime[all]  10-BSAWrong[all]
-6220 2  10-BSAWrong[all]
-6220 3  10-BSAWrong[all]
-6220 4  10-BSAWrong[all]
-6220 5  10-BSAWrong[all]
-6220 6  10-BSAWrong[all]
-6220 7  10-BSAWrong[all]
-6220 8  10-BSAWrong[all]
-6220 9  10-BSAWrong[all]
-6220 10  10-BSAWrong[all]
-6220 11  10-BSAWrong[all]
-6220 12  10-BSAWrong[all]
-6220 13  10-BSAWrong[all]
-6220 14  10-BSAWrong[all]
-6220 15  10-BSAWrong[all]
-6220 16  10-BSAWrong[all]
-6220 17  10-BSAWrong[all]
-6220 18  10-BSAWrong[all]
-6220 19  10-BSAWrong[all]
-6220 20  10-BSAWrong[all]
-6220 21  10-BSAWrong[all]
-6220 22  10-BSAWrong[all]
-6220 23  10-BSAWrong[all]
-6220 24  10-BSAWrong[all]
-6220 25  10-BSAWrong[all]
-6220 26  10-BSAWrong[all]
-6220 27  10-BSAWrong[all]
-6220 28  10-BSAWrong[all]
-6220 29  10-BSAWrong[all]
-6220 30  10-BSAWrong[all]
-6220 31  10-BSAWrong[all]
-6220 32  10-BSAWrong[all]
-6220 33  10-BSAWrong[all]
-6220 34  10-BSAWrong[all]
-6220 35  0-TotalOutlier[all]  10-BSAWrong[all]
-6220 36  10-BSAWrong[all]
-6220 37  10-BSAWrong[all]
-6220 38  10-BSAWrong[all]
-6220 39  10-BSAWrong[all]
-6220 40  10-BSAWrong[all]
-6220 41  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6220 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 1  4-LowLiveTime[all]  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 2  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 3  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 4  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 5  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 6  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 7  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 8  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 9  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 10  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 11  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 12  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 13  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 14  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 15  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 16  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 17  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 18  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 19  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 20  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 21  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 22  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 23  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 24  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 25  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 26  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 27  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 28  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 29  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 30  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 31  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 32  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 33  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 34  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 35  0-TotalOutlier[all]  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 36  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 37  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 38  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 39  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 40  5-Misc[all]  10-BSAWrong[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
+6220 41  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: FT alarm: B_DET_FTT_FEU:NActivecrates https://logbooks.jlab.org/entry/3652961. 3 NActive cates: https://logbooks.jlab.org/entry/3652984
 
 RUN: 6221
 6221 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
@@ -4826,11 +4826,11 @@ RUN: 6265
 6265 4  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: band harp wire run
 
 RUN: 6266
-6266 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
-6266 1  10-BSAWrong[all]
-6266 2  10-BSAWrong[all]
-6266 3  10-BSAWrong[all]
-6266 4  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
+6266 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: possibly a test run after vtp libraries changed
+6266 1  5-Misc[all]  10-BSAWrong[all]  :: possibly a test run after vtp libraries changed
+6266 2  5-Misc[all]  10-BSAWrong[all]  :: possibly a test run after vtp libraries changed
+6266 3  5-Misc[all]  10-BSAWrong[all]  :: possibly a test run after vtp libraries changed
+6266 4  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]  :: possibly a test run after vtp libraries changed
 
 RUN: 6285
 6285 0  1-TerminalOutlier[all]  3-SectorLoss[6]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  10-BSAWrong[all]  18-ChargeUnknown[all]
