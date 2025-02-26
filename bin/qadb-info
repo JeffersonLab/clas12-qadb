@@ -7,6 +7,9 @@ require 'optparse'
 require 'rubygems/text'
 include Gem::Text # for `format_text`
 
+# version number
+VERSION = '3.1.0'
+
 # get software info
 TopDir  = File.realpath(File.join __dir__, '..')
 QaDir   = File.realpath(File.join TopDir, 'qadb')
@@ -159,15 +162,8 @@ MISC OPTIONS"""
     exit
   end
   o.on('-v', '--version', 'print the QADB version number') do
-    ver = `cd #{TopDir} && git describe --tags --abbrev=0`
-    if $?.success?
-      puts ver
-      exit
-    else
-      $stderr.puts 'ERROR: version detection failed; if you are on `ifarm`, try `module info-loaded qadb`'
-      puts 'UNKNOWN'
-      exit 1
-    end
+    puts VERSION
+    exit
   end
   on_help o
 end
