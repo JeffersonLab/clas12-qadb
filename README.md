@@ -125,14 +125,14 @@ The following tables describe the available data sets in the QADB. The columns a
 
 ### Run Group B
 
-| Pass | Data Set Name and Timelines Link                                     | Run Range     | Status       | Data Files                                                                   |
-| ---  | ---                                                                  | ---           | ---          | ---                                                                          |
-| 2    | `rgb_sp19`                                                           | 6156 - 6603   | _TO DO_      | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst/recon/` |
-| 2    | `rgb_fa19`                                                           | 11093 - 11300 | _TO DO_      |                                                                              |
-| 2    | `rgb_wi20`                                                           | 11323 - 11571 | _TO DO_      |                                                                              |
-| 1    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary) | 6156 - 6603   | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst/recon`  |
-| 1    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary) | 11093 - 11300 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/fall2019/torus+1/pass1/v1/dst/recon`    |
-| 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary) | 11323 - 11571 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst/recon`  |
+| Pass | Data Set Name and Timelines Link                                                         | Run Range     | Status       | Data Directory                                                          | Data Files        |
+| ---  | ---                                                                                      | ---           | ---          | ---                                                                     | ---               |
+| 2    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass2/qa/sp19/rgb_sp19_sidisdvcs/tlsummary/) | 6156 - 6603   | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst`   | `sidisdvcs` train |
+| 2    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass2/qa/fa19/rgb_fa19_sidisdvcs/tlsummary/) | 11093 - 11300 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass2/v1/dst` | `sidisdvcs` train |
+| 2    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass2/qa/wi20/rgb_wi20_sidisdvcs/tlsummary/) | 11323 - 11571 | _Up-to-Date_ | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass2/v1/dst`   | `sidisdvcs` train |
+| 1    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary)                     | 6156 - 6603   | _Deprecated_ | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst`   | full DST files    |
+| 1    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary)                     | 11093 - 11300 | _Deprecated_ | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass1/v1/dst` | full DST files    |
+| 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary)                     | 11323 - 11571 | _Deprecated_ | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst`   | full DST files    |
 
 ### Run Group C
 
