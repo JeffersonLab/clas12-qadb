@@ -8,7 +8,7 @@ require 'rubygems/text'
 include Gem::Text # for `format_text`
 
 # version number
-VERSION = '3.1.0'
+VERSION = '3.2.0'
 
 # get software info
 TopDir  = File.realpath(File.join __dir__, '..')
