@@ -120,6 +120,12 @@ class QADB {
     chargeTotal = 0
     chargeCounted = false
     chargeCountedFiles = []
+    chargeHL = [:]
+    chargeHLTotalMinus = 0
+    chargeHLTotalZero = 0
+    chargeHLTotalPlus = 0
+    chargeHLCounted = false
+    chargeHLCountedFiles = []
     dep_warned_Golden = false
     dep_warned_OkForAsymmetry = false
     allowMiscBitList = []
@@ -384,6 +390,7 @@ class QADB {
       evnumMin = -1
       evnumMax = -1
       charge = -1
+      chargeHL = ["-1":-1,"0":-1,"1":-1]
       found = false
 
       if(qaTree["$runnum"]!=null) {
@@ -404,6 +411,16 @@ class QADB {
           chargeMax = chargeTree["$runnum"]["$filenum"]["fcChargeMax"]
           charge = chargeMax - chargeMin
           chargeCounted = false
+          
+          // pull out the Helicity-Latched charge from the chargeTree
+          if(chargeTree["$runnum"]["$filenum"].containsKey("fcChargeHelicity")){
+            chargeHL = chargeTree["$runnum"]["$filenum"]["fcChargeHelicity"]
+            chargeHLCounted = false
+          }else{
+            System.err << "WARNING: QADB::queryByFilenum, No fcChargeHelicity for " <<
+            "runnum=$runnum_ filenum=$filenum_\n"
+          }
+          
           found = true
         }
       }
@@ -475,6 +492,47 @@ class QADB {
   public void resetAccumulatedCharge() { chargeTotal = 0 }
 
 
+  //..................................................
+  // Faraday Cup Helicity-Latched charge accumulator
+  //``````````````````````````````````````````````````
+  // -- accumulator
+  // call this method after evaluating QA cuts (or at least after calling query())
+  // to add the current file's Helicity-Latched charge to the total;
+  public void accumulateChargeHL() {
+    if(!chargeHLCounted) {
+      if(!( [runnum,filenum] in chargeHLCountedFiles )) {
+        chargeHLTotalMinus += chargeHL["-1"]
+        chargeHLTotalZero += chargeHL["0"]
+        chargeHLTotalPlus += chargeHL["1"]
+        chargeHLCountedFiles << [runnum,filenum]
+      }
+      chargeHLCounted = true
+    }
+  }
+  // -- accessor
+  // call this method at the end of your event loop
+  // - input is the helicity state (-1,0,1)
+  public double getAccumulatedChargeHL(int state) {
+    def ret = -1
+    if(state==-1){
+      ret = chargeHLTotalMinus
+    }else if(state==0){
+      ret = chargeHLTotalZero
+    }else if(state==1){
+      ret = chargeHLTotalPlus
+    }else{
+      System.err << "Invalid helicity state $state.  Use -1, 0, or 1 \n"  
+    }
+    return ret
+  }
+  // reset accumulated charge, if you ever need to
+  public void resetAccumulatedChargeHL() {
+    chargeHLTotalMinus = 0
+    chargeHLTotalZero = 0
+    chargeHLTotalPlus = 0
+  }
+  
+  
   //.................................
   // Helicity Sign Correction
   //`````````````````````````````````
@@ -519,6 +577,12 @@ class QADB {
   private double charge,chargeMin,chargeMax,chargeTotal
   private boolean chargeCounted
   private def chargeCountedFiles
+  private chargeHL // Helicity Latched charge
+  private chargeHLTotalMinus // Helicity Latched charge accumulated sum for -1 state
+  private chargeHLTotalZero  // Helicity Latched charge accumulated sum for 0 state
+  private chargeHLTotalPlus  // Helicity Latched charge accumulated sum for +1 state
+  private boolean chargeHLCounted
+  private def chargeHLCountedFiles
   private int defect
   private def sectorDefect
   private String comment
