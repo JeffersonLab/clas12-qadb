@@ -20,7 +20,7 @@
   {
     "bit_number": 3,
     "bit_name": "SectorLoss",
-    "description": "FD electron N/F diminished for several consecutive QA bins",
+    "description": "FD electron N/F is an outlier and is diminished for several consecutive QA bins",
     "documentation": "For older datasets (RG-A,B,K,M pass 1), this bit _replaced_ the assignment of `TotalOutlier`, `TerminalOutlier`, and `MarginalOutlier`; newer datasets only add the `SectorLoss` bit and do not remove the outlier bits."
   },
   {
@@ -56,7 +56,7 @@
   {
     "bit_number": 9,
     "bit_name": "LossFT",
-    "description": "FT electron N/F diminished for several consecutive QA bins",
+    "description": "FT electron N/F is an outlier and is diminished for several consecutive QA bins",
     "documentation": "_cf_. `SectorLoss`."
   },
   {
