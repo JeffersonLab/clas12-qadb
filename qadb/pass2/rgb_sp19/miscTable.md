@@ -93,7 +93,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6305       | no    |  |
 | 6307       | no    |  |
 | 6308       | no    |  |
-| 6310       | no    |  |
+| 6310       | yes   | <pre>slight decrease in N/F for sector 2</pre> |
 | 6311       | no    |  |
 | 6313       | no    |  |
 | 6321       | no    |  |
@@ -115,7 +115,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6340       | no    |  |
 | 6341       | no    |  |
 | 6342       | yes   | <pre>alignment run</pre> |
-| 6346       | yes   | <pre>FC charge issue at beginning of run</pre> |
+| 6346       | yes   | <pre>FC charge issue at beginning of run</pre><pre>slight decrease in N/F for sector 3</pre> |
 | 6347       | no    |  |
 | 6348       | no    |  |
 | 6349       | no    |  |
@@ -125,11 +125,11 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6353       | no    |  |
 | 6354       | no    |  |
 | 6356       | yes   | <pre>FC charge issue at beginning of run</pre> |
-| 6357       | yes   | <pre>FC charge issue at beginning of run</pre> |
+| 6357       | yes   | <pre>FC charge issue at beginning of run; unstable yield, possibly due to 5 nA beam current</pre><pre>unstable yield, possibly due to 5 nA beam current</pre> |
 | 6359       | no    |  |
 | 6361       | no    |  |
 | 6362       | no    |  |
-| 6363       | no    |  |
+| 6363       | yes   | <pre>beam current at 40 nA instead of the usual 50 nA</pre> |
 | 6366       | no    |  |
 | 6367       | no    |  |
 | 6368       | no    |  |
@@ -139,7 +139,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6373       | yes   | <pre>low lumi run, 5 nA</pre> |
 | 6374       | yes   | <pre>low lumi run, 5 nA</pre> |
 | 6377       | no    |  |
-| 6378       | no    |  |
+| 6378       | yes   | <pre>only run with correct HWP sign, therefore pion BSA and helicity sign are correct</pre> |
 | 6379       | no    |  |
 | 6380       | no    |  |
 | 6381       | no    |  |
@@ -147,26 +147,26 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6383       | no    |  |
 | 6384       | no    |  |
 | 6385       | yes   | <pre>FC charge issue at beginning of run</pre> |
-| 6386       | yes   | <pre>no helicity info for QA bins 15 to 60</pre> |
+| 6386       | yes   | <pre>no helicity info for QA bins 15 to 60; both N and F are very low, but N/F looks normal; unknown cause</pre> |
 | 6389       | yes   | <pre>empty target run</pre> |
 | 6396       | yes   | <pre>no MVT1</pre> |
 | 6399       | no    |  |
-| 6420       | no    |  |
+| 6420       | yes   | <pre>Lower yields sector 6; DC sector 6 channel issues?</pre> |
 | 6421       | no    |  |
 | 6422       | no    |  |
 | 6426       | no    |  |
 | 6428       | no    |  |
 | 6429       | no    |  |
 | 6430       | no    |  |
-| 6431       | no    |  |
+| 6431       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6432       | no    |  |
 | 6433       | no    |  |
-| 6437       | no    |  |
-| 6442       | no    |  |
-| 6443       | no    |  |
-| 6444       | no    |  |
-| 6445       | no    |  |
-| 6446       | yes   | <pre>low lumi run, 5 nA</pre> |
+| 6437       | yes   | <pre>sector 2 yields slightly low, possibly due to dead ECout v strips; see https://logbooks.jlab.org/entry/3665957</pre> |
+| 6442       | yes   | <pre>sector 2 yields slightly low, possibly due to dead ECout v strips; see https://logbooks.jlab.org/entry/3665957</pre> |
+| 6443       | yes   | <pre>sector 2 yields slightly low, possibly due to dead ECout v strips; see https://logbooks.jlab.org/entry/3665957</pre> |
+| 6444       | yes   | <pre>sector 2 yields slightly low, possibly due to dead ECout v strips; see https://logbooks.jlab.org/entry/3665957</pre> |
+| 6445       | yes   | <pre>sector 2 yields slightly low, possibly due to dead ECout v strips; see https://logbooks.jlab.org/entry/3665957</pre> |
+| 6446       | yes   | <pre>low lumi run, 5 nA</pre><pre>low lumi run, 5 nA; sector 4 went down for the last several QA bins</pre> |
 | 6447       | yes   | <pre>low lumi run, 5 nA</pre> |
 | 6448       | yes   | <pre>low lumi run, 5 nA</pre> |
 | 6449       | no    |  |
@@ -180,16 +180,16 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6457       | no    |  |
 | 6458       | no    |  |
 | 6459       | no    |  |
-| 6460       | no    |  |
+| 6460       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6461       | no    |  |
 | 6462       | no    |  |
 | 6463       | no    |  |
 | 6464       | no    |  |
 | 6465       | no    |  |
-| 6466       | no    |  |
+| 6466       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6467       | no    |  |
 | 6468       | no    |  |
-| 6470       | no    |  |
+| 6470       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6471       | no    |  |
 | 6472       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6473       | no    |  |
@@ -227,12 +227,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6548       | yes   | <pre>many QA bins have low fraction of events with helicity info, starting from QA bin 31</pre> |
 | 6549       | no    |  |
 | 6550       | no    |  |
-| 6551       | yes   | <pre>mmft1 ROC busy; no helicity info</pre> |
-| 6557       | no    |  |
+| 6551       | yes   | <pre>mmft1 ROC busy; no helicity info; probably junk</pre> |
+| 6557       | yes   | <pre>N/F slightly lower for sector 6, from QA bin 75 onward</pre> |
 | 6558       | no    |  |
 | 6559       | no    |  |
 | 6560       | no    |  |
-| 6561       | yes   | <pre>unstable beam current in Hall B; beam tune to Hall C</pre> |
+| 6561       | yes   | <pre>unstable beam current in Hall B; beam tune to Hall C; missing DC channels; junk</pre> |
 | 6562       | yes   | <pre>beam current started at 40 nA, but was increased to 50 nA for the last 1/4 of the run</pre> |
 | 6563       | no    |  |
 | 6565       | no    |  |
@@ -254,7 +254,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 6587       | no    |  |
 | 6589       | no    |  |
 | 6590       | no    |  |
-| 6591       | no    |  |
+| 6591       | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 6592       | no    |  |
 | 6593       | no    |  |
 | 6595       | no    |  |
