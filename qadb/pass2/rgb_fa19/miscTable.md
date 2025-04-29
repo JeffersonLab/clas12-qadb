@@ -36,21 +36,21 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11117      | yes   | <pre>low lumi run, 7 nA</pre> |
 | 11119      | yes   | <pre>empty target run</pre> |
 | 11120      | yes   | <pre>low lumi run, 7 nA</pre> |
-| 11121      | no    |  |
+| 11121      | yes   | <pre>mild reduction in N/F for sector 2</pre> |
 | 11122      | no    |  |
 | 11124      | no    |  |
 | 11125      | no    |  |
-| 11126      | no    |  |
+| 11126      | yes   | <pre>Lower beam current; Running briefly at 20nA instead of 40nA</pre> |
 | 11127      | no    |  |
 | 11128      | no    |  |
 | 11129      | no    |  |
-| 11132      | yes   | <pre>N/F a bit higher than usual</pre> |
-| 11143      | yes   | <pre>FC charge issue</pre> |
+| 11132      | yes   | <pre>Higher normalized yields this run due to slightly smaller FC charge readouts</pre> |
+| 11143      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11156      | no    |  |
 | 11158      | no    |  |
 | 11159      | no    |  |
 | 11160      | no    |  |
-| 11162      | yes   | <pre>FC charge issue</pre> |
+| 11162      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11165      | no    |  |
 | 11171      | no    |  |
 | 11174      | no    |  |
@@ -83,7 +83,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11215      | no    |  |
 | 11218      | no    |  |
 | 11220      | no    |  |
-| 11221      | no    |  |
+| 11221      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11222      | no    |  |
 | 11223      | no    |  |
 | 11225      | no    |  |
@@ -112,7 +112,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11265      | no    |  |
 | 11266      | no    |  |
 | 11268      | no    |  |
-| 11269      | no    |  |
+| 11269      | yes   | <pre>Small reduction in N/F for sector 2</pre> |
 | 11270      | no    |  |
 | 11272      | no    |  |
 | 11273      | no    |  |

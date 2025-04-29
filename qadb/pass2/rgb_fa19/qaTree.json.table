@@ -6046,61 +6046,61 @@ RUN: 11121
 11121 218  GOLDEN
 11121 219  GOLDEN
 11121 220  GOLDEN
-11121 221  GOLDEN
-11121 222  GOLDEN
-11121 223  GOLDEN
-11121 224  GOLDEN
-11121 225  GOLDEN
-11121 226  GOLDEN
-11121 227  GOLDEN
-11121 228  GOLDEN
-11121 229  GOLDEN
-11121 230  GOLDEN
-11121 231  GOLDEN
-11121 232  GOLDEN
-11121 233  GOLDEN
-11121 234  GOLDEN
-11121 235  GOLDEN
-11121 236  GOLDEN
-11121 237  GOLDEN
-11121 238  GOLDEN
-11121 239  GOLDEN
-11121 240  GOLDEN
-11121 241  GOLDEN
-11121 242  GOLDEN
-11121 243  GOLDEN
-11121 244  GOLDEN
-11121 245  GOLDEN
-11121 246  GOLDEN
-11121 247  GOLDEN
-11121 248  GOLDEN
-11121 249  GOLDEN
-11121 250  GOLDEN
-11121 251  GOLDEN
-11121 252  GOLDEN
-11121 253  GOLDEN
-11121 254  GOLDEN
-11121 255  GOLDEN
-11121 256  GOLDEN
-11121 257  GOLDEN
-11121 258  GOLDEN
-11121 259  GOLDEN
-11121 260  GOLDEN
-11121 261  GOLDEN
-11121 262  GOLDEN
-11121 263  GOLDEN
-11121 264  GOLDEN
-11121 265  GOLDEN
-11121 266  4-LowLiveTime[all]
-11121 267  GOLDEN
-11121 268  GOLDEN
-11121 269  GOLDEN
-11121 270  GOLDEN
-11121 271  GOLDEN
-11121 272  GOLDEN
-11121 273  GOLDEN
-11121 274  GOLDEN
-11121 275  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11121 221  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 222  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 223  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 224  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 225  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 226  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 227  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 228  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 229  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 230  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 231  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 232  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 233  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 234  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 235  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 236  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 237  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 238  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 239  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 240  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 241  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 242  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 243  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 244  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 245  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 246  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 247  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 248  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 249  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 250  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 251  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 252  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 253  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 254  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 255  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 256  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 257  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 258  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 259  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 260  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 261  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 262  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 263  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 264  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 265  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 266  4-LowLiveTime[all]  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 267  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 268  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 269  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 270  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 271  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 272  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 273  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 274  5-Misc[2]  :: mild reduction in N/F for sector 2
+11121 275  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[2]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: mild reduction in N/F for sector 2
 
 RUN: 11122
 11122 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -7519,19 +7519,19 @@ RUN: 11126
 11126 42  GOLDEN
 11126 43  GOLDEN
 11126 44  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]
-11126 45  2-MarginalOutlier[1]
-11126 46  GOLDEN
-11126 47  GOLDEN
-11126 48  GOLDEN
-11126 49  GOLDEN
-11126 50  GOLDEN
-11126 51  GOLDEN
-11126 52  GOLDEN
-11126 53  GOLDEN
-11126 54  GOLDEN
-11126 55  GOLDEN
-11126 56  GOLDEN
-11126 57  GOLDEN
+11126 45  2-MarginalOutlier[1]  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 46  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 47  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 48  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 49  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 50  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 51  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 52  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 53  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 54  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 55  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 56  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
+11126 57  5-Misc[all]  :: Lower beam current; Running briefly at 20nA instead of 40nA
 11126 58  GOLDEN
 11126 59  GOLDEN
 11126 60  GOLDEN
@@ -9125,197 +9125,197 @@ RUN: 11129
 11129 540  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11132
-11132 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: N/F a bit higher than usual
-11132 1  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 2  5-Misc[all]  :: N/F a bit higher than usual
-11132 3  5-Misc[all]  :: N/F a bit higher than usual
-11132 4  5-Misc[all]  :: N/F a bit higher than usual
-11132 5  5-Misc[all]  :: N/F a bit higher than usual
-11132 6  5-Misc[all]  :: N/F a bit higher than usual
-11132 7  5-Misc[all]  :: N/F a bit higher than usual
-11132 8  5-Misc[all]  :: N/F a bit higher than usual
-11132 9  5-Misc[all]  :: N/F a bit higher than usual
-11132 10  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 11  5-Misc[all]  :: N/F a bit higher than usual
-11132 12  5-Misc[all]  :: N/F a bit higher than usual
-11132 13  5-Misc[all]  :: N/F a bit higher than usual
-11132 14  5-Misc[all]  :: N/F a bit higher than usual
-11132 15  5-Misc[all]  :: N/F a bit higher than usual
-11132 16  5-Misc[all]  :: N/F a bit higher than usual
-11132 17  5-Misc[all]  :: N/F a bit higher than usual
-11132 18  5-Misc[all]  :: N/F a bit higher than usual
-11132 19  5-Misc[all]  :: N/F a bit higher than usual
-11132 20  5-Misc[all]  :: N/F a bit higher than usual
-11132 21  5-Misc[all]  :: N/F a bit higher than usual
-11132 22  5-Misc[all]  :: N/F a bit higher than usual
-11132 23  5-Misc[all]  :: N/F a bit higher than usual
-11132 24  5-Misc[all]  :: N/F a bit higher than usual
-11132 25  2-MarginalOutlier[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 26  2-MarginalOutlier[6]  5-Misc[all]  :: N/F a bit higher than usual
-11132 27  5-Misc[all]  :: N/F a bit higher than usual
-11132 28  5-Misc[all]  :: N/F a bit higher than usual
-11132 29  5-Misc[all]  :: N/F a bit higher than usual
-11132 30  5-Misc[all]  :: N/F a bit higher than usual
-11132 31  5-Misc[all]  :: N/F a bit higher than usual
-11132 32  5-Misc[all]  :: N/F a bit higher than usual
-11132 33  5-Misc[all]  :: N/F a bit higher than usual
-11132 34  5-Misc[all]  :: N/F a bit higher than usual
-11132 35  5-Misc[all]  :: N/F a bit higher than usual
-11132 36  5-Misc[all]  :: N/F a bit higher than usual
-11132 37  5-Misc[all]  :: N/F a bit higher than usual
-11132 38  5-Misc[all]  :: N/F a bit higher than usual
-11132 39  5-Misc[all]  :: N/F a bit higher than usual
-11132 40  5-Misc[all]  :: N/F a bit higher than usual
-11132 41  2-MarginalOutlier[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 42  5-Misc[all]  :: N/F a bit higher than usual
-11132 43  5-Misc[all]  :: N/F a bit higher than usual
-11132 44  5-Misc[all]  :: N/F a bit higher than usual
-11132 45  5-Misc[all]  :: N/F a bit higher than usual
-11132 46  5-Misc[all]  :: N/F a bit higher than usual
-11132 47  5-Misc[all]  :: N/F a bit higher than usual
-11132 48  5-Misc[all]  :: N/F a bit higher than usual
-11132 49  2-MarginalOutlier[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 50  2-MarginalOutlier[3]  5-Misc[all]  :: N/F a bit higher than usual
-11132 51  5-Misc[all]  :: N/F a bit higher than usual
-11132 52  5-Misc[all]  :: N/F a bit higher than usual
-11132 53  2-MarginalOutlier[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 54  5-Misc[all]  :: N/F a bit higher than usual
-11132 55  5-Misc[all]  :: N/F a bit higher than usual
-11132 56  5-Misc[all]  :: N/F a bit higher than usual
-11132 57  5-Misc[all]  :: N/F a bit higher than usual
-11132 58  5-Misc[all]  :: N/F a bit higher than usual
-11132 59  5-Misc[all]  :: N/F a bit higher than usual
-11132 60  2-MarginalOutlier[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 61  0-TotalOutlier[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 62  5-Misc[all]  :: N/F a bit higher than usual
-11132 63  5-Misc[all]  :: N/F a bit higher than usual
-11132 64  5-Misc[all]  :: N/F a bit higher than usual
-11132 65  5-Misc[all]  :: N/F a bit higher than usual
-11132 66  5-Misc[all]  :: N/F a bit higher than usual
-11132 67  2-MarginalOutlier[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 68  5-Misc[all]  :: N/F a bit higher than usual
-11132 69  5-Misc[all]  :: N/F a bit higher than usual
-11132 70  5-Misc[all]  :: N/F a bit higher than usual
-11132 71  5-Misc[all]  :: N/F a bit higher than usual
-11132 72  5-Misc[all]  :: N/F a bit higher than usual
-11132 73  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 74  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 75  5-Misc[all]  :: N/F a bit higher than usual
-11132 76  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 77  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 78  5-Misc[all]  :: N/F a bit higher than usual
-11132 79  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 80  5-Misc[all]  :: N/F a bit higher than usual
-11132 81  5-Misc[all]  :: N/F a bit higher than usual
-11132 82  5-Misc[all]  :: N/F a bit higher than usual
-11132 83  5-Misc[all]  :: N/F a bit higher than usual
-11132 84  5-Misc[all]  :: N/F a bit higher than usual
-11132 85  5-Misc[all]  :: N/F a bit higher than usual
-11132 86  5-Misc[all]  :: N/F a bit higher than usual
-11132 87  5-Misc[all]  :: N/F a bit higher than usual
-11132 88  5-Misc[all]  :: N/F a bit higher than usual
-11132 89  5-Misc[all]  :: N/F a bit higher than usual
-11132 90  5-Misc[all]  :: N/F a bit higher than usual
-11132 91  5-Misc[all]  :: N/F a bit higher than usual
-11132 92  5-Misc[all]  :: N/F a bit higher than usual
-11132 93  5-Misc[all]  :: N/F a bit higher than usual
-11132 94  5-Misc[all]  :: N/F a bit higher than usual
-11132 95  5-Misc[all]  :: N/F a bit higher than usual
-11132 96  5-Misc[all]  :: N/F a bit higher than usual
-11132 97  5-Misc[all]  :: N/F a bit higher than usual
-11132 98  5-Misc[all]  :: N/F a bit higher than usual
-11132 99  5-Misc[all]  :: N/F a bit higher than usual
-11132 100  5-Misc[all]  :: N/F a bit higher than usual
-11132 101  5-Misc[all]  :: N/F a bit higher than usual
-11132 102  5-Misc[all]  :: N/F a bit higher than usual
-11132 103  5-Misc[all]  :: N/F a bit higher than usual
-11132 104  5-Misc[all]  :: N/F a bit higher than usual
-11132 105  5-Misc[all]  :: N/F a bit higher than usual
-11132 106  5-Misc[all]  :: N/F a bit higher than usual
-11132 107  5-Misc[all]  :: N/F a bit higher than usual
-11132 108  5-Misc[all]  :: N/F a bit higher than usual
-11132 109  5-Misc[all]  :: N/F a bit higher than usual
-11132 110  5-Misc[all]  :: N/F a bit higher than usual
-11132 111  5-Misc[all]  :: N/F a bit higher than usual
-11132 112  5-Misc[all]  :: N/F a bit higher than usual
-11132 113  5-Misc[all]  :: N/F a bit higher than usual
-11132 114  5-Misc[all]  :: N/F a bit higher than usual
-11132 115  5-Misc[all]  :: N/F a bit higher than usual
-11132 116  5-Misc[all]  :: N/F a bit higher than usual
-11132 117  5-Misc[all]  :: N/F a bit higher than usual
-11132 118  5-Misc[all]  :: N/F a bit higher than usual
-11132 119  5-Misc[all]  :: N/F a bit higher than usual
-11132 120  5-Misc[all]  :: N/F a bit higher than usual
-11132 121  5-Misc[all]  :: N/F a bit higher than usual
-11132 122  5-Misc[all]  :: N/F a bit higher than usual
-11132 123  5-Misc[all]  :: N/F a bit higher than usual
-11132 124  5-Misc[all]  :: N/F a bit higher than usual
-11132 125  5-Misc[all]  :: N/F a bit higher than usual
-11132 126  5-Misc[all]  :: N/F a bit higher than usual
-11132 127  5-Misc[all]  :: N/F a bit higher than usual
-11132 128  5-Misc[all]  :: N/F a bit higher than usual
-11132 129  5-Misc[all]  :: N/F a bit higher than usual
-11132 130  5-Misc[all]  :: N/F a bit higher than usual
-11132 131  5-Misc[all]  :: N/F a bit higher than usual
-11132 132  5-Misc[all]  :: N/F a bit higher than usual
-11132 133  2-MarginalOutlier[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 134  5-Misc[all]  :: N/F a bit higher than usual
-11132 135  5-Misc[all]  :: N/F a bit higher than usual
-11132 136  5-Misc[all]  :: N/F a bit higher than usual
-11132 137  5-Misc[all]  :: N/F a bit higher than usual
-11132 138  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 139  5-Misc[all]  :: N/F a bit higher than usual
-11132 140  5-Misc[all]  :: N/F a bit higher than usual
-11132 141  5-Misc[all]  :: N/F a bit higher than usual
-11132 142  4-LowLiveTime[all]  5-Misc[all]  :: N/F a bit higher than usual
-11132 143  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  :: N/F a bit higher than usual
-11132 144  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  :: N/F a bit higher than usual
-11132 145  5-Misc[all]  :: N/F a bit higher than usual
-11132 146  5-Misc[all]  :: N/F a bit higher than usual
-11132 147  5-Misc[all]  :: N/F a bit higher than usual
-11132 148  5-Misc[all]  :: N/F a bit higher than usual
-11132 149  5-Misc[all]  :: N/F a bit higher than usual
-11132 150  5-Misc[all]  :: N/F a bit higher than usual
-11132 151  5-Misc[all]  :: N/F a bit higher than usual
-11132 152  5-Misc[all]  :: N/F a bit higher than usual
-11132 153  5-Misc[all]  :: N/F a bit higher than usual
-11132 154  5-Misc[all]  :: N/F a bit higher than usual
-11132 155  5-Misc[all]  :: N/F a bit higher than usual
-11132 156  5-Misc[all]  :: N/F a bit higher than usual
-11132 157  5-Misc[all]  :: N/F a bit higher than usual
-11132 158  5-Misc[all]  :: N/F a bit higher than usual
-11132 159  5-Misc[all]  :: N/F a bit higher than usual
-11132 160  5-Misc[all]  :: N/F a bit higher than usual
-11132 161  2-MarginalOutlier[1, 3, 6]  5-Misc[all]  :: N/F a bit higher than usual
-11132 162  5-Misc[all]  :: N/F a bit higher than usual
-11132 163  5-Misc[all]  :: N/F a bit higher than usual
-11132 164  5-Misc[all]  :: N/F a bit higher than usual
-11132 165  5-Misc[all]  :: N/F a bit higher than usual
-11132 166  5-Misc[all]  :: N/F a bit higher than usual
-11132 167  5-Misc[all]  :: N/F a bit higher than usual
-11132 168  5-Misc[all]  :: N/F a bit higher than usual
-11132 169  5-Misc[all]  :: N/F a bit higher than usual
-11132 170  5-Misc[all]  :: N/F a bit higher than usual
-11132 171  5-Misc[all]  :: N/F a bit higher than usual
-11132 172  5-Misc[all]  :: N/F a bit higher than usual
-11132 173  5-Misc[all]  :: N/F a bit higher than usual
-11132 174  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: N/F a bit higher than usual
-11132 175  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: N/F a bit higher than usual
-11132 176  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: N/F a bit higher than usual
-11132 177  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: N/F a bit higher than usual
+11132 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 1  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 2  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 3  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 4  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 5  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 6  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 7  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 8  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 9  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 10  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 11  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 12  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 13  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 14  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 15  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 16  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 17  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 18  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 19  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 20  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 21  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 22  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 23  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 24  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 25  2-MarginalOutlier[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 26  2-MarginalOutlier[6]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 27  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 28  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 29  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 30  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 31  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 32  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 33  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 34  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 35  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 36  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 37  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 38  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 39  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 40  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 41  2-MarginalOutlier[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 42  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 43  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 44  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 45  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 46  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 47  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 48  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 49  2-MarginalOutlier[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 50  2-MarginalOutlier[3]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 51  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 52  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 53  2-MarginalOutlier[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 54  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 55  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 56  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 57  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 58  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 59  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 60  2-MarginalOutlier[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 61  0-TotalOutlier[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 62  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 63  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 64  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 65  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 66  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 67  2-MarginalOutlier[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 68  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 69  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 70  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 71  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 72  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 73  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 74  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 75  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 76  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 77  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 78  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 79  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 80  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 81  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 82  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 83  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 84  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 85  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 86  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 87  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 88  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 89  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 90  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 91  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 92  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 93  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 94  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 95  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 96  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 97  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 98  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 99  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 100  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 101  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 102  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 103  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 104  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 105  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 106  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 107  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 108  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 109  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 110  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 111  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 112  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 113  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 114  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 115  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 116  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 117  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 118  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 119  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 120  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 121  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 122  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 123  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 124  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 125  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 126  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 127  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 128  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 129  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 130  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 131  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 132  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 133  2-MarginalOutlier[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 134  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 135  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 136  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 137  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 138  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 139  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 140  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 141  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 142  4-LowLiveTime[all]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 143  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 144  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 145  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 146  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 147  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 148  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 149  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 150  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 151  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 152  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 153  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 154  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 155  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 156  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 157  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 158  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 159  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 160  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 161  2-MarginalOutlier[1, 3, 6]  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 162  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 163  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 164  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 165  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 166  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 167  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 168  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 169  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 170  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 171  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 172  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 173  5-Misc[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 174  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 175  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 176  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  17-ChargeNegative[all]  19-PossiblyNoBeam[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
+11132 177  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: Higher normalized yields this run due to slightly smaller FC charge readouts
 
 RUN: 11143
-11143 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue
-11143 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]  :: FC charge issue
-11143 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue
-11143 3  0-TotalOutlier[1, 2, 3, 4, 6]  2-MarginalOutlier[5]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue
-11143 4  2-MarginalOutlier[3, 5]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue
-11143 5  4-LowLiveTime[all]
-11143 6  4-LowLiveTime[all]
-11143 7  4-LowLiveTime[all]
-11143 8  4-LowLiveTime[all]
-11143 9  4-LowLiveTime[all]
-11143 10  4-LowLiveTime[all]
+11143 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+11143 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]  :: FC charge issue at beginning of run
+11143 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue at beginning of run
+11143 3  0-TotalOutlier[1, 2, 3, 4, 6]  2-MarginalOutlier[5]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11143 4  2-MarginalOutlier[3, 5]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11143 5  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11143 6  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11143 7  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11143 8  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11143 9  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11143 10  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
 11143 11  GOLDEN
 11143 12  GOLDEN
 11143 13  GOLDEN
@@ -11154,20 +11154,20 @@ RUN: 11160
 11160 39  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11162
-11162 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue
-11162 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]  :: FC charge issue
-11162 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue
-11162 3  4-LowLiveTime[all]
-11162 4  4-LowLiveTime[all]
-11162 5  2-MarginalOutlier[4]  4-LowLiveTime[all]
-11162 6  4-LowLiveTime[all]
-11162 7  4-LowLiveTime[all]
-11162 8  4-LowLiveTime[all]
-11162 9  4-LowLiveTime[all]
-11162 10  4-LowLiveTime[all]
-11162 11  4-LowLiveTime[all]
-11162 12  4-LowLiveTime[all]
-11162 13  4-LowLiveTime[all]
+11162 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+11162 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]  :: FC charge issue at beginning of run
+11162 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue at beginning of run
+11162 3  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 4  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 5  2-MarginalOutlier[4]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 6  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 7  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 8  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 9  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 10  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 11  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 12  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11162 13  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
 11162 14  GOLDEN
 11162 15  GOLDEN
 11162 16  GOLDEN
@@ -14291,10 +14291,10 @@ RUN: 11195
 11195 16  GOLDEN
 11195 17  GOLDEN
 11195 18  2-MarginalOutlier[all]  5-Misc[all]  :: trigger bit alarm
-11195 19  0-TotalOutlier[3, 4]  2-MarginalOutlier[1, 2, 5, 6]  5-Misc[all]  8-MarginalOutlierFT[1]  19-PossiblyNoBeam[4]  :: trigger bit alarm
-11195 20  0-TotalOutlier[4]  5-Misc[all]  :: trigger bit alarm
-11195 21  0-TotalOutlier[4]  5-Misc[all]  19-PossiblyNoBeam[4]  :: trigger bit alarm
-11195 22  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: trigger bit alarm
+11195 19  0-TotalOutlier[3, 4]  2-MarginalOutlier[1, 2, 5, 6]  3-SectorLoss[4]  5-Misc[all]  8-MarginalOutlierFT[1]  19-PossiblyNoBeam[4]  :: trigger bit alarm
+11195 20  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: trigger bit alarm
+11195 21  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  19-PossiblyNoBeam[4]  :: trigger bit alarm
+11195 22  1-TerminalOutlier[all]  3-SectorLoss[4]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: trigger bit alarm
 
 RUN: 11197
 11197 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -17966,9 +17966,9 @@ RUN: 11220
 11220 267  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11221
-11221 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11221 1  2-MarginalOutlier[4]  4-LowLiveTime[all]  16-ChargeHigh[all]
-11221 2  4-LowLiveTime[all]
+11221 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+11221 1  2-MarginalOutlier[4]  4-LowLiveTime[all]  5-Misc[all]  16-ChargeHigh[all]  :: FC charge issue at beginning of run
+11221 2  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
 11221 3  GOLDEN
 11221 4  GOLDEN
 11221 5  GOLDEN
@@ -23402,81 +23402,81 @@ RUN: 11269
 11269 189  GOLDEN
 11269 190  GOLDEN
 11269 191  GOLDEN
-11269 192  GOLDEN
-11269 193  GOLDEN
-11269 194  GOLDEN
-11269 195  GOLDEN
-11269 196  GOLDEN
-11269 197  GOLDEN
-11269 198  GOLDEN
-11269 199  GOLDEN
-11269 200  GOLDEN
-11269 201  GOLDEN
-11269 202  GOLDEN
-11269 203  GOLDEN
-11269 204  GOLDEN
-11269 205  GOLDEN
-11269 206  GOLDEN
-11269 207  GOLDEN
-11269 208  GOLDEN
-11269 209  GOLDEN
-11269 210  GOLDEN
-11269 211  GOLDEN
-11269 212  GOLDEN
-11269 213  GOLDEN
-11269 214  GOLDEN
-11269 215  GOLDEN
-11269 216  GOLDEN
-11269 217  GOLDEN
-11269 218  GOLDEN
-11269 219  GOLDEN
-11269 220  GOLDEN
-11269 221  GOLDEN
-11269 222  GOLDEN
-11269 223  GOLDEN
-11269 224  GOLDEN
-11269 225  GOLDEN
-11269 226  GOLDEN
-11269 227  GOLDEN
-11269 228  GOLDEN
-11269 229  GOLDEN
-11269 230  GOLDEN
-11269 231  GOLDEN
-11269 232  GOLDEN
-11269 233  GOLDEN
-11269 234  GOLDEN
-11269 235  GOLDEN
-11269 236  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 6]
-11269 237  GOLDEN
-11269 238  GOLDEN
-11269 239  GOLDEN
-11269 240  GOLDEN
-11269 241  GOLDEN
-11269 242  GOLDEN
-11269 243  GOLDEN
-11269 244  GOLDEN
-11269 245  GOLDEN
-11269 246  GOLDEN
-11269 247  GOLDEN
-11269 248  GOLDEN
-11269 249  GOLDEN
-11269 250  GOLDEN
-11269 251  GOLDEN
-11269 252  GOLDEN
-11269 253  GOLDEN
-11269 254  GOLDEN
-11269 255  4-LowLiveTime[all]
-11269 256  GOLDEN
-11269 257  4-LowLiveTime[all]
-11269 258  GOLDEN
-11269 259  4-LowLiveTime[all]
-11269 260  GOLDEN
-11269 261  GOLDEN
-11269 262  4-LowLiveTime[all]
-11269 263  GOLDEN
-11269 264  GOLDEN
-11269 265  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11269 266  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11269 192  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 193  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 194  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 195  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 196  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 197  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 198  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 199  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 200  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 201  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 202  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 203  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 204  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 205  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 206  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 207  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 208  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 209  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 210  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 211  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 212  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 213  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 214  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 215  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 216  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 217  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 218  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 219  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 220  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 221  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 222  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 223  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 224  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 225  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 226  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 227  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 228  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 229  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 230  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 231  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 232  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 233  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 234  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 235  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 236  0-TotalOutlier[2]  2-MarginalOutlier[1, 3, 4, 6]  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 237  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 238  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 239  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 240  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 241  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 242  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 243  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 244  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 245  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 246  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 247  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 248  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 249  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 250  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 251  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 252  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 253  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 254  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 255  4-LowLiveTime[all]  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 256  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 257  4-LowLiveTime[all]  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 258  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 259  4-LowLiveTime[all]  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 260  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 261  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 262  4-LowLiveTime[all]  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 263  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 264  5-Misc[2]  :: Small reduction in N/F for sector 2
+11269 265  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[2]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: Small reduction in N/F for sector 2
+11269 266  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[2]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: Small reduction in N/F for sector 2
 
 RUN: 11270
 11270 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
