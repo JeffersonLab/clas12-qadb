@@ -518,7 +518,7 @@ class QADB {
     }else if(state==1){
       ret = chargeHLTotalPlus
     }else{
-      throw new Exception("Invalid helicity state $state.  Use -1, 0, or 1")
+      throw new RuntimeException("Invalid helicity state $state.  Use -1, 0, or 1")
     }
     return ret
   }
