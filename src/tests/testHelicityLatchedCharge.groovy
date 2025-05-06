@@ -20,11 +20,8 @@ def HLstate = [-1,0,1]
 def runnumList = [
   5695,
   16042,
-  16043,
-  16044,
-  16047,
-  16048,
-  16049
+  16049,
+  16138
 ]
 
 // specify QA criteria

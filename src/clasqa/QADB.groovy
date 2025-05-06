@@ -416,9 +416,6 @@ class QADB {
           if(chargeTree["$runnum"]["$filenum"].containsKey("fcChargeHelicity")){
             chargeHL = chargeTree["$runnum"]["$filenum"]["fcChargeHelicity"]
             chargeHLCounted = false
-          }else{
-            System.err << "WARNING: QADB::queryByFilenum, No fcChargeHelicity for " <<
-            "runnum=$runnum_ filenum=$filenum_\n"
           }
           
           found = true
@@ -521,7 +518,7 @@ class QADB {
     }else if(state==1){
       ret = chargeHLTotalPlus
     }else{
-      System.err << "Invalid helicity state $state.  Use -1, 0, or 1 \n"  
+      throw new Exception("Invalid helicity state $state.  Use -1, 0, or 1")
     }
     return ret
   }
@@ -577,10 +574,10 @@ class QADB {
   private double charge,chargeMin,chargeMax,chargeTotal
   private boolean chargeCounted
   private def chargeCountedFiles
-  private chargeHL // Helicity Latched charge
-  private chargeHLTotalMinus // Helicity Latched charge accumulated sum for -1 state
-  private chargeHLTotalZero  // Helicity Latched charge accumulated sum for 0 state
-  private chargeHLTotalPlus  // Helicity Latched charge accumulated sum for +1 state
+  private double chargeHL // Helicity Latched charge
+  private double chargeHLTotalMinus // Helicity Latched charge accumulated sum for -1 state
+  private double chargeHLTotalZero  // Helicity Latched charge accumulated sum for 0 state
+  private double chargeHLTotalPlus  // Helicity Latched charge accumulated sum for +1 state
   private boolean chargeHLCounted
   private def chargeHLCountedFiles
   private int defect
