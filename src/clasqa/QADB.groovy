@@ -574,7 +574,7 @@ class QADB {
   private double charge,chargeMin,chargeMax,chargeTotal
   private boolean chargeCounted
   private def chargeCountedFiles
-  private double chargeHL // Helicity Latched charge
+  private def chargeHL // Helicity Latched charge
   private double chargeHLTotalMinus // Helicity Latched charge accumulated sum for -1 state
   private double chargeHLTotalZero  // Helicity Latched charge accumulated sum for 0 state
   private double chargeHLTotalPlus  // Helicity Latched charge accumulated sum for +1 state
