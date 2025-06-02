@@ -1081,949 +1081,949 @@ RUN: 11328
 11328 318  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11329
-11329 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11329 1  4-LowLiveTime[all]
-11329 2  GOLDEN
-11329 3  GOLDEN
-11329 4  GOLDEN
-11329 5  GOLDEN
-11329 6  GOLDEN
-11329 7  GOLDEN
-11329 8  GOLDEN
-11329 9  GOLDEN
-11329 10  GOLDEN
-11329 11  GOLDEN
-11329 12  GOLDEN
-11329 13  GOLDEN
-11329 14  GOLDEN
-11329 15  GOLDEN
-11329 16  GOLDEN
-11329 17  GOLDEN
-11329 18  GOLDEN
-11329 19  GOLDEN
-11329 20  GOLDEN
-11329 21  GOLDEN
-11329 22  GOLDEN
-11329 23  GOLDEN
-11329 24  GOLDEN
-11329 25  GOLDEN
-11329 26  GOLDEN
-11329 27  GOLDEN
-11329 28  GOLDEN
-11329 29  GOLDEN
-11329 30  GOLDEN
-11329 31  GOLDEN
-11329 32  GOLDEN
-11329 33  GOLDEN
-11329 34  GOLDEN
-11329 35  GOLDEN
-11329 36  GOLDEN
-11329 37  GOLDEN
-11329 38  GOLDEN
-11329 39  GOLDEN
-11329 40  GOLDEN
-11329 41  GOLDEN
-11329 42  GOLDEN
-11329 43  GOLDEN
-11329 44  GOLDEN
-11329 45  GOLDEN
-11329 46  GOLDEN
-11329 47  GOLDEN
-11329 48  GOLDEN
-11329 49  GOLDEN
-11329 50  GOLDEN
-11329 51  GOLDEN
-11329 52  GOLDEN
-11329 53  GOLDEN
-11329 54  GOLDEN
-11329 55  GOLDEN
-11329 56  GOLDEN
-11329 57  GOLDEN
-11329 58  GOLDEN
-11329 59  GOLDEN
-11329 60  GOLDEN
-11329 61  GOLDEN
-11329 62  GOLDEN
-11329 63  GOLDEN
-11329 64  GOLDEN
-11329 65  GOLDEN
-11329 66  GOLDEN
-11329 67  GOLDEN
-11329 68  GOLDEN
-11329 69  GOLDEN
-11329 70  GOLDEN
-11329 71  GOLDEN
-11329 72  GOLDEN
-11329 73  GOLDEN
-11329 74  GOLDEN
-11329 75  GOLDEN
-11329 76  GOLDEN
-11329 77  GOLDEN
-11329 78  GOLDEN
-11329 79  GOLDEN
-11329 80  GOLDEN
-11329 81  GOLDEN
-11329 82  GOLDEN
-11329 83  GOLDEN
-11329 84  GOLDEN
-11329 85  GOLDEN
-11329 86  GOLDEN
-11329 87  GOLDEN
-11329 88  GOLDEN
-11329 89  GOLDEN
-11329 90  GOLDEN
-11329 91  GOLDEN
-11329 92  GOLDEN
-11329 93  GOLDEN
-11329 94  GOLDEN
-11329 95  GOLDEN
-11329 96  GOLDEN
-11329 97  GOLDEN
-11329 98  GOLDEN
-11329 99  GOLDEN
-11329 100  GOLDEN
-11329 101  GOLDEN
-11329 102  GOLDEN
-11329 103  GOLDEN
-11329 104  GOLDEN
-11329 105  GOLDEN
-11329 106  GOLDEN
-11329 107  GOLDEN
-11329 108  GOLDEN
-11329 109  GOLDEN
-11329 110  GOLDEN
-11329 111  GOLDEN
-11329 112  GOLDEN
-11329 113  GOLDEN
-11329 114  GOLDEN
-11329 115  GOLDEN
-11329 116  GOLDEN
-11329 117  GOLDEN
-11329 118  GOLDEN
-11329 119  GOLDEN
-11329 120  GOLDEN
-11329 121  GOLDEN
-11329 122  GOLDEN
-11329 123  GOLDEN
-11329 124  GOLDEN
-11329 125  GOLDEN
-11329 126  GOLDEN
-11329 127  GOLDEN
-11329 128  GOLDEN
-11329 129  GOLDEN
-11329 130  GOLDEN
-11329 131  GOLDEN
-11329 132  GOLDEN
-11329 133  GOLDEN
-11329 134  GOLDEN
-11329 135  GOLDEN
-11329 136  GOLDEN
-11329 137  GOLDEN
-11329 138  GOLDEN
-11329 139  GOLDEN
-11329 140  GOLDEN
-11329 141  GOLDEN
-11329 142  GOLDEN
-11329 143  GOLDEN
-11329 144  GOLDEN
-11329 145  GOLDEN
-11329 146  GOLDEN
-11329 147  GOLDEN
-11329 148  GOLDEN
-11329 149  GOLDEN
-11329 150  GOLDEN
-11329 151  GOLDEN
-11329 152  GOLDEN
-11329 153  GOLDEN
-11329 154  GOLDEN
-11329 155  GOLDEN
-11329 156  GOLDEN
-11329 157  GOLDEN
-11329 158  GOLDEN
-11329 159  GOLDEN
-11329 160  GOLDEN
-11329 161  GOLDEN
-11329 162  GOLDEN
-11329 163  GOLDEN
-11329 164  GOLDEN
-11329 165  GOLDEN
-11329 166  GOLDEN
-11329 167  GOLDEN
-11329 168  GOLDEN
-11329 169  GOLDEN
-11329 170  GOLDEN
-11329 171  GOLDEN
-11329 172  GOLDEN
-11329 173  GOLDEN
-11329 174  GOLDEN
-11329 175  GOLDEN
-11329 176  GOLDEN
-11329 177  GOLDEN
-11329 178  GOLDEN
-11329 179  GOLDEN
-11329 180  GOLDEN
-11329 181  GOLDEN
-11329 182  GOLDEN
-11329 183  GOLDEN
-11329 184  GOLDEN
-11329 185  GOLDEN
-11329 186  GOLDEN
-11329 187  GOLDEN
-11329 188  GOLDEN
-11329 189  GOLDEN
-11329 190  GOLDEN
-11329 191  GOLDEN
-11329 192  GOLDEN
-11329 193  GOLDEN
-11329 194  GOLDEN
-11329 195  GOLDEN
-11329 196  GOLDEN
-11329 197  GOLDEN
-11329 198  GOLDEN
-11329 199  GOLDEN
-11329 200  GOLDEN
-11329 201  GOLDEN
-11329 202  GOLDEN
-11329 203  GOLDEN
-11329 204  GOLDEN
-11329 205  0-TotalOutlier[1, 2, 3, 4, 5]
-11329 206  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11329 207  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11329 208  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11329 209  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11329 210  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11329 211  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11329 212  GOLDEN
-11329 213  GOLDEN
-11329 214  GOLDEN
-11329 215  GOLDEN
-11329 216  GOLDEN
-11329 217  GOLDEN
-11329 218  GOLDEN
-11329 219  GOLDEN
-11329 220  GOLDEN
-11329 221  GOLDEN
-11329 222  GOLDEN
-11329 223  GOLDEN
-11329 224  GOLDEN
-11329 225  GOLDEN
-11329 226  GOLDEN
-11329 227  GOLDEN
-11329 228  GOLDEN
-11329 229  GOLDEN
-11329 230  GOLDEN
-11329 231  GOLDEN
-11329 232  GOLDEN
-11329 233  GOLDEN
-11329 234  GOLDEN
-11329 235  GOLDEN
-11329 236  GOLDEN
-11329 237  GOLDEN
-11329 238  GOLDEN
-11329 239  GOLDEN
-11329 240  GOLDEN
-11329 241  GOLDEN
-11329 242  GOLDEN
-11329 243  GOLDEN
-11329 244  GOLDEN
-11329 245  GOLDEN
-11329 246  GOLDEN
-11329 247  GOLDEN
-11329 248  GOLDEN
-11329 249  GOLDEN
-11329 250  GOLDEN
-11329 251  GOLDEN
-11329 252  GOLDEN
-11329 253  GOLDEN
-11329 254  GOLDEN
-11329 255  GOLDEN
-11329 256  GOLDEN
-11329 257  GOLDEN
-11329 258  GOLDEN
-11329 259  GOLDEN
-11329 260  GOLDEN
-11329 261  GOLDEN
-11329 262  GOLDEN
-11329 263  GOLDEN
-11329 264  GOLDEN
-11329 265  GOLDEN
-11329 266  GOLDEN
-11329 267  GOLDEN
-11329 268  GOLDEN
-11329 269  GOLDEN
-11329 270  GOLDEN
-11329 271  GOLDEN
-11329 272  GOLDEN
-11329 273  GOLDEN
-11329 274  GOLDEN
-11329 275  GOLDEN
-11329 276  GOLDEN
-11329 277  GOLDEN
-11329 278  GOLDEN
-11329 279  GOLDEN
-11329 280  GOLDEN
-11329 281  GOLDEN
-11329 282  GOLDEN
-11329 283  GOLDEN
-11329 284  GOLDEN
-11329 285  GOLDEN
-11329 286  GOLDEN
-11329 287  GOLDEN
-11329 288  GOLDEN
-11329 289  GOLDEN
-11329 290  GOLDEN
-11329 291  GOLDEN
-11329 292  GOLDEN
-11329 293  GOLDEN
-11329 294  GOLDEN
-11329 295  GOLDEN
-11329 296  GOLDEN
-11329 297  GOLDEN
-11329 298  GOLDEN
-11329 299  GOLDEN
-11329 300  GOLDEN
-11329 301  GOLDEN
-11329 302  GOLDEN
-11329 303  GOLDEN
-11329 304  GOLDEN
-11329 305  GOLDEN
-11329 306  GOLDEN
-11329 307  GOLDEN
-11329 308  GOLDEN
-11329 309  GOLDEN
-11329 310  GOLDEN
-11329 311  GOLDEN
-11329 312  GOLDEN
-11329 313  GOLDEN
-11329 314  GOLDEN
-11329 315  GOLDEN
-11329 316  GOLDEN
-11329 317  GOLDEN
-11329 318  GOLDEN
-11329 319  GOLDEN
-11329 320  GOLDEN
-11329 321  GOLDEN
-11329 322  GOLDEN
-11329 323  GOLDEN
-11329 324  GOLDEN
-11329 325  GOLDEN
-11329 326  GOLDEN
-11329 327  GOLDEN
-11329 328  GOLDEN
-11329 329  GOLDEN
-11329 330  GOLDEN
-11329 331  GOLDEN
-11329 332  GOLDEN
-11329 333  GOLDEN
-11329 334  GOLDEN
-11329 335  GOLDEN
-11329 336  GOLDEN
-11329 337  GOLDEN
-11329 338  GOLDEN
-11329 339  GOLDEN
-11329 340  GOLDEN
-11329 341  GOLDEN
-11329 342  GOLDEN
-11329 343  GOLDEN
-11329 344  GOLDEN
-11329 345  GOLDEN
-11329 346  GOLDEN
-11329 347  GOLDEN
-11329 348  GOLDEN
-11329 349  GOLDEN
-11329 350  GOLDEN
-11329 351  GOLDEN
-11329 352  GOLDEN
-11329 353  GOLDEN
-11329 354  GOLDEN
-11329 355  GOLDEN
-11329 356  GOLDEN
-11329 357  GOLDEN
-11329 358  GOLDEN
-11329 359  GOLDEN
-11329 360  GOLDEN
-11329 361  GOLDEN
-11329 362  GOLDEN
-11329 363  GOLDEN
-11329 364  GOLDEN
-11329 365  GOLDEN
-11329 366  GOLDEN
-11329 367  GOLDEN
-11329 368  GOLDEN
-11329 369  GOLDEN
-11329 370  GOLDEN
-11329 371  GOLDEN
-11329 372  GOLDEN
-11329 373  GOLDEN
-11329 374  GOLDEN
-11329 375  GOLDEN
-11329 376  GOLDEN
-11329 377  GOLDEN
-11329 378  GOLDEN
-11329 379  GOLDEN
-11329 380  GOLDEN
-11329 381  GOLDEN
-11329 382  GOLDEN
-11329 383  GOLDEN
-11329 384  GOLDEN
-11329 385  GOLDEN
-11329 386  GOLDEN
-11329 387  GOLDEN
-11329 388  GOLDEN
-11329 389  GOLDEN
-11329 390  GOLDEN
-11329 391  GOLDEN
-11329 392  GOLDEN
-11329 393  GOLDEN
-11329 394  GOLDEN
-11329 395  GOLDEN
-11329 396  GOLDEN
-11329 397  GOLDEN
-11329 398  GOLDEN
-11329 399  GOLDEN
-11329 400  GOLDEN
-11329 401  GOLDEN
-11329 402  GOLDEN
-11329 403  GOLDEN
-11329 404  GOLDEN
-11329 405  GOLDEN
-11329 406  GOLDEN
-11329 407  GOLDEN
-11329 408  GOLDEN
-11329 409  GOLDEN
-11329 410  GOLDEN
-11329 411  GOLDEN
-11329 412  GOLDEN
-11329 413  GOLDEN
-11329 414  GOLDEN
-11329 415  GOLDEN
-11329 416  GOLDEN
-11329 417  GOLDEN
-11329 418  GOLDEN
-11329 419  GOLDEN
-11329 420  GOLDEN
-11329 421  GOLDEN
-11329 422  GOLDEN
-11329 423  GOLDEN
-11329 424  GOLDEN
-11329 425  GOLDEN
-11329 426  GOLDEN
-11329 427  GOLDEN
-11329 428  GOLDEN
-11329 429  GOLDEN
-11329 430  GOLDEN
-11329 431  GOLDEN
-11329 432  GOLDEN
-11329 433  GOLDEN
-11329 434  GOLDEN
-11329 435  GOLDEN
-11329 436  GOLDEN
-11329 437  GOLDEN
-11329 438  GOLDEN
-11329 439  GOLDEN
-11329 440  GOLDEN
-11329 441  GOLDEN
-11329 442  GOLDEN
-11329 443  GOLDEN
-11329 444  GOLDEN
-11329 445  GOLDEN
-11329 446  GOLDEN
-11329 447  GOLDEN
-11329 448  GOLDEN
-11329 449  GOLDEN
-11329 450  GOLDEN
-11329 451  GOLDEN
-11329 452  GOLDEN
-11329 453  GOLDEN
-11329 454  GOLDEN
-11329 455  GOLDEN
-11329 456  GOLDEN
-11329 457  GOLDEN
-11329 458  GOLDEN
-11329 459  GOLDEN
-11329 460  GOLDEN
-11329 461  GOLDEN
-11329 462  GOLDEN
-11329 463  GOLDEN
-11329 464  GOLDEN
-11329 465  GOLDEN
-11329 466  GOLDEN
-11329 467  GOLDEN
-11329 468  GOLDEN
-11329 469  GOLDEN
-11329 470  GOLDEN
-11329 471  GOLDEN
-11329 472  GOLDEN
-11329 473  GOLDEN
-11329 474  GOLDEN
-11329 475  GOLDEN
-11329 476  GOLDEN
-11329 477  GOLDEN
-11329 478  GOLDEN
-11329 479  GOLDEN
-11329 480  GOLDEN
-11329 481  GOLDEN
-11329 482  GOLDEN
-11329 483  GOLDEN
-11329 484  GOLDEN
-11329 485  GOLDEN
-11329 486  GOLDEN
-11329 487  GOLDEN
-11329 488  GOLDEN
-11329 489  GOLDEN
-11329 490  GOLDEN
-11329 491  GOLDEN
-11329 492  GOLDEN
-11329 493  GOLDEN
-11329 494  GOLDEN
-11329 495  GOLDEN
-11329 496  GOLDEN
-11329 497  GOLDEN
-11329 498  GOLDEN
-11329 499  GOLDEN
-11329 500  GOLDEN
-11329 501  GOLDEN
-11329 502  GOLDEN
-11329 503  GOLDEN
-11329 504  GOLDEN
-11329 505  GOLDEN
-11329 506  GOLDEN
-11329 507  GOLDEN
-11329 508  GOLDEN
-11329 509  GOLDEN
-11329 510  GOLDEN
-11329 511  GOLDEN
-11329 512  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11329 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low lumi run, 20 nA
+11329 1  4-LowLiveTime[all]  5-Misc[all]  :: low lumi run, 20 nA
+11329 2  5-Misc[all]  :: low lumi run, 20 nA
+11329 3  5-Misc[all]  :: low lumi run, 20 nA
+11329 4  5-Misc[all]  :: low lumi run, 20 nA
+11329 5  5-Misc[all]  :: low lumi run, 20 nA
+11329 6  5-Misc[all]  :: low lumi run, 20 nA
+11329 7  5-Misc[all]  :: low lumi run, 20 nA
+11329 8  5-Misc[all]  :: low lumi run, 20 nA
+11329 9  5-Misc[all]  :: low lumi run, 20 nA
+11329 10  5-Misc[all]  :: low lumi run, 20 nA
+11329 11  5-Misc[all]  :: low lumi run, 20 nA
+11329 12  5-Misc[all]  :: low lumi run, 20 nA
+11329 13  5-Misc[all]  :: low lumi run, 20 nA
+11329 14  5-Misc[all]  :: low lumi run, 20 nA
+11329 15  5-Misc[all]  :: low lumi run, 20 nA
+11329 16  5-Misc[all]  :: low lumi run, 20 nA
+11329 17  5-Misc[all]  :: low lumi run, 20 nA
+11329 18  5-Misc[all]  :: low lumi run, 20 nA
+11329 19  5-Misc[all]  :: low lumi run, 20 nA
+11329 20  5-Misc[all]  :: low lumi run, 20 nA
+11329 21  5-Misc[all]  :: low lumi run, 20 nA
+11329 22  5-Misc[all]  :: low lumi run, 20 nA
+11329 23  5-Misc[all]  :: low lumi run, 20 nA
+11329 24  5-Misc[all]  :: low lumi run, 20 nA
+11329 25  5-Misc[all]  :: low lumi run, 20 nA
+11329 26  5-Misc[all]  :: low lumi run, 20 nA
+11329 27  5-Misc[all]  :: low lumi run, 20 nA
+11329 28  5-Misc[all]  :: low lumi run, 20 nA
+11329 29  5-Misc[all]  :: low lumi run, 20 nA
+11329 30  5-Misc[all]  :: low lumi run, 20 nA
+11329 31  5-Misc[all]  :: low lumi run, 20 nA
+11329 32  5-Misc[all]  :: low lumi run, 20 nA
+11329 33  5-Misc[all]  :: low lumi run, 20 nA
+11329 34  5-Misc[all]  :: low lumi run, 20 nA
+11329 35  5-Misc[all]  :: low lumi run, 20 nA
+11329 36  5-Misc[all]  :: low lumi run, 20 nA
+11329 37  5-Misc[all]  :: low lumi run, 20 nA
+11329 38  5-Misc[all]  :: low lumi run, 20 nA
+11329 39  5-Misc[all]  :: low lumi run, 20 nA
+11329 40  5-Misc[all]  :: low lumi run, 20 nA
+11329 41  5-Misc[all]  :: low lumi run, 20 nA
+11329 42  5-Misc[all]  :: low lumi run, 20 nA
+11329 43  5-Misc[all]  :: low lumi run, 20 nA
+11329 44  5-Misc[all]  :: low lumi run, 20 nA
+11329 45  5-Misc[all]  :: low lumi run, 20 nA
+11329 46  5-Misc[all]  :: low lumi run, 20 nA
+11329 47  5-Misc[all]  :: low lumi run, 20 nA
+11329 48  5-Misc[all]  :: low lumi run, 20 nA
+11329 49  5-Misc[all]  :: low lumi run, 20 nA
+11329 50  5-Misc[all]  :: low lumi run, 20 nA
+11329 51  5-Misc[all]  :: low lumi run, 20 nA
+11329 52  5-Misc[all]  :: low lumi run, 20 nA
+11329 53  5-Misc[all]  :: low lumi run, 20 nA
+11329 54  5-Misc[all]  :: low lumi run, 20 nA
+11329 55  5-Misc[all]  :: low lumi run, 20 nA
+11329 56  5-Misc[all]  :: low lumi run, 20 nA
+11329 57  5-Misc[all]  :: low lumi run, 20 nA
+11329 58  5-Misc[all]  :: low lumi run, 20 nA
+11329 59  5-Misc[all]  :: low lumi run, 20 nA
+11329 60  5-Misc[all]  :: low lumi run, 20 nA
+11329 61  5-Misc[all]  :: low lumi run, 20 nA
+11329 62  5-Misc[all]  :: low lumi run, 20 nA
+11329 63  5-Misc[all]  :: low lumi run, 20 nA
+11329 64  5-Misc[all]  :: low lumi run, 20 nA
+11329 65  5-Misc[all]  :: low lumi run, 20 nA
+11329 66  5-Misc[all]  :: low lumi run, 20 nA
+11329 67  5-Misc[all]  :: low lumi run, 20 nA
+11329 68  5-Misc[all]  :: low lumi run, 20 nA
+11329 69  5-Misc[all]  :: low lumi run, 20 nA
+11329 70  5-Misc[all]  :: low lumi run, 20 nA
+11329 71  5-Misc[all]  :: low lumi run, 20 nA
+11329 72  5-Misc[all]  :: low lumi run, 20 nA
+11329 73  5-Misc[all]  :: low lumi run, 20 nA
+11329 74  5-Misc[all]  :: low lumi run, 20 nA
+11329 75  5-Misc[all]  :: low lumi run, 20 nA
+11329 76  5-Misc[all]  :: low lumi run, 20 nA
+11329 77  5-Misc[all]  :: low lumi run, 20 nA
+11329 78  5-Misc[all]  :: low lumi run, 20 nA
+11329 79  5-Misc[all]  :: low lumi run, 20 nA
+11329 80  5-Misc[all]  :: low lumi run, 20 nA
+11329 81  5-Misc[all]  :: low lumi run, 20 nA
+11329 82  5-Misc[all]  :: low lumi run, 20 nA
+11329 83  5-Misc[all]  :: low lumi run, 20 nA
+11329 84  5-Misc[all]  :: low lumi run, 20 nA
+11329 85  5-Misc[all]  :: low lumi run, 20 nA
+11329 86  5-Misc[all]  :: low lumi run, 20 nA
+11329 87  5-Misc[all]  :: low lumi run, 20 nA
+11329 88  5-Misc[all]  :: low lumi run, 20 nA
+11329 89  5-Misc[all]  :: low lumi run, 20 nA
+11329 90  5-Misc[all]  :: low lumi run, 20 nA
+11329 91  5-Misc[all]  :: low lumi run, 20 nA
+11329 92  5-Misc[all]  :: low lumi run, 20 nA
+11329 93  5-Misc[all]  :: low lumi run, 20 nA
+11329 94  5-Misc[all]  :: low lumi run, 20 nA
+11329 95  5-Misc[all]  :: low lumi run, 20 nA
+11329 96  5-Misc[all]  :: low lumi run, 20 nA
+11329 97  5-Misc[all]  :: low lumi run, 20 nA
+11329 98  5-Misc[all]  :: low lumi run, 20 nA
+11329 99  5-Misc[all]  :: low lumi run, 20 nA
+11329 100  5-Misc[all]  :: low lumi run, 20 nA
+11329 101  5-Misc[all]  :: low lumi run, 20 nA
+11329 102  5-Misc[all]  :: low lumi run, 20 nA
+11329 103  5-Misc[all]  :: low lumi run, 20 nA
+11329 104  5-Misc[all]  :: low lumi run, 20 nA
+11329 105  5-Misc[all]  :: low lumi run, 20 nA
+11329 106  5-Misc[all]  :: low lumi run, 20 nA
+11329 107  5-Misc[all]  :: low lumi run, 20 nA
+11329 108  5-Misc[all]  :: low lumi run, 20 nA
+11329 109  5-Misc[all]  :: low lumi run, 20 nA
+11329 110  5-Misc[all]  :: low lumi run, 20 nA
+11329 111  5-Misc[all]  :: low lumi run, 20 nA
+11329 112  5-Misc[all]  :: low lumi run, 20 nA
+11329 113  5-Misc[all]  :: low lumi run, 20 nA
+11329 114  5-Misc[all]  :: low lumi run, 20 nA
+11329 115  5-Misc[all]  :: low lumi run, 20 nA
+11329 116  5-Misc[all]  :: low lumi run, 20 nA
+11329 117  5-Misc[all]  :: low lumi run, 20 nA
+11329 118  5-Misc[all]  :: low lumi run, 20 nA
+11329 119  5-Misc[all]  :: low lumi run, 20 nA
+11329 120  5-Misc[all]  :: low lumi run, 20 nA
+11329 121  5-Misc[all]  :: low lumi run, 20 nA
+11329 122  5-Misc[all]  :: low lumi run, 20 nA
+11329 123  5-Misc[all]  :: low lumi run, 20 nA
+11329 124  5-Misc[all]  :: low lumi run, 20 nA
+11329 125  5-Misc[all]  :: low lumi run, 20 nA
+11329 126  5-Misc[all]  :: low lumi run, 20 nA
+11329 127  5-Misc[all]  :: low lumi run, 20 nA
+11329 128  5-Misc[all]  :: low lumi run, 20 nA
+11329 129  5-Misc[all]  :: low lumi run, 20 nA
+11329 130  5-Misc[all]  :: low lumi run, 20 nA
+11329 131  5-Misc[all]  :: low lumi run, 20 nA
+11329 132  5-Misc[all]  :: low lumi run, 20 nA
+11329 133  5-Misc[all]  :: low lumi run, 20 nA
+11329 134  5-Misc[all]  :: low lumi run, 20 nA
+11329 135  5-Misc[all]  :: low lumi run, 20 nA
+11329 136  5-Misc[all]  :: low lumi run, 20 nA
+11329 137  5-Misc[all]  :: low lumi run, 20 nA
+11329 138  5-Misc[all]  :: low lumi run, 20 nA
+11329 139  5-Misc[all]  :: low lumi run, 20 nA
+11329 140  5-Misc[all]  :: low lumi run, 20 nA
+11329 141  5-Misc[all]  :: low lumi run, 20 nA
+11329 142  5-Misc[all]  :: low lumi run, 20 nA
+11329 143  5-Misc[all]  :: low lumi run, 20 nA
+11329 144  5-Misc[all]  :: low lumi run, 20 nA
+11329 145  5-Misc[all]  :: low lumi run, 20 nA
+11329 146  5-Misc[all]  :: low lumi run, 20 nA
+11329 147  5-Misc[all]  :: low lumi run, 20 nA
+11329 148  5-Misc[all]  :: low lumi run, 20 nA
+11329 149  5-Misc[all]  :: low lumi run, 20 nA
+11329 150  5-Misc[all]  :: low lumi run, 20 nA
+11329 151  5-Misc[all]  :: low lumi run, 20 nA
+11329 152  5-Misc[all]  :: low lumi run, 20 nA
+11329 153  5-Misc[all]  :: low lumi run, 20 nA
+11329 154  5-Misc[all]  :: low lumi run, 20 nA
+11329 155  5-Misc[all]  :: low lumi run, 20 nA
+11329 156  5-Misc[all]  :: low lumi run, 20 nA
+11329 157  5-Misc[all]  :: low lumi run, 20 nA
+11329 158  5-Misc[all]  :: low lumi run, 20 nA
+11329 159  5-Misc[all]  :: low lumi run, 20 nA
+11329 160  5-Misc[all]  :: low lumi run, 20 nA
+11329 161  5-Misc[all]  :: low lumi run, 20 nA
+11329 162  5-Misc[all]  :: low lumi run, 20 nA
+11329 163  5-Misc[all]  :: low lumi run, 20 nA
+11329 164  5-Misc[all]  :: low lumi run, 20 nA
+11329 165  5-Misc[all]  :: low lumi run, 20 nA
+11329 166  5-Misc[all]  :: low lumi run, 20 nA
+11329 167  5-Misc[all]  :: low lumi run, 20 nA
+11329 168  5-Misc[all]  :: low lumi run, 20 nA
+11329 169  5-Misc[all]  :: low lumi run, 20 nA
+11329 170  5-Misc[all]  :: low lumi run, 20 nA
+11329 171  5-Misc[all]  :: low lumi run, 20 nA
+11329 172  5-Misc[all]  :: low lumi run, 20 nA
+11329 173  5-Misc[all]  :: low lumi run, 20 nA
+11329 174  5-Misc[all]  :: low lumi run, 20 nA
+11329 175  5-Misc[all]  :: low lumi run, 20 nA
+11329 176  5-Misc[all]  :: low lumi run, 20 nA
+11329 177  5-Misc[all]  :: low lumi run, 20 nA
+11329 178  5-Misc[all]  :: low lumi run, 20 nA
+11329 179  5-Misc[all]  :: low lumi run, 20 nA
+11329 180  5-Misc[all]  :: low lumi run, 20 nA
+11329 181  5-Misc[all]  :: low lumi run, 20 nA
+11329 182  5-Misc[all]  :: low lumi run, 20 nA
+11329 183  5-Misc[all]  :: low lumi run, 20 nA
+11329 184  5-Misc[all]  :: low lumi run, 20 nA
+11329 185  5-Misc[all]  :: low lumi run, 20 nA
+11329 186  5-Misc[all]  :: low lumi run, 20 nA
+11329 187  5-Misc[all]  :: low lumi run, 20 nA
+11329 188  5-Misc[all]  :: low lumi run, 20 nA
+11329 189  5-Misc[all]  :: low lumi run, 20 nA
+11329 190  5-Misc[all]  :: low lumi run, 20 nA
+11329 191  5-Misc[all]  :: low lumi run, 20 nA
+11329 192  5-Misc[all]  :: low lumi run, 20 nA
+11329 193  5-Misc[all]  :: low lumi run, 20 nA
+11329 194  5-Misc[all]  :: low lumi run, 20 nA
+11329 195  5-Misc[all]  :: low lumi run, 20 nA
+11329 196  5-Misc[all]  :: low lumi run, 20 nA
+11329 197  5-Misc[all]  :: low lumi run, 20 nA
+11329 198  5-Misc[all]  :: low lumi run, 20 nA
+11329 199  5-Misc[all]  :: low lumi run, 20 nA
+11329 200  5-Misc[all]  :: low lumi run, 20 nA
+11329 201  5-Misc[all]  :: low lumi run, 20 nA
+11329 202  5-Misc[all]  :: low lumi run, 20 nA
+11329 203  5-Misc[all]  :: low lumi run, 20 nA
+11329 204  5-Misc[all]  :: low lumi run, 20 nA
+11329 205  0-TotalOutlier[1, 2, 3, 4, 5]  5-Misc[all]  :: low lumi run, 20 nA
+11329 206  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low lumi run, 20 nA
+11329 207  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low lumi run, 20 nA
+11329 208  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low lumi run, 20 nA
+11329 209  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low lumi run, 20 nA
+11329 210  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low lumi run, 20 nA
+11329 211  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: low lumi run, 20 nA
+11329 212  5-Misc[all]  :: low lumi run, 20 nA
+11329 213  5-Misc[all]  :: low lumi run, 20 nA
+11329 214  5-Misc[all]  :: low lumi run, 20 nA
+11329 215  5-Misc[all]  :: low lumi run, 20 nA
+11329 216  5-Misc[all]  :: low lumi run, 20 nA
+11329 217  5-Misc[all]  :: low lumi run, 20 nA
+11329 218  5-Misc[all]  :: low lumi run, 20 nA
+11329 219  5-Misc[all]  :: low lumi run, 20 nA
+11329 220  5-Misc[all]  :: low lumi run, 20 nA
+11329 221  5-Misc[all]  :: low lumi run, 20 nA
+11329 222  5-Misc[all]  :: low lumi run, 20 nA
+11329 223  5-Misc[all]  :: low lumi run, 20 nA
+11329 224  5-Misc[all]  :: low lumi run, 20 nA
+11329 225  5-Misc[all]  :: low lumi run, 20 nA
+11329 226  5-Misc[all]  :: low lumi run, 20 nA
+11329 227  5-Misc[all]  :: low lumi run, 20 nA
+11329 228  5-Misc[all]  :: low lumi run, 20 nA
+11329 229  5-Misc[all]  :: low lumi run, 20 nA
+11329 230  5-Misc[all]  :: low lumi run, 20 nA
+11329 231  5-Misc[all]  :: low lumi run, 20 nA
+11329 232  5-Misc[all]  :: low lumi run, 20 nA
+11329 233  5-Misc[all]  :: low lumi run, 20 nA
+11329 234  5-Misc[all]  :: low lumi run, 20 nA
+11329 235  5-Misc[all]  :: low lumi run, 20 nA
+11329 236  5-Misc[all]  :: low lumi run, 20 nA
+11329 237  5-Misc[all]  :: low lumi run, 20 nA
+11329 238  5-Misc[all]  :: low lumi run, 20 nA
+11329 239  5-Misc[all]  :: low lumi run, 20 nA
+11329 240  5-Misc[all]  :: low lumi run, 20 nA
+11329 241  5-Misc[all]  :: low lumi run, 20 nA
+11329 242  5-Misc[all]  :: low lumi run, 20 nA
+11329 243  5-Misc[all]  :: low lumi run, 20 nA
+11329 244  5-Misc[all]  :: low lumi run, 20 nA
+11329 245  5-Misc[all]  :: low lumi run, 20 nA
+11329 246  5-Misc[all]  :: low lumi run, 20 nA
+11329 247  5-Misc[all]  :: low lumi run, 20 nA
+11329 248  5-Misc[all]  :: low lumi run, 20 nA
+11329 249  5-Misc[all]  :: low lumi run, 20 nA
+11329 250  5-Misc[all]  :: low lumi run, 20 nA
+11329 251  5-Misc[all]  :: low lumi run, 20 nA
+11329 252  5-Misc[all]  :: low lumi run, 20 nA
+11329 253  5-Misc[all]  :: low lumi run, 20 nA
+11329 254  5-Misc[all]  :: low lumi run, 20 nA
+11329 255  5-Misc[all]  :: low lumi run, 20 nA
+11329 256  5-Misc[all]  :: low lumi run, 20 nA
+11329 257  5-Misc[all]  :: low lumi run, 20 nA
+11329 258  5-Misc[all]  :: low lumi run, 20 nA
+11329 259  5-Misc[all]  :: low lumi run, 20 nA
+11329 260  5-Misc[all]  :: low lumi run, 20 nA
+11329 261  5-Misc[all]  :: low lumi run, 20 nA
+11329 262  5-Misc[all]  :: low lumi run, 20 nA
+11329 263  5-Misc[all]  :: low lumi run, 20 nA
+11329 264  5-Misc[all]  :: low lumi run, 20 nA
+11329 265  5-Misc[all]  :: low lumi run, 20 nA
+11329 266  5-Misc[all]  :: low lumi run, 20 nA
+11329 267  5-Misc[all]  :: low lumi run, 20 nA
+11329 268  5-Misc[all]  :: low lumi run, 20 nA
+11329 269  5-Misc[all]  :: low lumi run, 20 nA
+11329 270  5-Misc[all]  :: low lumi run, 20 nA
+11329 271  5-Misc[all]  :: low lumi run, 20 nA
+11329 272  5-Misc[all]  :: low lumi run, 20 nA
+11329 273  5-Misc[all]  :: low lumi run, 20 nA
+11329 274  5-Misc[all]  :: low lumi run, 20 nA
+11329 275  5-Misc[all]  :: low lumi run, 20 nA
+11329 276  5-Misc[all]  :: low lumi run, 20 nA
+11329 277  5-Misc[all]  :: low lumi run, 20 nA
+11329 278  5-Misc[all]  :: low lumi run, 20 nA
+11329 279  5-Misc[all]  :: low lumi run, 20 nA
+11329 280  5-Misc[all]  :: low lumi run, 20 nA
+11329 281  5-Misc[all]  :: low lumi run, 20 nA
+11329 282  5-Misc[all]  :: low lumi run, 20 nA
+11329 283  5-Misc[all]  :: low lumi run, 20 nA
+11329 284  5-Misc[all]  :: low lumi run, 20 nA
+11329 285  5-Misc[all]  :: low lumi run, 20 nA
+11329 286  5-Misc[all]  :: low lumi run, 20 nA
+11329 287  5-Misc[all]  :: low lumi run, 20 nA
+11329 288  5-Misc[all]  :: low lumi run, 20 nA
+11329 289  5-Misc[all]  :: low lumi run, 20 nA
+11329 290  5-Misc[all]  :: low lumi run, 20 nA
+11329 291  5-Misc[all]  :: low lumi run, 20 nA
+11329 292  5-Misc[all]  :: low lumi run, 20 nA
+11329 293  5-Misc[all]  :: low lumi run, 20 nA
+11329 294  5-Misc[all]  :: low lumi run, 20 nA
+11329 295  5-Misc[all]  :: low lumi run, 20 nA
+11329 296  5-Misc[all]  :: low lumi run, 20 nA
+11329 297  5-Misc[all]  :: low lumi run, 20 nA
+11329 298  5-Misc[all]  :: low lumi run, 20 nA
+11329 299  5-Misc[all]  :: low lumi run, 20 nA
+11329 300  5-Misc[all]  :: low lumi run, 20 nA
+11329 301  5-Misc[all]  :: low lumi run, 20 nA
+11329 302  5-Misc[all]  :: low lumi run, 20 nA
+11329 303  5-Misc[all]  :: low lumi run, 20 nA
+11329 304  5-Misc[all]  :: low lumi run, 20 nA
+11329 305  5-Misc[all]  :: low lumi run, 20 nA
+11329 306  5-Misc[all]  :: low lumi run, 20 nA
+11329 307  5-Misc[all]  :: low lumi run, 20 nA
+11329 308  5-Misc[all]  :: low lumi run, 20 nA
+11329 309  5-Misc[all]  :: low lumi run, 20 nA
+11329 310  5-Misc[all]  :: low lumi run, 20 nA
+11329 311  5-Misc[all]  :: low lumi run, 20 nA
+11329 312  5-Misc[all]  :: low lumi run, 20 nA
+11329 313  5-Misc[all]  :: low lumi run, 20 nA
+11329 314  5-Misc[all]  :: low lumi run, 20 nA
+11329 315  5-Misc[all]  :: low lumi run, 20 nA
+11329 316  5-Misc[all]  :: low lumi run, 20 nA
+11329 317  5-Misc[all]  :: low lumi run, 20 nA
+11329 318  5-Misc[all]  :: low lumi run, 20 nA
+11329 319  5-Misc[all]  :: low lumi run, 20 nA
+11329 320  5-Misc[all]  :: low lumi run, 20 nA
+11329 321  5-Misc[all]  :: low lumi run, 20 nA
+11329 322  5-Misc[all]  :: low lumi run, 20 nA
+11329 323  5-Misc[all]  :: low lumi run, 20 nA
+11329 324  5-Misc[all]  :: low lumi run, 20 nA
+11329 325  5-Misc[all]  :: low lumi run, 20 nA
+11329 326  5-Misc[all]  :: low lumi run, 20 nA
+11329 327  5-Misc[all]  :: low lumi run, 20 nA
+11329 328  5-Misc[all]  :: low lumi run, 20 nA
+11329 329  5-Misc[all]  :: low lumi run, 20 nA
+11329 330  5-Misc[all]  :: low lumi run, 20 nA
+11329 331  5-Misc[all]  :: low lumi run, 20 nA
+11329 332  5-Misc[all]  :: low lumi run, 20 nA
+11329 333  5-Misc[all]  :: low lumi run, 20 nA
+11329 334  5-Misc[all]  :: low lumi run, 20 nA
+11329 335  5-Misc[all]  :: low lumi run, 20 nA
+11329 336  5-Misc[all]  :: low lumi run, 20 nA
+11329 337  5-Misc[all]  :: low lumi run, 20 nA
+11329 338  5-Misc[all]  :: low lumi run, 20 nA
+11329 339  5-Misc[all]  :: low lumi run, 20 nA
+11329 340  5-Misc[all]  :: low lumi run, 20 nA
+11329 341  5-Misc[all]  :: low lumi run, 20 nA
+11329 342  5-Misc[all]  :: low lumi run, 20 nA
+11329 343  5-Misc[all]  :: low lumi run, 20 nA
+11329 344  5-Misc[all]  :: low lumi run, 20 nA
+11329 345  5-Misc[all]  :: low lumi run, 20 nA
+11329 346  5-Misc[all]  :: low lumi run, 20 nA
+11329 347  5-Misc[all]  :: low lumi run, 20 nA
+11329 348  5-Misc[all]  :: low lumi run, 20 nA
+11329 349  5-Misc[all]  :: low lumi run, 20 nA
+11329 350  5-Misc[all]  :: low lumi run, 20 nA
+11329 351  5-Misc[all]  :: low lumi run, 20 nA
+11329 352  5-Misc[all]  :: low lumi run, 20 nA
+11329 353  5-Misc[all]  :: low lumi run, 20 nA
+11329 354  5-Misc[all]  :: low lumi run, 20 nA
+11329 355  5-Misc[all]  :: low lumi run, 20 nA
+11329 356  5-Misc[all]  :: low lumi run, 20 nA
+11329 357  5-Misc[all]  :: low lumi run, 20 nA
+11329 358  5-Misc[all]  :: low lumi run, 20 nA
+11329 359  5-Misc[all]  :: low lumi run, 20 nA
+11329 360  5-Misc[all]  :: low lumi run, 20 nA
+11329 361  5-Misc[all]  :: low lumi run, 20 nA
+11329 362  5-Misc[all]  :: low lumi run, 20 nA
+11329 363  5-Misc[all]  :: low lumi run, 20 nA
+11329 364  5-Misc[all]  :: low lumi run, 20 nA
+11329 365  5-Misc[all]  :: low lumi run, 20 nA
+11329 366  5-Misc[all]  :: low lumi run, 20 nA
+11329 367  5-Misc[all]  :: low lumi run, 20 nA
+11329 368  5-Misc[all]  :: low lumi run, 20 nA
+11329 369  5-Misc[all]  :: low lumi run, 20 nA
+11329 370  5-Misc[all]  :: low lumi run, 20 nA
+11329 371  5-Misc[all]  :: low lumi run, 20 nA
+11329 372  5-Misc[all]  :: low lumi run, 20 nA
+11329 373  5-Misc[all]  :: low lumi run, 20 nA
+11329 374  5-Misc[all]  :: low lumi run, 20 nA
+11329 375  5-Misc[all]  :: low lumi run, 20 nA
+11329 376  5-Misc[all]  :: low lumi run, 20 nA
+11329 377  5-Misc[all]  :: low lumi run, 20 nA
+11329 378  5-Misc[all]  :: low lumi run, 20 nA
+11329 379  5-Misc[all]  :: low lumi run, 20 nA
+11329 380  5-Misc[all]  :: low lumi run, 20 nA
+11329 381  5-Misc[all]  :: low lumi run, 20 nA
+11329 382  5-Misc[all]  :: low lumi run, 20 nA
+11329 383  5-Misc[all]  :: low lumi run, 20 nA
+11329 384  5-Misc[all]  :: low lumi run, 20 nA
+11329 385  5-Misc[all]  :: low lumi run, 20 nA
+11329 386  5-Misc[all]  :: low lumi run, 20 nA
+11329 387  5-Misc[all]  :: low lumi run, 20 nA
+11329 388  5-Misc[all]  :: low lumi run, 20 nA
+11329 389  5-Misc[all]  :: low lumi run, 20 nA
+11329 390  5-Misc[all]  :: low lumi run, 20 nA
+11329 391  5-Misc[all]  :: low lumi run, 20 nA
+11329 392  5-Misc[all]  :: low lumi run, 20 nA
+11329 393  5-Misc[all]  :: low lumi run, 20 nA
+11329 394  5-Misc[all]  :: low lumi run, 20 nA
+11329 395  5-Misc[all]  :: low lumi run, 20 nA
+11329 396  5-Misc[all]  :: low lumi run, 20 nA
+11329 397  5-Misc[all]  :: low lumi run, 20 nA
+11329 398  5-Misc[all]  :: low lumi run, 20 nA
+11329 399  5-Misc[all]  :: low lumi run, 20 nA
+11329 400  5-Misc[all]  :: low lumi run, 20 nA
+11329 401  5-Misc[all]  :: low lumi run, 20 nA
+11329 402  5-Misc[all]  :: low lumi run, 20 nA
+11329 403  5-Misc[all]  :: low lumi run, 20 nA
+11329 404  5-Misc[all]  :: low lumi run, 20 nA
+11329 405  5-Misc[all]  :: low lumi run, 20 nA
+11329 406  5-Misc[all]  :: low lumi run, 20 nA
+11329 407  5-Misc[all]  :: low lumi run, 20 nA
+11329 408  5-Misc[all]  :: low lumi run, 20 nA
+11329 409  5-Misc[all]  :: low lumi run, 20 nA
+11329 410  5-Misc[all]  :: low lumi run, 20 nA
+11329 411  5-Misc[all]  :: low lumi run, 20 nA
+11329 412  5-Misc[all]  :: low lumi run, 20 nA
+11329 413  5-Misc[all]  :: low lumi run, 20 nA
+11329 414  5-Misc[all]  :: low lumi run, 20 nA
+11329 415  5-Misc[all]  :: low lumi run, 20 nA
+11329 416  5-Misc[all]  :: low lumi run, 20 nA
+11329 417  5-Misc[all]  :: low lumi run, 20 nA
+11329 418  5-Misc[all]  :: low lumi run, 20 nA
+11329 419  5-Misc[all]  :: low lumi run, 20 nA
+11329 420  5-Misc[all]  :: low lumi run, 20 nA
+11329 421  5-Misc[all]  :: low lumi run, 20 nA
+11329 422  5-Misc[all]  :: low lumi run, 20 nA
+11329 423  5-Misc[all]  :: low lumi run, 20 nA
+11329 424  5-Misc[all]  :: low lumi run, 20 nA
+11329 425  5-Misc[all]  :: low lumi run, 20 nA
+11329 426  5-Misc[all]  :: low lumi run, 20 nA
+11329 427  5-Misc[all]  :: low lumi run, 20 nA
+11329 428  5-Misc[all]  :: low lumi run, 20 nA
+11329 429  5-Misc[all]  :: low lumi run, 20 nA
+11329 430  5-Misc[all]  :: low lumi run, 20 nA
+11329 431  5-Misc[all]  :: low lumi run, 20 nA
+11329 432  5-Misc[all]  :: low lumi run, 20 nA
+11329 433  5-Misc[all]  :: low lumi run, 20 nA
+11329 434  5-Misc[all]  :: low lumi run, 20 nA
+11329 435  5-Misc[all]  :: low lumi run, 20 nA
+11329 436  5-Misc[all]  :: low lumi run, 20 nA
+11329 437  5-Misc[all]  :: low lumi run, 20 nA
+11329 438  5-Misc[all]  :: low lumi run, 20 nA
+11329 439  5-Misc[all]  :: low lumi run, 20 nA
+11329 440  5-Misc[all]  :: low lumi run, 20 nA
+11329 441  5-Misc[all]  :: low lumi run, 20 nA
+11329 442  5-Misc[all]  :: low lumi run, 20 nA
+11329 443  5-Misc[all]  :: low lumi run, 20 nA
+11329 444  5-Misc[all]  :: low lumi run, 20 nA
+11329 445  5-Misc[all]  :: low lumi run, 20 nA
+11329 446  5-Misc[all]  :: low lumi run, 20 nA
+11329 447  5-Misc[all]  :: low lumi run, 20 nA
+11329 448  5-Misc[all]  :: low lumi run, 20 nA
+11329 449  5-Misc[all]  :: low lumi run, 20 nA
+11329 450  5-Misc[all]  :: low lumi run, 20 nA
+11329 451  5-Misc[all]  :: low lumi run, 20 nA
+11329 452  5-Misc[all]  :: low lumi run, 20 nA
+11329 453  5-Misc[all]  :: low lumi run, 20 nA
+11329 454  5-Misc[all]  :: low lumi run, 20 nA
+11329 455  5-Misc[all]  :: low lumi run, 20 nA
+11329 456  5-Misc[all]  :: low lumi run, 20 nA
+11329 457  5-Misc[all]  :: low lumi run, 20 nA
+11329 458  5-Misc[all]  :: low lumi run, 20 nA
+11329 459  5-Misc[all]  :: low lumi run, 20 nA
+11329 460  5-Misc[all]  :: low lumi run, 20 nA
+11329 461  5-Misc[all]  :: low lumi run, 20 nA
+11329 462  5-Misc[all]  :: low lumi run, 20 nA
+11329 463  5-Misc[all]  :: low lumi run, 20 nA
+11329 464  5-Misc[all]  :: low lumi run, 20 nA
+11329 465  5-Misc[all]  :: low lumi run, 20 nA
+11329 466  5-Misc[all]  :: low lumi run, 20 nA
+11329 467  5-Misc[all]  :: low lumi run, 20 nA
+11329 468  5-Misc[all]  :: low lumi run, 20 nA
+11329 469  5-Misc[all]  :: low lumi run, 20 nA
+11329 470  5-Misc[all]  :: low lumi run, 20 nA
+11329 471  5-Misc[all]  :: low lumi run, 20 nA
+11329 472  5-Misc[all]  :: low lumi run, 20 nA
+11329 473  5-Misc[all]  :: low lumi run, 20 nA
+11329 474  5-Misc[all]  :: low lumi run, 20 nA
+11329 475  5-Misc[all]  :: low lumi run, 20 nA
+11329 476  5-Misc[all]  :: low lumi run, 20 nA
+11329 477  5-Misc[all]  :: low lumi run, 20 nA
+11329 478  5-Misc[all]  :: low lumi run, 20 nA
+11329 479  5-Misc[all]  :: low lumi run, 20 nA
+11329 480  5-Misc[all]  :: low lumi run, 20 nA
+11329 481  5-Misc[all]  :: low lumi run, 20 nA
+11329 482  5-Misc[all]  :: low lumi run, 20 nA
+11329 483  5-Misc[all]  :: low lumi run, 20 nA
+11329 484  5-Misc[all]  :: low lumi run, 20 nA
+11329 485  5-Misc[all]  :: low lumi run, 20 nA
+11329 486  5-Misc[all]  :: low lumi run, 20 nA
+11329 487  5-Misc[all]  :: low lumi run, 20 nA
+11329 488  5-Misc[all]  :: low lumi run, 20 nA
+11329 489  5-Misc[all]  :: low lumi run, 20 nA
+11329 490  5-Misc[all]  :: low lumi run, 20 nA
+11329 491  5-Misc[all]  :: low lumi run, 20 nA
+11329 492  5-Misc[all]  :: low lumi run, 20 nA
+11329 493  5-Misc[all]  :: low lumi run, 20 nA
+11329 494  5-Misc[all]  :: low lumi run, 20 nA
+11329 495  5-Misc[all]  :: low lumi run, 20 nA
+11329 496  5-Misc[all]  :: low lumi run, 20 nA
+11329 497  5-Misc[all]  :: low lumi run, 20 nA
+11329 498  5-Misc[all]  :: low lumi run, 20 nA
+11329 499  5-Misc[all]  :: low lumi run, 20 nA
+11329 500  5-Misc[all]  :: low lumi run, 20 nA
+11329 501  5-Misc[all]  :: low lumi run, 20 nA
+11329 502  5-Misc[all]  :: low lumi run, 20 nA
+11329 503  5-Misc[all]  :: low lumi run, 20 nA
+11329 504  5-Misc[all]  :: low lumi run, 20 nA
+11329 505  5-Misc[all]  :: low lumi run, 20 nA
+11329 506  5-Misc[all]  :: low lumi run, 20 nA
+11329 507  5-Misc[all]  :: low lumi run, 20 nA
+11329 508  5-Misc[all]  :: low lumi run, 20 nA
+11329 509  5-Misc[all]  :: low lumi run, 20 nA
+11329 510  5-Misc[all]  :: low lumi run, 20 nA
+11329 511  5-Misc[all]  :: low lumi run, 20 nA
+11329 512  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low lumi run, 20 nA
 
 RUN: 11330
-11330 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11330 1  4-LowLiveTime[all]
-11330 2  GOLDEN
-11330 3  GOLDEN
-11330 4  GOLDEN
-11330 5  GOLDEN
-11330 6  GOLDEN
-11330 7  GOLDEN
-11330 8  GOLDEN
-11330 9  GOLDEN
-11330 10  GOLDEN
-11330 11  GOLDEN
-11330 12  GOLDEN
-11330 13  GOLDEN
-11330 14  GOLDEN
-11330 15  GOLDEN
-11330 16  GOLDEN
-11330 17  GOLDEN
-11330 18  GOLDEN
-11330 19  GOLDEN
-11330 20  GOLDEN
-11330 21  GOLDEN
-11330 22  GOLDEN
-11330 23  GOLDEN
-11330 24  GOLDEN
-11330 25  GOLDEN
-11330 26  GOLDEN
-11330 27  GOLDEN
-11330 28  GOLDEN
-11330 29  GOLDEN
-11330 30  GOLDEN
-11330 31  GOLDEN
-11330 32  GOLDEN
-11330 33  GOLDEN
-11330 34  GOLDEN
-11330 35  GOLDEN
-11330 36  GOLDEN
-11330 37  GOLDEN
-11330 38  GOLDEN
-11330 39  GOLDEN
-11330 40  GOLDEN
-11330 41  GOLDEN
-11330 42  GOLDEN
-11330 43  GOLDEN
-11330 44  GOLDEN
-11330 45  GOLDEN
-11330 46  GOLDEN
-11330 47  GOLDEN
-11330 48  GOLDEN
-11330 49  GOLDEN
-11330 50  GOLDEN
-11330 51  GOLDEN
-11330 52  GOLDEN
-11330 53  GOLDEN
-11330 54  GOLDEN
-11330 55  GOLDEN
-11330 56  GOLDEN
-11330 57  GOLDEN
-11330 58  GOLDEN
-11330 59  GOLDEN
-11330 60  GOLDEN
-11330 61  GOLDEN
-11330 62  GOLDEN
-11330 63  GOLDEN
-11330 64  GOLDEN
-11330 65  GOLDEN
-11330 66  GOLDEN
-11330 67  GOLDEN
-11330 68  GOLDEN
-11330 69  GOLDEN
-11330 70  GOLDEN
-11330 71  GOLDEN
-11330 72  GOLDEN
-11330 73  GOLDEN
-11330 74  GOLDEN
-11330 75  GOLDEN
-11330 76  GOLDEN
-11330 77  GOLDEN
-11330 78  GOLDEN
-11330 79  GOLDEN
-11330 80  GOLDEN
-11330 81  GOLDEN
-11330 82  GOLDEN
-11330 83  GOLDEN
-11330 84  GOLDEN
-11330 85  GOLDEN
-11330 86  GOLDEN
-11330 87  GOLDEN
-11330 88  GOLDEN
-11330 89  GOLDEN
-11330 90  GOLDEN
-11330 91  GOLDEN
-11330 92  GOLDEN
-11330 93  GOLDEN
-11330 94  GOLDEN
-11330 95  GOLDEN
-11330 96  GOLDEN
-11330 97  GOLDEN
-11330 98  GOLDEN
-11330 99  GOLDEN
-11330 100  GOLDEN
-11330 101  GOLDEN
-11330 102  GOLDEN
-11330 103  GOLDEN
-11330 104  GOLDEN
-11330 105  GOLDEN
-11330 106  GOLDEN
-11330 107  GOLDEN
-11330 108  GOLDEN
-11330 109  GOLDEN
-11330 110  GOLDEN
-11330 111  GOLDEN
-11330 112  GOLDEN
-11330 113  GOLDEN
-11330 114  GOLDEN
-11330 115  GOLDEN
-11330 116  GOLDEN
-11330 117  GOLDEN
-11330 118  GOLDEN
-11330 119  GOLDEN
-11330 120  GOLDEN
-11330 121  GOLDEN
-11330 122  GOLDEN
-11330 123  GOLDEN
-11330 124  GOLDEN
-11330 125  GOLDEN
-11330 126  GOLDEN
-11330 127  GOLDEN
-11330 128  GOLDEN
-11330 129  GOLDEN
-11330 130  GOLDEN
-11330 131  GOLDEN
-11330 132  GOLDEN
-11330 133  GOLDEN
-11330 134  GOLDEN
-11330 135  GOLDEN
-11330 136  GOLDEN
-11330 137  GOLDEN
-11330 138  GOLDEN
-11330 139  GOLDEN
-11330 140  GOLDEN
-11330 141  GOLDEN
-11330 142  GOLDEN
-11330 143  GOLDEN
-11330 144  GOLDEN
-11330 145  GOLDEN
-11330 146  GOLDEN
-11330 147  GOLDEN
-11330 148  GOLDEN
-11330 149  GOLDEN
-11330 150  GOLDEN
-11330 151  GOLDEN
-11330 152  GOLDEN
-11330 153  GOLDEN
-11330 154  GOLDEN
-11330 155  GOLDEN
-11330 156  GOLDEN
-11330 157  GOLDEN
-11330 158  GOLDEN
-11330 159  GOLDEN
-11330 160  GOLDEN
-11330 161  GOLDEN
-11330 162  GOLDEN
-11330 163  GOLDEN
-11330 164  GOLDEN
-11330 165  GOLDEN
-11330 166  GOLDEN
-11330 167  GOLDEN
-11330 168  GOLDEN
-11330 169  GOLDEN
-11330 170  GOLDEN
-11330 171  GOLDEN
-11330 172  GOLDEN
-11330 173  GOLDEN
-11330 174  GOLDEN
-11330 175  GOLDEN
-11330 176  GOLDEN
-11330 177  GOLDEN
-11330 178  GOLDEN
-11330 179  GOLDEN
-11330 180  GOLDEN
-11330 181  GOLDEN
-11330 182  GOLDEN
-11330 183  GOLDEN
-11330 184  GOLDEN
-11330 185  GOLDEN
-11330 186  GOLDEN
-11330 187  GOLDEN
-11330 188  GOLDEN
-11330 189  GOLDEN
-11330 190  GOLDEN
-11330 191  GOLDEN
-11330 192  GOLDEN
-11330 193  GOLDEN
-11330 194  GOLDEN
-11330 195  GOLDEN
-11330 196  GOLDEN
-11330 197  GOLDEN
-11330 198  GOLDEN
-11330 199  GOLDEN
-11330 200  GOLDEN
-11330 201  GOLDEN
-11330 202  GOLDEN
-11330 203  GOLDEN
-11330 204  GOLDEN
-11330 205  GOLDEN
-11330 206  GOLDEN
-11330 207  GOLDEN
-11330 208  GOLDEN
-11330 209  GOLDEN
-11330 210  GOLDEN
-11330 211  GOLDEN
-11330 212  GOLDEN
-11330 213  GOLDEN
-11330 214  GOLDEN
-11330 215  GOLDEN
-11330 216  GOLDEN
-11330 217  GOLDEN
-11330 218  GOLDEN
-11330 219  GOLDEN
-11330 220  GOLDEN
-11330 221  GOLDEN
-11330 222  GOLDEN
-11330 223  GOLDEN
-11330 224  GOLDEN
-11330 225  GOLDEN
-11330 226  GOLDEN
-11330 227  GOLDEN
-11330 228  GOLDEN
-11330 229  GOLDEN
-11330 230  GOLDEN
-11330 231  GOLDEN
-11330 232  GOLDEN
-11330 233  GOLDEN
-11330 234  GOLDEN
-11330 235  GOLDEN
-11330 236  GOLDEN
-11330 237  GOLDEN
-11330 238  GOLDEN
-11330 239  GOLDEN
-11330 240  GOLDEN
-11330 241  GOLDEN
-11330 242  GOLDEN
-11330 243  GOLDEN
-11330 244  GOLDEN
-11330 245  GOLDEN
-11330 246  GOLDEN
-11330 247  GOLDEN
-11330 248  GOLDEN
-11330 249  GOLDEN
-11330 250  GOLDEN
-11330 251  GOLDEN
-11330 252  GOLDEN
-11330 253  GOLDEN
-11330 254  GOLDEN
-11330 255  GOLDEN
-11330 256  GOLDEN
-11330 257  GOLDEN
-11330 258  GOLDEN
-11330 259  GOLDEN
-11330 260  GOLDEN
-11330 261  GOLDEN
-11330 262  GOLDEN
-11330 263  GOLDEN
-11330 264  GOLDEN
-11330 265  GOLDEN
-11330 266  GOLDEN
-11330 267  GOLDEN
-11330 268  GOLDEN
-11330 269  GOLDEN
-11330 270  GOLDEN
-11330 271  GOLDEN
-11330 272  GOLDEN
-11330 273  GOLDEN
-11330 274  GOLDEN
-11330 275  GOLDEN
-11330 276  GOLDEN
-11330 277  GOLDEN
-11330 278  GOLDEN
-11330 279  GOLDEN
-11330 280  GOLDEN
-11330 281  GOLDEN
-11330 282  GOLDEN
-11330 283  GOLDEN
-11330 284  GOLDEN
-11330 285  GOLDEN
-11330 286  GOLDEN
-11330 287  GOLDEN
-11330 288  GOLDEN
-11330 289  GOLDEN
-11330 290  GOLDEN
-11330 291  GOLDEN
-11330 292  GOLDEN
-11330 293  GOLDEN
-11330 294  GOLDEN
-11330 295  GOLDEN
-11330 296  GOLDEN
-11330 297  GOLDEN
-11330 298  GOLDEN
-11330 299  GOLDEN
-11330 300  GOLDEN
-11330 301  GOLDEN
-11330 302  GOLDEN
-11330 303  GOLDEN
-11330 304  GOLDEN
-11330 305  GOLDEN
-11330 306  GOLDEN
-11330 307  GOLDEN
-11330 308  GOLDEN
-11330 309  GOLDEN
-11330 310  GOLDEN
-11330 311  GOLDEN
-11330 312  GOLDEN
-11330 313  GOLDEN
-11330 314  GOLDEN
-11330 315  GOLDEN
-11330 316  GOLDEN
-11330 317  GOLDEN
-11330 318  GOLDEN
-11330 319  GOLDEN
-11330 320  GOLDEN
-11330 321  GOLDEN
-11330 322  GOLDEN
-11330 323  GOLDEN
-11330 324  GOLDEN
-11330 325  GOLDEN
-11330 326  GOLDEN
-11330 327  GOLDEN
-11330 328  GOLDEN
-11330 329  GOLDEN
-11330 330  GOLDEN
-11330 331  GOLDEN
-11330 332  GOLDEN
-11330 333  GOLDEN
-11330 334  GOLDEN
-11330 335  GOLDEN
-11330 336  GOLDEN
-11330 337  GOLDEN
-11330 338  GOLDEN
-11330 339  GOLDEN
-11330 340  GOLDEN
-11330 341  GOLDEN
-11330 342  GOLDEN
-11330 343  GOLDEN
-11330 344  GOLDEN
-11330 345  GOLDEN
-11330 346  GOLDEN
-11330 347  GOLDEN
-11330 348  GOLDEN
-11330 349  GOLDEN
-11330 350  GOLDEN
-11330 351  GOLDEN
-11330 352  GOLDEN
-11330 353  GOLDEN
-11330 354  GOLDEN
-11330 355  GOLDEN
-11330 356  GOLDEN
-11330 357  GOLDEN
-11330 358  GOLDEN
-11330 359  GOLDEN
-11330 360  GOLDEN
-11330 361  GOLDEN
-11330 362  GOLDEN
-11330 363  GOLDEN
-11330 364  GOLDEN
-11330 365  GOLDEN
-11330 366  GOLDEN
-11330 367  GOLDEN
-11330 368  GOLDEN
-11330 369  GOLDEN
-11330 370  GOLDEN
-11330 371  GOLDEN
-11330 372  GOLDEN
-11330 373  GOLDEN
-11330 374  GOLDEN
-11330 375  GOLDEN
-11330 376  GOLDEN
-11330 377  GOLDEN
-11330 378  GOLDEN
-11330 379  GOLDEN
-11330 380  GOLDEN
-11330 381  GOLDEN
-11330 382  GOLDEN
-11330 383  GOLDEN
-11330 384  GOLDEN
-11330 385  GOLDEN
-11330 386  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11330 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low lumi run, 20 nA
+11330 1  4-LowLiveTime[all]  5-Misc[all]  :: low lumi run, 20 nA
+11330 2  5-Misc[all]  :: low lumi run, 20 nA
+11330 3  5-Misc[all]  :: low lumi run, 20 nA
+11330 4  5-Misc[all]  :: low lumi run, 20 nA
+11330 5  5-Misc[all]  :: low lumi run, 20 nA
+11330 6  5-Misc[all]  :: low lumi run, 20 nA
+11330 7  5-Misc[all]  :: low lumi run, 20 nA
+11330 8  5-Misc[all]  :: low lumi run, 20 nA
+11330 9  5-Misc[all]  :: low lumi run, 20 nA
+11330 10  5-Misc[all]  :: low lumi run, 20 nA
+11330 11  5-Misc[all]  :: low lumi run, 20 nA
+11330 12  5-Misc[all]  :: low lumi run, 20 nA
+11330 13  5-Misc[all]  :: low lumi run, 20 nA
+11330 14  5-Misc[all]  :: low lumi run, 20 nA
+11330 15  5-Misc[all]  :: low lumi run, 20 nA
+11330 16  5-Misc[all]  :: low lumi run, 20 nA
+11330 17  5-Misc[all]  :: low lumi run, 20 nA
+11330 18  5-Misc[all]  :: low lumi run, 20 nA
+11330 19  5-Misc[all]  :: low lumi run, 20 nA
+11330 20  5-Misc[all]  :: low lumi run, 20 nA
+11330 21  5-Misc[all]  :: low lumi run, 20 nA
+11330 22  5-Misc[all]  :: low lumi run, 20 nA
+11330 23  5-Misc[all]  :: low lumi run, 20 nA
+11330 24  5-Misc[all]  :: low lumi run, 20 nA
+11330 25  5-Misc[all]  :: low lumi run, 20 nA
+11330 26  5-Misc[all]  :: low lumi run, 20 nA
+11330 27  5-Misc[all]  :: low lumi run, 20 nA
+11330 28  5-Misc[all]  :: low lumi run, 20 nA
+11330 29  5-Misc[all]  :: low lumi run, 20 nA
+11330 30  5-Misc[all]  :: low lumi run, 20 nA
+11330 31  5-Misc[all]  :: low lumi run, 20 nA
+11330 32  5-Misc[all]  :: low lumi run, 20 nA
+11330 33  5-Misc[all]  :: low lumi run, 20 nA
+11330 34  5-Misc[all]  :: low lumi run, 20 nA
+11330 35  5-Misc[all]  :: low lumi run, 20 nA
+11330 36  5-Misc[all]  :: low lumi run, 20 nA
+11330 37  5-Misc[all]  :: low lumi run, 20 nA
+11330 38  5-Misc[all]  :: low lumi run, 20 nA
+11330 39  5-Misc[all]  :: low lumi run, 20 nA
+11330 40  5-Misc[all]  :: low lumi run, 20 nA
+11330 41  5-Misc[all]  :: low lumi run, 20 nA
+11330 42  5-Misc[all]  :: low lumi run, 20 nA
+11330 43  5-Misc[all]  :: low lumi run, 20 nA
+11330 44  5-Misc[all]  :: low lumi run, 20 nA
+11330 45  5-Misc[all]  :: low lumi run, 20 nA
+11330 46  5-Misc[all]  :: low lumi run, 20 nA
+11330 47  5-Misc[all]  :: low lumi run, 20 nA
+11330 48  5-Misc[all]  :: low lumi run, 20 nA
+11330 49  5-Misc[all]  :: low lumi run, 20 nA
+11330 50  5-Misc[all]  :: low lumi run, 20 nA
+11330 51  5-Misc[all]  :: low lumi run, 20 nA
+11330 52  5-Misc[all]  :: low lumi run, 20 nA
+11330 53  5-Misc[all]  :: low lumi run, 20 nA
+11330 54  5-Misc[all]  :: low lumi run, 20 nA
+11330 55  5-Misc[all]  :: low lumi run, 20 nA
+11330 56  5-Misc[all]  :: low lumi run, 20 nA
+11330 57  5-Misc[all]  :: low lumi run, 20 nA
+11330 58  5-Misc[all]  :: low lumi run, 20 nA
+11330 59  5-Misc[all]  :: low lumi run, 20 nA
+11330 60  5-Misc[all]  :: low lumi run, 20 nA
+11330 61  5-Misc[all]  :: low lumi run, 20 nA
+11330 62  5-Misc[all]  :: low lumi run, 20 nA
+11330 63  5-Misc[all]  :: low lumi run, 20 nA
+11330 64  5-Misc[all]  :: low lumi run, 20 nA
+11330 65  5-Misc[all]  :: low lumi run, 20 nA
+11330 66  5-Misc[all]  :: low lumi run, 20 nA
+11330 67  5-Misc[all]  :: low lumi run, 20 nA
+11330 68  5-Misc[all]  :: low lumi run, 20 nA
+11330 69  5-Misc[all]  :: low lumi run, 20 nA
+11330 70  5-Misc[all]  :: low lumi run, 20 nA
+11330 71  5-Misc[all]  :: low lumi run, 20 nA
+11330 72  5-Misc[all]  :: low lumi run, 20 nA
+11330 73  5-Misc[all]  :: low lumi run, 20 nA
+11330 74  5-Misc[all]  :: low lumi run, 20 nA
+11330 75  5-Misc[all]  :: low lumi run, 20 nA
+11330 76  5-Misc[all]  :: low lumi run, 20 nA
+11330 77  5-Misc[all]  :: low lumi run, 20 nA
+11330 78  5-Misc[all]  :: low lumi run, 20 nA
+11330 79  5-Misc[all]  :: low lumi run, 20 nA
+11330 80  5-Misc[all]  :: low lumi run, 20 nA
+11330 81  5-Misc[all]  :: low lumi run, 20 nA
+11330 82  5-Misc[all]  :: low lumi run, 20 nA
+11330 83  5-Misc[all]  :: low lumi run, 20 nA
+11330 84  5-Misc[all]  :: low lumi run, 20 nA
+11330 85  5-Misc[all]  :: low lumi run, 20 nA
+11330 86  5-Misc[all]  :: low lumi run, 20 nA
+11330 87  5-Misc[all]  :: low lumi run, 20 nA
+11330 88  5-Misc[all]  :: low lumi run, 20 nA
+11330 89  5-Misc[all]  :: low lumi run, 20 nA
+11330 90  5-Misc[all]  :: low lumi run, 20 nA
+11330 91  5-Misc[all]  :: low lumi run, 20 nA
+11330 92  5-Misc[all]  :: low lumi run, 20 nA
+11330 93  5-Misc[all]  :: low lumi run, 20 nA
+11330 94  5-Misc[all]  :: low lumi run, 20 nA
+11330 95  5-Misc[all]  :: low lumi run, 20 nA
+11330 96  5-Misc[all]  :: low lumi run, 20 nA
+11330 97  5-Misc[all]  :: low lumi run, 20 nA
+11330 98  5-Misc[all]  :: low lumi run, 20 nA
+11330 99  5-Misc[all]  :: low lumi run, 20 nA
+11330 100  5-Misc[all]  :: low lumi run, 20 nA
+11330 101  5-Misc[all]  :: low lumi run, 20 nA
+11330 102  5-Misc[all]  :: low lumi run, 20 nA
+11330 103  5-Misc[all]  :: low lumi run, 20 nA
+11330 104  5-Misc[all]  :: low lumi run, 20 nA
+11330 105  5-Misc[all]  :: low lumi run, 20 nA
+11330 106  5-Misc[all]  :: low lumi run, 20 nA
+11330 107  5-Misc[all]  :: low lumi run, 20 nA
+11330 108  5-Misc[all]  :: low lumi run, 20 nA
+11330 109  5-Misc[all]  :: low lumi run, 20 nA
+11330 110  5-Misc[all]  :: low lumi run, 20 nA
+11330 111  5-Misc[all]  :: low lumi run, 20 nA
+11330 112  5-Misc[all]  :: low lumi run, 20 nA
+11330 113  5-Misc[all]  :: low lumi run, 20 nA
+11330 114  5-Misc[all]  :: low lumi run, 20 nA
+11330 115  5-Misc[all]  :: low lumi run, 20 nA
+11330 116  5-Misc[all]  :: low lumi run, 20 nA
+11330 117  5-Misc[all]  :: low lumi run, 20 nA
+11330 118  5-Misc[all]  :: low lumi run, 20 nA
+11330 119  5-Misc[all]  :: low lumi run, 20 nA
+11330 120  5-Misc[all]  :: low lumi run, 20 nA
+11330 121  5-Misc[all]  :: low lumi run, 20 nA
+11330 122  5-Misc[all]  :: low lumi run, 20 nA
+11330 123  5-Misc[all]  :: low lumi run, 20 nA
+11330 124  5-Misc[all]  :: low lumi run, 20 nA
+11330 125  5-Misc[all]  :: low lumi run, 20 nA
+11330 126  5-Misc[all]  :: low lumi run, 20 nA
+11330 127  5-Misc[all]  :: low lumi run, 20 nA
+11330 128  5-Misc[all]  :: low lumi run, 20 nA
+11330 129  5-Misc[all]  :: low lumi run, 20 nA
+11330 130  5-Misc[all]  :: low lumi run, 20 nA
+11330 131  5-Misc[all]  :: low lumi run, 20 nA
+11330 132  5-Misc[all]  :: low lumi run, 20 nA
+11330 133  5-Misc[all]  :: low lumi run, 20 nA
+11330 134  5-Misc[all]  :: low lumi run, 20 nA
+11330 135  5-Misc[all]  :: low lumi run, 20 nA
+11330 136  5-Misc[all]  :: low lumi run, 20 nA
+11330 137  5-Misc[all]  :: low lumi run, 20 nA
+11330 138  5-Misc[all]  :: low lumi run, 20 nA
+11330 139  5-Misc[all]  :: low lumi run, 20 nA
+11330 140  5-Misc[all]  :: low lumi run, 20 nA
+11330 141  5-Misc[all]  :: low lumi run, 20 nA
+11330 142  5-Misc[all]  :: low lumi run, 20 nA
+11330 143  5-Misc[all]  :: low lumi run, 20 nA
+11330 144  5-Misc[all]  :: low lumi run, 20 nA
+11330 145  5-Misc[all]  :: low lumi run, 20 nA
+11330 146  5-Misc[all]  :: low lumi run, 20 nA
+11330 147  5-Misc[all]  :: low lumi run, 20 nA
+11330 148  5-Misc[all]  :: low lumi run, 20 nA
+11330 149  5-Misc[all]  :: low lumi run, 20 nA
+11330 150  5-Misc[all]  :: low lumi run, 20 nA
+11330 151  5-Misc[all]  :: low lumi run, 20 nA
+11330 152  5-Misc[all]  :: low lumi run, 20 nA
+11330 153  5-Misc[all]  :: low lumi run, 20 nA
+11330 154  5-Misc[all]  :: low lumi run, 20 nA
+11330 155  5-Misc[all]  :: low lumi run, 20 nA
+11330 156  5-Misc[all]  :: low lumi run, 20 nA
+11330 157  5-Misc[all]  :: low lumi run, 20 nA
+11330 158  5-Misc[all]  :: low lumi run, 20 nA
+11330 159  5-Misc[all]  :: low lumi run, 20 nA
+11330 160  5-Misc[all]  :: low lumi run, 20 nA
+11330 161  5-Misc[all]  :: low lumi run, 20 nA
+11330 162  5-Misc[all]  :: low lumi run, 20 nA
+11330 163  5-Misc[all]  :: low lumi run, 20 nA
+11330 164  5-Misc[all]  :: low lumi run, 20 nA
+11330 165  5-Misc[all]  :: low lumi run, 20 nA
+11330 166  5-Misc[all]  :: low lumi run, 20 nA
+11330 167  5-Misc[all]  :: low lumi run, 20 nA
+11330 168  5-Misc[all]  :: low lumi run, 20 nA
+11330 169  5-Misc[all]  :: low lumi run, 20 nA
+11330 170  5-Misc[all]  :: low lumi run, 20 nA
+11330 171  5-Misc[all]  :: low lumi run, 20 nA
+11330 172  5-Misc[all]  :: low lumi run, 20 nA
+11330 173  5-Misc[all]  :: low lumi run, 20 nA
+11330 174  5-Misc[all]  :: low lumi run, 20 nA
+11330 175  5-Misc[all]  :: low lumi run, 20 nA
+11330 176  5-Misc[all]  :: low lumi run, 20 nA
+11330 177  5-Misc[all]  :: low lumi run, 20 nA
+11330 178  5-Misc[all]  :: low lumi run, 20 nA
+11330 179  5-Misc[all]  :: low lumi run, 20 nA
+11330 180  5-Misc[all]  :: low lumi run, 20 nA
+11330 181  5-Misc[all]  :: low lumi run, 20 nA
+11330 182  5-Misc[all]  :: low lumi run, 20 nA
+11330 183  5-Misc[all]  :: low lumi run, 20 nA
+11330 184  5-Misc[all]  :: low lumi run, 20 nA
+11330 185  5-Misc[all]  :: low lumi run, 20 nA
+11330 186  5-Misc[all]  :: low lumi run, 20 nA
+11330 187  5-Misc[all]  :: low lumi run, 20 nA
+11330 188  5-Misc[all]  :: low lumi run, 20 nA
+11330 189  5-Misc[all]  :: low lumi run, 20 nA
+11330 190  5-Misc[all]  :: low lumi run, 20 nA
+11330 191  5-Misc[all]  :: low lumi run, 20 nA
+11330 192  5-Misc[all]  :: low lumi run, 20 nA
+11330 193  5-Misc[all]  :: low lumi run, 20 nA
+11330 194  5-Misc[all]  :: low lumi run, 20 nA
+11330 195  5-Misc[all]  :: low lumi run, 20 nA
+11330 196  5-Misc[all]  :: low lumi run, 20 nA
+11330 197  5-Misc[all]  :: low lumi run, 20 nA
+11330 198  5-Misc[all]  :: low lumi run, 20 nA
+11330 199  5-Misc[all]  :: low lumi run, 20 nA
+11330 200  5-Misc[all]  :: low lumi run, 20 nA
+11330 201  5-Misc[all]  :: low lumi run, 20 nA
+11330 202  5-Misc[all]  :: low lumi run, 20 nA
+11330 203  5-Misc[all]  :: low lumi run, 20 nA
+11330 204  5-Misc[all]  :: low lumi run, 20 nA
+11330 205  5-Misc[all]  :: low lumi run, 20 nA
+11330 206  5-Misc[all]  :: low lumi run, 20 nA
+11330 207  5-Misc[all]  :: low lumi run, 20 nA
+11330 208  5-Misc[all]  :: low lumi run, 20 nA
+11330 209  5-Misc[all]  :: low lumi run, 20 nA
+11330 210  5-Misc[all]  :: low lumi run, 20 nA
+11330 211  5-Misc[all]  :: low lumi run, 20 nA
+11330 212  5-Misc[all]  :: low lumi run, 20 nA
+11330 213  5-Misc[all]  :: low lumi run, 20 nA
+11330 214  5-Misc[all]  :: low lumi run, 20 nA
+11330 215  5-Misc[all]  :: low lumi run, 20 nA
+11330 216  5-Misc[all]  :: low lumi run, 20 nA
+11330 217  5-Misc[all]  :: low lumi run, 20 nA
+11330 218  5-Misc[all]  :: low lumi run, 20 nA
+11330 219  5-Misc[all]  :: low lumi run, 20 nA
+11330 220  5-Misc[all]  :: low lumi run, 20 nA
+11330 221  5-Misc[all]  :: low lumi run, 20 nA
+11330 222  5-Misc[all]  :: low lumi run, 20 nA
+11330 223  5-Misc[all]  :: low lumi run, 20 nA
+11330 224  5-Misc[all]  :: low lumi run, 20 nA
+11330 225  5-Misc[all]  :: low lumi run, 20 nA
+11330 226  5-Misc[all]  :: low lumi run, 20 nA
+11330 227  5-Misc[all]  :: low lumi run, 20 nA
+11330 228  5-Misc[all]  :: low lumi run, 20 nA
+11330 229  5-Misc[all]  :: low lumi run, 20 nA
+11330 230  5-Misc[all]  :: low lumi run, 20 nA
+11330 231  5-Misc[all]  :: low lumi run, 20 nA
+11330 232  5-Misc[all]  :: low lumi run, 20 nA
+11330 233  5-Misc[all]  :: low lumi run, 20 nA
+11330 234  5-Misc[all]  :: low lumi run, 20 nA
+11330 235  5-Misc[all]  :: low lumi run, 20 nA
+11330 236  5-Misc[all]  :: low lumi run, 20 nA
+11330 237  5-Misc[all]  :: low lumi run, 20 nA
+11330 238  5-Misc[all]  :: low lumi run, 20 nA
+11330 239  5-Misc[all]  :: low lumi run, 20 nA
+11330 240  5-Misc[all]  :: low lumi run, 20 nA
+11330 241  5-Misc[all]  :: low lumi run, 20 nA
+11330 242  5-Misc[all]  :: low lumi run, 20 nA
+11330 243  5-Misc[all]  :: low lumi run, 20 nA
+11330 244  5-Misc[all]  :: low lumi run, 20 nA
+11330 245  5-Misc[all]  :: low lumi run, 20 nA
+11330 246  5-Misc[all]  :: low lumi run, 20 nA
+11330 247  5-Misc[all]  :: low lumi run, 20 nA
+11330 248  5-Misc[all]  :: low lumi run, 20 nA
+11330 249  5-Misc[all]  :: low lumi run, 20 nA
+11330 250  5-Misc[all]  :: low lumi run, 20 nA
+11330 251  5-Misc[all]  :: low lumi run, 20 nA
+11330 252  5-Misc[all]  :: low lumi run, 20 nA
+11330 253  5-Misc[all]  :: low lumi run, 20 nA
+11330 254  5-Misc[all]  :: low lumi run, 20 nA
+11330 255  5-Misc[all]  :: low lumi run, 20 nA
+11330 256  5-Misc[all]  :: low lumi run, 20 nA
+11330 257  5-Misc[all]  :: low lumi run, 20 nA
+11330 258  5-Misc[all]  :: low lumi run, 20 nA
+11330 259  5-Misc[all]  :: low lumi run, 20 nA
+11330 260  5-Misc[all]  :: low lumi run, 20 nA
+11330 261  5-Misc[all]  :: low lumi run, 20 nA
+11330 262  5-Misc[all]  :: low lumi run, 20 nA
+11330 263  5-Misc[all]  :: low lumi run, 20 nA
+11330 264  5-Misc[all]  :: low lumi run, 20 nA
+11330 265  5-Misc[all]  :: low lumi run, 20 nA
+11330 266  5-Misc[all]  :: low lumi run, 20 nA
+11330 267  5-Misc[all]  :: low lumi run, 20 nA
+11330 268  5-Misc[all]  :: low lumi run, 20 nA
+11330 269  5-Misc[all]  :: low lumi run, 20 nA
+11330 270  5-Misc[all]  :: low lumi run, 20 nA
+11330 271  5-Misc[all]  :: low lumi run, 20 nA
+11330 272  5-Misc[all]  :: low lumi run, 20 nA
+11330 273  5-Misc[all]  :: low lumi run, 20 nA
+11330 274  5-Misc[all]  :: low lumi run, 20 nA
+11330 275  5-Misc[all]  :: low lumi run, 20 nA
+11330 276  5-Misc[all]  :: low lumi run, 20 nA
+11330 277  5-Misc[all]  :: low lumi run, 20 nA
+11330 278  5-Misc[all]  :: low lumi run, 20 nA
+11330 279  5-Misc[all]  :: low lumi run, 20 nA
+11330 280  5-Misc[all]  :: low lumi run, 20 nA
+11330 281  5-Misc[all]  :: low lumi run, 20 nA
+11330 282  5-Misc[all]  :: low lumi run, 20 nA
+11330 283  5-Misc[all]  :: low lumi run, 20 nA
+11330 284  5-Misc[all]  :: low lumi run, 20 nA
+11330 285  5-Misc[all]  :: low lumi run, 20 nA
+11330 286  5-Misc[all]  :: low lumi run, 20 nA
+11330 287  5-Misc[all]  :: low lumi run, 20 nA
+11330 288  5-Misc[all]  :: low lumi run, 20 nA
+11330 289  5-Misc[all]  :: low lumi run, 20 nA
+11330 290  5-Misc[all]  :: low lumi run, 20 nA
+11330 291  5-Misc[all]  :: low lumi run, 20 nA
+11330 292  5-Misc[all]  :: low lumi run, 20 nA
+11330 293  5-Misc[all]  :: low lumi run, 20 nA
+11330 294  5-Misc[all]  :: low lumi run, 20 nA
+11330 295  5-Misc[all]  :: low lumi run, 20 nA
+11330 296  5-Misc[all]  :: low lumi run, 20 nA
+11330 297  5-Misc[all]  :: low lumi run, 20 nA
+11330 298  5-Misc[all]  :: low lumi run, 20 nA
+11330 299  5-Misc[all]  :: low lumi run, 20 nA
+11330 300  5-Misc[all]  :: low lumi run, 20 nA
+11330 301  5-Misc[all]  :: low lumi run, 20 nA
+11330 302  5-Misc[all]  :: low lumi run, 20 nA
+11330 303  5-Misc[all]  :: low lumi run, 20 nA
+11330 304  5-Misc[all]  :: low lumi run, 20 nA
+11330 305  5-Misc[all]  :: low lumi run, 20 nA
+11330 306  5-Misc[all]  :: low lumi run, 20 nA
+11330 307  5-Misc[all]  :: low lumi run, 20 nA
+11330 308  5-Misc[all]  :: low lumi run, 20 nA
+11330 309  5-Misc[all]  :: low lumi run, 20 nA
+11330 310  5-Misc[all]  :: low lumi run, 20 nA
+11330 311  5-Misc[all]  :: low lumi run, 20 nA
+11330 312  5-Misc[all]  :: low lumi run, 20 nA
+11330 313  5-Misc[all]  :: low lumi run, 20 nA
+11330 314  5-Misc[all]  :: low lumi run, 20 nA
+11330 315  5-Misc[all]  :: low lumi run, 20 nA
+11330 316  5-Misc[all]  :: low lumi run, 20 nA
+11330 317  5-Misc[all]  :: low lumi run, 20 nA
+11330 318  5-Misc[all]  :: low lumi run, 20 nA
+11330 319  5-Misc[all]  :: low lumi run, 20 nA
+11330 320  5-Misc[all]  :: low lumi run, 20 nA
+11330 321  5-Misc[all]  :: low lumi run, 20 nA
+11330 322  5-Misc[all]  :: low lumi run, 20 nA
+11330 323  5-Misc[all]  :: low lumi run, 20 nA
+11330 324  5-Misc[all]  :: low lumi run, 20 nA
+11330 325  5-Misc[all]  :: low lumi run, 20 nA
+11330 326  5-Misc[all]  :: low lumi run, 20 nA
+11330 327  5-Misc[all]  :: low lumi run, 20 nA
+11330 328  5-Misc[all]  :: low lumi run, 20 nA
+11330 329  5-Misc[all]  :: low lumi run, 20 nA
+11330 330  5-Misc[all]  :: low lumi run, 20 nA
+11330 331  5-Misc[all]  :: low lumi run, 20 nA
+11330 332  5-Misc[all]  :: low lumi run, 20 nA
+11330 333  5-Misc[all]  :: low lumi run, 20 nA
+11330 334  5-Misc[all]  :: low lumi run, 20 nA
+11330 335  5-Misc[all]  :: low lumi run, 20 nA
+11330 336  5-Misc[all]  :: low lumi run, 20 nA
+11330 337  5-Misc[all]  :: low lumi run, 20 nA
+11330 338  5-Misc[all]  :: low lumi run, 20 nA
+11330 339  5-Misc[all]  :: low lumi run, 20 nA
+11330 340  5-Misc[all]  :: low lumi run, 20 nA
+11330 341  5-Misc[all]  :: low lumi run, 20 nA
+11330 342  5-Misc[all]  :: low lumi run, 20 nA
+11330 343  5-Misc[all]  :: low lumi run, 20 nA
+11330 344  5-Misc[all]  :: low lumi run, 20 nA
+11330 345  5-Misc[all]  :: low lumi run, 20 nA
+11330 346  5-Misc[all]  :: low lumi run, 20 nA
+11330 347  5-Misc[all]  :: low lumi run, 20 nA
+11330 348  5-Misc[all]  :: low lumi run, 20 nA
+11330 349  5-Misc[all]  :: low lumi run, 20 nA
+11330 350  5-Misc[all]  :: low lumi run, 20 nA
+11330 351  5-Misc[all]  :: low lumi run, 20 nA
+11330 352  5-Misc[all]  :: low lumi run, 20 nA
+11330 353  5-Misc[all]  :: low lumi run, 20 nA
+11330 354  5-Misc[all]  :: low lumi run, 20 nA
+11330 355  5-Misc[all]  :: low lumi run, 20 nA
+11330 356  5-Misc[all]  :: low lumi run, 20 nA
+11330 357  5-Misc[all]  :: low lumi run, 20 nA
+11330 358  5-Misc[all]  :: low lumi run, 20 nA
+11330 359  5-Misc[all]  :: low lumi run, 20 nA
+11330 360  5-Misc[all]  :: low lumi run, 20 nA
+11330 361  5-Misc[all]  :: low lumi run, 20 nA
+11330 362  5-Misc[all]  :: low lumi run, 20 nA
+11330 363  5-Misc[all]  :: low lumi run, 20 nA
+11330 364  5-Misc[all]  :: low lumi run, 20 nA
+11330 365  5-Misc[all]  :: low lumi run, 20 nA
+11330 366  5-Misc[all]  :: low lumi run, 20 nA
+11330 367  5-Misc[all]  :: low lumi run, 20 nA
+11330 368  5-Misc[all]  :: low lumi run, 20 nA
+11330 369  5-Misc[all]  :: low lumi run, 20 nA
+11330 370  5-Misc[all]  :: low lumi run, 20 nA
+11330 371  5-Misc[all]  :: low lumi run, 20 nA
+11330 372  5-Misc[all]  :: low lumi run, 20 nA
+11330 373  5-Misc[all]  :: low lumi run, 20 nA
+11330 374  5-Misc[all]  :: low lumi run, 20 nA
+11330 375  5-Misc[all]  :: low lumi run, 20 nA
+11330 376  5-Misc[all]  :: low lumi run, 20 nA
+11330 377  5-Misc[all]  :: low lumi run, 20 nA
+11330 378  5-Misc[all]  :: low lumi run, 20 nA
+11330 379  5-Misc[all]  :: low lumi run, 20 nA
+11330 380  5-Misc[all]  :: low lumi run, 20 nA
+11330 381  5-Misc[all]  :: low lumi run, 20 nA
+11330 382  5-Misc[all]  :: low lumi run, 20 nA
+11330 383  5-Misc[all]  :: low lumi run, 20 nA
+11330 384  5-Misc[all]  :: low lumi run, 20 nA
+11330 385  5-Misc[all]  :: low lumi run, 20 nA
+11330 386  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low lumi run, 20 nA
 
 RUN: 11331
-11331 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11331 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11331 2  0-TotalOutlier[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]
-11331 3  GOLDEN
-11331 4  GOLDEN
-11331 5  GOLDEN
-11331 6  GOLDEN
-11331 7  GOLDEN
-11331 8  GOLDEN
-11331 9  GOLDEN
-11331 10  GOLDEN
-11331 11  GOLDEN
-11331 12  GOLDEN
-11331 13  GOLDEN
-11331 14  GOLDEN
-11331 15  GOLDEN
-11331 16  GOLDEN
-11331 17  GOLDEN
-11331 18  GOLDEN
-11331 19  GOLDEN
-11331 20  GOLDEN
-11331 21  GOLDEN
-11331 22  GOLDEN
-11331 23  GOLDEN
-11331 24  GOLDEN
-11331 25  GOLDEN
-11331 26  GOLDEN
-11331 27  GOLDEN
-11331 28  GOLDEN
-11331 29  GOLDEN
-11331 30  GOLDEN
-11331 31  GOLDEN
-11331 32  GOLDEN
-11331 33  GOLDEN
-11331 34  GOLDEN
-11331 35  GOLDEN
-11331 36  GOLDEN
-11331 37  GOLDEN
-11331 38  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11331 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: Taken during spin dance (20nA)
+11331 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: Taken during spin dance (20nA)
+11331 2  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: Taken during spin dance (20nA)
+11331 3  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 4  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 5  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 6  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 7  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 8  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 9  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 10  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 11  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 12  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 13  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 14  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 15  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 16  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 17  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 18  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 19  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 20  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 21  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 22  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 23  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 24  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 25  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 26  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 27  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 28  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 29  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 30  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 31  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 32  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 33  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 34  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 35  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 36  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 37  5-Misc[all]  :: Taken during spin dance (20nA)
+11331 38  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: Taken during spin dance (20nA)
 
 RUN: 11336
 11336 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low
@@ -2576,275 +2576,275 @@ RUN: 11340
 11340 35  5-Misc[all]  :: beam modulation problems
 11340 36  5-Misc[all]  :: beam modulation problems
 11340 37  5-Misc[all]  :: beam modulation problems
-11340 38  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 39  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11340 40  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 41  5-Misc[all]  :: beam modulation problems
-11340 42  5-Misc[all]  :: beam modulation problems
-11340 43  5-Misc[all]  :: beam modulation problems
-11340 44  5-Misc[all]  :: beam modulation problems
-11340 45  5-Misc[all]  :: beam modulation problems
-11340 46  5-Misc[all]  :: beam modulation problems
-11340 47  5-Misc[all]  :: beam modulation problems
-11340 48  5-Misc[all]  :: beam modulation problems
-11340 49  5-Misc[all]  :: beam modulation problems
-11340 50  5-Misc[all]  :: beam modulation problems
-11340 51  5-Misc[all]  :: beam modulation problems
-11340 52  5-Misc[all]  :: beam modulation problems
-11340 53  5-Misc[all]  :: beam modulation problems
-11340 54  5-Misc[all]  :: beam modulation problems
-11340 55  5-Misc[all]  :: beam modulation problems
-11340 56  5-Misc[all]  :: beam modulation problems
-11340 57  5-Misc[all]  :: beam modulation problems
-11340 58  5-Misc[all]  :: beam modulation problems
-11340 59  5-Misc[all]  :: beam modulation problems
-11340 60  5-Misc[all]  :: beam modulation problems
-11340 61  5-Misc[all]  :: beam modulation problems
-11340 62  5-Misc[all]  :: beam modulation problems
-11340 63  5-Misc[all]  :: beam modulation problems
-11340 64  5-Misc[all]  :: beam modulation problems
-11340 65  5-Misc[all]  :: beam modulation problems
-11340 66  5-Misc[all]  :: beam modulation problems
-11340 67  5-Misc[all]  :: beam modulation problems
-11340 68  5-Misc[all]  :: beam modulation problems
-11340 69  5-Misc[all]  :: beam modulation problems
-11340 70  5-Misc[all]  :: beam modulation problems
-11340 71  5-Misc[all]  :: beam modulation problems
-11340 72  5-Misc[all]  :: beam modulation problems
-11340 73  5-Misc[all]  :: beam modulation problems
-11340 74  5-Misc[all]  :: beam modulation problems
-11340 75  5-Misc[all]  :: beam modulation problems
-11340 76  5-Misc[all]  :: beam modulation problems
-11340 77  5-Misc[all]  :: beam modulation problems
-11340 78  5-Misc[all]  :: beam modulation problems
-11340 79  5-Misc[all]  :: beam modulation problems
-11340 80  5-Misc[all]  :: beam modulation problems
-11340 81  5-Misc[all]  :: beam modulation problems
-11340 82  5-Misc[all]  :: beam modulation problems
-11340 83  5-Misc[all]  :: beam modulation problems
-11340 84  5-Misc[all]  :: beam modulation problems
-11340 85  5-Misc[all]  :: beam modulation problems
-11340 86  5-Misc[all]  :: beam modulation problems
-11340 87  5-Misc[all]  :: beam modulation problems
-11340 88  5-Misc[all]  :: beam modulation problems
-11340 89  5-Misc[all]  :: beam modulation problems
-11340 90  5-Misc[all]  :: beam modulation problems
-11340 91  5-Misc[all]  :: beam modulation problems
-11340 92  5-Misc[all]  :: beam modulation problems
-11340 93  5-Misc[all]  :: beam modulation problems
-11340 94  5-Misc[all]  :: beam modulation problems
-11340 95  5-Misc[all]  :: beam modulation problems
-11340 96  5-Misc[all]  :: beam modulation problems
-11340 97  5-Misc[all]  :: beam modulation problems
-11340 98  5-Misc[all]  :: beam modulation problems
-11340 99  5-Misc[all]  :: beam modulation problems
-11340 100  5-Misc[all]  :: beam modulation problems
-11340 101  5-Misc[all]  :: beam modulation problems
-11340 102  5-Misc[all]  :: beam modulation problems
-11340 103  5-Misc[all]  :: beam modulation problems
-11340 104  5-Misc[all]  :: beam modulation problems
-11340 105  5-Misc[all]  :: beam modulation problems
-11340 106  5-Misc[all]  :: beam modulation problems
-11340 107  5-Misc[all]  :: beam modulation problems
-11340 108  5-Misc[all]  :: beam modulation problems
-11340 109  5-Misc[all]  :: beam modulation problems
-11340 110  5-Misc[all]  :: beam modulation problems
-11340 111  5-Misc[all]  :: beam modulation problems
-11340 112  5-Misc[all]  :: beam modulation problems
-11340 113  5-Misc[all]  :: beam modulation problems
-11340 114  5-Misc[all]  :: beam modulation problems
-11340 115  5-Misc[all]  :: beam modulation problems
-11340 116  5-Misc[all]  :: beam modulation problems
-11340 117  5-Misc[all]  :: beam modulation problems
-11340 118  5-Misc[all]  :: beam modulation problems
-11340 119  5-Misc[all]  :: beam modulation problems
-11340 120  5-Misc[all]  :: beam modulation problems
-11340 121  5-Misc[all]  :: beam modulation problems
-11340 122  5-Misc[all]  :: beam modulation problems
-11340 123  5-Misc[all]  :: beam modulation problems
-11340 124  5-Misc[all]  :: beam modulation problems
-11340 125  5-Misc[all]  :: beam modulation problems
-11340 126  5-Misc[all]  :: beam modulation problems
-11340 127  5-Misc[all]  :: beam modulation problems
-11340 128  5-Misc[all]  :: beam modulation problems
-11340 129  5-Misc[all]  :: beam modulation problems
-11340 130  5-Misc[all]  :: beam modulation problems
-11340 131  5-Misc[all]  :: beam modulation problems
-11340 132  5-Misc[all]  :: beam modulation problems
-11340 133  5-Misc[all]  :: beam modulation problems
-11340 134  5-Misc[all]  :: beam modulation problems
-11340 135  5-Misc[all]  :: beam modulation problems
-11340 136  5-Misc[all]  :: beam modulation problems
-11340 137  5-Misc[all]  :: beam modulation problems
-11340 138  5-Misc[all]  :: beam modulation problems
-11340 139  5-Misc[all]  :: beam modulation problems
-11340 140  5-Misc[all]  :: beam modulation problems
-11340 141  5-Misc[all]  :: beam modulation problems
-11340 142  5-Misc[all]  :: beam modulation problems
-11340 143  5-Misc[all]  :: beam modulation problems
-11340 144  5-Misc[all]  :: beam modulation problems
-11340 145  5-Misc[all]  :: beam modulation problems
-11340 146  5-Misc[all]  :: beam modulation problems
-11340 147  5-Misc[all]  :: beam modulation problems
-11340 148  5-Misc[all]  :: beam modulation problems
-11340 149  5-Misc[all]  :: beam modulation problems
-11340 150  5-Misc[all]  :: beam modulation problems
-11340 151  5-Misc[all]  :: beam modulation problems
-11340 152  5-Misc[all]  :: beam modulation problems
-11340 153  5-Misc[all]  :: beam modulation problems
-11340 154  5-Misc[all]  :: beam modulation problems
-11340 155  5-Misc[all]  :: beam modulation problems
-11340 156  5-Misc[all]  :: beam modulation problems
-11340 157  5-Misc[all]  :: beam modulation problems
-11340 158  5-Misc[all]  :: beam modulation problems
-11340 159  5-Misc[all]  :: beam modulation problems
-11340 160  5-Misc[all]  :: beam modulation problems
-11340 161  5-Misc[all]  :: beam modulation problems
-11340 162  5-Misc[all]  :: beam modulation problems
-11340 163  5-Misc[all]  :: beam modulation problems
-11340 164  5-Misc[all]  :: beam modulation problems
-11340 165  5-Misc[all]  :: beam modulation problems
-11340 166  5-Misc[all]  :: beam modulation problems
-11340 167  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 168  5-Misc[all]  :: beam modulation problems
-11340 169  5-Misc[all]  :: beam modulation problems
-11340 170  5-Misc[all]  :: beam modulation problems
-11340 171  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 172  5-Misc[all]  :: beam modulation problems
-11340 173  5-Misc[all]  :: beam modulation problems
-11340 174  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 175  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 176  5-Misc[all]  :: beam modulation problems
-11340 177  5-Misc[all]  :: beam modulation problems
-11340 178  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 179  5-Misc[all]  :: beam modulation problems
-11340 180  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 181  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 182  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 183  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 184  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 185  5-Misc[all]  :: beam modulation problems
-11340 186  5-Misc[all]  :: beam modulation problems
-11340 187  5-Misc[all]  :: beam modulation problems
-11340 188  5-Misc[all]  :: beam modulation problems
-11340 189  5-Misc[all]  :: beam modulation problems
-11340 190  5-Misc[all]  :: beam modulation problems
-11340 191  5-Misc[all]  :: beam modulation problems
-11340 192  5-Misc[all]  :: beam modulation problems
-11340 193  5-Misc[all]  :: beam modulation problems
-11340 194  5-Misc[all]  :: beam modulation problems
-11340 195  5-Misc[all]  :: beam modulation problems
-11340 196  5-Misc[all]  :: beam modulation problems
-11340 197  5-Misc[all]  :: beam modulation problems
-11340 198  5-Misc[all]  :: beam modulation problems
-11340 199  5-Misc[all]  :: beam modulation problems
-11340 200  5-Misc[all]  :: beam modulation problems
-11340 201  5-Misc[all]  :: beam modulation problems
-11340 202  5-Misc[all]  :: beam modulation problems
-11340 203  5-Misc[all]  :: beam modulation problems
-11340 204  5-Misc[all]  :: beam modulation problems
-11340 205  5-Misc[all]  :: beam modulation problems
-11340 206  5-Misc[all]  :: beam modulation problems
-11340 207  5-Misc[all]  :: beam modulation problems
-11340 208  5-Misc[all]  :: beam modulation problems
-11340 209  5-Misc[all]  :: beam modulation problems
-11340 210  5-Misc[all]  :: beam modulation problems
-11340 211  5-Misc[all]  :: beam modulation problems
-11340 212  5-Misc[all]  :: beam modulation problems
-11340 213  5-Misc[all]  :: beam modulation problems
-11340 214  5-Misc[all]  :: beam modulation problems
-11340 215  5-Misc[all]  :: beam modulation problems
-11340 216  5-Misc[all]  :: beam modulation problems
-11340 217  5-Misc[all]  :: beam modulation problems
-11340 218  5-Misc[all]  :: beam modulation problems
-11340 219  5-Misc[all]  :: beam modulation problems
-11340 220  5-Misc[all]  :: beam modulation problems
-11340 221  5-Misc[all]  :: beam modulation problems
-11340 222  5-Misc[all]  :: beam modulation problems
-11340 223  5-Misc[all]  :: beam modulation problems
-11340 224  5-Misc[all]  :: beam modulation problems
-11340 225  5-Misc[all]  :: beam modulation problems
-11340 226  5-Misc[all]  :: beam modulation problems
-11340 227  5-Misc[all]  :: beam modulation problems
-11340 228  5-Misc[all]  :: beam modulation problems
-11340 229  5-Misc[all]  :: beam modulation problems
-11340 230  5-Misc[all]  :: beam modulation problems
-11340 231  5-Misc[all]  :: beam modulation problems
-11340 232  5-Misc[all]  :: beam modulation problems
-11340 233  5-Misc[all]  :: beam modulation problems
-11340 234  5-Misc[all]  :: beam modulation problems
-11340 235  5-Misc[all]  :: beam modulation problems
-11340 236  5-Misc[all]  :: beam modulation problems
-11340 237  5-Misc[all]  :: beam modulation problems
-11340 238  5-Misc[all]  :: beam modulation problems
-11340 239  5-Misc[all]  :: beam modulation problems
-11340 240  5-Misc[all]  :: beam modulation problems
-11340 241  5-Misc[all]  :: beam modulation problems
-11340 242  5-Misc[all]  :: beam modulation problems
-11340 243  5-Misc[all]  :: beam modulation problems
-11340 244  5-Misc[all]  :: beam modulation problems
-11340 245  5-Misc[all]  :: beam modulation problems
-11340 246  5-Misc[all]  :: beam modulation problems
-11340 247  5-Misc[all]  :: beam modulation problems
-11340 248  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 249  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 250  5-Misc[all]  :: beam modulation problems
-11340 251  5-Misc[all]  :: beam modulation problems
-11340 252  5-Misc[all]  :: beam modulation problems
-11340 253  5-Misc[all]  :: beam modulation problems
-11340 254  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11340 255  5-Misc[all]  :: beam modulation problems
-11340 256  5-Misc[all]  :: beam modulation problems
-11340 257  5-Misc[all]  :: beam modulation problems
-11340 258  5-Misc[all]  :: beam modulation problems
-11340 259  5-Misc[all]  :: beam modulation problems
-11340 260  5-Misc[all]  :: beam modulation problems
-11340 261  5-Misc[all]  :: beam modulation problems
-11340 262  5-Misc[all]  :: beam modulation problems
-11340 263  5-Misc[all]  :: beam modulation problems
-11340 264  5-Misc[all]  :: beam modulation problems
-11340 265  5-Misc[all]  :: beam modulation problems
-11340 266  5-Misc[all]  :: beam modulation problems
-11340 267  5-Misc[all]  :: beam modulation problems
-11340 268  5-Misc[all]  :: beam modulation problems
-11340 269  5-Misc[all]  :: beam modulation problems
-11340 270  5-Misc[all]  :: beam modulation problems
-11340 271  5-Misc[all]  :: beam modulation problems
-11340 272  5-Misc[all]  :: beam modulation problems
-11340 273  5-Misc[all]  :: beam modulation problems
-11340 274  5-Misc[all]  :: beam modulation problems
-11340 275  5-Misc[all]  :: beam modulation problems
-11340 276  5-Misc[all]  :: beam modulation problems
-11340 277  5-Misc[all]  :: beam modulation problems
-11340 278  5-Misc[all]  :: beam modulation problems
-11340 279  5-Misc[all]  :: beam modulation problems
-11340 280  5-Misc[all]  :: beam modulation problems
-11340 281  5-Misc[all]  :: beam modulation problems
-11340 282  5-Misc[all]  :: beam modulation problems
-11340 283  5-Misc[all]  :: beam modulation problems
-11340 284  5-Misc[all]  :: beam modulation problems
-11340 285  5-Misc[all]  :: beam modulation problems
-11340 286  5-Misc[all]  :: beam modulation problems
-11340 287  5-Misc[all]  :: beam modulation problems
-11340 288  5-Misc[all]  :: beam modulation problems
-11340 289  5-Misc[all]  :: beam modulation problems
-11340 290  5-Misc[all]  :: beam modulation problems
-11340 291  5-Misc[all]  :: beam modulation problems
-11340 292  5-Misc[all]  :: beam modulation problems
-11340 293  5-Misc[all]  :: beam modulation problems
-11340 294  5-Misc[all]  :: beam modulation problems
-11340 295  5-Misc[all]  :: beam modulation problems
-11340 296  5-Misc[all]  :: beam modulation problems
-11340 297  5-Misc[all]  :: beam modulation problems
-11340 298  5-Misc[all]  :: beam modulation problems
-11340 299  5-Misc[all]  :: beam modulation problems
-11340 300  5-Misc[all]  :: beam modulation problems
-11340 301  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11340 302  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: beam modulation problems
-11340 303  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: beam modulation problems
-11340 304  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: beam modulation problems
-11340 305  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: beam modulation problems
-11340 306  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems
+11340 38  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 39  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 40  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 41  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 42  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 43  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 44  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 45  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 46  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 47  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 48  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 49  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 50  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 51  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 52  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 53  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 54  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 55  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 56  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 57  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 58  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 59  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 60  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 61  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 62  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 63  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 64  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 65  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 66  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 67  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 68  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 69  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 70  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 71  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 72  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 73  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 74  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 75  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 76  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 77  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 78  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 79  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 80  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 81  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 82  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 83  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 84  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 85  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 86  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 87  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 88  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 89  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 90  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 91  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 92  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 93  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 94  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 95  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 96  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 97  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 98  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 99  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 100  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 101  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 102  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 103  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 104  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 105  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 106  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 107  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 108  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 109  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 110  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 111  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 112  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 113  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 114  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 115  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 116  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 117  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 118  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 119  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 120  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 121  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 122  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 123  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 124  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 125  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 126  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 127  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 128  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 129  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 130  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 131  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 132  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 133  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 134  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 135  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 136  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 137  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 138  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 139  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 140  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 141  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 142  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 143  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 144  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 145  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 146  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 147  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 148  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 149  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 150  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 151  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 152  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 153  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 154  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 155  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 156  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 157  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 158  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 159  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 160  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 161  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 162  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 163  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 164  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 165  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 166  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 167  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 168  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 169  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 170  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 171  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 172  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 173  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 174  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 175  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 176  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 177  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 178  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 179  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 180  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 181  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 182  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 183  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 184  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 185  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 186  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 187  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 188  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 189  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 190  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 191  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 192  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 193  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 194  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 195  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 196  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 197  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 198  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 199  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 200  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 201  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 202  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 203  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 204  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 205  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 206  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 207  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 208  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 209  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 210  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 211  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 212  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 213  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 214  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 215  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 216  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 217  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 218  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 219  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 220  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 221  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 222  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 223  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 224  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 225  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 226  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 227  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 228  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 229  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 230  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 231  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 232  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 233  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 234  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 235  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 236  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 237  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 238  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 239  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 240  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 241  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 242  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 243  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 244  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 245  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 246  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 247  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 248  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 249  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 250  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 251  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 252  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 253  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 254  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11340 255  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 256  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 257  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 258  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 259  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 260  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 261  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 262  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 263  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 264  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 265  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 266  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 267  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 268  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 269  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 270  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 271  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 272  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 273  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 274  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 275  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 276  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 277  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 278  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 279  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 280  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 281  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 282  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 283  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 284  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 285  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 286  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 287  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 288  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 289  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 290  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 291  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 292  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 293  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 294  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 295  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 296  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 297  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 298  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 299  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 300  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 301  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11340 302  0-TotalOutlier[all]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: beam modulation problems
+11340 303  0-TotalOutlier[all]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: beam modulation problems
+11340 304  0-TotalOutlier[all]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: beam modulation problems
+11340 305  0-TotalOutlier[all]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: beam modulation problems
+11340 306  1-TerminalOutlier[all]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems
 
 RUN: 11341
 11341 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems
@@ -2955,116 +2955,116 @@ RUN: 11341
 11341 105  5-Misc[all]  :: beam modulation problems
 11341 106  5-Misc[all]  :: beam modulation problems
 11341 107  5-Misc[all]  :: beam modulation problems
-11341 108  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 109  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 110  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 111  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 112  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 113  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 114  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 115  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 116  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 117  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 118  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 119  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 120  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 121  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 122  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 123  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 124  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 125  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 126  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 127  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 128  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 129  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 130  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 131  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 132  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 133  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 134  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 135  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 136  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 137  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 138  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 139  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 140  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 141  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 142  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 143  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 144  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 145  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 146  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 147  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 148  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 149  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 150  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 151  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 152  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 153  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 154  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 155  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 156  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 157  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 158  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 159  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 160  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 161  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 162  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 163  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 164  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 165  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 166  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 167  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 168  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 169  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 170  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 171  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 172  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 173  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 174  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 175  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 176  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 177  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 178  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 179  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 180  0-TotalOutlier[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 181  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 182  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 183  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 184  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 185  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 186  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 187  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 188  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 189  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 190  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 191  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 192  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 193  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 194  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 195  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 196  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 197  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 198  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 199  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 200  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 201  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 202  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 203  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 204  0-TotalOutlier[5]  2-MarginalOutlier[4]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
-11341 205  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 206  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 207  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 208  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 209  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 210  0-TotalOutlier[4, 5]  5-Misc[all]  :: beam modulation problems
-11341 211  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 212  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 213  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 214  0-TotalOutlier[5]  2-MarginalOutlier[4]  5-Misc[all]  :: beam modulation problems
-11341 215  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 216  0-TotalOutlier[5]  5-Misc[all]  :: beam modulation problems
-11341 217  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems
+11341 108  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 109  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 110  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 111  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 112  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 113  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 114  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 115  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 116  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 117  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 118  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 119  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 120  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 121  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 122  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 123  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 124  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 125  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 126  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 127  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 128  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 129  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 130  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 131  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 132  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 133  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 134  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 135  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 136  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 137  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 138  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 139  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 140  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 141  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 142  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 143  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 144  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 145  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 146  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 147  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 148  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 149  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 150  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 151  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 152  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 153  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 154  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 155  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 156  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 157  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 158  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 159  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 160  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 161  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 162  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 163  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 164  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 165  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 166  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 167  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 168  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 169  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 170  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 171  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 172  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 173  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 174  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 175  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 176  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 177  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 178  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 179  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 180  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 181  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 182  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 183  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 184  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 185  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 186  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 187  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 188  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 189  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 190  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 191  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 192  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 193  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 194  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 195  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 196  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 197  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 198  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 199  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 200  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 201  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 202  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 203  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 204  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  :: beam modulation problems
+11341 205  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 206  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 207  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 208  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 209  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 210  0-TotalOutlier[4, 5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 211  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 212  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 213  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 214  0-TotalOutlier[5]  2-MarginalOutlier[4]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 215  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 216  0-TotalOutlier[5]  3-SectorLoss[4, 5]  5-Misc[all]  :: beam modulation problems
+11341 217  1-TerminalOutlier[all]  3-SectorLoss[4, 5]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems
 
 RUN: 11342
 11342 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low
@@ -3146,50 +3146,50 @@ RUN: 11345
 11345 42  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low
 
 RUN: 11347
-11347 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: varied beam current
-11347 1  4-LowLiveTime[all]  5-Misc[all]  :: varied beam current
-11347 2  5-Misc[all]  :: varied beam current
-11347 3  5-Misc[all]  :: varied beam current
-11347 4  5-Misc[all]  :: varied beam current
-11347 5  5-Misc[all]  :: varied beam current
-11347 6  5-Misc[all]  :: varied beam current
-11347 7  5-Misc[all]  :: varied beam current
-11347 8  5-Misc[all]  :: varied beam current
-11347 9  5-Misc[all]  :: varied beam current
-11347 10  5-Misc[all]  :: varied beam current
-11347 11  5-Misc[all]  :: varied beam current
-11347 12  5-Misc[all]  :: varied beam current
-11347 13  5-Misc[all]  :: varied beam current
-11347 14  5-Misc[all]  :: varied beam current
-11347 15  5-Misc[all]  :: varied beam current
-11347 16  5-Misc[all]  :: varied beam current
-11347 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: varied beam current
-11347 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: varied beam current
-11347 19  5-Misc[all]  :: varied beam current
-11347 20  5-Misc[all]  :: varied beam current
-11347 21  5-Misc[all]  :: varied beam current
-11347 22  5-Misc[all]  :: varied beam current
-11347 23  5-Misc[all]  :: varied beam current
-11347 24  5-Misc[all]  :: varied beam current
-11347 25  5-Misc[all]  :: varied beam current
-11347 26  5-Misc[all]  :: varied beam current
-11347 27  5-Misc[all]  :: varied beam current
-11347 28  5-Misc[all]  :: varied beam current
-11347 29  5-Misc[all]  :: varied beam current
-11347 30  5-Misc[all]  :: varied beam current
-11347 31  5-Misc[all]  :: varied beam current
-11347 32  5-Misc[all]  :: varied beam current
-11347 33  5-Misc[all]  :: varied beam current
-11347 34  5-Misc[all]  :: varied beam current
-11347 35  5-Misc[all]  :: varied beam current
-11347 36  5-Misc[all]  :: varied beam current
-11347 37  5-Misc[all]  :: varied beam current
-11347 38  5-Misc[all]  :: varied beam current
-11347 39  5-Misc[all]  :: varied beam current
-11347 40  5-Misc[all]  :: varied beam current
-11347 41  5-Misc[all]  :: varied beam current
-11347 42  5-Misc[all]  19-PossiblyNoBeam[2, 3, 4, 5, 6]  :: varied beam current
-11347 43  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: varied beam current
+11347 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: varied beam current; RF phase tuning
+11347 1  4-LowLiveTime[all]  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 2  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 3  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 4  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 5  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 6  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 7  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 8  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 9  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 10  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 11  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 12  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 13  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 14  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 15  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 16  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 17  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: varied beam current; RF phase tuning
+11347 18  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  19-PossiblyNoBeam[all]  :: varied beam current; RF phase tuning
+11347 19  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 20  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 21  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 22  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 23  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 24  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 25  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 26  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 27  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 28  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 29  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 30  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 31  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 32  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 33  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 34  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 35  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 36  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 37  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 38  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 39  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 40  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 41  5-Misc[all]  :: varied beam current; RF phase tuning
+11347 42  5-Misc[all]  19-PossiblyNoBeam[2, 3, 4, 5, 6]  :: varied beam current; RF phase tuning
+11347 43  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: varied beam current; RF phase tuning
 
 RUN: 11348
 11348 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: continued RF phase tuning
@@ -4298,230 +4298,230 @@ RUN: 11362
 11362 250  GOLDEN
 11362 251  16-ChargeHigh[all]
 11362 252  GOLDEN
-11362 253  GOLDEN
-11362 254  GOLDEN
-11362 255  GOLDEN
-11362 256  GOLDEN
-11362 257  GOLDEN
-11362 258  GOLDEN
-11362 259  GOLDEN
-11362 260  GOLDEN
-11362 261  GOLDEN
-11362 262  GOLDEN
-11362 263  GOLDEN
-11362 264  GOLDEN
-11362 265  GOLDEN
-11362 266  GOLDEN
-11362 267  GOLDEN
-11362 268  GOLDEN
-11362 269  GOLDEN
-11362 270  GOLDEN
-11362 271  GOLDEN
-11362 272  GOLDEN
-11362 273  GOLDEN
-11362 274  GOLDEN
-11362 275  GOLDEN
-11362 276  GOLDEN
-11362 277  GOLDEN
-11362 278  GOLDEN
-11362 279  GOLDEN
-11362 280  GOLDEN
-11362 281  GOLDEN
-11362 282  GOLDEN
-11362 283  GOLDEN
-11362 284  GOLDEN
-11362 285  GOLDEN
-11362 286  GOLDEN
-11362 287  GOLDEN
-11362 288  GOLDEN
-11362 289  GOLDEN
-11362 290  GOLDEN
-11362 291  GOLDEN
-11362 292  GOLDEN
-11362 293  GOLDEN
-11362 294  GOLDEN
-11362 295  GOLDEN
-11362 296  GOLDEN
-11362 297  GOLDEN
-11362 298  GOLDEN
-11362 299  GOLDEN
-11362 300  GOLDEN
-11362 301  GOLDEN
-11362 302  GOLDEN
-11362 303  GOLDEN
-11362 304  GOLDEN
-11362 305  GOLDEN
-11362 306  GOLDEN
-11362 307  GOLDEN
-11362 308  GOLDEN
-11362 309  GOLDEN
-11362 310  GOLDEN
-11362 311  GOLDEN
-11362 312  GOLDEN
-11362 313  GOLDEN
-11362 314  GOLDEN
-11362 315  GOLDEN
-11362 316  GOLDEN
-11362 317  GOLDEN
-11362 318  GOLDEN
-11362 319  GOLDEN
-11362 320  GOLDEN
-11362 321  GOLDEN
-11362 322  GOLDEN
-11362 323  GOLDEN
-11362 324  GOLDEN
-11362 325  GOLDEN
-11362 326  GOLDEN
-11362 327  GOLDEN
-11362 328  GOLDEN
-11362 329  GOLDEN
-11362 330  GOLDEN
-11362 331  GOLDEN
-11362 332  GOLDEN
-11362 333  GOLDEN
-11362 334  GOLDEN
-11362 335  GOLDEN
-11362 336  GOLDEN
-11362 337  GOLDEN
-11362 338  GOLDEN
-11362 339  GOLDEN
-11362 340  GOLDEN
-11362 341  GOLDEN
-11362 342  GOLDEN
-11362 343  GOLDEN
-11362 344  GOLDEN
-11362 345  GOLDEN
-11362 346  GOLDEN
-11362 347  GOLDEN
-11362 348  GOLDEN
-11362 349  GOLDEN
-11362 350  GOLDEN
-11362 351  GOLDEN
-11362 352  GOLDEN
-11362 353  GOLDEN
-11362 354  GOLDEN
-11362 355  GOLDEN
-11362 356  GOLDEN
-11362 357  GOLDEN
-11362 358  GOLDEN
-11362 359  GOLDEN
-11362 360  GOLDEN
-11362 361  GOLDEN
-11362 362  GOLDEN
-11362 363  GOLDEN
-11362 364  GOLDEN
-11362 365  GOLDEN
-11362 366  GOLDEN
-11362 367  GOLDEN
-11362 368  GOLDEN
-11362 369  GOLDEN
-11362 370  GOLDEN
-11362 371  GOLDEN
-11362 372  GOLDEN
-11362 373  GOLDEN
-11362 374  GOLDEN
-11362 375  GOLDEN
-11362 376  GOLDEN
-11362 377  GOLDEN
-11362 378  GOLDEN
-11362 379  GOLDEN
-11362 380  GOLDEN
-11362 381  GOLDEN
-11362 382  GOLDEN
-11362 383  GOLDEN
-11362 384  GOLDEN
-11362 385  GOLDEN
-11362 386  GOLDEN
-11362 387  GOLDEN
-11362 388  GOLDEN
-11362 389  GOLDEN
-11362 390  GOLDEN
-11362 391  GOLDEN
-11362 392  GOLDEN
-11362 393  GOLDEN
-11362 394  GOLDEN
-11362 395  GOLDEN
-11362 396  GOLDEN
-11362 397  GOLDEN
-11362 398  GOLDEN
-11362 399  GOLDEN
-11362 400  GOLDEN
-11362 401  GOLDEN
-11362 402  GOLDEN
-11362 403  GOLDEN
-11362 404  GOLDEN
-11362 405  GOLDEN
-11362 406  GOLDEN
-11362 407  GOLDEN
-11362 408  GOLDEN
-11362 409  GOLDEN
-11362 410  GOLDEN
-11362 411  GOLDEN
-11362 412  GOLDEN
-11362 413  GOLDEN
-11362 414  GOLDEN
-11362 415  GOLDEN
-11362 416  GOLDEN
-11362 417  GOLDEN
-11362 418  GOLDEN
-11362 419  GOLDEN
-11362 420  GOLDEN
-11362 421  GOLDEN
-11362 422  GOLDEN
-11362 423  GOLDEN
-11362 424  GOLDEN
-11362 425  GOLDEN
-11362 426  GOLDEN
-11362 427  GOLDEN
-11362 428  GOLDEN
-11362 429  GOLDEN
-11362 430  GOLDEN
-11362 431  GOLDEN
-11362 432  GOLDEN
-11362 433  GOLDEN
-11362 434  GOLDEN
-11362 435  GOLDEN
-11362 436  GOLDEN
-11362 437  GOLDEN
-11362 438  GOLDEN
-11362 439  GOLDEN
-11362 440  GOLDEN
-11362 441  GOLDEN
-11362 442  GOLDEN
-11362 443  GOLDEN
-11362 444  GOLDEN
-11362 445  GOLDEN
-11362 446  GOLDEN
-11362 447  GOLDEN
-11362 448  GOLDEN
-11362 449  GOLDEN
-11362 450  GOLDEN
-11362 451  GOLDEN
-11362 452  GOLDEN
-11362 453  GOLDEN
-11362 454  GOLDEN
-11362 455  GOLDEN
-11362 456  GOLDEN
-11362 457  GOLDEN
-11362 458  GOLDEN
-11362 459  GOLDEN
-11362 460  GOLDEN
-11362 461  GOLDEN
-11362 462  GOLDEN
-11362 463  GOLDEN
-11362 464  GOLDEN
-11362 465  GOLDEN
-11362 466  GOLDEN
-11362 467  GOLDEN
-11362 468  GOLDEN
-11362 469  GOLDEN
-11362 470  GOLDEN
-11362 471  GOLDEN
-11362 472  GOLDEN
-11362 473  GOLDEN
-11362 474  GOLDEN
-11362 475  GOLDEN
-11362 476  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11362 253  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 254  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 255  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 256  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 257  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 258  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 259  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 260  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 261  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 262  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 263  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 264  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 265  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 266  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 267  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 268  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 269  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 270  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 271  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 272  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 273  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 274  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 275  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 276  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 277  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 278  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 279  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 280  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 281  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 282  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 283  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 284  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 285  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 286  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 287  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 288  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 289  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 290  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 291  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 292  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 293  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 294  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 295  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 296  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 297  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 298  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 299  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 300  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 301  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 302  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 303  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 304  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 305  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 306  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 307  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 308  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 309  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 310  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 311  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 312  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 313  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 314  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 315  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 316  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 317  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 318  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 319  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 320  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 321  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 322  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 323  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 324  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 325  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 326  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 327  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 328  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 329  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 330  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 331  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 332  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 333  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 334  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 335  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 336  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 337  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 338  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 339  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 340  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 341  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 342  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 343  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 344  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 345  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 346  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 347  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 348  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 349  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 350  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 351  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 352  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 353  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 354  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 355  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 356  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 357  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 358  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 359  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 360  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 361  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 362  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 363  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 364  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 365  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 366  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 367  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 368  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 369  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 370  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 371  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 372  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 373  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 374  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 375  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 376  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 377  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 378  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 379  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 380  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 381  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 382  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 383  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 384  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 385  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 386  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 387  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 388  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 389  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 390  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 391  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 392  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 393  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 394  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 395  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 396  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 397  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 398  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 399  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 400  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 401  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 402  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 403  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 404  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 405  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 406  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 407  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 408  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 409  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 410  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 411  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 412  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 413  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 414  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 415  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 416  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 417  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 418  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 419  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 420  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 421  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 422  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 423  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 424  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 425  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 426  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 427  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 428  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 429  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 430  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 431  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 432  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 433  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 434  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 435  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 436  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 437  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 438  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 439  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 440  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 441  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 442  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 443  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 444  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 445  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 446  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 447  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 448  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 449  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 450  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 451  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 452  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 453  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 454  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 455  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 456  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 457  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 458  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 459  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 460  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 461  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 462  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 463  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 464  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 465  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 466  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 467  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 468  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 469  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 470  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 471  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 472  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 473  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 474  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 475  5-Misc[3]  :: slight decrease in N/F for sector 3
+11362 476  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[3]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: slight decrease in N/F for sector 3
 
 RUN: 11363
 11363 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -5335,146 +5335,146 @@ RUN: 11364
 11364 334  GOLDEN
 11364 335  GOLDEN
 11364 336  GOLDEN
-11364 337  GOLDEN
-11364 338  GOLDEN
-11364 339  GOLDEN
-11364 340  GOLDEN
-11364 341  GOLDEN
-11364 342  GOLDEN
-11364 343  4-LowLiveTime[all]
-11364 344  GOLDEN
-11364 345  GOLDEN
-11364 346  GOLDEN
-11364 347  GOLDEN
-11364 348  GOLDEN
-11364 349  GOLDEN
-11364 350  GOLDEN
-11364 351  GOLDEN
-11364 352  GOLDEN
-11364 353  GOLDEN
-11364 354  GOLDEN
-11364 355  GOLDEN
-11364 356  GOLDEN
-11364 357  GOLDEN
-11364 358  GOLDEN
-11364 359  GOLDEN
-11364 360  GOLDEN
-11364 361  GOLDEN
-11364 362  GOLDEN
-11364 363  GOLDEN
-11364 364  GOLDEN
-11364 365  GOLDEN
-11364 366  GOLDEN
-11364 367  GOLDEN
-11364 368  GOLDEN
-11364 369  GOLDEN
-11364 370  GOLDEN
-11364 371  GOLDEN
-11364 372  GOLDEN
-11364 373  GOLDEN
-11364 374  GOLDEN
-11364 375  GOLDEN
-11364 376  GOLDEN
-11364 377  GOLDEN
-11364 378  GOLDEN
-11364 379  GOLDEN
-11364 380  GOLDEN
-11364 381  GOLDEN
-11364 382  GOLDEN
-11364 383  2-MarginalOutlier[1, 4]
-11364 384  0-TotalOutlier[all]  8-MarginalOutlierFT[1]
-11364 385  GOLDEN
-11364 386  GOLDEN
-11364 387  GOLDEN
-11364 388  GOLDEN
-11364 389  GOLDEN
-11364 390  GOLDEN
-11364 391  GOLDEN
-11364 392  GOLDEN
-11364 393  GOLDEN
-11364 394  GOLDEN
-11364 395  GOLDEN
-11364 396  GOLDEN
-11364 397  GOLDEN
-11364 398  GOLDEN
-11364 399  GOLDEN
-11364 400  GOLDEN
-11364 401  GOLDEN
-11364 402  GOLDEN
-11364 403  GOLDEN
-11364 404  GOLDEN
-11364 405  GOLDEN
-11364 406  GOLDEN
-11364 407  GOLDEN
-11364 408  GOLDEN
-11364 409  GOLDEN
-11364 410  GOLDEN
-11364 411  GOLDEN
-11364 412  GOLDEN
-11364 413  GOLDEN
-11364 414  GOLDEN
-11364 415  GOLDEN
-11364 416  GOLDEN
-11364 417  GOLDEN
-11364 418  GOLDEN
-11364 419  GOLDEN
-11364 420  GOLDEN
-11364 421  GOLDEN
-11364 422  GOLDEN
-11364 423  GOLDEN
-11364 424  GOLDEN
-11364 425  GOLDEN
-11364 426  GOLDEN
-11364 427  GOLDEN
-11364 428  GOLDEN
-11364 429  GOLDEN
-11364 430  GOLDEN
-11364 431  GOLDEN
-11364 432  GOLDEN
-11364 433  GOLDEN
-11364 434  GOLDEN
-11364 435  GOLDEN
-11364 436  GOLDEN
-11364 437  GOLDEN
-11364 438  GOLDEN
-11364 439  GOLDEN
-11364 440  GOLDEN
-11364 441  GOLDEN
-11364 442  GOLDEN
-11364 443  GOLDEN
-11364 444  GOLDEN
-11364 445  GOLDEN
-11364 446  GOLDEN
-11364 447  GOLDEN
-11364 448  GOLDEN
-11364 449  GOLDEN
-11364 450  GOLDEN
-11364 451  GOLDEN
-11364 452  GOLDEN
-11364 453  GOLDEN
-11364 454  GOLDEN
-11364 455  GOLDEN
-11364 456  GOLDEN
-11364 457  GOLDEN
-11364 458  GOLDEN
-11364 459  GOLDEN
-11364 460  GOLDEN
-11364 461  GOLDEN
-11364 462  GOLDEN
-11364 463  GOLDEN
-11364 464  GOLDEN
-11364 465  GOLDEN
-11364 466  GOLDEN
-11364 467  GOLDEN
-11364 468  GOLDEN
-11364 469  GOLDEN
-11364 470  GOLDEN
-11364 471  GOLDEN
-11364 472  GOLDEN
-11364 473  GOLDEN
-11364 474  GOLDEN
-11364 475  GOLDEN
-11364 476  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11364 337  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 338  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 339  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 340  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 341  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 342  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 343  4-LowLiveTime[all]  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 344  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 345  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 346  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 347  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 348  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 349  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 350  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 351  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 352  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 353  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 354  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 355  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 356  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 357  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 358  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 359  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 360  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 361  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 362  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 363  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 364  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 365  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 366  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 367  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 368  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 369  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 370  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 371  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 372  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 373  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 374  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 375  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 376  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 377  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 378  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 379  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 380  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 381  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 382  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 383  2-MarginalOutlier[1, 4]  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 384  0-TotalOutlier[all]  5-Misc[4]  8-MarginalOutlierFT[1]  :: slight decrease in N/F for sector 4
+11364 385  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 386  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 387  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 388  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 389  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 390  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 391  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 392  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 393  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 394  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 395  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 396  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 397  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 398  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 399  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 400  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 401  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 402  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 403  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 404  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 405  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 406  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 407  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 408  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 409  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 410  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 411  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 412  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 413  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 414  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 415  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 416  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 417  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 418  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 419  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 420  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 421  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 422  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 423  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 424  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 425  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 426  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 427  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 428  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 429  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 430  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 431  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 432  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 433  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 434  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 435  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 436  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 437  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 438  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 439  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 440  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 441  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 442  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 443  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 444  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 445  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 446  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 447  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 448  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 449  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 450  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 451  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 452  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 453  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 454  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 455  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 456  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 457  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 458  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 459  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 460  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 461  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 462  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 463  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 464  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 465  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 466  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 467  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 468  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 469  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 470  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 471  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 472  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 473  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 474  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 475  5-Misc[4]  :: slight decrease in N/F for sector 4
+11364 476  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[4]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: slight decrease in N/F for sector 4
 
 RUN: 11365
 11365 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
@@ -16141,15 +16141,15 @@ RUN: 11413
 11413 180  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11414
-11414 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11414 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]
-11414 2  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
-11414 3  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
-11414 4  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
-11414 5  0-TotalOutlier[all]  4-LowLiveTime[all]
-11414 6  0-TotalOutlier[2, 3, 4, 5, 6]  2-MarginalOutlier[1]  4-LowLiveTime[all]
-11414 7  2-MarginalOutlier[1, 2, 3, 4, 6]  4-LowLiveTime[all]
-11414 8  4-LowLiveTime[all]
+11414 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+11414 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  16-ChargeHigh[all]  :: FC charge issue at beginning of run
+11414 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue at beginning of run
+11414 3  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue at beginning of run
+11414 4  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue at beginning of run
+11414 5  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11414 6  0-TotalOutlier[2, 3, 4, 5, 6]  2-MarginalOutlier[1]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11414 7  2-MarginalOutlier[1, 2, 3, 4, 6]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11414 8  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
 11414 9  GOLDEN
 11414 10  GOLDEN
 11414 11  GOLDEN
@@ -17938,12 +17938,12 @@ RUN: 11420
 11420 306  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11421
-11421 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11421 1  0-TotalOutlier[all]  6-TotalOutlierFT[1]
-11421 2  0-TotalOutlier[all]  4-LowLiveTime[all]  6-TotalOutlierFT[1]
-11421 3  2-MarginalOutlier[all]  4-LowLiveTime[all]
-11421 4  4-LowLiveTime[all]
-11421 5  4-LowLiveTime[all]
+11421 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+11421 1  0-TotalOutlier[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue at beginning of run
+11421 2  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  6-TotalOutlierFT[1]  :: FC charge issue at beginning of run
+11421 3  2-MarginalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11421 4  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11421 5  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
 11421 6  GOLDEN
 11421 7  2-MarginalOutlier[all]
 11421 8  GOLDEN
@@ -35529,10 +35529,10 @@ RUN: 11504
 11504 338  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
 
 RUN: 11505
-11505 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
-11505 1  0-TotalOutlier[all]  16-ChargeHigh[all]
-11505 2  2-MarginalOutlier[3]  4-LowLiveTime[all]
-11505 3  4-LowLiveTime[all]
+11505 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: FC charge issue at beginning of run
+11505 1  0-TotalOutlier[all]  5-Misc[all]  16-ChargeHigh[all]  :: FC charge issue at beginning of run
+11505 2  2-MarginalOutlier[3]  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
+11505 3  4-LowLiveTime[all]  5-Misc[all]  :: FC charge issue at beginning of run
 11505 4  GOLDEN
 11505 5  GOLDEN
 11505 6  GOLDEN
@@ -45996,123 +45996,123 @@ RUN: 11557
 11557 257  GOLDEN
 11557 258  GOLDEN
 11557 259  GOLDEN
-11557 260  GOLDEN
-11557 261  GOLDEN
-11557 262  GOLDEN
-11557 263  GOLDEN
-11557 264  GOLDEN
-11557 265  GOLDEN
-11557 266  GOLDEN
-11557 267  GOLDEN
-11557 268  GOLDEN
-11557 269  GOLDEN
-11557 270  GOLDEN
-11557 271  GOLDEN
-11557 272  GOLDEN
-11557 273  GOLDEN
-11557 274  GOLDEN
-11557 275  GOLDEN
-11557 276  GOLDEN
-11557 277  GOLDEN
-11557 278  GOLDEN
-11557 279  GOLDEN
-11557 280  GOLDEN
-11557 281  GOLDEN
-11557 282  GOLDEN
-11557 283  GOLDEN
-11557 284  GOLDEN
-11557 285  GOLDEN
-11557 286  GOLDEN
-11557 287  GOLDEN
-11557 288  GOLDEN
-11557 289  GOLDEN
-11557 290  GOLDEN
-11557 291  GOLDEN
-11557 292  GOLDEN
-11557 293  GOLDEN
-11557 294  GOLDEN
-11557 295  GOLDEN
-11557 296  GOLDEN
-11557 297  GOLDEN
-11557 298  GOLDEN
-11557 299  GOLDEN
-11557 300  GOLDEN
-11557 301  GOLDEN
-11557 302  GOLDEN
-11557 303  GOLDEN
-11557 304  GOLDEN
-11557 305  GOLDEN
-11557 306  GOLDEN
-11557 307  GOLDEN
-11557 308  GOLDEN
-11557 309  GOLDEN
-11557 310  GOLDEN
-11557 311  GOLDEN
-11557 312  GOLDEN
-11557 313  GOLDEN
-11557 314  GOLDEN
-11557 315  GOLDEN
-11557 316  GOLDEN
-11557 317  GOLDEN
-11557 318  GOLDEN
-11557 319  GOLDEN
-11557 320  GOLDEN
-11557 321  GOLDEN
-11557 322  GOLDEN
-11557 323  GOLDEN
-11557 324  GOLDEN
-11557 325  GOLDEN
-11557 326  GOLDEN
-11557 327  GOLDEN
-11557 328  GOLDEN
-11557 329  GOLDEN
-11557 330  GOLDEN
-11557 331  GOLDEN
-11557 332  GOLDEN
-11557 333  GOLDEN
-11557 334  GOLDEN
-11557 335  GOLDEN
-11557 336  GOLDEN
-11557 337  GOLDEN
-11557 338  GOLDEN
-11557 339  GOLDEN
-11557 340  GOLDEN
-11557 341  GOLDEN
-11557 342  GOLDEN
-11557 343  GOLDEN
-11557 344  GOLDEN
-11557 345  GOLDEN
-11557 346  GOLDEN
-11557 347  GOLDEN
-11557 348  GOLDEN
-11557 349  GOLDEN
-11557 350  GOLDEN
-11557 351  GOLDEN
-11557 352  GOLDEN
-11557 353  GOLDEN
-11557 354  GOLDEN
-11557 355  GOLDEN
-11557 356  GOLDEN
-11557 357  GOLDEN
-11557 358  GOLDEN
-11557 359  GOLDEN
-11557 360  GOLDEN
-11557 361  GOLDEN
-11557 362  GOLDEN
-11557 363  GOLDEN
-11557 364  GOLDEN
-11557 365  GOLDEN
-11557 366  GOLDEN
-11557 367  GOLDEN
-11557 368  GOLDEN
-11557 369  GOLDEN
-11557 370  GOLDEN
-11557 371  GOLDEN
-11557 372  GOLDEN
-11557 373  GOLDEN
-11557 374  GOLDEN
-11557 375  GOLDEN
-11557 376  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]
+11557 260  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 261  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 262  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 263  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 264  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 265  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 266  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 267  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 268  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 269  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 270  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 271  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 272  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 273  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 274  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 275  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 276  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 277  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 278  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 279  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 280  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 281  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 282  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 283  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 284  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 285  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 286  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 287  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 288  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 289  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 290  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 291  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 292  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 293  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 294  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 295  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 296  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 297  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 298  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 299  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 300  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 301  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 302  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 303  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 304  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 305  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 306  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 307  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 308  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 309  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 310  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 311  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 312  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 313  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 314  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 315  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 316  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 317  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 318  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 319  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 320  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 321  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 322  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 323  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 324  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 325  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 326  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 327  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 328  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 329  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 330  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 331  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 332  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 333  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 334  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 335  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 336  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 337  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 338  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 339  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 340  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 341  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 342  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 343  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 344  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 345  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 346  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 347  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 348  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 349  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 350  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 351  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 352  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 353  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 354  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 355  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 356  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 357  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 358  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 359  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 360  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 361  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 362  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 363  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 364  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 365  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 366  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 367  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 368  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 369  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 370  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 371  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 372  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 373  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 374  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 375  5-Misc[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
+11557 376  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]  :: beam steering issues, causing increased F and a bit of variation in N/F
 
 RUN: 11560
 11560 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  7-TerminalOutlierFT[1]  18-ChargeUnknown[all]

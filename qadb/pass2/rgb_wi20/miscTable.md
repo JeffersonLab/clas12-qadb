@@ -21,9 +21,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11326      | yes   | <pre>Short run at 30 nA to make sure DAQ is good</pre> |
 | 11327      | yes   | <pre>50 nA production run - lots of problems with DC HV trips</pre> |
 | 11328      | no    |  |
-| 11329      | no    |  |
-| 11330      | no    |  |
-| 11331      | no    |  |
+| 11329      | yes   | <pre>low lumi run, 20 nA</pre> |
+| 11330      | yes   | <pre>low lumi run, 20 nA</pre> |
+| 11331      | yes   | <pre>Taken during spin dance (20nA)</pre> |
 | 11336      | yes   | <pre>low livetime (0.8) for most of the run; fraction of events with defined helicity is low</pre> |
 | 11338      | yes   | <pre>low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low</pre> |
 | 11339      | no    |  |
@@ -31,7 +31,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11341      | yes   | <pre>beam modulation problems</pre> |
 | 11342      | yes   | <pre>beam modulation problems; bad trigger timing; fraction of events with defined helicity is low</pre> |
 | 11345      | yes   | <pre>low livetime (0.7) for most of the run; fraction of events with defined helicity is low</pre> |
-| 11347      | yes   | <pre>varied beam current</pre> |
+| 11347      | yes   | <pre>varied beam current; RF phase tuning</pre> |
 | 11348      | yes   | <pre>continued RF phase tuning</pre> |
 | 11352      | yes   | <pre>RF phase tuning</pre> |
 | 11354      | yes   | <pre>RF phase tuning; fraction of events with defined helicity is low</pre> |
@@ -39,9 +39,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11357      | yes   | <pre>low livetime (0.75) for most of the run; fraction of events with defined helicity is low</pre> |
 | 11358      | yes   | <pre>low livetime (0.8) for most of the run; fraction of events with defined helicity is low</pre> |
 | 11361      | yes   | <pre>FC charge issue at beginning of run</pre> |
-| 11362      | no    |  |
+| 11362      | yes   | <pre>slight decrease in N/F for sector 3</pre> |
 | 11363      | no    |  |
-| 11364      | no    |  |
+| 11364      | yes   | <pre>slight decrease in N/F for sector 4</pre> |
 | 11365      | no    |  |
 | 11366      | no    |  |
 | 11367      | no    |  |
@@ -73,14 +73,14 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11404      | no    |  |
 | 11412      | no    |  |
 | 11413      | no    |  |
-| 11414      | no    |  |
+| 11414      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11415      | no    |  |
 | 11416      | no    |  |
 | 11417      | no    |  |
 | 11418      | no    |  |
 | 11419      | no    |  |
 | 11420      | no    |  |
-| 11421      | no    |  |
+| 11421      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11422      | no    |  |
 | 11423      | no    |  |
 | 11429      | no    |  |
@@ -142,7 +142,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11501      | no    |  |
 | 11502      | yes   | <pre>beam current oscillations: https://logbooks.jlab.org/entry/3770100</pre> |
 | 11504      | no    |  |
-| 11505      | no    |  |
+| 11505      | yes   | <pre>FC charge issue at beginning of run</pre> |
 | 11506      | no    |  |
 | 11507      | no    |  |
 | 11508      | no    |  |
@@ -183,7 +183,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 11553      | no    |  |
 | 11554      | no    |  |
 | 11556      | no    |  |
-| 11557      | no    |  |
+| 11557      | yes   | <pre>beam steering issues, causing increased F and a bit of variation in N/F</pre> |
 | 11560      | no    |  |
 | 11561      | no    |  |
 | 11562      | no    |  |
