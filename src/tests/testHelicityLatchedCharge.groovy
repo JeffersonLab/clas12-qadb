@@ -4,24 +4,25 @@
 // imports
 import clasqa.QADB // access QADB
 
+
 // instantiate QADB
 QADB qa = new QADB("latest")
 // alternatively, specify run range to restrict QADB (may be more efficient)
 //QADB qa = new QADB("latest",5000,5500);
+// additionally, you can specify a run range in verbose mode
+//QADB qa = new QADB("latest",-1,-1,true)
 int evnum
 def defname
 int chargeInt
-
+def HLstate = [-1,0,1]
 
 // specify run number list
 def runnumList = [
-  5682,
-  5683,
   5695,
-  5751,
-  5827
+  16042,
+  16049,
+  16138
 ]
-
 
 // specify QA criteria
 qa.checkForDefect("SectorLoss")
@@ -46,13 +47,16 @@ runnumList.each{ runnum ->
       qa.pass(runnum,evnum) &&
       !( runnum==5827 && (filenum==10 || filenum==45 || filenum==50) )
     ) {
-      qa.accumulateCharge()
+      qa.accumulateChargeHL()
     }
 
   } // end file loop
 
   // print this run's charge, and reset
-  println "$runnum " + qa.getAccumulatedCharge()
-  qa.resetAccumulatedCharge()
+  println "$runnum "
+  HLstate.each{ value ->
+    println "HL charge(" + value + ")= " + qa.getAccumulatedChargeHL(value)
+  }
+  qa.resetAccumulatedChargeHL()
 
 } // end run loop
