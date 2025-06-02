@@ -15,30 +15,30 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 11323      | yes   | <pre>low lumi run, 5 nA</pre> |
-| 11324      | yes   | <pre>low lumi run, 10 nA</pre> |
-| 11325      | yes   | <pre>low lumi run, 10 nA</pre> |
-| 11326      | yes   | <pre>Short run at 30 nA to make sure DAQ is good</pre> |
-| 11327      | yes   | <pre>50 nA production run - lots of problems with DC HV trips</pre> |
-| 11328      | no    |  |
-| 11329      | yes   | <pre>low lumi run, 20 nA</pre> |
-| 11330      | yes   | <pre>low lumi run, 20 nA</pre> |
-| 11331      | yes   | <pre>Taken during spin dance (20nA)</pre> |
-| 11336      | yes   | <pre>low livetime (0.8) for most of the run; fraction of events with defined helicity is low</pre> |
-| 11338      | yes   | <pre>low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low</pre> |
-| 11339      | no    |  |
-| 11340      | yes   | <pre>beam modulation problems</pre> |
-| 11341      | yes   | <pre>beam modulation problems</pre> |
-| 11342      | yes   | <pre>beam modulation problems; bad trigger timing; fraction of events with defined helicity is low</pre> |
-| 11345      | yes   | <pre>low livetime (0.7) for most of the run; fraction of events with defined helicity is low</pre> |
-| 11347      | yes   | <pre>varied beam current; RF phase tuning</pre> |
-| 11348      | yes   | <pre>continued RF phase tuning</pre> |
-| 11352      | yes   | <pre>RF phase tuning</pre> |
-| 11354      | yes   | <pre>RF phase tuning; fraction of events with defined helicity is low</pre> |
-| 11356      | yes   | <pre>RF phase tuning; varied beam current</pre><pre>RF phase tuning; varied beam current; fraction of events with defined helicity is low</pre> |
-| 11357      | yes   | <pre>low livetime (0.75) for most of the run; fraction of events with defined helicity is low</pre> |
-| 11358      | yes   | <pre>low livetime (0.8) for most of the run; fraction of events with defined helicity is low</pre> |
-| 11361      | yes   | <pre>FC charge issue at beginning of run</pre> |
+| 11323      | yes   | <pre>low lumi run, 5 nA; during setup period</pre> |
+| 11324      | yes   | <pre>low lumi run, 10 nA; during setup period</pre> |
+| 11325      | yes   | <pre>low lumi run, 10 nA; during setup period</pre> |
+| 11326      | yes   | <pre>Short run at 30 nA to make sure DAQ is good; during setup period</pre> |
+| 11327      | yes   | <pre>50 nA production run - lots of problems with DC HV trips; during setup period</pre> |
+| 11328      | yes   | <pre>during setup period</pre> |
+| 11329      | yes   | <pre>low lumi run, 20 nA; during setup period</pre> |
+| 11330      | yes   | <pre>low lumi run, 20 nA; during setup period</pre> |
+| 11331      | yes   | <pre>Taken during spin dance (20nA); during setup period</pre> |
+| 11336      | yes   | <pre>low livetime (0.8) for most of the run; fraction of events with defined helicity is low; during setup period</pre> |
+| 11338      | yes   | <pre>low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low; during setup period</pre> |
+| 11339      | yes   | <pre>during setup period</pre> |
+| 11340      | yes   | <pre>beam modulation problems; during setup period</pre> |
+| 11341      | yes   | <pre>beam modulation problems; during setup period</pre> |
+| 11342      | yes   | <pre>beam modulation problems; bad trigger timing; fraction of events with defined helicity is low; during setup period</pre> |
+| 11345      | yes   | <pre>low livetime (0.7) for most of the run; fraction of events with defined helicity is low; during setup period</pre> |
+| 11347      | yes   | <pre>varied beam current; RF phase tuning; during setup period</pre> |
+| 11348      | yes   | <pre>continued RF phase tuning; during setup period</pre> |
+| 11352      | yes   | <pre>RF phase tuning; during setup period</pre> |
+| 11354      | yes   | <pre>RF phase tuning; fraction of events with defined helicity is low; during setup period</pre> |
+| 11356      | yes   | <pre>RF phase tuning; varied beam current; during setup period</pre><pre>RF phase tuning; varied beam current; fraction of events with defined helicity is low; during setup period</pre> |
+| 11357      | yes   | <pre>low livetime (0.75) for most of the run; fraction of events with defined helicity is low; during setup period</pre> |
+| 11358      | yes   | <pre>low livetime (0.8) for most of the run; fraction of events with defined helicity is low; during setup period</pre> |
+| 11361      | yes   | <pre>FC charge issue at beginning of run; during setup period</pre><pre>during setup period</pre> |
 | 11362      | yes   | <pre>slight decrease in N/F for sector 3</pre> |
 | 11363      | no    |  |
 | 11364      | yes   | <pre>slight decrease in N/F for sector 4</pre> |
