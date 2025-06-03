@@ -139,9 +139,9 @@ The following tables describe the available data sets in the QADB. The columns a
 
 | Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status | Data Directory                                 | Data Files        |
 | ---  | ---                                                                                           | ---           | ---    | ---                                            | ---               |
-| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16771 | 🟢     | `/cache/clas12/rg-c/production/summer22/pass1` | `sidisdvcs` train |
+| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16786 | 🟢     | `/cache/clas12/rg-c/production/summer22/pass1` | `sidisdvcs` train |
 | 1    | `rgc_fa22`                                                                                    | 16843 - 17408 | ⛔     | `/cache/clas12/rg-c/production/fall22/pass1`   | `sidisdvcs` train |
-| 1    | `rgc_sp23`                                                                                    | 17477 - 17811 | ⛔     | `/cache/clas12/rg-c/production/spring23/pass1` | `sidisdvcs` train |
+| 1    | `rgc_sp23`                                                                                    | 17482 - 17811 | ⛔     | `/cache/clas12/rg-c/production/spring23/pass1` | `sidisdvcs` train |
 
 ### Run Group F
 
