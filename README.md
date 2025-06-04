@@ -173,12 +173,12 @@ Click on a run group to see its table.
 | 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16786 | :green_circle: | Data           | `/cache/clas12/rg-c/production/summer22/pass1` |
 |      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
 |      |                                                                                               |               |                | Issues         | None                                           |
-| 1    | `rgc_fa22`                                                                                    | 16843 - 17408 | :x:            | Data           | `/cache/clas12/rg-c/production/fall22/pass1`   |
+| 1    | `rgc_fa22` TODO: add link                                                                     | 16843 - 17408 | :green_circle: | Data           | `/cache/clas12/rg-c/production/fall22/pass1`   |
 |      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
-|      |                                                                                               |               |                | Issues         |                                                |
-| 1    | `rgc_sp23`                                                                                    | 17482 - 17811 | :x:            | Data           | `/cache/clas12/rg-c/production/spring23/pass1` |
+|      |                                                                                               |               |                | Issues         | None                                           |
+| 1    | `rgc_sp23` TODO: add link                                                                     | 17482 - 17811 | :green_circle: | Data           | `/cache/clas12/rg-c/production/spring23/pass1` |
 |      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
-|      |                                                                                               |               |                | Issues         |                                                |
+|      |                                                                                               |               |                | Issues         | None                                           |
 
 </details>
 
