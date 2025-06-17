@@ -41,7 +41,7 @@ def on_data_selection(o_, opts_, command_)
     NOTE: all `LIST` arguments must be delimited by commas, for example:
             #{ExeName} #{command_} --datasets rgb_sp19,rgb_fa19,rgb_wi20
   """
-  o_.on('-d', '--datasets LIST', Array, 'list of datasets to include', 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
+  o_.on('-d', '--datasets LIST', Array, 'list of datasets to include;', "run `#{ExeName} print` for dataset info", 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
     opts_[:datasets] = a
   end
   o_.separator ''
