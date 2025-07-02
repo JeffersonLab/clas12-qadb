@@ -92,78 +92,115 @@ The following tables describe the available data sets in the _latest_ version of
   - `[RUN_PERIOD]` follows the convention `[SEASON(sp/su/fa/wi)]_[YEAR]`, and sometimes includes an additional keyword
 - **Run range**: the run numbers in this data set
 - **Status**:
-  - 🟢 _Up-to-Date_: this is the most recent Pass of these data, and the QADB has been updated for it
-  - ⚠️ _Deprecated_: a newer Pass exists for these data, but the QADB for this version is still preserved
-  - ⛔ _TO DO_: the Pass for these data exist, but the QADB has not yet been updated for it
-- **Data Directory**: the input data used for the QA; this is the top level directory, where trains (skim files) and full DSTs are stored
-- **Data Files**: the specific files (_e.g._ train) used for the QA
-- 
+  - :green_circle: _Up-to-Date_: this is the most recent Pass of these data, and the QADB has been updated for it
+  - :warning: _Deprecated_: a newer Pass exists for these data, but the QADB for this version is still preserved
+  - :no_entry: _TO DO_: the Pass for these data exist, but the QADB has not yet been updated for it
+- **Notes**:
+  - **Data**: the input data used for the QA; this is the top level directory, where trains (skim files) and full DSTs are stored
+  - **Analyzed Files**: the specific files (_e.g._ train) used for the QA
+  - **Issues**: links to any known issues with this QADB
 
 > [!CAUTION]
 > The QADB for older data sets may have some issues, and may even violate the
-> [QA ground rules](#rules). It is **HIGHLY recommended** to
+> [QA ground rules](#rules). It is **HIGHLY recommended** to also
 > [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
 
 ### Run Group A
 
-| Pass | Data Set Name and Timelines Link                                                                          | Run Range   | Status | Notes          |                                                                   |
-| ---  | ---                                                                                                       | ---         | ---    | ---            | ---                                                               |
-| 2    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/) | 5032 - 5419 | 🟢     | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main` |
-|      |                                                                                                           |             |        | Analyzed Files | `nSidis` train                                                    |
-| 2    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/) | 5422 - 5666 | 🟢     | Data | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`       |
-| | | | | Analyzed Files | `nSidis` train |
-| 2    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary)                        | 6616 - 6783 | 🟢     | Data | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst` |
-| | | | | Analyzed Files | `nSidis` train |
-| 1    | `rga_sp18`                                                                                                  |             | ⛔     |                                                                    |                |
-| 1    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary)                    | 5032 - 5419 | ⚠️     | Data | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`       |
-| | | | | Analyzed Files | full DST files |
-| 1    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary)                  | 5422 - 5666 | ⚠️     | Data | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`       |
-| | | | | Analyzed Files | full DST files |
-| 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                                        | 6616 - 6783 | ⚠️     | Data | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`     |
-| | | | | Analyzed Files | full DST files |
+| Pass | Data Set Name and Timelines Link                                                                            | Run Range   | Status         | Notes          |                                                                    |
+| ---  | ---                                                                                                         | ---         | ---            | ---            | ---                                                                |
+| 2    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/)   | 5032 - 5419 | :green_circle: | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main`  |
+|      |                                                                                                             |             |                | Analyzed Files | `nSidis` train                                                     |
+|      |                                                                                                             |             |                | Issues         | None                                                               |
+| 2    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/) | 5422 - 5666 | :green_circle: | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`       |
+|      |                                                                                                             |             |                | Analyzed Files | `nSidis` train                                                     |
+|      |                                                                                                             |             |                | Issues         | None                                                               |
+| 2    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary)                        | 6616 - 6783 | :green_circle: | Data           | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst` |
+|      |                                                                                                             |             |                | Analyzed Files | `nSidis` train                                                     |
+|      |                                                                                                             |             |                | Issues         | None                                                               |
+| 1    | `rga_sp18`                                                                                                  |             | :no_entry:     | Data           |                                                                    |
+|      |                                                                                                             |             |                | Analyzed Files |                                                                    |
+|      |                                                                                                             |             |                | Issues         |                                                                    |
+| 1    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary)                    | 5032 - 5419 | :warning:      | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`       |
+|      |                                                                                                             |             |                | Analyzed Files | full DST files                                                     |
+|      |                                                                                                             |             |                | Issues         | :exclamation: #9, #48, #12                                         |
+| 1    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary)                  | 5422 - 5666 | :warning:      | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`       |
+|      |                                                                                                             |             |                | Analyzed Files | full DST files                                                     |
+|      |                                                                                                             |             |                | Issues         | :exclamation: #9, #48                                              |
+| 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                                        | 6616 - 6783 | :warning:      | Data           | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`     |
+|      |                                                                                                             |             |                | Analyzed Files | full DST files                                                     |
+|      |                                                                                                             |             |                | Issues         | :exclamation: #9, #48                                              |
 
 ### Run Group B
 
-| Pass | Data Set Name and Timelines Link                                                         | Run Range     | Status | Data Directory                                                          | Data Files        |
-| ---  | ---                                                                                      | ---           | ---    | ---                                                                     | ---               |
-| 2    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass2/qa/sp19/rgb_sp19_sidisdvcs/tlsummary/) | 6156 - 6603   | 🟢     | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst`   | `sidisdvcs` train |
-| 2    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass2/qa/fa19/rgb_fa19_sidisdvcs/tlsummary/) | 11093 - 11300 | 🟢     | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass2/v1/dst` | `sidisdvcs` train |
-| 2    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass2/qa/wi20/rgb_wi20_sidisdvcs/tlsummary/) | 11323 - 11571 | 🟢     | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass2/v1/dst`   | `sidisdvcs` train |
-| 1    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary)                     | 6156 - 6603   | ⚠️     | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst`   | full DST files    |
-| 1    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary)                     | 11093 - 11300 | ⚠️     | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass1/v1/dst` | full DST files    |
-| 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary)                     | 11323 - 11571 | ⚠️     | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst`   | full DST files    |
+| Pass | Data Set Name and Timelines Link                                                         | Run Range     | Status         | Notes          |                                                                         |
+| ---  | ---                                                                                      | ---           | ---            | ---            | ---                                                                     |
+| 2    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass2/qa/sp19/rgb_sp19_sidisdvcs/tlsummary/) | 6156 - 6603   | :green_circle: | Data           | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst`   |
+|      |                                                                                          |               |                | Analyzed Files | `sidisdvcs` train                                                       |
+|      |                                                                                          |               |                | Issues         | None                                                                    |
+| 2    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass2/qa/fa19/rgb_fa19_sidisdvcs/tlsummary/) | 11093 - 11300 | :green_circle: | Data           | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass2/v1/dst` |
+|      |                                                                                          |               |                | Analyzed Files | `sidisdvcs` train                                                       |
+|      |                                                                                          |               |                | Issues         | None                                                                    |
+| 2    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass2/qa/wi20/rgb_wi20_sidisdvcs/tlsummary/) | 11323 - 11571 | :green_circle: | Data           | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass2/v1/dst`   |
+|      |                                                                                          |               |                | Analyzed Files | `sidisdvcs` train                                                       |
+|      |                                                                                          |               |                | Issues         | None                                                                    |
+| 1    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary)                     | 6156 - 6603   | :warning:      | Data           | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst`   |
+|      |                                                                                          |               |                | Analyzed Files | full DST files                                                          |
+|      |                                                                                          |               |                | Issues         | :exclamation: #9, #48                                                                 |
+| 1    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary)                     | 11093 - 11300 | :warning:      | Data           | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass1/v1/dst` |
+|      |                                                                                          |               |                | Analyzed Files | full DST files                                                          |
+|      |                                                                                          |               |                | Issues         | :exclamation: #9, #48                                                                 |
+| 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary)                     | 11323 - 11571 | :warning:      | Data           | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst`   |
+|      |                                                                                          |               |                | Analyzed Files | full DST files                                                          |
+|      |                                                                                          |               |                | Issues         | :exclamation: #9, #48                                                                 |
 
 ### Run Group C
 
-| Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status | Data Directory                                 | Data Files        |
-| ---  | ---                                                                                           | ---           | ---    | ---                                            | ---               |
-| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16786 | 🟢     | `/cache/clas12/rg-c/production/summer22/pass1` | `sidisdvcs` train |
-| 1    | `rgc_fa22`                                                                                    | 16843 - 17408 | ⛔     | `/cache/clas12/rg-c/production/fall22/pass1`   | `sidisdvcs` train |
-| 1    | `rgc_sp23`                                                                                    | 17482 - 17811 | ⛔     | `/cache/clas12/rg-c/production/spring23/pass1` | `sidisdvcs` train |
+| Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status         | Notes          |                                                |
+| ---  | ---                                                                                           | ---           | ---            | ---            | ---                                            |
+| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16786 | :green_circle: | Data           | `/cache/clas12/rg-c/production/summer22/pass1` |
+|      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
+|      |                                                                                               |               |                | Issues         | None                                           |
+| 1    | `rgc_fa22`                                                                                    | 16843 - 17408 | :no_entry:     | Data           | `/cache/clas12/rg-c/production/fall22/pass1`   |
+|      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
+|      |                                                                                               |               |                | Issues         |                                                |
+| 1    | `rgc_sp23`                                                                                    | 17482 - 17811 | :no_entry:     | Data           | `/cache/clas12/rg-c/production/spring23/pass1` |
+|      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
+|      |                                                                                               |               |                | Issues         |                                                |
 
 ### Run Group F
 
-| Pass | Data Set Name and Timelines Link | Run Range     | Status | Data Directory                                                                              | Data Files |
-| ---  | ---                              | ---           | ---    | ---                                                                                         | ---        |
-| 1    | `rgf_sp20_torusM1`               | 12210 - 12329 | ⛔     | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |            |
-| 1    | `rgf_su20_torusPh`               | 12389 - 12434 | ⛔     | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |            |
-| 1    | `rgf_su20_torusMh`               | 12436 - 12443 | ⛔     | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |            |
-| 1    | `rgf_su20_torusM1`               | 12447 - 12951 | ⛔     | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |            |
+| Pass | Data Set Name and Timelines Link | Run Range     | Status     | Notes |                                                                                             |
+| ---  | ---                              | ---           | ---        | ---   | ---                                                                                         |
+| 1    | `rgf_sp20_torusM1`               | 12210 - 12329 | :no_entry: | Data  | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
+| 1    | `rgf_su20_torusPh`               | 12389 - 12434 | :no_entry: | Data  | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |
+| 1    | `rgf_su20_torusMh`               | 12436 - 12443 | :no_entry: | Data  | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
+| 1    | `rgf_su20_torusM1`               | 12447 - 12951 | :no_entry: | Data  | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
 
 ### Run Group K
 
-| Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status | Data Directory                                                                    | Data Files     |
-| ---  | ---                                                                                | ---         | ---    | ---                                                                               | ---            |
-| 2    | `rgk_fa18_7.5GeV`                                                                  | 5674 - 5870 | ⛔     |                                                                                   |                |
-| 2    | `rgk_fa18_6.5GeV`                                                                  | 5875 - 6000 | ⛔     |                                                                                   |                |
-| 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | 🟢     | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` | full DST files |
-| 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | 🟢     | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` | full DST files |
+| Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status         | Notes          |                                                                                   |
+| ---  | ---                                                                                | ---         | ---            | ---            | ---                                                                               |
+| 2    | `rgk_fa18_7.5GeV`                                                                  | 5674 - 5870 | :no_entry:     | Data           | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst`       |
+|      |                                                                                    |             |                | Analyzed Files |                                                                                   |
+|      |                                                                                    |             |                | Issues         |                                                                                   |
+| 2    | `rgk_fa18_6.5GeV`                                                                  | 5875 - 6000 | :no_entry:     | Data           | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass2/v0/dst`       |
+|      |                                                                                    |             |                | Analyzed Files |                                                                                   |
+|      |                                                                                    |             |                | Issues         |                                                                                   |
+| 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | :green_circle: | Data           | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon` |
+|      |                                                                                    |             |                | Analyzed Files | full DST files                                                                    |
+|      |                                                                                    |             |                | Issues         | :exclamation: #9, #48                                                             |
+| 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | :green_circle: | Data           | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon` |
+|      |                                                                                    |             |                | Analyzed Files | full DST files                                                                    |
+|      |                                                                                    |             |                | Issues         | :exclamation: #9, #48                                                             |
 
 ### Run Group M
 
-| Pass | Data Set Name and Timelines Link                                                     | Run Range     | Status | Data Directory                                              | Data Files     |
-| ---  | ---                                                                                  | ---           | ---    | ---                                                         | ---            |
-| 1    | [`rgm_fa21`](https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/) | 15019 - 15884 | 🟢     | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/` | full DST files |
+| Pass | Data Set Name and Timelines Link                                                     | Run Range     | Status         | Notes          |                                                             |
+| ---  | ---                                                                                  | ---           | ---            | ---            | ---                                                         |
+| 1    | [`rgm_fa21`](https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/) | 15019 - 15884 | :green_circle: | Data           | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/` |
+|      |                                                                                      |               |                | Analyzed Files | full DST files                                              |
+|      |                                                                                      |               |                | Issues         | :exclamation: #9, #48                                       |
 
 
 <a name="bitdefs"></a>
