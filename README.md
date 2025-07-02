@@ -85,7 +85,7 @@ qadb-info
 
 <a name="datasets"></a>
 ## Available Data Sets
-The following tables describe the available data sets in the QADB. The columns are:
+The following tables describe the available data sets in the _latest_ version of the QADB. The columns are:
 - **Pass**: the Pass number of the data set (higher is newer)
 - **Data Set Name**: a unique name for the data-taking period; click it to see the corresponding QA timelines
   - Typically `[RUN_GROUP]_[RUN_PERIOD]`
@@ -97,15 +97,7 @@ The following tables describe the available data sets in the QADB. The columns a
   - ⛔ _TO DO_: the Pass for these data exist, but the QADB has not yet been updated for it
 - **Data Directory**: the input data used for the QA; this is the top level directory, where trains (skim files) and full DSTs are stored
 - **Data Files**: the specific files (_e.g._ train) used for the QA
-
-> [!NOTE]
-> The tables below are for the _latest_ version of this repository, which may not be in a tagged version yet. If you
-> are on `ifarm`, the latest QADB version is found as the `qadb/dev` module, and you may switch to it via:
-> ```bash
-> module switch qadb/dev
-> ```
-> You may also check currently loaded version of this `README` file on `ifarm`, which is found at `$QADB/README.md`.
-<!--`-->
+- 
 
 > [!CAUTION]
 > The QADB for older data sets may have some issues, and may even violate the
@@ -114,15 +106,21 @@ The following tables describe the available data sets in the QADB. The columns a
 
 ### Run Group A
 
-| Pass | Data Set Name and Timelines Link                                                                            | Run Range   | Status | Data Directory                                                     | Data Files     |
-| ---  | ---                                                                                                         | ---         | ---    | ---                                                                | ---            |
-| 2    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/)   | 5032 - 5419 | 🟢     | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main`  | `nSidis` train |
-| 2    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/) | 5422 - 5666 | 🟢     | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`       | `nSidis` train |
-| 2    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary)                        | 6616 - 6783 | 🟢     | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst` | `nSidis` train |
+| Pass | Data Set Name and Timelines Link                                                                          | Run Range   | Status | Notes          |                                                                   |
+| ---  | ---                                                                                                       | ---         | ---    | ---            | ---                                                               |
+| 2    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/) | 5032 - 5419 | 🟢     | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main` |
+|      |                                                                                                           |             |        | Analyzed Files | `nSidis` train                                                    |
+| 2    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/) | 5422 - 5666 | 🟢     | Data | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`       |
+| | | | | Analyzed Files | `nSidis` train |
+| 2    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary)                        | 6616 - 6783 | 🟢     | Data | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst` |
+| | | | | Analyzed Files | `nSidis` train |
 | 1    | `rga_sp18`                                                                                                  |             | ⛔     |                                                                    |                |
-| 1    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary)                    | 5032 - 5419 | ⚠️     | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`       | full DST files |
-| 1    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary)                  | 5422 - 5666 | ⚠️     | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`       | full DST files |
-| 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                                        | 6616 - 6783 | ⚠️     | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`     | full DST files |
+| 1    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary)                    | 5032 - 5419 | ⚠️     | Data | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`       |
+| | | | | Analyzed Files | full DST files |
+| 1    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary)                  | 5422 - 5666 | ⚠️     | Data | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`       |
+| | | | | Analyzed Files | full DST files |
+| 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                                        | 6616 - 6783 | ⚠️     | Data | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`     |
+| | | | | Analyzed Files | full DST files |
 
 ### Run Group B
 
