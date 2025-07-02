@@ -281,6 +281,7 @@ Then:
 > ```
 <!--`-->
 
+<a name="example"></a>
 ## Example Code
 
 The following C++ code demonstrates general QADB usage. The usage is very similar in Groovy.
