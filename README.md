@@ -11,6 +11,7 @@ CLAS12 experiment at Jefferson Lab
     - [Defect Bit Definitions](#bitdefs)
 1. [How to Access the QADB](#access)
     - [Software Access](#software)
+    - [Example Code](#example)
     - [QADB Files and Tables](#files)
 1. [How to Access the Faraday Cup Charge](#charge)
 1. [Database Maintenance](#dev)
@@ -279,6 +280,85 @@ Then:
 > git submodule update --init --recursive
 > ```
 <!--`-->
+
+## Example Code
+
+The following C++ code demonstrates general QADB usage. The usage is very similar in Groovy.
+
+**Before Processing Events:** Setup the QADB criteria
+```cpp
+// instantiate QADB
+QADB qa("latest"); // use "latest" for the latest cook, "pass1" for pass 1, etc.
+
+// decide which defects you want to check for; an event will not pass the QA
+// cut if the associated QA bin has any of the specified defects
+qa.CheckForDefect("TotalOutlier");
+qa.CheckForDefect("TerminalOutlier");
+qa.CheckForDefect("MarginalOutlier");
+qa.CheckForDefect("SectorLoss");
+qa.CheckForDefect("Misc");
+
+// decide which runs for which you care about the 'Misc' defect bit or not
+std::vector<int> allow_these_misc_assignments = {
+  5875,    // N/F low, gradually decreasing with file number
+  // 5877,    // N/F is high for the whole run
+  // 5878,    // N/F is high for the whole run
+  5884,    // Ended run: mvt1/mvt2 crashed.
+  5885,    // slightly low value of N/F
+};
+/* TIP: you can generate this list and comments using `qadb-info`,
+   e.g., for RG-K datasets:
+
+   # get the list of RG-K datasets
+   >>> qadb-info print --list --run-group k --latest
+
+       rgk_fa18_6.5GeV  ->  refers to pass1/rgk_fa18_6.5GeV
+       rgk_fa18_7.5GeV  ->  refers to pass1/rgk_fa18_7.5GeV
+
+   # get the list of RG-K runs with 'Misc' defect bit, with QADB comments
+   >>> qadb-info misc --datasets rgk_fa18_6.5GeV,rgk_fa18_7.5GeV --code '//'
+
+       misc_qa_runs = [
+         5875,    // N/F low, gradually decreasing with file number
+         5877,    // N/F is high for the whole run
+         ...
+       ]
+ */
+
+// tell `qa` to allow these data if ONLY the 'Misc' defect bit is assigned
+for(auto run : allow_these_misc_assignments)
+  qa.AllowMiscBit(run);
+```
+
+**For Each Event:** Check if the event's QADB bin passes your criteria
+```cpp
+// get event-level info
+auto runnum   = /* get the run number */
+auto evnum    = /* get the event number */
+auto helicity = /* get the beam helicity */
+
+// correct the helicity sign
+helicity *= qa.CorrectHelicitySign(runnum, evnum);
+
+// apply QA cuts
+if(qa.Pass(runnum, evnum)) {
+
+  // accumulate FC charge (it will only accumulate once per QA bin you analyzed)
+  qa.AccumulateCharge();
+
+  /* continue your analysis here */
+}
+```
+
+**After Processing Events**
+```cpp
+// the total FC charge, filtered by the QA
+auto total_charge = qa.GetAccumulatedCharge();
+```
+
+> [!CAUTION]
+> The above example code is not tested, and might be broken! You may need to refer
+> to the other examples in `srcC/` and `src/`.
 
 <a name="files"></a>
 ## QADB Files and Tables
