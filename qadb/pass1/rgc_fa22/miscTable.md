@@ -15,33 +15,33 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 16843      | no    |  |
-| 16850      | no    |  |
-| 16851      | no    |  |
-| 16852      | no    |  |
-| 16853      | no    |  |
-| 16855      | no    |  |
-| 16856      | no    |  |
-| 16857      | no    |  |
+| 16843      | yes   | <pre>beam steering study; N/F fluctuates; 5 nA beam current</pre> |
+| 16850      | yes   | <pre>luminosity scan, 2 nA</pre> |
+| 16851      | yes   | <pre>luminosity scan, 4 nA</pre> |
+| 16852      | yes   | <pre>luminosity scan, 6 nA</pre> |
+| 16853      | yes   | <pre>luminosity scan, 8 nA</pre> |
+| 16855      | yes   | <pre>luminosity scan, 10 nA</pre> |
+| 16856      | yes   | <pre>first production run at 8 nA, but wrong trigger file rgc_300MeV_v1.3_no_DC.cnf</pre> |
+| 16857      | yes   | <pre> wrong trigger file rgc_300MeV_v1.3_no_DC.cnf</pre> |
 | 16859      | no    |  |
 | 16860      | no    |  |
-| 16861      | no    |  |
-| 16872      | no    |  |
+| 16861      | yes   | <pre>empty target; varied beam current</pre> |
+| 16872      | yes   | <pre>empty target, 29 nA</pre> |
 | 16874      | no    |  |
 | 16877      | no    |  |
 | 16878      | no    |  |
-| 16879      | no    |  |
-| 16880      | no    |  |
-| 16881      | no    |  |
+| 16879      | yes   | <pre>beam centering and raster size study</pre> |
+| 16880      | yes   | <pre>CND TDCs off for part of the run; beam x-position is clipping target; raster adjustments</pre> |
+| 16881      | yes   | <pre>raster check; varying beam current</pre> |
 | 16882      | no    |  |
 | 16884      | no    |  |
 | 16887      | no    |  |
 | 16888      | no    |  |
 | 16889      | no    |  |
 | 16890      | no    |  |
-| 16898      | no    |  |
-| 16899      | no    |  |
-| 16901      | no    |  |
+| 16898      | yes   | <pre>varying beam current</pre> |
+| 16899      | yes   | <pre>raster tuning</pre> |
+| 16901      | yes   | <pre>tuning raster to avoid grazing</pre> |
 | 16902      | no    |  |
 | 16903      | no    |  |
 | 16904      | no    |  |
@@ -84,17 +84,17 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16965      | no    |  |
 | 16967      | no    |  |
 | 16968      | no    |  |
-| 16969      | no    |  |
-| 16970      | no    |  |
-| 16975      | no    |  |
-| 16976      | no    |  |
-| 16978      | no    |  |
-| 16979      | no    |  |
-| 16982      | no    |  |
+| 16969      | yes   | <pre>empty target; varying beam current</pre> |
+| 16970      | yes   | <pre>empty target, 20 nA</pre> |
+| 16975      | yes   | <pre>empty target, 20 nA</pre> |
+| 16976      | yes   | <pre>empty target, 20 nA</pre> |
+| 16978      | yes   | <pre>empty target, 20 nA</pre> |
+| 16979      | yes   | <pre>empty target, 14 nA</pre> |
+| 16982      | yes   | <pre>5 nA run</pre> |
 | 16983      | no    |  |
 | 16984      | no    |  |
 | 16986      | no    |  |
-| 16987      | no    |  |
+| 16987      | yes   | <pre>sector 6 loss for whole run</pre> |
 | 16988      | no    |  |
 | 16989      | no    |  |
 | 16990      | no    |  |
@@ -106,16 +106,16 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17000      | no    |  |
 | 17001      | no    |  |
 | 17002      | no    |  |
-| 17003      | no    |  |
+| 17003      | yes   | <pre>BMT S1 L4 shows abnormal distribution</pre> |
 | 17008      | no    |  |
 | 17010      | no    |  |
 | 17011      | no    |  |
 | 17014      | no    |  |
-| 17015      | no    |  |
+| 17015      | yes   | <pre>beam current was around 0.8 nA for a short period</pre> |
 | 17016      | no    |  |
 | 17019      | no    |  |
 | 17020      | no    |  |
-| 17021      | no    |  |
+| 17021      | yes   | <pre>hvecal5 issue</pre> |
 | 17022      | no    |  |
 | 17025      | no    |  |
 | 17026      | no    |  |
@@ -146,7 +146,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17063      | no    |  |
 | 17065      | no    |  |
 | 17067      | no    |  |
-| 17069      | no    |  |
+| 17069      | yes   | <pre>rich4 ROC issue</pre> |
 | 17070      | no    |  |
 | 17071      | no    |  |
 | 17073      | no    |  |
@@ -155,10 +155,10 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17076      | no    |  |
 | 17077      | no    |  |
 | 17078      | no    |  |
-| 17079      | no    |  |
+| 17079      | yes   | <pre>sector 2 loss for whole run</pre> |
 | 17084      | no    |  |
 | 17085      | no    |  |
-| 17086      | no    |  |
+| 17086      | yes   | <pre>varied beam current</pre> |
 | 17087      | no    |  |
 | 17088      | no    |  |
 | 17092      | no    |  |
