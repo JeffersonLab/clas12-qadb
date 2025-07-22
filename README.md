@@ -106,6 +106,10 @@ The following tables describe the available data sets in the _latest_ version of
 > [QA ground rules](#rules). It is **HIGHLY recommended** to also
 > [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
 
+### Run Groups
+
+Click on a run group to see its table.
+
 <details>
 <summary>Run Group A</summary>
 
