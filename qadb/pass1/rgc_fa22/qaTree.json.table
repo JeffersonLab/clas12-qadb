@@ -24741,20 +24741,20 @@ RUN: 17130
 17130 82  GOLDEN
 17130 83  4-LowLiveTime[all]
 17130 84  GOLDEN
-17130 85  GOLDEN
-17130 86  2-MarginalOutlier[2]
-17130 87  GOLDEN
-17130 88  GOLDEN
-17130 89  GOLDEN
-17130 90  GOLDEN
-17130 91  2-MarginalOutlier[1]
-17130 92  2-MarginalOutlier[1, 2, 4]
-17130 93  GOLDEN
-17130 94  GOLDEN
-17130 95  GOLDEN
-17130 96  GOLDEN
-17130 97  GOLDEN
-17130 98  2-MarginalOutlier[2, 5]
+17130 85  5-Misc[all]  :: N/F slightly lower for a short period
+17130 86  2-MarginalOutlier[2]  5-Misc[all]  :: N/F slightly lower for a short period
+17130 87  5-Misc[all]  :: N/F slightly lower for a short period
+17130 88  5-Misc[all]  :: N/F slightly lower for a short period
+17130 89  5-Misc[all]  :: N/F slightly lower for a short period
+17130 90  5-Misc[all]  :: N/F slightly lower for a short period
+17130 91  2-MarginalOutlier[1]  5-Misc[all]  :: N/F slightly lower for a short period
+17130 92  2-MarginalOutlier[1, 2, 4]  5-Misc[all]  :: N/F slightly lower for a short period
+17130 93  5-Misc[all]  :: N/F slightly lower for a short period
+17130 94  5-Misc[all]  :: N/F slightly lower for a short period
+17130 95  5-Misc[all]  :: N/F slightly lower for a short period
+17130 96  5-Misc[all]  :: N/F slightly lower for a short period
+17130 97  5-Misc[all]  :: N/F slightly lower for a short period
+17130 98  2-MarginalOutlier[2, 5]  5-Misc[all]  :: N/F slightly lower for a short period
 17130 99  GOLDEN
 17130 100  GOLDEN
 17130 101  GOLDEN
@@ -31010,886 +31010,886 @@ RUN: 17178
 17178 101  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
 
 RUN: 17179
-17179 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17179 1  GOLDEN
-17179 2  GOLDEN
-17179 3  GOLDEN
-17179 4  GOLDEN
-17179 5  GOLDEN
-17179 6  GOLDEN
-17179 7  GOLDEN
-17179 8  GOLDEN
-17179 9  0-TotalOutlier[all]  4-LowLiveTime[all]  19-PossiblyNoBeam[all]
-17179 10  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17179 11  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17179 12  0-TotalOutlier[all]  4-LowLiveTime[all]  19-PossiblyNoBeam[all]
-17179 13  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17179 14  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17179 15  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17179 16  2-MarginalOutlier[3, 6]
-17179 17  GOLDEN
-17179 18  GOLDEN
-17179 19  GOLDEN
-17179 20  GOLDEN
-17179 21  GOLDEN
-17179 22  GOLDEN
-17179 23  GOLDEN
-17179 24  GOLDEN
-17179 25  GOLDEN
-17179 26  GOLDEN
-17179 27  GOLDEN
-17179 28  GOLDEN
-17179 29  GOLDEN
-17179 30  GOLDEN
-17179 31  GOLDEN
-17179 32  GOLDEN
-17179 33  GOLDEN
-17179 34  GOLDEN
-17179 35  GOLDEN
-17179 36  GOLDEN
-17179 37  GOLDEN
-17179 38  GOLDEN
-17179 39  GOLDEN
-17179 40  GOLDEN
-17179 41  GOLDEN
-17179 42  GOLDEN
-17179 43  GOLDEN
-17179 44  GOLDEN
-17179 45  GOLDEN
-17179 46  GOLDEN
-17179 47  GOLDEN
-17179 48  GOLDEN
-17179 49  GOLDEN
-17179 50  GOLDEN
-17179 51  GOLDEN
-17179 52  GOLDEN
-17179 53  GOLDEN
-17179 54  GOLDEN
-17179 55  GOLDEN
-17179 56  GOLDEN
-17179 57  GOLDEN
-17179 58  GOLDEN
-17179 59  GOLDEN
-17179 60  GOLDEN
-17179 61  GOLDEN
-17179 62  GOLDEN
-17179 63  GOLDEN
-17179 64  GOLDEN
-17179 65  GOLDEN
-17179 66  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17179 67  GOLDEN
-17179 68  GOLDEN
-17179 69  GOLDEN
-17179 70  GOLDEN
-17179 71  GOLDEN
-17179 72  GOLDEN
-17179 73  GOLDEN
-17179 74  GOLDEN
-17179 75  GOLDEN
-17179 76  GOLDEN
-17179 77  GOLDEN
-17179 78  GOLDEN
-17179 79  GOLDEN
-17179 80  GOLDEN
-17179 81  GOLDEN
-17179 82  GOLDEN
-17179 83  GOLDEN
-17179 84  GOLDEN
-17179 85  GOLDEN
-17179 86  GOLDEN
-17179 87  GOLDEN
-17179 88  GOLDEN
-17179 89  GOLDEN
-17179 90  GOLDEN
-17179 91  GOLDEN
-17179 92  GOLDEN
-17179 93  GOLDEN
-17179 94  GOLDEN
-17179 95  GOLDEN
-17179 96  GOLDEN
-17179 97  GOLDEN
-17179 98  GOLDEN
-17179 99  GOLDEN
-17179 100  GOLDEN
-17179 101  GOLDEN
-17179 102  GOLDEN
-17179 103  GOLDEN
-17179 104  GOLDEN
-17179 105  GOLDEN
-17179 106  GOLDEN
-17179 107  GOLDEN
-17179 108  GOLDEN
-17179 109  GOLDEN
-17179 110  GOLDEN
-17179 111  GOLDEN
-17179 112  GOLDEN
-17179 113  GOLDEN
-17179 114  GOLDEN
-17179 115  GOLDEN
-17179 116  GOLDEN
-17179 117  GOLDEN
-17179 118  GOLDEN
-17179 119  GOLDEN
-17179 120  GOLDEN
-17179 121  GOLDEN
-17179 122  GOLDEN
-17179 123  GOLDEN
-17179 124  GOLDEN
-17179 125  GOLDEN
-17179 126  GOLDEN
-17179 127  GOLDEN
-17179 128  GOLDEN
-17179 129  GOLDEN
-17179 130  GOLDEN
-17179 131  GOLDEN
-17179 132  GOLDEN
-17179 133  GOLDEN
-17179 134  GOLDEN
-17179 135  GOLDEN
-17179 136  GOLDEN
-17179 137  GOLDEN
-17179 138  GOLDEN
-17179 139  GOLDEN
-17179 140  GOLDEN
-17179 141  GOLDEN
-17179 142  GOLDEN
-17179 143  GOLDEN
-17179 144  GOLDEN
-17179 145  GOLDEN
-17179 146  GOLDEN
-17179 147  GOLDEN
-17179 148  GOLDEN
-17179 149  GOLDEN
-17179 150  GOLDEN
-17179 151  GOLDEN
-17179 152  GOLDEN
-17179 153  GOLDEN
-17179 154  GOLDEN
-17179 155  GOLDEN
-17179 156  GOLDEN
-17179 157  GOLDEN
-17179 158  GOLDEN
-17179 159  GOLDEN
-17179 160  GOLDEN
-17179 161  GOLDEN
-17179 162  GOLDEN
-17179 163  GOLDEN
-17179 164  GOLDEN
-17179 165  GOLDEN
-17179 166  GOLDEN
-17179 167  GOLDEN
-17179 168  GOLDEN
-17179 169  GOLDEN
-17179 170  GOLDEN
-17179 171  GOLDEN
-17179 172  GOLDEN
-17179 173  GOLDEN
-17179 174  GOLDEN
-17179 175  GOLDEN
-17179 176  GOLDEN
-17179 177  GOLDEN
-17179 178  GOLDEN
-17179 179  GOLDEN
-17179 180  GOLDEN
-17179 181  GOLDEN
-17179 182  GOLDEN
-17179 183  GOLDEN
-17179 184  GOLDEN
-17179 185  GOLDEN
-17179 186  GOLDEN
-17179 187  GOLDEN
-17179 188  GOLDEN
-17179 189  4-LowLiveTime[all]
-17179 190  0-TotalOutlier[all]  4-LowLiveTime[all]
-17179 191  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17179 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH errors
+17179 1  5-Misc[all]  :: RICH errors
+17179 2  5-Misc[all]  :: RICH errors
+17179 3  5-Misc[all]  :: RICH errors
+17179 4  5-Misc[all]  :: RICH errors
+17179 5  5-Misc[all]  :: RICH errors
+17179 6  5-Misc[all]  :: RICH errors
+17179 7  5-Misc[all]  :: RICH errors
+17179 8  5-Misc[all]  :: RICH errors
+17179 9  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH errors
+17179 10  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH errors
+17179 11  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH errors
+17179 12  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH errors
+17179 13  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH errors
+17179 14  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH errors
+17179 15  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH errors
+17179 16  2-MarginalOutlier[3, 6]  5-Misc[all]  :: RICH errors
+17179 17  5-Misc[all]  :: RICH errors
+17179 18  5-Misc[all]  :: RICH errors
+17179 19  5-Misc[all]  :: RICH errors
+17179 20  5-Misc[all]  :: RICH errors
+17179 21  5-Misc[all]  :: RICH errors
+17179 22  5-Misc[all]  :: RICH errors
+17179 23  5-Misc[all]  :: RICH errors
+17179 24  5-Misc[all]  :: RICH errors
+17179 25  5-Misc[all]  :: RICH errors
+17179 26  5-Misc[all]  :: RICH errors
+17179 27  5-Misc[all]  :: RICH errors
+17179 28  5-Misc[all]  :: RICH errors
+17179 29  5-Misc[all]  :: RICH errors
+17179 30  5-Misc[all]  :: RICH errors
+17179 31  5-Misc[all]  :: RICH errors
+17179 32  5-Misc[all]  :: RICH errors
+17179 33  5-Misc[all]  :: RICH errors
+17179 34  5-Misc[all]  :: RICH errors
+17179 35  5-Misc[all]  :: RICH errors
+17179 36  5-Misc[all]  :: RICH errors
+17179 37  5-Misc[all]  :: RICH errors
+17179 38  5-Misc[all]  :: RICH errors
+17179 39  5-Misc[all]  :: RICH errors
+17179 40  5-Misc[all]  :: RICH errors
+17179 41  5-Misc[all]  :: RICH errors
+17179 42  5-Misc[all]  :: RICH errors
+17179 43  5-Misc[all]  :: RICH errors
+17179 44  5-Misc[all]  :: RICH errors
+17179 45  5-Misc[all]  :: RICH errors
+17179 46  5-Misc[all]  :: RICH errors
+17179 47  5-Misc[all]  :: RICH errors
+17179 48  5-Misc[all]  :: RICH errors
+17179 49  5-Misc[all]  :: RICH errors
+17179 50  5-Misc[all]  :: RICH errors
+17179 51  5-Misc[all]  :: RICH errors
+17179 52  5-Misc[all]  :: RICH errors
+17179 53  5-Misc[all]  :: RICH errors
+17179 54  5-Misc[all]  :: RICH errors
+17179 55  5-Misc[all]  :: RICH errors
+17179 56  5-Misc[all]  :: RICH errors
+17179 57  5-Misc[all]  :: RICH errors
+17179 58  5-Misc[all]  :: RICH errors
+17179 59  5-Misc[all]  :: RICH errors
+17179 60  5-Misc[all]  :: RICH errors
+17179 61  5-Misc[all]  :: RICH errors
+17179 62  5-Misc[all]  :: RICH errors
+17179 63  5-Misc[all]  :: RICH errors
+17179 64  5-Misc[all]  :: RICH errors
+17179 65  5-Misc[all]  :: RICH errors
+17179 66  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH errors
+17179 67  5-Misc[all]  :: RICH errors
+17179 68  5-Misc[all]  :: RICH errors
+17179 69  5-Misc[all]  :: RICH errors
+17179 70  5-Misc[all]  :: RICH errors
+17179 71  5-Misc[all]  :: RICH errors
+17179 72  5-Misc[all]  :: RICH errors
+17179 73  5-Misc[all]  :: RICH errors
+17179 74  5-Misc[all]  :: RICH errors
+17179 75  5-Misc[all]  :: RICH errors
+17179 76  5-Misc[all]  :: RICH errors
+17179 77  5-Misc[all]  :: RICH errors
+17179 78  5-Misc[all]  :: RICH errors
+17179 79  5-Misc[all]  :: RICH errors
+17179 80  5-Misc[all]  :: RICH errors
+17179 81  5-Misc[all]  :: RICH errors
+17179 82  5-Misc[all]  :: RICH errors
+17179 83  5-Misc[all]  :: RICH errors
+17179 84  5-Misc[all]  :: RICH errors
+17179 85  5-Misc[all]  :: RICH errors
+17179 86  5-Misc[all]  :: RICH errors
+17179 87  5-Misc[all]  :: RICH errors
+17179 88  5-Misc[all]  :: RICH errors
+17179 89  5-Misc[all]  :: RICH errors
+17179 90  5-Misc[all]  :: RICH errors
+17179 91  5-Misc[all]  :: RICH errors
+17179 92  5-Misc[all]  :: RICH errors
+17179 93  5-Misc[all]  :: RICH errors
+17179 94  5-Misc[all]  :: RICH errors
+17179 95  5-Misc[all]  :: RICH errors
+17179 96  5-Misc[all]  :: RICH errors
+17179 97  5-Misc[all]  :: RICH errors
+17179 98  5-Misc[all]  :: RICH errors
+17179 99  5-Misc[all]  :: RICH errors
+17179 100  5-Misc[all]  :: RICH errors
+17179 101  5-Misc[all]  :: RICH errors
+17179 102  5-Misc[all]  :: RICH errors
+17179 103  5-Misc[all]  :: RICH errors
+17179 104  5-Misc[all]  :: RICH errors
+17179 105  5-Misc[all]  :: RICH errors
+17179 106  5-Misc[all]  :: RICH errors
+17179 107  5-Misc[all]  :: RICH errors
+17179 108  5-Misc[all]  :: RICH errors
+17179 109  5-Misc[all]  :: RICH errors
+17179 110  5-Misc[all]  :: RICH errors
+17179 111  5-Misc[all]  :: RICH errors
+17179 112  5-Misc[all]  :: RICH errors
+17179 113  5-Misc[all]  :: RICH errors
+17179 114  5-Misc[all]  :: RICH errors
+17179 115  5-Misc[all]  :: RICH errors
+17179 116  5-Misc[all]  :: RICH errors
+17179 117  5-Misc[all]  :: RICH errors
+17179 118  5-Misc[all]  :: RICH errors
+17179 119  5-Misc[all]  :: RICH errors
+17179 120  5-Misc[all]  :: RICH errors
+17179 121  5-Misc[all]  :: RICH errors
+17179 122  5-Misc[all]  :: RICH errors
+17179 123  5-Misc[all]  :: RICH errors
+17179 124  5-Misc[all]  :: RICH errors
+17179 125  5-Misc[all]  :: RICH errors
+17179 126  5-Misc[all]  :: RICH errors
+17179 127  5-Misc[all]  :: RICH errors
+17179 128  5-Misc[all]  :: RICH errors
+17179 129  5-Misc[all]  :: RICH errors
+17179 130  5-Misc[all]  :: RICH errors
+17179 131  5-Misc[all]  :: RICH errors
+17179 132  5-Misc[all]  :: RICH errors
+17179 133  5-Misc[all]  :: RICH errors
+17179 134  5-Misc[all]  :: RICH errors
+17179 135  5-Misc[all]  :: RICH errors
+17179 136  5-Misc[all]  :: RICH errors
+17179 137  5-Misc[all]  :: RICH errors
+17179 138  5-Misc[all]  :: RICH errors
+17179 139  5-Misc[all]  :: RICH errors
+17179 140  5-Misc[all]  :: RICH errors
+17179 141  5-Misc[all]  :: RICH errors
+17179 142  5-Misc[all]  :: RICH errors
+17179 143  5-Misc[all]  :: RICH errors
+17179 144  5-Misc[all]  :: RICH errors
+17179 145  5-Misc[all]  :: RICH errors
+17179 146  5-Misc[all]  :: RICH errors
+17179 147  5-Misc[all]  :: RICH errors
+17179 148  5-Misc[all]  :: RICH errors
+17179 149  5-Misc[all]  :: RICH errors
+17179 150  5-Misc[all]  :: RICH errors
+17179 151  5-Misc[all]  :: RICH errors
+17179 152  5-Misc[all]  :: RICH errors
+17179 153  5-Misc[all]  :: RICH errors
+17179 154  5-Misc[all]  :: RICH errors
+17179 155  5-Misc[all]  :: RICH errors
+17179 156  5-Misc[all]  :: RICH errors
+17179 157  5-Misc[all]  :: RICH errors
+17179 158  5-Misc[all]  :: RICH errors
+17179 159  5-Misc[all]  :: RICH errors
+17179 160  5-Misc[all]  :: RICH errors
+17179 161  5-Misc[all]  :: RICH errors
+17179 162  5-Misc[all]  :: RICH errors
+17179 163  5-Misc[all]  :: RICH errors
+17179 164  5-Misc[all]  :: RICH errors
+17179 165  5-Misc[all]  :: RICH errors
+17179 166  5-Misc[all]  :: RICH errors
+17179 167  5-Misc[all]  :: RICH errors
+17179 168  5-Misc[all]  :: RICH errors
+17179 169  5-Misc[all]  :: RICH errors
+17179 170  5-Misc[all]  :: RICH errors
+17179 171  5-Misc[all]  :: RICH errors
+17179 172  5-Misc[all]  :: RICH errors
+17179 173  5-Misc[all]  :: RICH errors
+17179 174  5-Misc[all]  :: RICH errors
+17179 175  5-Misc[all]  :: RICH errors
+17179 176  5-Misc[all]  :: RICH errors
+17179 177  5-Misc[all]  :: RICH errors
+17179 178  5-Misc[all]  :: RICH errors
+17179 179  5-Misc[all]  :: RICH errors
+17179 180  5-Misc[all]  :: RICH errors
+17179 181  5-Misc[all]  :: RICH errors
+17179 182  5-Misc[all]  :: RICH errors
+17179 183  5-Misc[all]  :: RICH errors
+17179 184  5-Misc[all]  :: RICH errors
+17179 185  5-Misc[all]  :: RICH errors
+17179 186  5-Misc[all]  :: RICH errors
+17179 187  5-Misc[all]  :: RICH errors
+17179 188  5-Misc[all]  :: RICH errors
+17179 189  4-LowLiveTime[all]  5-Misc[all]  :: RICH errors
+17179 190  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: RICH errors
+17179 191  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH errors
 
 RUN: 17180
-17180 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17180 1  GOLDEN
-17180 2  GOLDEN
-17180 3  GOLDEN
-17180 4  GOLDEN
-17180 5  GOLDEN
-17180 6  GOLDEN
-17180 7  GOLDEN
-17180 8  GOLDEN
-17180 9  GOLDEN
-17180 10  GOLDEN
-17180 11  GOLDEN
-17180 12  GOLDEN
-17180 13  GOLDEN
-17180 14  GOLDEN
-17180 15  GOLDEN
-17180 16  GOLDEN
-17180 17  GOLDEN
-17180 18  GOLDEN
-17180 19  GOLDEN
-17180 20  GOLDEN
-17180 21  GOLDEN
-17180 22  GOLDEN
-17180 23  GOLDEN
-17180 24  GOLDEN
-17180 25  GOLDEN
-17180 26  GOLDEN
-17180 27  GOLDEN
-17180 28  GOLDEN
-17180 29  GOLDEN
-17180 30  2-MarginalOutlier[3]
-17180 31  GOLDEN
-17180 32  GOLDEN
-17180 33  GOLDEN
-17180 34  GOLDEN
-17180 35  GOLDEN
-17180 36  GOLDEN
-17180 37  GOLDEN
-17180 38  GOLDEN
-17180 39  GOLDEN
-17180 40  GOLDEN
-17180 41  GOLDEN
-17180 42  GOLDEN
-17180 43  GOLDEN
-17180 44  GOLDEN
-17180 45  GOLDEN
-17180 46  GOLDEN
-17180 47  GOLDEN
-17180 48  GOLDEN
-17180 49  GOLDEN
-17180 50  GOLDEN
-17180 51  GOLDEN
-17180 52  GOLDEN
-17180 53  GOLDEN
-17180 54  GOLDEN
-17180 55  GOLDEN
-17180 56  GOLDEN
-17180 57  GOLDEN
-17180 58  GOLDEN
-17180 59  GOLDEN
-17180 60  GOLDEN
-17180 61  GOLDEN
-17180 62  GOLDEN
-17180 63  GOLDEN
-17180 64  GOLDEN
-17180 65  GOLDEN
-17180 66  GOLDEN
-17180 67  GOLDEN
-17180 68  GOLDEN
-17180 69  GOLDEN
-17180 70  2-MarginalOutlier[all]  4-LowLiveTime[all]
-17180 71  GOLDEN
-17180 72  GOLDEN
-17180 73  GOLDEN
-17180 74  GOLDEN
-17180 75  GOLDEN
-17180 76  GOLDEN
-17180 77  GOLDEN
-17180 78  GOLDEN
-17180 79  4-LowLiveTime[all]
-17180 80  4-LowLiveTime[all]
-17180 81  GOLDEN
-17180 82  GOLDEN
-17180 83  GOLDEN
-17180 84  GOLDEN
-17180 85  GOLDEN
-17180 86  GOLDEN
-17180 87  GOLDEN
-17180 88  GOLDEN
-17180 89  GOLDEN
-17180 90  GOLDEN
-17180 91  GOLDEN
-17180 92  GOLDEN
-17180 93  2-MarginalOutlier[all]  4-LowLiveTime[all]
-17180 94  GOLDEN
-17180 95  GOLDEN
-17180 96  GOLDEN
-17180 97  GOLDEN
-17180 98  GOLDEN
-17180 99  GOLDEN
-17180 100  GOLDEN
-17180 101  GOLDEN
-17180 102  GOLDEN
-17180 103  GOLDEN
-17180 104  GOLDEN
-17180 105  GOLDEN
-17180 106  GOLDEN
-17180 107  GOLDEN
-17180 108  GOLDEN
-17180 109  GOLDEN
-17180 110  GOLDEN
-17180 111  GOLDEN
-17180 112  GOLDEN
-17180 113  GOLDEN
-17180 114  GOLDEN
-17180 115  GOLDEN
-17180 116  GOLDEN
-17180 117  GOLDEN
-17180 118  GOLDEN
-17180 119  GOLDEN
-17180 120  GOLDEN
-17180 121  GOLDEN
-17180 122  GOLDEN
-17180 123  GOLDEN
-17180 124  GOLDEN
-17180 125  GOLDEN
-17180 126  GOLDEN
-17180 127  GOLDEN
-17180 128  GOLDEN
-17180 129  GOLDEN
-17180 130  GOLDEN
-17180 131  GOLDEN
-17180 132  GOLDEN
-17180 133  GOLDEN
-17180 134  GOLDEN
-17180 135  GOLDEN
-17180 136  GOLDEN
-17180 137  GOLDEN
-17180 138  GOLDEN
-17180 139  GOLDEN
-17180 140  GOLDEN
-17180 141  GOLDEN
-17180 142  GOLDEN
-17180 143  GOLDEN
-17180 144  GOLDEN
-17180 145  GOLDEN
-17180 146  GOLDEN
-17180 147  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17180 148  GOLDEN
-17180 149  GOLDEN
-17180 150  GOLDEN
-17180 151  GOLDEN
-17180 152  GOLDEN
-17180 153  GOLDEN
-17180 154  GOLDEN
-17180 155  GOLDEN
-17180 156  GOLDEN
-17180 157  GOLDEN
-17180 158  GOLDEN
-17180 159  GOLDEN
-17180 160  GOLDEN
-17180 161  GOLDEN
-17180 162  GOLDEN
-17180 163  GOLDEN
-17180 164  GOLDEN
-17180 165  GOLDEN
-17180 166  GOLDEN
-17180 167  GOLDEN
-17180 168  GOLDEN
-17180 169  GOLDEN
-17180 170  GOLDEN
-17180 171  GOLDEN
-17180 172  GOLDEN
-17180 173  GOLDEN
-17180 174  GOLDEN
-17180 175  GOLDEN
-17180 176  GOLDEN
-17180 177  GOLDEN
-17180 178  GOLDEN
-17180 179  GOLDEN
-17180 180  GOLDEN
-17180 181  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17180 182  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17180 183  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17180 184  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17180 185  GOLDEN
-17180 186  GOLDEN
-17180 187  GOLDEN
-17180 188  GOLDEN
-17180 189  GOLDEN
-17180 190  GOLDEN
-17180 191  GOLDEN
-17180 192  GOLDEN
-17180 193  GOLDEN
-17180 194  GOLDEN
-17180 195  GOLDEN
-17180 196  GOLDEN
-17180 197  GOLDEN
-17180 198  GOLDEN
-17180 199  GOLDEN
-17180 200  GOLDEN
-17180 201  GOLDEN
-17180 202  GOLDEN
-17180 203  GOLDEN
-17180 204  GOLDEN
-17180 205  GOLDEN
-17180 206  GOLDEN
-17180 207  GOLDEN
-17180 208  GOLDEN
-17180 209  GOLDEN
-17180 210  GOLDEN
-17180 211  GOLDEN
-17180 212  GOLDEN
-17180 213  GOLDEN
-17180 214  GOLDEN
-17180 215  GOLDEN
-17180 216  GOLDEN
-17180 217  GOLDEN
-17180 218  GOLDEN
-17180 219  GOLDEN
-17180 220  GOLDEN
-17180 221  GOLDEN
-17180 222  GOLDEN
-17180 223  GOLDEN
-17180 224  GOLDEN
-17180 225  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17180 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
+17180 1  5-Misc[all]  :: RICH off
+17180 2  5-Misc[all]  :: RICH off
+17180 3  5-Misc[all]  :: RICH off
+17180 4  5-Misc[all]  :: RICH off
+17180 5  5-Misc[all]  :: RICH off
+17180 6  5-Misc[all]  :: RICH off
+17180 7  5-Misc[all]  :: RICH off
+17180 8  5-Misc[all]  :: RICH off
+17180 9  5-Misc[all]  :: RICH off
+17180 10  5-Misc[all]  :: RICH off
+17180 11  5-Misc[all]  :: RICH off
+17180 12  5-Misc[all]  :: RICH off
+17180 13  5-Misc[all]  :: RICH off
+17180 14  5-Misc[all]  :: RICH off
+17180 15  5-Misc[all]  :: RICH off
+17180 16  5-Misc[all]  :: RICH off
+17180 17  5-Misc[all]  :: RICH off
+17180 18  5-Misc[all]  :: RICH off
+17180 19  5-Misc[all]  :: RICH off
+17180 20  5-Misc[all]  :: RICH off
+17180 21  5-Misc[all]  :: RICH off
+17180 22  5-Misc[all]  :: RICH off
+17180 23  5-Misc[all]  :: RICH off
+17180 24  5-Misc[all]  :: RICH off
+17180 25  5-Misc[all]  :: RICH off
+17180 26  5-Misc[all]  :: RICH off
+17180 27  5-Misc[all]  :: RICH off
+17180 28  5-Misc[all]  :: RICH off
+17180 29  5-Misc[all]  :: RICH off
+17180 30  2-MarginalOutlier[3]  5-Misc[all]  :: RICH off
+17180 31  5-Misc[all]  :: RICH off
+17180 32  5-Misc[all]  :: RICH off
+17180 33  5-Misc[all]  :: RICH off
+17180 34  5-Misc[all]  :: RICH off
+17180 35  5-Misc[all]  :: RICH off
+17180 36  5-Misc[all]  :: RICH off
+17180 37  5-Misc[all]  :: RICH off
+17180 38  5-Misc[all]  :: RICH off
+17180 39  5-Misc[all]  :: RICH off
+17180 40  5-Misc[all]  :: RICH off
+17180 41  5-Misc[all]  :: RICH off
+17180 42  5-Misc[all]  :: RICH off
+17180 43  5-Misc[all]  :: RICH off
+17180 44  5-Misc[all]  :: RICH off
+17180 45  5-Misc[all]  :: RICH off
+17180 46  5-Misc[all]  :: RICH off
+17180 47  5-Misc[all]  :: RICH off
+17180 48  5-Misc[all]  :: RICH off
+17180 49  5-Misc[all]  :: RICH off
+17180 50  5-Misc[all]  :: RICH off
+17180 51  5-Misc[all]  :: RICH off
+17180 52  5-Misc[all]  :: RICH off
+17180 53  5-Misc[all]  :: RICH off
+17180 54  5-Misc[all]  :: RICH off
+17180 55  5-Misc[all]  :: RICH off
+17180 56  5-Misc[all]  :: RICH off
+17180 57  5-Misc[all]  :: RICH off
+17180 58  5-Misc[all]  :: RICH off
+17180 59  5-Misc[all]  :: RICH off
+17180 60  5-Misc[all]  :: RICH off
+17180 61  5-Misc[all]  :: RICH off
+17180 62  5-Misc[all]  :: RICH off
+17180 63  5-Misc[all]  :: RICH off
+17180 64  5-Misc[all]  :: RICH off
+17180 65  5-Misc[all]  :: RICH off
+17180 66  5-Misc[all]  :: RICH off
+17180 67  5-Misc[all]  :: RICH off
+17180 68  5-Misc[all]  :: RICH off
+17180 69  5-Misc[all]  :: RICH off
+17180 70  2-MarginalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17180 71  5-Misc[all]  :: RICH off
+17180 72  5-Misc[all]  :: RICH off
+17180 73  5-Misc[all]  :: RICH off
+17180 74  5-Misc[all]  :: RICH off
+17180 75  5-Misc[all]  :: RICH off
+17180 76  5-Misc[all]  :: RICH off
+17180 77  5-Misc[all]  :: RICH off
+17180 78  5-Misc[all]  :: RICH off
+17180 79  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17180 80  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17180 81  5-Misc[all]  :: RICH off
+17180 82  5-Misc[all]  :: RICH off
+17180 83  5-Misc[all]  :: RICH off
+17180 84  5-Misc[all]  :: RICH off
+17180 85  5-Misc[all]  :: RICH off
+17180 86  5-Misc[all]  :: RICH off
+17180 87  5-Misc[all]  :: RICH off
+17180 88  5-Misc[all]  :: RICH off
+17180 89  5-Misc[all]  :: RICH off
+17180 90  5-Misc[all]  :: RICH off
+17180 91  5-Misc[all]  :: RICH off
+17180 92  5-Misc[all]  :: RICH off
+17180 93  2-MarginalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17180 94  5-Misc[all]  :: RICH off
+17180 95  5-Misc[all]  :: RICH off
+17180 96  5-Misc[all]  :: RICH off
+17180 97  5-Misc[all]  :: RICH off
+17180 98  5-Misc[all]  :: RICH off
+17180 99  5-Misc[all]  :: RICH off
+17180 100  5-Misc[all]  :: RICH off
+17180 101  5-Misc[all]  :: RICH off
+17180 102  5-Misc[all]  :: RICH off
+17180 103  5-Misc[all]  :: RICH off
+17180 104  5-Misc[all]  :: RICH off
+17180 105  5-Misc[all]  :: RICH off
+17180 106  5-Misc[all]  :: RICH off
+17180 107  5-Misc[all]  :: RICH off
+17180 108  5-Misc[all]  :: RICH off
+17180 109  5-Misc[all]  :: RICH off
+17180 110  5-Misc[all]  :: RICH off
+17180 111  5-Misc[all]  :: RICH off
+17180 112  5-Misc[all]  :: RICH off
+17180 113  5-Misc[all]  :: RICH off
+17180 114  5-Misc[all]  :: RICH off
+17180 115  5-Misc[all]  :: RICH off
+17180 116  5-Misc[all]  :: RICH off
+17180 117  5-Misc[all]  :: RICH off
+17180 118  5-Misc[all]  :: RICH off
+17180 119  5-Misc[all]  :: RICH off
+17180 120  5-Misc[all]  :: RICH off
+17180 121  5-Misc[all]  :: RICH off
+17180 122  5-Misc[all]  :: RICH off
+17180 123  5-Misc[all]  :: RICH off
+17180 124  5-Misc[all]  :: RICH off
+17180 125  5-Misc[all]  :: RICH off
+17180 126  5-Misc[all]  :: RICH off
+17180 127  5-Misc[all]  :: RICH off
+17180 128  5-Misc[all]  :: RICH off
+17180 129  5-Misc[all]  :: RICH off
+17180 130  5-Misc[all]  :: RICH off
+17180 131  5-Misc[all]  :: RICH off
+17180 132  5-Misc[all]  :: RICH off
+17180 133  5-Misc[all]  :: RICH off
+17180 134  5-Misc[all]  :: RICH off
+17180 135  5-Misc[all]  :: RICH off
+17180 136  5-Misc[all]  :: RICH off
+17180 137  5-Misc[all]  :: RICH off
+17180 138  5-Misc[all]  :: RICH off
+17180 139  5-Misc[all]  :: RICH off
+17180 140  5-Misc[all]  :: RICH off
+17180 141  5-Misc[all]  :: RICH off
+17180 142  5-Misc[all]  :: RICH off
+17180 143  5-Misc[all]  :: RICH off
+17180 144  5-Misc[all]  :: RICH off
+17180 145  5-Misc[all]  :: RICH off
+17180 146  5-Misc[all]  :: RICH off
+17180 147  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17180 148  5-Misc[all]  :: RICH off
+17180 149  5-Misc[all]  :: RICH off
+17180 150  5-Misc[all]  :: RICH off
+17180 151  5-Misc[all]  :: RICH off
+17180 152  5-Misc[all]  :: RICH off
+17180 153  5-Misc[all]  :: RICH off
+17180 154  5-Misc[all]  :: RICH off
+17180 155  5-Misc[all]  :: RICH off
+17180 156  5-Misc[all]  :: RICH off
+17180 157  5-Misc[all]  :: RICH off
+17180 158  5-Misc[all]  :: RICH off
+17180 159  5-Misc[all]  :: RICH off
+17180 160  5-Misc[all]  :: RICH off
+17180 161  5-Misc[all]  :: RICH off
+17180 162  5-Misc[all]  :: RICH off
+17180 163  5-Misc[all]  :: RICH off
+17180 164  5-Misc[all]  :: RICH off
+17180 165  5-Misc[all]  :: RICH off
+17180 166  5-Misc[all]  :: RICH off
+17180 167  5-Misc[all]  :: RICH off
+17180 168  5-Misc[all]  :: RICH off
+17180 169  5-Misc[all]  :: RICH off
+17180 170  5-Misc[all]  :: RICH off
+17180 171  5-Misc[all]  :: RICH off
+17180 172  5-Misc[all]  :: RICH off
+17180 173  5-Misc[all]  :: RICH off
+17180 174  5-Misc[all]  :: RICH off
+17180 175  5-Misc[all]  :: RICH off
+17180 176  5-Misc[all]  :: RICH off
+17180 177  5-Misc[all]  :: RICH off
+17180 178  5-Misc[all]  :: RICH off
+17180 179  5-Misc[all]  :: RICH off
+17180 180  5-Misc[all]  :: RICH off
+17180 181  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17180 182  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17180 183  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17180 184  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17180 185  5-Misc[all]  :: RICH off
+17180 186  5-Misc[all]  :: RICH off
+17180 187  5-Misc[all]  :: RICH off
+17180 188  5-Misc[all]  :: RICH off
+17180 189  5-Misc[all]  :: RICH off
+17180 190  5-Misc[all]  :: RICH off
+17180 191  5-Misc[all]  :: RICH off
+17180 192  5-Misc[all]  :: RICH off
+17180 193  5-Misc[all]  :: RICH off
+17180 194  5-Misc[all]  :: RICH off
+17180 195  5-Misc[all]  :: RICH off
+17180 196  5-Misc[all]  :: RICH off
+17180 197  5-Misc[all]  :: RICH off
+17180 198  5-Misc[all]  :: RICH off
+17180 199  5-Misc[all]  :: RICH off
+17180 200  5-Misc[all]  :: RICH off
+17180 201  5-Misc[all]  :: RICH off
+17180 202  5-Misc[all]  :: RICH off
+17180 203  5-Misc[all]  :: RICH off
+17180 204  5-Misc[all]  :: RICH off
+17180 205  5-Misc[all]  :: RICH off
+17180 206  5-Misc[all]  :: RICH off
+17180 207  5-Misc[all]  :: RICH off
+17180 208  5-Misc[all]  :: RICH off
+17180 209  5-Misc[all]  :: RICH off
+17180 210  5-Misc[all]  :: RICH off
+17180 211  5-Misc[all]  :: RICH off
+17180 212  5-Misc[all]  :: RICH off
+17180 213  5-Misc[all]  :: RICH off
+17180 214  5-Misc[all]  :: RICH off
+17180 215  5-Misc[all]  :: RICH off
+17180 216  5-Misc[all]  :: RICH off
+17180 217  5-Misc[all]  :: RICH off
+17180 218  5-Misc[all]  :: RICH off
+17180 219  5-Misc[all]  :: RICH off
+17180 220  5-Misc[all]  :: RICH off
+17180 221  5-Misc[all]  :: RICH off
+17180 222  5-Misc[all]  :: RICH off
+17180 223  5-Misc[all]  :: RICH off
+17180 224  5-Misc[all]  :: RICH off
+17180 225  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
 
 RUN: 17181
-17181 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17181 1  GOLDEN
-17181 2  GOLDEN
-17181 3  GOLDEN
-17181 4  GOLDEN
-17181 5  GOLDEN
-17181 6  GOLDEN
-17181 7  GOLDEN
-17181 8  GOLDEN
-17181 9  GOLDEN
-17181 10  GOLDEN
-17181 11  GOLDEN
-17181 12  4-LowLiveTime[all]
-17181 13  GOLDEN
-17181 14  GOLDEN
-17181 15  GOLDEN
-17181 16  GOLDEN
-17181 17  GOLDEN
-17181 18  GOLDEN
-17181 19  GOLDEN
-17181 20  GOLDEN
-17181 21  GOLDEN
-17181 22  GOLDEN
-17181 23  GOLDEN
-17181 24  GOLDEN
-17181 25  GOLDEN
-17181 26  GOLDEN
-17181 27  GOLDEN
-17181 28  GOLDEN
-17181 29  GOLDEN
-17181 30  GOLDEN
-17181 31  GOLDEN
-17181 32  GOLDEN
-17181 33  GOLDEN
-17181 34  GOLDEN
-17181 35  GOLDEN
-17181 36  GOLDEN
-17181 37  GOLDEN
-17181 38  GOLDEN
-17181 39  GOLDEN
-17181 40  GOLDEN
-17181 41  GOLDEN
-17181 42  GOLDEN
-17181 43  GOLDEN
-17181 44  GOLDEN
-17181 45  GOLDEN
-17181 46  GOLDEN
-17181 47  GOLDEN
-17181 48  GOLDEN
-17181 49  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17181 50  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17181 51  GOLDEN
-17181 52  GOLDEN
-17181 53  GOLDEN
-17181 54  GOLDEN
-17181 55  GOLDEN
-17181 56  GOLDEN
-17181 57  GOLDEN
-17181 58  GOLDEN
-17181 59  GOLDEN
-17181 60  GOLDEN
-17181 61  GOLDEN
-17181 62  GOLDEN
-17181 63  GOLDEN
-17181 64  GOLDEN
-17181 65  GOLDEN
-17181 66  GOLDEN
-17181 67  GOLDEN
-17181 68  GOLDEN
-17181 69  GOLDEN
-17181 70  GOLDEN
-17181 71  GOLDEN
-17181 72  GOLDEN
-17181 73  GOLDEN
-17181 74  GOLDEN
-17181 75  GOLDEN
-17181 76  GOLDEN
-17181 77  GOLDEN
-17181 78  GOLDEN
-17181 79  GOLDEN
-17181 80  GOLDEN
-17181 81  GOLDEN
-17181 82  GOLDEN
-17181 83  GOLDEN
-17181 84  GOLDEN
-17181 85  GOLDEN
-17181 86  GOLDEN
-17181 87  GOLDEN
-17181 88  GOLDEN
-17181 89  GOLDEN
-17181 90  GOLDEN
-17181 91  GOLDEN
-17181 92  GOLDEN
-17181 93  GOLDEN
-17181 94  GOLDEN
-17181 95  GOLDEN
-17181 96  GOLDEN
-17181 97  GOLDEN
-17181 98  GOLDEN
-17181 99  GOLDEN
-17181 100  GOLDEN
-17181 101  GOLDEN
-17181 102  GOLDEN
-17181 103  GOLDEN
-17181 104  GOLDEN
-17181 105  GOLDEN
-17181 106  GOLDEN
-17181 107  GOLDEN
-17181 108  GOLDEN
-17181 109  GOLDEN
-17181 110  GOLDEN
-17181 111  GOLDEN
-17181 112  GOLDEN
-17181 113  GOLDEN
-17181 114  GOLDEN
-17181 115  GOLDEN
-17181 116  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17181 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
+17181 1  5-Misc[all]  :: RICH off
+17181 2  5-Misc[all]  :: RICH off
+17181 3  5-Misc[all]  :: RICH off
+17181 4  5-Misc[all]  :: RICH off
+17181 5  5-Misc[all]  :: RICH off
+17181 6  5-Misc[all]  :: RICH off
+17181 7  5-Misc[all]  :: RICH off
+17181 8  5-Misc[all]  :: RICH off
+17181 9  5-Misc[all]  :: RICH off
+17181 10  5-Misc[all]  :: RICH off
+17181 11  5-Misc[all]  :: RICH off
+17181 12  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17181 13  5-Misc[all]  :: RICH off
+17181 14  5-Misc[all]  :: RICH off
+17181 15  5-Misc[all]  :: RICH off
+17181 16  5-Misc[all]  :: RICH off
+17181 17  5-Misc[all]  :: RICH off
+17181 18  5-Misc[all]  :: RICH off
+17181 19  5-Misc[all]  :: RICH off
+17181 20  5-Misc[all]  :: RICH off
+17181 21  5-Misc[all]  :: RICH off
+17181 22  5-Misc[all]  :: RICH off
+17181 23  5-Misc[all]  :: RICH off
+17181 24  5-Misc[all]  :: RICH off
+17181 25  5-Misc[all]  :: RICH off
+17181 26  5-Misc[all]  :: RICH off
+17181 27  5-Misc[all]  :: RICH off
+17181 28  5-Misc[all]  :: RICH off
+17181 29  5-Misc[all]  :: RICH off
+17181 30  5-Misc[all]  :: RICH off
+17181 31  5-Misc[all]  :: RICH off
+17181 32  5-Misc[all]  :: RICH off
+17181 33  5-Misc[all]  :: RICH off
+17181 34  5-Misc[all]  :: RICH off
+17181 35  5-Misc[all]  :: RICH off
+17181 36  5-Misc[all]  :: RICH off
+17181 37  5-Misc[all]  :: RICH off
+17181 38  5-Misc[all]  :: RICH off
+17181 39  5-Misc[all]  :: RICH off
+17181 40  5-Misc[all]  :: RICH off
+17181 41  5-Misc[all]  :: RICH off
+17181 42  5-Misc[all]  :: RICH off
+17181 43  5-Misc[all]  :: RICH off
+17181 44  5-Misc[all]  :: RICH off
+17181 45  5-Misc[all]  :: RICH off
+17181 46  5-Misc[all]  :: RICH off
+17181 47  5-Misc[all]  :: RICH off
+17181 48  5-Misc[all]  :: RICH off
+17181 49  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17181 50  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17181 51  5-Misc[all]  :: RICH off
+17181 52  5-Misc[all]  :: RICH off
+17181 53  5-Misc[all]  :: RICH off
+17181 54  5-Misc[all]  :: RICH off
+17181 55  5-Misc[all]  :: RICH off
+17181 56  5-Misc[all]  :: RICH off
+17181 57  5-Misc[all]  :: RICH off
+17181 58  5-Misc[all]  :: RICH off
+17181 59  5-Misc[all]  :: RICH off
+17181 60  5-Misc[all]  :: RICH off
+17181 61  5-Misc[all]  :: RICH off
+17181 62  5-Misc[all]  :: RICH off
+17181 63  5-Misc[all]  :: RICH off
+17181 64  5-Misc[all]  :: RICH off
+17181 65  5-Misc[all]  :: RICH off
+17181 66  5-Misc[all]  :: RICH off
+17181 67  5-Misc[all]  :: RICH off
+17181 68  5-Misc[all]  :: RICH off
+17181 69  5-Misc[all]  :: RICH off
+17181 70  5-Misc[all]  :: RICH off
+17181 71  5-Misc[all]  :: RICH off
+17181 72  5-Misc[all]  :: RICH off
+17181 73  5-Misc[all]  :: RICH off
+17181 74  5-Misc[all]  :: RICH off
+17181 75  5-Misc[all]  :: RICH off
+17181 76  5-Misc[all]  :: RICH off
+17181 77  5-Misc[all]  :: RICH off
+17181 78  5-Misc[all]  :: RICH off
+17181 79  5-Misc[all]  :: RICH off
+17181 80  5-Misc[all]  :: RICH off
+17181 81  5-Misc[all]  :: RICH off
+17181 82  5-Misc[all]  :: RICH off
+17181 83  5-Misc[all]  :: RICH off
+17181 84  5-Misc[all]  :: RICH off
+17181 85  5-Misc[all]  :: RICH off
+17181 86  5-Misc[all]  :: RICH off
+17181 87  5-Misc[all]  :: RICH off
+17181 88  5-Misc[all]  :: RICH off
+17181 89  5-Misc[all]  :: RICH off
+17181 90  5-Misc[all]  :: RICH off
+17181 91  5-Misc[all]  :: RICH off
+17181 92  5-Misc[all]  :: RICH off
+17181 93  5-Misc[all]  :: RICH off
+17181 94  5-Misc[all]  :: RICH off
+17181 95  5-Misc[all]  :: RICH off
+17181 96  5-Misc[all]  :: RICH off
+17181 97  5-Misc[all]  :: RICH off
+17181 98  5-Misc[all]  :: RICH off
+17181 99  5-Misc[all]  :: RICH off
+17181 100  5-Misc[all]  :: RICH off
+17181 101  5-Misc[all]  :: RICH off
+17181 102  5-Misc[all]  :: RICH off
+17181 103  5-Misc[all]  :: RICH off
+17181 104  5-Misc[all]  :: RICH off
+17181 105  5-Misc[all]  :: RICH off
+17181 106  5-Misc[all]  :: RICH off
+17181 107  5-Misc[all]  :: RICH off
+17181 108  5-Misc[all]  :: RICH off
+17181 109  5-Misc[all]  :: RICH off
+17181 110  5-Misc[all]  :: RICH off
+17181 111  5-Misc[all]  :: RICH off
+17181 112  5-Misc[all]  :: RICH off
+17181 113  5-Misc[all]  :: RICH off
+17181 114  5-Misc[all]  :: RICH off
+17181 115  5-Misc[all]  :: RICH off
+17181 116  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
 
 RUN: 17182
-17182 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17182 1  GOLDEN
-17182 2  GOLDEN
-17182 3  GOLDEN
-17182 4  GOLDEN
-17182 5  GOLDEN
-17182 6  GOLDEN
-17182 7  GOLDEN
-17182 8  GOLDEN
-17182 9  GOLDEN
-17182 10  GOLDEN
-17182 11  GOLDEN
-17182 12  GOLDEN
-17182 13  GOLDEN
-17182 14  GOLDEN
-17182 15  GOLDEN
-17182 16  GOLDEN
-17182 17  GOLDEN
-17182 18  GOLDEN
-17182 19  GOLDEN
-17182 20  GOLDEN
-17182 21  GOLDEN
-17182 22  GOLDEN
-17182 23  GOLDEN
-17182 24  GOLDEN
-17182 25  GOLDEN
-17182 26  GOLDEN
-17182 27  GOLDEN
-17182 28  GOLDEN
-17182 29  GOLDEN
-17182 30  GOLDEN
-17182 31  2-MarginalOutlier[1]  4-LowLiveTime[all]
-17182 32  GOLDEN
-17182 33  GOLDEN
-17182 34  GOLDEN
-17182 35  GOLDEN
-17182 36  GOLDEN
-17182 37  GOLDEN
-17182 38  GOLDEN
-17182 39  GOLDEN
-17182 40  GOLDEN
-17182 41  GOLDEN
-17182 42  GOLDEN
-17182 43  GOLDEN
-17182 44  GOLDEN
-17182 45  GOLDEN
-17182 46  GOLDEN
-17182 47  GOLDEN
-17182 48  GOLDEN
-17182 49  GOLDEN
-17182 50  GOLDEN
-17182 51  GOLDEN
-17182 52  GOLDEN
-17182 53  GOLDEN
-17182 54  GOLDEN
-17182 55  GOLDEN
-17182 56  GOLDEN
-17182 57  GOLDEN
-17182 58  GOLDEN
-17182 59  GOLDEN
-17182 60  GOLDEN
-17182 61  GOLDEN
-17182 62  GOLDEN
-17182 63  GOLDEN
-17182 64  GOLDEN
-17182 65  GOLDEN
-17182 66  GOLDEN
-17182 67  GOLDEN
-17182 68  GOLDEN
-17182 69  GOLDEN
-17182 70  GOLDEN
-17182 71  GOLDEN
-17182 72  GOLDEN
-17182 73  GOLDEN
-17182 74  GOLDEN
-17182 75  GOLDEN
-17182 76  GOLDEN
-17182 77  GOLDEN
-17182 78  GOLDEN
-17182 79  GOLDEN
-17182 80  GOLDEN
-17182 81  GOLDEN
-17182 82  GOLDEN
-17182 83  GOLDEN
-17182 84  GOLDEN
-17182 85  GOLDEN
-17182 86  GOLDEN
-17182 87  GOLDEN
-17182 88  GOLDEN
-17182 89  GOLDEN
-17182 90  GOLDEN
-17182 91  GOLDEN
-17182 92  GOLDEN
-17182 93  GOLDEN
-17182 94  GOLDEN
-17182 95  GOLDEN
-17182 96  GOLDEN
-17182 97  GOLDEN
-17182 98  GOLDEN
-17182 99  GOLDEN
-17182 100  GOLDEN
-17182 101  GOLDEN
-17182 102  GOLDEN
-17182 103  GOLDEN
-17182 104  GOLDEN
-17182 105  GOLDEN
-17182 106  GOLDEN
-17182 107  GOLDEN
-17182 108  GOLDEN
-17182 109  GOLDEN
-17182 110  GOLDEN
-17182 111  GOLDEN
-17182 112  GOLDEN
-17182 113  GOLDEN
-17182 114  GOLDEN
-17182 115  GOLDEN
-17182 116  GOLDEN
-17182 117  GOLDEN
-17182 118  GOLDEN
-17182 119  GOLDEN
-17182 120  GOLDEN
-17182 121  GOLDEN
-17182 122  GOLDEN
-17182 123  GOLDEN
-17182 124  GOLDEN
-17182 125  GOLDEN
-17182 126  GOLDEN
-17182 127  GOLDEN
-17182 128  GOLDEN
-17182 129  GOLDEN
-17182 130  GOLDEN
-17182 131  GOLDEN
-17182 132  GOLDEN
-17182 133  GOLDEN
-17182 134  GOLDEN
-17182 135  GOLDEN
-17182 136  GOLDEN
-17182 137  GOLDEN
-17182 138  GOLDEN
-17182 139  GOLDEN
-17182 140  GOLDEN
-17182 141  GOLDEN
-17182 142  GOLDEN
-17182 143  GOLDEN
-17182 144  GOLDEN
-17182 145  GOLDEN
-17182 146  GOLDEN
-17182 147  GOLDEN
-17182 148  GOLDEN
-17182 149  GOLDEN
-17182 150  GOLDEN
-17182 151  GOLDEN
-17182 152  GOLDEN
-17182 153  GOLDEN
-17182 154  GOLDEN
-17182 155  GOLDEN
-17182 156  GOLDEN
-17182 157  GOLDEN
-17182 158  GOLDEN
-17182 159  GOLDEN
-17182 160  GOLDEN
-17182 161  GOLDEN
-17182 162  GOLDEN
-17182 163  GOLDEN
-17182 164  GOLDEN
-17182 165  GOLDEN
-17182 166  GOLDEN
-17182 167  GOLDEN
-17182 168  GOLDEN
-17182 169  GOLDEN
-17182 170  GOLDEN
-17182 171  GOLDEN
-17182 172  GOLDEN
-17182 173  GOLDEN
-17182 174  GOLDEN
-17182 175  GOLDEN
-17182 176  GOLDEN
-17182 177  GOLDEN
-17182 178  GOLDEN
-17182 179  GOLDEN
-17182 180  GOLDEN
-17182 181  0-TotalOutlier[1, 2, 3, 5, 6]  2-MarginalOutlier[4]  19-PossiblyNoBeam[all]
-17182 182  2-MarginalOutlier[1, 2, 3, 5]  19-PossiblyNoBeam[1, 2, 3, 5, 6]
-17182 183  GOLDEN
-17182 184  GOLDEN
-17182 185  GOLDEN
-17182 186  GOLDEN
-17182 187  GOLDEN
-17182 188  GOLDEN
-17182 189  GOLDEN
-17182 190  GOLDEN
-17182 191  GOLDEN
-17182 192  GOLDEN
-17182 193  GOLDEN
-17182 194  GOLDEN
-17182 195  GOLDEN
-17182 196  GOLDEN
-17182 197  0-TotalOutlier[1, 2, 4, 5, 6]  2-MarginalOutlier[3]  19-PossiblyNoBeam[all]
-17182 198  GOLDEN
-17182 199  GOLDEN
-17182 200  GOLDEN
-17182 201  GOLDEN
-17182 202  GOLDEN
-17182 203  GOLDEN
-17182 204  GOLDEN
-17182 205  GOLDEN
-17182 206  GOLDEN
-17182 207  GOLDEN
-17182 208  GOLDEN
-17182 209  GOLDEN
-17182 210  GOLDEN
-17182 211  GOLDEN
-17182 212  GOLDEN
-17182 213  GOLDEN
-17182 214  GOLDEN
-17182 215  GOLDEN
-17182 216  GOLDEN
-17182 217  GOLDEN
-17182 218  GOLDEN
-17182 219  GOLDEN
-17182 220  2-MarginalOutlier[6]  4-LowLiveTime[all]
-17182 221  GOLDEN
-17182 222  GOLDEN
-17182 223  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17182 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
+17182 1  5-Misc[all]  :: RICH off
+17182 2  5-Misc[all]  :: RICH off
+17182 3  5-Misc[all]  :: RICH off
+17182 4  5-Misc[all]  :: RICH off
+17182 5  5-Misc[all]  :: RICH off
+17182 6  5-Misc[all]  :: RICH off
+17182 7  5-Misc[all]  :: RICH off
+17182 8  5-Misc[all]  :: RICH off
+17182 9  5-Misc[all]  :: RICH off
+17182 10  5-Misc[all]  :: RICH off
+17182 11  5-Misc[all]  :: RICH off
+17182 12  5-Misc[all]  :: RICH off
+17182 13  5-Misc[all]  :: RICH off
+17182 14  5-Misc[all]  :: RICH off
+17182 15  5-Misc[all]  :: RICH off
+17182 16  5-Misc[all]  :: RICH off
+17182 17  5-Misc[all]  :: RICH off
+17182 18  5-Misc[all]  :: RICH off
+17182 19  5-Misc[all]  :: RICH off
+17182 20  5-Misc[all]  :: RICH off
+17182 21  5-Misc[all]  :: RICH off
+17182 22  5-Misc[all]  :: RICH off
+17182 23  5-Misc[all]  :: RICH off
+17182 24  5-Misc[all]  :: RICH off
+17182 25  5-Misc[all]  :: RICH off
+17182 26  5-Misc[all]  :: RICH off
+17182 27  5-Misc[all]  :: RICH off
+17182 28  5-Misc[all]  :: RICH off
+17182 29  5-Misc[all]  :: RICH off
+17182 30  5-Misc[all]  :: RICH off
+17182 31  2-MarginalOutlier[1]  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17182 32  5-Misc[all]  :: RICH off
+17182 33  5-Misc[all]  :: RICH off
+17182 34  5-Misc[all]  :: RICH off
+17182 35  5-Misc[all]  :: RICH off
+17182 36  5-Misc[all]  :: RICH off
+17182 37  5-Misc[all]  :: RICH off
+17182 38  5-Misc[all]  :: RICH off
+17182 39  5-Misc[all]  :: RICH off
+17182 40  5-Misc[all]  :: RICH off
+17182 41  5-Misc[all]  :: RICH off
+17182 42  5-Misc[all]  :: RICH off
+17182 43  5-Misc[all]  :: RICH off
+17182 44  5-Misc[all]  :: RICH off
+17182 45  5-Misc[all]  :: RICH off
+17182 46  5-Misc[all]  :: RICH off
+17182 47  5-Misc[all]  :: RICH off
+17182 48  5-Misc[all]  :: RICH off
+17182 49  5-Misc[all]  :: RICH off
+17182 50  5-Misc[all]  :: RICH off
+17182 51  5-Misc[all]  :: RICH off
+17182 52  5-Misc[all]  :: RICH off
+17182 53  5-Misc[all]  :: RICH off
+17182 54  5-Misc[all]  :: RICH off
+17182 55  5-Misc[all]  :: RICH off
+17182 56  5-Misc[all]  :: RICH off
+17182 57  5-Misc[all]  :: RICH off
+17182 58  5-Misc[all]  :: RICH off
+17182 59  5-Misc[all]  :: RICH off
+17182 60  5-Misc[all]  :: RICH off
+17182 61  5-Misc[all]  :: RICH off
+17182 62  5-Misc[all]  :: RICH off
+17182 63  5-Misc[all]  :: RICH off
+17182 64  5-Misc[all]  :: RICH off
+17182 65  5-Misc[all]  :: RICH off
+17182 66  5-Misc[all]  :: RICH off
+17182 67  5-Misc[all]  :: RICH off
+17182 68  5-Misc[all]  :: RICH off
+17182 69  5-Misc[all]  :: RICH off
+17182 70  5-Misc[all]  :: RICH off
+17182 71  5-Misc[all]  :: RICH off
+17182 72  5-Misc[all]  :: RICH off
+17182 73  5-Misc[all]  :: RICH off
+17182 74  5-Misc[all]  :: RICH off
+17182 75  5-Misc[all]  :: RICH off
+17182 76  5-Misc[all]  :: RICH off
+17182 77  5-Misc[all]  :: RICH off
+17182 78  5-Misc[all]  :: RICH off
+17182 79  5-Misc[all]  :: RICH off
+17182 80  5-Misc[all]  :: RICH off
+17182 81  5-Misc[all]  :: RICH off
+17182 82  5-Misc[all]  :: RICH off
+17182 83  5-Misc[all]  :: RICH off
+17182 84  5-Misc[all]  :: RICH off
+17182 85  5-Misc[all]  :: RICH off
+17182 86  5-Misc[all]  :: RICH off
+17182 87  5-Misc[all]  :: RICH off
+17182 88  5-Misc[all]  :: RICH off
+17182 89  5-Misc[all]  :: RICH off
+17182 90  5-Misc[all]  :: RICH off
+17182 91  5-Misc[all]  :: RICH off
+17182 92  5-Misc[all]  :: RICH off
+17182 93  5-Misc[all]  :: RICH off
+17182 94  5-Misc[all]  :: RICH off
+17182 95  5-Misc[all]  :: RICH off
+17182 96  5-Misc[all]  :: RICH off
+17182 97  5-Misc[all]  :: RICH off
+17182 98  5-Misc[all]  :: RICH off
+17182 99  5-Misc[all]  :: RICH off
+17182 100  5-Misc[all]  :: RICH off
+17182 101  5-Misc[all]  :: RICH off
+17182 102  5-Misc[all]  :: RICH off
+17182 103  5-Misc[all]  :: RICH off
+17182 104  5-Misc[all]  :: RICH off
+17182 105  5-Misc[all]  :: RICH off
+17182 106  5-Misc[all]  :: RICH off
+17182 107  5-Misc[all]  :: RICH off
+17182 108  5-Misc[all]  :: RICH off
+17182 109  5-Misc[all]  :: RICH off
+17182 110  5-Misc[all]  :: RICH off
+17182 111  5-Misc[all]  :: RICH off
+17182 112  5-Misc[all]  :: RICH off
+17182 113  5-Misc[all]  :: RICH off
+17182 114  5-Misc[all]  :: RICH off
+17182 115  5-Misc[all]  :: RICH off
+17182 116  5-Misc[all]  :: RICH off
+17182 117  5-Misc[all]  :: RICH off
+17182 118  5-Misc[all]  :: RICH off
+17182 119  5-Misc[all]  :: RICH off
+17182 120  5-Misc[all]  :: RICH off
+17182 121  5-Misc[all]  :: RICH off
+17182 122  5-Misc[all]  :: RICH off
+17182 123  5-Misc[all]  :: RICH off
+17182 124  5-Misc[all]  :: RICH off
+17182 125  5-Misc[all]  :: RICH off
+17182 126  5-Misc[all]  :: RICH off
+17182 127  5-Misc[all]  :: RICH off
+17182 128  5-Misc[all]  :: RICH off
+17182 129  5-Misc[all]  :: RICH off
+17182 130  5-Misc[all]  :: RICH off
+17182 131  5-Misc[all]  :: RICH off
+17182 132  5-Misc[all]  :: RICH off
+17182 133  5-Misc[all]  :: RICH off
+17182 134  5-Misc[all]  :: RICH off
+17182 135  5-Misc[all]  :: RICH off
+17182 136  5-Misc[all]  :: RICH off
+17182 137  5-Misc[all]  :: RICH off
+17182 138  5-Misc[all]  :: RICH off
+17182 139  5-Misc[all]  :: RICH off
+17182 140  5-Misc[all]  :: RICH off
+17182 141  5-Misc[all]  :: RICH off
+17182 142  5-Misc[all]  :: RICH off
+17182 143  5-Misc[all]  :: RICH off
+17182 144  5-Misc[all]  :: RICH off
+17182 145  5-Misc[all]  :: RICH off
+17182 146  5-Misc[all]  :: RICH off
+17182 147  5-Misc[all]  :: RICH off
+17182 148  5-Misc[all]  :: RICH off
+17182 149  5-Misc[all]  :: RICH off
+17182 150  5-Misc[all]  :: RICH off
+17182 151  5-Misc[all]  :: RICH off
+17182 152  5-Misc[all]  :: RICH off
+17182 153  5-Misc[all]  :: RICH off
+17182 154  5-Misc[all]  :: RICH off
+17182 155  5-Misc[all]  :: RICH off
+17182 156  5-Misc[all]  :: RICH off
+17182 157  5-Misc[all]  :: RICH off
+17182 158  5-Misc[all]  :: RICH off
+17182 159  5-Misc[all]  :: RICH off
+17182 160  5-Misc[all]  :: RICH off
+17182 161  5-Misc[all]  :: RICH off
+17182 162  5-Misc[all]  :: RICH off
+17182 163  5-Misc[all]  :: RICH off
+17182 164  5-Misc[all]  :: RICH off
+17182 165  5-Misc[all]  :: RICH off
+17182 166  5-Misc[all]  :: RICH off
+17182 167  5-Misc[all]  :: RICH off
+17182 168  5-Misc[all]  :: RICH off
+17182 169  5-Misc[all]  :: RICH off
+17182 170  5-Misc[all]  :: RICH off
+17182 171  5-Misc[all]  :: RICH off
+17182 172  5-Misc[all]  :: RICH off
+17182 173  5-Misc[all]  :: RICH off
+17182 174  5-Misc[all]  :: RICH off
+17182 175  5-Misc[all]  :: RICH off
+17182 176  5-Misc[all]  :: RICH off
+17182 177  5-Misc[all]  :: RICH off
+17182 178  5-Misc[all]  :: RICH off
+17182 179  5-Misc[all]  :: RICH off
+17182 180  5-Misc[all]  :: RICH off
+17182 181  0-TotalOutlier[1, 2, 3, 5, 6]  2-MarginalOutlier[4]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17182 182  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  19-PossiblyNoBeam[1, 2, 3, 5, 6]  :: RICH off
+17182 183  5-Misc[all]  :: RICH off
+17182 184  5-Misc[all]  :: RICH off
+17182 185  5-Misc[all]  :: RICH off
+17182 186  5-Misc[all]  :: RICH off
+17182 187  5-Misc[all]  :: RICH off
+17182 188  5-Misc[all]  :: RICH off
+17182 189  5-Misc[all]  :: RICH off
+17182 190  5-Misc[all]  :: RICH off
+17182 191  5-Misc[all]  :: RICH off
+17182 192  5-Misc[all]  :: RICH off
+17182 193  5-Misc[all]  :: RICH off
+17182 194  5-Misc[all]  :: RICH off
+17182 195  5-Misc[all]  :: RICH off
+17182 196  5-Misc[all]  :: RICH off
+17182 197  0-TotalOutlier[1, 2, 4, 5, 6]  2-MarginalOutlier[3]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17182 198  5-Misc[all]  :: RICH off
+17182 199  5-Misc[all]  :: RICH off
+17182 200  5-Misc[all]  :: RICH off
+17182 201  5-Misc[all]  :: RICH off
+17182 202  5-Misc[all]  :: RICH off
+17182 203  5-Misc[all]  :: RICH off
+17182 204  5-Misc[all]  :: RICH off
+17182 205  5-Misc[all]  :: RICH off
+17182 206  5-Misc[all]  :: RICH off
+17182 207  5-Misc[all]  :: RICH off
+17182 208  5-Misc[all]  :: RICH off
+17182 209  5-Misc[all]  :: RICH off
+17182 210  5-Misc[all]  :: RICH off
+17182 211  5-Misc[all]  :: RICH off
+17182 212  5-Misc[all]  :: RICH off
+17182 213  5-Misc[all]  :: RICH off
+17182 214  5-Misc[all]  :: RICH off
+17182 215  5-Misc[all]  :: RICH off
+17182 216  5-Misc[all]  :: RICH off
+17182 217  5-Misc[all]  :: RICH off
+17182 218  5-Misc[all]  :: RICH off
+17182 219  5-Misc[all]  :: RICH off
+17182 220  2-MarginalOutlier[6]  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17182 221  5-Misc[all]  :: RICH off
+17182 222  5-Misc[all]  :: RICH off
+17182 223  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
 
 RUN: 17183
-17183 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17183 1  GOLDEN
-17183 2  GOLDEN
-17183 3  GOLDEN
-17183 4  GOLDEN
-17183 5  GOLDEN
-17183 6  GOLDEN
-17183 7  GOLDEN
-17183 8  GOLDEN
-17183 9  GOLDEN
-17183 10  GOLDEN
-17183 11  GOLDEN
-17183 12  GOLDEN
-17183 13  GOLDEN
-17183 14  GOLDEN
-17183 15  GOLDEN
-17183 16  GOLDEN
-17183 17  GOLDEN
-17183 18  GOLDEN
-17183 19  GOLDEN
-17183 20  GOLDEN
-17183 21  GOLDEN
-17183 22  GOLDEN
-17183 23  GOLDEN
-17183 24  GOLDEN
-17183 25  GOLDEN
-17183 26  2-MarginalOutlier[1, 3, 4, 5, 6]  4-LowLiveTime[all]
-17183 27  GOLDEN
-17183 28  GOLDEN
-17183 29  GOLDEN
-17183 30  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17183 31  GOLDEN
-17183 32  GOLDEN
-17183 33  GOLDEN
-17183 34  GOLDEN
-17183 35  GOLDEN
-17183 36  GOLDEN
-17183 37  GOLDEN
-17183 38  GOLDEN
-17183 39  0-TotalOutlier[all]  4-LowLiveTime[all]
-17183 40  GOLDEN
-17183 41  GOLDEN
-17183 42  GOLDEN
-17183 43  GOLDEN
-17183 44  GOLDEN
-17183 45  GOLDEN
-17183 46  GOLDEN
-17183 47  GOLDEN
-17183 48  GOLDEN
-17183 49  GOLDEN
-17183 50  GOLDEN
-17183 51  GOLDEN
-17183 52  GOLDEN
-17183 53  2-MarginalOutlier[1, 2, 3, 5]
-17183 54  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17183 55  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17183 56  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17183 57  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17183 58  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17183 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
+17183 1  5-Misc[all]  :: RICH off
+17183 2  5-Misc[all]  :: RICH off
+17183 3  5-Misc[all]  :: RICH off
+17183 4  5-Misc[all]  :: RICH off
+17183 5  5-Misc[all]  :: RICH off
+17183 6  5-Misc[all]  :: RICH off
+17183 7  5-Misc[all]  :: RICH off
+17183 8  5-Misc[all]  :: RICH off
+17183 9  5-Misc[all]  :: RICH off
+17183 10  5-Misc[all]  :: RICH off
+17183 11  5-Misc[all]  :: RICH off
+17183 12  5-Misc[all]  :: RICH off
+17183 13  5-Misc[all]  :: RICH off
+17183 14  5-Misc[all]  :: RICH off
+17183 15  5-Misc[all]  :: RICH off
+17183 16  5-Misc[all]  :: RICH off
+17183 17  5-Misc[all]  :: RICH off
+17183 18  5-Misc[all]  :: RICH off
+17183 19  5-Misc[all]  :: RICH off
+17183 20  5-Misc[all]  :: RICH off
+17183 21  5-Misc[all]  :: RICH off
+17183 22  5-Misc[all]  :: RICH off
+17183 23  5-Misc[all]  :: RICH off
+17183 24  5-Misc[all]  :: RICH off
+17183 25  5-Misc[all]  :: RICH off
+17183 26  2-MarginalOutlier[1, 3, 4, 5, 6]  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17183 27  5-Misc[all]  :: RICH off
+17183 28  5-Misc[all]  :: RICH off
+17183 29  5-Misc[all]  :: RICH off
+17183 30  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17183 31  5-Misc[all]  :: RICH off
+17183 32  5-Misc[all]  :: RICH off
+17183 33  5-Misc[all]  :: RICH off
+17183 34  5-Misc[all]  :: RICH off
+17183 35  5-Misc[all]  :: RICH off
+17183 36  5-Misc[all]  :: RICH off
+17183 37  5-Misc[all]  :: RICH off
+17183 38  5-Misc[all]  :: RICH off
+17183 39  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: RICH off
+17183 40  5-Misc[all]  :: RICH off
+17183 41  5-Misc[all]  :: RICH off
+17183 42  5-Misc[all]  :: RICH off
+17183 43  5-Misc[all]  :: RICH off
+17183 44  5-Misc[all]  :: RICH off
+17183 45  5-Misc[all]  :: RICH off
+17183 46  5-Misc[all]  :: RICH off
+17183 47  5-Misc[all]  :: RICH off
+17183 48  5-Misc[all]  :: RICH off
+17183 49  5-Misc[all]  :: RICH off
+17183 50  5-Misc[all]  :: RICH off
+17183 51  5-Misc[all]  :: RICH off
+17183 52  5-Misc[all]  :: RICH off
+17183 53  2-MarginalOutlier[1, 2, 3, 5]  5-Misc[all]  :: RICH off
+17183 54  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17183 55  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17183 56  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17183 57  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17183 58  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
 
 RUN: 17185
-17185 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17185 1  4-LowLiveTime[all]
-17185 2  GOLDEN
-17185 3  GOLDEN
-17185 4  2-MarginalOutlier[3]
-17185 5  GOLDEN
-17185 6  GOLDEN
-17185 7  2-MarginalOutlier[3, 6]
-17185 8  GOLDEN
-17185 9  GOLDEN
-17185 10  GOLDEN
-17185 11  GOLDEN
-17185 12  GOLDEN
-17185 13  GOLDEN
-17185 14  GOLDEN
-17185 15  GOLDEN
-17185 16  GOLDEN
-17185 17  GOLDEN
-17185 18  2-MarginalOutlier[3]
-17185 19  2-MarginalOutlier[3]
-17185 20  GOLDEN
-17185 21  GOLDEN
-17185 22  GOLDEN
-17185 23  GOLDEN
-17185 24  GOLDEN
-17185 25  GOLDEN
-17185 26  GOLDEN
-17185 27  GOLDEN
-17185 28  GOLDEN
-17185 29  GOLDEN
-17185 30  GOLDEN
-17185 31  GOLDEN
-17185 32  GOLDEN
-17185 33  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17185 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: raster test, 4 nA
+17185 1  4-LowLiveTime[all]  5-Misc[all]  :: raster test, 4 nA
+17185 2  5-Misc[all]  :: raster test, 4 nA
+17185 3  5-Misc[all]  :: raster test, 4 nA
+17185 4  2-MarginalOutlier[3]  5-Misc[all]  :: raster test, 4 nA
+17185 5  5-Misc[all]  :: raster test, 4 nA
+17185 6  5-Misc[all]  :: raster test, 4 nA
+17185 7  2-MarginalOutlier[3, 6]  5-Misc[all]  :: raster test, 4 nA
+17185 8  5-Misc[all]  :: raster test, 4 nA
+17185 9  5-Misc[all]  :: raster test, 4 nA
+17185 10  5-Misc[all]  :: raster test, 4 nA
+17185 11  5-Misc[all]  :: raster test, 4 nA
+17185 12  5-Misc[all]  :: raster test, 4 nA
+17185 13  5-Misc[all]  :: raster test, 4 nA
+17185 14  5-Misc[all]  :: raster test, 4 nA
+17185 15  5-Misc[all]  :: raster test, 4 nA
+17185 16  5-Misc[all]  :: raster test, 4 nA
+17185 17  5-Misc[all]  :: raster test, 4 nA
+17185 18  2-MarginalOutlier[3]  5-Misc[all]  :: raster test, 4 nA
+17185 19  2-MarginalOutlier[3]  5-Misc[all]  :: raster test, 4 nA
+17185 20  5-Misc[all]  :: raster test, 4 nA
+17185 21  5-Misc[all]  :: raster test, 4 nA
+17185 22  5-Misc[all]  :: raster test, 4 nA
+17185 23  5-Misc[all]  :: raster test, 4 nA
+17185 24  5-Misc[all]  :: raster test, 4 nA
+17185 25  5-Misc[all]  :: raster test, 4 nA
+17185 26  5-Misc[all]  :: raster test, 4 nA
+17185 27  5-Misc[all]  :: raster test, 4 nA
+17185 28  5-Misc[all]  :: raster test, 4 nA
+17185 29  5-Misc[all]  :: raster test, 4 nA
+17185 30  5-Misc[all]  :: raster test, 4 nA
+17185 31  5-Misc[all]  :: raster test, 4 nA
+17185 32  5-Misc[all]  :: raster test, 4 nA
+17185 33  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: raster test, 4 nA
 
 RUN: 17187
-17187 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  11-BSAUnknown[all]  18-ChargeUnknown[all]
-17187 1  11-BSAUnknown[all]
-17187 2  11-BSAUnknown[all]
-17187 3  11-BSAUnknown[all]
-17187 4  11-BSAUnknown[all]
-17187 5  0-TotalOutlier[all]  11-BSAUnknown[all]  19-PossiblyNoBeam[all]
-17187 6  0-TotalOutlier[all]  11-BSAUnknown[all]  19-PossiblyNoBeam[all]
-17187 7  0-TotalOutlier[all]  4-LowLiveTime[all]  11-BSAUnknown[all]  19-PossiblyNoBeam[all]
-17187 8  0-TotalOutlier[1, 2]  2-MarginalOutlier[3, 4, 5, 6]  11-BSAUnknown[all]
-17187 9  11-BSAUnknown[all]
-17187 10  11-BSAUnknown[all]
-17187 11  11-BSAUnknown[all]
-17187 12  0-TotalOutlier[5]  11-BSAUnknown[all]
-17187 13  0-TotalOutlier[5]  11-BSAUnknown[all]
-17187 14  0-TotalOutlier[5]  11-BSAUnknown[all]
-17187 15  1-TerminalOutlier[all]  4-LowLiveTime[all]  11-BSAUnknown[all]  18-ChargeUnknown[all]
+17187 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: VTP trigger bit low
+17187 1  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 2  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 3  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 4  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 5  0-TotalOutlier[all]  5-Misc[all]  11-BSAUnknown[all]  19-PossiblyNoBeam[all]  :: VTP trigger bit low
+17187 6  0-TotalOutlier[all]  5-Misc[all]  11-BSAUnknown[all]  19-PossiblyNoBeam[all]  :: VTP trigger bit low
+17187 7  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  19-PossiblyNoBeam[all]  :: VTP trigger bit low
+17187 8  0-TotalOutlier[1, 2]  2-MarginalOutlier[3, 4, 5, 6]  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 9  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 10  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 11  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 12  0-TotalOutlier[5]  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 13  0-TotalOutlier[5]  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 14  0-TotalOutlier[5]  5-Misc[all]  11-BSAUnknown[all]  :: VTP trigger bit low
+17187 15  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  11-BSAUnknown[all]  18-ChargeUnknown[all]  :: VTP trigger bit low
 
 RUN: 17188
 17188 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
@@ -32010,306 +32010,306 @@ RUN: 17189
 17189 74  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
 
 RUN: 17190
-17190 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17190 1  0-TotalOutlier[4]
-17190 2  0-TotalOutlier[4]
-17190 3  0-TotalOutlier[4]
-17190 4  0-TotalOutlier[4]
-17190 5  0-TotalOutlier[4]
-17190 6  0-TotalOutlier[4]
-17190 7  0-TotalOutlier[4]
-17190 8  0-TotalOutlier[4]
-17190 9  0-TotalOutlier[4]
-17190 10  0-TotalOutlier[4]
-17190 11  0-TotalOutlier[4]
-17190 12  0-TotalOutlier[4]
-17190 13  0-TotalOutlier[4]
-17190 14  0-TotalOutlier[4]
-17190 15  0-TotalOutlier[4]
-17190 16  0-TotalOutlier[4]
-17190 17  0-TotalOutlier[4]
-17190 18  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17190 0  1-TerminalOutlier[all]  3-SectorLoss[4]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: no trigger on sector 4; RICH off
+17190 1  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 2  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 3  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 4  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 5  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 6  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 7  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 8  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 9  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 10  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 11  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 12  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 13  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 14  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 15  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 16  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 17  0-TotalOutlier[4]  3-SectorLoss[4]  5-Misc[all]  :: no trigger on sector 4; RICH off
+17190 18  1-TerminalOutlier[all]  3-SectorLoss[4]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: no trigger on sector 4; RICH off
 
 RUN: 17191
-17191 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17191 1  GOLDEN
-17191 2  GOLDEN
-17191 3  GOLDEN
-17191 4  GOLDEN
-17191 5  GOLDEN
-17191 6  GOLDEN
-17191 7  GOLDEN
-17191 8  GOLDEN
-17191 9  GOLDEN
-17191 10  GOLDEN
-17191 11  GOLDEN
-17191 12  GOLDEN
-17191 13  GOLDEN
-17191 14  GOLDEN
-17191 15  GOLDEN
-17191 16  GOLDEN
-17191 17  GOLDEN
-17191 18  GOLDEN
-17191 19  GOLDEN
-17191 20  GOLDEN
-17191 21  GOLDEN
-17191 22  GOLDEN
-17191 23  GOLDEN
-17191 24  GOLDEN
-17191 25  GOLDEN
-17191 26  GOLDEN
-17191 27  GOLDEN
-17191 28  GOLDEN
-17191 29  GOLDEN
-17191 30  GOLDEN
-17191 31  GOLDEN
-17191 32  GOLDEN
-17191 33  GOLDEN
-17191 34  GOLDEN
-17191 35  GOLDEN
-17191 36  GOLDEN
-17191 37  GOLDEN
-17191 38  GOLDEN
-17191 39  GOLDEN
-17191 40  GOLDEN
-17191 41  GOLDEN
-17191 42  GOLDEN
-17191 43  GOLDEN
-17191 44  GOLDEN
-17191 45  GOLDEN
-17191 46  GOLDEN
-17191 47  GOLDEN
-17191 48  GOLDEN
-17191 49  GOLDEN
-17191 50  GOLDEN
-17191 51  GOLDEN
-17191 52  GOLDEN
-17191 53  GOLDEN
-17191 54  GOLDEN
-17191 55  GOLDEN
-17191 56  GOLDEN
-17191 57  GOLDEN
-17191 58  GOLDEN
-17191 59  GOLDEN
-17191 60  GOLDEN
-17191 61  GOLDEN
-17191 62  GOLDEN
-17191 63  GOLDEN
-17191 64  GOLDEN
-17191 65  GOLDEN
-17191 66  GOLDEN
-17191 67  GOLDEN
-17191 68  GOLDEN
-17191 69  GOLDEN
-17191 70  GOLDEN
-17191 71  GOLDEN
-17191 72  GOLDEN
-17191 73  GOLDEN
-17191 74  GOLDEN
-17191 75  GOLDEN
-17191 76  GOLDEN
-17191 77  GOLDEN
-17191 78  GOLDEN
-17191 79  GOLDEN
-17191 80  GOLDEN
-17191 81  GOLDEN
-17191 82  GOLDEN
-17191 83  GOLDEN
-17191 84  GOLDEN
-17191 85  GOLDEN
-17191 86  GOLDEN
-17191 87  GOLDEN
-17191 88  GOLDEN
-17191 89  GOLDEN
-17191 90  GOLDEN
-17191 91  GOLDEN
-17191 92  GOLDEN
-17191 93  GOLDEN
-17191 94  GOLDEN
-17191 95  GOLDEN
-17191 96  GOLDEN
-17191 97  GOLDEN
-17191 98  GOLDEN
-17191 99  GOLDEN
-17191 100  GOLDEN
-17191 101  GOLDEN
-17191 102  GOLDEN
-17191 103  GOLDEN
-17191 104  GOLDEN
-17191 105  GOLDEN
-17191 106  GOLDEN
-17191 107  GOLDEN
-17191 108  GOLDEN
-17191 109  GOLDEN
-17191 110  GOLDEN
-17191 111  GOLDEN
-17191 112  GOLDEN
-17191 113  GOLDEN
-17191 114  GOLDEN
-17191 115  GOLDEN
-17191 116  GOLDEN
-17191 117  GOLDEN
-17191 118  GOLDEN
-17191 119  GOLDEN
-17191 120  GOLDEN
-17191 121  GOLDEN
-17191 122  GOLDEN
-17191 123  GOLDEN
-17191 124  GOLDEN
-17191 125  GOLDEN
-17191 126  GOLDEN
-17191 127  GOLDEN
-17191 128  GOLDEN
-17191 129  GOLDEN
-17191 130  GOLDEN
-17191 131  GOLDEN
-17191 132  GOLDEN
-17191 133  GOLDEN
-17191 134  GOLDEN
-17191 135  GOLDEN
-17191 136  GOLDEN
-17191 137  GOLDEN
-17191 138  GOLDEN
-17191 139  GOLDEN
-17191 140  GOLDEN
-17191 141  GOLDEN
-17191 142  GOLDEN
-17191 143  GOLDEN
-17191 144  GOLDEN
-17191 145  GOLDEN
-17191 146  GOLDEN
-17191 147  GOLDEN
-17191 148  GOLDEN
-17191 149  GOLDEN
-17191 150  GOLDEN
-17191 151  GOLDEN
-17191 152  GOLDEN
-17191 153  GOLDEN
-17191 154  GOLDEN
-17191 155  GOLDEN
-17191 156  GOLDEN
-17191 157  GOLDEN
-17191 158  GOLDEN
-17191 159  GOLDEN
-17191 160  GOLDEN
-17191 161  GOLDEN
-17191 162  GOLDEN
-17191 163  GOLDEN
-17191 164  GOLDEN
-17191 165  GOLDEN
-17191 166  GOLDEN
-17191 167  GOLDEN
-17191 168  GOLDEN
-17191 169  GOLDEN
-17191 170  GOLDEN
-17191 171  GOLDEN
-17191 172  GOLDEN
-17191 173  GOLDEN
-17191 174  GOLDEN
-17191 175  GOLDEN
-17191 176  GOLDEN
-17191 177  GOLDEN
-17191 178  GOLDEN
-17191 179  GOLDEN
-17191 180  GOLDEN
-17191 181  GOLDEN
-17191 182  GOLDEN
-17191 183  GOLDEN
-17191 184  GOLDEN
-17191 185  GOLDEN
-17191 186  GOLDEN
-17191 187  GOLDEN
-17191 188  GOLDEN
-17191 189  GOLDEN
-17191 190  GOLDEN
-17191 191  GOLDEN
-17191 192  GOLDEN
-17191 193  GOLDEN
-17191 194  GOLDEN
-17191 195  GOLDEN
-17191 196  GOLDEN
-17191 197  GOLDEN
-17191 198  GOLDEN
-17191 199  GOLDEN
-17191 200  GOLDEN
-17191 201  GOLDEN
-17191 202  GOLDEN
-17191 203  GOLDEN
-17191 204  GOLDEN
-17191 205  GOLDEN
-17191 206  GOLDEN
-17191 207  GOLDEN
-17191 208  GOLDEN
-17191 209  GOLDEN
-17191 210  GOLDEN
-17191 211  GOLDEN
-17191 212  GOLDEN
-17191 213  GOLDEN
-17191 214  GOLDEN
-17191 215  GOLDEN
-17191 216  GOLDEN
-17191 217  GOLDEN
-17191 218  GOLDEN
-17191 219  GOLDEN
-17191 220  GOLDEN
-17191 221  GOLDEN
-17191 222  GOLDEN
-17191 223  GOLDEN
-17191 224  GOLDEN
-17191 225  GOLDEN
-17191 226  GOLDEN
-17191 227  GOLDEN
-17191 228  GOLDEN
-17191 229  GOLDEN
-17191 230  GOLDEN
-17191 231  GOLDEN
-17191 232  GOLDEN
-17191 233  GOLDEN
-17191 234  GOLDEN
-17191 235  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17191 236  GOLDEN
-17191 237  GOLDEN
-17191 238  GOLDEN
-17191 239  GOLDEN
-17191 240  GOLDEN
-17191 241  GOLDEN
-17191 242  GOLDEN
-17191 243  GOLDEN
-17191 244  GOLDEN
-17191 245  GOLDEN
-17191 246  GOLDEN
-17191 247  GOLDEN
-17191 248  GOLDEN
-17191 249  GOLDEN
-17191 250  GOLDEN
-17191 251  GOLDEN
-17191 252  GOLDEN
-17191 253  GOLDEN
-17191 254  GOLDEN
-17191 255  GOLDEN
-17191 256  GOLDEN
-17191 257  GOLDEN
-17191 258  GOLDEN
-17191 259  GOLDEN
-17191 260  GOLDEN
-17191 261  GOLDEN
-17191 262  GOLDEN
-17191 263  GOLDEN
-17191 264  GOLDEN
-17191 265  GOLDEN
-17191 266  GOLDEN
-17191 267  GOLDEN
-17191 268  GOLDEN
-17191 269  GOLDEN
-17191 270  GOLDEN
-17191 271  GOLDEN
-17191 272  GOLDEN
-17191 273  GOLDEN
-17191 274  GOLDEN
-17191 275  GOLDEN
-17191 276  GOLDEN
-17191 277  GOLDEN
-17191 278  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17191 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
+17191 1  5-Misc[all]  :: RICH off
+17191 2  5-Misc[all]  :: RICH off
+17191 3  5-Misc[all]  :: RICH off
+17191 4  5-Misc[all]  :: RICH off
+17191 5  5-Misc[all]  :: RICH off
+17191 6  5-Misc[all]  :: RICH off
+17191 7  5-Misc[all]  :: RICH off
+17191 8  5-Misc[all]  :: RICH off
+17191 9  5-Misc[all]  :: RICH off
+17191 10  5-Misc[all]  :: RICH off
+17191 11  5-Misc[all]  :: RICH off
+17191 12  5-Misc[all]  :: RICH off
+17191 13  5-Misc[all]  :: RICH off
+17191 14  5-Misc[all]  :: RICH off
+17191 15  5-Misc[all]  :: RICH off
+17191 16  5-Misc[all]  :: RICH off
+17191 17  5-Misc[all]  :: RICH off
+17191 18  5-Misc[all]  :: RICH off
+17191 19  5-Misc[all]  :: RICH off
+17191 20  5-Misc[all]  :: RICH off
+17191 21  5-Misc[all]  :: RICH off
+17191 22  5-Misc[all]  :: RICH off
+17191 23  5-Misc[all]  :: RICH off
+17191 24  5-Misc[all]  :: RICH off
+17191 25  5-Misc[all]  :: RICH off
+17191 26  5-Misc[all]  :: RICH off
+17191 27  5-Misc[all]  :: RICH off
+17191 28  5-Misc[all]  :: RICH off
+17191 29  5-Misc[all]  :: RICH off
+17191 30  5-Misc[all]  :: RICH off
+17191 31  5-Misc[all]  :: RICH off
+17191 32  5-Misc[all]  :: RICH off
+17191 33  5-Misc[all]  :: RICH off
+17191 34  5-Misc[all]  :: RICH off
+17191 35  5-Misc[all]  :: RICH off
+17191 36  5-Misc[all]  :: RICH off
+17191 37  5-Misc[all]  :: RICH off
+17191 38  5-Misc[all]  :: RICH off
+17191 39  5-Misc[all]  :: RICH off
+17191 40  5-Misc[all]  :: RICH off
+17191 41  5-Misc[all]  :: RICH off
+17191 42  5-Misc[all]  :: RICH off
+17191 43  5-Misc[all]  :: RICH off
+17191 44  5-Misc[all]  :: RICH off
+17191 45  5-Misc[all]  :: RICH off
+17191 46  5-Misc[all]  :: RICH off
+17191 47  5-Misc[all]  :: RICH off
+17191 48  5-Misc[all]  :: RICH off
+17191 49  5-Misc[all]  :: RICH off
+17191 50  5-Misc[all]  :: RICH off
+17191 51  5-Misc[all]  :: RICH off
+17191 52  5-Misc[all]  :: RICH off
+17191 53  5-Misc[all]  :: RICH off
+17191 54  5-Misc[all]  :: RICH off
+17191 55  5-Misc[all]  :: RICH off
+17191 56  5-Misc[all]  :: RICH off
+17191 57  5-Misc[all]  :: RICH off
+17191 58  5-Misc[all]  :: RICH off
+17191 59  5-Misc[all]  :: RICH off
+17191 60  5-Misc[all]  :: RICH off
+17191 61  5-Misc[all]  :: RICH off
+17191 62  5-Misc[all]  :: RICH off
+17191 63  5-Misc[all]  :: RICH off
+17191 64  5-Misc[all]  :: RICH off
+17191 65  5-Misc[all]  :: RICH off
+17191 66  5-Misc[all]  :: RICH off
+17191 67  5-Misc[all]  :: RICH off
+17191 68  5-Misc[all]  :: RICH off
+17191 69  5-Misc[all]  :: RICH off
+17191 70  5-Misc[all]  :: RICH off
+17191 71  5-Misc[all]  :: RICH off
+17191 72  5-Misc[all]  :: RICH off
+17191 73  5-Misc[all]  :: RICH off
+17191 74  5-Misc[all]  :: RICH off
+17191 75  5-Misc[all]  :: RICH off
+17191 76  5-Misc[all]  :: RICH off
+17191 77  5-Misc[all]  :: RICH off
+17191 78  5-Misc[all]  :: RICH off
+17191 79  5-Misc[all]  :: RICH off
+17191 80  5-Misc[all]  :: RICH off
+17191 81  5-Misc[all]  :: RICH off
+17191 82  5-Misc[all]  :: RICH off
+17191 83  5-Misc[all]  :: RICH off
+17191 84  5-Misc[all]  :: RICH off
+17191 85  5-Misc[all]  :: RICH off
+17191 86  5-Misc[all]  :: RICH off
+17191 87  5-Misc[all]  :: RICH off
+17191 88  5-Misc[all]  :: RICH off
+17191 89  5-Misc[all]  :: RICH off
+17191 90  5-Misc[all]  :: RICH off
+17191 91  5-Misc[all]  :: RICH off
+17191 92  5-Misc[all]  :: RICH off
+17191 93  5-Misc[all]  :: RICH off
+17191 94  5-Misc[all]  :: RICH off
+17191 95  5-Misc[all]  :: RICH off
+17191 96  5-Misc[all]  :: RICH off
+17191 97  5-Misc[all]  :: RICH off
+17191 98  5-Misc[all]  :: RICH off
+17191 99  5-Misc[all]  :: RICH off
+17191 100  5-Misc[all]  :: RICH off
+17191 101  5-Misc[all]  :: RICH off
+17191 102  5-Misc[all]  :: RICH off
+17191 103  5-Misc[all]  :: RICH off
+17191 104  5-Misc[all]  :: RICH off
+17191 105  5-Misc[all]  :: RICH off
+17191 106  5-Misc[all]  :: RICH off
+17191 107  5-Misc[all]  :: RICH off
+17191 108  5-Misc[all]  :: RICH off
+17191 109  5-Misc[all]  :: RICH off
+17191 110  5-Misc[all]  :: RICH off
+17191 111  5-Misc[all]  :: RICH off
+17191 112  5-Misc[all]  :: RICH off
+17191 113  5-Misc[all]  :: RICH off
+17191 114  5-Misc[all]  :: RICH off
+17191 115  5-Misc[all]  :: RICH off
+17191 116  5-Misc[all]  :: RICH off
+17191 117  5-Misc[all]  :: RICH off
+17191 118  5-Misc[all]  :: RICH off
+17191 119  5-Misc[all]  :: RICH off
+17191 120  5-Misc[all]  :: RICH off
+17191 121  5-Misc[all]  :: RICH off
+17191 122  5-Misc[all]  :: RICH off
+17191 123  5-Misc[all]  :: RICH off
+17191 124  5-Misc[all]  :: RICH off
+17191 125  5-Misc[all]  :: RICH off
+17191 126  5-Misc[all]  :: RICH off
+17191 127  5-Misc[all]  :: RICH off
+17191 128  5-Misc[all]  :: RICH off
+17191 129  5-Misc[all]  :: RICH off
+17191 130  5-Misc[all]  :: RICH off
+17191 131  5-Misc[all]  :: RICH off
+17191 132  5-Misc[all]  :: RICH off
+17191 133  5-Misc[all]  :: RICH off
+17191 134  5-Misc[all]  :: RICH off
+17191 135  5-Misc[all]  :: RICH off
+17191 136  5-Misc[all]  :: RICH off
+17191 137  5-Misc[all]  :: RICH off
+17191 138  5-Misc[all]  :: RICH off
+17191 139  5-Misc[all]  :: RICH off
+17191 140  5-Misc[all]  :: RICH off
+17191 141  5-Misc[all]  :: RICH off
+17191 142  5-Misc[all]  :: RICH off
+17191 143  5-Misc[all]  :: RICH off
+17191 144  5-Misc[all]  :: RICH off
+17191 145  5-Misc[all]  :: RICH off
+17191 146  5-Misc[all]  :: RICH off
+17191 147  5-Misc[all]  :: RICH off
+17191 148  5-Misc[all]  :: RICH off
+17191 149  5-Misc[all]  :: RICH off
+17191 150  5-Misc[all]  :: RICH off
+17191 151  5-Misc[all]  :: RICH off
+17191 152  5-Misc[all]  :: RICH off
+17191 153  5-Misc[all]  :: RICH off
+17191 154  5-Misc[all]  :: RICH off
+17191 155  5-Misc[all]  :: RICH off
+17191 156  5-Misc[all]  :: RICH off
+17191 157  5-Misc[all]  :: RICH off
+17191 158  5-Misc[all]  :: RICH off
+17191 159  5-Misc[all]  :: RICH off
+17191 160  5-Misc[all]  :: RICH off
+17191 161  5-Misc[all]  :: RICH off
+17191 162  5-Misc[all]  :: RICH off
+17191 163  5-Misc[all]  :: RICH off
+17191 164  5-Misc[all]  :: RICH off
+17191 165  5-Misc[all]  :: RICH off
+17191 166  5-Misc[all]  :: RICH off
+17191 167  5-Misc[all]  :: RICH off
+17191 168  5-Misc[all]  :: RICH off
+17191 169  5-Misc[all]  :: RICH off
+17191 170  5-Misc[all]  :: RICH off
+17191 171  5-Misc[all]  :: RICH off
+17191 172  5-Misc[all]  :: RICH off
+17191 173  5-Misc[all]  :: RICH off
+17191 174  5-Misc[all]  :: RICH off
+17191 175  5-Misc[all]  :: RICH off
+17191 176  5-Misc[all]  :: RICH off
+17191 177  5-Misc[all]  :: RICH off
+17191 178  5-Misc[all]  :: RICH off
+17191 179  5-Misc[all]  :: RICH off
+17191 180  5-Misc[all]  :: RICH off
+17191 181  5-Misc[all]  :: RICH off
+17191 182  5-Misc[all]  :: RICH off
+17191 183  5-Misc[all]  :: RICH off
+17191 184  5-Misc[all]  :: RICH off
+17191 185  5-Misc[all]  :: RICH off
+17191 186  5-Misc[all]  :: RICH off
+17191 187  5-Misc[all]  :: RICH off
+17191 188  5-Misc[all]  :: RICH off
+17191 189  5-Misc[all]  :: RICH off
+17191 190  5-Misc[all]  :: RICH off
+17191 191  5-Misc[all]  :: RICH off
+17191 192  5-Misc[all]  :: RICH off
+17191 193  5-Misc[all]  :: RICH off
+17191 194  5-Misc[all]  :: RICH off
+17191 195  5-Misc[all]  :: RICH off
+17191 196  5-Misc[all]  :: RICH off
+17191 197  5-Misc[all]  :: RICH off
+17191 198  5-Misc[all]  :: RICH off
+17191 199  5-Misc[all]  :: RICH off
+17191 200  5-Misc[all]  :: RICH off
+17191 201  5-Misc[all]  :: RICH off
+17191 202  5-Misc[all]  :: RICH off
+17191 203  5-Misc[all]  :: RICH off
+17191 204  5-Misc[all]  :: RICH off
+17191 205  5-Misc[all]  :: RICH off
+17191 206  5-Misc[all]  :: RICH off
+17191 207  5-Misc[all]  :: RICH off
+17191 208  5-Misc[all]  :: RICH off
+17191 209  5-Misc[all]  :: RICH off
+17191 210  5-Misc[all]  :: RICH off
+17191 211  5-Misc[all]  :: RICH off
+17191 212  5-Misc[all]  :: RICH off
+17191 213  5-Misc[all]  :: RICH off
+17191 214  5-Misc[all]  :: RICH off
+17191 215  5-Misc[all]  :: RICH off
+17191 216  5-Misc[all]  :: RICH off
+17191 217  5-Misc[all]  :: RICH off
+17191 218  5-Misc[all]  :: RICH off
+17191 219  5-Misc[all]  :: RICH off
+17191 220  5-Misc[all]  :: RICH off
+17191 221  5-Misc[all]  :: RICH off
+17191 222  5-Misc[all]  :: RICH off
+17191 223  5-Misc[all]  :: RICH off
+17191 224  5-Misc[all]  :: RICH off
+17191 225  5-Misc[all]  :: RICH off
+17191 226  5-Misc[all]  :: RICH off
+17191 227  5-Misc[all]  :: RICH off
+17191 228  5-Misc[all]  :: RICH off
+17191 229  5-Misc[all]  :: RICH off
+17191 230  5-Misc[all]  :: RICH off
+17191 231  5-Misc[all]  :: RICH off
+17191 232  5-Misc[all]  :: RICH off
+17191 233  5-Misc[all]  :: RICH off
+17191 234  5-Misc[all]  :: RICH off
+17191 235  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: RICH off
+17191 236  5-Misc[all]  :: RICH off
+17191 237  5-Misc[all]  :: RICH off
+17191 238  5-Misc[all]  :: RICH off
+17191 239  5-Misc[all]  :: RICH off
+17191 240  5-Misc[all]  :: RICH off
+17191 241  5-Misc[all]  :: RICH off
+17191 242  5-Misc[all]  :: RICH off
+17191 243  5-Misc[all]  :: RICH off
+17191 244  5-Misc[all]  :: RICH off
+17191 245  5-Misc[all]  :: RICH off
+17191 246  5-Misc[all]  :: RICH off
+17191 247  5-Misc[all]  :: RICH off
+17191 248  5-Misc[all]  :: RICH off
+17191 249  5-Misc[all]  :: RICH off
+17191 250  5-Misc[all]  :: RICH off
+17191 251  5-Misc[all]  :: RICH off
+17191 252  5-Misc[all]  :: RICH off
+17191 253  5-Misc[all]  :: RICH off
+17191 254  5-Misc[all]  :: RICH off
+17191 255  5-Misc[all]  :: RICH off
+17191 256  5-Misc[all]  :: RICH off
+17191 257  5-Misc[all]  :: RICH off
+17191 258  5-Misc[all]  :: RICH off
+17191 259  5-Misc[all]  :: RICH off
+17191 260  5-Misc[all]  :: RICH off
+17191 261  5-Misc[all]  :: RICH off
+17191 262  5-Misc[all]  :: RICH off
+17191 263  5-Misc[all]  :: RICH off
+17191 264  5-Misc[all]  :: RICH off
+17191 265  5-Misc[all]  :: RICH off
+17191 266  5-Misc[all]  :: RICH off
+17191 267  5-Misc[all]  :: RICH off
+17191 268  5-Misc[all]  :: RICH off
+17191 269  5-Misc[all]  :: RICH off
+17191 270  5-Misc[all]  :: RICH off
+17191 271  5-Misc[all]  :: RICH off
+17191 272  5-Misc[all]  :: RICH off
+17191 273  5-Misc[all]  :: RICH off
+17191 274  5-Misc[all]  :: RICH off
+17191 275  5-Misc[all]  :: RICH off
+17191 276  5-Misc[all]  :: RICH off
+17191 277  5-Misc[all]  :: RICH off
+17191 278  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: RICH off
 
 RUN: 17192
 17192 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
@@ -33599,38 +33599,38 @@ RUN: 17207
 17207 156  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
 
 RUN: 17211
-17211 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17211 1  4-LowLiveTime[all]
-17211 2  GOLDEN
-17211 3  GOLDEN
-17211 4  GOLDEN
-17211 5  GOLDEN
-17211 6  GOLDEN
-17211 7  GOLDEN
-17211 8  GOLDEN
-17211 9  GOLDEN
-17211 10  GOLDEN
-17211 11  GOLDEN
-17211 12  GOLDEN
-17211 13  GOLDEN
-17211 14  GOLDEN
-17211 15  GOLDEN
-17211 16  GOLDEN
-17211 17  GOLDEN
-17211 18  GOLDEN
-17211 19  GOLDEN
-17211 20  GOLDEN
-17211 21  GOLDEN
-17211 22  GOLDEN
-17211 23  GOLDEN
-17211 24  GOLDEN
-17211 25  GOLDEN
-17211 26  GOLDEN
-17211 27  GOLDEN
-17211 28  GOLDEN
-17211 29  GOLDEN
-17211 30  GOLDEN
-17211 31  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17211 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: BST multiplicity issue
+17211 1  4-LowLiveTime[all]  5-Misc[all]  :: BST multiplicity issue
+17211 2  5-Misc[all]  :: BST multiplicity issue
+17211 3  5-Misc[all]  :: BST multiplicity issue
+17211 4  5-Misc[all]  :: BST multiplicity issue
+17211 5  5-Misc[all]  :: BST multiplicity issue
+17211 6  5-Misc[all]  :: BST multiplicity issue
+17211 7  5-Misc[all]  :: BST multiplicity issue
+17211 8  5-Misc[all]  :: BST multiplicity issue
+17211 9  5-Misc[all]  :: BST multiplicity issue
+17211 10  5-Misc[all]  :: BST multiplicity issue
+17211 11  5-Misc[all]  :: BST multiplicity issue
+17211 12  5-Misc[all]  :: BST multiplicity issue
+17211 13  5-Misc[all]  :: BST multiplicity issue
+17211 14  5-Misc[all]  :: BST multiplicity issue
+17211 15  5-Misc[all]  :: BST multiplicity issue
+17211 16  5-Misc[all]  :: BST multiplicity issue
+17211 17  5-Misc[all]  :: BST multiplicity issue
+17211 18  5-Misc[all]  :: BST multiplicity issue
+17211 19  5-Misc[all]  :: BST multiplicity issue
+17211 20  5-Misc[all]  :: BST multiplicity issue
+17211 21  5-Misc[all]  :: BST multiplicity issue
+17211 22  5-Misc[all]  :: BST multiplicity issue
+17211 23  5-Misc[all]  :: BST multiplicity issue
+17211 24  5-Misc[all]  :: BST multiplicity issue
+17211 25  5-Misc[all]  :: BST multiplicity issue
+17211 26  5-Misc[all]  :: BST multiplicity issue
+17211 27  5-Misc[all]  :: BST multiplicity issue
+17211 28  5-Misc[all]  :: BST multiplicity issue
+17211 29  5-Misc[all]  :: BST multiplicity issue
+17211 30  5-Misc[all]  :: BST multiplicity issue
+17211 31  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: BST multiplicity issue
 
 RUN: 17212
 17212 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
@@ -35116,25 +35116,25 @@ RUN: 17227
 17227 251  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
 
 RUN: 17229
-17229 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17229 1  0-TotalOutlier[3]  4-LowLiveTime[all]
-17229 2  0-TotalOutlier[3]
-17229 3  0-TotalOutlier[3]
-17229 4  0-TotalOutlier[3]
-17229 5  0-TotalOutlier[3]
-17229 6  0-TotalOutlier[3]
-17229 7  0-TotalOutlier[3]
-17229 8  0-TotalOutlier[3]
-17229 9  0-TotalOutlier[3]
-17229 10  0-TotalOutlier[3]
-17229 11  0-TotalOutlier[3]
-17229 12  0-TotalOutlier[3]
-17229 13  0-TotalOutlier[3]
-17229 14  0-TotalOutlier[3]
-17229 15  0-TotalOutlier[3]
-17229 16  0-TotalOutlier[3]
-17229 17  0-TotalOutlier[3]
-17229 18  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17229 0  1-TerminalOutlier[all]  3-SectorLoss[3]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: no trigger for sector 3
+17229 1  0-TotalOutlier[3]  3-SectorLoss[3]  4-LowLiveTime[all]  5-Misc[all]  :: no trigger for sector 3
+17229 2  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 3  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 4  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 5  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 6  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 7  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 8  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 9  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 10  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 11  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 12  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 13  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 14  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 15  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 16  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 17  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger for sector 3
+17229 18  1-TerminalOutlier[all]  3-SectorLoss[3]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: no trigger for sector 3
 
 RUN: 17230
 17230 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
@@ -37509,23 +37509,23 @@ RUN: 17253
 17253 29  GOLDEN
 17253 30  GOLDEN
 17253 31  GOLDEN
-17253 32  2-MarginalOutlier[3]
-17253 33  2-MarginalOutlier[3]
-17253 34  0-TotalOutlier[3]
-17253 35  0-TotalOutlier[3]
-17253 36  2-MarginalOutlier[3]
-17253 37  2-MarginalOutlier[3]
-17253 38  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17253 32  2-MarginalOutlier[3]  3-SectorLoss[3]
+17253 33  2-MarginalOutlier[3]  3-SectorLoss[3]
+17253 34  0-TotalOutlier[3]  3-SectorLoss[3]
+17253 35  0-TotalOutlier[3]  3-SectorLoss[3]
+17253 36  2-MarginalOutlier[3]  3-SectorLoss[3]
+17253 37  2-MarginalOutlier[3]  3-SectorLoss[3]
+17253 38  1-TerminalOutlier[all]  3-SectorLoss[3]  4-LowLiveTime[all]  18-ChargeUnknown[all]
 
 RUN: 17254
-17254 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
-17254 1  0-TotalOutlier[3]
-17254 2  0-TotalOutlier[3]
-17254 3  0-TotalOutlier[3]
-17254 4  0-TotalOutlier[3]
-17254 5  0-TotalOutlier[3]
-17254 6  2-MarginalOutlier[3]  4-LowLiveTime[all]
-17254 7  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17254 0  1-TerminalOutlier[all]  3-SectorLoss[3]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: no trigger in sector 3
+17254 1  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger in sector 3
+17254 2  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger in sector 3
+17254 3  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger in sector 3
+17254 4  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger in sector 3
+17254 5  0-TotalOutlier[3]  3-SectorLoss[3]  5-Misc[all]  :: no trigger in sector 3
+17254 6  2-MarginalOutlier[3]  3-SectorLoss[3]  4-LowLiveTime[all]  5-Misc[all]  :: no trigger in sector 3
+17254 7  1-TerminalOutlier[all]  3-SectorLoss[3]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: no trigger in sector 3
 
 RUN: 17255
 17255 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
@@ -47498,217 +47498,217 @@ RUN: 17331
 17331 7  GOLDEN
 17331 8  GOLDEN
 17331 9  GOLDEN
-17331 10  0-TotalOutlier[1, 2, 3, 4, 6]
-17331 11  0-TotalOutlier[all]
-17331 12  0-TotalOutlier[all]
-17331 13  0-TotalOutlier[all]
-17331 14  0-TotalOutlier[all]
-17331 15  0-TotalOutlier[all]
-17331 16  0-TotalOutlier[all]
-17331 17  0-TotalOutlier[all]
-17331 18  0-TotalOutlier[all]
-17331 19  0-TotalOutlier[all]
-17331 20  0-TotalOutlier[all]
-17331 21  0-TotalOutlier[all]
-17331 22  0-TotalOutlier[all]
-17331 23  0-TotalOutlier[all]
-17331 24  0-TotalOutlier[all]
-17331 25  0-TotalOutlier[all]
-17331 26  0-TotalOutlier[all]
-17331 27  0-TotalOutlier[all]
-17331 28  0-TotalOutlier[all]
-17331 29  0-TotalOutlier[all]
-17331 30  0-TotalOutlier[all]
-17331 31  0-TotalOutlier[all]
-17331 32  0-TotalOutlier[all]
-17331 33  0-TotalOutlier[all]
-17331 34  0-TotalOutlier[all]
-17331 35  0-TotalOutlier[all]
-17331 36  0-TotalOutlier[all]
-17331 37  0-TotalOutlier[all]
-17331 38  0-TotalOutlier[all]
-17331 39  0-TotalOutlier[all]
-17331 40  0-TotalOutlier[all]
-17331 41  0-TotalOutlier[all]
-17331 42  0-TotalOutlier[all]
-17331 43  0-TotalOutlier[all]
-17331 44  0-TotalOutlier[all]
-17331 45  0-TotalOutlier[all]
-17331 46  0-TotalOutlier[all]
-17331 47  0-TotalOutlier[all]
-17331 48  0-TotalOutlier[all]
-17331 49  0-TotalOutlier[all]
-17331 50  0-TotalOutlier[all]
-17331 51  0-TotalOutlier[all]
-17331 52  0-TotalOutlier[all]
-17331 53  0-TotalOutlier[all]
-17331 54  0-TotalOutlier[all]
-17331 55  0-TotalOutlier[all]
-17331 56  0-TotalOutlier[all]
-17331 57  0-TotalOutlier[all]
-17331 58  0-TotalOutlier[all]
-17331 59  0-TotalOutlier[all]
-17331 60  0-TotalOutlier[all]
-17331 61  0-TotalOutlier[all]
-17331 62  0-TotalOutlier[all]
-17331 63  0-TotalOutlier[all]
-17331 64  0-TotalOutlier[all]
-17331 65  0-TotalOutlier[all]
-17331 66  0-TotalOutlier[all]
-17331 67  0-TotalOutlier[all]
-17331 68  0-TotalOutlier[all]
-17331 69  0-TotalOutlier[all]
-17331 70  0-TotalOutlier[all]
-17331 71  0-TotalOutlier[all]
-17331 72  0-TotalOutlier[all]
-17331 73  0-TotalOutlier[all]
-17331 74  0-TotalOutlier[all]
-17331 75  0-TotalOutlier[all]
-17331 76  0-TotalOutlier[all]
-17331 77  0-TotalOutlier[all]
-17331 78  0-TotalOutlier[all]
-17331 79  0-TotalOutlier[all]
-17331 80  0-TotalOutlier[all]
-17331 81  0-TotalOutlier[all]
-17331 82  0-TotalOutlier[all]
-17331 83  0-TotalOutlier[all]
-17331 84  0-TotalOutlier[all]
-17331 85  0-TotalOutlier[all]
-17331 86  0-TotalOutlier[all]
-17331 87  0-TotalOutlier[all]
-17331 88  0-TotalOutlier[all]
-17331 89  0-TotalOutlier[all]
-17331 90  0-TotalOutlier[all]
-17331 91  0-TotalOutlier[all]
-17331 92  0-TotalOutlier[all]
-17331 93  0-TotalOutlier[all]
-17331 94  0-TotalOutlier[all]
-17331 95  0-TotalOutlier[all]
-17331 96  0-TotalOutlier[all]
-17331 97  0-TotalOutlier[all]
-17331 98  0-TotalOutlier[all]
-17331 99  0-TotalOutlier[all]
-17331 100  0-TotalOutlier[all]
-17331 101  0-TotalOutlier[all]
-17331 102  0-TotalOutlier[all]
-17331 103  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17331 104  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17331 105  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17331 106  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17331 107  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17331 108  0-TotalOutlier[all]
-17331 109  0-TotalOutlier[all]
-17331 110  0-TotalOutlier[all]
-17331 111  0-TotalOutlier[all]
-17331 112  0-TotalOutlier[all]
-17331 113  0-TotalOutlier[all]
-17331 114  0-TotalOutlier[all]
-17331 115  0-TotalOutlier[all]
-17331 116  0-TotalOutlier[all]
-17331 117  0-TotalOutlier[all]
-17331 118  0-TotalOutlier[all]
-17331 119  0-TotalOutlier[all]
-17331 120  0-TotalOutlier[all]
-17331 121  0-TotalOutlier[all]
-17331 122  0-TotalOutlier[all]
-17331 123  0-TotalOutlier[all]
-17331 124  0-TotalOutlier[all]
-17331 125  0-TotalOutlier[all]
-17331 126  0-TotalOutlier[all]
-17331 127  0-TotalOutlier[all]
-17331 128  0-TotalOutlier[all]
-17331 129  0-TotalOutlier[all]
-17331 130  0-TotalOutlier[all]
-17331 131  0-TotalOutlier[all]
-17331 132  0-TotalOutlier[all]
-17331 133  0-TotalOutlier[all]
-17331 134  0-TotalOutlier[all]
-17331 135  0-TotalOutlier[all]
-17331 136  0-TotalOutlier[all]
-17331 137  0-TotalOutlier[all]
-17331 138  0-TotalOutlier[all]
-17331 139  0-TotalOutlier[all]
-17331 140  0-TotalOutlier[all]
-17331 141  0-TotalOutlier[all]
-17331 142  0-TotalOutlier[all]
-17331 143  0-TotalOutlier[all]
-17331 144  0-TotalOutlier[all]
-17331 145  0-TotalOutlier[all]
-17331 146  0-TotalOutlier[all]
-17331 147  0-TotalOutlier[all]
-17331 148  0-TotalOutlier[all]
-17331 149  0-TotalOutlier[all]
-17331 150  0-TotalOutlier[all]
-17331 151  0-TotalOutlier[all]
-17331 152  0-TotalOutlier[all]
-17331 153  0-TotalOutlier[all]
-17331 154  0-TotalOutlier[all]
-17331 155  0-TotalOutlier[all]
-17331 156  0-TotalOutlier[all]
-17331 157  0-TotalOutlier[all]
-17331 158  0-TotalOutlier[all]
-17331 159  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17331 160  0-TotalOutlier[all]
-17331 161  0-TotalOutlier[all]
-17331 162  0-TotalOutlier[all]
-17331 163  0-TotalOutlier[all]
-17331 164  0-TotalOutlier[all]
-17331 165  0-TotalOutlier[all]
-17331 166  0-TotalOutlier[all]
-17331 167  0-TotalOutlier[all]
-17331 168  0-TotalOutlier[all]
-17331 169  0-TotalOutlier[all]
-17331 170  0-TotalOutlier[all]
-17331 171  0-TotalOutlier[all]
-17331 172  0-TotalOutlier[all]
-17331 173  0-TotalOutlier[all]
-17331 174  0-TotalOutlier[all]
-17331 175  0-TotalOutlier[all]
-17331 176  0-TotalOutlier[all]
-17331 177  0-TotalOutlier[all]
-17331 178  0-TotalOutlier[all]
-17331 179  0-TotalOutlier[all]
-17331 180  0-TotalOutlier[all]
-17331 181  0-TotalOutlier[all]
-17331 182  0-TotalOutlier[all]
-17331 183  0-TotalOutlier[all]
-17331 184  0-TotalOutlier[all]
-17331 185  0-TotalOutlier[all]
-17331 186  0-TotalOutlier[all]
-17331 187  0-TotalOutlier[all]
-17331 188  0-TotalOutlier[all]
-17331 189  0-TotalOutlier[all]
-17331 190  0-TotalOutlier[all]
-17331 191  0-TotalOutlier[all]  19-PossiblyNoBeam[all]
-17331 192  0-TotalOutlier[all]
-17331 193  0-TotalOutlier[all]
-17331 194  0-TotalOutlier[all]
-17331 195  0-TotalOutlier[all]
-17331 196  0-TotalOutlier[all]
-17331 197  0-TotalOutlier[all]
-17331 198  0-TotalOutlier[all]
-17331 199  0-TotalOutlier[all]
-17331 200  0-TotalOutlier[all]
-17331 201  0-TotalOutlier[all]
-17331 202  0-TotalOutlier[all]
-17331 203  0-TotalOutlier[all]
-17331 204  0-TotalOutlier[all]
-17331 205  0-TotalOutlier[all]
-17331 206  0-TotalOutlier[all]
-17331 207  0-TotalOutlier[all]
-17331 208  0-TotalOutlier[all]
-17331 209  0-TotalOutlier[all]
-17331 210  0-TotalOutlier[all]
-17331 211  0-TotalOutlier[all]
-17331 212  0-TotalOutlier[all]
-17331 213  0-TotalOutlier[all]
-17331 214  0-TotalOutlier[all]
-17331 215  0-TotalOutlier[all]
-17331 216  0-TotalOutlier[all]
-17331 217  0-TotalOutlier[all]
-17331 218  0-TotalOutlier[all]
-17331 219  0-TotalOutlier[all]
-17331 220  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
+17331 10  0-TotalOutlier[1, 2, 3, 4, 6]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 11  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 12  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 13  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 14  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 15  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 16  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 17  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 18  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 19  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 20  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 21  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 22  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 23  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 24  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 25  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 26  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 27  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 28  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 29  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 30  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 31  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 32  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 33  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 34  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 35  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 36  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 37  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 38  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 39  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 40  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 41  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 42  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 43  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 44  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 45  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 46  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 47  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 48  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 49  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 50  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 51  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 52  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 53  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 54  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 55  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 56  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 57  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 58  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 59  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 60  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 61  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 62  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 63  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 64  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 65  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 66  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 67  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 68  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 69  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 70  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 71  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 72  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 73  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 74  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 75  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 76  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 77  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 78  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 79  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 80  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 81  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 82  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 83  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 84  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 85  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 86  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 87  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 88  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 89  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 90  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 91  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 92  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 93  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 94  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 95  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 96  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 97  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 98  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 99  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 100  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 101  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 102  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 103  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 104  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 105  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 106  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 107  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 108  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 109  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 110  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 111  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 112  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 113  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 114  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 115  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 116  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 117  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 118  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 119  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 120  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 121  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 122  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 123  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 124  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 125  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 126  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 127  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 128  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 129  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 130  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 131  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 132  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 133  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 134  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 135  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 136  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 137  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 138  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 139  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 140  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 141  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 142  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 143  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 144  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 145  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 146  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 147  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 148  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 149  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 150  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 151  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 152  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 153  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 154  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 155  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 156  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 157  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 158  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 159  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 160  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 161  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 162  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 163  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 164  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 165  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 166  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 167  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 168  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 169  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 170  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 171  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 172  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 173  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 174  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 175  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 176  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 177  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 178  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 179  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 180  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 181  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 182  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 183  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 184  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 185  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 186  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 187  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 188  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 189  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 190  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 191  0-TotalOutlier[all]  5-Misc[all]  19-PossiblyNoBeam[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 192  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 193  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 194  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 195  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 196  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 197  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 198  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 199  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 200  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 201  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 202  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 203  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 204  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 205  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 206  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 207  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 208  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 209  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 210  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 211  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 212  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 213  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 214  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 215  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 216  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 217  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 218  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 219  0-TotalOutlier[all]  5-Misc[all]  :: trigger bit normalization issue, number of trigger electrons is very low
+17331 220  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: trigger bit normalization issue, number of trigger electrons is very low
 
 RUN: 17332
 17332 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]

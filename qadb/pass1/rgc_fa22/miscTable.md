@@ -176,7 +176,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17123      | no    |  |
 | 17125      | no    |  |
 | 17129      | no    |  |
-| 17130      | no    |  |
+| 17130      | yes   | <pre>N/F slightly lower for a short period</pre> |
 | 17131      | no    |  |
 | 17132      | no    |  |
 | 17133      | no    |  |
@@ -213,17 +213,17 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17173      | no    |  |
 | 17177      | no    |  |
 | 17178      | no    |  |
-| 17179      | no    |  |
-| 17180      | no    |  |
-| 17181      | no    |  |
-| 17182      | no    |  |
-| 17183      | no    |  |
-| 17185      | no    |  |
-| 17187      | no    |  |
+| 17179      | yes   | <pre>RICH errors</pre> |
+| 17180      | yes   | <pre>RICH off</pre> |
+| 17181      | yes   | <pre>RICH off</pre> |
+| 17182      | yes   | <pre>RICH off</pre> |
+| 17183      | yes   | <pre>RICH off</pre> |
+| 17185      | yes   | <pre>raster test, 4 nA</pre> |
+| 17187      | yes   | <pre>VTP trigger bit low</pre> |
 | 17188      | no    |  |
 | 17189      | no    |  |
-| 17190      | no    |  |
-| 17191      | no    |  |
+| 17190      | yes   | <pre>no trigger on sector 4; RICH off</pre> |
+| 17191      | yes   | <pre>RICH off</pre> |
 | 17192      | no    |  |
 | 17195      | no    |  |
 | 17197      | no    |  |
@@ -232,7 +232,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17204      | no    |  |
 | 17206      | no    |  |
 | 17207      | no    |  |
-| 17211      | no    |  |
+| 17211      | yes   | <pre>BST multiplicity issue</pre> |
 | 17212      | no    |  |
 | 17214      | no    |  |
 | 17215      | no    |  |
@@ -243,7 +243,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17224      | no    |  |
 | 17225      | no    |  |
 | 17227      | no    |  |
-| 17229      | no    |  |
+| 17229      | yes   | <pre>no trigger for sector 3</pre> |
 | 17230      | no    |  |
 | 17231      | no    |  |
 | 17233      | no    |  |
@@ -260,7 +260,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17249      | no    |  |
 | 17252      | no    |  |
 | 17253      | no    |  |
-| 17254      | no    |  |
+| 17254      | yes   | <pre>no trigger in sector 3</pre> |
 | 17255      | no    |  |
 | 17258      | no    |  |
 | 17261      | no    |  |
@@ -315,7 +315,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17328      | no    |  |
 | 17329      | no    |  |
 | 17330      | no    |  |
-| 17331      | no    |  |
+| 17331      | yes   | <pre>trigger bit normalization issue, number of trigger electrons is very low</pre> |
 | 17332      | no    |  |
 | 17333      | no    |  |
 | 17334      | no    |  |
