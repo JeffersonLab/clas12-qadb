@@ -20,7 +20,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16851      | yes   | <pre>luminosity scan, 4 nA</pre> |
 | 16852      | yes   | <pre>luminosity scan, 6 nA</pre> |
 | 16853      | yes   | <pre>luminosity scan, 8 nA</pre> |
-| 16855      | yes   | <pre>luminosity scan, 10 nA</pre> |
+| 16855      | yes   | <pre>luminosity scan, 10 nA; large fraction of events with undefined helicity</pre> |
 | 16856      | yes   | <pre>first production run at 8 nA, but wrong trigger file rgc_300MeV_v1.3_no_DC.cnf</pre> |
 | 16857      | yes   | <pre> wrong trigger file rgc_300MeV_v1.3_no_DC.cnf</pre> |
 | 16859      | no    |  |
@@ -32,7 +32,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16878      | no    |  |
 | 16879      | yes   | <pre>beam centering and raster size study</pre> |
 | 16880      | yes   | <pre>CND TDCs off for part of the run; beam x-position is clipping target; raster adjustments</pre> |
-| 16881      | yes   | <pre>raster check; varying beam current</pre> |
+| 16881      | yes   | <pre>raster check; varying beam current</pre><pre>raster check; varying beam current; large fraction of events with undefined helicity, near the end of the run</pre> |
 | 16882      | no    |  |
 | 16884      | no    |  |
 | 16887      | no    |  |

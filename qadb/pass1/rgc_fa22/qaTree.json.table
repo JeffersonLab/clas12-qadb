@@ -519,51 +519,51 @@ RUN: 16853
 16853 45  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: luminosity scan, 8 nA
 
 RUN: 16855
-16855 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: luminosity scan, 10 nA
-16855 1  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 2  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 3  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 4  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 5  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 6  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 7  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 8  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 9  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 10  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 11  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 12  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 13  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 14  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 15  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 16  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 17  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 18  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 19  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 20  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 21  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 22  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 23  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 24  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 25  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 26  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 27  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 28  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 29  0-TotalOutlier[1, 2, 4, 5]  2-MarginalOutlier[3, 6]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 30  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 31  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 32  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 33  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 34  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 35  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 36  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 37  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 38  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 39  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 40  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 41  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 42  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 43  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA
-16855 44  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: luminosity scan, 10 nA
+16855 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 1  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 2  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 3  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 4  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 5  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 6  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 7  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 8  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 9  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 10  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 11  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 12  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 13  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 14  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 15  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 16  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 17  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 18  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 19  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 20  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 21  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 22  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 23  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 24  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 25  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 26  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 27  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 28  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 29  0-TotalOutlier[1, 2, 4, 5]  2-MarginalOutlier[3, 6]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 30  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 31  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 32  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 33  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 34  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 35  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 36  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 37  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 38  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 39  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 40  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 41  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 42  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 43  4-LowLiveTime[all]  5-Misc[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
+16855 44  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: luminosity scan, 10 nA; large fraction of events with undefined helicity
 
 RUN: 16856
 16856 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: first production run at 8 nA, but wrong trigger file rgc_300MeV_v1.3_no_DC.cnf
@@ -2277,12 +2277,12 @@ RUN: 16881
 16881 31  5-Misc[all]  :: raster check; varying beam current
 16881 32  2-MarginalOutlier[3]  5-Misc[all]  :: raster check; varying beam current
 16881 33  5-Misc[all]  :: raster check; varying beam current
-16881 34  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current
-16881 35  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current
-16881 36  0-TotalOutlier[1, 2, 3, 4, 5]  2-MarginalOutlier[6]  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current
-16881 37  0-TotalOutlier[1, 2, 3, 4, 5]  2-MarginalOutlier[6]  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current
-16881 38  0-TotalOutlier[1, 4, 5, 6]  2-MarginalOutlier[2, 3]  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current
-16881 39  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: raster check; varying beam current
+16881 34  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current; large fraction of events with undefined helicity, near the end of the run
+16881 35  0-TotalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current; large fraction of events with undefined helicity, near the end of the run
+16881 36  0-TotalOutlier[1, 2, 3, 4, 5]  2-MarginalOutlier[6]  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current; large fraction of events with undefined helicity, near the end of the run
+16881 37  0-TotalOutlier[1, 2, 3, 4, 5]  2-MarginalOutlier[6]  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current; large fraction of events with undefined helicity, near the end of the run
+16881 38  0-TotalOutlier[1, 4, 5, 6]  2-MarginalOutlier[2, 3]  4-LowLiveTime[all]  5-Misc[all]  :: raster check; varying beam current; large fraction of events with undefined helicity, near the end of the run
+16881 39  1-TerminalOutlier[all]  4-LowLiveTime[all]  5-Misc[all]  18-ChargeUnknown[all]  :: raster check; varying beam current; large fraction of events with undefined helicity, near the end of the run
 
 RUN: 16882
 16882 0  1-TerminalOutlier[all]  4-LowLiveTime[all]  18-ChargeUnknown[all]
