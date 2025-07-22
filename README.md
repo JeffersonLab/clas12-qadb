@@ -86,7 +86,7 @@ qadb-info
 
 <a name="datasets"></a>
 ## Available Data Sets
-The following tables describe the available data sets in the _latest_ version of the QADB. The columns are:
+The following tables describe the available data sets in the _latest_ version of the QADB; click on a run group to expand the table. The columns are:
 - **Pass**: the Pass number of the data set (higher is newer)
 - **Data Set Name**: a unique name for the data-taking period; click it to see the corresponding QA timelines
   - Typically `[RUN_GROUP]_[RUN_PERIOD]`
@@ -106,7 +106,12 @@ The following tables describe the available data sets in the _latest_ version of
 > [QA ground rules](#rules). It is **HIGHLY recommended** to also
 > [check the known important issues](/doc/issues.md) to see if any issues impact your analysis.
 
-### Run Group A
+### Run Groups
+
+Click on a run group to see its table.
+
+<details>
+<summary>Run Group A</summary>
 
 | Pass | Data Set Name and Timelines Link                                                                            | Run Range   | Status         | Notes          |                                                                                                                                                                                                   |
 | ---  | ---                                                                                                         | ---         | ---            | ---            | ---                                                                                                                                                                                               |
@@ -132,7 +137,10 @@ The following tables describe the available data sets in the _latest_ version of
 |      |                                                                                                             |             |                | Analyzed Files | full DST files                                                                                                                                                                                    |
 |      |                                                                                                             |             |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48)                                                               |
 
-### Run Group B
+</details>
+
+<details>
+<summary>Run Group B</summary>
 
 | Pass | Data Set Name and Timelines Link                                                         | Run Range     | Status         | Notes          |                                                                                                                                     |
 | ---  | ---                                                                                      | ---           | ---            | ---            | ---                                                                                                                                 |
@@ -155,7 +163,10 @@ The following tables describe the available data sets in the _latest_ version of
 |      |                                                                                          |               |                | Analyzed Files | full DST files                                                                                                                      |
 |      |                                                                                          |               |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48) |
 
-### Run Group C
+</details>
+
+<details>
+<summary>Run Group C</summary>
 
 | Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status         | Notes          |                                                |
 | ---  | ---                                                                                           | ---           | ---            | ---            | ---                                            |
@@ -169,7 +180,10 @@ The following tables describe the available data sets in the _latest_ version of
 |      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
 |      |                                                                                               |               |                | Issues         |                                                |
 
-### Run Group F
+</details>
+
+<details>
+<summary>Run Group F</summary>
 
 | Pass | Data Set Name and Timelines Link | Run Range     | Status | Notes |                                                                                             |
 | ---  | ---                              | ---           | ---    | ---   | ---                                                                                         |
@@ -178,7 +192,10 @@ The following tables describe the available data sets in the _latest_ version of
 | 1    | `rgf_su20_torusMh`               | 12436 - 12443 | :x:    | Data  | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
 | 1    | `rgf_su20_torusM1`               | 12447 - 12951 | :x:    | Data  | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
 
-### Run Group K
+</details>
+
+<details>
+<summary>Run Group K</summary>
 
 | Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status         | Notes          |                                                                                                                                     |
 | ---  | ---                                                                                | ---         | ---            | ---            | ---                                                                                                                                 |
@@ -195,13 +212,18 @@ The following tables describe the available data sets in the _latest_ version of
 |      |                                                                                    |             |                | Analyzed Files | full DST files                                                                                                                      |
 |      |                                                                                    |             |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48) |
 
-### Run Group M
+</details>
+
+<details>
+<summary>Run Group M</summary>
 
 | Pass | Data Set Name and Timelines Link                                                     | Run Range     | Status         | Notes          |                                                                                                                                     |
 | ---  | ---                                                                                  | ---           | ---            | ---            | ---                                                                                                                                 |
 | 1    | [`rgm_fa21`](https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/) | 15019 - 15884 | :green_circle: | Data           | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/`                                                                         |
 |      |                                                                                      |               |                | Analyzed Files | full DST files                                                                                                                      |
 |      |                                                                                      |               |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48) |
+
+</details>
 
 
 <a name="bitdefs"></a>
