@@ -276,7 +276,7 @@ You may access the QADB in many ways:
 
 ## Text Access
 * human-readable tables are stored in `qadb/*/qaTree.json.table`; see
-  the section **Table Files** below for details for how
+  the section **Table Files** below for details on how
   to read these files
 * QADB JSON files are stored in `qadb/*/qaTree.json`; these are text files,
   but they are meant to be used by **Software**, described in the next section
@@ -408,13 +408,16 @@ These files are a human-readable form of the QADB, stored as
 keyword `RUN:`; lines below are for each of that run's QA bins and their QA
 results, with the following syntax:
 ```
-run_number  bin_number  defect_bits
+run_number  bin_number  defect_bits...
 ```
-Some QA bins include a comment (usually when `Misc` is assigned), surrounded by
+There may be multiple defect bits; if there are none, the symbol `|` is written instead.
+
+Some QA bins include a comment (usually when the `Misc` defect bit is assigned), surrounded by
 `::` symbols; the syntax is then:
 ```
-run_number  bin_number  :: comment ::  defect_bits
+run_number  bin_number  :: comment ::  defect_bits...
 ```
+
 The defect bits have the following form:
 ```
 bit_number-defect_name[list_of_sectors]
