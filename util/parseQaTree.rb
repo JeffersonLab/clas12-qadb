@@ -29,12 +29,21 @@ end.to_h
 
 # loop over runs
 qa_tree.sort{ |a,b| a.first.to_i <=> b.first.to_i }.each do |run, run_tree|
-  out_file.puts "RUN: #{run}"
+  out_file.puts """
+==================================================================================
+RUN: #{run}
+----------------------------------------------------------------------------------"""
 
   # loop over QA bins
   run_tree.sort{ |a,b| a.first.to_i <=> b.first.to_i }.each do |bin, bin_tree|
 
-    out_row = ["#{run} #{bin}"]
+    out_row = ["#{run} #{bin.ljust 5}"]
+
+    # handle comment
+    bin_comment = bin_tree['comment']
+    unless bin_comment.nil?
+      out_row << ":: #{bin_comment} ::" unless bin_comment.empty?
+    end
 
     # handle defects
     bin_defect = bin_tree['defect']
@@ -45,24 +54,17 @@ qa_tree.sort{ |a,b| a.first.to_i <=> b.first.to_i }.each do |run, run_tree|
             sector if sector_defects.include? bit
           end
           sector_list = ['all'] if sector_list.length == 6
-          out_row << "#{bit}-#{bit_name}[#{sector_list.join ', '}]"
+          out_row << "#{bit}-#{bit_name}[#{sector_list.join}]".rjust(28)
         end
       end
     else
-      out_row << 'GOLDEN'
-    end
-
-    # handle comment
-    bin_comment = bin_tree['comment']
-    unless bin_comment.nil?
-      out_row << ":: #{bin_comment}" unless bin_comment.empty?
+      out_row << '|'
     end
 
     # stream
-    out_file.puts out_row.join('  ')
+    out_file.puts out_row.join(' ')
 
   end
-  out_file.puts ''
 end
 
 # close
