@@ -278,7 +278,8 @@ You may access the QADB in many ways:
 * human-readable tables are stored in `qadb/*/qaTree.json.table`; see
   the section **Table Files** below for details for how
   to read these files
-* QADB JSON files are stored in `qadb/*/qaTree.json`
+* QADB JSON files are stored in `qadb/*/qaTree.json`; these are text files,
+  but they are meant to be used by **Software**, described in the next section
 
 <a name="software"></a>
 ## Software Access
