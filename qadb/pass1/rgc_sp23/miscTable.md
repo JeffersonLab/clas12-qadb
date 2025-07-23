@@ -15,8 +15,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 17482      | no    |  |
-| 17483      | no    |  |
+| 17482      | yes   | <pre>empty target</pre> |
+| 17483      | yes   | <pre>empty target, with LHe level at 50%</pre> |
 | 17484      | no    |  |
 | 17485      | no    |  |
 | 17486      | no    |  |
@@ -41,14 +41,14 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17509      | no    |  |
 | 17510      | no    |  |
 | 17511      | no    |  |
-| 17512      | no    |  |
+| 17512      | yes   | <pre>sector 1 N/F slighlty lower for last third of this run</pre> |
 | 17513      | no    |  |
 | 17514      | no    |  |
 | 17516      | no    |  |
 | 17517      | no    |  |
 | 17518      | no    |  |
 | 17520      | no    |  |
-| 17523      | no    |  |
+| 17523      | yes   | <pre>marked as junk in logbook; beam and raster tuning</pre> |
 | 17524      | no    |  |
 | 17527      | no    |  |
 | 17529      | no    |  |
@@ -70,14 +70,14 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17552      | no    |  |
 | 17553      | no    |  |
 | 17554      | no    |  |
-| 17555      | no    |  |
+| 17555      | yes   | <pre>wrong helicity sign</pre> |
 | 17556      | no    |  |
 | 17557      | no    |  |
 | 17558      | no    |  |
 | 17559      | no    |  |
 | 17560      | no    |  |
 | 17562      | no    |  |
-| 17565      | no    |  |
+| 17565      | yes   | <pre>1 hour special run with raster FSD masked</pre> |
 | 17566      | no    |  |
 | 17567      | no    |  |
 | 17568      | no    |  |
@@ -87,7 +87,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17576      | no    |  |
 | 17577      | no    |  |
 | 17581      | no    |  |
-| 17583      | no    |  |
+| 17583      | yes   | <pre>test run, according to logbook</pre> |
 | 17584      | no    |  |
 | 17585      | no    |  |
 | 17586      | no    |  |
@@ -100,7 +100,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17596      | no    |  |
 | 17597      | no    |  |
 | 17598      | no    |  |
-| 17599      | no    |  |
+| 17599      | yes   | <pre>CND TDC issue</pre> |
 | 17600      | no    |  |
 | 17601      | no    |  |
 | 17602      | no    |  |
@@ -113,7 +113,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17609      | no    |  |
 | 17610      | no    |  |
 | 17611      | no    |  |
-| 17617      | no    |  |
+| 17617      | yes   | <pre>no ECAL sector 2 ADC</pre> |
 | 17624      | no    |  |
 | 17625      | no    |  |
 | 17626      | no    |  |
@@ -167,7 +167,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17686      | no    |  |
 | 17687      | no    |  |
 | 17688      | no    |  |
-| 17689      | no    |  |
+| 17689      | yes   | <pre>BST and DC multiplicities show irregular pattern with a lot of zeroes</pre> |
 | 17690      | no    |  |
 | 17691      | no    |  |
 | 17692      | no    |  |
@@ -189,12 +189,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17726      | no    |  |
 | 17727      | no    |  |
 | 17728      | no    |  |
-| 17729      | no    |  |
-| 17730      | no    |  |
+| 17729      | yes   | <pre>ECAL-I and ECAL-O U plane HV issue</pre> |
+| 17730      | yes   | <pre>ECAL4-I and ECAL-O U not operational</pre> |
 | 17732      | no    |  |
 | 17733      | no    |  |
 | 17734      | no    |  |
-| 17735      | no    |  |
+| 17735      | yes   | <pre>wrong helicity sign</pre> |
 | 17737      | no    |  |
 | 17738      | no    |  |
 | 17740      | no    |  |
@@ -249,8 +249,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17793      | no    |  |
 | 17794      | no    |  |
 | 17795      | no    |  |
-| 17796      | no    |  |
-| 17797      | no    |  |
+| 17796      | yes   | <pre>target polarization dropped from -29% to -15%</pre> |
+| 17797      | yes   | <pre>target polarization rose from -22% to -32%</pre> |
 | 17798      | no    |  |
 | 17799      | no    |  |
 | 17800      | no    |  |
