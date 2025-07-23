@@ -34645,650 +34645,650 @@ RUN: 17762
 ==================================================================================
 RUN: 17763
 ----------------------------------------------------------------------------------
-17763 0               4-LowLiveTime[all]        18-ChargeUnknown[all]
-17763 1               4-LowLiveTime[all]
-17763 2     |
-17763 3     |
-17763 4     |
-17763 5     |
-17763 6     |
-17763 7     |
-17763 8     |
-17763 9     |
-17763 10    |
-17763 11    |
-17763 12    |
-17763 13    |
-17763 14    |
-17763 15    |
-17763 16    |
-17763 17    |
-17763 18    |
-17763 19    |
-17763 20    |
-17763 21    |
-17763 22    |
-17763 23    |
-17763 24    |
-17763 25    |
-17763 26    |
-17763 27    |
-17763 28    |
-17763 29    |
-17763 30    |
-17763 31    |
-17763 32    |
-17763 33    |
-17763 34    |
-17763 35    |
-17763 36    |
-17763 37              4-LowLiveTime[all]        18-ChargeUnknown[all]
+17763 0     :: empty target, with LHe level at 20%; beam current 20 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17763 1     :: empty target, with LHe level at 20%; beam current 20 nA ::           4-LowLiveTime[all]                  5-Misc[all]
+17763 2     :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 3     :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 4     :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 5     :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 6     :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 7     :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 8     :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 9     :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 10    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 11    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 12    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 13    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 14    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 15    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 16    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 17    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 18    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 19    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 20    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 21    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 22    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 23    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 24    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 25    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 26    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 27    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 28    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 29    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 30    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 31    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 32    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 33    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 34    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 35    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 36    :: empty target, with LHe level at 20%; beam current 20 nA ::                  5-Misc[all]
+17763 37    :: empty target, with LHe level at 20%; beam current 20 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 17764
 ----------------------------------------------------------------------------------
-17764 0               4-LowLiveTime[all]        18-ChargeUnknown[all]
-17764 1     |
-17764 2     |
-17764 3     |
-17764 4     |
-17764 5     |
-17764 6     |
-17764 7     |
-17764 8     |
-17764 9     |
-17764 10    |
-17764 11    |
-17764 12    |
-17764 13    |
-17764 14              4-LowLiveTime[all]        18-ChargeUnknown[all]
+17764 0     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17764 1     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 2     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 3     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 4     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 5     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 6     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 7     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 8     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 9     :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 10    :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 11    :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 12    :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 13    :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::                  5-Misc[all]
+17764 14    :: empty target, with LHe level at 20%; beam current 30 nA, but varying ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 17765
 ----------------------------------------------------------------------------------
-17765 0               4-LowLiveTime[all]        18-ChargeUnknown[all]
-17765 1     |
-17765 2     |
-17765 3     |
-17765 4     |
-17765 5     |
-17765 6     |
-17765 7     |
-17765 8     |
-17765 9     |
-17765 10    |
-17765 11    |
-17765 12    |
-17765 13    |
-17765 14    |
-17765 15    |
-17765 16    |
-17765 17    |
-17765 18    |
-17765 19    |
-17765 20    |
-17765 21    |
-17765 22    |
-17765 23    |
-17765 24    |
-17765 25    |
-17765 26    |
-17765 27    |
-17765 28    |
-17765 29    |
-17765 30    |
-17765 31    |
-17765 32    |
-17765 33    |
-17765 34    |
-17765 35    |
-17765 36    |
-17765 37    |
-17765 38    |
-17765 39    |
-17765 40    |
-17765 41    |
-17765 42    |
-17765 43    |
-17765 44    |
-17765 45    |
-17765 46    |
-17765 47    |
-17765 48    |
-17765 49    |
-17765 50    |
-17765 51    |
-17765 52    |
-17765 53    |
-17765 54    |
-17765 55    |
-17765 56    |
-17765 57    |
-17765 58    |
-17765 59    |
-17765 60    |
-17765 61    |
-17765 62    |
-17765 63    |
-17765 64    |
-17765 65    |
-17765 66    |
-17765 67    |
-17765 68    |
-17765 69    |
-17765 70    |
-17765 71    |
-17765 72    |
-17765 73    |
-17765 74    |
-17765 75    |
-17765 76    |
-17765 77    |
-17765 78    |
-17765 79    |
-17765 80    |
-17765 81    |
-17765 82    |
-17765 83    |
-17765 84    |
-17765 85    |
-17765 86    |
-17765 87    |
-17765 88    |
-17765 89    |
-17765 90    |
-17765 91    |
-17765 92    |
-17765 93    |
-17765 94    |
-17765 95    |
-17765 96    |
-17765 97    |
-17765 98    |
-17765 99    |
-17765 100   |
-17765 101   |
-17765 102   |
-17765 103   |
-17765 104   |
-17765 105   |
-17765 106   |
-17765 107   |
-17765 108   |
-17765 109   |
-17765 110   |
-17765 111   |
-17765 112   |
-17765 113   |
-17765 114   |
-17765 115   |
-17765 116             4-LowLiveTime[all]        18-ChargeUnknown[all]
+17765 0     :: empty target, with LHe level at 20%; beam current 25 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17765 1     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 2     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 3     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 4     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 5     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 6     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 7     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 8     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 9     :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 10    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 11    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 12    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 13    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 14    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 15    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 16    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 17    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 18    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 19    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 20    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 21    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 22    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 23    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 24    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 25    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 26    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 27    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 28    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 29    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 30    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 31    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 32    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 33    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 34    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 35    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 36    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 37    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 38    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 39    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 40    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 41    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 42    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 43    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 44    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 45    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 46    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 47    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 48    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 49    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 50    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 51    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 52    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 53    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 54    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 55    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 56    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 57    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 58    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 59    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 60    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 61    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 62    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 63    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 64    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 65    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 66    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 67    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 68    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 69    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 70    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 71    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 72    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 73    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 74    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 75    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 76    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 77    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 78    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 79    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 80    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 81    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 82    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 83    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 84    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 85    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 86    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 87    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 88    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 89    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 90    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 91    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 92    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 93    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 94    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 95    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 96    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 97    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 98    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 99    :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 100   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 101   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 102   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 103   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 104   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 105   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 106   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 107   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 108   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 109   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 110   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 111   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 112   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 113   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 114   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 115   :: empty target, with LHe level at 20%; beam current 25 nA ::                  5-Misc[all]
+17765 116   :: empty target, with LHe level at 20%; beam current 25 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 17766
 ----------------------------------------------------------------------------------
-17766 0               4-LowLiveTime[all]        18-ChargeUnknown[all]
-17766 1               4-LowLiveTime[all]
-17766 2     |
-17766 3     |
-17766 4     |
-17766 5     |
-17766 6     |
-17766 7     |
-17766 8     |
-17766 9     |
-17766 10    |
-17766 11    |
-17766 12    |
-17766 13    |
-17766 14    |
-17766 15    |
-17766 16    |
-17766 17    |
-17766 18    |
-17766 19    |
-17766 20    |
-17766 21    |
-17766 22    |
-17766 23    |
-17766 24    |
-17766 25    |
-17766 26    |
-17766 27    |
-17766 28    |
-17766 29    |
-17766 30    |
-17766 31    |
-17766 32    |
-17766 33    |
-17766 34    |
-17766 35    |
-17766 36    |
-17766 37    |
-17766 38    |
-17766 39    |
-17766 40    |
-17766 41    |
-17766 42    |
-17766 43    |
-17766 44    |
-17766 45    |
-17766 46    |
-17766 47    |
-17766 48    |
-17766 49    |
-17766 50    |
-17766 51    |
-17766 52              4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17766 53          19-PossiblyNoBeam[all]
-17766 54    |
-17766 55    |
-17766 56    |
-17766 57    |
-17766 58    |
-17766 59    |
-17766 60    |
-17766 61              4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17766 62              4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17766 63              4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17766 64          19-PossiblyNoBeam[all]
-17766 65          19-PossiblyNoBeam[all]
-17766 66              4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17766 67          19-PossiblyNoBeam[all]
-17766 68              4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17766 69          19-PossiblyNoBeam[all]
-17766 70              4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17766 71              4-LowLiveTime[all]        18-ChargeUnknown[all]
+17766 0     :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17766 1     :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]
+17766 2     :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 3     :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 4     :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 5     :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 6     :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 7     :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 8     :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 9     :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 10    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 11    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 12    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 13    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 14    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 15    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 16    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 17    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 18    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 19    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 20    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 21    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 22    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 23    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 24    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 25    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 26    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 27    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 28    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 29    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 30    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 31    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 32    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 33    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 34    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 35    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 36    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 37    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 38    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 39    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 40    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 41    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 42    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 43    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 44    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 45    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 46    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 47    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 48    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 49    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 50    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 51    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 52    :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 53    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 54    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 55    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 56    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 57    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 58    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 59    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 60    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]
+17766 61    :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 62    :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 63    :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 64    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 65    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 66    :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 67    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 68    :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 69    :: empty target, with LHe level at 72%; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 70    :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17766 71    :: empty target, with LHe level at 72%; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 17767
 ----------------------------------------------------------------------------------
-17767 0               4-LowLiveTime[all]        18-ChargeUnknown[all]
-17767 1     |
-17767 2     |
-17767 3     |
-17767 4     |
-17767 5     |
-17767 6     |
-17767 7     |
-17767 8     |
-17767 9     |
-17767 10    |
-17767 11    |
-17767 12    |
-17767 13    |
-17767 14    |
-17767 15    |
-17767 16    |
-17767 17    |
-17767 18    |
-17767 19    |
-17767 20    |
-17767 21    |
-17767 22    |
-17767 23    |
-17767 24    |
-17767 25    |
-17767 26    |
-17767 27    |
-17767 28    |
-17767 29    |
-17767 30    |
-17767 31    |
-17767 32    |
-17767 33    |
-17767 34    |
-17767 35    |
-17767 36    |
-17767 37    |
-17767 38    |
-17767 39    |
-17767 40    |
-17767 41    |
-17767 42    |
-17767 43    |
-17767 44    |
-17767 45    |
-17767 46    |
-17767 47    |
-17767 48    |
-17767 49    |
-17767 50    |
-17767 51    |
-17767 52    |
-17767 53    |
-17767 54    |
-17767 55    |
-17767 56    |
-17767 57    |
-17767 58    |
-17767 59    |
-17767 60    |
-17767 61    |
-17767 62    |
-17767 63    |
-17767 64    |
-17767 65    |
-17767 66    |
-17767 67    |
-17767 68    |
-17767 69    |
-17767 70    |
-17767 71    |
-17767 72    |
-17767 73    |
-17767 74    |
-17767 75    |
-17767 76    |
-17767 77    |
-17767 78    |
-17767 79    |
-17767 80    |
-17767 81    |
-17767 82    |
-17767 83    |
-17767 84    |
-17767 85    |
-17767 86    |
-17767 87    |
-17767 88    |
-17767 89    |
-17767 90    |
-17767 91    |
-17767 92    |
-17767 93    |
-17767 94    |
-17767 95    |
-17767 96    |
-17767 97    |
-17767 98    |
-17767 99    |
-17767 100   |
-17767 101   |
-17767 102   |
-17767 103   |
-17767 104   |
-17767 105   |
-17767 106   |
-17767 107   |
-17767 108   |
-17767 109   |
-17767 110   |
-17767 111   |
-17767 112   |
-17767 113   |
-17767 114   |
-17767 115   |
-17767 116   |
-17767 117   |
-17767 118   |
-17767 119   |
-17767 120   |
-17767 121   |
-17767 122   |
-17767 123   |
-17767 124   |
-17767 125   |
-17767 126   |
-17767 127   |
-17767 128   |
-17767 129   |
-17767 130   |
-17767 131   |
-17767 132   |
-17767 133   |
-17767 134   |
-17767 135   |
-17767 136   |
-17767 137   |
-17767 138   |
-17767 139   |
-17767 140   |
-17767 141   |
-17767 142   |
-17767 143   |
-17767 144   |
-17767 145   |
-17767 146   |
-17767 147   |
-17767 148   |
-17767 149   |
-17767 150   |
-17767 151   |
-17767 152   |
-17767 153   |
-17767 154   |
-17767 155   |
-17767 156   |
-17767 157   |
-17767 158   |
-17767 159   |
-17767 160   |
-17767 161   |
-17767 162   |
-17767 163   |
-17767 164   |
-17767 165   |
-17767 166   |
-17767 167   |
-17767 168   |
-17767 169         19-PossiblyNoBeam[all]
-17767 170   |
-17767 171   |
-17767 172             4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17767 173   |
-17767 174   |
-17767 175   |
-17767 176   |
-17767 177   |
-17767 178   |
-17767 179   |
-17767 180   |
-17767 181   |
-17767 182   |
-17767 183   |
-17767 184   |
-17767 185   |
-17767 186   |
-17767 187   |
-17767 188   |
-17767 189   |
-17767 190   |
-17767 191   |
-17767 192   |
-17767 193   |
-17767 194   |
-17767 195   |
-17767 196   |
-17767 197   |
-17767 198   |
-17767 199   |
-17767 200   |
-17767 201   |
-17767 202   |
-17767 203   |
-17767 204   |
-17767 205   |
-17767 206   |
-17767 207   |
-17767 208   |
-17767 209   |
-17767 210   |
-17767 211   |
-17767 212   |
-17767 213   |
-17767 214   |
-17767 215   |
-17767 216   |
-17767 217   |
-17767 218   |
-17767 219   |
-17767 220   |
-17767 221   |
-17767 222   |
-17767 223   |
-17767 224   |
-17767 225             4-LowLiveTime[all]        18-ChargeUnknown[all]
+17767 0     :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17767 1     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 2     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 3     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 4     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 5     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 6     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 7     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 8     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 9     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 10    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 11    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 12    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 13    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 14    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 15    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 16    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 17    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 18    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 19    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 20    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 21    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 22    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 23    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 24    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 25    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 26    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 27    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 28    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 29    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 30    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 31    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 32    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 33    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 34    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 35    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 36    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 37    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 38    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 39    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 40    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 41    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 42    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 43    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 44    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 45    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 46    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 47    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 48    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 49    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 50    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 51    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 52    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 53    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 54    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 55    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 56    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 57    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 58    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 59    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 60    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 61    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 62    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 63    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 64    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 65    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 66    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 67    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 68    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 69    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 70    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 71    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 72    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 73    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 74    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 75    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 76    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 77    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 78    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 79    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 80    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 81    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 82    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 83    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 84    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 85    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 86    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 87    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 88    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 89    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 90    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 91    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 92    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 93    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 94    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 95    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 96    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 97    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 98    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 99    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 100   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 101   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 102   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 103   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 104   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 105   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 106   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 107   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 108   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 109   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 110   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 111   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 112   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 113   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 114   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 115   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 116   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 117   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 118   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 119   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 120   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 121   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 122   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 123   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 124   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 125   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 126   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 127   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 128   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 129   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 130   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 131   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 132   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 133   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 134   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 135   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 136   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 137   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 138   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 139   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 140   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 141   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 142   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 143   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 144   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 145   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 146   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 147   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 148   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 149   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 150   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 151   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 152   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 153   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 154   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 155   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 156   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 157   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 158   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 159   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 160   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 161   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 162   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 163   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 164   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 165   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 166   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 167   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 168   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 169   :: empty target; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17767 170   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 171   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 172   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17767 173   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 174   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 175   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 176   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 177   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 178   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 179   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 180   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 181   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 182   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 183   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 184   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 185   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 186   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 187   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 188   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 189   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 190   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 191   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 192   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 193   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 194   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 195   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 196   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 197   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 198   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 199   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 200   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 201   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 202   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 203   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 204   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 205   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 206   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 207   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 208   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 209   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 210   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 211   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 212   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 213   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 214   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 215   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 216   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 217   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 218   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 219   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 220   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 221   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 222   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 223   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 224   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17767 225   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 17768
 ----------------------------------------------------------------------------------
-17768 0               4-LowLiveTime[all]        18-ChargeUnknown[all]
-17768 1     |
-17768 2     |
-17768 3     |
-17768 4     |
-17768 5     |
-17768 6     |
-17768 7     |
-17768 8     |
-17768 9           19-PossiblyNoBeam[all]
-17768 10    |
-17768 11    |
-17768 12    |
-17768 13    |
-17768 14    |
-17768 15    |
-17768 16    |
-17768 17    |
-17768 18    |
-17768 19    |
-17768 20    |
-17768 21    |
-17768 22    |
-17768 23    |
-17768 24    |
-17768 25    |
-17768 26    |
-17768 27    |
-17768 28    |
-17768 29    |
-17768 30    |
-17768 31    |
-17768 32    |
-17768 33    |
-17768 34    |
-17768 35    |
-17768 36    |
-17768 37    |
-17768 38    |
-17768 39    |
-17768 40    |
-17768 41    |
-17768 42    |
-17768 43    |
-17768 44    |
-17768 45    |
-17768 46    |
-17768 47    |
-17768 48    |
-17768 49    |
-17768 50    |
-17768 51    |
-17768 52    |
-17768 53    |
-17768 54    |
-17768 55    |
-17768 56    |
-17768 57    |
-17768 58    |
-17768 59    |
-17768 60    |
-17768 61    |
-17768 62    |
-17768 63    |
-17768 64    |
-17768 65    |
-17768 66    |
-17768 67    |
-17768 68    |
-17768 69    |
-17768 70    |
-17768 71    |
-17768 72    |
-17768 73    |
-17768 74    |
-17768 75    |
-17768 76    |
-17768 77    |
-17768 78    |
-17768 79    |
-17768 80    |
-17768 81    |
-17768 82    |
-17768 83    |
-17768 84    |
-17768 85    |
-17768 86    |
-17768 87    |
-17768 88    |
-17768 89    |
-17768 90          19-PossiblyNoBeam[all]
-17768 91          19-PossiblyNoBeam[all]
-17768 92          19-PossiblyNoBeam[all]
-17768 93          19-PossiblyNoBeam[all]
-17768 94    |
-17768 95    |
-17768 96    |
-17768 97    |
-17768 98    |
-17768 99    |
-17768 100   |
-17768 101   |
-17768 102   |
-17768 103   |
-17768 104   |
-17768 105   |
-17768 106   |
-17768 107   |
-17768 108   |
-17768 109   |
-17768 110   |
-17768 111   |
-17768 112   |
-17768 113   |
-17768 114   |
-17768 115   |
-17768 116   |
-17768 117   |
-17768 118   |
-17768 119   |
-17768 120   |
-17768 121   |
-17768 122   |
-17768 123   |
-17768 124   |
-17768 125   |
-17768 126   |
-17768 127   |
-17768 128   |
-17768 129   |
-17768 130   |
-17768 131   |
-17768 132   |
-17768 133   |
-17768 134   |
-17768 135   |
-17768 136   |
-17768 137   |
-17768 138   |
-17768 139   |
-17768 140   |
-17768 141   |
-17768 142   |
-17768 143   |
-17768 144   |
-17768 145   |
-17768 146   |
-17768 147   |
-17768 148             4-LowLiveTime[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-17768 149             4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17768 150             4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17768 151             4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17768 152             4-LowLiveTime[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-17768 153             4-LowLiveTime[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-17768 154             4-LowLiveTime[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-17768 155             4-LowLiveTime[all]        18-ChargeUnknown[all]
+17768 0     :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17768 1     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 2     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 3     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 4     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 5     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 6     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 7     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 8     :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 9     :: empty target; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17768 10    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 11    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 12    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 13    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 14    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 15    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 16    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 17    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 18    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 19    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 20    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 21    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 22    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 23    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 24    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 25    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 26    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 27    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 28    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 29    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 30    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 31    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 32    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 33    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 34    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 35    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 36    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 37    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 38    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 39    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 40    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 41    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 42    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 43    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 44    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 45    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 46    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 47    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 48    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 49    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 50    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 51    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 52    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 53    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 54    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 55    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 56    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 57    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 58    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 59    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 60    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 61    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 62    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 63    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 64    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 65    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 66    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 67    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 68    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 69    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 70    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 71    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 72    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 73    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 74    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 75    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 76    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 77    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 78    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 79    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 80    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 81    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 82    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 83    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 84    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 85    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 86    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 87    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 88    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 89    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 90    :: empty target; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17768 91    :: empty target; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17768 92    :: empty target; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17768 93    :: empty target; beam current 15 nA ::                  5-Misc[all]       19-PossiblyNoBeam[all]
+17768 94    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 95    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 96    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 97    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 98    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 99    :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 100   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 101   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 102   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 103   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 104   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 105   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 106   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 107   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 108   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 109   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 110   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 111   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 112   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 113   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 114   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 115   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 116   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 117   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 118   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 119   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 120   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 121   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 122   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 123   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 124   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 125   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 126   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 127   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 128   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 129   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 130   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 131   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 132   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 133   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 134   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 135   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 136   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 137   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 138   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 139   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 140   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 141   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 142   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 143   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 144   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 145   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 146   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 147   :: empty target; beam current 15 nA ::                  5-Misc[all]
+17768 148   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+17768 149   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17768 150   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17768 151   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17768 152   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+17768 153   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+17768 154   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+17768 155   :: empty target; beam current 15 nA ::           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 17769

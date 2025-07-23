@@ -217,12 +217,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17759      | no    |  |
 | 17760      | no    |  |
 | 17762      | no    |  |
-| 17763      | no    |  |
-| 17764      | no    |  |
-| 17765      | no    |  |
-| 17766      | no    |  |
-| 17767      | no    |  |
-| 17768      | no    |  |
+| 17763      | yes   | <pre>empty target, with LHe level at 20%; beam current 20 nA</pre> |
+| 17764      | yes   | <pre>empty target, with LHe level at 20%; beam current 30 nA, but varying</pre> |
+| 17765      | yes   | <pre>empty target, with LHe level at 20%; beam current 25 nA</pre> |
+| 17766      | yes   | <pre>empty target, with LHe level at 72%; beam current 15 nA</pre> |
+| 17767      | yes   | <pre>empty target; beam current 15 nA</pre> |
+| 17768      | yes   | <pre>empty target; beam current 15 nA</pre> |
 | 17769      | no    |  |
 | 17770      | no    |  |
 | 17771      | no    |  |
