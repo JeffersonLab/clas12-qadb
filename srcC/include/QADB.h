@@ -73,7 +73,7 @@ public:
     //...............................
     // golden QA cut
     //```````````````````````````````
-    // returns false if the event is in a file with *any* defect
+    // returns false if the event is in a QA bin with *any* defect
     inline bool Golden(int runnum_, int evnum_) {
         if(!dep_warned_Golden) {
             dep_warned_Golden = true;
@@ -124,18 +124,18 @@ public:
     //.................
     // accessors
     //`````````````````
-    // --- access this file's info
+    // --- access this QA bin's info
     inline int GetRunnum() { return found ? runnum : -1; };
-    inline int GetFilenum() { return found ? filenum : -1; };
-    inline int GetBinnum() { return GetFilenum(); }; // alias for `GetFilenum`
+    inline int GetFilenum() { return found ? filenum : -1; }; // same as `GetBinnum`
+    inline int GetBinnum() { return GetFilenum(); };
     inline std::string GetComment() { return found ? comment : ""; };
     inline int GetEvnumMin() { return found ? evnumMin : -1; };
     inline int GetEvnumMax() { return found ? evnumMax : -1; };
     inline double GetCharge() { return found ? charge : -1; };
     // --- access QA info
-    // check if the file has a particular defect
+    // check if the QA bin has a particular defect
     // - if sector==0, checks the OR of all the sectors
-    // - if an error is thrown, return true so file will be flagged
+    // - if an error is thrown, return true so QA bin will be flagged
     inline bool HasDefect(const char * defectName, int sector=0) {
         return this->HasDefectBit(Bit(defectName),sector);
     };
@@ -143,7 +143,7 @@ public:
     inline bool HasDefectBit(int defect_, int sector=0) {
         return (this->GetDefect(sector) >> defect_) & 0x1;
     };
-    // get this file's defect bitmask;
+    // get this QA bin's defect bitmask;
     // - if sector==0, gets OR of all sectors' bitmasks
     inline int GetDefect(int sector=0);
     // translate defect name to defect bit
@@ -156,22 +156,22 @@ public:
     //.................................................................
     // query qaTree to get QA info for this run number and event number
     // - a lookup is only performed if necessary: if the run number changes
-    //   or if the event number goes outside of the range of the file which
+    //   or if the event number goes outside of the range of the QA bin which
     //   most recently queried
     // - this method is called automatically when evaluating QA cuts
     //`````````````````````````````````````````````````````````````````
     inline bool Query(int runnum_, int evnum_);
-    // if you know the DST file number, you can call QueryByFilenum to perform
-    // lookups via the file number, rather than via the event number
+    // if you know the QA bin number, you can call QueryByBinnum to perform
+    // lookups via the QA bin number, rather than via the event number
     // - you can subsequently call any QA cut method, such as `Golden()`;
     //   although QA cut methods require an event number, no additional lookup
-    //   query will be performed since it already has been done in QueryByFilenum
-    inline bool QueryByFilenum(int runnum_, int filenum_);
-    // get maximum file number for a given run (useful for QADB validation)
-    inline int GetMaxFilenum(int runnum_);
-    // aliases
+    //   query will be performed since it already has been done in QueryByBinnum
     inline bool QueryByBinnum(int runnum_, int binnum_);
+    // get maximum QA bin number for a given run (useful for QADB validation)
     inline int GetMaxBinnum(int runnum_);
+    // aliases (since QA bins used to be DST files)
+    inline bool QueryByFilenum(int runnum_, int filenum_);
+    inline int GetMaxFilenum(int runnum_);
     
     // check if this bin number exists
     inline bool HasBinnum(int runnum_, int binnum_) {
@@ -189,9 +189,9 @@ public:
     //`````````````````````````````````
     // -- accumulator
     // call this method after evaluating QA cuts (or at least after calling Query())
-    // to add the current file's charge to the total charge;
-    // - charge is accumulated per DST file, since the QA filters per DST file
-    // - a DST file's charge is only accounted for if we have not counted it before
+    // to add the current QA bin's charge to the total charge;
+    // - charge is accumulated per QA bin, since the QA filters per QA bin
+    // - a QA bin's charge is only accounted for if we have not counted it before
     inline void AccumulateCharge();
     // -- accessor
     // returns total accumlated charge that passed your QA cuts; call this
@@ -207,13 +207,13 @@ public:
     //`````````````````````````````````````
     // -- accumulator
     // call this method after evaluating QA cuts (or at least after calling Query())
-    // to add the current file's helicity-latched charge to the total helicity-latched charge;
-    // - charge is accumulated per DST file, since the QA filters per DST file
-    // - a DST file's charge is only accounted for if we have not counted it before
+    // to add the current QA bin's helicity-latched charge to the total helicity-latched charge;
+    // - charge is accumulated per QA bin, since the QA filters per QA bin
+    // - a QA bin's charge is only accounted for if we have not counted it before
     inline void AccumulateChargeHL();
     // -- accessor
     // returns total accumlated charge that passed your QA cuts; call this
-    // method after your event loop
+    // method after your event loop; input is the helicity state (-1,0,1)
     inline double GetAccumulatedChargeHL(int state);
     // reset accumulated charge, if you ever need to
     inline void ResetAccumulatedChargeHL();
@@ -488,7 +488,7 @@ bool QADB::OkForAsymmetry(int runnum_, int evnum_) {
     bool foundHere = this->Query(runnum_,evnum_);
     if(!foundHere) return false;
     
-    // check for bits which will always cause the file to be rejected
+    // check for bits which will always cause the QA bin to be rejected
     // (asymMask is defined in the constructor)
     if( defect & asymMask ) return false;
     
@@ -497,7 +497,7 @@ bool QADB::OkForAsymmetry(int runnum_, int evnum_) {
         
         // check if this is a run on the list of runs with a large fraction of
         // events with undefined helicity; if so, accept this run, since none of
-        // these files are marked with `Misc` for any other reasons
+        // these QA bins are marked with `Misc` for any other reasons
         if(allowForOkForAsymmetry.find(runnum_) != allowForOkForAsymmetry.end())
             return true;
         
@@ -505,11 +505,11 @@ bool QADB::OkForAsymmetry(int runnum_, int evnum_) {
         // asymmetries are impacted by this issue
         else if(runnum_>=6736 && runnum_<=6757) return true;
         
-        // otherwise, this file fails the QA
+        // otherwise, this bin fails the QA
         else return false;
     };
     
-    // otherwise, this file passes the QA
+    // otherwise, this bin passes the QA
     return true;
 };
 
@@ -569,13 +569,13 @@ int QADB::Bit(const char * defectName) {
 //.....................................................................
 // query qaTree to get QA info for this run number and event number
 // - a lookup is only performed if necessary: if the run number changes
-//   or if the event number goes outside of the range of the file which
+//   or if the event number goes outside of the range of the QA bin which was
 //   most recently queried
 //`````````````````````````````````````````````````````````````````````
 bool QADB::Query(int runnum_, int evnum_) {
     
     // if the run number changed, or if the event number is outside the range
-    // of the previously queried file, perform a new lookup
+    // of the previously queried bin, perform a new lookup
     if( runnum_ != runnum ||
        ( runnum_ == runnum && (evnum_ < evnumMin || evnum_ > evnumMax ))
        ) {
@@ -590,7 +590,7 @@ bool QADB::Query(int runnum_, int evnum_) {
         chargeHL.insert(std::pair<int,double>(1,-1.0));
         found = false;
         
-        // search for file which contains this event
+        // search for bin which contains this event
         sprintf(runnumStr,"%d",runnum);
         if(qaTree.HasMember(runnumStr)) {
             auto runTree = qaTree[runnumStr].GetObject();
@@ -606,7 +606,7 @@ bool QADB::Query(int runnum_, int evnum_) {
             };
         };
         
-        // print a warning if a file was not found for this event
+        // print a warning if a bin was not found for this event
         // - this warning is suppressed for 'tag1' events
         if(!found && runnum_!=0) {
             std::cerr << "WARNING: QADB::Query could not find runnum=" <<
@@ -618,10 +618,10 @@ bool QADB::Query(int runnum_, int evnum_) {
     return found;
 };
 
-// ------ query by file number
+// ------ query by file number (QA bin number)
 bool QADB::QueryByFilenum(int runnum_, int filenum_) {
     
-    // if the run number or file number changed, perform new lookup
+    // if the run number or bin number changed, perform new lookup
     if( runnum_ != runnum || filenum_ != filenum) {
         
         // reset vars
@@ -669,7 +669,7 @@ bool QADB::QueryByFilenum(int runnum_, int filenum_) {
             };
         };
         
-        // print a warning if a file was not found for this event
+        // print a warning if a bin was not found for this event
         // - this warning is suppressed for 'tag1' events
         if(!found && runnum!=0) {
             std::cerr << "WARNING: QADB::QueryByFilenum could not find runnum=" <<
@@ -684,7 +684,7 @@ bool QADB::QueryByBinnum(int runnum_, int binnum_) {
     return QueryByFilenum(runnum_, binnum_);
 }
 
-// ----- return maximum filenum for a given runnum
+// ----- return maximum filenum (QA bin number) for a given runnum
 int QADB::GetMaxFilenum(int runnum_) {
     int maxFilenum = 0;
     sprintf(runnumStr,"%d",runnum_);
@@ -721,7 +721,7 @@ void QADB::AccumulateCharge() {
 //``````````````````````````````````````````````````
 // -- accumulator
 // call this method after evaluating QA cuts (or at least after calling query())
-// to add the current file's Helicity-Latched charge to the total;
+// to add the current QA bin's Helicity-Latched charge to the total;
 void QADB::AccumulateChargeHL() {
     if(!chargeHLCounted) {
         if(
@@ -748,7 +748,7 @@ double QADB::GetAccumulatedChargeHL(int state) {
     if(state>= -1 && state<=1){
         ret = chargeHLTotal[state];
     }else{
-        std::cerr << "ERROR: QADB unknown helicity state " << state << std::endl;
+        throw std::runtime_error("ERROR: QADB unknown helicity state " + std::to_string(state));
     }
 
     return ret;
