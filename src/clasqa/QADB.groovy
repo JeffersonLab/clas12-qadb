@@ -172,7 +172,7 @@ class QADB {
   //...............................
   // golden QA cut
   //```````````````````````````````
-  // returns false if the event is in a file with *any* defect
+  // returns false if the event is in a QA bin with *any* defect
   public boolean golden(int runnum_, int evnum_) {
     if(!dep_warned_Golden) {
       dep_warned_Golden = true
@@ -220,7 +220,7 @@ class QADB {
     def foundHere = query(runnum_,evnum_)
     if(!foundHere) return false;
 
-    // check for bits which will always cause the file to be rejected 
+    // check for bits which will always cause the QA bin to be rejected 
     // (asymMask is defined in the constructor)
     if( defect & asymMask ) return false
 
@@ -229,19 +229,19 @@ class QADB {
 
       // check if this is a run on the list of runs with a large fraction of
       // events with undefined helicity; if so, accept this run, since none of
-      // these files are marked with `Misc` for any other reasons
+      // these bins are marked with `Misc` for any other reasons
       if( runnum_ in allowForOkForAsymmetry ) return true
 
       // check if this run had an FADC failure; there is no indication spin
       // asymmetries are impacted by this issue
       else if( runnum_ in 6736..6757 ) return true
 
-      // otherwise, this file fails the QA
+      // otherwise, this bin fails the QA
       else return false
 
     }
 
-    // otherwise, this file passes the QA
+    // otherwise, this bin passes the QA
     return true
   }
 
@@ -291,7 +291,7 @@ class QADB {
   //..............
   // accessors
   //``````````````
-  // --- access this file's info
+  // --- access this QA bin's info
   public int getRunnum() { return found ? runnum.toInteger() : -1 }
   public int getFilenum() { return found ? filenum.toInteger() : -1 }
   public int getBinnum() { return getFilenum() }
@@ -300,9 +300,9 @@ class QADB {
   public int getEvnumMax() { return found ? evnumMax : -1 }
   public double getCharge() { return found ? charge : -1 }
   // --- access QA info
-  // check if the file has a particular defect
+  // check if the QA bin has a particular defect
   // - if sector==0, checks the OR of all the sectors
-  // - if an error is thrown, return true so file will be flagged
+  // - if an error is thrown, return true so the QA bin will be flagged
   public boolean hasDefect(String name_, int sector=0) {
     return hasDefectBit(Bit(name_),sector)
   }
@@ -330,7 +330,7 @@ class QADB {
   //....................................................................
   // query qaTree to get QA info for this run number and event number
   // - a lookup is only performed if necessary: if the run number changes
-  //   or if the event number goes outside of the range of the file which
+  //   or if the event number goes outside of the range of the QA bin which was
   //   most recently queried
   // - this method is called automatically when evaluating QA cuts
   //````````````````````````````````````````````````````````````````````
@@ -348,19 +348,19 @@ class QADB {
       charge = -1
       found = false
 
-      // search for file which contains this event
+      // search for bin which contains this event
       if(verbose) println "query qaTree..."
       qaFile = qaTree["$runnum"].find{
         if(verbose) println " search file "+it.key+" for event $evnum_"
         evnum_ >= it.value['evnumMin'] && evnum_ <= it.value['evnumMax']
       }
 
-      // if file found, set variables
+      // if bin found, set variables
       if(qaFile!=null) {
         queryByFilenum(runnum_,qaFile.key.toInteger())
       }
 
-      // print a warning if a file was not found for this event
+      // print a warning if a bin was not found for this event
       // - this warning is suppressed for 'tag1' events
       if(!found && runnum_!=0) {
         System.err << "WARNING: QADB::query could not find " <<
@@ -373,15 +373,15 @@ class QADB {
   }
 
   //........................................
-  // if you know the DST file number, you can call QueryByFilenum to perform
-  // lookups via the file number, rather than via the event number
+  // if you know the DST file number (QA bin number), you can call QueryByFilenum to perform
+  // lookups via the file (bin) number, rather than via the event number
   // - you can subsequently call any QA cut method, such as `Golden()`;
   //   although QA cut methods require an event number, no additional lookup
   //   query will be performed since it already has been done in QueryByFilenum
   //````````````````````````````````````````
   public boolean queryByFilenum(int runnum_, int filenum_) {
 
-    // if the run number or file number changed, perform new lookup
+    // if the run number or file (bin) number changed, perform new lookup
     if( runnum_ != runnum || filenum_ != filenum) {
       
       // reset vars
@@ -422,7 +422,7 @@ class QADB {
         }
       }
 
-      // print a warning if a file was not found for this event
+      // print a warning if a bin was not found for this event
       // - this warning is suppressed for 'tag1' events
       if(!found && runnum_!=0) {
         System.err << "WARNING: QADB::queryByFilenum could not find " <<
@@ -447,7 +447,7 @@ class QADB {
   }
 
 
-  // get maximum file number for a given run (useful for QADB validation)
+  // get maximum file number (QA bin number) for a given run (useful for QADB validation)
   public int getMaxFilenum(int runnum_) {
     int maxFilenum=0
     qaTree["$runnum_"].each{ 
@@ -468,9 +468,9 @@ class QADB {
   //`````````````````````````````````
   // -- accumulator
   // call this method after evaluating QA cuts (or at least after calling query())
-  // to add the current file's charge to the total charge;
-  // - charge is accumulated per DST file, since the QA filters per DST file
-  // - a DST file's charge is only accounted for if we have not counted it before
+  // to add the current QA bin's charge to the total charge;
+  // - charge is accumulated per QA bin, since the QA filters per QA bin
+  // - a QA bin's charge is only accounted for if we have not counted it before
   public void accumulateCharge() {
     if(!chargeCounted) {
       if(!( [runnum,filenum] in chargeCountedFiles )) {
@@ -494,7 +494,7 @@ class QADB {
   //``````````````````````````````````````````````````
   // -- accumulator
   // call this method after evaluating QA cuts (or at least after calling query())
-  // to add the current file's Helicity-Latched charge to the total;
+  // to add the current QA bin's Helicity-Latched charge to the total;
   public void accumulateChargeHL() {
     if(!chargeHLCounted) {
       if(!( [runnum,filenum] in chargeHLCountedFiles )) {
