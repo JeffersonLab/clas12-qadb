@@ -17,12 +17,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | --- | ---            | ---             |
 | 17482      | yes   | <pre>empty target</pre> |
 | 17483      | yes   | <pre>empty target, with LHe level at 50%</pre> |
-| 17484      | no    |  |
+| 17484      | yes   | <pre>raster tuning</pre> |
 | 17485      | no    |  |
 | 17486      | no    |  |
 | 17487      | no    |  |
 | 17490      | no    |  |
-| 17491      | no    |  |
+| 17491      | yes   | <pre>raster tuning</pre> |
 | 17492      | no    |  |
 | 17493      | no    |  |
 | 17494      | no    |  |
@@ -35,8 +35,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17502      | no    |  |
 | 17504      | no    |  |
 | 17505      | no    |  |
-| 17506      | no    |  |
-| 17507      | no    |  |
+| 17506      | yes   | <pre>possible target polarization issues</pre> |
+| 17507      | yes   | <pre>possible target polarization issues</pre> |
 | 17508      | no    |  |
 | 17509      | no    |  |
 | 17510      | no    |  |
@@ -94,26 +94,26 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17587      | no    |  |
 | 17588      | no    |  |
 | 17589      | no    |  |
-| 17593      | no    |  |
-| 17594      | no    |  |
-| 17595      | no    |  |
-| 17596      | no    |  |
-| 17597      | no    |  |
-| 17598      | no    |  |
-| 17599      | yes   | <pre>CND TDC issue</pre> |
-| 17600      | no    |  |
-| 17601      | no    |  |
-| 17602      | no    |  |
-| 17603      | no    |  |
-| 17604      | no    |  |
-| 17605      | no    |  |
-| 17606      | no    |  |
-| 17607      | no    |  |
-| 17608      | no    |  |
-| 17609      | no    |  |
-| 17610      | no    |  |
-| 17611      | no    |  |
-| 17617      | yes   | <pre>no ECAL sector 2 ADC</pre> |
+| 17593      | yes   | <pre>N/F as a function of run number differs for sector 4, whereas usually N/F changes similarly for each sector</pre> |
+| 17594      | yes   | <pre>N/F as a function of run number differs for sector 4, whereas usually N/F changes similarly for each sector</pre> |
+| 17595      | yes   | <pre>N/F as a function of run number differs for sector 4, whereas usually N/F changes similarly for each sector</pre> |
+| 17596      | yes   | <pre>N/F as a function of run number differs for sector 4, whereas usually N/F changes similarly for each sector</pre> |
+| 17597      | yes   | <pre>N/F as a function of run number differs for sector 4, whereas usually N/F changes similarly for each sector</pre> |
+| 17598      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17599      | yes   | <pre>CND TDC issue; N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17600      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17601      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17602      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17603      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17604      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17605      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17606      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17607      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17608      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17609      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17610      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17611      | yes   | <pre>N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
+| 17617      | yes   | <pre>no ECAL sector 2 ADC; N/F as a function of run number varies more than usual, but slowly, until the next target change</pre> |
 | 17624      | no    |  |
 | 17625      | no    |  |
 | 17626      | no    |  |
@@ -149,7 +149,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17666      | no    |  |
 | 17667      | no    |  |
 | 17668      | no    |  |
-| 17669      | no    |  |
+| 17669      | yes   | <pre>slight decrease in N/F for sector 6 for half of the run, likely from DC HV trip</pre> |
 | 17670      | no    |  |
 | 17671      | no    |  |
 | 17672      | no    |  |
@@ -166,15 +166,15 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17685      | no    |  |
 | 17686      | no    |  |
 | 17687      | no    |  |
-| 17688      | no    |  |
-| 17689      | yes   | <pre>BST and DC multiplicities show irregular pattern with a lot of zeroes</pre> |
-| 17690      | no    |  |
-| 17691      | no    |  |
-| 17692      | no    |  |
+| 17688      | yes   | <pre>N/F slightly low for sector 6</pre> |
+| 17689      | yes   | <pre>BST and DC multiplicities show irregular pattern with a lot of zeroes; N/F slightly low for sector 6</pre> |
+| 17690      | yes   | <pre>N/F slightly low for sector 6</pre> |
+| 17691      | yes   | <pre>N/F slightly low for sector 6</pre> |
+| 17692      | yes   | <pre>N/F slightly low for sector 6</pre> |
 | 17693      | no    |  |
 | 17694      | no    |  |
 | 17695      | no    |  |
-| 17696      | no    |  |
+| 17696      | yes   | <pre>sector 2 N/F has increased, relative to other sectors, starting from this run onward</pre> |
 | 17697      | no    |  |
 | 17698      | no    |  |
 | 17699      | no    |  |
@@ -189,8 +189,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17726      | no    |  |
 | 17727      | no    |  |
 | 17728      | no    |  |
-| 17729      | yes   | <pre>ECAL-I and ECAL-O U plane HV issue</pre> |
-| 17730      | yes   | <pre>ECAL4-I and ECAL-O U not operational</pre> |
+| 17729      | yes   | <pre>ECAL-I and ECAL-O U plane HV issue</pre><pre>ECAL-I and ECAL-O U plane HV issue; slight decrease in N/F for sector 4 in second half of the run</pre> |
+| 17730      | yes   | <pre>ECAL4-I and ECAL-O U not operational; sector 4 N/F is still lower than usual for this run</pre> |
 | 17732      | no    |  |
 | 17733      | no    |  |
 | 17734      | no    |  |
@@ -228,8 +228,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17771      | no    |  |
 | 17772      | no    |  |
 | 17773      | no    |  |
-| 17774      | no    |  |
-| 17775      | no    |  |
+| 17774      | yes   | <pre>increase in N/F; low beam current</pre> |
+| 17775      | yes   | <pre>very slight loss in N/F for the first quarter of the run</pre> |
 | 17776      | no    |  |
 | 17777      | no    |  |
 | 17778      | no    |  |
@@ -254,7 +254,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17798      | no    |  |
 | 17799      | no    |  |
 | 17800      | no    |  |
-| 17801      | no    |  |
+| 17801      | yes   | <pre>hole in TDC PCAL 2 distribution, but QA timelines look okay</pre> |
 | 17802      | no    |  |
 | 17803      | no    |  |
 | 17804      | no    |  |
