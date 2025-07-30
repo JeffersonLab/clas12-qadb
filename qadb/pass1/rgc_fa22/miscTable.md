@@ -25,12 +25,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16857      | yes   | <pre> wrong trigger file rgc_300MeV_v1.3_no_DC.cnf</pre> |
 | 16859      | no    |  |
 | 16860      | no    |  |
-| 16861      | yes   | <pre>empty target; varied beam current</pre> |
+| 16861      | yes   | <pre>raster calibration target; beam current varying</pre> |
 | 16872      | yes   | <pre>empty target, 29 nA</pre> |
 | 16874      | no    |  |
 | 16877      | no    |  |
 | 16878      | no    |  |
-| 16879      | yes   | <pre>beam centering and raster size study</pre> |
+| 16879      | yes   | <pre>beam centering and raster size study; N/F higher than usual, but steady</pre> |
 | 16880      | yes   | <pre>CND TDCs off for part of the run; beam x-position is clipping target; raster adjustments</pre> |
 | 16881      | yes   | <pre>raster check; varying beam current</pre><pre>raster check; varying beam current; large fraction of events with undefined helicity, near the end of the run</pre> |
 | 16882      | no    |  |
@@ -39,7 +39,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16888      | no    |  |
 | 16889      | no    |  |
 | 16890      | no    |  |
-| 16898      | yes   | <pre>varying beam current</pre> |
+| 16898      | yes   | <pre>varying beam current; raster tuning</pre> |
 | 16899      | yes   | <pre>raster tuning</pre> |
 | 16901      | yes   | <pre>tuning raster to avoid grazing</pre> |
 | 16902      | no    |  |
@@ -47,7 +47,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16904      | no    |  |
 | 16905      | no    |  |
 | 16907      | no    |  |
-| 16908      | no    |  |
+| 16908      | yes   | <pre>raster tuning</pre> |
 | 16910      | no    |  |
 | 16911      | no    |  |
 | 16912      | no    |  |
@@ -67,7 +67,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16935      | no    |  |
 | 16943      | no    |  |
 | 16944      | no    |  |
-| 16945      | no    |  |
+| 16945      | yes   | <pre>raster tuning</pre> |
 | 16946      | no    |  |
 | 16947      | no    |  |
 | 16948      | no    |  |
@@ -84,9 +84,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16965      | no    |  |
 | 16967      | no    |  |
 | 16968      | no    |  |
-| 16969      | yes   | <pre>empty target; varying beam current</pre> |
+| 16969      | yes   | <pre>empty target; varying beam current; LHe bath not full for entire run</pre> |
 | 16970      | yes   | <pre>empty target, 20 nA</pre> |
-| 16975      | yes   | <pre>empty target, 20 nA</pre> |
+| 16975      | yes   | <pre>empty target, 20 nA; delayed helicity info may not be saved, but pion beam spin asymmetry looks normal</pre> |
 | 16976      | yes   | <pre>empty target, 20 nA</pre> |
 | 16978      | yes   | <pre>empty target, 20 nA</pre> |
 | 16979      | yes   | <pre>empty target, 14 nA</pre> |
@@ -126,15 +126,15 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17040      | no    |  |
 | 17041      | no    |  |
 | 17043      | no    |  |
-| 17044      | no    |  |
+| 17044      | yes   | <pre>sector 4 N/F slightly lower for more than half of the run</pre> |
 | 17046      | no    |  |
 | 17047      | no    |  |
-| 17048      | no    |  |
+| 17048      | yes   | <pre>sector 4 N/F slightly lower for more than half of the run</pre> |
 | 17049      | no    |  |
 | 17050      | no    |  |
-| 17051      | no    |  |
+| 17051      | yes   | <pre>sector 4 N/F slightly lower near the end of the run</pre> |
 | 17052      | no    |  |
-| 17053      | no    |  |
+| 17053      | yes   | <pre>sector 5 down for most of this run</pre> |
 | 17054      | no    |  |
 | 17055      | no    |  |
 | 17056      | no    |  |
@@ -186,7 +186,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17139      | no    |  |
 | 17140      | no    |  |
 | 17144      | no    |  |
-| 17145      | no    |  |
+| 17145      | yes   | <pre>raster tuning</pre> |
 | 17146      | no    |  |
 | 17147      | no    |  |
 | 17149      | no    |  |
@@ -218,12 +218,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17181      | yes   | <pre>RICH off</pre> |
 | 17182      | yes   | <pre>RICH off</pre> |
 | 17183      | yes   | <pre>RICH off</pre> |
-| 17185      | yes   | <pre>raster test, 4 nA</pre> |
-| 17187      | yes   | <pre>VTP trigger bit low</pre> |
-| 17188      | no    |  |
-| 17189      | no    |  |
-| 17190      | yes   | <pre>no trigger on sector 4; RICH off</pre> |
-| 17191      | yes   | <pre>RICH off</pre> |
+| 17185      | yes   | <pre>raster test, 4 nA; RICH sector 1 partially down</pre> |
+| 17187      | yes   | <pre>VTP trigger bit low; RICH sector 1 partially down</pre><pre>VTP trigger bit low; RICH sector 1 partially down; sector 5 N/F loss near end of run</pre> |
+| 17188      | yes   | <pre>RICH sector 1 partially down</pre> |
+| 17189      | yes   | <pre>RICH sector 1 partially down</pre> |
+| 17190      | yes   | <pre>no trigger on sector 4; RICH sector 1 partially down</pre> |
+| 17191      | yes   | <pre>RICH sector 1 partially recovered during run</pre> |
 | 17192      | no    |  |
 | 17195      | no    |  |
 | 17197      | no    |  |
@@ -244,7 +244,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17225      | no    |  |
 | 17227      | no    |  |
 | 17229      | yes   | <pre>no trigger for sector 3</pre> |
-| 17230      | no    |  |
+| 17230      | yes   | <pre>raster tuning</pre> |
 | 17231      | no    |  |
 | 17233      | no    |  |
 | 17236      | no    |  |
@@ -258,8 +258,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17246      | no    |  |
 | 17248      | no    |  |
 | 17249      | no    |  |
-| 17252      | no    |  |
-| 17253      | no    |  |
+| 17252      | yes   | <pre>some DAQ troubleshooting, but QA timelines look okay</pre> |
+| 17253      | yes   | <pre>sector 3 N/F slightly lower near the end of this run</pre> |
 | 17254      | yes   | <pre>no trigger in sector 3</pre> |
 | 17255      | no    |  |
 | 17258      | no    |  |
@@ -273,7 +273,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17269      | no    |  |
 | 17270      | no    |  |
 | 17271      | no    |  |
-| 17272      | no    |  |
+| 17272      | yes   | <pre>raster tuning</pre> |
 | 17273      | no    |  |
 | 17274      | no    |  |
 | 17275      | no    |  |
@@ -322,9 +322,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17336      | no    |  |
 | 17337      | no    |  |
 | 17340      | no    |  |
-| 17342      | no    |  |
-| 17346      | no    |  |
-| 17347      | no    |  |
+| 17342      | yes   | <pre>sector 5 N/F is slightly lower and possibly decreasing</pre> |
+| 17346      | yes   | <pre>sector 5 N/F is slightly lower and possibly decreasing</pre> |
+| 17347      | yes   | <pre>sector 5 N/F is slightly lower and possibly decreasing</pre> |
 | 17348      | no    |  |
 | 17353      | no    |  |
 | 17355      | no    |  |
