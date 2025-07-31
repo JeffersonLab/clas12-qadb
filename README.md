@@ -370,6 +370,9 @@ if(qa.Pass(runnum, evnum)) {
   // accumulate FC charge (it will only accumulate once per QA bin you analyzed)
   qa.AccumulateCharge();
 
+  // if you want helicity-latched charge (from HEL::scaler), there is a similar method
+  qa.AccumulateChargeHL();
+
   /* continue your analysis here */
 }
 ```
@@ -378,6 +381,11 @@ if(qa.Pass(runnum, evnum)) {
 ```cpp
 // the total FC charge, filtered by the QA
 auto total_charge = qa.GetAccumulatedCharge();
+
+// or the helicity-latched charge
+auto total_charge_for_positive_helicity  = qa.GetAccumulatedChargeHL(1);
+auto total_charge_for_negative_helicity  = qa.GetAccumulatedChargeHL(-1);
+auto total_charge_for_undefined_helicity = qa.GetAccumulatedChargeHL(0);
 ```
 
 > [!CAUTION]
@@ -506,6 +514,14 @@ bin that you include in your analysis. To help, you can either:
     you analyzed (accumulation performed per QA bin)
   * at the end of your event loop, the total accumulated charge you analyzed is
     given by `QADB::GetAccumulatedCharge()`
+
+> [!NOTE]
+> Helicity-latched charge is accessed using similar methods:
+> - `QADB::AccumulateChargeHL()`, for each event
+> - `QADB::GetAccumulatedChargeHL(int state)` at the end, where `state` is the helicity: `1` or `-1` (or `0` for undefined helicity).
+>
+> Helicity-latched charge is not available for all datasets' QADBs; if you need it for a certain dataset where
+> it is not available, request it from the QADB maintainers.
 
 > [!CAUTION]
 > For Pass 1 QA results for Run Groups A, B, K, and M, we find some
