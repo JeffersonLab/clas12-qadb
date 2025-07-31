@@ -20,21 +20,18 @@ int main(int argc, char ** argv) {
   int evnum;
   string defname;
   int chargeInt;
-
+  int HLstate[] = {-1,0,1};
 
   // specify run number list
   vector<int> runnumList;
-  runnumList.push_back(5682);
-  runnumList.push_back(5683);
   runnumList.push_back(5695);
-  runnumList.push_back(5751);
-  runnumList.push_back(5827);
-  
+  runnumList.push_back(16042);
+  runnumList.push_back(16049);
+  runnumList.push_back(16138);
 
   // specify QA criteria
   qa->CheckForDefect("SectorLoss");
   qa->CheckForDefect("MarginalOutlier");
-
 
   // loop over runs
   for(int runnum : runnumList) {
@@ -54,18 +51,20 @@ int main(int argc, char ** argv) {
         qa->Pass(runnum,evnum) &&
         !( runnum==5827 && (filenum==10 || filenum==45 || filenum==50) )
       ) {
-        qa->AccumulateCharge();
+        qa->AccumulateChargeHL();
       };
 
     }; // end file loop
 
     // print this run's charge, and reset
-    cout << runnum << " " << qa->GetAccumulatedCharge() << endl;
-    qa->ResetAccumulatedCharge();
+    cout << runnum << endl;
+    for(int state : HLstate){
+        cout << "HL charge(" << state << ")=" << qa->GetAccumulatedChargeHL(state) << endl;
+    }
+    qa->ResetAccumulatedChargeHL();
 
   }; // end run loop
   
 
   return 0;
 }
-
