@@ -53,26 +53,26 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17527      | no    |  |
 | 17529      | no    |  |
 | 17530      | no    |  |
-| 17535      | no    |  |
-| 17537      | no    |  |
-| 17538      | no    |  |
-| 17540      | no    |  |
-| 17541      | no    |  |
-| 17542      | no    |  |
-| 17544      | no    |  |
-| 17545      | no    |  |
-| 17546      | no    |  |
-| 17547      | no    |  |
-| 17548      | no    |  |
-| 17549      | no    |  |
-| 17550      | no    |  |
-| 17551      | no    |  |
-| 17552      | no    |  |
-| 17553      | no    |  |
-| 17554      | no    |  |
-| 17555      | yes   | <pre>wrong helicity sign</pre> |
-| 17556      | no    |  |
-| 17557      | no    |  |
+| 17535      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17537      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17538      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17540      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17541      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17542      | yes   | <pre>CND tdc issue, PMTs 1-3 are down; Raster adjusted to avoid raster hot spot</pre> |
+| 17544      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17545      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17546      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17547      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17548      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17549      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17550      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17551      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17552      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17553      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17554      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17555      | yes   | <pre>wrong helicity sign; CND tdc issue, PMTs 1-3 are down</pre> |
+| 17556      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
+| 17557      | yes   | <pre>CND tdc issue, PMTs 1-3 are down</pre> |
 | 17558      | no    |  |
 | 17559      | no    |  |
 | 17560      | no    |  |
@@ -86,8 +86,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17575      | no    |  |
 | 17576      | no    |  |
 | 17577      | no    |  |
-| 17581      | no    |  |
-| 17583      | yes   | <pre>test run, according to logbook</pre> |
+| 17581      | yes   | <pre>BMT sector 1, layer 1 extremely high occupancy</pre> |
+| 17583      | yes   | <pre>BMT test run, according to logbook</pre> |
 | 17584      | no    |  |
 | 17585      | no    |  |
 | 17586      | no    |  |
