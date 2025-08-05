@@ -90,7 +90,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 16976      | yes   | <pre>empty target, 20 nA</pre> |
 | 16978      | yes   | <pre>empty target, 20 nA</pre> |
 | 16979      | yes   | <pre>empty target, 14 nA</pre> |
-| 16982      | yes   | <pre>5 nA run</pre> |
+| 16982      | yes   | <pre>5 nA run; LHe in bath may not be completely full for the entire run</pre> |
 | 16983      | no    |  |
 | 16984      | no    |  |
 | 16986      | no    |  |
@@ -160,7 +160,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17085      | no    |  |
 | 17086      | yes   | <pre>varied beam current</pre> |
 | 17087      | no    |  |
-| 17088      | no    |  |
+| 17088      | yes   | <pre>Ran briefly at 8nA, then went to 6nA</pre> |
 | 17092      | no    |  |
 | 17093      | no    |  |
 | 17095      | no    |  |
@@ -202,7 +202,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17161      | no    |  |
 | 17162      | no    |  |
 | 17163      | no    |  |
-| 17164      | no    |  |
+| 17164      | yes   | <pre>Ran briefly at 5nA so MCC could correct beam position</pre> |
 | 17165      | no    |  |
 | 17166      | no    |  |
 | 17167      | no    |  |
@@ -235,7 +235,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17211      | yes   | <pre>BST multiplicity issue</pre> |
 | 17212      | no    |  |
 | 17214      | no    |  |
-| 17215      | no    |  |
+| 17215      | yes   | <pre>Ran briefly at 4nA, then went to 8nA</pre> |
 | 17216      | no    |  |
 | 17221      | no    |  |
 | 17222      | no    |  |
@@ -318,9 +318,9 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 17331      | yes   | <pre>trigger bit normalization issue, number of trigger electrons is very low</pre> |
 | 17332      | no    |  |
 | 17333      | no    |  |
-| 17334      | no    |  |
-| 17336      | no    |  |
-| 17337      | no    |  |
+| 17334      | yes   | <pre>Ran briefly at 4nA, then went to 8nA</pre> |
+| 17336      | yes   | <pre>Beam current changed between 5nA and 8nA</pre> |
+| 17337      | yes   | <pre>DAQ rate dropped</pre> |
 | 17340      | no    |  |
 | 17342      | yes   | <pre>sector 5 N/F is slightly lower and possibly decreasing</pre> |
 | 17346      | yes   | <pre>sector 5 N/F is slightly lower and possibly decreasing</pre> |

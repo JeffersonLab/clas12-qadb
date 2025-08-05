@@ -12141,146 +12141,146 @@ RUN: 16979
 ==================================================================================
 RUN: 16982
 ----------------------------------------------------------------------------------
-16982 0     :: 5 nA run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
-16982 1     :: 5 nA run ::           4-LowLiveTime[all]                  5-Misc[all]
-16982 2     :: 5 nA run ::                  5-Misc[all]
-16982 3     :: 5 nA run ::                  5-Misc[all]
-16982 4     :: 5 nA run ::                  5-Misc[all]
-16982 5     :: 5 nA run ::                  5-Misc[all]
-16982 6     :: 5 nA run ::                  5-Misc[all]
-16982 7     :: 5 nA run ::                  5-Misc[all]
-16982 8     :: 5 nA run ::                  5-Misc[all]
-16982 9     :: 5 nA run ::                  5-Misc[all]
-16982 10    :: 5 nA run ::                  5-Misc[all]
-16982 11    :: 5 nA run ::                  5-Misc[all]
-16982 12    :: 5 nA run ::                  5-Misc[all]
-16982 13    :: 5 nA run ::                  5-Misc[all]
-16982 14    :: 5 nA run ::                  5-Misc[all]
-16982 15    :: 5 nA run ::                  5-Misc[all]
-16982 16    :: 5 nA run ::                  5-Misc[all]
-16982 17    :: 5 nA run ::                  5-Misc[all]
-16982 18    :: 5 nA run ::                  5-Misc[all]
-16982 19    :: 5 nA run ::                  5-Misc[all]
-16982 20    :: 5 nA run ::                  5-Misc[all]
-16982 21    :: 5 nA run ::                  5-Misc[all]
-16982 22    :: 5 nA run ::                  5-Misc[all]
-16982 23    :: 5 nA run ::                  5-Misc[all]
-16982 24    :: 5 nA run ::                  5-Misc[all]
-16982 25    :: 5 nA run ::                  5-Misc[all]
-16982 26    :: 5 nA run ::                  5-Misc[all]
-16982 27    :: 5 nA run ::                  5-Misc[all]
-16982 28    :: 5 nA run ::                  5-Misc[all]
-16982 29    :: 5 nA run ::                  5-Misc[all]
-16982 30    :: 5 nA run ::                  5-Misc[all]
-16982 31    :: 5 nA run ::                  5-Misc[all]
-16982 32    :: 5 nA run ::                  5-Misc[all]
-16982 33    :: 5 nA run ::                  5-Misc[all]
-16982 34    :: 5 nA run ::                  5-Misc[all]
-16982 35    :: 5 nA run ::                  5-Misc[all]
-16982 36    :: 5 nA run ::                  5-Misc[all]
-16982 37    :: 5 nA run ::                  5-Misc[all]
-16982 38    :: 5 nA run ::                  5-Misc[all]
-16982 39    :: 5 nA run ::                  5-Misc[all]
-16982 40    :: 5 nA run ::                  5-Misc[all]
-16982 41    :: 5 nA run ::                  5-Misc[all]
-16982 42    :: 5 nA run ::                  5-Misc[all]
-16982 43    :: 5 nA run ::                  5-Misc[all]
-16982 44    :: 5 nA run ::                  5-Misc[all]
-16982 45    :: 5 nA run ::                  5-Misc[all]
-16982 46    :: 5 nA run ::                  5-Misc[all]
-16982 47    :: 5 nA run ::                  5-Misc[all]
-16982 48    :: 5 nA run ::                  5-Misc[all]
-16982 49    :: 5 nA run ::                  5-Misc[all]
-16982 50    :: 5 nA run ::                  5-Misc[all]
-16982 51    :: 5 nA run ::                  5-Misc[all]
-16982 52    :: 5 nA run ::                  5-Misc[all]
-16982 53    :: 5 nA run ::                  5-Misc[all]
-16982 54    :: 5 nA run ::                  5-Misc[all]
-16982 55    :: 5 nA run ::                  5-Misc[all]
-16982 56    :: 5 nA run ::                  5-Misc[all]
-16982 57    :: 5 nA run ::                  5-Misc[all]
-16982 58    :: 5 nA run ::                  5-Misc[all]
-16982 59    :: 5 nA run ::                  5-Misc[all]
-16982 60    :: 5 nA run ::                  5-Misc[all]
-16982 61    :: 5 nA run ::                  5-Misc[all]
-16982 62    :: 5 nA run ::                  5-Misc[all]
-16982 63    :: 5 nA run ::                  5-Misc[all]
-16982 64    :: 5 nA run ::                  5-Misc[all]
-16982 65    :: 5 nA run ::                  5-Misc[all]
-16982 66    :: 5 nA run ::                  5-Misc[all]
-16982 67    :: 5 nA run ::                  5-Misc[all]
-16982 68    :: 5 nA run ::                  5-Misc[all]
-16982 69    :: 5 nA run ::                  5-Misc[all]
-16982 70    :: 5 nA run ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
-16982 71    :: 5 nA run ::                  5-Misc[all]
-16982 72    :: 5 nA run ::                  5-Misc[all]
-16982 73    :: 5 nA run ::                  5-Misc[all]
-16982 74    :: 5 nA run ::                  5-Misc[all]
-16982 75    :: 5 nA run ::                  5-Misc[all]
-16982 76    :: 5 nA run ::                  5-Misc[all]
-16982 77    :: 5 nA run ::                  5-Misc[all]
-16982 78    :: 5 nA run ::                  5-Misc[all]
-16982 79    :: 5 nA run ::                  5-Misc[all]
-16982 80    :: 5 nA run ::                  5-Misc[all]
-16982 81    :: 5 nA run ::                  5-Misc[all]
-16982 82    :: 5 nA run ::                  5-Misc[all]
-16982 83    :: 5 nA run ::                  5-Misc[all]
-16982 84    :: 5 nA run ::                  5-Misc[all]
-16982 85    :: 5 nA run ::                  5-Misc[all]
-16982 86    :: 5 nA run ::                  5-Misc[all]
-16982 87    :: 5 nA run ::                  5-Misc[all]
-16982 88    :: 5 nA run ::                  5-Misc[all]
-16982 89    :: 5 nA run ::                  5-Misc[all]
-16982 90    :: 5 nA run ::                  5-Misc[all]
-16982 91    :: 5 nA run ::                  5-Misc[all]
-16982 92    :: 5 nA run ::                  5-Misc[all]
-16982 93    :: 5 nA run ::                  5-Misc[all]
-16982 94    :: 5 nA run ::                  5-Misc[all]
-16982 95    :: 5 nA run ::                  5-Misc[all]
-16982 96    :: 5 nA run ::                  5-Misc[all]
-16982 97    :: 5 nA run ::                  5-Misc[all]
-16982 98    :: 5 nA run ::                  5-Misc[all]
-16982 99    :: 5 nA run ::                  5-Misc[all]
-16982 100   :: 5 nA run ::                  5-Misc[all]
-16982 101   :: 5 nA run ::                  5-Misc[all]
-16982 102   :: 5 nA run ::                  5-Misc[all]
-16982 103   :: 5 nA run ::                  5-Misc[all]
-16982 104   :: 5 nA run ::                  5-Misc[all]
-16982 105   :: 5 nA run ::                  5-Misc[all]
-16982 106   :: 5 nA run ::                  5-Misc[all]
-16982 107   :: 5 nA run ::                  5-Misc[all]
-16982 108   :: 5 nA run ::                  5-Misc[all]
-16982 109   :: 5 nA run ::                  5-Misc[all]
-16982 110   :: 5 nA run ::                  5-Misc[all]
-16982 111   :: 5 nA run ::                  5-Misc[all]
-16982 112   :: 5 nA run ::                  5-Misc[all]
-16982 113   :: 5 nA run ::                  5-Misc[all]
-16982 114   :: 5 nA run ::                  5-Misc[all]
-16982 115   :: 5 nA run ::                  5-Misc[all]
-16982 116   :: 5 nA run ::                  5-Misc[all]
-16982 117   :: 5 nA run ::                  5-Misc[all]
-16982 118   :: 5 nA run ::                  5-Misc[all]
-16982 119   :: 5 nA run ::                  5-Misc[all]
-16982 120   :: 5 nA run ::                  5-Misc[all]
-16982 121   :: 5 nA run ::                  5-Misc[all]
-16982 122   :: 5 nA run ::                  5-Misc[all]
-16982 123   :: 5 nA run ::                  5-Misc[all]
-16982 124   :: 5 nA run ::                  5-Misc[all]
-16982 125   :: 5 nA run ::                  5-Misc[all]
-16982 126   :: 5 nA run ::                  5-Misc[all]
-16982 127   :: 5 nA run ::                  5-Misc[all]
-16982 128   :: 5 nA run ::                  5-Misc[all]
-16982 129   :: 5 nA run ::                  5-Misc[all]
-16982 130   :: 5 nA run ::                  5-Misc[all]
-16982 131   :: 5 nA run ::                  5-Misc[all]
-16982 132   :: 5 nA run ::                  5-Misc[all]
-16982 133   :: 5 nA run ::                  5-Misc[all]
-16982 134   :: 5 nA run ::                  5-Misc[all]
-16982 135   :: 5 nA run ::                  5-Misc[all]
-16982 136   :: 5 nA run ::                  5-Misc[all]
-16982 137   :: 5 nA run ::                  5-Misc[all]
-16982 138   :: 5 nA run ::                  5-Misc[all]
-16982 139   :: 5 nA run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+16982 0     :: 5 nA run; LHe in bath may not be completely full for the entire run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+16982 1     :: 5 nA run; LHe in bath may not be completely full for the entire run ::           4-LowLiveTime[all]                  5-Misc[all]
+16982 2     :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 3     :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 4     :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 5     :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 6     :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 7     :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 8     :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 9     :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 10    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 11    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 12    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 13    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 14    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 15    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 16    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 17    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 18    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 19    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 20    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 21    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 22    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 23    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 24    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 25    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 26    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 27    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 28    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 29    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 30    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 31    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 32    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 33    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 34    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 35    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 36    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 37    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 38    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 39    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 40    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 41    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 42    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 43    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 44    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 45    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 46    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 47    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 48    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 49    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 50    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 51    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 52    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 53    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 54    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 55    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 56    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 57    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 58    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 59    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 60    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 61    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 62    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 63    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 64    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 65    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 66    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 67    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 68    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 69    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 70    :: 5 nA run; LHe in bath may not be completely full for the entire run ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+16982 71    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 72    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 73    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 74    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 75    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 76    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 77    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 78    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 79    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 80    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 81    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 82    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 83    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 84    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 85    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 86    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 87    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 88    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 89    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 90    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 91    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 92    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 93    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 94    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 95    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 96    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 97    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 98    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 99    :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 100   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 101   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 102   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 103   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 104   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 105   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 106   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 107   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 108   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 109   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 110   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 111   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 112   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 113   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 114   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 115   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 116   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 117   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 118   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 119   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 120   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 121   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 122   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 123   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 124   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 125   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 126   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 127   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 128   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 129   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 130   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 131   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 132   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 133   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 134   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 135   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 136   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 137   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 138   :: 5 nA run; LHe in bath may not be completely full for the entire run ::                  5-Misc[all]
+16982 139   :: 5 nA run; LHe in bath may not be completely full for the entire run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 16983
@@ -22331,20 +22331,20 @@ RUN: 17087
 ==================================================================================
 RUN: 17088
 ----------------------------------------------------------------------------------
-17088 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-17088 1               4-LowLiveTime[all]
-17088 2     |
-17088 3     |
-17088 4     |
-17088 5     |
-17088 6     |
-17088 7     |
-17088 8     |
-17088 9     |
-17088 10    |
-17088 11    |
-17088 12    |
-17088 13             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
+17088 0     :: Ran briefly at 8nA, then went to 6nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17088 1     :: Ran briefly at 8nA, then went to 6nA ::           4-LowLiveTime[all]                  5-Misc[all]
+17088 2     :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 3     :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 4     :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 5     :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 6     :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 7     :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 8     :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 9     :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 10    :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 11    :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 12    :: Ran briefly at 8nA, then went to 6nA ::                  5-Misc[all]
+17088 13    :: Ran briefly at 8nA, then went to 6nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
 17088 14    |
 17088 15    |
 17088 16    |
@@ -29510,56 +29510,56 @@ RUN: 17164
 17164 39    |
 17164 40    |
 17164 41    |
-17164 42    |
-17164 43    |
-17164 44    |
-17164 45    |
-17164 46    |
-17164 47    |
-17164 48    |
-17164 49    |
-17164 50    |
-17164 51    |
-17164 52    |
-17164 53    |
-17164 54    |
-17164 55          2-MarginalOutlier[346]
-17164 56             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17164 57    |
-17164 58    |
-17164 59    |
-17164 60    |
-17164 61    |
-17164 62    |
-17164 63    |
-17164 64    |
-17164 65    |
-17164 66    |
-17164 67    |
-17164 68    |
-17164 69    |
-17164 70    |
-17164 71    |
-17164 72    |
-17164 73    |
-17164 74    |
-17164 75    |
-17164 76    |
-17164 77    |
-17164 78    |
-17164 79    |
-17164 80    |
-17164 81    |
-17164 82    |
-17164 83    |
-17164 84    |
-17164 85    |
-17164 86    |
-17164 87    |
-17164 88    |
-17164 89    |
-17164 90    |
-17164 91    |
+17164 42    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 43    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 44    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 45    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 46    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 47    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 48    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 49    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 50    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 51    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 52    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 53    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 54    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 55    :: Ran briefly at 5nA so MCC could correct beam position ::       2-MarginalOutlier[346]                  5-Misc[all]
+17164 56    :: Ran briefly at 5nA so MCC could correct beam position ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17164 57    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 58    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 59    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 60    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 61    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 62    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 63    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 64    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 65    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 66    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 67    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 68    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 69    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 70    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 71    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 72    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 73    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 74    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 75    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 76    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 77    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 78    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 79    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 80    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 81    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 82    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 83    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 84    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 85    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 86    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 87    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 88    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 89    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 90    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
+17164 91    :: Ran briefly at 5nA so MCC could correct beam position ::                  5-Misc[all]
 17164 92    |
 17164 93    |
 17164 94    |
@@ -34492,14 +34492,14 @@ RUN: 17214
 ==================================================================================
 RUN: 17215
 ----------------------------------------------------------------------------------
-17215 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-17215 1               4-LowLiveTime[all]
-17215 2     |
-17215 3     |
-17215 4     |
-17215 5     |
-17215 6     |
-17215 7     |
+17215 0     :: Ran briefly at 4nA, then went to 8nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17215 1     :: Ran briefly at 4nA, then went to 8nA ::           4-LowLiveTime[all]                  5-Misc[all]
+17215 2     :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17215 3     :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17215 4     :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17215 5     :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17215 6     :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17215 7     :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
 17215 8     |
 17215 9     |
 17215 10    |
@@ -48615,16 +48615,16 @@ RUN: 17334
 17334 23    |
 17334 24             0-TotalOutlier[all]           4-LowLiveTime[all]       19-PossiblyNoBeam[all]
 17334 25             0-TotalOutlier[all]           4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17334 26    |
-17334 27    |
-17334 28            2-MarginalOutlier[2]
-17334 29    |
-17334 30    |
-17334 31    |
-17334 32    |
-17334 33    |
-17334 34    |
-17334 35    |
+17334 26    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17334 27    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17334 28    :: Ran briefly at 4nA, then went to 8nA ::         2-MarginalOutlier[2]                  5-Misc[all]
+17334 29    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17334 30    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17334 31    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17334 32    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17334 33    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17334 34    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
+17334 35    :: Ran briefly at 4nA, then went to 8nA ::                  5-Misc[all]
 17334 36    |
 17334 37    |
 17334 38    |
@@ -48634,57 +48634,57 @@ RUN: 17334
 ==================================================================================
 RUN: 17336
 ----------------------------------------------------------------------------------
-17336 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-17336 1     |
-17336 2     |
-17336 3     |
-17336 4              0-TotalOutlier[all]           4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17336 5              0-TotalOutlier[all]           4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17336 6              0-TotalOutlier[all]           4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17336 7     |
-17336 8     |
-17336 9     |
-17336 10    |
-17336 11    |
-17336 12    |
-17336 13    |
-17336 14    |
-17336 15    |
-17336 16    |
-17336 17             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 18             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 19             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 20             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 21             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 22             0-TotalOutlier[all]           4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17336 23             0-TotalOutlier[all]           4-LowLiveTime[all]       19-PossiblyNoBeam[all]
-17336 24             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 25             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 26             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 27             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 28             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 29           2-MarginalOutlier[12]
-17336 30             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 31             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 32             0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-17336 33    |
-17336 34    |
-17336 35    |
-17336 36    |
-17336 37    |
-17336 38    |
-17336 39    |
-17336 40    |
-17336 41    |
-17336 42    |
-17336 43    |
-17336 44    |
-17336 45    |
-17336 46    |
-17336 47    |
-17336 48    |
-17336 49    |
-17336 50          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+17336 0     :: Beam current changed between 5nA and 8nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+17336 1     :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 2     :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 3     :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 4     :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 5     :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 6     :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 7     :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 8     :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 9     :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 10    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 11    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 12    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 13    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 14    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 15    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 16    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 17    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 18    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 19    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 20    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 21    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 22    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 23    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 24    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 25    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 26    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 27    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 28    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 29    :: Beam current changed between 5nA and 8nA ::        2-MarginalOutlier[12]                  5-Misc[all]
+17336 30    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 31    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 32    :: Beam current changed between 5nA and 8nA ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+17336 33    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 34    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 35    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 36    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 37    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 38    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 39    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 40    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 41    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 42    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 43    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 44    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 45    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 46    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 47    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 48    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 49    :: Beam current changed between 5nA and 8nA ::                  5-Misc[all]
+17336 50    :: Beam current changed between 5nA and 8nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 17337
@@ -48702,9 +48702,9 @@ RUN: 17337
 17337 10    |
 17337 11    |
 17337 12    |
-17337 13             0-TotalOutlier[all]           4-LowLiveTime[all]
-17337 14             0-TotalOutlier[all]           4-LowLiveTime[all]
-17337 15          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+17337 13    :: DAQ rate dropped ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
+17337 14    :: DAQ rate dropped ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
+17337 15    :: DAQ rate dropped ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 17340
