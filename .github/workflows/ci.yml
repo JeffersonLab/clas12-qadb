@@ -23,7 +23,7 @@ jobs:
       datasets: ${{ steps.datasets.outputs.datasets }}
     steps:
       - name: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with: # settings needed for version number detection in qadb-info
           clean: false
           fetch-tags: true
@@ -62,7 +62,7 @@ jobs:
       matrix: ${{ fromJson(needs.info.outputs.datasets) }}
     steps:
       - name: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive
       - name: setup_groovy
