@@ -15,14 +15,14 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 3211       | no    |  |
+| 3211       | yes   | <pre>trigger studies</pre> |
 | 3215       | no    |  |
-| 3216       | no    |  |
+| 3216       | yes   | <pre>DAQ crash, ROC issues</pre> |
 | 3218       | no    |  |
 | 3219       | no    |  |
 | 3222       | no    |  |
 | 3249       | no    |  |
-| 3252       | no    |  |
+| 3252       | yes   | <pre>trigger studies</pre> |
 | 3253       | no    |  |
 | 3254       | no    |  |
 | 3255       | no    |  |
@@ -40,12 +40,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3282       | no    |  |
 | 3285       | no    |  |
 | 3288       | no    |  |
-| 3289       | no    |  |
+| 3289       | yes   | <pre>no timestamp info and no trigger electrons from QA bin 36 onward</pre> |
 | 3290       | no    |  |
 | 3293       | no    |  |
-| 3863       | no    |  |
-| 3864       | no    |  |
-| 3865       | no    |  |
+| 3863       | yes   | <pre>empty target</pre> |
+| 3864       | yes   | <pre>empty target</pre> |
+| 3865       | yes   | <pre>empty target</pre> |
 | 3867       | no    |  |
 | 3874       | no    |  |
 | 3875       | no    |  |

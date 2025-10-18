@@ -2,21 +2,21 @@
 ==================================================================================
 RUN: 3211
 ----------------------------------------------------------------------------------
-3211 0           1-TerminalOutlier[all]           4-LowLiveTime[all]             10-BSAWrong[all]        18-ChargeUnknown[all]
-3211 1               4-LowLiveTime[all]             10-BSAWrong[all]
-3211 2               4-LowLiveTime[all]             10-BSAWrong[all]
-3211 3               4-LowLiveTime[all]             10-BSAWrong[all]
-3211 4               4-LowLiveTime[all]             10-BSAWrong[all]
-3211 5               4-LowLiveTime[all]             10-BSAWrong[all]
-3211 6               4-LowLiveTime[all]             10-BSAWrong[all]
-3211 7               4-LowLiveTime[all]             10-BSAWrong[all]
-3211 8             0-TotalOutlier[1256]        2-MarginalOutlier[34]           4-LowLiveTime[all]             10-BSAWrong[all]
-3211 9              0-TotalOutlier[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
-3211 10             0-TotalOutlier[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
-3211 11             0-TotalOutlier[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
-3211 12             0-TotalOutlier[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
-3211 13             0-TotalOutlier[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
-3211 14          1-TerminalOutlier[all]           4-LowLiveTime[all]             10-BSAWrong[all]        18-ChargeUnknown[all]
+3211 0     :: trigger studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]        18-ChargeUnknown[all]
+3211 1     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
+3211 2     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
+3211 3     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
+3211 4     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
+3211 5     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
+3211 6     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
+3211 7     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
+3211 8     :: trigger studies ::         0-TotalOutlier[1256]        2-MarginalOutlier[34]           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
+3211 9     :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
+3211 10    :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
+3211 11    :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
+3211 12    :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
+3211 13    :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]             10-BSAWrong[all]       19-PossiblyNoBeam[all]
+3211 14    :: trigger studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3215
@@ -128,19 +128,19 @@ RUN: 3215
 ==================================================================================
 RUN: 3216
 ----------------------------------------------------------------------------------
-3216 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-3216 1               4-LowLiveTime[all]
-3216 2               4-LowLiveTime[all]
-3216 3               4-LowLiveTime[all]
-3216 4               4-LowLiveTime[all]
-3216 5               4-LowLiveTime[all]
-3216 6               4-LowLiveTime[all]
-3216 7               4-LowLiveTime[all]
-3216 8               4-LowLiveTime[all]
-3216 9               4-LowLiveTime[all]
-3216 10              4-LowLiveTime[all]
-3216 11           2-MarginalOutlier[45]           4-LowLiveTime[all]
-3216 12          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+3216 0     :: DAQ crash, ROC issues ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+3216 1     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 2     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 3     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 4     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 5     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 6     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 7     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 8     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 9     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 10    :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
+3216 11    :: DAQ crash, ROC issues ::        2-MarginalOutlier[45]           4-LowLiveTime[all]                  5-Misc[all]
+3216 12    :: DAQ crash, ROC issues ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3218
@@ -609,286 +609,286 @@ RUN: 3249
 ==================================================================================
 RUN: 3252
 ----------------------------------------------------------------------------------
-3252 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]           11-BSAUnknown[all]        18-ChargeUnknown[all]
-3252 1              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 2              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 3              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 4              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 5              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 6              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 7              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 8              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 9              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 10             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 11             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 12             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 13             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 14             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 15             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 16             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 17             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 18             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 19             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 20             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 21             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 22             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 23             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 24             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 25             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 26             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 27             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 28             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 29             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 30             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 31             0-TotalOutlier[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 32             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 33             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 34             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 35             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 36             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 37             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 38             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 39             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 40             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 41             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 42             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 43             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 44             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 45             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 46             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 47             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 48             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 49             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 50             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 51             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 52             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 53             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 54             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 55             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 56             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 57             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 58             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 59             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 60             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 61             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 62             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 63             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 64             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 65             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 66             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 67             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 68             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 69             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 70             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 71             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 72             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 73             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 74             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 75             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 76             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 77             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 78             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 79             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 80             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 81             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 82             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 83             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 84             0-TotalOutlier[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 85             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 86             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 87             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 88             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 89             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 90             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 91             0-TotalOutlier[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 92             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 93             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 94             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 95             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 96             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 97             0-TotalOutlier[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 98             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 99             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 100            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 101            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 102            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 103            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 104            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 105            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 106            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 107            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 108            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 109            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 110            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 111            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 112            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 113            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 114            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 115            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 116            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 117            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 118            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 119            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 120            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 121            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 122            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 123            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 124            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 125            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 126            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 127            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 128            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 129            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 130            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 131            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 132            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 133            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 134            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 135            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 136            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 137            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 138            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 139            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 140            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 141            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 142            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 143            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 144            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 145            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 146            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 147            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 148            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 149            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 150            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 151            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 152            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 153            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 154            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 155            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 156            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 157            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 158            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 159            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 160            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 161            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 162            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 163            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 164            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 165            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 166            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 167            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 168            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 169            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 170            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 171            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 172            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 173            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 174            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 175            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 176            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 177            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 178            0-TotalOutlier[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 179            0-TotalOutlier[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 180            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 181            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 182            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 183            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 184            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 185            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 186            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 187            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 188            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 189            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 190            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 191            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 192            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 193            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 194            0-TotalOutlier[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 195            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 196            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 197            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 198            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 199            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 200            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 201            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 202            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 203            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 204            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 205            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 206            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 207            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 208            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 209            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 210            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 211            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 212            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 213            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 214            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 215            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 216            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 217            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 218            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 219            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 220            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 221            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 222            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 223            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 224            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 225            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 226            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 227            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 228            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 229            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 230            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 231            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 232            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 233            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 234            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 235            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 236            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 237            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 238            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 239            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 240            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 241            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 242            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 243            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 244            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 245            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 246            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 247            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 248            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 249            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 250            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 251            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 252            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 253            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 254            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 255            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 256            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 257            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 258            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 259            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 260            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 261            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 262            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 263            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 264            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 265            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 266            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 267            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 268            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 269            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 270            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 271            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 272            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 273            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 274            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 275            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 276            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 277            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 278            0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
-3252 279         1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]           11-BSAUnknown[all]        18-ChargeUnknown[all]
+3252 0     :: trigger studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]           11-BSAUnknown[all]        18-ChargeUnknown[all]
+3252 1     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 2     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 3     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 4     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 5     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 6     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 7     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 8     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 9     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 10    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 11    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 12    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 13    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 14    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 15    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 16    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 17    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 18    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 19    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 20    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 21    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 22    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 23    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 24    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 25    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 26    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 27    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 28    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 29    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 30    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 31    :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 32    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 33    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 34    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 35    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 36    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 37    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 38    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 39    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 40    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 41    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 42    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 43    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 44    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 45    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 46    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 47    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 48    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 49    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 50    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 51    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 52    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 53    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 54    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 55    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 56    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 57    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 58    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 59    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 60    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 61    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 62    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 63    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 64    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 65    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 66    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 67    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 68    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 69    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 70    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 71    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 72    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 73    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 74    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 75    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 76    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 77    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 78    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 79    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 80    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 81    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 82    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 83    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 84    :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 85    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 86    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 87    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 88    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 89    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 90    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 91    :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 92    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 93    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 94    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 95    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 96    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 97    :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 98    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 99    :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 100   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 101   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 102   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 103   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 104   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 105   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 106   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 107   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 108   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 109   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 110   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 111   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 112   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 113   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 114   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 115   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 116   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 117   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 118   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 119   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 120   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 121   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 122   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 123   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 124   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 125   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 126   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 127   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 128   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 129   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 130   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 131   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 132   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 133   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 134   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 135   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 136   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 137   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 138   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 139   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 140   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 141   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 142   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 143   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 144   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 145   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 146   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 147   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 148   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 149   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 150   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 151   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 152   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 153   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 154   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 155   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 156   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 157   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 158   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 159   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 160   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 161   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 162   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 163   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 164   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 165   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 166   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 167   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 168   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 169   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 170   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 171   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 172   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 173   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 174   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 175   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 176   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 177   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 178   :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 179   :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 180   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 181   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 182   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 183   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 184   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 185   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 186   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 187   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 188   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 189   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 190   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 191   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 192   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 193   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 194   :: trigger studies ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 195   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 196   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 197   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 198   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 199   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 200   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 201   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 202   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 203   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 204   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 205   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 206   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 207   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 208   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 209   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 210   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 211   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 212   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 213   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 214   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 215   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 216   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 217   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 218   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 219   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 220   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 221   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 222   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 223   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 224   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 225   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 226   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 227   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 228   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 229   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 230   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 231   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 232   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 233   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 234   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 235   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 236   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 237   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 238   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 239   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 240   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 241   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 242   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 243   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 244   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 245   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 246   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 247   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 248   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 249   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 250   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 251   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 252   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 253   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 254   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 255   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 256   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 257   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 258   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 259   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 260   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 261   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 262   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 263   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 264   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 265   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 266   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 267   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 268   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 269   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 270   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 271   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 272   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 273   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 274   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 275   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 276   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 277   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 278   :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
+3252 279   :: trigger studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3253
@@ -2674,58 +2674,58 @@ RUN: 3289
 3289 33              4-LowLiveTime[all]
 3289 34              4-LowLiveTime[all]
 3289 35              4-LowLiveTime[all]
-3289 36             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
-3289 37             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 38             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 39             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 40             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 41             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 42             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 43             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 44             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 45             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 46             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 47             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 48             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 49             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 50             0-TotalOutlier[all]          6-TotalOutlierFT[1]
-3289 51             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 52             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 53             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 54             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 55             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 56             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 57             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 58             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 59             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 60             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 61             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 62             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 63             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 64             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 65             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 66             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 67             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 68             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 69             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 70             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 71             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 72             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 73             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 74             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 75             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 76             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 77             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 78             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 79             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 80             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 81             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 82             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 83             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 84             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 85             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 86             0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
-3289 87          1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3289 36    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
+3289 37    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 38    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 39    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 40    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 41    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 42    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 43    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 44    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 45    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 46    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 47    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 48    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 49    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 50    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 51    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 52    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 53    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 54    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 55    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 56    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 57    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 58    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 59    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 60    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 61    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 62    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 63    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 64    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 65    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 66    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 67    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 68    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 69    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 70    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 71    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 72    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 73    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 74    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 75    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 76    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 77    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 78    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 79    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 80    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 81    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 82    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 83    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 84    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 85    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 86    :: no timestamp info and no trigger electrons from QA bin 36 onward ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3289 87    :: no timestamp info and no trigger electrons from QA bin 36 onward ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3290
@@ -2936,272 +2936,272 @@ RUN: 3293
 ==================================================================================
 RUN: 3863
 ----------------------------------------------------------------------------------
-3863 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-3863 1     |
-3863 2     |
-3863 3     |
-3863 4     |
-3863 5     |
-3863 6     |
-3863 7     |
-3863 8     |
-3863 9     |
-3863 10    |
-3863 11    |
-3863 12    |
-3863 13    |
-3863 14    |
-3863 15    |
-3863 16    |
-3863 17    |
-3863 18    |
-3863 19    |
-3863 20    |
-3863 21    |
-3863 22    |
-3863 23    |
-3863 24    |
-3863 25    |
-3863 26    |
-3863 27    |
-3863 28    |
-3863 29    |
-3863 30    |
-3863 31    |
-3863 32    |
-3863 33    |
-3863 34    |
-3863 35    |
-3863 36    |
-3863 37    |
-3863 38    |
-3863 39    |
-3863 40    |
-3863 41    |
-3863 42    |
-3863 43    |
-3863 44    |
-3863 45    |
-3863 46    |
-3863 47    |
-3863 48    |
-3863 49    |
-3863 50    |
-3863 51    |
-3863 52    |
-3863 53    |
-3863 54    |
-3863 55    |
-3863 56    |
-3863 57    |
-3863 58    |
-3863 59    |
-3863 60    |
-3863 61    |
-3863 62    |
-3863 63    |
-3863 64    |
-3863 65    |
-3863 66    |
-3863 67    |
-3863 68    |
-3863 69    |
-3863 70    |
-3863 71    |
-3863 72    |
-3863 73    |
-3863 74    |
-3863 75    |
-3863 76    |
-3863 77    |
-3863 78    |
-3863 79    |
-3863 80    |
-3863 81    |
-3863 82    |
-3863 83    |
-3863 84    |
-3863 85    |
-3863 86    |
-3863 87    |
-3863 88    |
-3863 89    |
-3863 90    |
-3863 91    |
-3863 92    |
-3863 93    |
-3863 94    |
-3863 95    |
-3863 96    |
-3863 97    |
-3863 98    |
-3863 99    |
-3863 100   |
-3863 101   |
-3863 102   |
-3863 103   |
-3863 104   |
-3863 105         8-MarginalOutlierFT[1]
-3863 106   |
-3863 107         1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3863 0     :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3863 1     :: empty target ::                  5-Misc[all]
+3863 2     :: empty target ::                  5-Misc[all]
+3863 3     :: empty target ::                  5-Misc[all]
+3863 4     :: empty target ::                  5-Misc[all]
+3863 5     :: empty target ::                  5-Misc[all]
+3863 6     :: empty target ::                  5-Misc[all]
+3863 7     :: empty target ::                  5-Misc[all]
+3863 8     :: empty target ::                  5-Misc[all]
+3863 9     :: empty target ::                  5-Misc[all]
+3863 10    :: empty target ::                  5-Misc[all]
+3863 11    :: empty target ::                  5-Misc[all]
+3863 12    :: empty target ::                  5-Misc[all]
+3863 13    :: empty target ::                  5-Misc[all]
+3863 14    :: empty target ::                  5-Misc[all]
+3863 15    :: empty target ::                  5-Misc[all]
+3863 16    :: empty target ::                  5-Misc[all]
+3863 17    :: empty target ::                  5-Misc[all]
+3863 18    :: empty target ::                  5-Misc[all]
+3863 19    :: empty target ::                  5-Misc[all]
+3863 20    :: empty target ::                  5-Misc[all]
+3863 21    :: empty target ::                  5-Misc[all]
+3863 22    :: empty target ::                  5-Misc[all]
+3863 23    :: empty target ::                  5-Misc[all]
+3863 24    :: empty target ::                  5-Misc[all]
+3863 25    :: empty target ::                  5-Misc[all]
+3863 26    :: empty target ::                  5-Misc[all]
+3863 27    :: empty target ::                  5-Misc[all]
+3863 28    :: empty target ::                  5-Misc[all]
+3863 29    :: empty target ::                  5-Misc[all]
+3863 30    :: empty target ::                  5-Misc[all]
+3863 31    :: empty target ::                  5-Misc[all]
+3863 32    :: empty target ::                  5-Misc[all]
+3863 33    :: empty target ::                  5-Misc[all]
+3863 34    :: empty target ::                  5-Misc[all]
+3863 35    :: empty target ::                  5-Misc[all]
+3863 36    :: empty target ::                  5-Misc[all]
+3863 37    :: empty target ::                  5-Misc[all]
+3863 38    :: empty target ::                  5-Misc[all]
+3863 39    :: empty target ::                  5-Misc[all]
+3863 40    :: empty target ::                  5-Misc[all]
+3863 41    :: empty target ::                  5-Misc[all]
+3863 42    :: empty target ::                  5-Misc[all]
+3863 43    :: empty target ::                  5-Misc[all]
+3863 44    :: empty target ::                  5-Misc[all]
+3863 45    :: empty target ::                  5-Misc[all]
+3863 46    :: empty target ::                  5-Misc[all]
+3863 47    :: empty target ::                  5-Misc[all]
+3863 48    :: empty target ::                  5-Misc[all]
+3863 49    :: empty target ::                  5-Misc[all]
+3863 50    :: empty target ::                  5-Misc[all]
+3863 51    :: empty target ::                  5-Misc[all]
+3863 52    :: empty target ::                  5-Misc[all]
+3863 53    :: empty target ::                  5-Misc[all]
+3863 54    :: empty target ::                  5-Misc[all]
+3863 55    :: empty target ::                  5-Misc[all]
+3863 56    :: empty target ::                  5-Misc[all]
+3863 57    :: empty target ::                  5-Misc[all]
+3863 58    :: empty target ::                  5-Misc[all]
+3863 59    :: empty target ::                  5-Misc[all]
+3863 60    :: empty target ::                  5-Misc[all]
+3863 61    :: empty target ::                  5-Misc[all]
+3863 62    :: empty target ::                  5-Misc[all]
+3863 63    :: empty target ::                  5-Misc[all]
+3863 64    :: empty target ::                  5-Misc[all]
+3863 65    :: empty target ::                  5-Misc[all]
+3863 66    :: empty target ::                  5-Misc[all]
+3863 67    :: empty target ::                  5-Misc[all]
+3863 68    :: empty target ::                  5-Misc[all]
+3863 69    :: empty target ::                  5-Misc[all]
+3863 70    :: empty target ::                  5-Misc[all]
+3863 71    :: empty target ::                  5-Misc[all]
+3863 72    :: empty target ::                  5-Misc[all]
+3863 73    :: empty target ::                  5-Misc[all]
+3863 74    :: empty target ::                  5-Misc[all]
+3863 75    :: empty target ::                  5-Misc[all]
+3863 76    :: empty target ::                  5-Misc[all]
+3863 77    :: empty target ::                  5-Misc[all]
+3863 78    :: empty target ::                  5-Misc[all]
+3863 79    :: empty target ::                  5-Misc[all]
+3863 80    :: empty target ::                  5-Misc[all]
+3863 81    :: empty target ::                  5-Misc[all]
+3863 82    :: empty target ::                  5-Misc[all]
+3863 83    :: empty target ::                  5-Misc[all]
+3863 84    :: empty target ::                  5-Misc[all]
+3863 85    :: empty target ::                  5-Misc[all]
+3863 86    :: empty target ::                  5-Misc[all]
+3863 87    :: empty target ::                  5-Misc[all]
+3863 88    :: empty target ::                  5-Misc[all]
+3863 89    :: empty target ::                  5-Misc[all]
+3863 90    :: empty target ::                  5-Misc[all]
+3863 91    :: empty target ::                  5-Misc[all]
+3863 92    :: empty target ::                  5-Misc[all]
+3863 93    :: empty target ::                  5-Misc[all]
+3863 94    :: empty target ::                  5-Misc[all]
+3863 95    :: empty target ::                  5-Misc[all]
+3863 96    :: empty target ::                  5-Misc[all]
+3863 97    :: empty target ::                  5-Misc[all]
+3863 98    :: empty target ::                  5-Misc[all]
+3863 99    :: empty target ::                  5-Misc[all]
+3863 100   :: empty target ::                  5-Misc[all]
+3863 101   :: empty target ::                  5-Misc[all]
+3863 102   :: empty target ::                  5-Misc[all]
+3863 103   :: empty target ::                  5-Misc[all]
+3863 104   :: empty target ::                  5-Misc[all]
+3863 105   :: empty target ::                  5-Misc[all]       8-MarginalOutlierFT[1]
+3863 106   :: empty target ::                  5-Misc[all]
+3863 107   :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3864
 ----------------------------------------------------------------------------------
-3864 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-3864 1     |
-3864 2     |
-3864 3     |
-3864 4     |
-3864 5     |
-3864 6     |
-3864 7     |
-3864 8     |
-3864 9     |
-3864 10    |
-3864 11    |
-3864 12    |
-3864 13    |
-3864 14    |
-3864 15    |
-3864 16    |
-3864 17    |
-3864 18    |
-3864 19    |
-3864 20    |
-3864 21    |
-3864 22    |
-3864 23    |
-3864 24    |
-3864 25    |
-3864 26    |
-3864 27    |
-3864 28    |
-3864 29    |
-3864 30    |
-3864 31    |
-3864 32    |
-3864 33    |
-3864 34    |
-3864 35    |
-3864 36    |
-3864 37    |
-3864 38    |
-3864 39    |
-3864 40            2-MarginalOutlier[6]
-3864 41    |
-3864 42    |
-3864 43    |
-3864 44    |
-3864 45    |
-3864 46    |
-3864 47    |
-3864 48    |
-3864 49    |
-3864 50    |
-3864 51    |
-3864 52    |
-3864 53    |
-3864 54    |
-3864 55    |
-3864 56    |
-3864 57    |
-3864 58    |
-3864 59    |
-3864 60    |
-3864 61    |
-3864 62    |
-3864 63    |
-3864 64    |
-3864 65            2-MarginalOutlier[5]
-3864 66    |
-3864 67    |
-3864 68    |
-3864 69    |
-3864 70    |
-3864 71    |
-3864 72    |
-3864 73    |
-3864 74    |
-3864 75    |
-3864 76    |
-3864 77    |
-3864 78    |
-3864 79    |
-3864 80    |
-3864 81    |
-3864 82    |
-3864 83    |
-3864 84    |
-3864 85    |
-3864 86    |
-3864 87    |
-3864 88    |
-3864 89    |
-3864 90    |
-3864 91    |
-3864 92    |
-3864 93    |
-3864 94    |
-3864 95    |
-3864 96           2-MarginalOutlier[46]
-3864 97          1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3864 0     :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3864 1     :: empty target ::                  5-Misc[all]
+3864 2     :: empty target ::                  5-Misc[all]
+3864 3     :: empty target ::                  5-Misc[all]
+3864 4     :: empty target ::                  5-Misc[all]
+3864 5     :: empty target ::                  5-Misc[all]
+3864 6     :: empty target ::                  5-Misc[all]
+3864 7     :: empty target ::                  5-Misc[all]
+3864 8     :: empty target ::                  5-Misc[all]
+3864 9     :: empty target ::                  5-Misc[all]
+3864 10    :: empty target ::                  5-Misc[all]
+3864 11    :: empty target ::                  5-Misc[all]
+3864 12    :: empty target ::                  5-Misc[all]
+3864 13    :: empty target ::                  5-Misc[all]
+3864 14    :: empty target ::                  5-Misc[all]
+3864 15    :: empty target ::                  5-Misc[all]
+3864 16    :: empty target ::                  5-Misc[all]
+3864 17    :: empty target ::                  5-Misc[all]
+3864 18    :: empty target ::                  5-Misc[all]
+3864 19    :: empty target ::                  5-Misc[all]
+3864 20    :: empty target ::                  5-Misc[all]
+3864 21    :: empty target ::                  5-Misc[all]
+3864 22    :: empty target ::                  5-Misc[all]
+3864 23    :: empty target ::                  5-Misc[all]
+3864 24    :: empty target ::                  5-Misc[all]
+3864 25    :: empty target ::                  5-Misc[all]
+3864 26    :: empty target ::                  5-Misc[all]
+3864 27    :: empty target ::                  5-Misc[all]
+3864 28    :: empty target ::                  5-Misc[all]
+3864 29    :: empty target ::                  5-Misc[all]
+3864 30    :: empty target ::                  5-Misc[all]
+3864 31    :: empty target ::                  5-Misc[all]
+3864 32    :: empty target ::                  5-Misc[all]
+3864 33    :: empty target ::                  5-Misc[all]
+3864 34    :: empty target ::                  5-Misc[all]
+3864 35    :: empty target ::                  5-Misc[all]
+3864 36    :: empty target ::                  5-Misc[all]
+3864 37    :: empty target ::                  5-Misc[all]
+3864 38    :: empty target ::                  5-Misc[all]
+3864 39    :: empty target ::                  5-Misc[all]
+3864 40    :: empty target ::         2-MarginalOutlier[6]                  5-Misc[all]
+3864 41    :: empty target ::                  5-Misc[all]
+3864 42    :: empty target ::                  5-Misc[all]
+3864 43    :: empty target ::                  5-Misc[all]
+3864 44    :: empty target ::                  5-Misc[all]
+3864 45    :: empty target ::                  5-Misc[all]
+3864 46    :: empty target ::                  5-Misc[all]
+3864 47    :: empty target ::                  5-Misc[all]
+3864 48    :: empty target ::                  5-Misc[all]
+3864 49    :: empty target ::                  5-Misc[all]
+3864 50    :: empty target ::                  5-Misc[all]
+3864 51    :: empty target ::                  5-Misc[all]
+3864 52    :: empty target ::                  5-Misc[all]
+3864 53    :: empty target ::                  5-Misc[all]
+3864 54    :: empty target ::                  5-Misc[all]
+3864 55    :: empty target ::                  5-Misc[all]
+3864 56    :: empty target ::                  5-Misc[all]
+3864 57    :: empty target ::                  5-Misc[all]
+3864 58    :: empty target ::                  5-Misc[all]
+3864 59    :: empty target ::                  5-Misc[all]
+3864 60    :: empty target ::                  5-Misc[all]
+3864 61    :: empty target ::                  5-Misc[all]
+3864 62    :: empty target ::                  5-Misc[all]
+3864 63    :: empty target ::                  5-Misc[all]
+3864 64    :: empty target ::                  5-Misc[all]
+3864 65    :: empty target ::         2-MarginalOutlier[5]                  5-Misc[all]
+3864 66    :: empty target ::                  5-Misc[all]
+3864 67    :: empty target ::                  5-Misc[all]
+3864 68    :: empty target ::                  5-Misc[all]
+3864 69    :: empty target ::                  5-Misc[all]
+3864 70    :: empty target ::                  5-Misc[all]
+3864 71    :: empty target ::                  5-Misc[all]
+3864 72    :: empty target ::                  5-Misc[all]
+3864 73    :: empty target ::                  5-Misc[all]
+3864 74    :: empty target ::                  5-Misc[all]
+3864 75    :: empty target ::                  5-Misc[all]
+3864 76    :: empty target ::                  5-Misc[all]
+3864 77    :: empty target ::                  5-Misc[all]
+3864 78    :: empty target ::                  5-Misc[all]
+3864 79    :: empty target ::                  5-Misc[all]
+3864 80    :: empty target ::                  5-Misc[all]
+3864 81    :: empty target ::                  5-Misc[all]
+3864 82    :: empty target ::                  5-Misc[all]
+3864 83    :: empty target ::                  5-Misc[all]
+3864 84    :: empty target ::                  5-Misc[all]
+3864 85    :: empty target ::                  5-Misc[all]
+3864 86    :: empty target ::                  5-Misc[all]
+3864 87    :: empty target ::                  5-Misc[all]
+3864 88    :: empty target ::                  5-Misc[all]
+3864 89    :: empty target ::                  5-Misc[all]
+3864 90    :: empty target ::                  5-Misc[all]
+3864 91    :: empty target ::                  5-Misc[all]
+3864 92    :: empty target ::                  5-Misc[all]
+3864 93    :: empty target ::                  5-Misc[all]
+3864 94    :: empty target ::                  5-Misc[all]
+3864 95    :: empty target ::                  5-Misc[all]
+3864 96    :: empty target ::        2-MarginalOutlier[46]                  5-Misc[all]
+3864 97    :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3865
 ----------------------------------------------------------------------------------
-3865 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-3865 1     |
-3865 2     |
-3865 3     |
-3865 4     |
-3865 5     |
-3865 6     |
-3865 7     |
-3865 8     |
-3865 9     |
-3865 10    |
-3865 11    |
-3865 12    |
-3865 13    |
-3865 14    |
-3865 15    |
-3865 16    |
-3865 17    |
-3865 18    |
-3865 19    |
-3865 20    |
-3865 21    |
-3865 22    |
-3865 23    |
-3865 24    |
-3865 25    |
-3865 26    |
-3865 27    |
-3865 28    |
-3865 29    |
-3865 30    |
-3865 31    |
-3865 32    |
-3865 33    |
-3865 34    |
-3865 35    |
-3865 36    |
-3865 37    |
-3865 38    |
-3865 39    |
-3865 40    |
-3865 41    |
-3865 42    |
-3865 43    |
-3865 44    |
-3865 45    |
-3865 46    |
-3865 47    |
-3865 48    |
-3865 49    |
-3865 50    |
-3865 51          1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3865 0     :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3865 1     :: empty target ::                  5-Misc[all]
+3865 2     :: empty target ::                  5-Misc[all]
+3865 3     :: empty target ::                  5-Misc[all]
+3865 4     :: empty target ::                  5-Misc[all]
+3865 5     :: empty target ::                  5-Misc[all]
+3865 6     :: empty target ::                  5-Misc[all]
+3865 7     :: empty target ::                  5-Misc[all]
+3865 8     :: empty target ::                  5-Misc[all]
+3865 9     :: empty target ::                  5-Misc[all]
+3865 10    :: empty target ::                  5-Misc[all]
+3865 11    :: empty target ::                  5-Misc[all]
+3865 12    :: empty target ::                  5-Misc[all]
+3865 13    :: empty target ::                  5-Misc[all]
+3865 14    :: empty target ::                  5-Misc[all]
+3865 15    :: empty target ::                  5-Misc[all]
+3865 16    :: empty target ::                  5-Misc[all]
+3865 17    :: empty target ::                  5-Misc[all]
+3865 18    :: empty target ::                  5-Misc[all]
+3865 19    :: empty target ::                  5-Misc[all]
+3865 20    :: empty target ::                  5-Misc[all]
+3865 21    :: empty target ::                  5-Misc[all]
+3865 22    :: empty target ::                  5-Misc[all]
+3865 23    :: empty target ::                  5-Misc[all]
+3865 24    :: empty target ::                  5-Misc[all]
+3865 25    :: empty target ::                  5-Misc[all]
+3865 26    :: empty target ::                  5-Misc[all]
+3865 27    :: empty target ::                  5-Misc[all]
+3865 28    :: empty target ::                  5-Misc[all]
+3865 29    :: empty target ::                  5-Misc[all]
+3865 30    :: empty target ::                  5-Misc[all]
+3865 31    :: empty target ::                  5-Misc[all]
+3865 32    :: empty target ::                  5-Misc[all]
+3865 33    :: empty target ::                  5-Misc[all]
+3865 34    :: empty target ::                  5-Misc[all]
+3865 35    :: empty target ::                  5-Misc[all]
+3865 36    :: empty target ::                  5-Misc[all]
+3865 37    :: empty target ::                  5-Misc[all]
+3865 38    :: empty target ::                  5-Misc[all]
+3865 39    :: empty target ::                  5-Misc[all]
+3865 40    :: empty target ::                  5-Misc[all]
+3865 41    :: empty target ::                  5-Misc[all]
+3865 42    :: empty target ::                  5-Misc[all]
+3865 43    :: empty target ::                  5-Misc[all]
+3865 44    :: empty target ::                  5-Misc[all]
+3865 45    :: empty target ::                  5-Misc[all]
+3865 46    :: empty target ::                  5-Misc[all]
+3865 47    :: empty target ::                  5-Misc[all]
+3865 48    :: empty target ::                  5-Misc[all]
+3865 49    :: empty target ::                  5-Misc[all]
+3865 50    :: empty target ::                  5-Misc[all]
+3865 51    :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3867
