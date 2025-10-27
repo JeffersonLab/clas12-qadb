@@ -116,7 +116,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3968       | no    |  |
 | 3969       | no    |  |
 | 3970       | no    |  |
-| 3971       | no    |  |
+| 3971       | yes   | <pre>beam current changed from 30 to 45 nA during this run; relatively high number of FT electrons</pre> |
 | 3973       | no    |  |
 | 3975       | no    |  |
 | 3982       | no    |  |
