@@ -62,15 +62,15 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3888       | no    |  |
 | 3889       | no    |  |
 | 3891       | no    |  |
-| 3892       | no    |  |
+| 3892       | yes   | <pre>N/F systematically lower than that from adjacent runs; DC reg1 holdoff=1000ns</pre> |
 | 3893       | no    |  |
 | 3898       | no    |  |
-| 3899       | no    |  |
+| 3899       | yes   | <pre>N/F systematically under cut line for all sectors</pre> |
 | 3903       | no    |  |
 | 3905       | no    |  |
 | 3907       | no    |  |
 | 3908       | no    |  |
-| 3910       | no    |  |
+| 3910       | yes   | <pre>target issue near the end of the run</pre> |
 | 3911       | no    |  |
 | 3912       | no    |  |
 | 3913       | no    |  |
@@ -82,7 +82,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3921       | no    |  |
 | 3923       | no    |  |
 | 3924       | no    |  |
-| 3925       | no    |  |
+| 3925       | yes   | <pre>FD sectors 2 and 3 have low counts; FT has relatively large number of trigger electrons</pre> |
 | 3926       | no    |  |
 | 3927       | no    |  |
 | 3928       | no    |  |
