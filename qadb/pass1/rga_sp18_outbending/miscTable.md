@@ -80,7 +80,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3919       | no    |  |
 | 3920       | no    |  |
 | 3921       | no    |  |
-| 3923       | no    |  |
+| 3923       | yes   | <pre>from QA bin 77 to the end of the run, FD sector 3 yield is lost, and FT yield is slightly reduced</pre> |
 | 3924       | no    |  |
 | 3925       | yes   | <pre>FD sectors 2 and 3 have low counts; FT has relatively large number of trigger electrons</pre> |
 | 3926       | no    |  |
