@@ -5,6 +5,7 @@ Provides storage of and access to the QA monitoring results for the
 CLAS12 experiment at Jefferson Lab
 
 ### Table of Contents
+1. [Installation](#install)
 1. [How to Use the QADB in Your Analysis](#use)
 1. [QA Information](#info)
     - [Available Data Sets](#datasets)
@@ -17,6 +18,15 @@ CLAS12 experiment at Jefferson Lab
 1. [Database Maintenance](#dev)
 1. [QA Ground Rules](#rules)
 1. [Contributions](#contributions)
+
+<a name="install"></a>
+# Installation
+
+Just run
+```bash
+./install.sh
+```
+This will install everything within the source code directory.
 
 <a name="use"></a>
 # How to Use the QADB in Your Analysis
@@ -297,15 +307,6 @@ source environ.csh  # for csh, tcsh
 Then:
 - for Groovy, follow [`src/README.md`](/src/)
 - for C++, follow [`srcC/README.md`](/srcC/)
-
-> [!IMPORTANT]
-> C++ access needs [`rapidjson`](https://github.com/Tencent/rapidjson/), provided as a
-> submodule of this repository in `srcC/rapidjson`. If this directory
-> is empty, you can clone the submodule by running
-> ```bash
-> git submodule update --init --recursive
-> ```
-<!--`-->
 
 <a name="example"></a>
 ## Example Code

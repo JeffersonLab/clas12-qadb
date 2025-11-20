@@ -24,10 +24,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v5
-        with: # settings needed for version number detection in qadb-info
-          clean: false
-          fetch-tags: true
-          fetch-depth: 0
+      - name: install
+        run: ./install.sh
       - name: add bin to PATH
         run: |
           source environ.sh
@@ -63,12 +61,12 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v5
-        with:
-          submodules: recursive
       - name: setup_groovy
         uses: wtfjoke/setup-groovy@v3
         with:
           groovy-version: 4.x
+      - name: install
+        run: ./install.sh
       - name: env
         run: |
           source environ.sh
