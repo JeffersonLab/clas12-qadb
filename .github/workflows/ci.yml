@@ -23,7 +23,7 @@ jobs:
       datasets: ${{ steps.datasets.outputs.datasets }}
     steps:
       - name: checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: install
         run: ./install.sh
       - name: add bin to PATH
@@ -60,7 +60,7 @@ jobs:
       matrix: ${{ fromJson(needs.info.outputs.datasets) }}
     steps:
       - name: checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: setup_groovy
         uses: wtfjoke/setup-groovy@v3
         with:
