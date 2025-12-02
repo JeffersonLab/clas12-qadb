@@ -18,8 +18,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3306       | no    |  |
 | 3307       | no    |  |
 | 3315       | no    |  |
-| 3318       | no    |  |
-| 3319       | no    |  |
+| 3318       | yes   | <pre>beam current scan</pre> |
+| 3319       | yes   | <pre>beam current scan</pre> |
 | 3333       | no    |  |
 | 3353       | no    |  |
 | 3355       | no    |  |
@@ -41,7 +41,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3409       | no    |  |
 | 3410       | no    |  |
 | 3411       | no    |  |
-| 3418       | no    |  |
+| 3418       | yes   | <pre>trigger test</pre> |
 | 3421       | no    |  |
 | 3422       | no    |  |
 | 3429       | no    |  |
@@ -55,7 +55,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3441       | no    |  |
 | 3442       | no    |  |
 | 3443       | no    |  |
-| 3449       | no    |  |
+| 3449       | yes   | <pre>unstable livetime</pre> |
 | 3456       | no    |  |
 | 3457       | no    |  |
 | 3459       | no    |  |
@@ -76,8 +76,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3490       | no    |  |
 | 3492       | no    |  |
 | 3493       | no    |  |
-| 3499       | no    |  |
-| 3500       | no    |  |
+| 3499       | yes   | <pre>new trigger config; fluctuating live time</pre> |
+| 3500       | yes   | <pre>fluctuating live time</pre> |
 | 3501       | no    |  |
 | 3505       | no    |  |
 | 3506       | no    |  |
@@ -102,7 +102,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3534       | no    |  |
 | 3535       | no    |  |
 | 3536       | no    |  |
-| 3537       | no    |  |
+| 3537       | yes   | <pre>iojscalers not resetting properly</pre> |
 | 3538       | no    |  |
 | 3540       | no    |  |
 | 3542       | no    |  |
@@ -122,7 +122,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3719       | no    |  |
 | 3720       | no    |  |
 | 3722       | no    |  |
-| 3735       | no    |  |
+| 3735       | yes   | <pre>beam current varying</pre> |
 | 3736       | no    |  |
 | 3738       | no    |  |
 | 3739       | no    |  |
@@ -133,18 +133,18 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3752       | no    |  |
 | 3754       | no    |  |
 | 3756       | no    |  |
-| 3757       | no    |  |
-| 3768       | no    |  |
-| 3770       | no    |  |
+| 3757       | yes   | <pre>2C24 gives completely off X_pos. Orbit lock not working anymore.</pre> |
+| 3768       | yes   | <pre>10 nA run</pre> |
+| 3770       | yes   | <pre>35 nA run</pre> |
 | 3771       | no    |  |
-| 3773       | no    |  |
-| 3778       | no    |  |
-| 3779       | no    |  |
-| 3780       | no    |  |
-| 3782       | no    |  |
-| 3783       | no    |  |
-| 3785       | no    |  |
-| 3786       | no    |  |
+| 3773       | yes   | <pre>75 nA run</pre> |
+| 3778       | yes   | <pre>75 nA run</pre> |
+| 3779       | yes   | <pre>75 nA run</pre> |
+| 3780       | yes   | <pre>5 nA run</pre> |
+| 3782       | yes   | <pre>5 nA run</pre> |
+| 3783       | yes   | <pre>5 nA run</pre> |
+| 3785       | yes   | <pre>10 nA run</pre> |
+| 3786       | yes   | <pre>10 nA run</pre> |
 | 3788       | no    |  |
 | 3789       | no    |  |
 | 3790       | no    |  |
