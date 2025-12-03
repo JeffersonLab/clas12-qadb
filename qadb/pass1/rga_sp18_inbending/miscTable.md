@@ -230,7 +230,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 4113       | no    |  |
 | 4114       | no    |  |
 | 4115       | no    |  |
-| 4123       | no    |  |
+| 4123       | yes   | <pre>empty target run</pre> |
 | 4139       | no    |  |
 | 4142       | no    |  |
 | 4143       | no    |  |
@@ -258,7 +258,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 4169       | no    |  |
 | 4174       | no    |  |
 | 4176       | no    |  |
-| 4177       | no    |  |
+| 4177       | yes   | <pre>75 nA run</pre> |
 | 4180       | no    |  |
 | 4181       | no    |  |
 | 4182       | no    |  |
