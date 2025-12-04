@@ -300,8 +300,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 4262       | no    |  |
 | 4263       | no    |  |
 | 4264       | no    |  |
-| 4282       | no    |  |
-| 4293       | no    |  |
+| 4282       | yes   | <pre>10x higher scaler rate</pre> |
+| 4293       | yes   | <pre>10x higher scaler rate</pre> |
 | 4309       | no    |  |
 | 4311       | no    |  |
 | 4312       | no    |  |

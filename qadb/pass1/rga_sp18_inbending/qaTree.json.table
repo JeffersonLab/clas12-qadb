@@ -28580,803 +28580,803 @@ RUN: 4264
 ==================================================================================
 RUN: 4282
 ----------------------------------------------------------------------------------
-4282 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-4282 1               4-LowLiveTime[all]
-4282 2     |
-4282 3     |
-4282 4     |
-4282 5     |
-4282 6     |
-4282 7     |
-4282 8     |
-4282 9     |
-4282 10    |
-4282 11    |
-4282 12    |
-4282 13    |
-4282 14    |
-4282 15    |
-4282 16    |
-4282 17    |
-4282 18    |
-4282 19    |
-4282 20    |
-4282 21    |
-4282 22    |
-4282 23    |
-4282 24    |
-4282 25           2-MarginalOutlier[14]
-4282 26             0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 27             0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 28             0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 29    |
-4282 30    |
-4282 31    |
-4282 32    |
-4282 33    |
-4282 34    |
-4282 35    |
-4282 36    |
-4282 37    |
-4282 38             0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 39             0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 40    |
-4282 41    |
-4282 42    |
-4282 43    |
-4282 44    |
-4282 45    |
-4282 46    |
-4282 47    |
-4282 48    |
-4282 49    |
-4282 50    |
-4282 51    |
-4282 52    |
-4282 53    |
-4282 54    |
-4282 55    |
-4282 56    |
-4282 57    |
-4282 58    |
-4282 59    |
-4282 60    |
-4282 61    |
-4282 62    |
-4282 63    |
-4282 64    |
-4282 65    |
-4282 66    |
-4282 67    |
-4282 68    |
-4282 69    |
-4282 70    |
-4282 71    |
-4282 72    |
-4282 73    |
-4282 74    |
-4282 75    |
-4282 76    |
-4282 77    |
-4282 78    |
-4282 79    |
-4282 80    |
-4282 81    |
-4282 82    |
-4282 83    |
-4282 84    |
-4282 85    |
-4282 86    |
-4282 87    |
-4282 88    |
-4282 89    |
-4282 90    |
-4282 91           2-MarginalOutlier[35]
-4282 92             0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 93              0-TotalOutlier[25]         2-MarginalOutlier[4]
-4282 94    |
-4282 95    |
-4282 96    |
-4282 97    |
-4282 98    |
-4282 99    |
-4282 100   |
-4282 101   |
-4282 102   |
-4282 103   |
-4282 104   |
-4282 105   |
-4282 106   |
-4282 107   |
-4282 108   |
-4282 109   |
-4282 110   |
-4282 111   |
-4282 112   |
-4282 113   |
-4282 114   |
-4282 115   |
-4282 116   |
-4282 117        2-MarginalOutlier[2345]        19-PossiblyNoBeam[23]
-4282 118   |
-4282 119   |
-4282 120   |
-4282 121   |
-4282 122   |
-4282 123   |
-4282 124   |
-4282 125   |
-4282 126   |
-4282 127   |
-4282 128   |
-4282 129   |
-4282 130   |
-4282 131   |
-4282 132   |
-4282 133   |
-4282 134   |
-4282 135   |
-4282 136   |
-4282 137   |
-4282 138   |
-4282 139   |
-4282 140   |
-4282 141   |
-4282 142   |
-4282 143   |
-4282 144   |
-4282 145   |
-4282 146   |
-4282 147   |
-4282 148   |
-4282 149   |
-4282 150   |
-4282 151   |
-4282 152   |
-4282 153   |
-4282 154   |
-4282 155   |
-4282 156   |
-4282 157   |
-4282 158   |
-4282 159   |
-4282 160   |
-4282 161   |
-4282 162   |
-4282 163   |
-4282 164   |
-4282 165   |
-4282 166   |
-4282 167   |
-4282 168   |
-4282 169   |
-4282 170   |
-4282 171   |
-4282 172   |
-4282 173   |
-4282 174   |
-4282 175   |
-4282 176   |
-4282 177            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 178            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 179            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 180            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 181            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 182            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 183   |
-4282 184   |
-4282 185   |
-4282 186   |
-4282 187   |
-4282 188   |
-4282 189   |
-4282 190   |
-4282 191   |
-4282 192   |
-4282 193   |
-4282 194   |
-4282 195   |
-4282 196   |
-4282 197   |
-4282 198   |
-4282 199   |
-4282 200   |
-4282 201   |
-4282 202   |
-4282 203   |
-4282 204   |
-4282 205   |
-4282 206   |
-4282 207   |
-4282 208   |
-4282 209   |
-4282 210   |
-4282 211   |
-4282 212   |
-4282 213   |
-4282 214   |
-4282 215   |
-4282 216   |
-4282 217   |
-4282 218   |
-4282 219   |
-4282 220   |
-4282 221   |
-4282 222   |
-4282 223   |
-4282 224   |
-4282 225   |
-4282 226   |
-4282 227   |
-4282 228   |
-4282 229   |
-4282 230   |
-4282 231   |
-4282 232          2-MarginalOutlier[16]
-4282 233            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4282 234         1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+4282 0     :: 10x higher scaler rate ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+4282 1     :: 10x higher scaler rate ::           4-LowLiveTime[all]                  5-Misc[all]
+4282 2     :: 10x higher scaler rate ::                  5-Misc[all]
+4282 3     :: 10x higher scaler rate ::                  5-Misc[all]
+4282 4     :: 10x higher scaler rate ::                  5-Misc[all]
+4282 5     :: 10x higher scaler rate ::                  5-Misc[all]
+4282 6     :: 10x higher scaler rate ::                  5-Misc[all]
+4282 7     :: 10x higher scaler rate ::                  5-Misc[all]
+4282 8     :: 10x higher scaler rate ::                  5-Misc[all]
+4282 9     :: 10x higher scaler rate ::                  5-Misc[all]
+4282 10    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 11    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 12    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 13    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 14    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 15    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 16    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 17    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 18    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 19    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 20    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 21    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 22    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 23    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 24    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 25    :: 10x higher scaler rate ::        2-MarginalOutlier[14]                  5-Misc[all]
+4282 26    :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 27    :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 28    :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 29    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 30    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 31    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 32    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 33    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 34    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 35    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 36    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 37    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 38    :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 39    :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 40    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 41    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 42    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 43    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 44    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 45    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 46    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 47    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 48    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 49    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 50    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 51    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 52    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 53    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 54    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 55    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 56    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 57    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 58    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 59    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 60    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 61    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 62    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 63    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 64    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 65    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 66    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 67    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 68    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 69    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 70    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 71    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 72    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 73    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 74    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 75    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 76    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 77    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 78    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 79    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 80    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 81    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 82    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 83    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 84    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 85    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 86    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 87    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 88    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 89    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 90    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 91    :: 10x higher scaler rate ::        2-MarginalOutlier[35]                  5-Misc[all]
+4282 92    :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 93    :: 10x higher scaler rate ::           0-TotalOutlier[25]         2-MarginalOutlier[4]                  5-Misc[all]
+4282 94    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 95    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 96    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 97    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 98    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 99    :: 10x higher scaler rate ::                  5-Misc[all]
+4282 100   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 101   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 102   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 103   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 104   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 105   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 106   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 107   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 108   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 109   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 110   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 111   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 112   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 113   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 114   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 115   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 116   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 117   :: 10x higher scaler rate ::      2-MarginalOutlier[2345]                  5-Misc[all]        19-PossiblyNoBeam[23]
+4282 118   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 119   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 120   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 121   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 122   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 123   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 124   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 125   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 126   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 127   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 128   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 129   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 130   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 131   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 132   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 133   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 134   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 135   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 136   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 137   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 138   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 139   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 140   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 141   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 142   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 143   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 144   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 145   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 146   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 147   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 148   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 149   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 150   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 151   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 152   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 153   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 154   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 155   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 156   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 157   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 158   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 159   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 160   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 161   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 162   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 163   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 164   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 165   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 166   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 167   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 168   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 169   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 170   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 171   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 172   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 173   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 174   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 175   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 176   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 177   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 178   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 179   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 180   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 181   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 182   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 183   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 184   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 185   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 186   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 187   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 188   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 189   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 190   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 191   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 192   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 193   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 194   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 195   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 196   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 197   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 198   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 199   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 200   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 201   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 202   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 203   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 204   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 205   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 206   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 207   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 208   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 209   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 210   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 211   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 212   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 213   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 214   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 215   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 216   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 217   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 218   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 219   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 220   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 221   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 222   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 223   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 224   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 225   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 226   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 227   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 228   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 229   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 230   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 231   :: 10x higher scaler rate ::                  5-Misc[all]
+4282 232   :: 10x higher scaler rate ::        2-MarginalOutlier[16]                  5-Misc[all]
+4282 233   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4282 234   :: 10x higher scaler rate ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 4293
 ----------------------------------------------------------------------------------
-4293 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-4293 1               4-LowLiveTime[all]
-4293 2     |
-4293 3             2-MarginalOutlier[4]
-4293 4               16-ChargeHigh[all]
-4293 5               16-ChargeHigh[all]
-4293 6     |
-4293 7     |
-4293 8     |
-4293 9     |
-4293 10    |
-4293 11    |
-4293 12    |
-4293 13    |
-4293 14    |
-4293 15    |
-4293 16    |
-4293 17    |
-4293 18    |
-4293 19    |
-4293 20    |
-4293 21    |
-4293 22    |
-4293 23    |
-4293 24    |
-4293 25    |
-4293 26    |
-4293 27    |
-4293 28    |
-4293 29    |
-4293 30    |
-4293 31    |
-4293 32    |
-4293 33    |
-4293 34    |
-4293 35    |
-4293 36    |
-4293 37    |
-4293 38    |
-4293 39    |
-4293 40    |
-4293 41    |
-4293 42    |
-4293 43    |
-4293 44    |
-4293 45    |
-4293 46    |
-4293 47    |
-4293 48    |
-4293 49    |
-4293 50    |
-4293 51    |
-4293 52    |
-4293 53    |
-4293 54    |
-4293 55    |
-4293 56    |
-4293 57    |
-4293 58    |
-4293 59    |
-4293 60    |
-4293 61    |
-4293 62    |
-4293 63    |
-4293 64    |
-4293 65    |
-4293 66    |
-4293 67    |
-4293 68    |
-4293 69    |
-4293 70    |
-4293 71    |
-4293 72    |
-4293 73    |
-4293 74    |
-4293 75    |
-4293 76    |
-4293 77    |
-4293 78    |
-4293 79    |
-4293 80    |
-4293 81    |
-4293 82    |
-4293 83    |
-4293 84    |
-4293 85    |
-4293 86    |
-4293 87    |
-4293 88    |
-4293 89    |
-4293 90    |
-4293 91    |
-4293 92    |
-4293 93    |
-4293 94    |
-4293 95    |
-4293 96    |
-4293 97    |
-4293 98    |
-4293 99    |
-4293 100   |
-4293 101   |
-4293 102   |
-4293 103   |
-4293 104   |
-4293 105   |
-4293 106   |
-4293 107   |
-4293 108   |
-4293 109   |
-4293 110   |
-4293 111   |
-4293 112   |
-4293 113   |
-4293 114   |
-4293 115   |
-4293 116   |
-4293 117   |
-4293 118   |
-4293 119   |
-4293 120   |
-4293 121   |
-4293 122   |
-4293 123   |
-4293 124   |
-4293 125   |
-4293 126   |
-4293 127   |
-4293 128   |
-4293 129   |
-4293 130   |
-4293 131   |
-4293 132   |
-4293 133   |
-4293 134   |
-4293 135   |
-4293 136   |
-4293 137   |
-4293 138   |
-4293 139   |
-4293 140   |
-4293 141   |
-4293 142           2-MarginalOutlier[5]
-4293 143   |
-4293 144   |
-4293 145   |
-4293 146   |
-4293 147   |
-4293 148   |
-4293 149   |
-4293 150   |
-4293 151   |
-4293 152   |
-4293 153   |
-4293 154   |
-4293 155   |
-4293 156   |
-4293 157   |
-4293 158   |
-4293 159   |
-4293 160   |
-4293 161   |
-4293 162   |
-4293 163   |
-4293 164   |
-4293 165   |
-4293 166   |
-4293 167   |
-4293 168   |
-4293 169   |
-4293 170   |
-4293 171   |
-4293 172   |
-4293 173   |
-4293 174   |
-4293 175   |
-4293 176   |
-4293 177   |
-4293 178   |
-4293 179   |
-4293 180   |
-4293 181   |
-4293 182   |
-4293 183   |
-4293 184   |
-4293 185   |
-4293 186   |
-4293 187   |
-4293 188   |
-4293 189   |
-4293 190   |
-4293 191   |
-4293 192   |
-4293 193   |
-4293 194   |
-4293 195   |
-4293 196   |
-4293 197   |
-4293 198   |
-4293 199   |
-4293 200   |
-4293 201   |
-4293 202   |
-4293 203   |
-4293 204   |
-4293 205   |
-4293 206   |
-4293 207   |
-4293 208   |
-4293 209   |
-4293 210   |
-4293 211   |
-4293 212   |
-4293 213   |
-4293 214   |
-4293 215   |
-4293 216   |
-4293 217   |
-4293 218   |
-4293 219   |
-4293 220   |
-4293 221   |
-4293 222   |
-4293 223   |
-4293 224   |
-4293 225   |
-4293 226   |
-4293 227   |
-4293 228   |
-4293 229   |
-4293 230   |
-4293 231   |
-4293 232   |
-4293 233   |
-4293 234   |
-4293 235   |
-4293 236   |
-4293 237   |
-4293 238   |
-4293 239   |
-4293 240   |
-4293 241   |
-4293 242   |
-4293 243   |
-4293 244   |
-4293 245   |
-4293 246   |
-4293 247   |
-4293 248   |
-4293 249   |
-4293 250   |
-4293 251   |
-4293 252   |
-4293 253   |
-4293 254   |
-4293 255   |
-4293 256   |
-4293 257   |
-4293 258   |
-4293 259   |
-4293 260   |
-4293 261   |
-4293 262   |
-4293 263   |
-4293 264   |
-4293 265   |
-4293 266   |
-4293 267   |
-4293 268   |
-4293 269   |
-4293 270   |
-4293 271   |
-4293 272   |
-4293 273   |
-4293 274   |
-4293 275   |
-4293 276   |
-4293 277   |
-4293 278   |
-4293 279   |
-4293 280   |
-4293 281   |
-4293 282   |
-4293 283   |
-4293 284   |
-4293 285   |
-4293 286   |
-4293 287   |
-4293 288   |
-4293 289   |
-4293 290   |
-4293 291   |
-4293 292             4-LowLiveTime[all]
-4293 293            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4293 294            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4293 295            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4293 296   |
-4293 297   |
-4293 298   |
-4293 299   |
-4293 300   |
-4293 301   |
-4293 302   |
-4293 303   |
-4293 304   |
-4293 305   |
-4293 306   |
-4293 307   |
-4293 308   |
-4293 309   |
-4293 310   |
-4293 311   |
-4293 312   |
-4293 313   |
-4293 314   |
-4293 315   |
-4293 316   |
-4293 317   |
-4293 318   |
-4293 319   |
-4293 320   |
-4293 321   |
-4293 322   |
-4293 323   |
-4293 324   |
-4293 325   |
-4293 326   |
-4293 327   |
-4293 328   |
-4293 329   |
-4293 330   |
-4293 331   |
-4293 332   |
-4293 333   |
-4293 334   |
-4293 335   |
-4293 336   |
-4293 337   |
-4293 338   |
-4293 339   |
-4293 340   |
-4293 341   |
-4293 342   |
-4293 343   |
-4293 344   |
-4293 345   |
-4293 346   |
-4293 347   |
-4293 348   |
-4293 349   |
-4293 350   |
-4293 351   |
-4293 352   |
-4293 353   |
-4293 354   |
-4293 355   |
-4293 356   |
-4293 357   |
-4293 358   |
-4293 359   |
-4293 360   |
-4293 361   |
-4293 362   |
-4293 363   |
-4293 364   |
-4293 365   |
-4293 366   |
-4293 367   |
-4293 368   |
-4293 369   |
-4293 370   |
-4293 371   |
-4293 372   |
-4293 373   |
-4293 374   |
-4293 375   |
-4293 376   |
-4293 377   |
-4293 378   |
-4293 379   |
-4293 380   |
-4293 381   |
-4293 382   |
-4293 383   |
-4293 384   |
-4293 385   |
-4293 386   |
-4293 387   |
-4293 388   |
-4293 389   |
-4293 390   |
-4293 391   |
-4293 392   |
-4293 393   |
-4293 394   |
-4293 395   |
-4293 396   |
-4293 397   |
-4293 398   |
-4293 399   |
-4293 400   |
-4293 401   |
-4293 402   |
-4293 403   |
-4293 404   |
-4293 405   |
-4293 406   |
-4293 407   |
-4293 408   |
-4293 409   |
-4293 410   |
-4293 411   |
-4293 412   |
-4293 413   |
-4293 414   |
-4293 415   |
-4293 416   |
-4293 417   |
-4293 418   |
-4293 419   |
-4293 420   |
-4293 421   |
-4293 422   |
-4293 423   |
-4293 424   |
-4293 425   |
-4293 426   |
-4293 427   |
-4293 428   |
-4293 429   |
-4293 430   |
-4293 431   |
-4293 432   |
-4293 433   |
-4293 434   |
-4293 435   |
-4293 436   |
-4293 437   |
-4293 438   |
-4293 439   |
-4293 440   |
-4293 441   |
-4293 442   |
-4293 443   |
-4293 444   |
-4293 445   |
-4293 446   |
-4293 447   |
-4293 448   |
-4293 449   |
-4293 450   |
-4293 451   |
-4293 452   |
-4293 453   |
-4293 454   |
-4293 455   |
-4293 456   |
-4293 457   |
-4293 458   |
-4293 459   |
-4293 460   |
-4293 461   |
-4293 462   |
-4293 463   |
-4293 464   |
-4293 465   |
-4293 466   |
-4293 467   |
-4293 468   |
-4293 469   |
-4293 470   |
-4293 471   |
-4293 472   |
-4293 473   |
-4293 474   |
-4293 475   |
-4293 476   |
-4293 477   |
-4293 478   |
-4293 479   |
-4293 480   |
-4293 481   |
-4293 482   |
-4293 483   |
-4293 484   |
-4293 485   |
-4293 486   |
-4293 487   |
-4293 488   |
-4293 489   |
-4293 490   |
-4293 491   |
-4293 492   |
-4293 493   |
-4293 494   |
-4293 495   |
-4293 496   |
-4293 497   |
-4293 498   |
-4293 499   |
-4293 500   |
-4293 501   |
-4293 502   |
-4293 503   |
-4293 504   |
-4293 505   |
-4293 506   |
-4293 507   |
-4293 508   |
-4293 509   |
-4293 510   |
-4293 511   |
-4293 512   |
-4293 513   |
-4293 514   |
-4293 515   |
-4293 516   |
-4293 517   |
-4293 518   |
-4293 519   |
-4293 520   |
-4293 521   |
-4293 522   |
-4293 523   |
-4293 524   |
-4293 525   |
-4293 526   |
-4293 527   |
-4293 528   |
-4293 529   |
-4293 530   |
-4293 531   |
-4293 532   |
-4293 533   |
-4293 534   |
-4293 535   |
-4293 536   |
-4293 537            0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
-4293 538   |
-4293 539   |
-4293 540   |
-4293 541   |
-4293 542   |
-4293 543   |
-4293 544   |
-4293 545   |
-4293 546   |
-4293 547   |
-4293 548   |
-4293 549   |
-4293 550   |
-4293 551   |
-4293 552   |
-4293 553   |
-4293 554   |
-4293 555   |
-4293 556   |
-4293 557         1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+4293 0     :: 10x higher scaler rate ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+4293 1     :: 10x higher scaler rate ::           4-LowLiveTime[all]                  5-Misc[all]
+4293 2     :: 10x higher scaler rate ::                  5-Misc[all]
+4293 3     :: 10x higher scaler rate ::         2-MarginalOutlier[4]                  5-Misc[all]
+4293 4     :: 10x higher scaler rate ::                  5-Misc[all]           16-ChargeHigh[all]
+4293 5     :: 10x higher scaler rate ::                  5-Misc[all]           16-ChargeHigh[all]
+4293 6     :: 10x higher scaler rate ::                  5-Misc[all]
+4293 7     :: 10x higher scaler rate ::                  5-Misc[all]
+4293 8     :: 10x higher scaler rate ::                  5-Misc[all]
+4293 9     :: 10x higher scaler rate ::                  5-Misc[all]
+4293 10    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 11    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 12    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 13    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 14    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 15    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 16    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 17    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 18    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 19    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 20    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 21    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 22    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 23    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 24    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 25    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 26    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 27    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 28    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 29    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 30    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 31    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 32    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 33    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 34    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 35    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 36    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 37    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 38    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 39    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 40    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 41    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 42    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 43    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 44    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 45    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 46    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 47    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 48    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 49    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 50    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 51    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 52    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 53    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 54    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 55    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 56    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 57    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 58    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 59    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 60    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 61    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 62    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 63    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 64    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 65    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 66    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 67    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 68    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 69    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 70    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 71    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 72    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 73    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 74    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 75    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 76    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 77    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 78    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 79    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 80    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 81    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 82    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 83    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 84    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 85    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 86    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 87    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 88    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 89    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 90    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 91    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 92    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 93    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 94    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 95    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 96    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 97    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 98    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 99    :: 10x higher scaler rate ::                  5-Misc[all]
+4293 100   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 101   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 102   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 103   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 104   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 105   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 106   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 107   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 108   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 109   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 110   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 111   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 112   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 113   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 114   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 115   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 116   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 117   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 118   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 119   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 120   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 121   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 122   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 123   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 124   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 125   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 126   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 127   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 128   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 129   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 130   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 131   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 132   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 133   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 134   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 135   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 136   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 137   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 138   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 139   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 140   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 141   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 142   :: 10x higher scaler rate ::         2-MarginalOutlier[5]                  5-Misc[all]
+4293 143   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 144   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 145   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 146   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 147   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 148   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 149   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 150   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 151   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 152   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 153   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 154   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 155   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 156   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 157   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 158   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 159   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 160   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 161   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 162   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 163   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 164   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 165   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 166   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 167   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 168   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 169   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 170   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 171   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 172   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 173   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 174   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 175   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 176   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 177   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 178   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 179   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 180   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 181   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 182   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 183   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 184   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 185   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 186   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 187   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 188   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 189   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 190   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 191   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 192   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 193   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 194   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 195   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 196   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 197   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 198   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 199   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 200   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 201   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 202   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 203   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 204   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 205   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 206   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 207   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 208   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 209   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 210   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 211   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 212   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 213   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 214   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 215   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 216   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 217   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 218   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 219   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 220   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 221   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 222   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 223   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 224   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 225   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 226   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 227   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 228   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 229   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 230   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 231   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 232   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 233   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 234   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 235   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 236   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 237   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 238   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 239   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 240   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 241   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 242   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 243   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 244   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 245   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 246   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 247   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 248   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 249   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 250   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 251   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 252   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 253   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 254   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 255   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 256   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 257   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 258   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 259   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 260   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 261   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 262   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 263   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 264   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 265   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 266   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 267   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 268   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 269   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 270   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 271   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 272   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 273   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 274   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 275   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 276   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 277   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 278   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 279   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 280   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 281   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 282   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 283   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 284   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 285   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 286   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 287   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 288   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 289   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 290   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 291   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 292   :: 10x higher scaler rate ::           4-LowLiveTime[all]                  5-Misc[all]
+4293 293   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4293 294   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4293 295   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4293 296   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 297   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 298   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 299   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 300   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 301   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 302   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 303   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 304   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 305   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 306   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 307   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 308   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 309   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 310   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 311   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 312   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 313   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 314   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 315   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 316   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 317   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 318   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 319   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 320   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 321   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 322   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 323   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 324   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 325   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 326   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 327   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 328   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 329   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 330   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 331   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 332   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 333   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 334   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 335   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 336   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 337   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 338   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 339   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 340   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 341   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 342   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 343   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 344   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 345   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 346   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 347   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 348   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 349   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 350   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 351   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 352   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 353   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 354   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 355   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 356   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 357   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 358   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 359   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 360   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 361   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 362   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 363   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 364   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 365   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 366   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 367   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 368   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 369   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 370   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 371   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 372   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 373   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 374   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 375   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 376   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 377   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 378   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 379   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 380   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 381   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 382   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 383   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 384   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 385   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 386   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 387   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 388   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 389   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 390   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 391   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 392   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 393   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 394   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 395   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 396   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 397   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 398   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 399   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 400   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 401   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 402   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 403   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 404   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 405   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 406   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 407   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 408   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 409   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 410   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 411   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 412   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 413   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 414   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 415   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 416   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 417   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 418   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 419   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 420   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 421   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 422   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 423   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 424   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 425   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 426   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 427   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 428   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 429   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 430   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 431   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 432   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 433   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 434   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 435   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 436   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 437   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 438   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 439   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 440   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 441   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 442   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 443   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 444   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 445   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 446   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 447   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 448   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 449   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 450   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 451   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 452   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 453   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 454   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 455   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 456   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 457   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 458   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 459   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 460   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 461   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 462   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 463   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 464   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 465   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 466   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 467   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 468   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 469   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 470   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 471   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 472   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 473   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 474   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 475   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 476   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 477   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 478   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 479   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 480   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 481   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 482   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 483   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 484   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 485   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 486   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 487   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 488   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 489   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 490   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 491   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 492   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 493   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 494   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 495   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 496   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 497   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 498   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 499   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 500   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 501   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 502   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 503   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 504   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 505   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 506   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 507   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 508   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 509   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 510   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 511   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 512   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 513   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 514   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 515   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 516   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 517   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 518   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 519   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 520   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 521   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 522   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 523   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 524   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 525   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 526   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 527   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 528   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 529   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 530   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 531   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 532   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 533   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 534   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 535   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 536   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 537   :: 10x higher scaler rate ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
+4293 538   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 539   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 540   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 541   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 542   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 543   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 544   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 545   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 546   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 547   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 548   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 549   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 550   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 551   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 552   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 553   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 554   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 555   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 556   :: 10x higher scaler rate ::                  5-Misc[all]
+4293 557   :: 10x higher scaler rate ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 4309
