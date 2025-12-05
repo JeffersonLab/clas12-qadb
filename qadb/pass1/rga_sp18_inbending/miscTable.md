@@ -55,7 +55,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3441       | no    |  |
 | 3442       | no    |  |
 | 3443       | no    |  |
-| 3449       | yes   | <pre>unstable livetime</pre> |
+| 3449       | no    |  |
 | 3456       | no    |  |
 | 3457       | no    |  |
 | 3459       | no    |  |
@@ -76,8 +76,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3490       | no    |  |
 | 3492       | no    |  |
 | 3493       | no    |  |
-| 3499       | yes   | <pre>new trigger config; fluctuating live time</pre> |
-| 3500       | yes   | <pre>fluctuating live time</pre> |
+| 3499       | no    |  |
+| 3500       | no    |  |
 | 3501       | no    |  |
 | 3505       | no    |  |
 | 3506       | no    |  |
@@ -134,7 +134,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3754       | no    |  |
 | 3756       | no    |  |
 | 3757       | yes   | <pre>2C24 gives completely off X_pos. Orbit lock not working anymore.</pre> |
-| 3768       | yes   | <pre>10 nA run</pre> |
+| 3768       | yes   | <pre>10 nA run; couple of ECAL channels tripped</pre> |
 | 3770       | yes   | <pre>35 nA run</pre> |
 | 3771       | no    |  |
 | 3773       | yes   | <pre>75 nA run</pre> |
@@ -145,7 +145,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3783       | yes   | <pre>5 nA run</pre> |
 | 3785       | yes   | <pre>10 nA run</pre> |
 | 3786       | yes   | <pre>10 nA run</pre> |
-| 3788       | no    |  |
+| 3788       | yes   | <pre>SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run</pre> |
 | 3789       | no    |  |
 | 3790       | no    |  |
 | 3791       | no    |  |
@@ -211,7 +211,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 4082       | no    |  |
 | 4083       | no    |  |
 | 4085       | no    |  |
-| 4088       | no    |  |
+| 4088       | yes   | <pre>trigger bits 24 to 27 with low rate</pre> |
 | 4089       | no    |  |
 | 4090       | no    |  |
 | 4091       | no    |  |

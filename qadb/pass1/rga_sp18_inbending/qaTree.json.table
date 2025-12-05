@@ -3253,18 +3253,18 @@ RUN: 3442
 3442 58    |
 3442 59    |
 3442 60    |
-3442 61                 3-SectorLoss[2]
-3442 62                 3-SectorLoss[2]
-3442 63            2-MarginalOutlier[2]              3-SectorLoss[2]
-3442 64            2-MarginalOutlier[5]              3-SectorLoss[2]
-3442 65            0-TotalOutlier[1356]         2-MarginalOutlier[4]              3-SectorLoss[2]
-3442 66            2-MarginalOutlier[2]              3-SectorLoss[2]
-3442 67            2-MarginalOutlier[2]              3-SectorLoss[2]
-3442 68            2-MarginalOutlier[2]              3-SectorLoss[2]
-3442 69               0-TotalOutlier[2]              3-SectorLoss[2]
-3442 70            2-MarginalOutlier[2]              3-SectorLoss[2]
-3442 71                 3-SectorLoss[2]
-3442 72                 3-SectorLoss[2]
+3442 61    |
+3442 62    |
+3442 63            2-MarginalOutlier[2]
+3442 64            2-MarginalOutlier[5]
+3442 65            0-TotalOutlier[1356]         2-MarginalOutlier[4]
+3442 66            2-MarginalOutlier[2]
+3442 67            2-MarginalOutlier[2]
+3442 68            2-MarginalOutlier[2]
+3442 69               0-TotalOutlier[2]
+3442 70            2-MarginalOutlier[2]
+3442 71    |
+3442 72    |
 3442 73    |
 3442 74               0-TotalOutlier[2]       2-MarginalOutlier[456]
 3442 75    |
@@ -3503,85 +3503,85 @@ RUN: 3443
 ==================================================================================
 RUN: 3449
 ----------------------------------------------------------------------------------
-3449 0     :: unstable livetime ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-3449 1     :: unstable livetime ::                  5-Misc[all]
-3449 2     :: unstable livetime ::                  5-Misc[all]
-3449 3     :: unstable livetime ::                  5-Misc[all]
-3449 4     :: unstable livetime ::                  5-Misc[all]
-3449 5     :: unstable livetime ::           0-TotalOutlier[24]       2-MarginalOutlier[136]                  5-Misc[all]
-3449 6     :: unstable livetime ::                  5-Misc[all]
-3449 7     :: unstable livetime ::                  5-Misc[all]
-3449 8     :: unstable livetime ::                  5-Misc[all]
-3449 9     :: unstable livetime ::                  5-Misc[all]
-3449 10    :: unstable livetime ::                  5-Misc[all]
-3449 11    :: unstable livetime ::                  5-Misc[all]
-3449 12    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 13    :: unstable livetime ::         2-MarginalOutlier[6]           4-LowLiveTime[all]                  5-Misc[all]
-3449 14    :: unstable livetime ::            0-TotalOutlier[1]      2-MarginalOutlier[2346]                  5-Misc[all]
-3449 15    :: unstable livetime ::                  5-Misc[all]
-3449 16    :: unstable livetime ::                  5-Misc[all]
-3449 17    :: unstable livetime ::                  5-Misc[all]
-3449 18    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 19    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 20    :: unstable livetime ::                  5-Misc[all]
-3449 21    :: unstable livetime ::         0-TotalOutlier[1236]        2-MarginalOutlier[45]                  5-Misc[all]
-3449 22    :: unstable livetime ::                  5-Misc[all]
-3449 23    :: unstable livetime ::                  5-Misc[all]
-3449 24    :: unstable livetime ::         2-MarginalOutlier[3]                  5-Misc[all]
-3449 25    :: unstable livetime ::                  5-Misc[all]
-3449 26    :: unstable livetime ::                  5-Misc[all]
-3449 27    :: unstable livetime ::      2-MarginalOutlier[1236]                  5-Misc[all]
-3449 28    :: unstable livetime ::                  5-Misc[all]
-3449 29    :: unstable livetime ::                  5-Misc[all]
-3449 30    :: unstable livetime ::                  5-Misc[all]
-3449 31    :: unstable livetime ::                  5-Misc[all]
-3449 32    :: unstable livetime ::                  5-Misc[all]
-3449 33    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 34    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 35    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 36    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 37    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 38    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 39    :: unstable livetime ::                  5-Misc[all]
-3449 40    :: unstable livetime ::                  5-Misc[all]
-3449 41    :: unstable livetime ::                  5-Misc[all]
-3449 42    :: unstable livetime ::                  5-Misc[all]
-3449 43    :: unstable livetime ::                  5-Misc[all]
-3449 44    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 45    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 46    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 47    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 48    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 49    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 50    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 51    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 52    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 53    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 54    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 55    :: unstable livetime ::            0-TotalOutlier[2]     2-MarginalOutlier[13456]                  5-Misc[all]
-3449 56    :: unstable livetime ::                  5-Misc[all]
-3449 57    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 58    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 59    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 60    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 61    :: unstable livetime ::                  5-Misc[all]
-3449 62    :: unstable livetime ::                  5-Misc[all]
-3449 63    :: unstable livetime ::                  5-Misc[all]
-3449 64    :: unstable livetime ::                  5-Misc[all]
-3449 65    :: unstable livetime ::                  5-Misc[all]
-3449 66    :: unstable livetime ::                  5-Misc[all]
-3449 67    :: unstable livetime ::                  5-Misc[all]
-3449 68    :: unstable livetime ::                  5-Misc[all]
-3449 69    :: unstable livetime ::                  5-Misc[all]
-3449 70    :: unstable livetime ::                  5-Misc[all]
-3449 71    :: unstable livetime ::                  5-Misc[all]
-3449 72    :: unstable livetime ::                  5-Misc[all]
-3449 73    :: unstable livetime ::                  5-Misc[all]
-3449 74    :: unstable livetime ::                  5-Misc[all]
-3449 75    :: unstable livetime ::                  5-Misc[all]
-3449 76    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 77    :: unstable livetime ::           4-LowLiveTime[all]                  5-Misc[all]
-3449 78    :: unstable livetime ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3449 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3449 1     |
+3449 2     |
+3449 3     |
+3449 4     |
+3449 5               0-TotalOutlier[24]       2-MarginalOutlier[136]
+3449 6     |
+3449 7     |
+3449 8     |
+3449 9     |
+3449 10    |
+3449 11    |
+3449 12              4-LowLiveTime[all]
+3449 13            2-MarginalOutlier[6]           4-LowLiveTime[all]
+3449 14               0-TotalOutlier[1]      2-MarginalOutlier[2346]
+3449 15    |
+3449 16    |
+3449 17    |
+3449 18              4-LowLiveTime[all]
+3449 19              4-LowLiveTime[all]
+3449 20    |
+3449 21            0-TotalOutlier[1236]        2-MarginalOutlier[45]
+3449 22    |
+3449 23    |
+3449 24            2-MarginalOutlier[3]
+3449 25    |
+3449 26    |
+3449 27         2-MarginalOutlier[1236]
+3449 28    |
+3449 29    |
+3449 30    |
+3449 31    |
+3449 32    |
+3449 33              4-LowLiveTime[all]
+3449 34              4-LowLiveTime[all]
+3449 35              4-LowLiveTime[all]
+3449 36              4-LowLiveTime[all]
+3449 37              4-LowLiveTime[all]
+3449 38              4-LowLiveTime[all]
+3449 39    |
+3449 40    |
+3449 41    |
+3449 42    |
+3449 43    |
+3449 44              4-LowLiveTime[all]
+3449 45              4-LowLiveTime[all]
+3449 46              4-LowLiveTime[all]
+3449 47              4-LowLiveTime[all]
+3449 48              4-LowLiveTime[all]
+3449 49              4-LowLiveTime[all]
+3449 50              4-LowLiveTime[all]
+3449 51              4-LowLiveTime[all]
+3449 52              4-LowLiveTime[all]
+3449 53              4-LowLiveTime[all]
+3449 54              4-LowLiveTime[all]
+3449 55               0-TotalOutlier[2]     2-MarginalOutlier[13456]
+3449 56    |
+3449 57              4-LowLiveTime[all]
+3449 58              4-LowLiveTime[all]
+3449 59              4-LowLiveTime[all]
+3449 60              4-LowLiveTime[all]
+3449 61    |
+3449 62    |
+3449 63    |
+3449 64    |
+3449 65    |
+3449 66    |
+3449 67    |
+3449 68    |
+3449 69    |
+3449 70    |
+3449 71    |
+3449 72    |
+3449 73    |
+3449 74    |
+3449 75    |
+3449 76              4-LowLiveTime[all]
+3449 77              4-LowLiveTime[all]
+3449 78          1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3456
@@ -3676,13 +3676,13 @@ RUN: 3457
 3457 7                0-TotalOutlier[2]              3-SectorLoss[2]
 3457 8                0-TotalOutlier[2]              3-SectorLoss[2]
 3457 9                0-TotalOutlier[2]              3-SectorLoss[2]
-3457 10              0-TotalOutlier[12]              3-SectorLoss[2]
-3457 11              0-TotalOutlier[12]              3-SectorLoss[2]       8-MarginalOutlierFT[1]
-3457 12              0-TotalOutlier[12]              3-SectorLoss[2]
-3457 13              0-TotalOutlier[12]              3-SectorLoss[2]       8-MarginalOutlierFT[1]
-3457 14              0-TotalOutlier[12]              3-SectorLoss[2]
-3457 15               0-TotalOutlier[1]     2-MarginalOutlier[23456]              3-SectorLoss[2]         19-PossiblyNoBeam[1]
-3457 16          1-TerminalOutlier[all]              3-SectorLoss[2]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3457 10              0-TotalOutlier[12]             3-SectorLoss[12]
+3457 11              0-TotalOutlier[12]             3-SectorLoss[12]       8-MarginalOutlierFT[1]
+3457 12              0-TotalOutlier[12]             3-SectorLoss[12]
+3457 13              0-TotalOutlier[12]             3-SectorLoss[12]       8-MarginalOutlierFT[1]
+3457 14              0-TotalOutlier[12]             3-SectorLoss[12]
+3457 15               0-TotalOutlier[1]     2-MarginalOutlier[23456]             3-SectorLoss[12]         19-PossiblyNoBeam[1]
+3457 16          1-TerminalOutlier[all]             3-SectorLoss[12]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3459
@@ -6125,108 +6125,108 @@ RUN: 3493
 ==================================================================================
 RUN: 3499
 ----------------------------------------------------------------------------------
-3499 0     :: new trigger config; fluctuating live time ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-3499 1     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 2     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 3     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 4     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 5     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 6     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 7     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 8     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 9     :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 10    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 11    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 12    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 13    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 14    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 15    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 16    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 17    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 18    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 19    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 20    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 21    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 22    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 23    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 24    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 25    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 26    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 27    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 28    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 29    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 30    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 31    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 32    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 33    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 34    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 35    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 36    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 37    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 38    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 39    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 40    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 41    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 42    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 43    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 44    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 45    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 46    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 47    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 48    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 49    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 50    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 51    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 52    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 53    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 54    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 55    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 56    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 57    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 58    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 59    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 60    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 61    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 62    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 63    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 64    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 65    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 66    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 67    :: new trigger config; fluctuating live time ::         2-MarginalOutlier[5]                  5-Misc[all]
-3499 68    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 69    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 70    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 71    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 72    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 73    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 74    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 75    :: new trigger config; fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3499 76    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 77    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 78    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 79    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 80    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 81    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 82    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 83    :: new trigger config; fluctuating live time ::                  5-Misc[all]
-3499 84    :: new trigger config; fluctuating live time ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3499 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3499 1               4-LowLiveTime[all]
+3499 2               4-LowLiveTime[all]
+3499 3               4-LowLiveTime[all]
+3499 4               4-LowLiveTime[all]
+3499 5               4-LowLiveTime[all]
+3499 6               4-LowLiveTime[all]
+3499 7               4-LowLiveTime[all]
+3499 8               4-LowLiveTime[all]
+3499 9               4-LowLiveTime[all]
+3499 10              4-LowLiveTime[all]
+3499 11              4-LowLiveTime[all]
+3499 12              4-LowLiveTime[all]
+3499 13    |
+3499 14              4-LowLiveTime[all]
+3499 15              4-LowLiveTime[all]
+3499 16              4-LowLiveTime[all]
+3499 17              4-LowLiveTime[all]
+3499 18              4-LowLiveTime[all]
+3499 19              4-LowLiveTime[all]
+3499 20    |
+3499 21    |
+3499 22              4-LowLiveTime[all]
+3499 23              4-LowLiveTime[all]
+3499 24              4-LowLiveTime[all]
+3499 25              4-LowLiveTime[all]
+3499 26              4-LowLiveTime[all]
+3499 27              4-LowLiveTime[all]
+3499 28              4-LowLiveTime[all]
+3499 29              4-LowLiveTime[all]
+3499 30              4-LowLiveTime[all]
+3499 31              4-LowLiveTime[all]
+3499 32              4-LowLiveTime[all]
+3499 33              4-LowLiveTime[all]
+3499 34              4-LowLiveTime[all]
+3499 35              4-LowLiveTime[all]
+3499 36    |
+3499 37              4-LowLiveTime[all]
+3499 38              4-LowLiveTime[all]
+3499 39              4-LowLiveTime[all]
+3499 40    |
+3499 41              4-LowLiveTime[all]
+3499 42    |
+3499 43              4-LowLiveTime[all]
+3499 44    |
+3499 45              4-LowLiveTime[all]
+3499 46    |
+3499 47    |
+3499 48              4-LowLiveTime[all]
+3499 49    |
+3499 50              4-LowLiveTime[all]
+3499 51    |
+3499 52    |
+3499 53    |
+3499 54    |
+3499 55    |
+3499 56    |
+3499 57    |
+3499 58    |
+3499 59    |
+3499 60    |
+3499 61    |
+3499 62    |
+3499 63              4-LowLiveTime[all]
+3499 64    |
+3499 65    |
+3499 66    |
+3499 67            2-MarginalOutlier[5]
+3499 68    |
+3499 69    |
+3499 70              4-LowLiveTime[all]
+3499 71              4-LowLiveTime[all]
+3499 72              4-LowLiveTime[all]
+3499 73    |
+3499 74              4-LowLiveTime[all]
+3499 75              4-LowLiveTime[all]
+3499 76    |
+3499 77    |
+3499 78    |
+3499 79    |
+3499 80    |
+3499 81    |
+3499 82    |
+3499 83    |
+3499 84          1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3500
 ----------------------------------------------------------------------------------
-3500 0     :: fluctuating live time ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-3500 1     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 2     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 3     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 4     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 5     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 6     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 7     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 8     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 9     :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 10    :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 11    :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
-3500 12    :: fluctuating live time ::           4-LowLiveTime[all]                  5-Misc[all]
+3500 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3500 1               4-LowLiveTime[all]
+3500 2               4-LowLiveTime[all]
+3500 3               4-LowLiveTime[all]
+3500 4               4-LowLiveTime[all]
+3500 5               4-LowLiveTime[all]
+3500 6               4-LowLiveTime[all]
+3500 7               4-LowLiveTime[all]
+3500 8               4-LowLiveTime[all]
+3500 9               4-LowLiveTime[all]
+3500 10              4-LowLiveTime[all]
+3500 11              4-LowLiveTime[all]
+3500 12              4-LowLiveTime[all]
 3500 13    |
 3500 14    |
 3500 15    |
@@ -12172,51 +12172,51 @@ RUN: 3757
 ==================================================================================
 RUN: 3768
 ----------------------------------------------------------------------------------
-3768 0     :: 10 nA run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-3768 1     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 2     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 3     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 4     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 5     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 6     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 7     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 8     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 9     :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 10    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 11    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 12    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 13    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 14    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 15    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 16    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 17    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 18    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 19    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 20    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 21    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 22    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 23    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 24    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 25    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 26    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 27    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 28    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 29    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 30    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 31    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 32    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 33    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 34    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 35    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 36    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 37    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 38    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 39    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 40    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 41    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 42    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 43    :: 10 nA run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
-3768 44    :: 10 nA run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3768 0     :: 10 nA run; couple of ECAL channels tripped ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3768 1     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 2     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 3     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 4     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 5     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 6     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 7     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 8     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 9     :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 10    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 11    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 12    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 13    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 14    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 15    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 16    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 17    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 18    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 19    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 20    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 21    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 22    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 23    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 24    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 25    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 26    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 27    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 28    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 29    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 30    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 31    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 32    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 33    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 34    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 35    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 36    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 37    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 38    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 39    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 40    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 41    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 42    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 43    :: 10 nA run; couple of ECAL channels tripped ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
+3768 44    :: 10 nA run; couple of ECAL channels tripped ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3770
@@ -12687,53 +12687,53 @@ RUN: 3786
 ==================================================================================
 RUN: 3788
 ----------------------------------------------------------------------------------
-3788 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-3788 1     |
-3788 2     |
-3788 3     |
-3788 4            2-MarginalOutlier[56]
-3788 5              0-TotalOutlier[all]          6-TotalOutlierFT[1]       17-ChargeNegative[all]
-3788 6     |
-3788 7     |
-3788 8     |
-3788 9     |
-3788 10    |
-3788 11    |
-3788 12    |
-3788 13    |
-3788 14    |
-3788 15    |
-3788 16    |
-3788 17    |
-3788 18    |
-3788 19    |
-3788 20    |
-3788 21    |
-3788 22    |
-3788 23    |
-3788 24    |
-3788 25    |
-3788 26    |
-3788 27    |
-3788 28    |
-3788 29    |
-3788 30    |
-3788 31    |
-3788 32    |
-3788 33    |
-3788 34    |
-3788 35    |
-3788 36    |
-3788 37    |
-3788 38    |
-3788 39    |
-3788 40    |
-3788 41    |
-3788 42    |
-3788 43    |
-3788 44    |
-3788 45    |
-3788 46          1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3788 0     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+3788 1     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 2     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 3     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 4     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::        2-MarginalOutlier[56]                  5-Misc[all]
+3788 5     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       17-ChargeNegative[all]
+3788 6     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 7     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 8     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 9     :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 10    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 11    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 12    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 13    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 14    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 15    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 16    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 17    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 18    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 19    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 20    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 21    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 22    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 23    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 24    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 25    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 26    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 27    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 28    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 29    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 30    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 31    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 32    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 33    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 34    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 35    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 36    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 37    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 38    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 39    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 40    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 41    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 42    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 43    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 44    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 45    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::                  5-Misc[all]
+3788 46    :: SVT down from 03:05; not clear which QA bins have this issue, so Misc is assigned to the whole run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 3789
@@ -19374,13 +19374,13 @@ RUN: 4085
 ==================================================================================
 RUN: 4088
 ----------------------------------------------------------------------------------
-4088 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
-4088 1               4-LowLiveTime[all]
-4088 2     |
-4088 3     |
-4088 4     |
-4088 5     |
-4088 6           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+4088 0     :: trigger bits 24 to 27 with low rate ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+4088 1     :: trigger bits 24 to 27 with low rate ::           4-LowLiveTime[all]                  5-Misc[all]
+4088 2     :: trigger bits 24 to 27 with low rate ::                  5-Misc[all]
+4088 3     :: trigger bits 24 to 27 with low rate ::                  5-Misc[all]
+4088 4     :: trigger bits 24 to 27 with low rate ::                  5-Misc[all]
+4088 5     :: trigger bits 24 to 27 with low rate ::                  5-Misc[all]
+4088 6     :: trigger bits 24 to 27 with low rate ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 4089
