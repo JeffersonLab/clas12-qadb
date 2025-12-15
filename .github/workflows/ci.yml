@@ -102,7 +102,7 @@ jobs:
           done
           echo "artifact_name=groovy_vs_cpp__$(echo ${{ matrix.dataset }} | sed 's;/;_;g')" | tee -a $GITHUB_OUTPUT
       - name: upload_artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: ${{ steps.artifacts.outputs.artifact_name }}
           retention-days: 3
