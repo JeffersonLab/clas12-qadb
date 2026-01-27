@@ -171,6 +171,10 @@ MISC OPTIONS"""
         "#{ExeName} print --defects",
       ],
       [
+        "the top 3 runs (lowest fraction of 'bad' QA bins), per dataset:",
+        "#{ExeName} goodruns --num 3",
+      ],
+      [
         "calculate run-by-run FC charge for RG-A Spring 2019, allowing only a",
         "couple defect bits, `LowLiveTime` and `BSAWrong`:",
         "#{ExeName} charge --datasets rga_sp19 --allow 4,10",
