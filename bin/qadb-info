@@ -710,8 +710,10 @@ when 'charge'
   verb.call "calculating charges..."
   out_hash = Hash.new
   loop_over_runs.call do |runnum|
-    fcCharge  = 0.0
-    ufcCharge = 0.0
+    fcCharge     = 0.0
+    ufcCharge    = 0.0
+    hlCharge     = { '1' => 0.0, '-1' => 0.0, '0' => 0.0 }
+    has_hlCharge = false
     chargeTree[runnum].each do |binnum, charge_h|
 
       # QA filter
@@ -746,12 +748,22 @@ when 'charge'
       if allowed
         fcCharge  += charge_h['fcChargeMax']  - charge_h['fcChargeMin']
         ufcCharge += charge_h['ufcChargeMax'] - charge_h['ufcChargeMin']
+        if charge_h.has_key? 'fcChargeHelicity'
+          has_hlCharge = true
+          hlCharge.keys.each do |hel|
+            hlCharge[hel] += charge_h['fcChargeHelicity'][hel]
+          end
+        end
       end
     end
 
+    hlCharge['total'] = ['1', '-1', '0'].map{|k| hlCharge[k]}.sum
+
     out_hash[runnum] = {
-      'fcCharge'  => fcCharge,
-      'ufcCharge' => ufcCharge,
+      'fcCharge'     => fcCharge,
+      'ufcCharge'    => ufcCharge,
+      'has_hlCharge' => has_hlCharge,
+      'hlCharge'     => hlCharge,
     }
 
   end
@@ -759,20 +771,38 @@ when 'charge'
 
   # print output
   raise 'no information found for these criteria' if out_hash.empty?
+  get_charges = Proc.new do |h|
+    hlCharge      = h['hlCharge']
+    has_hlCharge  = h['has_hlCharge']
+    [
+      h['fcCharge'],
+      h['ufcCharge'],
+      has_hlCharge ? hlCharge['1']     : -1.0,
+      has_hlCharge ? hlCharge['-1']    : -1.0,
+      has_hlCharge ? hlCharge['0']     : -1.0,
+      has_hlCharge ? hlCharge['total'] : -1.0,
+    ]
+  end
   case opts[:output]
   when nil
-    def row(cols)
-      puts cols.map{|it|it.to_s.ljust 25}.join(' ')
+    header1 = ['',           'DAQ-gated',    'full (ungated)', 'pos.-helicity', 'neg.-helicity', 'zero-helicity', 'total helicity']
+    header2 = ['run number', 'integrated q', 'integrated q',   'latched q',     'latched q',     'latched q',     'latched q']
+    col_size = [ header1.max.size, header2.max.size ].max
+    divider = header1.map{ |it| '-'*col_size }
+    row = Proc.new do |cols|
+      puts cols.map{|it|it.to_s.ljust col_size+2}.join(' ')
     end
-    row ['run number', 'gated charge', 'ungated charge']
-    row ['----------', '------------', '--------------']
+    [ header1, header2, divider ].each{ |it| row.call it}
     out_hash.each do |runnum, h|
-      row [runnum, h['fcCharge'].round(5), h['ufcCharge'].round(5)]
+      row.call [
+        runnum,
+        *get_charges.call(h).map{|q|q.round 3}
+      ]
     end
   when 'ttree'
-    puts ['runnum/I', 'fc/D', 'ufc/D'].join(':')
+    puts ['runnum/I', 'fc/D', 'ufc/D', 'hlPos/D', 'hlNeg/D', 'hlZero/D', 'hlTot/D'].join(':')
     out_hash.each do |runnum, h|
-      puts [runnum, h['fcCharge'], h['ufcCharge']].join(' ')
+      puts [runnum, *get_charges.call(h)].join(' ')
     end
   when 'json'
     puts out_hash.to_json
