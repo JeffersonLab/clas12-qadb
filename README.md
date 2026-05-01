@@ -371,7 +371,7 @@ helicity *= qa.CorrectHelicitySign(runnum, evnum);
 // apply QA cuts
 if(qa.Pass(runnum, evnum)) {
 
-  // accumulate FC charge (it will only accumulate once per QA bin you analyzed)
+  // accumulate DAQ-gated FC charge (it will only accumulate once per QA bin you analyzed)
   qa.AccumulateCharge();
 
   // if you want helicity-latched charge (from HEL::scaler), there is a similar method
@@ -383,7 +383,7 @@ if(qa.Pass(runnum, evnum)) {
 
 **After Processing Events**
 ```cpp
-// the total FC charge, filtered by the QA
+// the total DAQ-gated FC charge, filtered by the QA
 auto total_charge = qa.GetAccumulatedCharge();
 
 // or the helicity-latched charge
@@ -514,9 +514,9 @@ bin that you include in your analysis. To help, you can either:
   or [`chargeSum.cpp`](/srcC/examples/chargeSum.cpp) for usage example in an
   analysis event loop; basically:
   * call `QADB::AccumulateCharge()` within your event loop, after your QA cuts
-    are satisfied; the QADB instance will keep track of the accumulated charge
+    are satisfied; the QADB instance will keep track of the accumulated DAQ-gated charge
     you analyzed (accumulation performed per QA bin)
-  * at the end of your event loop, the total accumulated charge you analyzed is
+  * at the end of your event loop, the total accumulated DAQ-gated charge you analyzed is
     given by `QADB::GetAccumulatedCharge()`
 
 > [!NOTE]
