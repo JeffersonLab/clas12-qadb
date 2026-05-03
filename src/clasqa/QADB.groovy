@@ -468,7 +468,7 @@ class QADB {
   //`````````````````````````````````
   // -- accumulator
   // call this method after evaluating QA cuts (or at least after calling query())
-  // to add the current QA bin's charge to the total charge;
+  // to add the current QA bin's DAQ-gated charge to the total charge;
   // - charge is accumulated per QA bin, since the QA filters per QA bin
   // - a QA bin's charge is only accounted for if we have not counted it before
   public void accumulateCharge() {
@@ -481,6 +481,7 @@ class QADB {
     }
   }
   // -- accessor
+  // returns total accumulated DAQ-gated charge that passed your QA cuts;
   // call this method at the end of your event loop
   public double getAccumulatedCharge() {
     return chargeTotal

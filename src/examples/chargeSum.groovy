@@ -44,7 +44,7 @@ while(reader.hasEvent()) {
   // QA cuts
   if(qa.OkForAsymmetry(runnum,evnum)) {
 
-    // accumulate charge; note that although the call to
+    // accumulate DAQ-gated charge; note that although the call to
     // QADB::accumulateCharge() charge happens for each
     // event within a QA bin that passed the QA cuts, that
     // bin's charge will only be accumulated once, so
@@ -58,6 +58,6 @@ while(reader.hasEvent()) {
   evCount++
 }
 
-// print charge
+// print total DAQ-gated charge
 println "\ntotal accumulated charge analyzed:\nrun=$runnum  charge=" +
   qa.getAccumulatedCharge() + " nC"

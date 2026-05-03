@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
     // QA cuts
     if(qa->OkForAsymmetry(runnum,evnum)) {
 
-      // accumulate charge; note that although the call to
+      // accumulate DAQ-gated charge; note that although the call to
       // QADB::accumulateCharge() charge happens for each
       // event within a QA bin that passed the QA cuts, that
       // bin's charge will only be accumulated once, so
@@ -66,7 +66,7 @@ int main(int argc, char** argv) {
     evCount++;
   };
 
-  // print charge
+  // print total DAQ-gated charge
   cout << "\ntotal accumulated charge analyzed: " << endl;
   cout << "run=" << runnum << "  charge=" <<
     qa->GetAccumulatedCharge() << " nC" << endl;

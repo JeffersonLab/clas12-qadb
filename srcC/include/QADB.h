@@ -189,12 +189,12 @@ public:
     //`````````````````````````````````
     // -- accumulator
     // call this method after evaluating QA cuts (or at least after calling Query())
-    // to add the current QA bin's charge to the total charge;
+    // to add the current QA bin's DAQ-gated charge to the total charge;
     // - charge is accumulated per QA bin, since the QA filters per QA bin
     // - a QA bin's charge is only accounted for if we have not counted it before
     inline void AccumulateCharge();
     // -- accessor
-    // returns total accumlated charge that passed your QA cuts; call this
+    // returns total accumlated DAQ-gated charge that passed your QA cuts; call this
     // method after your event loop
     inline double GetAccumulatedCharge() {
         return chargeTotal;
