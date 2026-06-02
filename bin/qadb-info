@@ -144,6 +144,68 @@ opts = {
   :output      => nil,
 }
 
+# example commands
+ExampleCommands = {
+  CmdPrint => [
+    [
+      "list all datasets:",
+      "#{ExeName} #{CmdPrint} --list",
+    ],
+    [
+      "list defect bits and their descriptions:",
+      "#{ExeName} #{CmdPrint} --defects",
+    ],
+  ],
+  CmdRuns => [
+    [
+      "get the list of runs from RG-A Spring 2019:",
+      "#{ExeName} #{CmdRuns} -S -d rga_sp19",
+    ],
+    [
+      "find which dataset run 6666 belongs to:",
+      "#{ExeName} #{CmdRuns} -r 6666",
+    ],
+    [
+      "the top 3 runs (lowest fraction of 'bad' QA bins), per dataset:",
+      "#{ExeName} #{CmdRuns} --good --num 3",
+    ],
+  ],
+  CmdCharge => [
+    [
+      "calculate run-by-run FC charge for RG-A Spring 2019, allowing only a",
+      "couple defect bits, `LowLiveTime` and `BSAWrong`:",
+      "#{ExeName} #{CmdCharge} -d rga_sp19 --allow 4,10",
+    ],
+  ],
+  CmdMisc => [
+    [
+      "print some Python code for a list of runs which have the `Misc`",
+      "defect, with comments taken from the QADB comments:",
+      "#{ExeName} #{CmdMisc} -d rgb_fa19 --code '#'",
+    ],
+  ],
+  CmdQuery => [
+    [
+      "dump the first 5 bins' QA info from run 6666, in YAML format:",
+      "#{ExeName} #{CmdQuery} -r 6666 -b 0,1,2,3,4 --yaml",
+    ],
+  ],
+}
+def print_examples(cmd, o_, header: true, plain: false)
+  sep = plain ? ->(s) { puts s } : ->(s) { o_.separator s }
+  sep.call("EXAMPLES") if header
+  ExampleCommands[cmd].each do |example|
+    sep.call('')
+    example.each_with_index do |line, i|
+      if i + 1 < example.length
+        sep.call("  #{line}")
+      else
+        sep.call("  $  #{line}")
+      end
+    end
+  end
+end
+
 # parser for the command
 command_parser = OptionParser.new do |o|
   o.banner = "USAGE: #{ExeName} [COMMAND] [OPTIONS]..."
@@ -171,39 +233,10 @@ COMMANDS
 
 MISC OPTIONS"""
   o.on('-e', '--examples', 'show some examples') do
-    [
-      [
-        "list all datasets:",
-        "#{ExeName} #{CmdPrint} --list",
-      ],
-      [
-        "list defect bits and their descriptions:",
-        "#{ExeName} #{CmdPrint} --defects",
-      ],
-      [
-        "the top 3 runs (lowest fraction of 'bad' QA bins), per dataset:",
-        "#{ExeName} #{CmdRuns} --num 3 --good",
-      ],
-      [
-        "calculate run-by-run FC charge for RG-A Spring 2019, allowing only a",
-        "couple defect bits, `LowLiveTime` and `BSAWrong`:",
-        "#{ExeName} #{CmdCharge} --datasets rga_sp19 --allow 4,10",
-      ],
-      [
-        "print some Python code for a list of runs which have the `Misc`",
-        "defect, with comments taken from the QADB comments:",
-        "#{ExeName} #{CmdMisc} --datasets rgb_fa19 --code '#'",
-      ],
-    ].each do |example|
-      example.each_with_index do |line, i|
-        if i+1 < example.length
-          puts line
-        else
-          puts "$  #{line}"
-        end
-      end
-      puts ''
+    ExampleCommands.keys.each do |cmd|
+      print_examples cmd, o, header: false, plain: true
     end
+    puts ''
     exit
   end
   o.on('-v', '--version', 'print the QADB version number') do
@@ -242,6 +275,8 @@ subcommand_parser = {
       opts[:only_latest] = a
     end
     o.separator ''
+    print_examples CmdPrint, o
+    o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
   end,
@@ -279,6 +314,8 @@ subcommand_parser = {
     end
     on_dataset_selection o, opts, CmdRuns
     on_rungroup_selection o, opts, CmdRuns
+    o.separator ''
+    print_examples CmdRuns, o
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_verbose o, opts
@@ -334,6 +371,8 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
       opts[:output] = 'ttree'
     end
     o.separator ''
+    print_examples CmdCharge, o
+    o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
   end,
@@ -380,6 +419,8 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
     o.separator ''
     on_verbose o, opts
     o.separator ''
+    print_examples CmdMisc, o
+    o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
   end,
@@ -413,6 +454,8 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
     o.on('--yaml', 'output YAML format') do |a|
       opts[:output] = 'yaml'
     end
+    o.separator ''
+    print_examples CmdQuery, o
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_verbose o, opts
