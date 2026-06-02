@@ -15,6 +15,12 @@ TopDir  = File.realpath(File.join __dir__, '..')
 QaDir   = File.realpath(File.join TopDir, 'qadb')
 ExeName = File.basename __FILE__
 
+# commands: constant variables to make them easier to find in the code
+CmdPrint  = 'print'
+CmdRuns   = 'runs'
+CmdCharge = 'charge'
+CmdMisc   = 'misc'
+CmdQuery  = 'query'
 
 ##################################################################################
 # helper functions
@@ -45,7 +51,7 @@ end
 
 # handle dataset selection argument in option parser
 def on_dataset_selection(o_, opts_, command_)
-  o_.on('-d', '--datasets LIST', Array, 'list of datasets to include;', "run `#{ExeName} print` for dataset info", 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
+  o_.on('-d', '--datasets LIST', Array, 'list of datasets to include;', "run `#{ExeName} #{CmdPrint}` for dataset info", 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
     opts_[:datasets] = a
   end
 end
@@ -99,28 +105,33 @@ end
 
 # default options
 opts = {
-  :print => {
-    :mode        => '',
-    :simple      => false,
+  CmdPrint => {
+    :mode   => '',
+    :simple => false,
   },
-  :goodruns => {
-    :min_num_bins    => 30,
-    :max_num_bins    => 100,
-    :max_defect_frac => 0.055,
+  CmdRuns => {
     :num_per_dataset => 100000,
+    :simple          => false,
+    :run             => nil,
+    :good            => {
+      :enable          => false,
+      :min_num_bins    => 100,
+      :max_num_bins    => 1000,
+      :max_defect_frac => 0.055,
+    },
   },
-  :charge => {
+  CmdCharge => {
     :reject_defect => [],
     :allow_defect  => [],
     :reject_misc   => [],
     :allow_misc    => [],
     :golden        => false,
   },
-  :misc => {
+  CmdMisc => {
     :comment_delim => nil,
     :list_bins     => false,
   },
-  :query => {
+  CmdQuery => {
   },
   # common options
   :verbose     => false,
@@ -133,6 +144,68 @@ opts = {
   :output      => nil,
 }
 
+# example commands
+ExampleCommands = {
+  CmdPrint => [
+    [
+      "list all datasets:",
+      "#{ExeName} #{CmdPrint} --list",
+    ],
+    [
+      "list defect bits and their descriptions:",
+      "#{ExeName} #{CmdPrint} --defects",
+    ],
+  ],
+  CmdRuns => [
+    [
+      "get the list of runs from RG-A Spring 2019:",
+      "#{ExeName} #{CmdRuns} -S -d rga_sp19",
+    ],
+    [
+      "find which dataset run 6666 belongs to:",
+      "#{ExeName} #{CmdRuns} -r 6666",
+    ],
+    [
+      "the top 3 runs (lowest fraction of 'bad' QA bins), per dataset:",
+      "#{ExeName} #{CmdRuns} --good --num 3",
+    ],
+  ],
+  CmdCharge => [
+    [
+      "calculate run-by-run FC charge for RG-A Spring 2019, allowing only a",
+      "couple defect bits, `LowLiveTime` and `BSAWrong`:",
+      "#{ExeName} #{CmdCharge} -d rga_sp19 --allow 4,10",
+    ],
+  ],
+  CmdMisc => [
+    [
+      "print some Python code for a list of runs which have the `Misc`",
+      "defect, with comments taken from the QADB comments:",
+      "#{ExeName} #{CmdMisc} -d rgb_fa19 --code '#'",
+    ],
+  ],
+  CmdQuery => [
+    [
+      "dump the first 5 bins' QA info from run 6666, in YAML format:",
+      "#{ExeName} #{CmdQuery} -r 6666 -b 0,1,2,3,4 --yaml",
+    ],
+  ],
+}
+def print_examples(cmd, o_, header: true, plain: false)
+  sep = plain ? ->(s) { puts s } : ->(s) { o_.separator s }
+  sep.call("EXAMPLES") if header
+  ExampleCommands[cmd].each do |example|
+    sep.call('')
+    example.each_with_index do |line, i|
+      if i + 1 < example.length
+        sep.call("  #{line}")
+      else
+        sep.call("  $  #{line}")
+      end
+    end
+  end
+end
+
 # parser for the command
 command_parser = OptionParser.new do |o|
   o.banner = "USAGE: #{ExeName} [COMMAND] [OPTIONS]..."
@@ -144,56 +217,26 @@ command_parser = OptionParser.new do |o|
   efficient analysis.
 
 COMMANDS
-    print      print some general information about the QADB datasets
-               and defect bit definitions
+    #{CmdPrint.ljust 10}print some general information about the QADB datasets
+    #{''.ljust 10}and defect bit definitions
 
-    goodruns   print runs that are \"good\" for testing, according
-               to the latest cooks' QADBs
+    #{CmdRuns.ljust 10}print run lists; includes filtering for \"good\" runs
 
-    charge     get the Faraday Cup (FC) charge
+    #{CmdCharge.ljust 10}get the Faraday Cup (FC) charge
 
-    misc       explain why the `Misc` defect bit was assigned
+    #{CmdMisc.ljust 10}explain why the `Misc` defect bit was assigned
 
-    query      access data from the QADB
+    #{CmdQuery.ljust 10}access data from the QADB
 
   For usage guidance of each COMMAND, run with no further options (or with --help);
   see also examples by running `#{ExeName} --examples`
 
 MISC OPTIONS"""
   o.on('-e', '--examples', 'show some examples') do
-    [
-      [
-        "list all datasets:",
-        "#{ExeName} print --list",
-      ],
-      [
-        "list defect bits and their descriptions:",
-        "#{ExeName} print --defects",
-      ],
-      [
-        "the top 3 runs (lowest fraction of 'bad' QA bins), per dataset:",
-        "#{ExeName} goodruns --num 3",
-      ],
-      [
-        "calculate run-by-run FC charge for RG-A Spring 2019, allowing only a",
-        "couple defect bits, `LowLiveTime` and `BSAWrong`:",
-        "#{ExeName} charge --datasets rga_sp19 --allow 4,10",
-      ],
-      [
-        "print some Python code for a list of runs which have the `Misc`",
-        "defect, with comments taken from the QADB comments:",
-        "#{ExeName} misc --datasets rgb_fa19 --code '#'",
-      ],
-    ].each do |example|
-      example.each_with_index do |line, i|
-        if i+1 < example.length
-          puts line
-        else
-          puts "$  #{line}"
-        end
-      end
-      puts ''
+    ExampleCommands.keys.each do |cmd|
+      print_examples cmd, o, header: false, plain: true
     end
+    puts ''
     exit
   end
   o.on('-v', '--version', 'print the QADB version number') do
@@ -206,96 +249,111 @@ end
 # parser for the command's options
 subcommand_parser = {
 
-  'print' => OptionParser.new do |o|
-    command_banner o, 'print'
+  CmdPrint => OptionParser.new do |o|
+    command_banner o, CmdPrint
     o.on('-l', '--list', 'list the available datasets') do
-      opts[:print][:mode] = 'list'
+      opts[CmdPrint][:mode] = 'list'
     end
     o.on('-m', '--more', 'print more information about the datasets') do
-      opts[:print][:mode] = 'more'
+      opts[CmdPrint][:mode] = 'more'
     end
+    o.on('-S', '--[no-]simple', 'keep printout simple, for scripts') do |a|
+      opts[CmdPrint][:simple] = a
+    end
+    o.separator ''
     o.on('-q', '--qa-tree', 'list the qaTree.json files') do
-      opts[:print][:mode] = 'qa-tree'
+      opts[CmdPrint][:mode] = 'qa-tree'
     end
     o.separator ''
     o.on('-d', '--defects', 'list the defects and their definitions;', 'see documentation for more info') do
-      opts[:print][:mode] = 'defects'
+      opts[CmdPrint][:mode] = 'defects'
     end
     o.separator ''
     o.separator 'FILTERING OPTIONS'
-    on_rungroup_selection o, opts, 'print'
+    on_rungroup_selection o, opts, CmdPrint
     o.on('-L', '--[no-]latest', 'only list the "latest" cooks\' datasets', 'default: lists all datasets') do |a|
       opts[:only_latest] = a
     end
-    o.on('-S', '--[no-]simple', 'keep printout simple, for scripts') do |a|
-      opts[:print][:simple] = a
-    end
+    o.separator ''
+    print_examples CmdPrint, o
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
   end,
 
-  'goodruns' => OptionParser.new do |o|
-    command_banner o, 'goodruns'
+  CmdRuns => OptionParser.new do |o|
+    command_banner o, CmdRuns
     o.separator ''
-    o.on('--min NUM_BINS', Integer, 'min number of QA bins in the run', "default: #{opts[:goodruns][:min_num_bins]}") do |a|
-      opts[:goodruns][:min_num_bins] = a.to_i
+    o.on('-S', '--[no-]simple', 'just print the list of runs, sorted by run number', 'default: print table, sorted by dataset and goodness') do |a|
+      opts[CmdRuns][:simple] = a
     end
-    o.on('--max NUM_BINS', Integer, 'max number of QA bins in the run', "default: #{opts[:goodruns][:max_num_bins]}") do |a|
-      opts[:goodruns][:max_num_bins] = a.to_i
-    end
-    o.on('--frac THRESHOLD', Float, 'max fraction of QA bins with any defect', '* runs are sorted by this fraction, per dataset', '* ignores defect "BSAWrong"', "default: #{opts[:goodruns][:max_defect_frac]}") do |a|
-      opts[:goodruns][:max_defect_frac] = a.to_f
+    on_run_selection o, opts, CmdRuns
+    o.on('--good', 'apply GOOD RUN filtering (see below)', 'default: no goodness filtering') do |a|
+      opts[CmdRuns][:good][:enable] = true
     end
     o.on('--num NUM_RUNS', Integer, 'max number of runs to print, per dataset', "default: all") do |a|
-      opts[:goodruns][:num_per_dataset] = a.to_i
+      opts[CmdRuns][:num_per_dataset] = a.to_i
+    end
+    o.separator ''
+    o.separator 'GOOD RUN OPTIONS: only used if `--good` is an argument'
+    o.separator ''
+    o.on('--min NUM_BINS', Integer, 'min number of QA bins in the run', "default: #{opts[CmdRuns][:good][:min_num_bins]}") do |a|
+      opts[CmdRuns][:good][:min_num_bins] = a.to_i
+    end
+    o.on('--max NUM_BINS', Integer, 'max number of QA bins in the run', "default: #{opts[CmdRuns][:good][:max_num_bins]}") do |a|
+      opts[CmdRuns][:good][:max_num_bins] = a.to_i
+    end
+    o.on('--frac THRESHOLD', Float, 'max fraction of QA bins with any defect', '* runs are sorted by this fraction, per dataset', '* ignores defect "BSAWrong"', "default: #{opts[CmdRuns][:good][:max_defect_frac]}") do |a|
+      opts[CmdRuns][:good][:max_defect_frac] = a.to_f
     end
     o.separator ''
     o.separator 'FILTERING OPTIONS'
-    note_list_syntax o, 'goodruns'
+    note_list_syntax o, CmdRuns
     o.on('--all', 'use all datasets') do |a|
       # no-op, since 1 user argument will just use all the defaults
     end
-    on_dataset_selection o, opts, 'goodruns'
-    on_rungroup_selection o, opts, 'goodruns'
+    on_dataset_selection o, opts, CmdRuns
+    on_rungroup_selection o, opts, CmdRuns
+    o.separator ''
+    print_examples CmdRuns, o
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_verbose o, opts
     on_help o
   end,
 
-  'charge' => OptionParser.new do |o|
-    command_banner o, 'charge'
+  CmdCharge => OptionParser.new do |o|
+    command_banner o, CmdCharge
     o.separator """
     CAUTION ======================================================================= CAUTION
       The charge calculated here still needs to be cross checked with other methods !!!
       -> #{ExeName} is a new program, please report any issues
     CAUTION ======================================================================= CAUTION"""
-    note_list_syntax o, 'charge'
-    on_dataset_selection o, opts, 'charge'
-    on_run_selection     o, opts, 'charge'
+    note_list_syntax o, CmdCharge
+    on_dataset_selection o, opts, CmdCharge
+    on_run_selection     o, opts, CmdCharge
     on_verbose o, opts
     o.separator """
 QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
 
-    NOTE: use `#{ExeName} print --defects` for the defect bit numbers;
+    NOTE: use `#{ExeName} #{CmdPrint} --defects` for the defect bit numbers;
           see documentation for details
     """
     o.on('--reject LIST', Array, 'list of defect bit numbers to reject, and allow all others;', 'do not use this together with `--allow`') do |a|
-      opts[:charge][:reject_defect] = a.map &:to_i
+      opts[CmdCharge][:reject_defect] = a.map &:to_i
     end
     o.on('--allow LIST',  Array, 'list of defect bit numbers to allow, and reject all others;', 'do not use this together with `--reject`') do |a|
-      opts[:charge][:allow_defect] = a.map &:to_i
+      opts[CmdCharge][:allow_defect] = a.map &:to_i
     end
     o.separator ''
     o.on('--reject-misc LIST', Array, 'list of runs to reject, if they ONLY have the "Misc" defect;', 'do not use this together with `--allow-misc`') do |a|
-      opts[:charge][:reject_misc] = a
+      opts[CmdCharge][:reject_misc] = a
     end
     o.on('--allow-misc LIST',  Array, 'list of runs to allow, if they ONLY have the "Misc" defect;', 'do not use this together with `--reject-misc`') do |a|
-      opts[:charge][:allow_misc] = a
+      opts[CmdCharge][:allow_misc] = a
     end
     o.on('--golden', 'do not allow any defects (may be too strict for some data)') do |a|
-      opts[:charge][:golden] = true
+      opts[CmdCharge][:golden] = true
     end
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
@@ -313,15 +371,17 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
       opts[:output] = 'ttree'
     end
     o.separator ''
+    print_examples CmdCharge, o
+    o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
   end,
 
-  'misc' => OptionParser.new do |o|
-    command_banner o, 'misc'
-    note_list_syntax o, 'misc'
-    on_dataset_selection o, opts, 'misc'
-    on_run_selection     o, opts, 'misc'
+  CmdMisc => OptionParser.new do |o|
+    command_banner o, CmdMisc
+    note_list_syntax o, CmdMisc
+    on_dataset_selection o, opts, CmdMisc
+    on_run_selection     o, opts, CmdMisc
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
     o.separator '''
@@ -336,7 +396,7 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
          '  example: --code \'#\' for Python',
          '           --code \'//\' for C++',) do |a|
            opts[:output] = 'code'
-           opts[:misc][:comment_delim] = a
+           opts[CmdMisc][:comment_delim] = a
          end
     o.on('--json', 'output JSON format') do |a|
       opts[:output] = 'json'
@@ -354,25 +414,27 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
          'only applies to some output formats, such as JSON and YAML;',
          'use this for more fine-grained details, such as when',
          '`Misc` is assigned for multiple reasons') do |a|
-      opts[:misc][:list_bins] = a
+      opts[CmdMisc][:list_bins] = a
     end
     o.separator ''
     on_verbose o, opts
+    o.separator ''
+    print_examples CmdMisc, o
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
   end,
 
-  'query' => OptionParser.new do |o|
-    command_banner o, 'query'
+  CmdQuery => OptionParser.new do |o|
+    command_banner o, CmdQuery
     o.separator """
     CAUTION ======================================================================= CAUTION
       Do not use this command in an analysis event loop, it will be too slow !
       -> instead, see the documentation for more efficient ways
     CAUTION ======================================================================= CAUTION"""
-    note_list_syntax o, 'query'
-    on_dataset_selection o, opts, 'query'
-    on_run_selection o,     opts, 'query'
+    note_list_syntax o, CmdQuery
+    on_dataset_selection o, opts, CmdQuery
+    on_run_selection o,     opts, CmdQuery
     o.separator ''
     o.separator '''QUERY OPTIONS:
     Choose one of these to restrict which bins are printed, otherwise
@@ -392,6 +454,8 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
     o.on('--yaml', 'output YAML format') do |a|
       opts[:output] = 'yaml'
     end
+    o.separator ''
+    print_examples CmdQuery, o
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_verbose o, opts
@@ -417,7 +481,7 @@ if opts[:verbose] and !opts[:output].nil?
 end
 
 # use only latest cooks for certain commands
-if Command == 'goodruns'
+if Command == CmdRuns
   opts[:only_latest] = true
 end
 
@@ -469,7 +533,7 @@ raise "run group '#{opts[:run_group]}' has no QADB available" if dataset_hash.em
 
 # check user's list of datasets
 selected_datasets = []
-unless Command == 'print'
+unless Command == CmdPrint
   if opts[:datasets].empty?
     selected_datasets = dataset_hash
       .select{ |k,v| v[:cook] == 'latest' }
@@ -491,7 +555,7 @@ chargeTree    = {}
 qaTree        = {}
 selected_runs = opts[:runs]
 run2dataset   = Hash.new
-unless Command == 'print'
+unless Command == CmdPrint
 
   # merge trees together, but throw an error if duplicate keys (runs) are found
   mergeTree = Proc.new do |a,b,name|
@@ -529,7 +593,7 @@ end
 
 # determine list of bins for each run, if the user requested specific events or bins
 selected_bins = Hash.new
-if Command == 'query'
+if Command == CmdQuery
   unless opts[:bins].empty? and opts[:events].empty?
     verb.call "handling user specified bin/event selection..."
     option_conflict '--bins', '--events' if opts[:bins].length>0 and opts[:events].length>0
@@ -584,9 +648,9 @@ end
 case Command
 
 ##################################################################################
-# Command == 'print'
+# print command
 ##################################################################################
-when 'print'
+when CmdPrint
 
   def print_title(title, underline)
     puts ''
@@ -599,10 +663,10 @@ when 'print'
     .map{ |k,v| k.length }
     .max
 
-  case opts[:print][:mode]
+  case opts[CmdPrint][:mode]
   when 'defects'
     DefectDefs.sort{ |a,b| a['bit_number'] <=> b['bit_number'] }.each do |defect_def|
-      if opts[:print][:simple]
+      if opts[CmdPrint][:simple]
         puts "#{defect_def['bit_number'].to_s.ljust 3}  #{defect_def['bit_name']}"
       else
         puts """
@@ -614,7 +678,7 @@ bit:  #{defect_def['bit_number']}     #{defect_def['bit_name']}
 
   when 'list'
     dataset_hash.each do |dataset_name, dataset|
-      if opts[:print][:simple]
+      if opts[CmdPrint][:simple]
         puts dataset_name
       else
         if dataset[:cook] == 'latest'
@@ -626,7 +690,7 @@ bit:  #{defect_def['bit_number']}     #{defect_def['bit_name']}
     end
 
   when 'more'
-    warn "`--simple` option ignored" if opts[:print][:simple]
+    warn "`--simple` option ignored" if opts[CmdPrint][:simple]
     print_title "#{opts[:run_group].nil? ? 'All' : "Run Group #{opts[:run_group].upcase}"} Datasets and Info", '='
     printout = {}
     dataset_hash.values.map{ |v| v[:cook] }.uniq.sort.each do |cook|
@@ -647,21 +711,21 @@ bit:  #{defect_def['bit_number']}     #{defect_def['bit_name']}
     end
 
   else
-    raise "nothing to print; run `#{ExeName} print` for guidance"
+    raise "nothing to print; run `#{ExeName} #{CmdPrint}` for guidance"
   end
 
-when 'goodruns'
+when CmdRuns
   out_hash = Hash.new
   loop_over_runs.call do |runnum|
     qa_h = qaTree[runnum]
     num_bins = qa_h.size
-    if num_bins >= opts[:goodruns][:min_num_bins] and num_bins <= opts[:goodruns][:max_num_bins]
+    if opts[CmdRuns][:good][:enable] == false or (num_bins >= opts[CmdRuns][:good][:min_num_bins] and num_bins <= opts[CmdRuns][:good][:max_num_bins])
       num_def = 0
       qa_h.each do |binnum, qa_result|
         num_def += 1 unless has_only_defects([BSAWrongBit], qa_result['defect'])
       end
       frac = num_def.to_f / num_bins
-      if frac <= opts[:goodruns][:max_defect_frac]
+      if opts[CmdRuns][:good][:enable] == false or frac <= opts[CmdRuns][:good][:max_defect_frac]
         ( out_hash[run2dataset[runnum]] ||= [] ) << {
           :runnum   => runnum.to_i,
           :frac     => frac,
@@ -671,38 +735,47 @@ when 'goodruns'
     end
   end
   raise 'no information found for these criteria' if out_hash.empty?
-  def row(cols)
-    puts cols.map{|it|it.to_s.ljust 15}.join(' ')
-  end
-  row ['run number', 'num QA bins', 'bad fraction', 'dataset']
-  out_hash.each do |dataset_name, infos|
-    row ['----------', '-----------', '--------------', '-------']
-    infos.sort{ |a,b| a[:frac] <=> b[:frac] }.first(opts[:goodruns][:num_per_dataset]).each do |info|
-      row [info[:runnum], info[:num_bins], info[:frac].round(5), dataset_name]
+  if opts[CmdRuns][:simple]
+    out_hash.each do |dataset_name, infos|
+      runlist = infos.sort{ |a,b| a[:frac] <=> b[:frac] }.first(opts[CmdRuns][:num_per_dataset]).map do |info|
+        info[:runnum]
+      end
+      puts runlist.sort
+    end
+  else
+    def row(cols)
+      puts cols.map{|it|it.to_s.ljust 15}.join(' ')
+    end
+    row ['run number', 'num QA bins', 'bad fraction', 'dataset']
+    out_hash.each do |dataset_name, infos|
+      row ['----------', '-----------', '--------------', '-------']
+      infos.sort{ |a,b| a[:frac] <=> b[:frac] }.first(opts[CmdRuns][:num_per_dataset]).each do |info|
+        row [info[:runnum], info[:num_bins], info[:frac].round(5), dataset_name]
+      end
     end
   end
 
 ##################################################################################
 # charge command
 ##################################################################################
-when 'charge'
+when CmdCharge
 
   # check for conflicting options
-  option_conflict '--reject',      '--allow'      if opts[:charge][:reject_defect].length>0 and opts[:charge][:allow_defect].length>0
-  option_conflict '--reject-misc', '--allow-misc' if opts[:charge][:reject_misc].length>0   and opts[:charge][:allow_misc].length>0
-  option_conflict '--golden',      '--reject'     if opts[:charge][:golden]                 and opts[:charge][:reject_defect].length>0
-  option_conflict '--golden',      '--allow'      if opts[:charge][:golden]                 and opts[:charge][:allow_defect].length>0
+  option_conflict '--reject',      '--allow'      if opts[CmdCharge][:reject_defect].length>0 and opts[CmdCharge][:allow_defect].length>0
+  option_conflict '--reject-misc', '--allow-misc' if opts[CmdCharge][:reject_misc].length>0   and opts[CmdCharge][:allow_misc].length>0
+  option_conflict '--golden',      '--reject'     if opts[CmdCharge][:golden]                 and opts[CmdCharge][:reject_defect].length>0
+  option_conflict '--golden',      '--allow'      if opts[CmdCharge][:golden]                 and opts[CmdCharge][:allow_defect].length>0
 
   # determine which defect bits to reject
   reject_these_defects = []
-  if opts[:charge][:golden]
+  if opts[CmdCharge][:golden]
     reject_these_defects = DefectDefs.map{ |it| it['bit_number'] }
   end
-  if opts[:charge][:reject_defect].length > 0
-    reject_these_defects = opts[:charge][:reject_defect]
-  elsif opts[:charge][:allow_defect].length > 0
+  if opts[CmdCharge][:reject_defect].length > 0
+    reject_these_defects = opts[CmdCharge][:reject_defect]
+  elsif opts[CmdCharge][:allow_defect].length > 0
     reject_these_defects = DefectDefs.map{ |it| it['bit_number'] }
-      .reject{ |it| opts[:charge][:allow_defect].include? it }
+      .reject{ |it| opts[CmdCharge][:allow_defect].include? it }
   end
   verb.call "The following defects will be rejected: [#{reject_these_defects.join ', '}]"
 
@@ -724,9 +797,9 @@ when 'charge'
         # if this bin ONLY has the Misc defect, check the runnum
         if qa_h['defect'] == 0x1 << MiscBit
           if reject_these_defects.include? MiscBit
-            if opts[:charge][:allow_misc].length > 0 and opts[:charge][:allow_misc].include? runnum
+            if opts[CmdCharge][:allow_misc].length > 0 and opts[CmdCharge][:allow_misc].include? runnum
               allowed = true
-            elsif opts[:charge][:reject_misc].length > 0 and ! opts[:charge][:reject_misc].include? runnum
+            elsif opts[CmdCharge][:reject_misc].length > 0 and ! opts[CmdCharge][:reject_misc].include? runnum
               allowed = true
             else
               allowed = false
@@ -815,7 +888,7 @@ when 'charge'
 ##################################################################################
 # misc command
 ##################################################################################
-when 'misc'
+when CmdMisc
 
   # loop over runs, getting unique comments from each
   out_hash = Hash.new
@@ -835,7 +908,7 @@ when 'misc'
 
   # remove bin lists, if desired
   handle_bin_lists = Proc.new do
-    unless opts[:misc][:list_bins]
+    unless opts[CmdMisc][:list_bins]
       out_hash.each do |runnum, h|
         cmt_list = h[:comments].keys
         h[:comments] = cmt_list
@@ -859,7 +932,7 @@ when 'misc'
       h[:comments].keys.each_with_index do |cmt, i|
         runnum_str = ' '*runnum_str.length if i > 0
         if opts[:output] == 'code'
-          puts "#{runnum_str} #{opts[:misc][:comment_delim]} #{cmt}"
+          puts "#{runnum_str} #{opts[CmdMisc][:comment_delim]} #{cmt}"
         else
           puts "#{runnum_str} #{cmt}"
         end
@@ -908,7 +981,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 ##################################################################################
 # query command
 ##################################################################################
-when 'query'
+when CmdQuery
   out_hash = Hash.new
   loop_over_runs.call do |runnum|
     qaTree_run = qaTree[runnum]
