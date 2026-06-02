@@ -106,14 +106,19 @@ end
 # default options
 opts = {
   CmdPrint => {
-    :mode        => '',
-    :simple      => false,
+    :mode   => '',
+    :simple => false,
   },
   CmdRuns => {
-    :min_num_bins    => 30,
-    :max_num_bins    => 100,
-    :max_defect_frac => 0.055,
     :num_per_dataset => 100000,
+    :simple          => false,
+    :run             => nil,
+    :good            => {
+      :enable          => false,
+      :min_num_bins    => 100,
+      :max_num_bins    => 1000,
+      :max_defect_frac => 0.055,
+    },
   },
   CmdCharge => {
     :reject_defect => [],
@@ -153,8 +158,7 @@ COMMANDS
     #{CmdPrint.ljust 10}print some general information about the QADB datasets
     #{''.ljust 10}and defect bit definitions
 
-    #{CmdRuns.ljust 10}print runs that are \"good\" for testing, according
-    #{''.ljust 10}to the latest cooks' QADBs
+    #{CmdRuns.ljust 10}print run lists; includes filtering for \"good\" runs
 
     #{CmdCharge.ljust 10}get the Faraday Cup (FC) charge
 
@@ -178,7 +182,7 @@ MISC OPTIONS"""
       ],
       [
         "the top 3 runs (lowest fraction of 'bad' QA bins), per dataset:",
-        "#{ExeName} #{CmdRuns} --num 3",
+        "#{ExeName} #{CmdRuns} --num 3 --good",
       ],
       [
         "calculate run-by-run FC charge for RG-A Spring 2019, allowing only a",
@@ -220,6 +224,10 @@ subcommand_parser = {
     o.on('-m', '--more', 'print more information about the datasets') do
       opts[CmdPrint][:mode] = 'more'
     end
+    o.on('-S', '--[no-]simple', 'keep printout simple, for scripts') do |a|
+      opts[CmdPrint][:simple] = a
+    end
+    o.separator ''
     o.on('-q', '--qa-tree', 'list the qaTree.json files') do
       opts[CmdPrint][:mode] = 'qa-tree'
     end
@@ -233,9 +241,6 @@ subcommand_parser = {
     o.on('-L', '--[no-]latest', 'only list the "latest" cooks\' datasets', 'default: lists all datasets') do |a|
       opts[:only_latest] = a
     end
-    o.on('-S', '--[no-]simple', 'keep printout simple, for scripts') do |a|
-      opts[CmdPrint][:simple] = a
-    end
     o.separator ''
     o.separator 'OTHER OPTIONS'
     on_help o
@@ -244,17 +249,27 @@ subcommand_parser = {
   CmdRuns => OptionParser.new do |o|
     command_banner o, CmdRuns
     o.separator ''
-    o.on('--min NUM_BINS', Integer, 'min number of QA bins in the run', "default: #{opts[CmdRuns][:min_num_bins]}") do |a|
-      opts[CmdRuns][:min_num_bins] = a.to_i
+    o.on('-S', '--[no-]simple', 'just print the list of runs, sorted by run number', 'default: print table, sorted by dataset and goodness') do |a|
+      opts[CmdRuns][:simple] = a
     end
-    o.on('--max NUM_BINS', Integer, 'max number of QA bins in the run', "default: #{opts[CmdRuns][:max_num_bins]}") do |a|
-      opts[CmdRuns][:max_num_bins] = a.to_i
-    end
-    o.on('--frac THRESHOLD', Float, 'max fraction of QA bins with any defect', '* runs are sorted by this fraction, per dataset', '* ignores defect "BSAWrong"', "default: #{opts[CmdRuns][:max_defect_frac]}") do |a|
-      opts[CmdRuns][:max_defect_frac] = a.to_f
+    on_run_selection o, opts, CmdRuns
+    o.on('--good', 'apply GOOD RUN filtering (see below)', 'default: no goodness filtering') do |a|
+      opts[CmdRuns][:good][:enable] = true
     end
     o.on('--num NUM_RUNS', Integer, 'max number of runs to print, per dataset', "default: all") do |a|
       opts[CmdRuns][:num_per_dataset] = a.to_i
+    end
+    o.separator ''
+    o.separator 'GOOD RUN OPTIONS: only used if `--good` is an argument'
+    o.separator ''
+    o.on('--min NUM_BINS', Integer, 'min number of QA bins in the run', "default: #{opts[CmdRuns][:good][:min_num_bins]}") do |a|
+      opts[CmdRuns][:good][:min_num_bins] = a.to_i
+    end
+    o.on('--max NUM_BINS', Integer, 'max number of QA bins in the run', "default: #{opts[CmdRuns][:good][:max_num_bins]}") do |a|
+      opts[CmdRuns][:good][:max_num_bins] = a.to_i
+    end
+    o.on('--frac THRESHOLD', Float, 'max fraction of QA bins with any defect', '* runs are sorted by this fraction, per dataset', '* ignores defect "BSAWrong"', "default: #{opts[CmdRuns][:good][:max_defect_frac]}") do |a|
+      opts[CmdRuns][:good][:max_defect_frac] = a.to_f
     end
     o.separator ''
     o.separator 'FILTERING OPTIONS'
@@ -661,13 +676,13 @@ when CmdRuns
   loop_over_runs.call do |runnum|
     qa_h = qaTree[runnum]
     num_bins = qa_h.size
-    if num_bins >= opts[CmdRuns][:min_num_bins] and num_bins <= opts[CmdRuns][:max_num_bins]
+    if opts[CmdRuns][:good][:enable] == false or (num_bins >= opts[CmdRuns][:good][:min_num_bins] and num_bins <= opts[CmdRuns][:good][:max_num_bins])
       num_def = 0
       qa_h.each do |binnum, qa_result|
         num_def += 1 unless has_only_defects([BSAWrongBit], qa_result['defect'])
       end
       frac = num_def.to_f / num_bins
-      if frac <= opts[CmdRuns][:max_defect_frac]
+      if opts[CmdRuns][:good][:enable] == false or frac <= opts[CmdRuns][:good][:max_defect_frac]
         ( out_hash[run2dataset[runnum]] ||= [] ) << {
           :runnum   => runnum.to_i,
           :frac     => frac,
@@ -677,14 +692,23 @@ when CmdRuns
     end
   end
   raise 'no information found for these criteria' if out_hash.empty?
-  def row(cols)
-    puts cols.map{|it|it.to_s.ljust 15}.join(' ')
-  end
-  row ['run number', 'num QA bins', 'bad fraction', 'dataset']
-  out_hash.each do |dataset_name, infos|
-    row ['----------', '-----------', '--------------', '-------']
-    infos.sort{ |a,b| a[:frac] <=> b[:frac] }.first(opts[CmdRuns][:num_per_dataset]).each do |info|
-      row [info[:runnum], info[:num_bins], info[:frac].round(5), dataset_name]
+  if opts[CmdRuns][:simple]
+    out_hash.each do |dataset_name, infos|
+      runlist = infos.sort{ |a,b| a[:frac] <=> b[:frac] }.first(opts[CmdRuns][:num_per_dataset]).map do |info|
+        info[:runnum]
+      end
+      puts runlist.sort
+    end
+  else
+    def row(cols)
+      puts cols.map{|it|it.to_s.ljust 15}.join(' ')
+    end
+    row ['run number', 'num QA bins', 'bad fraction', 'dataset']
+    out_hash.each do |dataset_name, infos|
+      row ['----------', '-----------', '--------------', '-------']
+      infos.sort{ |a,b| a[:frac] <=> b[:frac] }.first(opts[CmdRuns][:num_per_dataset]).each do |info|
+        row [info[:runnum], info[:num_bins], info[:frac].round(5), dataset_name]
+      end
     end
   end
 
