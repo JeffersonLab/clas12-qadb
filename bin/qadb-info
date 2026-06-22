@@ -845,22 +845,24 @@ when CmdCharge
   # print output
   raise 'no information found for these criteria' if out_hash.empty?
   get_charges = Proc.new do |h|
-    hlCharge      = h['hlCharge']
-    has_hlCharge  = h['has_hlCharge']
+    hlCharge     = h['hlCharge']
+    has_hlCharge = h['has_hlCharge']
+    unknown      = 0.0
     [
       h['fcCharge'],
       h['ufcCharge'],
-      has_hlCharge ? hlCharge['1']     : -1.0,
-      has_hlCharge ? hlCharge['-1']    : -1.0,
-      has_hlCharge ? hlCharge['0']     : -1.0,
-      has_hlCharge ? hlCharge['total'] : -1.0,
+      has_hlCharge ? hlCharge['1']     : unknown,
+      has_hlCharge ? hlCharge['-1']    : unknown,
+      has_hlCharge ? hlCharge['0']     : unknown,
+      has_hlCharge ? hlCharge['total'] : unknown,
+      has_hlCharge && h['fcCharge'] > 0 ? 100.0*(hlCharge['total']-h['fcCharge'])/h['fcCharge'] : unknown,
     ]
   end
   case opts[:output]
   when nil
-    header1 = ['',           'DAQ-gated',    'full (ungated)', 'pos.-helicity', 'neg.-helicity', 'zero-helicity', 'total helicity']
-    header2 = ['run number', 'integrated q', 'integrated q',   'latched q',     'latched q',     'latched q',     'latched q']
-    col_size = [ header1.max.size, header2.max.size ].max
+    header1 = ['',        '',           'DAQ-gated',    'full (ungated)', 'pos.-helicity', 'neg.-helicity', 'zero-helicity', 'total helicity', '% diff (helicity -']
+    header2 = ['dataset', 'run number', 'integrated q', 'integrated q',   'latched q',     'latched q',     'latched q',     'latched q',      '- ungated int. q)']
+    col_size = [ header1.max.size, header2.max.size, selected_datasets.max_by(&:length).length ].max
     divider = header1.map{ |it| '-'*col_size }
     row = Proc.new do |cols|
       puts cols.map{|it|it.to_s.ljust col_size+2}.join(' ')
@@ -868,14 +870,15 @@ when CmdCharge
     [ header1, header2, divider ].each{ |it| row.call it}
     out_hash.each do |runnum, h|
       row.call [
+        run2dataset[runnum],
         runnum,
         *get_charges.call(h).map{|q|q.round 3}
       ]
     end
   when 'ttree'
-    puts ['runnum/I', 'fc/D', 'ufc/D', 'hlPos/D', 'hlNeg/D', 'hlZero/D', 'hlTot/D'].join(':')
+    puts ['dataset/C', 'runnum/I', 'fc/D', 'ufc/D', 'hlPos/D', 'hlNeg/D', 'hlZero/D', 'hlTot/D', 'diff/D'].join(':')
     out_hash.each do |runnum, h|
-      puts [runnum, *get_charges.call(h)].join(' ')
+      puts [run2dataset[runnum], runnum, *get_charges.call(h)].join(' ')
     end
   when 'json'
     puts out_hash.to_json
