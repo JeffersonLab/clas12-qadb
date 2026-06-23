@@ -375,7 +375,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### Run Group D
+### :dog: Run Group D
 
 <details>
 <summary>Pass 1</summary>
@@ -386,7 +386,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### Run Group E
+### :elephant: Run Group E
 
 <details>
 <summary>Pass 1</summary>
@@ -403,7 +403,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### Run Group F
+### :fox_face: Run Group F
 
 <details>
 <summary>Pass 1</summary>
@@ -434,7 +434,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### Run Group K
+### :koala: Run Group K
 
 <details>
 <summary>Spring 2024 Pass 1</summary>
@@ -511,7 +511,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### Run Group L
+### :lion: Run Group L
 
 <details>
 <summary>Pass 1</summary>
@@ -522,7 +522,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### Run Group M
+### :mouse: Run Group M
 
 <details>
 <summary>Pass 1</summary>
