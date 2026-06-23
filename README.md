@@ -178,6 +178,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**       | 3306 - 3817, 4003 - 4325                                                            |
 | **Issues:**     | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)             |
 | **Cross Check:** | Bhawani Singh |
+| **FC Charge:** | Reheated: rebuild scalers with clock rollover corrections, postprocessing |
 
 | Dataset:        | `rga_sp18_outbending` (pass 1, 10.6 GeV beam)                                        |
 | ---             | ---                                                                                  |
@@ -188,11 +189,13 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**       | 3211 - 3293, 3863 - 3987                                                             |
 | **Issues:**     | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)              |
 | **Cross Check:** | Bhawani Singh |
+| **FC Charge:** | Reheated: rebuild scalers with clock rollover corrections, postprocessing |
 
 | Dataset:    | `rga_sp18_6.4GeV` (pass 1, 6.4 GeV beam)                                                                                                                           |
 | ---         | ---                                                                                                                                                                |
 | **Status:** | :x: QADB not produced; reason: [high/unknown scaler clock frequency + low analysis demand](https://clasweb.jlab.org/wiki/index.php/File:Fc-charge-issues-RG-A.pdf) |
 | **Data:**   | `/cache/clas12/rg-a/production/recon/spring2018/6.42gev/_____`                                                                                                     |
+| **FC Charge:** | Requires reheating, but with a higher clock frequency (likely 125 MHz) |
 
 </details>
 
