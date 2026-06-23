@@ -177,6 +177,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `nSidis` train                                                                      |
 | **Runs:**       | 3306 - 3817, 4003 - 4325                                                            |
 | **Issues:**     | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)             |
+| **Cross Check:** | Bhawani Singh |
 
 | Dataset:        | `rga_sp18_outbending` (pass 1, 10.6 GeV beam)                                        |
 | ---             | ---                                                                                  |
@@ -186,6 +187,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `nSidis` train                                                                       |
 | **Runs:**       | 3211 - 3293, 3863 - 3987                                                             |
 | **Issues:**     | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)              |
+| **Cross Check:** | Bhawani Singh |
 
 | Dataset:    | `rga_sp18_6.4GeV` (pass 1, 6.4 GeV beam)                                                                                                                           |
 | ---         | ---                                                                                                                                                                |
@@ -205,6 +207,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `nSidis` train                                                                      |
 | **Runs:**       | 5032 - 5419                                                                         |
 | **Issues:**     | :white_check_mark: None                                                             |
+| **Cross Check:** | Krishna Neupane |
 
 | Dataset:        | `rga_fa18_outbending` (pass 2)                                                       |
 | ---             | ---                                                                                  |
@@ -214,6 +217,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `nSidis` train                                                                       |
 | **Runs:**       | 5422 - 5666                                                                          |
 | **Issues:**     | :white_check_mark: None                                                              |
+| **Cross Check:** | Krishna Neupane |
 
 | Dataset:        | `rga_sp19` (pass 2)                                                      |
 | ---             | ---                                                                      |
@@ -223,6 +227,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `nSidis` train                                                           |
 | **Runs:**       | 6616 - 6783                                                              |
 | **Issues:**     | :white_check_mark: None                                                  |
+| **Cross Check:** | Krishna Neupane |
 
 </details>
 
@@ -237,6 +242,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                                                                                  |
 | **Runs:**       | 5032 - 5419                                                                                                                                                                                                                                                     |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#12](https://github.com/JeffersonLab/clas12-qadb/issues/12), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | :x: None |
 
 | Dataset:        | `rga_fa18_outbending` (pass 1)                                                                                                                                                                    |
 | ---             | ---                                                                                                                                                                                               |
@@ -246,6 +252,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                    |
 | **Runs:**       | 5422 - 5666                                                                                                                                                                                       |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | :x: None |
 
 | Dataset:        | `rga_sp19` (pass 1)                                                                                                                                                                               |
 | ---             | ---                                                                                                                                                                                               |
@@ -255,6 +262,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                    |
 | **Runs:**       | 6616 - 6783                                                                                                                                                                                       |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | :x: None |
 
 </details>
 
@@ -271,6 +279,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `sidisdvcs` train                                                            |
 | **Runs:**       | 6156 - 6603                                                                  |
 | **Issues:**     | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
+| **Cross Check:** | Derek Holmberg |
 
 | Dataset:        | `rgb_fa19` (pass 2)                                                          |
 | ---             | ---                                                                          |
@@ -280,6 +289,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `sidisdvcs` train                                                            |
 | **Runs:**       | 11093 - 11300                                                                |
 | **Issues:**     | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
+| **Cross Check:** | Derek Holmberg |
 
 | Dataset:        | `rgb_wi20` (pass 2)                                                          |
 | ---             | ---                                                                          |
@@ -289,6 +299,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `sidisdvcs` train                                                            |
 | **Runs:**       | 11323 - 11571                                                                |
 | **Issues:**     | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
+| **Cross Check:** | Derek Holmberg |
 
 </details>
 
@@ -303,6 +314,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                    |
 | **Runs:**       | 6156 - 6603                                                                                                                                                                                       |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | Silvia Niccolai |
 
 | Dataset:        | `rgb_fa19` (pass 1)                                                                                                                                                                               |
 | ---             | ---                                                                                                                                                                                               |
@@ -312,6 +324,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                    |
 | **Runs:**       | 11093 - 11300                                                                                                                                                                                     |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | Silvia Niccolai |
 
 | Dataset:        | `rgb_wi20` (pass 1)                                                                                                                                                                               |
 | ---             | ---                                                                                                                                                                                               |
@@ -321,6 +334,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                    |
 | **Runs:**       | 11323 - 11571                                                                                                                                                                                     |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | Silvia Niccolai |
 
 </details>
 
@@ -337,6 +351,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `sidisdvcs` train                                                                 |
 | **Runs:**       | 16042 - 16786                                                                     |
 | **Issues:**     | :white_check_mark: None                                                           |
+| **Cross Check:** | Krishna Neupane |
 
 | Dataset:        | `rgc_fa22` (pass 1)                                                             |
 | ---             | ---                                                                             |
@@ -346,6 +361,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `sidisdvcs` train                                                               |
 | **Runs:**       | 16843 - 17408                                                                   |
 | **Issues:**     | :white_check_mark: None                                                         |
+| **Cross Check:** | Derek Holmberg |
 
 | Dataset:        | `rgc_sp23` (pass 1)                                                               |
 | ---             | ---                                                                               |
@@ -355,6 +371,35 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | `sidisdvcs` train                                                                 |
 | **Runs:**       | 17482 - 17811                                                                     |
 | **Issues:**     | :white_check_mark: None                                                           |
+| **Cross Check:** | Derek Holmberg |
+
+</details>
+
+### Run Group D
+
+<details>
+<summary>Pass 1</summary>
+
+| Dataset:    | `rgd`                                   |
+| ---         | ---                                     |
+| **Status:** | :x: QADB not produced; reason: FC issue |
+
+</details>
+
+### Run Group E
+
+<details>
+<summary>Pass 1</summary>
+
+| Dataset:         | `rge_sp24.5GeV` (pass 1)  |
+| ---              | ---                       |
+| **Status:**      | :x: QADB not yet produced |
+| **Timelines:**   |                           |
+| **Data:**        |                           |
+| **Files Used:**  |                           |
+| **Runs:**        |                           |
+| **Issues:**      |                           |
+| **Cross Check:** |                           |
 
 </details>
 
@@ -400,8 +445,9 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Timelines:**        |                                                                             |
 | **Data:**             | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst` |
 | **Files Used:**       |                                                                             |
-| **Runs:** 5674 - 5870 |                                                                             |
+| **Runs:** | 5674 - 5870                                                                            |
 | **Issues:**           |                                                                             |
+| **Cross Check:** | Lucilla Lanza and Mike Wood |
 
 | Dataset:              | `rgk_fa18_6.5GeV` (pass 2)                                                  |
 | ---                   | ---                                                                         |
@@ -409,8 +455,9 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Timelines:**        |                                                                             |
 | **Data:**             | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass2/v0/dst` |
 | **Files Used:**       |                                                                             |
-| **Runs:** 5875 - 6000 |                                                                             |
+| **Runs:** | 5875 - 6000                                                                            |
 | **Issues:**           |                                                                             |
+| **Cross Check:** | Lucilla Lanza and Mike Wood |
 
 </details>
 
@@ -425,6 +472,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                    |
 | **Runs:**       | 5674 - 5870                                                                                                                                                                                       |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | Lucilla Lanza and Anna Golubenko |
 
 | Dataset:        | `rgk_fa18_6.5GeV` (pass 1)                                                                                                                                                                        |
 | ---             | ---                                                                                                                                                                                               |
@@ -434,6 +482,18 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                    |
 | **Runs:**       | 5875 - 6000                                                                                                                                                                                       |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | Lucilla Lanza and Anna Golubenko |
+
+</details>
+
+### Run Group L
+
+<details>
+<summary>Pass 1</summary>
+
+| Dataset:    | `rgl`                                   |
+| ---         | ---                                     |
+| **Status:** | :x: QADB not produced; reason: FC issue |
 
 </details>
 
@@ -450,6 +510,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Files Used:** | full DST files                                                                                                                                                                                    |
 | **Runs:**       | 15019 - 15884                                                                                                                                                                                     |
 | **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:** | Justin Estee |
 
 </details>
 
