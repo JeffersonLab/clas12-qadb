@@ -169,9 +169,9 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Spring 2018 Pass 1</summary>
 
-#### `rga_sp18_inbending` (pass 1, 10.6 GeV beam)
-| **Status:** | :green_circle: Latest Cook and Up to Date |
+| Dataset: | `rga_sp18_inbending` (pass 1, 10.6 GeV beam) |
 | --- | --- |
+| **Status:** | :green_circle: Latest Cook and Up to Date |
 | **Timelines:** | <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_inbending_nSidis/tlsummary/> |
 | **Path:** | `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst` |
 | **Files:** | `nSidis` train |
