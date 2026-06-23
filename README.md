@@ -167,31 +167,35 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Run Group A</summary>
 
-- Spring 2018 Pass 1
-    - `rga_sp18_inbending` (pass 1, 10.6 GeV beam)
-        - **Status:** :green_circle: Latest Cook and Up to Date
-        - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_inbending_nSidis/tlsummary/>
-        - **Data:**
-            - **Path:** `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst`
-            - **Files:** `nSidis` train
-            - **Runs:** 3306 - 3817, 4003 - 4325
-        - **Issues:** :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)
-    - `rga_sp18_outbending` (pass 1, 10.6 GeV beam)
-        - **Status:** :green_circle: Latest Cook and Up to Date
-        - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_outbending_nSidis/tlsummary/>
-        - **Data:**
-            - **Path:** `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus+1/pass1/dst`
-            - **Files:** `nSidis` train
-            - **Runs:** 3211 - 3293, 3863 - 3987
-        - **Issues:** :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)
-    - `rga_sp18_6.4GeV` (pass 1, 6.4 GeV beam)
-        - **Status:** :x: QADB not produced; reason: [high/unknown scaler clock frequency + low analysis demand](https://clasweb.jlab.org/wiki/index.php/File:Fc-charge-issues-RG-A.pdf)
-        - **Timelines:**
-        - **Data:**
-            - **Path:** `/cache/clas12/rg-a/production/recon/spring2018/6.42gev/_____`
-            - **Files:**
-            - **Runs:**
-        - **Issues:**
+<details>
+<summary>Spring 2018 Pass 1</summary>
+
+- `rga_sp18_inbending` (pass 1, 10.6 GeV beam)
+    - **Status:** :green_circle: Latest Cook and Up to Date
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_inbending_nSidis/tlsummary/>
+    - **Data:**
+        - **Path:** `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst`
+        - **Files:** `nSidis` train
+        - **Runs:** 3306 - 3817, 4003 - 4325
+    - **Issues:** :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)
+- `rga_sp18_outbending` (pass 1, 10.6 GeV beam)
+    - **Status:** :green_circle: Latest Cook and Up to Date
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_outbending_nSidis/tlsummary/>
+    - **Data:**
+        - **Path:** `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus+1/pass1/dst`
+        - **Files:** `nSidis` train
+        - **Runs:** 3211 - 3293, 3863 - 3987
+    - **Issues:** :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)
+- `rga_sp18_6.4GeV` (pass 1, 6.4 GeV beam)
+    - **Status:** :x: QADB not produced; reason: [high/unknown scaler clock frequency + low analysis demand](https://clasweb.jlab.org/wiki/index.php/File:Fc-charge-issues-RG-A.pdf)
+    - **Timelines:**
+    - **Data:**
+        - **Path:** `/cache/clas12/rg-a/production/recon/spring2018/6.42gev/_____`
+        - **Files:**
+        - **Runs:**
+    - **Issues:**
+</details>
+
 - Fall 2018 / Spring 2019 Pass 2
     - `rga_fa18_inbending` (pass 2)
         - **Status:** :green_circle: Latest Cook and Up to Date
