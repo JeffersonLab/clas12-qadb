@@ -164,7 +164,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 <!-- =========================================================================================================================================================== -->
 
-### Run Group A
+### :apple: Run Group A
 
 <details>
 <summary>Spring 2018 Pass 1</summary>
@@ -266,7 +266,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### Run Group B
+### :bee: Run Group B
 
 <details>
 <summary>Pass 2</summary>
@@ -338,7 +338,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### Run Group C
+### :cat: Run Group C
 
 <details>
 <summary>Pass 1</summary>
