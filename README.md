@@ -437,6 +437,31 @@ Click on a run group to see its table. See also the [QADB production status tabl
 ### Run Group K
 
 <details>
+<summary>Spring 2024 Pass 1</summary>
+
+| Dataset:         | `rgk_sp24_6.4GeV` (pass 1)  |
+| ---              | ---                         |
+| **Status:**      | :x: QADB not yet produced   |
+| **Timelines:**   |                             |
+| **Data:**        |                             |
+| **Files Used:**  |                             |
+| **Runs:**        |                             |
+| **Issues:**      |                             |
+| **Cross Check:** | Lucilla Lanza and Mike Wood |
+
+| Dataset:         | `rgk_sp24_8.5GeV` (pass 1)  |
+| ---              | ---                         |
+| **Status:**      | :x: QADB not yet produced   |
+| **Timelines:**   |                             |
+| **Data:**        |                             |
+| **Files Used:**  |                             |
+| **Runs:**        |                             |
+| **Issues:**      |                             |
+| **Cross Check:** | Lucilla Lanza and Mike Wood |
+
+</details>
+
+<details>
 <summary>Fall 2018 Pass 2</summary>
 
 | Dataset:              | `rgk_fa18_7.5GeV` (pass 2)                                                  |
