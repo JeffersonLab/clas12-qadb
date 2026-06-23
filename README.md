@@ -162,123 +162,215 @@ The following tables describe the available data sets in the _latest_ version of
 
 Click on a run group to see its table. See also the [QADB production status table](#prod_status)
 
+<!-- =========================================================================================================================================================== -->
+
 <details>
 <summary>Run Group A</summary>
 
-| Pass | Data Set Name and Timelines Link                                                                            | Run Range                | Status         | Notes          |                                                                                                                                                                                                                                                                 |
-| ---  | ---                                                                                                         | ---                      | ---            | ---            | ---                                                                                                                                                                                                                                                             |
-| 1    | [`rga_sp18_inbending`](https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_inbending_nSidis/tlsummary/)   | 3306 - 3817, 4003 - 4325 | :green_circle: | Data           | `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst`                                                                                                                                                                                     |
-|      |                                                                                                             |                          |                | Analyzed Files | `nSidis` train                                                                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Issues         | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)                                                                                                                           |
-| 1    | [`rga_sp18_outbending`](https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_outbending_nSidis/tlsummary/) | 3211 - 3293, 3863 - 3987 | :green_circle: | Data           | `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus+1/pass1/dst`                                                                                                                                                                                     |
-|      |                                                                                                             |                          |                | Analyzed Files | `nSidis` train                                                                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Issues         | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)                                                                                                                           |
-| 2    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/)   | 5032 - 5419              | :green_circle: | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main`                                                                                                                                                                                               |
-|      |                                                                                                             |                          |                | Analyzed Files | `nSidis` train                                                                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Issues         | None                                                                                                                                                                                                                                                            |
-| 2    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/) | 5422 - 5666              | :green_circle: | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`                                                                                                                                                                                                    |
-|      |                                                                                                             |                          |                | Analyzed Files | `nSidis` train                                                                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Issues         | None                                                                                                                                                                                                                                                            |
-| 2    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary)                        | 6616 - 6783              | :green_circle: | Data           | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst`                                                                                                                                                                                              |
-|      |                                                                                                             |                          |                | Analyzed Files | `nSidis` train                                                                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Issues         | None                                                                                                                                                                                                                                                            |
-| 1    | [`rga_fa18_inbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary)                    | 5032 - 5419              | :warning:      | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`                                                                                                                                                                                                    |
-|      |                                                                                                             |                          |                | Analyzed Files | full DST files                                                                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#12](https://github.com/JeffersonLab/clas12-qadb/issues/12), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| 1    | [`rga_fa18_outbending`](https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary)                  | 5422 - 5666              | :warning:      | Data           | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`                                                                                                                                                                                                    |
-|      |                                                                                                             |                          |                | Analyzed Files | full DST files                                                                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)                                                               |
-| 1    | [`rga_sp19`](https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary)                                        | 6616 - 6783              | :warning:      | Data           | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Analyzed Files | full DST files                                                                                                                                                                                                                                                  |
-|      |                                                                                                             |                          |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)                                                               |
+- `rga_sp18_inbending` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_inbending_nSidis/tlsummary/>
+    - **Run Numbers:** 3306 - 3817, 4003 - 4325
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst`
+    - **Analyzed Files:** `nSidis` train
+    - **Issues:** :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rga_sp18_outbending` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_outbending_nSidis/tlsummary/>
+    - **Run Numbers:** 3211 - 3293, 3863 - 3987
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus+1/pass1/dst`
+    - **Analyzed Files:** `nSidis` train
+    - **Issues:** :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rga_fa18_inbending` (pass 2)
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/>
+    - **Run Numbers:** 5032 - 5419
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main`
+    - **Analyzed Files:** `nSidis` train
+    - **Issues:** None
+- `rga_fa18_outbending` (pass 2)
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/>
+    - **Run Numbers:** 5422 - 5666
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`
+    - **Analyzed Files:** `nSidis` train
+    - **Issues:** None
+- `rga_sp19` (pass 2)
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary>
+    - **Run Numbers:** 6616 - 6783
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst`
+    - **Analyzed Files:** `nSidis` train
+    - **Issues:** None
+- `rga_fa18_inbending` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary>
+    - **Run Numbers:** 5032 - 5419
+    - **Status:** :warning:
+    - **Data:** `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#12](https://github.com/JeffersonLab/clas12-qadb/issues/12), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rga_fa18_outbending` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary>
+    - **Run Numbers:** 5422 - 5666
+    - **Status:** :warning:
+    - **Data:** `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rga_sp19` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary>
+    - **Run Numbers:** 6616 - 6783
+    - **Status:** :warning:
+    - **Data:** `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
 
 </details>
 
 <details>
 <summary>Run Group B</summary>
 
-| Pass | Data Set Name and Timelines Link                                                         | Run Range     | Status         | Notes          |                                                                                                                                                                                                   |
-| ---  | ---                                                                                      | ---           | ---            | ---            | ---                                                                                                                                                                                               |
-| 2    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass2/qa/sp19/rgb_sp19_sidisdvcs/tlsummary/) | 6156 - 6603   | :green_circle: | Data           | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst`                                                                                                                             |
-|      |                                                                                          |               |                | Analyzed Files | `sidisdvcs` train                                                                                                                                                                                 |
-|      |                                                                                          |               |                | Issues         | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)                                                                                                                           |
-| 2    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass2/qa/fa19/rgb_fa19_sidisdvcs/tlsummary/) | 11093 - 11300 | :green_circle: | Data           | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass2/v1/dst`                                                                                                                           |
-|      |                                                                                          |               |                | Analyzed Files | `sidisdvcs` train                                                                                                                                                                                 |
-|      |                                                                                          |               |                | Issues         | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)                                                                                                                           |
-| 2    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass2/qa/wi20/rgb_wi20_sidisdvcs/tlsummary/) | 11323 - 11571 | :green_circle: | Data           | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass2/v1/dst`                                                                                                                             |
-|      |                                                                                          |               |                | Analyzed Files | `sidisdvcs` train                                                                                                                                                                                 |
-|      |                                                                                          |               |                | Issues         | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)                                                                                                                           |
-| 1    | [`rgb_sp19`](https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary)                     | 6156 - 6603   | :warning:      | Data           | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst`                                                                                                                             |
-|      |                                                                                          |               |                | Analyzed Files | full DST files                                                                                                                                                                                    |
-|      |                                                                                          |               |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| 1    | [`rgb_fa19`](https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary)                     | 11093 - 11300 | :warning:      | Data           | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass1/v1/dst`                                                                                                                           |
-|      |                                                                                          |               |                | Analyzed Files | full DST files                                                                                                                                                                                    |
-|      |                                                                                          |               |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| 1    | [`rgb_wi20`](https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary)                     | 11323 - 11571 | :warning:      | Data           | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst`                                                                                                                             |
-|      |                                                                                          |               |                | Analyzed Files | full DST files                                                                                                                                                                                    |
-|      |                                                                                          |               |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+- `rgb_sp19` (pass 2)
+    - **Timelines:** <https://clas12mon.jlab.org/rgb/pass2/qa/sp19/rgb_sp19_sidisdvcs/tlsummary/>
+    - **Run Numbers:** 6156 - 6603
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst`
+    - **Analyzed Files:** `sidisdvcs` train
+    - **Issues:** :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rgb_fa19` (pass 2)
+    - **Timelines:** <https://clas12mon.jlab.org/rgb/pass2/qa/fa19/rgb_fa19_sidisdvcs/tlsummary/>
+    - **Run Numbers:** 11093 - 11300
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass2/v1/dst`
+    - **Analyzed Files:** `sidisdvcs` train
+    - **Issues:** :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rgb_wi20` (pass 2)
+    - **Timelines:** <https://clas12mon.jlab.org/rgb/pass2/qa/wi20/rgb_wi20_sidisdvcs/tlsummary/>
+    - **Run Numbers:** 11323 - 11571
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass2/v1/dst`
+    - **Analyzed Files:** `sidisdvcs` train
+    - **Issues:** :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rgb_sp19` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary>
+    - **Run Numbers:** 6156 - 6603
+    - **Status:** :warning:
+    - **Data:** `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rgb_fa19` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary>
+    - **Run Numbers:** 11093 - 11300
+    - **Status:** :warning:
+    - **Data:** `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass1/v1/dst`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rgb_wi20` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary>
+    - **Run Numbers:** 11323 - 11571
+    - **Status:** :warning:
+    - **Data:** `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
 
 </details>
 
 <details>
 <summary>Run Group C</summary>
 
-| Pass | Data Set Name and Timelines Link                                                              | Run Range     | Status         | Notes          |                                                |
-| ---  | ---                                                                                           | ---           | ---            | ---            | ---                                            |
-| 1    | [`rgc_su22`](https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/) | 16042 - 16786 | :green_circle: | Data           | `/cache/clas12/rg-c/production/summer22/pass1` |
-|      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
-|      |                                                                                               |               |                | Issues         | None                                           |
-| 1    | [`rgc_fa22`](https://clas12mon.jlab.org/rgc/Fall2022/qa-physics/pass1-sidisdvcs/tlsummary/)   | 16843 - 17408 | :green_circle: | Data           | `/cache/clas12/rg-c/production/fall22/pass1`   |
-|      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
-|      |                                                                                               |               |                | Issues         | None                                           |
-| 1    | [`rgc_sp23`](https://clas12mon.jlab.org/rgc/Spring2023/qa-physics/pass1-sidisdvcs/tlsummary/) | 17482 - 17811 | :green_circle: | Data           | `/cache/clas12/rg-c/production/spring23/pass1` |
-|      |                                                                                               |               |                | Analyzed Files | `sidisdvcs` train                              |
-|      |                                                                                               |               |                | Issues         | None                                           |
+- `rgc_su22` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/>
+    - **Run Numbers:** 16042 - 16786
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-c/production/summer22/pass1`
+    - **Analyzed Files:** `sidisdvcs` train
+    - **Issues:** None
+- `rgc_fa22` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgc/Fall2022/qa-physics/pass1-sidisdvcs/tlsummary/>
+    - **Run Numbers:** 16843 - 17408
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-c/production/fall22/pass1`
+    - **Analyzed Files:** `sidisdvcs` train
+    - **Issues:** None
+- `rgc_sp23` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgc/Spring2023/qa-physics/pass1-sidisdvcs/tlsummary/>
+    - **Run Numbers:** 17482 - 17811
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-c/production/spring23/pass1`
+    - **Analyzed Files:** `sidisdvcs` train
+    - **Issues:** None
 
 </details>
 
 <details>
 <summary>Run Group F</summary>
 
-| Pass | Data Set Name and Timelines Link | Run Range     | Status | Notes |                                                                                             |
-| ---  | ---                              | ---           | ---    | ---   | ---                                                                                         |
-| 1    | `rgf_sp20_torusM1`               | 12210 - 12329 | :x:    | Data  | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
-| 1    | `rgf_su20_torusPh`               | 12389 - 12434 | :x:    | Data  | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |
-| 1    | `rgf_su20_torusMh`               | 12436 - 12443 | :x:    | Data  | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
-| 1    | `rgf_su20_torusM1`               | 12447 - 12951 | :x:    | Data  | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
+- `rgf_sp20_torusM1` (pass 1)
+    - **Run Numbers:** 12210 - 12329
+    - **Status:** :x:
+    - **Data:** `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`
+- `rgf_su20_torusPh` (pass 1)
+    - **Run Numbers:** 12389 - 12434
+    - **Status:** :x:
+    - **Data:** `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon`
+- `rgf_su20_torusMh` (pass 1)
+    - **Run Numbers:** 12436 - 12443
+    - **Status:** :x:
+    - **Data:** `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon`
+- `rgf_su20_torusM1` (pass 1)
+    - **Run Numbers:** 12447 - 12951
+    - **Status:** :x:
+    - **Data:** `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`
 
 </details>
 
 <details>
 <summary>Run Group K</summary>
 
-| Pass | Data Set Name and Timelines Link                                                   | Run Range   | Status         | Notes          |                                                                                                                                                                                                   |
-| ---  | ---                                                                                | ---         | ---            | ---            | ---                                                                                                                                                                                               |
-| 2    | `rgk_fa18_7.5GeV`                                                                  | 5674 - 5870 | :x:            | Data           | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst`                                                                                                                       |
-|      |                                                                                    |             |                | Analyzed Files |                                                                                                                                                                                                   |
-|      |                                                                                    |             |                | Issues         |                                                                                                                                                                                                   |
-| 2    | `rgk_fa18_6.5GeV`                                                                  | 5875 - 6000 | :x:            | Data           | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass2/v0/dst`                                                                                                                       |
-|      |                                                                                    |             |                | Analyzed Files |                                                                                                                                                                                                   |
-|      |                                                                                    |             |                | Issues         |                                                                                                                                                                                                   |
-| 1    | [`rgk_fa18_7.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary) | 5674 - 5870 | :green_circle: | Data           | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon`                                                                                                                 |
-|      |                                                                                    |             |                | Analyzed Files | full DST files                                                                                                                                                                                    |
-|      |                                                                                    |             |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| 1    | [`rgk_fa18_6.5GeV`](https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary) | 5875 - 6000 | :green_circle: | Data           | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon`                                                                                                                 |
-|      |                                                                                    |             |                | Analyzed Files | full DST files                                                                                                                                                                                    |
-|      |                                                                                    |             |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+- `rgk_fa18_7.5GeV` (pass 2)
+    - **Timelines:** TODO
+    - **Run Numbers:** 5674 - 5870
+    - **Status:** :x:
+    - **Data:** `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst`
+    - **Analyzed Files:**
+    - **Issues:**
+- `rgk_fa18_6.5GeV` (pass 2)
+    - **Timelines:** TODO
+    - **Run Numbers:** 5875 - 6000
+    - **Status:** :x:
+    - **Data:** `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass2/v0/dst`
+    - **Analyzed Files:**
+    - **Issues:**
+- `rgk_fa18_7.5GeV` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary>
+    - **Run Numbers:** 5674 - 5870
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
+- `rgk_fa18_6.5GeV` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary>
+    - **Run Numbers:** 5875 - 6000
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
 
 </details>
 
 <details>
 <summary>Run Group M</summary>
 
-| Pass | Data Set Name and Timelines Link                                                     | Run Range     | Status         | Notes          |                                                                                                                                                                                                   |
-| ---  | ---                                                                                  | ---           | ---            | ---            | ---                                                                                                                                                                                               |
-| 1    | [`rgm_fa21`](https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/) | 15019 - 15884 | :green_circle: | Data           | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/`                                                                                                                                       |
-|      |                                                                                      |               |                | Analyzed Files | full DST files                                                                                                                                                                                    |
-|      |                                                                                      |               |                | Issues         | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+- `rgm_fa21` (pass 1)
+    - **Timelines:** <https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/>
+    - **Run Numbers:** 15019 - 15884
+    - **Status:** :green_circle:
+    - **Data:** `/cache/clas12/rg-m/production/pass1/allData_forTimelines/`
+    - **Analyzed Files:** full DST files
+    - **Issues:** :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)
 
 </details>
+
+<!-- =========================================================================================================================================================== -->
 
 
 <a name="prod_status"></a>
