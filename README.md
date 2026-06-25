@@ -217,7 +217,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 5032 - 5419                                                                         |
 | **Issues with QADB:**  | :white_check_mark: None                                                             |
 | **Cross Check:**       | Krishna Neupane                                                                     |
-| **FC Charge Method:**  |                                                                                     |
+| **FC Charge Method:**  | Used as is                                                                          |
 | **Cook:** `recharge`   |                                                                                     |
 | **Cook:** `coatjava`   |                                                                                     |
 
@@ -230,7 +230,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 5422 - 5666                                                                          |
 | **Issues with QADB:**  | :white_check_mark: None                                                              |
 | **Cross Check:**       | Krishna Neupane                                                                      |
-| **FC Charge Method:**  |                                                                                      |
+| **FC Charge Method:**  | Used as is                                                                           |
 | **Cook:** `recharge`   |                                                                                      |
 | **Cook:** `coatjava`   |                                                                                      |
 
@@ -243,7 +243,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 6616 - 6783                                                              |
 | **Issues with QADB:**  | :white_check_mark: None                                                  |
 | **Cross Check:**       | Krishna Neupane                                                          |
-| **FC Charge Method:**  |                                                                          |
+| **FC Charge Method:**  | Used as is                                                               |
 | **Cook:** `recharge`   |                                                                          |
 | **Cook:** `coatjava`   |                                                                          |
 
@@ -261,7 +261,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 5032 - 5419                                                                                                                                                                                                                                                     |
 | **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#12](https://github.com/JeffersonLab/clas12-qadb/issues/12), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
 | **Cross Check:**       | :x: None                                                                                                                                                                                                                                                        |
-| **FC Charge Method:**  |                                                                                                                                                                                                                                                                 |
+| **FC Charge Method:**  | Used as is                                                                                                                                                                                                                                                      |
 | **Cook:** `recharge`   |                                                                                                                                                                                                                                                                 |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                                                                                 |
 
@@ -274,7 +274,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 5422 - 5666                                                                                                                                                                                       |
 | **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
 | **Cross Check:**       | :x: None                                                                                                                                                                                          |
-| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **FC Charge Method:**  | Used as is                                                                                                                                                                                        |
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
@@ -287,7 +287,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 6616 - 6783                                                                                                                                                                                       |
 | **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
 | **Cross Check:**       | :x: None                                                                                                                                                                                          |
-| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **FC Charge Method:**  | Used as is, except for run 6724, where `<livetime> x ungated_charge` was used                                                                                                                     |
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
@@ -307,7 +307,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 6156 - 6603                                                                  |
 | **Issues with QADB:**  | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
 | **Cross Check:**       | Derek Holmberg                                                               |
-| **FC Charge Method:**  |                                                                              |
+| **FC Charge Method:**  | Used as is                                                                   |
 | **Cook:** `recharge`   |                                                                              |
 | **Cook:** `coatjava`   |                                                                              |
 
@@ -320,7 +320,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 11093 - 11300                                                                |
 | **Issues with QADB:**  | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
 | **Cross Check:**       | Derek Holmberg                                                               |
-| **FC Charge Method:**  |                                                                              |
+| **FC Charge Method:**  | Used as is                                                                   |
 | **Cook:** `recharge`   |                                                                              |
 | **Cook:** `coatjava`   |                                                                              |
 
@@ -333,7 +333,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 11323 - 11571                                                                |
 | **Issues with QADB:**  | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
 | **Cross Check:**       | Derek Holmberg                                                               |
-| **FC Charge Method:**  |                                                                              |
+| **FC Charge Method:**  | Used as is                                                                   |
 | **Cook:** `recharge`   |                                                                              |
 | **Cook:** `coatjava`   |                                                                              |
 
@@ -351,7 +351,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 6156 - 6603                                                                                                                                                                                       |
 | **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
 | **Cross Check:**       | Silvia Niccolai                                                                                                                                                                                   |
-| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **FC Charge Method:**  | Used as is, except for runs 6263, 6350, 6599, 6601, where `<livetime> x ungated_charge` was used                                                                                                  |
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
@@ -364,7 +364,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 11093 - 11300                                                                                                                                                                                     |
 | **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
 | **Cross Check:**       | Silvia Niccolai                                                                                                                                                                                   |
-| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **FC Charge Method:**  | Used as is, except for run 11119, where `<livetime> x ungated_charge` was used                                                                                                                    |
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
@@ -377,7 +377,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 11323 - 11571                                                                                                                                                                                     |
 | **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
 | **Cross Check:**       | Silvia Niccolai                                                                                                                                                                                   |
-| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **FC Charge Method:**  | Used as is                                                                                                                                                                                        |
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
@@ -397,7 +397,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 16042 - 16786                                                                     |
 | **Issues with QADB:**  | :white_check_mark: None                                                           |
 | **Cross Check:**       | Krishna Neupane                                                                   |
-| **FC Charge Method:**  |                                                                                   |
+| **FC Charge Method:**  | Used as is                                                                        |
 | **Cook:** `recharge`   |                                                                                   |
 | **Cook:** `coatjava`   |                                                                                   |
 
@@ -410,7 +410,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 16843 - 17408                                                                   |
 | **Issues with QADB:**  | :white_check_mark: None                                                         |
 | **Cross Check:**       | Derek Holmberg                                                                  |
-| **FC Charge Method:**  |                                                                                 |
+| **FC Charge Method:**  | Used as is                                                                      |
 | **Cook:** `recharge`   |                                                                                 |
 | **Cook:** `coatjava`   |                                                                                 |
 
@@ -423,7 +423,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 17482 - 17811                                                                     |
 | **Issues with QADB:**  | :white_check_mark: None                                                           |
 | **Cross Check:**       | Derek Holmberg                                                                    |
-| **FC Charge Method:**  |                                                                                   |
+| **FC Charge Method:**  | Used as is                                                                        |
 | **Cook:** `recharge`   |                                                                                   |
 | **Cook:** `coatjava`   |                                                                                   |
 
@@ -527,19 +527,6 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Fall 2018 Pass 2</summary>
 
-| Dataset:               | `rgk_fa18_7.5GeV` (pass 2)                                                  |
-| ---                    | ---                                                                         |
-| **Status:**            | :x: QADB not yet produced                                                   |
-| **Timelines:**         |                                                                             |
-| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst` |
-| **Files Used for QA:** |                                                                             |
-| **Runs:**              | 5674 - 5870                                                                 |
-| **Issues with QADB:**  |                                                                             |
-| **Cross Check:**       | Lucilla Lanza and Mike Wood                                                 |
-| **FC Charge Method:**  |                                                                             |
-| **Cook:** `recharge`   |                                                                             |
-| **Cook:** `coatjava`   |                                                                             |
-
 | Dataset:               | `rgk_fa18_6.5GeV` (pass 2)                                                  |
 | ---                    | ---                                                                         |
 | **Status:**            | :x: QADB not yet produced                                                   |
@@ -553,23 +540,23 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                             |
 | **Cook:** `coatjava`   |                                                                             |
 
+| Dataset:               | `rgk_fa18_7.5GeV` (pass 2)                                                  |
+| ---                    | ---                                                                         |
+| **Status:**            | :x: QADB not yet produced                                                   |
+| **Timelines:**         |                                                                             |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst` |
+| **Files Used for QA:** |                                                                             |
+| **Runs:**              | 5674 - 5870                                                                 |
+| **Issues with QADB:**  |                                                                             |
+| **Cross Check:**       | Lucilla Lanza and Mike Wood                                                 |
+| **FC Charge Method:**  |                                                                             |
+| **Cook:** `recharge`   |                                                                             |
+| **Cook:** `coatjava`   |                                                                             |
+
 </details>
 
 <details>
 <summary>Fall 2018 Pass 1</summary>
-
-| Dataset:               | `rgk_fa18_7.5GeV` (pass 1)                                                                                                                                                                        |
-| ---                    | ---                                                                                                                                                                                               |
-| **Status:**            | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
-| **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary>                                                                                                                                   |
-| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon`                                                                                                                 |
-| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
-| **Runs:**              | 5674 - 5870                                                                                                                                                                                       |
-| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:**       | Lucilla Lanza and Anna Golubenko                                                                                                                                                                  |
-| **FC Charge Method:**  |                                                                                                                                                                                                   |
-| **Cook:** `recharge`   |                                                                                                                                                                                                   |
-| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
 | Dataset:               | `rgk_fa18_6.5GeV` (pass 1)                                                                                                                                                                        |
 | ---                    | ---                                                                                                                                                                                               |
@@ -580,7 +567,20 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 5875 - 6000                                                                                                                                                                                       |
 | **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
 | **Cross Check:**       | Lucilla Lanza and Anna Golubenko                                                                                                                                                                  |
-| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **FC Charge Method:**  | Used `<livetime> x ungated_charge` for the gated charge                                                                                                                                           |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
+
+| Dataset:               | `rgk_fa18_7.5GeV` (pass 1)                                                                                                                                                                        |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary>                                                                                                                                   |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon`                                                                                                                 |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 5674 - 5870                                                                                                                                                                                       |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | Lucilla Lanza and Anna Golubenko                                                                                                                                                                  |
+| **FC Charge Method:**  | Used `<livetime> x ungated_charge` for the gated charge                                                                                                                                           |
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
@@ -611,7 +611,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Runs:**              | 15019 - 15884                                                                                                                                                                                     |
 | **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
 | **Cross Check:**       | Justin Estee                                                                                                                                                                                      |
-| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **FC Charge Method:**  | Used as is, except for runs 15015 to 15199 where `REC::Event:beamCharge` was used (according to notes, but timeline values are zero)                                                              |
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
