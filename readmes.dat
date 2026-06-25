@@ -1,0 +1,59 @@
+# RG-A
+/mss/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst/recon/README.json
+/mss/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst/recon/README_runs_less_than_4000.json
+/mss/clas12/rg-a/production/recon/spring2018/10.59gev/torus+1/pass1/dst/recon/README.json
+/mss/clas12/rg-a/production/recon/spring2018/6.42gev/torus+0.75/pass1/dst/recon/README.json
+/mss/clas12/rg-a/production/recon/spring2018/6.42gev/torus-0.75/pass1/dst/recon/README.json
+/mss/clas12/rg-a/production/recon/spring2018/6.42gev/torus+1/pass1/dst/recon/README.json
+/mss/clas12/rg-a/production/recon/spring2018/6.42gev/torus-1/pass1/dst/recon/README.json
+/mss/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main/dst/recon/README.json
+/mss/clas12/rg-a/production/recon/fall2018/torus+1/pass2/dst/recon/README.json
+/mss/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst/recon/README.json
+
+# RG-B
+/mss/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst/recon/README.json
+/mss/clas12/rg-b/production/recon/fall2019/torus+1/pass2/v1/dst/recon/README.json
+/mss/clas12/rg-b/production/recon/fall2019/torus-1/pass2/v1/dst/recon/README.json
+/mss/clas12/rg-b/production/recon/spring2020/torus-1/pass2/v1/dst/recon/README.json
+
+# RG-C Summer 2022
+/mss/clas12/rg-c/production/summer22/pass1/10.5gev/Align/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/10.5gev/C/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/10.5gev/CH2/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/10.5gev/ET/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/10.5gev/ND3/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/10.5gev/NH3/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/2.2gev/Align/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/2.2gev/C/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/2.2gev/ET/dst/recon/README.json
+/mss/clas12/rg-c/production/summer22/pass1/2.2gev/NH3/dst/recon/README.json
+
+# RG-C Fall 2022
+/mss/clas12/rg-c/production/fall22/pass1/C/dst/recon/README.json
+/mss/clas12/rg-c/production/fall22/pass1/CH2/dst/recon/README.json
+/mss/clas12/rg-c/production/fall22/pass1/ET/dst/recon/README.json
+/mss/clas12/rg-c/production/fall22/pass1/ND3/dst/recon/README.json
+/mss/clas12/rg-c/production/fall22/pass1/NH3/dst/recon/README.json
+
+# RG-C Spring 2023
+### /mss/clas12/rg-c/production/spring23/pass1 --> ERROR: no README.json files available!
+
+# RG-K
+/mss/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass2/v0/dst/recon/README.json
+/mss/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst/recon/README.json
+
+# RG-M
+/mss/clas12/rg-m/production/pass1/6gev/40Ca/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/6gev/He/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/6gev/Cx4/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/6gev/48Ca/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/6gev/H/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/6gev/D/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/6gev/Snx4/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/6gev/Ar/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/2gev/D/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/2gev/C/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/2gev/Ar/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/2gev/H/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/4gev/C/dst/recon/README.json
+/mss/clas12/rg-m/production/pass1/4gev/Ar/dst/recon/README.json
