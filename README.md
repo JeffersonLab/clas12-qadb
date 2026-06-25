@@ -164,221 +164,272 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 <!-- =========================================================================================================================================================== -->
 
-### :apple: Run Group A
+### :large_blue_diamond: Run Group A
 
 <details>
 <summary>Spring 2018 Pass 1</summary>
 
-| Dataset:        | `rga_sp18_inbending` (pass 1, 10.6 GeV beam)                                        |
-| ---             | ---                                                                                 |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                           |
-| **Timelines:**  | <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_inbending_nSidis/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst`         |
-| **Files Used:** | `nSidis` train                                                                      |
-| **Runs:**       | 3306 - 3817, 4003 - 4325                                                            |
-| **Issues:**     | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)             |
-| **Cross Check:** | Bhawani Singh |
-| **FC Charge:** | Reheated: rebuild scalers with clock rollover corrections, postprocessing |
+| Dataset:               | `rga_sp18_inbending` (pass 1, 10.6 GeV beam)                                                                |
+| ---                    | ---                                                                                                         |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                                                   |
+| **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_inbending_nSidis/tlsummary/>                         |
+| **Data:**              | `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus-1/pass1/dst`                                 |
+| **Files Used for QA:** | `nSidis` train                                                                                              |
+| **Runs:**              | 3306 - 3817, 4003 - 4325                                                                                    |
+| **Issues with QADB:**  | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)                                     |
+| **Cross Check:**       | Bhawani Singh                                                                                               |
+| **FC Charge Method:**  | Reheated: ran `rebuild-scalers` with clock-rollover corrections, then `postprocess`; used `coatjava` 13.3.0 |
+| **Cook:** `recharge`   | `false` (but possibly inconsistently applied)                                                               |
+| **Cook:** `coatjava`   | 11.1.1                                                                                                      |
 
-| Dataset:        | `rga_sp18_outbending` (pass 1, 10.6 GeV beam)                                        |
-| ---             | ---                                                                                  |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                            |
-| **Timelines:**  | <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_outbending_nSidis/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus+1/pass1/dst`          |
-| **Files Used:** | `nSidis` train                                                                       |
-| **Runs:**       | 3211 - 3293, 3863 - 3987                                                             |
-| **Issues:**     | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)              |
-| **Cross Check:** | Bhawani Singh |
-| **FC Charge:** | Reheated: rebuild scalers with clock rollover corrections, postprocessing |
+| Dataset:               | `rga_sp18_outbending` (pass 1, 10.6 GeV beam)                                                               |
+| ---                    | ---                                                                                                         |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                                                   |
+| **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_outbending_nSidis/tlsummary/>                        |
+| **Data:**              | `/cache/clas12/rg-a/production/recon/spring2018/10.59gev/torus+1/pass1/dst`                                 |
+| **Files Used for QA:** | `nSidis` train                                                                                              |
+| **Runs:**              | 3211 - 3293, 3863 - 3987                                                                                    |
+| **Issues with QADB:**  | :bangbang: [#92](https://github.com/JeffersonLab/clas12-qadb/issues/92)                                     |
+| **Cross Check:**       | Bhawani Singh                                                                                               |
+| **FC Charge Method:**  | Reheated: ran `rebuild-scalers` with clock-rollover corrections, then `postprocess`; used `coatjava` 13.3.0 |
+| **Cook:** `recharge`   | `false` (but possibly inconsistently applied)                                                               |
+| **Cook:** `coatjava`   | 11.1.1                                                                                                      |
 
-| Dataset:    | `rga_sp18_6.4GeV` (pass 1, 6.4 GeV beam)                                                                                                                           |
-| ---         | ---                                                                                                                                                                |
-| **Status:** | :x: QADB not produced; reason: [high/unknown scaler clock frequency + low analysis demand](https://clasweb.jlab.org/wiki/index.php/File:Fc-charge-issues-RG-A.pdf) |
-| **Data:**   | `/cache/clas12/rg-a/production/recon/spring2018/6.42gev/_____`                                                                                                     |
-| **FC Charge:** | Requires reheating, but with a higher clock frequency (likely 125 MHz) |
+| Dataset:              | `rga_sp18_6.4GeV` (pass 1, 6.4 GeV beam)                                                                                                                           |
+| ---                   | ---                                                                                                                                                                |
+| **Status:**           | :x: QADB not produced; reason: [high/unknown scaler clock frequency + low analysis demand](https://clasweb.jlab.org/wiki/index.php/File:Fc-charge-issues-RG-A.pdf) |
+| **Data:**             | `/cache/clas12/rg-a/production/recon/spring2018/6.42gev/_____`                                                                                                     |
+| **FC Charge Method:** | Requires reheating, but with a higher clock frequency (likely 125 MHz)                                                                                             |
+| **Cook:** `recharge`  | `true` (but possibly inconsistently applied)                                                                                                                       |
+| **Cook:** `coatjava`  | 11.1.1                                                                                                                                                             |
 
 </details>
 
 <details>
 <summary>Fall 2018 & Spring 2019 Pass 2</summary>
 
-| Dataset:        | `rga_fa18_inbending` (pass 2)                                                       |
-| ---             | ---                                                                                 |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                           |
-| **Timelines:**  | <https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main`                   |
-| **Files Used:** | `nSidis` train                                                                      |
-| **Runs:**       | 5032 - 5419                                                                         |
-| **Issues:**     | :white_check_mark: None                                                             |
-| **Cross Check:** | Krishna Neupane |
+| Dataset:               | `rga_fa18_inbending` (pass 2)                                                       |
+| ---                    | ---                                                                                 |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                           |
+| **Timelines:**         | <https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass2/main`                   |
+| **Files Used for QA:** | `nSidis` train                                                                      |
+| **Runs:**              | 5032 - 5419                                                                         |
+| **Issues with QADB:**  | :white_check_mark: None                                                             |
+| **Cross Check:**       | Krishna Neupane                                                                     |
+| **FC Charge Method:**  |                                                                                     |
+| **Cook:** `recharge`   |                                                                                     |
+| **Cook:** `coatjava`   |                                                                                     |
 
-| Dataset:        | `rga_fa18_outbending` (pass 2)                                                       |
-| ---             | ---                                                                                  |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                            |
-| **Timelines:**  | <https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`                         |
-| **Files Used:** | `nSidis` train                                                                       |
-| **Runs:**       | 5422 - 5666                                                                          |
-| **Issues:**     | :white_check_mark: None                                                              |
-| **Cross Check:** | Krishna Neupane |
+| Dataset:               | `rga_fa18_outbending` (pass 2)                                                       |
+| ---                    | ---                                                                                  |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                            |
+| **Timelines:**         | <https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass2`                         |
+| **Files Used for QA:** | `nSidis` train                                                                       |
+| **Runs:**              | 5422 - 5666                                                                          |
+| **Issues with QADB:**  | :white_check_mark: None                                                              |
+| **Cross Check:**       | Krishna Neupane                                                                      |
+| **FC Charge Method:**  |                                                                                      |
+| **Cook:** `recharge`   |                                                                                      |
+| **Cook:** `coatjava`   |                                                                                      |
 
-| Dataset:        | `rga_sp19` (pass 2)                                                      |
-| ---             | ---                                                                      |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                |
-| **Timelines:**  | <https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary> |
-| **Data:**       | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst`       |
-| **Files Used:** | `nSidis` train                                                           |
-| **Runs:**       | 6616 - 6783                                                              |
-| **Issues:**     | :white_check_mark: None                                                  |
-| **Cross Check:** | Krishna Neupane |
+| Dataset:               | `rga_sp19` (pass 2)                                                      |
+| ---                    | ---                                                                      |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                |
+| **Timelines:**         | <https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary> |
+| **Data:**              | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass2/dst`       |
+| **Files Used for QA:** | `nSidis` train                                                           |
+| **Runs:**              | 6616 - 6783                                                              |
+| **Issues with QADB:**  | :white_check_mark: None                                                  |
+| **Cross Check:**       | Krishna Neupane                                                          |
+| **FC Charge Method:**  |                                                                          |
+| **Cook:** `recharge`   |                                                                          |
+| **Cook:** `coatjava`   |                                                                          |
 
 </details>
 
 <details>
 <summary>Fall 2018 & Spring 2019 Pass 1</summary>
 
-| Dataset:        | `rga_fa18_inbending` (pass 1)                                                                                                                                                                                                                                   |
-| ---             | ---                                                                                                                                                                                                                                                             |
-| **Status:**     | :warning: QADB for Newer Cook is also Available                                                                                                                                                                                                                 |
-| **Timelines:**  | <https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary>                                                                                                                                                                                              |
-| **Data:**       | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`                                                                                                                                                                                                    |
-| **Files Used:** | full DST files                                                                                                                                                                                                                                                  |
-| **Runs:**       | 5032 - 5419                                                                                                                                                                                                                                                     |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#12](https://github.com/JeffersonLab/clas12-qadb/issues/12), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | :x: None |
+| Dataset:               | `rga_fa18_inbending` (pass 1)                                                                                                                                                                                                                                   |
+| ---                    | ---                                                                                                                                                                                                                                                             |
+| **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                                                                                 |
+| **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary>                                                                                                                                                                                              |
+| **Data:**              | `/cache/clas12/rg-a/production/recon/fall2018/torus-1/pass1`                                                                                                                                                                                                    |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                                                                                  |
+| **Runs:**              | 5032 - 5419                                                                                                                                                                                                                                                     |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#12](https://github.com/JeffersonLab/clas12-qadb/issues/12), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | :x: None                                                                                                                                                                                                                                                        |
+| **FC Charge Method:**  |                                                                                                                                                                                                                                                                 |
+| **Cook:** `recharge`   |                                                                                                                                                                                                                                                                 |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                                                                                 |
 
-| Dataset:        | `rga_fa18_outbending` (pass 1)                                                                                                                                                                    |
-| ---             | ---                                                                                                                                                                                               |
-| **Status:**     | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
-| **Timelines:**  | <https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary>                                                                                                                               |
-| **Data:**       | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`                                                                                                                                      |
-| **Files Used:** | full DST files                                                                                                                                                                                    |
-| **Runs:**       | 5422 - 5666                                                                                                                                                                                       |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | :x: None |
+| Dataset:               | `rga_fa18_outbending` (pass 1)                                                                                                                                                                    |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
+| **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary>                                                                                                                               |
+| **Data:**              | `/cache/clas12/rg-a/production/recon/fall2018/torus+1/pass1`                                                                                                                                      |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 5422 - 5666                                                                                                                                                                                       |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | :x: None                                                                                                                                                                                          |
+| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
-| Dataset:        | `rga_sp19` (pass 1)                                                                                                                                                                               |
-| ---             | ---                                                                                                                                                                                               |
-| **Status:**     | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
-| **Timelines:**  | <https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary>                                                                                                                                          |
-| **Data:**       | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`                                                                                                                                    |
-| **Files Used:** | full DST files                                                                                                                                                                                    |
-| **Runs:**       | 6616 - 6783                                                                                                                                                                                       |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | :x: None |
+| Dataset:               | `rga_sp19` (pass 1)                                                                                                                                                                               |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
+| **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary>                                                                                                                                          |
+| **Data:**              | `/cache/clas12/rg-a/production/recon/spring2019/torus-1/pass1`                                                                                                                                    |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 6616 - 6783                                                                                                                                                                                       |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | :x: None                                                                                                                                                                                          |
+| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
 </details>
 
-### :bee: Run Group B
+### :large_blue_diamond: Run Group B
 
 <details>
 <summary>Pass 2</summary>
 
-| Dataset:        | `rgb_sp19` (pass 2)                                                          |
-| ---             | ---                                                                          |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                    |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgb/pass2/qa/sp19/rgb_sp19_sidisdvcs/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst`        |
-| **Files Used:** | `sidisdvcs` train                                                            |
-| **Runs:**       | 6156 - 6603                                                                  |
-| **Issues:**     | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
-| **Cross Check:** | Derek Holmberg |
+| Dataset:               | `rgb_sp19` (pass 2)                                                          |
+| ---                    | ---                                                                          |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                    |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass2/qa/sp19/rgb_sp19_sidisdvcs/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass2/v0/dst`        |
+| **Files Used for QA:** | `sidisdvcs` train                                                            |
+| **Runs:**              | 6156 - 6603                                                                  |
+| **Issues with QADB:**  | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
+| **Cross Check:**       | Derek Holmberg                                                               |
+| **FC Charge Method:**  |                                                                              |
+| **Cook:** `recharge`   |                                                                              |
+| **Cook:** `coatjava`   |                                                                              |
 
-| Dataset:        | `rgb_fa19` (pass 2)                                                          |
-| ---             | ---                                                                          |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                    |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgb/pass2/qa/fa19/rgb_fa19_sidisdvcs/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass2/v1/dst`      |
-| **Files Used:** | `sidisdvcs` train                                                            |
-| **Runs:**       | 11093 - 11300                                                                |
-| **Issues:**     | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
-| **Cross Check:** | Derek Holmberg |
+| Dataset:               | `rgb_fa19` (pass 2)                                                          |
+| ---                    | ---                                                                          |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                    |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass2/qa/fa19/rgb_fa19_sidisdvcs/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass2/v1/dst`      |
+| **Files Used for QA:** | `sidisdvcs` train                                                            |
+| **Runs:**              | 11093 - 11300                                                                |
+| **Issues with QADB:**  | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
+| **Cross Check:**       | Derek Holmberg                                                               |
+| **FC Charge Method:**  |                                                                              |
+| **Cook:** `recharge`   |                                                                              |
+| **Cook:** `coatjava`   |                                                                              |
 
-| Dataset:        | `rgb_wi20` (pass 2)                                                          |
-| ---             | ---                                                                          |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                    |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgb/pass2/qa/wi20/rgb_wi20_sidisdvcs/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass2/v1/dst`        |
-| **Files Used:** | `sidisdvcs` train                                                            |
-| **Runs:**       | 11323 - 11571                                                                |
-| **Issues:**     | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
-| **Cross Check:** | Derek Holmberg |
+| Dataset:               | `rgb_wi20` (pass 2)                                                          |
+| ---                    | ---                                                                          |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                    |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass2/qa/wi20/rgb_wi20_sidisdvcs/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass2/v1/dst`        |
+| **Files Used for QA:** | `sidisdvcs` train                                                            |
+| **Runs:**              | 11323 - 11571                                                                |
+| **Issues with QADB:**  | :bangbang: [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89)      |
+| **Cross Check:**       | Derek Holmberg                                                               |
+| **FC Charge Method:**  |                                                                              |
+| **Cook:** `recharge`   |                                                                              |
+| **Cook:** `coatjava`   |                                                                              |
 
 </details>
 
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:        | `rgb_sp19` (pass 1)                                                                                                                                                                               |
-| ---             | ---                                                                                                                                                                                               |
-| **Status:**     | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary>                                                                                                                                          |
-| **Data:**       | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst`                                                                                                                             |
-| **Files Used:** | full DST files                                                                                                                                                                                    |
-| **Runs:**       | 6156 - 6603                                                                                                                                                                                       |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | Silvia Niccolai |
+| Dataset:               | `rgb_sp19` (pass 1)                                                                                                                                                                               |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary>                                                                                                                                          |
+| **Data:**              | `/cache/clas12/rg-b/production/recon/spring2019/torus-1/pass1/v0/dst`                                                                                                                             |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 6156 - 6603                                                                                                                                                                                       |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | Silvia Niccolai                                                                                                                                                                                   |
+| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
-| Dataset:        | `rgb_fa19` (pass 1)                                                                                                                                                                               |
-| ---             | ---                                                                                                                                                                                               |
-| **Status:**     | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary>                                                                                                                                          |
-| **Data:**       | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass1/v1/dst`                                                                                                                           |
-| **Files Used:** | full DST files                                                                                                                                                                                    |
-| **Runs:**       | 11093 - 11300                                                                                                                                                                                     |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | Silvia Niccolai |
+| Dataset:               | `rgb_fa19` (pass 1)                                                                                                                                                                               |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary>                                                                                                                                          |
+| **Data:**              | `/cache/clas12/rg-b/production/recon/fall2019/torus{+,-}1/pass1/v1/dst`                                                                                                                           |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 11093 - 11300                                                                                                                                                                                     |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | Silvia Niccolai                                                                                                                                                                                   |
+| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
-| Dataset:        | `rgb_wi20` (pass 1)                                                                                                                                                                               |
-| ---             | ---                                                                                                                                                                                               |
-| **Status:**     | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary>                                                                                                                                          |
-| **Data:**       | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst`                                                                                                                             |
-| **Files Used:** | full DST files                                                                                                                                                                                    |
-| **Runs:**       | 11323 - 11571                                                                                                                                                                                     |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | Silvia Niccolai |
+| Dataset:               | `rgb_wi20` (pass 1)                                                                                                                                                                               |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary>                                                                                                                                          |
+| **Data:**              | `/cache/clas12/rg-b/production/recon/spring2020/torus-1/pass1/v1/dst`                                                                                                                             |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 11323 - 11571                                                                                                                                                                                     |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | Silvia Niccolai                                                                                                                                                                                   |
+| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
 </details>
 
-### :cat: Run Group C
+### :large_blue_diamond: Run Group C
 
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:        | `rgc_su22` (pass 1)                                                               |
-| ---             | ---                                                                               |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                         |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-c/production/summer22/pass1`                                    |
-| **Files Used:** | `sidisdvcs` train                                                                 |
-| **Runs:**       | 16042 - 16786                                                                     |
-| **Issues:**     | :white_check_mark: None                                                           |
-| **Cross Check:** | Krishna Neupane |
+| Dataset:               | `rgc_su22` (pass 1)                                                               |
+| ---                    | ---                                                                               |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                         |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-c/production/summer22/pass1`                                    |
+| **Files Used for QA:** | `sidisdvcs` train                                                                 |
+| **Runs:**              | 16042 - 16786                                                                     |
+| **Issues with QADB:**  | :white_check_mark: None                                                           |
+| **Cross Check:**       | Krishna Neupane                                                                   |
+| **FC Charge Method:**  |                                                                                   |
+| **Cook:** `recharge`   |                                                                                   |
+| **Cook:** `coatjava`   |                                                                                   |
 
-| Dataset:        | `rgc_fa22` (pass 1)                                                             |
-| ---             | ---                                                                             |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                       |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgc/Fall2022/qa-physics/pass1-sidisdvcs/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-c/production/fall22/pass1`                                    |
-| **Files Used:** | `sidisdvcs` train                                                               |
-| **Runs:**       | 16843 - 17408                                                                   |
-| **Issues:**     | :white_check_mark: None                                                         |
-| **Cross Check:** | Derek Holmberg |
+| Dataset:               | `rgc_fa22` (pass 1)                                                             |
+| ---                    | ---                                                                             |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                       |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgc/Fall2022/qa-physics/pass1-sidisdvcs/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-c/production/fall22/pass1`                                    |
+| **Files Used for QA:** | `sidisdvcs` train                                                               |
+| **Runs:**              | 16843 - 17408                                                                   |
+| **Issues with QADB:**  | :white_check_mark: None                                                         |
+| **Cross Check:**       | Derek Holmberg                                                                  |
+| **FC Charge Method:**  |                                                                                 |
+| **Cook:** `recharge`   |                                                                                 |
+| **Cook:** `coatjava`   |                                                                                 |
 
-| Dataset:        | `rgc_sp23` (pass 1)                                                               |
-| ---             | ---                                                                               |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                         |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgc/Spring2023/qa-physics/pass1-sidisdvcs/tlsummary/> |
-| **Data:**       | `/cache/clas12/rg-c/production/spring23/pass1`                                    |
-| **Files Used:** | `sidisdvcs` train                                                                 |
-| **Runs:**       | 17482 - 17811                                                                     |
-| **Issues:**     | :white_check_mark: None                                                           |
-| **Cross Check:** | Derek Holmberg |
+| Dataset:               | `rgc_sp23` (pass 1)                                                               |
+| ---                    | ---                                                                               |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                         |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgc/Spring2023/qa-physics/pass1-sidisdvcs/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-c/production/spring23/pass1`                                    |
+| **Files Used for QA:** | `sidisdvcs` train                                                                 |
+| **Runs:**              | 17482 - 17811                                                                     |
+| **Issues with QADB:**  | :white_check_mark: None                                                           |
+| **Cross Check:**       | Derek Holmberg                                                                    |
+| **FC Charge Method:**  |                                                                                   |
+| **Cook:** `recharge`   |                                                                                   |
+| **Cook:** `coatjava`   |                                                                                   |
 
 </details>
 
-### :dog: Run Group D
+### :large_blue_diamond: Run Group D
 
 <details>
 <summary>Pass 1</summary>
@@ -389,24 +440,27 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### :elephant: Run Group E
+### :large_blue_diamond: Run Group E
 
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:         | `rge_sp24.5GeV` (pass 1)  |
-| ---              | ---                       |
-| **Status:**      | :x: QADB not yet produced |
-| **Timelines:**   |                           |
-| **Data:**        |                           |
-| **Files Used:**  |                           |
-| **Runs:**        |                           |
-| **Issues:**      |                           |
-| **Cross Check:** |                           |
+| Dataset:               | `rge_sp24.5GeV` (pass 1)  |
+| ---                    | ---                       |
+| **Status:**            | :x: QADB not yet produced |
+| **Timelines:**         |                           |
+| **Data:**              |                           |
+| **Files Used for QA:** |                           |
+| **Runs:**              |                           |
+| **Issues with QADB:**  |                           |
+| **Cross Check:**       |                           |
+| **FC Charge Method:**  |                           |
+| **Cook:** `recharge`   |                           |
+| **Cook:** `coatjava`   |                           |
 
 </details>
 
-### :fox_face: Run Group F
+### :large_blue_diamond: Run Group F
 
 <details>
 <summary>Pass 1</summary>
@@ -437,84 +491,102 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### :koala: Run Group K
+### :large_blue_diamond: Run Group K
 
 <details>
 <summary>Spring 2024 Pass 1</summary>
 
-| Dataset:         | `rgk_sp24_6.4GeV` (pass 1)  |
-| ---              | ---                         |
-| **Status:**      | :x: QADB not yet produced   |
-| **Timelines:**   |                             |
-| **Data:**        |                             |
-| **Files Used:**  |                             |
-| **Runs:**        |                             |
-| **Issues:**      |                             |
-| **Cross Check:** | Lucilla Lanza and Mike Wood |
+| Dataset:               | `rgk_sp24_6.4GeV` (pass 1)  |
+| ---                    | ---                         |
+| **Status:**            | :x: QADB not yet produced   |
+| **Timelines:**         |                             |
+| **Data:**              |                             |
+| **Files Used for QA:** |                             |
+| **Runs:**              |                             |
+| **Issues with QADB:**  |                             |
+| **Cross Check:**       | Lucilla Lanza and Mike Wood |
+| **FC Charge Method:**  |                             |
+| **Cook:** `recharge`   |                             |
+| **Cook:** `coatjava`   |                             |
 
-| Dataset:         | `rgk_sp24_8.5GeV` (pass 1)  |
-| ---              | ---                         |
-| **Status:**      | :x: QADB not yet produced   |
-| **Timelines:**   |                             |
-| **Data:**        |                             |
-| **Files Used:**  |                             |
-| **Runs:**        |                             |
-| **Issues:**      |                             |
-| **Cross Check:** | Lucilla Lanza and Mike Wood |
+| Dataset:               | `rgk_sp24_8.5GeV` (pass 1)  |
+| ---                    | ---                         |
+| **Status:**            | :x: QADB not yet produced   |
+| **Timelines:**         |                             |
+| **Data:**              |                             |
+| **Files Used for QA:** |                             |
+| **Runs:**              |                             |
+| **Issues with QADB:**  |                             |
+| **Cross Check:**       | Lucilla Lanza and Mike Wood |
+| **FC Charge Method:**  |                             |
+| **Cook:** `recharge`   |                             |
+| **Cook:** `coatjava`   |                             |
 
 </details>
 
 <details>
 <summary>Fall 2018 Pass 2</summary>
 
-| Dataset:              | `rgk_fa18_7.5GeV` (pass 2)                                                  |
-| ---                   | ---                                                                         |
-| **Status:**           | :x: QADB not yet produced                                                   |
-| **Timelines:**        |                                                                             |
-| **Data:**             | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst` |
-| **Files Used:**       |                                                                             |
-| **Runs:** | 5674 - 5870                                                                            |
-| **Issues:**           |                                                                             |
-| **Cross Check:** | Lucilla Lanza and Mike Wood |
+| Dataset:               | `rgk_fa18_7.5GeV` (pass 2)                                                  |
+| ---                    | ---                                                                         |
+| **Status:**            | :x: QADB not yet produced                                                   |
+| **Timelines:**         |                                                                             |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass2/v0/dst` |
+| **Files Used for QA:** |                                                                             |
+| **Runs:**              | 5674 - 5870                                                                 |
+| **Issues with QADB:**  |                                                                             |
+| **Cross Check:**       | Lucilla Lanza and Mike Wood                                                 |
+| **FC Charge Method:**  |                                                                             |
+| **Cook:** `recharge`   |                                                                             |
+| **Cook:** `coatjava`   |                                                                             |
 
-| Dataset:              | `rgk_fa18_6.5GeV` (pass 2)                                                  |
-| ---                   | ---                                                                         |
-| **Status:**           | :x: QADB not yet produced                                                   |
-| **Timelines:**        |                                                                             |
-| **Data:**             | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass2/v0/dst` |
-| **Files Used:**       |                                                                             |
-| **Runs:** | 5875 - 6000                                                                            |
-| **Issues:**           |                                                                             |
-| **Cross Check:** | Lucilla Lanza and Mike Wood |
+| Dataset:               | `rgk_fa18_6.5GeV` (pass 2)                                                  |
+| ---                    | ---                                                                         |
+| **Status:**            | :x: QADB not yet produced                                                   |
+| **Timelines:**         |                                                                             |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass2/v0/dst` |
+| **Files Used for QA:** |                                                                             |
+| **Runs:**              | 5875 - 6000                                                                 |
+| **Issues with QADB:**  |                                                                             |
+| **Cross Check:**       | Lucilla Lanza and Mike Wood                                                 |
+| **FC Charge Method:**  |                                                                             |
+| **Cook:** `recharge`   |                                                                             |
+| **Cook:** `coatjava`   |                                                                             |
 
 </details>
 
 <details>
 <summary>Fall 2018 Pass 1</summary>
 
-| Dataset:        | `rgk_fa18_7.5GeV` (pass 1)                                                                                                                                                                        |
-| ---             | ---                                                                                                                                                                                               |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary>                                                                                                                                   |
-| **Data:**       | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon`                                                                                                                 |
-| **Files Used:** | full DST files                                                                                                                                                                                    |
-| **Runs:**       | 5674 - 5870                                                                                                                                                                                       |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | Lucilla Lanza and Anna Golubenko |
+| Dataset:               | `rgk_fa18_7.5GeV` (pass 1)                                                                                                                                                                        |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary>                                                                                                                                   |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/7546MeV/pass1/v0/dst/recon`                                                                                                                 |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 5674 - 5870                                                                                                                                                                                       |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | Lucilla Lanza and Anna Golubenko                                                                                                                                                                  |
+| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
-| Dataset:        | `rgk_fa18_6.5GeV` (pass 1)                                                                                                                                                                        |
-| ---             | ---                                                                                                                                                                                               |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary>                                                                                                                                   |
-| **Data:**       | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon`                                                                                                                 |
-| **Files Used:** | full DST files                                                                                                                                                                                    |
-| **Runs:**       | 5875 - 6000                                                                                                                                                                                       |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | Lucilla Lanza and Anna Golubenko |
+| Dataset:               | `rgk_fa18_6.5GeV` (pass 1)                                                                                                                                                                        |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary>                                                                                                                                   |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2018/torus+1/6535MeV/pass1/v0/dst/recon`                                                                                                                 |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 5875 - 6000                                                                                                                                                                                       |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | Lucilla Lanza and Anna Golubenko                                                                                                                                                                  |
+| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
 </details>
 
-### :lion: Run Group L
+### :large_blue_diamond: Run Group L
 
 <details>
 <summary>Pass 1</summary>
@@ -525,20 +597,23 @@ Click on a run group to see its table. See also the [QADB production status tabl
 
 </details>
 
-### :mouse: Run Group M
+### :large_blue_diamond: Run Group M
 
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:        | `rgm_fa21` (pass 1)                                                                                                                                                                               |
-| ---             | ---                                                                                                                                                                                               |
-| **Status:**     | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
-| **Timelines:**  | <https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/>                                                                                                                          |
-| **Data:**       | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/`                                                                                                                                       |
-| **Files Used:** | full DST files                                                                                                                                                                                    |
-| **Runs:**       | 15019 - 15884                                                                                                                                                                                     |
-| **Issues:**     | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
-| **Cross Check:** | Justin Estee |
+| Dataset:               | `rgm_fa21` (pass 1)                                                                                                                                                                               |
+| ---                    | ---                                                                                                                                                                                               |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/>                                                                                                                          |
+| **Data:**              | `/cache/clas12/rg-m/production/pass1/allData_forTimelines/`                                                                                                                                       |
+| **Files Used for QA:** | full DST files                                                                                                                                                                                    |
+| **Runs:**              | 15019 - 15884                                                                                                                                                                                     |
+| **Issues with QADB:**  | :bangbang: [#9](https://github.com/JeffersonLab/clas12-qadb/issues/9), [#48](https://github.com/JeffersonLab/clas12-qadb/issues/48), [#89](https://github.com/JeffersonLab/clas12-qadb/issues/89) |
+| **Cross Check:**       | Justin Estee                                                                                                                                                                                      |
+| **FC Charge Method:**  |                                                                                                                                                                                                   |
+| **Cook:** `recharge`   |                                                                                                                                                                                                   |
+| **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
 </details>
 
