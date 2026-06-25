@@ -169,7 +169,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Spring 2018 Pass 1</summary>
 
-| Dataset:               | `rga_sp18_inbending` (pass 1, 10.6 GeV beam)                                                                |
+| :minidisc: Dataset:    | `rga_sp18_inbending` (pass 1, 10.6 GeV beam)                                                                |
 | ---                    | ---                                                                                                         |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                                                   |
 | **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_inbending_nSidis/tlsummary/>                         |
@@ -182,7 +182,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   | `false` (but possibly inconsistently applied)                                                               |
 | **Cook:** `coatjava`   | 11.1.1                                                                                                      |
 
-| Dataset:               | `rga_sp18_outbending` (pass 1, 10.6 GeV beam)                                                               |
+| :minidisc: Dataset:    | `rga_sp18_outbending` (pass 1, 10.6 GeV beam)                                                               |
 | ---                    | ---                                                                                                         |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                                                   |
 | **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/sp18/qa/rga_sp18_outbending_nSidis/tlsummary/>                        |
@@ -195,7 +195,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   | `false` (but possibly inconsistently applied)                                                               |
 | **Cook:** `coatjava`   | 11.1.1                                                                                                      |
 
-| Dataset:              | `rga_sp18_6.4GeV` (pass 1, 6.4 GeV beam)                                                                                                                           |
+| :minidisc: Dataset:   | `rga_sp18_6.4GeV` (pass 1, 6.4 GeV beam)                                                                                                                           |
 | ---                   | ---                                                                                                                                                                |
 | **Status:**           | :x: QADB not produced; reason: [high/unknown scaler clock frequency + low analysis demand](https://clasweb.jlab.org/wiki/index.php/File:Fc-charge-issues-RG-A.pdf) |
 | **Data:**             | `/cache/clas12/rg-a/production/recon/spring2018/6.42gev/_____`                                                                                                     |
@@ -208,7 +208,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Fall 2018 & Spring 2019 Pass 2</summary>
 
-| Dataset:               | `rga_fa18_inbending` (pass 2)                                                       |
+| :minidisc: Dataset:    | `rga_fa18_inbending` (pass 2)                                                       |
 | ---                    | ---                                                                                 |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                           |
 | **Timelines:**         | <https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_inbending_nSidis/tlsummary/> |
@@ -221,7 +221,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                     |
 | **Cook:** `coatjava`   |                                                                                     |
 
-| Dataset:               | `rga_fa18_outbending` (pass 2)                                                       |
+| :minidisc: Dataset:    | `rga_fa18_outbending` (pass 2)                                                       |
 | ---                    | ---                                                                                  |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                            |
 | **Timelines:**         | <https://clas12mon.jlab.org/rga/pass2/fa18/qa/rga_fa18_outbending_nSidis/tlsummary/> |
@@ -234,7 +234,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                      |
 | **Cook:** `coatjava`   |                                                                                      |
 
-| Dataset:               | `rga_sp19` (pass 2)                                                      |
+| :minidisc: Dataset:    | `rga_sp19` (pass 2)                                                      |
 | ---                    | ---                                                                      |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                |
 | **Timelines:**         | <https://clas12mon.jlab.org/rga/pass2/sp19/qa/rga_sp19_nSidis/tlsummary> |
@@ -252,7 +252,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Fall 2018 & Spring 2019 Pass 1</summary>
 
-| Dataset:               | `rga_fa18_inbending` (pass 1)                                                                                                                                                                                                                                   |
+| :minidisc: Dataset:    | `rga_fa18_inbending` (pass 1)                                                                                                                                                                                                                                   |
 | ---                    | ---                                                                                                                                                                                                                                                             |
 | **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                                                                                 |
 | **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/qa/fa18_inbending/tlsummary>                                                                                                                                                                                              |
@@ -265,7 +265,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                                                                                                                                                                                                 |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                                                                                 |
 
-| Dataset:               | `rga_fa18_outbending` (pass 1)                                                                                                                                                                    |
+| :minidisc: Dataset:    | `rga_fa18_outbending` (pass 1)                                                                                                                                                                    |
 | ---                    | ---                                                                                                                                                                                               |
 | **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
 | **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/qa/fa18_outbending/tlsummary>                                                                                                                               |
@@ -278,7 +278,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
-| Dataset:               | `rga_sp19` (pass 1)                                                                                                                                                                               |
+| :minidisc: Dataset:    | `rga_sp19` (pass 1)                                                                                                                                                                               |
 | ---                    | ---                                                                                                                                                                                               |
 | **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
 | **Timelines:**         | <https://clas12mon.jlab.org/rga/pass1/qa/sp19/tlsummary>                                                                                                                                          |
@@ -298,7 +298,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Pass 2</summary>
 
-| Dataset:               | `rgb_sp19` (pass 2)                                                          |
+| :minidisc: Dataset:    | `rgb_sp19` (pass 2)                                                          |
 | ---                    | ---                                                                          |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                    |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass2/qa/sp19/rgb_sp19_sidisdvcs/tlsummary/> |
@@ -311,7 +311,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                              |
 | **Cook:** `coatjava`   |                                                                              |
 
-| Dataset:               | `rgb_fa19` (pass 2)                                                          |
+| :minidisc: Dataset:    | `rgb_fa19` (pass 2)                                                          |
 | ---                    | ---                                                                          |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                    |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass2/qa/fa19/rgb_fa19_sidisdvcs/tlsummary/> |
@@ -324,7 +324,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                              |
 | **Cook:** `coatjava`   |                                                                              |
 
-| Dataset:               | `rgb_wi20` (pass 2)                                                          |
+| :minidisc: Dataset:    | `rgb_wi20` (pass 2)                                                          |
 | ---                    | ---                                                                          |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                    |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass2/qa/wi20/rgb_wi20_sidisdvcs/tlsummary/> |
@@ -342,7 +342,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:               | `rgb_sp19` (pass 1)                                                                                                                                                                               |
+| :minidisc: Dataset:    | `rgb_sp19` (pass 1)                                                                                                                                                                               |
 | ---                    | ---                                                                                                                                                                                               |
 | **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass1/qa/sp19/tlsummary>                                                                                                                                          |
@@ -355,7 +355,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
-| Dataset:               | `rgb_fa19` (pass 1)                                                                                                                                                                               |
+| :minidisc: Dataset:    | `rgb_fa19` (pass 1)                                                                                                                                                                               |
 | ---                    | ---                                                                                                                                                                                               |
 | **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass1/qa/fa19/tlsummary>                                                                                                                                          |
@@ -368,7 +368,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
-| Dataset:               | `rgb_wi20` (pass 1)                                                                                                                                                                               |
+| :minidisc: Dataset:    | `rgb_wi20` (pass 1)                                                                                                                                                                               |
 | ---                    | ---                                                                                                                                                                                               |
 | **Status:**            | :warning: QADB for Newer Cook is also Available                                                                                                                                                   |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgb/pass1/qa/wi20/tlsummary>                                                                                                                                          |
@@ -388,7 +388,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:               | `rgc_su22` (pass 1)                                                               |
+| :minidisc: Dataset:    | `rgc_su22` (pass 1)                                                               |
 | ---                    | ---                                                                               |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                         |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgc/Summer2022/qa-physics/pass1-sidisdvcs/tlsummary/> |
@@ -401,7 +401,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                   |
 | **Cook:** `coatjava`   |                                                                                   |
 
-| Dataset:               | `rgc_fa22` (pass 1)                                                             |
+| :minidisc: Dataset:    | `rgc_fa22` (pass 1)                                                             |
 | ---                    | ---                                                                             |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                       |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgc/Fall2022/qa-physics/pass1-sidisdvcs/tlsummary/> |
@@ -414,7 +414,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                 |
 | **Cook:** `coatjava`   |                                                                                 |
 
-| Dataset:               | `rgc_sp23` (pass 1)                                                               |
+| :minidisc: Dataset:    | `rgc_sp23` (pass 1)                                                               |
 | ---                    | ---                                                                               |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                         |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgc/Spring2023/qa-physics/pass1-sidisdvcs/tlsummary/> |
@@ -434,9 +434,9 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:    | `rgd`                                   |
-| ---         | ---                                     |
-| **Status:** | :x: QADB not produced; reason: FC issue |
+| :minidisc: Dataset: | `rgd`                                   |
+| ---                 | ---                                     |
+| **Status:**         | :x: QADB not produced; reason: FC issue |
 
 </details>
 
@@ -445,7 +445,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:               | `rge_sp24.5GeV` (pass 1)  |
+| :minidisc: Dataset:    | `rge_sp24.5GeV` (pass 1)  |
 | ---                    | ---                       |
 | **Status:**            | :x: QADB not yet produced |
 | **Timelines:**         |                           |
@@ -465,29 +465,29 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:    | `rgf_sp20_torusM1` (pass 1)                                                                 |
-| ---         | ---                                                                                         |
-| **Status:** | :x: QADB is unwanted for these data                                                         |
-| **Data:**   | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
-| **Runs:**   | 12210 - 12329                                                                               |
+| :minidisc: Dataset: | `rgf_sp20_torusM1` (pass 1)                                                                 |
+| ---                 | ---                                                                                         |
+| **Status:**         | :x: QADB is unwanted for these data                                                         |
+| **Data:**           | `/cache/clas12/rg-f/production/recon/spring2020/torus-1_solenoid-0.8/pass1v0/dst/recon`     |
+| **Runs:**           | 12210 - 12329                                                                               |
 
-| Dataset:    | `rgf_su20_torusPh` (pass 1)                                                                 |
-| ---         | ---                                                                                         |
-| **Status:** | :x: QADB is unwanted for these data                                                         |
-| **Data:**   | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |
-| **Runs:**   | 12389 - 12434                                                                               |
+| :minidisc: Dataset: | `rgf_su20_torusPh` (pass 1)                                                                 |
+| ---                 | ---                                                                                         |
+| **Status:**         | :x: QADB is unwanted for these data                                                         |
+| **Data:**           | `/cache/clas12/rg-f/production/recon/summer2020/torus+0.5_solenoid-0.745/pass1v0/dst/recon` |
+| **Runs:**           | 12389 - 12434                                                                               |
 
-| Dataset:    | `rgf_su20_torusMh` (pass 1)                                                                 |
-| ---         | ---                                                                                         |
-| **Status:** | :x: QADB is unwanted for these data                                                         |
-| **Data:**   | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
-| **Runs:**   | 12436 - 12443                                                                               |
+| :minidisc: Dataset: | `rgf_su20_torusMh` (pass 1)                                                                 |
+| ---                 | ---                                                                                         |
+| **Status:**         | :x: QADB is unwanted for these data                                                         |
+| **Data:**           | `/cache/clas12/rg-f/production/recon/summer2020/torus-0.5_solenoid-0.745/pass1v0/dst/recon` |
+| **Runs:**           | 12436 - 12443                                                                               |
 
-| Dataset:    | `rgf_su20_torusM1` (pass 1)                                                                 |
-| ---         | ---                                                                                         |
-| **Status:** | :x: QADB is unwanted for these data                                                         |
-| **Data:**   | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
-| **Runs:**   | 12447 - 12951                                                                               |
+| :minidisc: Dataset: | `rgf_su20_torusM1` (pass 1)                                                                 |
+| ---                 | ---                                                                                         |
+| **Status:**         | :x: QADB is unwanted for these data                                                         |
+| **Data:**           | `/cache/clas12/rg-f/production/recon/summer2020/torus-1_solenoid-0.745/pass1v0/dst/recon`   |
+| **Runs:**           | 12447 - 12951                                                                               |
 
 </details>
 
@@ -496,7 +496,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Spring 2024 Pass 1</summary>
 
-| Dataset:               | `rgk_sp24_6.4GeV` (pass 1)  |
+| :minidisc: Dataset:    | `rgk_sp24_6.4GeV` (pass 1)  |
 | ---                    | ---                         |
 | **Status:**            | :x: QADB not yet produced   |
 | **Timelines:**         |                             |
@@ -509,7 +509,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                             |
 | **Cook:** `coatjava`   |                             |
 
-| Dataset:               | `rgk_sp24_8.5GeV` (pass 1)  |
+| :minidisc: Dataset:    | `rgk_sp24_8.5GeV` (pass 1)  |
 | ---                    | ---                         |
 | **Status:**            | :x: QADB not yet produced   |
 | **Timelines:**         |                             |
@@ -527,7 +527,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Fall 2018 Pass 2</summary>
 
-| Dataset:               | `rgk_fa18_6.5GeV` (pass 2)                                                  |
+| :minidisc: Dataset:    | `rgk_fa18_6.5GeV` (pass 2)                                                  |
 | ---                    | ---                                                                         |
 | **Status:**            | :x: QADB not yet produced                                                   |
 | **Timelines:**         |                                                                             |
@@ -540,7 +540,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                             |
 | **Cook:** `coatjava`   |                                                                             |
 
-| Dataset:               | `rgk_fa18_7.5GeV` (pass 2)                                                  |
+| :minidisc: Dataset:    | `rgk_fa18_7.5GeV` (pass 2)                                                  |
 | ---                    | ---                                                                         |
 | **Status:**            | :x: QADB not yet produced                                                   |
 | **Timelines:**         |                                                                             |
@@ -558,7 +558,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Fall 2018 Pass 1</summary>
 
-| Dataset:               | `rgk_fa18_6.5GeV` (pass 1)                                                                                                                                                                        |
+| :minidisc: Dataset:    | `rgk_fa18_6.5GeV` (pass 1)                                                                                                                                                                        |
 | ---                    | ---                                                                                                                                                                                               |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_6.5GeV/tlsummary>                                                                                                                                   |
@@ -571,7 +571,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cook:** `recharge`   |                                                                                                                                                                                                   |
 | **Cook:** `coatjava`   |                                                                                                                                                                                                   |
 
-| Dataset:               | `rgk_fa18_7.5GeV` (pass 1)                                                                                                                                                                        |
+| :minidisc: Dataset:    | `rgk_fa18_7.5GeV` (pass 1)                                                                                                                                                                        |
 | ---                    | ---                                                                                                                                                                                               |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/fa18_7.5GeV/tlsummary>                                                                                                                                   |
@@ -591,9 +591,9 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:    | `rgl`                                   |
-| ---         | ---                                     |
-| **Status:** | :x: QADB not produced; reason: FC issue |
+| :minidisc: Dataset: | `rgl`                                   |
+| ---                 | ---                                     |
+| **Status:**         | :x: QADB not produced; reason: FC issue |
 
 </details>
 
@@ -602,7 +602,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 <details>
 <summary>Pass 1</summary>
 
-| Dataset:               | `rgm_fa21` (pass 1)                                                                                                                                                                               |
+| :minidisc: Dataset:    | `rgm_fa21` (pass 1)                                                                                                                                                                               |
 | ---                    | ---                                                                                                                                                                                               |
 | **Status:**            | :green_circle: Latest Cook and Up to Date                                                                                                                                                         |
 | **Timelines:**         | <https://clas12mon.jlab.org/rgm/pass1_finalqadb/rgm_fall2021/tlsummary/>                                                                                                                          |
