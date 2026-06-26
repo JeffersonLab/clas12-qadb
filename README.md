@@ -425,7 +425,7 @@ Click on a run group to see its table. See also the [QADB production status tabl
 | **Cross Check:**       | Derek Holmberg                                                                    |
 | **FC Charge Method:**  | Used as is                                                                        |
 | **Cook:** `recharge`   | Unknown, since `README.json` file not on tape                                     |
-| **Cook:** `coatjava`   | Unknown, since `README.json` file not on tape                                     |
+| **Cook:** `coatjava`   | Likely 11.1.0, but `README.json` file not on tape                                 |
 
 </details>
 
