@@ -543,7 +543,7 @@ class QADB {
   //   sign is not distinguishable from zero
   // - the return value is constant for a run, but is still assigned per QA bin, for
   //   full generality
-  // - the return value may NOT be constant for all runs in a data set; for example,
+  // - the return value may NOT be constant for all runs in a dataset; for example,
   //   deviations from the normal value happen when a single run is cooked with the
   //   wrong HWP position
   public int correctHelicitySign(int runnum_, int evnum_) {

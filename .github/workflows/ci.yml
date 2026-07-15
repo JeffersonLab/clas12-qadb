@@ -30,7 +30,7 @@ jobs:
         run: |
           source environ.sh
           echo "PATH=$PATH" | tee -a $GITHUB_ENV
-      - name: get data sets
+      - name: get datasets
         id: datasets
         run: |
           qadb-info print --list --no-latest --simple | jq -Rs '{"dataset": split("\n")[:-1]}' | tee datasets.json
