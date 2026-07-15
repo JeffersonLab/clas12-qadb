@@ -142,7 +142,7 @@ qadb-info
 
 
 <a name="avail_datasets"></a>
-## Available Dataset
+## Available Datasets
 The following tables describe the available datasets in the _latest_ version of the QADB; click on a dataset to expand the table.
 
 > [!CAUTION]
