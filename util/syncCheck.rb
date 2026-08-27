@@ -27,6 +27,12 @@ qa_tree.sort{ |a,b| a.first.to_i <=> b.first.to_i }.each do |runnum, run_tree|
   # loop over QA bins
   run_tree.sort{ |a,b| a.first.to_i <=> b.first.to_i }.each do |binnum, bin_tree|
 
+    # exceptions
+    if runnum == '3289'
+      puts "RUN #{runnum} skipped, since it has known binning issues"
+      next
+    end
+
     # check that min event number < max
     evnumMin = bin_tree['evnumMin']
     evnumMax = bin_tree['evnumMax']
