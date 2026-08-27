@@ -40,7 +40,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 3282       | no    |  |
 | 3285       | no    |  |
 | 3288       | no    |  |
-| 3289       | yes   | <pre>no timestamp info and no trigger electrons from QA bin 36 onward</pre> |
+| 3289       | yes   | <pre>no timestamp info and possible trigger electrons issue for most of this run; QADB binning untrustworthy</pre> |
 | 3290       | no    |  |
 | 3293       | no    |  |
 | 3863       | yes   | <pre>empty target</pre> |
