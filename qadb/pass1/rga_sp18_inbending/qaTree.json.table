@@ -24053,8 +24053,7 @@ RUN: 4166
 4166 137           2-MarginalOutlier[2]
 4166 138   |
 4166 139   |
-4166 140          2-MarginalOutlier[12]
-4166 141         1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
+4166 140         1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 4167
