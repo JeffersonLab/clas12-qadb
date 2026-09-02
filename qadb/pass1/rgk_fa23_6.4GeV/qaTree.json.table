@@ -684,17 +684,17 @@ RUN: 19219
 19219 7              0-TotalOutlier[all]
 19219 8              0-TotalOutlier[all]
 19219 9              0-TotalOutlier[all]
-19219 10           0-TotalOutlier[23456]         2-MarginalOutlier[1]
-19219 11          2-MarginalOutlier[all]
-19219 12             0-TotalOutlier[256]       2-MarginalOutlier[134]
-19219 13          2-MarginalOutlier[all]
+19219 10          2-MarginalOutlier[all]
+19219 11          2-MarginalOutlier[245]
+19219 12        2-MarginalOutlier[23456]
+19219 13           2-MarginalOutlier[25]
 19219 14             0-TotalOutlier[all]
-19219 15               0-TotalOutlier[2]     2-MarginalOutlier[13456]
-19219 16         2-MarginalOutlier[2456]
-19219 17             0-TotalOutlier[all]
-19219 18            2-MarginalOutlier[2]
+19219 15           2-MarginalOutlier[25]
+19219 16    |
+19219 17           0-TotalOutlier[23456]         2-MarginalOutlier[1]
+19219 18    |
 19219 19    |
-19219 20            2-MarginalOutlier[5]
+19219 20    |
 19219 21    |
 19219 22    |
 19219 23    |
@@ -725,7 +725,7 @@ RUN: 19220
 19220 3     |
 19220 4     |
 19220 5     |
-19220 6          2-MarginalOutlier[2456]
+19220 6     |
 19220 7     |
 19220 8     |
 19220 9     |
@@ -974,7 +974,7 @@ RUN: 19223
 19223 36    |
 19223 37    |
 19223 38    |
-19223 39            2-MarginalOutlier[2]
+19223 39    |
 19223 40    |
 19223 41    |
 19223 42    |
@@ -1372,22 +1372,22 @@ RUN: 19229
 19229 4     |
 19229 5     |
 19229 6     |
-19229 7            2-MarginalOutlier[25]
+19229 7     |
 19229 8     |
 19229 9     |
-19229 10               0-TotalOutlier[4]     2-MarginalOutlier[12356]
-19229 11            0-TotalOutlier[2456]        2-MarginalOutlier[13]
+19229 10        2-MarginalOutlier[23456]
+19229 11          2-MarginalOutlier[all]
 19229 12             0-TotalOutlier[all]
 19229 13             0-TotalOutlier[all]
-19229 14            0-TotalOutlier[2345]        2-MarginalOutlier[16]
-19229 15          2-MarginalOutlier[all]
-19229 16          2-MarginalOutlier[all]
-19229 17        2-MarginalOutlier[23456]
-19229 18          2-MarginalOutlier[all]
+19229 14               0-TotalOutlier[2]     2-MarginalOutlier[13456]
+19229 15            2-MarginalOutlier[2]
+19229 16           2-MarginalOutlier[23]
+19229 17    |
+19229 18           2-MarginalOutlier[23]
 19229 19    |
 19229 20    |
 19229 21    |
-19229 22          2-MarginalOutlier[all]
+19229 22          2-MarginalOutlier[256]
 19229 23    |
 19229 24    |
 19229 25    |
@@ -1409,10 +1409,10 @@ RUN: 19229
 19229 41    |
 19229 42    |
 19229 43    |
-19229 44        2-MarginalOutlier[23456]
+19229 44    |
 19229 45    |
 19229 46    |
-19229 47            2-MarginalOutlier[5]
+19229 47    |
 19229 48    |
 19229 49    |
 19229 50    |
@@ -1422,14 +1422,14 @@ RUN: 19229
 19229 54    |
 19229 55    |
 19229 56    |
-19229 57          2-MarginalOutlier[256]
+19229 57    |
 19229 58    |
-19229 59          2-MarginalOutlier[all]
-19229 60           2-MarginalOutlier[25]
-19229 61         2-MarginalOutlier[2456]
+19229 59            2-MarginalOutlier[2]
+19229 60    |
+19229 61    |
 19229 62    |
-19229 63          2-MarginalOutlier[all]
-19229 64           2-MarginalOutlier[25]
+19229 63           2-MarginalOutlier[25]
+19229 64    |
 19229 65    |
 19229 66    |
 19229 67    |
@@ -1491,19 +1491,19 @@ RUN: 19231
 19231 16             0-TotalOutlier[all]           4-LowLiveTime[all]
 19231 17             0-TotalOutlier[all]           4-LowLiveTime[all]
 19231 18             0-TotalOutlier[all]           4-LowLiveTime[all]
-19231 19    |
+19231 19         2-MarginalOutlier[1256]
 19231 20             0-TotalOutlier[all]           4-LowLiveTime[all]
 19231 21             0-TotalOutlier[all]           4-LowLiveTime[all]
 19231 22             0-TotalOutlier[all]           4-LowLiveTime[all]
-19231 23           2-MarginalOutlier[56]           4-LowLiveTime[all]
-19231 24              4-LowLiveTime[all]
-19231 25              4-LowLiveTime[all]
-19231 26          2-MarginalOutlier[all]           4-LowLiveTime[all]
+19231 23             0-TotalOutlier[256]       2-MarginalOutlier[134]           4-LowLiveTime[all]
+19231 24            2-MarginalOutlier[2]           4-LowLiveTime[all]
+19231 25          2-MarginalOutlier[256]           4-LowLiveTime[all]
+19231 26             0-TotalOutlier[all]           4-LowLiveTime[all]
 19231 27              4-LowLiveTime[all]
-19231 28              4-LowLiveTime[all]
-19231 29              4-LowLiveTime[all]
-19231 30              4-LowLiveTime[all]
-19231 31        2-MarginalOutlier[12356]           4-LowLiveTime[all]
+19231 28               0-TotalOutlier[2]     2-MarginalOutlier[13456]           4-LowLiveTime[all]
+19231 29          2-MarginalOutlier[256]           4-LowLiveTime[all]
+19231 30          2-MarginalOutlier[256]           4-LowLiveTime[all]
+19231 31             0-TotalOutlier[256]       2-MarginalOutlier[134]           4-LowLiveTime[all]
 19231 32              4-LowLiveTime[all]
 19231 33    |
 19231 34    |
@@ -1534,55 +1534,55 @@ RUN: 19231
 RUN: 19232
 ----------------------------------------------------------------------------------
 19232 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19232 1     |
-19232 2               4-LowLiveTime[all]
-19232 3     |
-19232 4     |
-19232 5     |
-19232 6     |
-19232 7     |
-19232 8     |
+19232 1              0-TotalOutlier[all]
+19232 2           2-MarginalOutlier[all]           4-LowLiveTime[all]
+19232 3              0-TotalOutlier[all]
+19232 4              0-TotalOutlier[all]
+19232 5              0-TotalOutlier[all]
+19232 6             0-TotalOutlier[2345]        2-MarginalOutlier[16]
+19232 7              0-TotalOutlier[all]
+19232 8              0-TotalOutlier[all]
 19232 9     |
-19232 10    |
-19232 11    |
-19232 12    |
-19232 13    |
-19232 14    |
-19232 15    |
-19232 16    |
-19232 17    |
-19232 18    |
-19232 19    |
-19232 20    |
-19232 21    |
-19232 22    |
-19232 23    |
-19232 24    |
-19232 25    |
-19232 26    |
-19232 27    |
-19232 28    |
-19232 29    |
-19232 30    |
-19232 31    |
-19232 32    |
-19232 33    |
-19232 34    |
-19232 35    |
-19232 36    |
-19232 37    |
+19232 10               0-TotalOutlier[4]     2-MarginalOutlier[12356]
+19232 11           0-TotalOutlier[23456]         2-MarginalOutlier[1]
+19232 12             0-TotalOutlier[all]
+19232 13             0-TotalOutlier[all]
+19232 14             0-TotalOutlier[all]
+19232 15             0-TotalOutlier[all]
+19232 16             0-TotalOutlier[all]
+19232 17             0-TotalOutlier[all]
+19232 18             0-TotalOutlier[all]
+19232 19             0-TotalOutlier[all]
+19232 20             0-TotalOutlier[all]
+19232 21             0-TotalOutlier[all]
+19232 22             0-TotalOutlier[all]
+19232 23             0-TotalOutlier[all]
+19232 24             0-TotalOutlier[all]
+19232 25             0-TotalOutlier[all]
+19232 26             0-TotalOutlier[all]
+19232 27             0-TotalOutlier[all]
+19232 28             0-TotalOutlier[all]
+19232 29             0-TotalOutlier[all]
+19232 30             0-TotalOutlier[all]
+19232 31             0-TotalOutlier[all]
+19232 32             0-TotalOutlier[all]
+19232 33             0-TotalOutlier[all]
+19232 34             0-TotalOutlier[all]
+19232 35             0-TotalOutlier[all]
+19232 36             0-TotalOutlier[all]
+19232 37              0-TotalOutlier[24]      2-MarginalOutlier[1356]
 19232 38    |
-19232 39    |
-19232 40    |
-19232 41    |
-19232 42    |
-19232 43    |
-19232 44    |
-19232 45    |
-19232 46    |
-19232 47    |
-19232 48    |
-19232 49    |
+19232 39         2-MarginalOutlier[2345]
+19232 40               0-TotalOutlier[3]     2-MarginalOutlier[12456]
+19232 41         2-MarginalOutlier[2345]
+19232 42          2-MarginalOutlier[all]
+19232 43          2-MarginalOutlier[all]
+19232 44           2-MarginalOutlier[24]
+19232 45             0-TotalOutlier[all]
+19232 46            0-TotalOutlier[2345]        2-MarginalOutlier[16]
+19232 47             0-TotalOutlier[all]
+19232 48             0-TotalOutlier[all]
+19232 49             0-TotalOutlier[all]
 19232 50          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
