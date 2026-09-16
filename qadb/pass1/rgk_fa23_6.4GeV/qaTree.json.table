@@ -684,17 +684,17 @@ RUN: 19219
 19219 7     :: N/q slowly increases throughout the run ::          0-TotalOutlier[all]                  5-Misc[all]
 19219 8     :: N/q slowly increases throughout the run ::          0-TotalOutlier[all]                  5-Misc[all]
 19219 9     :: N/q slowly increases throughout the run ::          0-TotalOutlier[all]                  5-Misc[all]
-19219 10    :: N/q slowly increases throughout the run ::       2-MarginalOutlier[all]                  5-Misc[all]
-19219 11    :: N/q slowly increases throughout the run ::       2-MarginalOutlier[245]                  5-Misc[all]
-19219 12    :: N/q slowly increases throughout the run ::     2-MarginalOutlier[23456]                  5-Misc[all]
-19219 13    :: N/q slowly increases throughout the run ::        2-MarginalOutlier[25]                  5-Misc[all]
+19219 10    :: N/q slowly increases throughout the run ::        0-TotalOutlier[23456]         2-MarginalOutlier[1]                  5-Misc[all]
+19219 11    :: N/q slowly increases throughout the run ::       2-MarginalOutlier[all]                  5-Misc[all]
+19219 12    :: N/q slowly increases throughout the run ::           0-TotalOutlier[26]      2-MarginalOutlier[1345]                  5-Misc[all]
+19219 13    :: N/q slowly increases throughout the run ::       2-MarginalOutlier[all]                  5-Misc[all]
 19219 14    :: N/q slowly increases throughout the run ::          0-TotalOutlier[all]                  5-Misc[all]
-19219 15    :: N/q slowly increases throughout the run ::        2-MarginalOutlier[25]                  5-Misc[all]
-19219 16    :: N/q slowly increases throughout the run ::                  5-Misc[all]
-19219 17    :: N/q slowly increases throughout the run ::        0-TotalOutlier[23456]         2-MarginalOutlier[1]                  5-Misc[all]
-19219 18    :: N/q slowly increases throughout the run ::                  5-Misc[all]
+19219 15    :: N/q slowly increases throughout the run ::            0-TotalOutlier[2]     2-MarginalOutlier[13456]                  5-Misc[all]
+19219 16    :: N/q slowly increases throughout the run ::      2-MarginalOutlier[2456]                  5-Misc[all]
+19219 17    :: N/q slowly increases throughout the run ::          0-TotalOutlier[all]                  5-Misc[all]
+19219 18    :: N/q slowly increases throughout the run ::         2-MarginalOutlier[2]                  5-Misc[all]
 19219 19    :: N/q slowly increases throughout the run ::                  5-Misc[all]
-19219 20    :: N/q slowly increases throughout the run ::                  5-Misc[all]
+19219 20    :: N/q slowly increases throughout the run ::         2-MarginalOutlier[5]                  5-Misc[all]
 19219 21    :: N/q slowly increases throughout the run ::                  5-Misc[all]
 19219 22    :: N/q slowly increases throughout the run ::                  5-Misc[all]
 19219 23    :: N/q slowly increases throughout the run ::                  5-Misc[all]
@@ -725,7 +725,7 @@ RUN: 19220
 19220 3     |
 19220 4     |
 19220 5     |
-19220 6     |
+19220 6          2-MarginalOutlier[2456]
 19220 7     |
 19220 8     |
 19220 9     |
@@ -974,7 +974,7 @@ RUN: 19223
 19223 36    |
 19223 37    |
 19223 38    |
-19223 39    |
+19223 39            2-MarginalOutlier[2]
 19223 40    |
 19223 41    |
 19223 42    |
@@ -1372,22 +1372,22 @@ RUN: 19229
 19229 4     :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 5     :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 6     :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 7     :: DC HV scan: 10 11 10 ::                  5-Misc[all]
+19229 7     :: DC HV scan: 10 11 10 ::         2-MarginalOutlier[5]                  5-Misc[all]
 19229 8     :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 9     :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 10    :: DC HV scan: 10 11 10 ::     2-MarginalOutlier[23456]                  5-Misc[all]
-19229 11    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[all]                  5-Misc[all]
+19229 10    :: DC HV scan: 10 11 10 ::            0-TotalOutlier[4]     2-MarginalOutlier[12356]                  5-Misc[all]
+19229 11    :: DC HV scan: 10 11 10 ::         0-TotalOutlier[2456]        2-MarginalOutlier[13]                  5-Misc[all]
 19229 12    :: DC HV scan: 10 11 10 ::          0-TotalOutlier[all]                  5-Misc[all]
 19229 13    :: DC HV scan: 10 11 10 ::          0-TotalOutlier[all]                  5-Misc[all]
-19229 14    :: DC HV scan: 10 11 10 ::            0-TotalOutlier[2]     2-MarginalOutlier[13456]                  5-Misc[all]
-19229 15    :: DC HV scan: 10 11 10 ::         2-MarginalOutlier[2]                  5-Misc[all]
-19229 16    :: DC HV scan: 10 11 10 ::        2-MarginalOutlier[23]                  5-Misc[all]
-19229 17    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 18    :: DC HV scan: 10 11 10 ::        2-MarginalOutlier[23]                  5-Misc[all]
+19229 14    :: DC HV scan: 10 11 10 ::         0-TotalOutlier[2345]        2-MarginalOutlier[16]                  5-Misc[all]
+19229 15    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[all]                  5-Misc[all]
+19229 16    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[all]                  5-Misc[all]
+19229 17    :: DC HV scan: 10 11 10 ::     2-MarginalOutlier[23456]                  5-Misc[all]
+19229 18    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[all]                  5-Misc[all]
 19229 19    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 20    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 21    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 22    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[256]                  5-Misc[all]
+19229 22    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[all]                  5-Misc[all]
 19229 23    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 24    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 25    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
@@ -1409,7 +1409,7 @@ RUN: 19229
 19229 41    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 42    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 43    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 44    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
+19229 44    :: DC HV scan: 10 11 10 ::     2-MarginalOutlier[23456]                  5-Misc[all]
 19229 45    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 46    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 47    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
@@ -1422,14 +1422,14 @@ RUN: 19229
 19229 54    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 55    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 56    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 57    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
+19229 57    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[256]                  5-Misc[all]
 19229 58    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 59    :: DC HV scan: 10 11 10 ::         2-MarginalOutlier[2]                  5-Misc[all]
-19229 60    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 61    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
+19229 59    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[all]                  5-Misc[all]
+19229 60    :: DC HV scan: 10 11 10 ::      2-MarginalOutlier[2456]                  5-Misc[all]
+19229 61    :: DC HV scan: 10 11 10 ::      2-MarginalOutlier[2456]                  5-Misc[all]
 19229 62    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
-19229 63    :: DC HV scan: 10 11 10 ::        2-MarginalOutlier[25]                  5-Misc[all]
-19229 64    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
+19229 63    :: DC HV scan: 10 11 10 ::       2-MarginalOutlier[all]                  5-Misc[all]
+19229 64    :: DC HV scan: 10 11 10 ::        2-MarginalOutlier[25]                  5-Misc[all]
 19229 65    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 66    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
 19229 67    :: DC HV scan: 10 11 10 ::                  5-Misc[all]
@@ -1491,19 +1491,19 @@ RUN: 19231
 19231 16    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
 19231 17    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
 19231 18    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
-19231 19    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::      2-MarginalOutlier[1256]                  5-Misc[all]
+19231 19    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::       2-MarginalOutlier[all]                  5-Misc[all]
 19231 20    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
 19231 21    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
 19231 22    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
-19231 23    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[256]       2-MarginalOutlier[134]           4-LowLiveTime[all]                  5-Misc[all]
-19231 24    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::         2-MarginalOutlier[2]           4-LowLiveTime[all]                  5-Misc[all]
-19231 25    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::       2-MarginalOutlier[256]           4-LowLiveTime[all]                  5-Misc[all]
+19231 23    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
+19231 24    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::       2-MarginalOutlier[256]           4-LowLiveTime[all]                  5-Misc[all]
+19231 25    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::            0-TotalOutlier[2]     2-MarginalOutlier[13456]           4-LowLiveTime[all]                  5-Misc[all]
 19231 26    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
 19231 27    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::           4-LowLiveTime[all]                  5-Misc[all]
-19231 28    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::            0-TotalOutlier[2]     2-MarginalOutlier[13456]           4-LowLiveTime[all]                  5-Misc[all]
-19231 29    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::       2-MarginalOutlier[256]           4-LowLiveTime[all]                  5-Misc[all]
-19231 30    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::       2-MarginalOutlier[256]           4-LowLiveTime[all]                  5-Misc[all]
-19231 31    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[256]       2-MarginalOutlier[134]           4-LowLiveTime[all]                  5-Misc[all]
+19231 28    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[256]       2-MarginalOutlier[134]           4-LowLiveTime[all]                  5-Misc[all]
+19231 29    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::            0-TotalOutlier[2]     2-MarginalOutlier[13456]           4-LowLiveTime[all]                  5-Misc[all]
+19231 30    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::            0-TotalOutlier[2]     2-MarginalOutlier[13456]           4-LowLiveTime[all]                  5-Misc[all]
+19231 31    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
 19231 32    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::           4-LowLiveTime[all]                  5-Misc[all]
 19231 33    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::                  5-Misc[all]
 19231 34    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::                  5-Misc[all]
@@ -1514,7 +1514,7 @@ RUN: 19231
 19231 39    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::                  5-Misc[all]
 19231 40    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::           4-LowLiveTime[all]                  5-Misc[all]
 19231 41    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::           4-LowLiveTime[all]                  5-Misc[all]
-19231 42    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::           4-LowLiveTime[all]                  5-Misc[all]
+19231 42    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::         2-MarginalOutlier[2]           4-LowLiveTime[all]                  5-Misc[all]
 19231 43    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::           4-LowLiveTime[all]                  5-Misc[all]
 19231 44    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::           4-LowLiveTime[all]                  5-Misc[all]
 19231 45    :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -1534,55 +1534,55 @@ RUN: 19231
 RUN: 19232
 ----------------------------------------------------------------------------------
 19232 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19232 1              0-TotalOutlier[all]
-19232 2           2-MarginalOutlier[all]           4-LowLiveTime[all]
-19232 3              0-TotalOutlier[all]
-19232 4              0-TotalOutlier[all]
-19232 5              0-TotalOutlier[all]
-19232 6             0-TotalOutlier[2345]        2-MarginalOutlier[16]
-19232 7              0-TotalOutlier[all]
-19232 8              0-TotalOutlier[all]
+19232 1     |
+19232 2               4-LowLiveTime[all]
+19232 3     |
+19232 4     |
+19232 5     |
+19232 6     |
+19232 7     |
+19232 8     |
 19232 9     |
-19232 10               0-TotalOutlier[4]     2-MarginalOutlier[12356]
-19232 11           0-TotalOutlier[23456]         2-MarginalOutlier[1]
-19232 12             0-TotalOutlier[all]
-19232 13             0-TotalOutlier[all]
-19232 14             0-TotalOutlier[all]
-19232 15             0-TotalOutlier[all]
-19232 16             0-TotalOutlier[all]
-19232 17             0-TotalOutlier[all]
-19232 18             0-TotalOutlier[all]
-19232 19             0-TotalOutlier[all]
-19232 20             0-TotalOutlier[all]
-19232 21             0-TotalOutlier[all]
-19232 22             0-TotalOutlier[all]
-19232 23             0-TotalOutlier[all]
-19232 24             0-TotalOutlier[all]
-19232 25             0-TotalOutlier[all]
-19232 26             0-TotalOutlier[all]
-19232 27             0-TotalOutlier[all]
-19232 28             0-TotalOutlier[all]
-19232 29             0-TotalOutlier[all]
-19232 30             0-TotalOutlier[all]
-19232 31             0-TotalOutlier[all]
-19232 32             0-TotalOutlier[all]
-19232 33             0-TotalOutlier[all]
-19232 34             0-TotalOutlier[all]
-19232 35             0-TotalOutlier[all]
-19232 36             0-TotalOutlier[all]
-19232 37              0-TotalOutlier[24]      2-MarginalOutlier[1356]
+19232 10    |
+19232 11    |
+19232 12    |
+19232 13    |
+19232 14    |
+19232 15    |
+19232 16    |
+19232 17    |
+19232 18    |
+19232 19    |
+19232 20    |
+19232 21    |
+19232 22    |
+19232 23    |
+19232 24    |
+19232 25    |
+19232 26    |
+19232 27    |
+19232 28    |
+19232 29    |
+19232 30    |
+19232 31    |
+19232 32    |
+19232 33    |
+19232 34    |
+19232 35    |
+19232 36    |
+19232 37    |
 19232 38    |
-19232 39         2-MarginalOutlier[2345]
-19232 40               0-TotalOutlier[3]     2-MarginalOutlier[12456]
-19232 41         2-MarginalOutlier[2345]
-19232 42          2-MarginalOutlier[all]
-19232 43          2-MarginalOutlier[all]
-19232 44           2-MarginalOutlier[24]
-19232 45             0-TotalOutlier[all]
-19232 46            0-TotalOutlier[2345]        2-MarginalOutlier[16]
-19232 47             0-TotalOutlier[all]
-19232 48             0-TotalOutlier[all]
-19232 49             0-TotalOutlier[all]
+19232 39    |
+19232 40    |
+19232 41    |
+19232 42    |
+19232 43    |
+19232 44    |
+19232 45    |
+19232 46    |
+19232 47    |
+19232 48    |
+19232 49    |
 19232 50          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
@@ -1849,7 +1849,7 @@ RUN: 19235
 19235 4               4-LowLiveTime[all]
 19235 5               4-LowLiveTime[all]
 19235 6               4-LowLiveTime[all]
-19235 7               4-LowLiveTime[all]
+19235 7             2-MarginalOutlier[1]           4-LowLiveTime[all]
 19235 8     |
 19235 9     |
 19235 10    |
@@ -2144,7 +2144,7 @@ RUN: 19238
 19238 9     |
 19238 10    |
 19238 11    |
-19238 12           2-MarginalOutlier[26]
+19238 12    |
 19238 13    |
 19238 14    |
 19238 15    |
@@ -2308,7 +2308,7 @@ RUN: 19239
 19239 85    |
 19239 86    |
 19239 87    |
-19239 88        2-MarginalOutlier[12356]
+19239 88    |
 19239 89          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
@@ -2381,7 +2381,7 @@ RUN: 19243
 19243 64    |
 19243 65    |
 19243 66    |
-19243 67          2-MarginalOutlier[all]
+19243 67         2-MarginalOutlier[2456]
 19243 68          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
@@ -2468,9 +2468,9 @@ RUN: 19244
 RUN: 19245
 ----------------------------------------------------------------------------------
 19245 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19245 1           2-MarginalOutlier[all]           4-LowLiveTime[all]
-19245 2               4-LowLiveTime[all]
-19245 3               4-LowLiveTime[all]
+19245 1                0-TotalOutlier[1]     2-MarginalOutlier[23456]           4-LowLiveTime[all]
+19245 2          2-MarginalOutlier[2346]           4-LowLiveTime[all]
+19245 3           2-MarginalOutlier[234]           4-LowLiveTime[all]
 19245 4               4-LowLiveTime[all]
 19245 5               4-LowLiveTime[all]
 19245 6               4-LowLiveTime[all]
@@ -2609,7 +2609,7 @@ RUN: 19247
 19247 9               4-LowLiveTime[all]
 19247 10              4-LowLiveTime[all]
 19247 11              4-LowLiveTime[all]
-19247 12              4-LowLiveTime[all]
+19247 12           2-MarginalOutlier[12]           4-LowLiveTime[all]
 19247 13              4-LowLiveTime[all]
 19247 14              4-LowLiveTime[all]
 19247 15              4-LowLiveTime[all]
@@ -2637,7 +2637,7 @@ RUN: 19248
 19248 8               4-LowLiveTime[all]
 19248 9               4-LowLiveTime[all]
 19248 10              4-LowLiveTime[all]
-19248 11              4-LowLiveTime[all]
+19248 11          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19248 12              4-LowLiveTime[all]
 19248 13              4-LowLiveTime[all]
 19248 14              4-LowLiveTime[all]
@@ -3051,7 +3051,7 @@ RUN: 19253
 ----------------------------------------------------------------------------------
 19253 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19253 1              0-TotalOutlier[all]
-19253 2               0-TotalOutlier[13]       2-MarginalOutlier[245]
+19253 2           2-MarginalOutlier[134]
 19253 3               4-LowLiveTime[all]
 19253 4               4-LowLiveTime[all]
 19253 5               4-LowLiveTime[all]
@@ -3113,7 +3113,7 @@ RUN: 19254
 19254 47              4-LowLiveTime[all]
 19254 48              4-LowLiveTime[all]
 19254 49              4-LowLiveTime[all]
-19254 50          2-MarginalOutlier[all]           4-LowLiveTime[all]
+19254 50         2-MarginalOutlier[2345]           4-LowLiveTime[all]
 19254 51          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
@@ -3323,7 +3323,7 @@ RUN: 19259
 19259 89              4-LowLiveTime[all]
 19259 90              4-LowLiveTime[all]
 19259 91              4-LowLiveTime[all]
-19259 92          2-MarginalOutlier[134]           4-LowLiveTime[all]
+19259 92              4-LowLiveTime[all]
 19259 93              4-LowLiveTime[all]
 19259 94              4-LowLiveTime[all]
 19259 95              4-LowLiveTime[all]
