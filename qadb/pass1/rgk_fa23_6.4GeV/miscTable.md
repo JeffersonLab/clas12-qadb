@@ -15,30 +15,30 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 19204      | no    |  |
-| 19205      | no    |  |
-| 19206      | no    |  |
-| 19208      | no    |  |
-| 19209      | no    |  |
-| 19210      | no    |  |
-| 19211      | no    |  |
-| 19212      | no    |  |
-| 19213      | no    |  |
-| 19214      | no    |  |
-| 19215      | no    |  |
-| 19216      | no    |  |
-| 19217      | no    |  |
-| 19218      | no    |  |
-| 19219      | no    |  |
+| 19204      | yes   | <pre>Trigger Validation, noDC roads electron</pre> |
+| 19205      | yes   | <pre>random trigger</pre> |
+| 19206      | yes   | <pre>trigger studies</pre> |
+| 19208      | yes   | <pre>random trigger</pre> |
+| 19209      | yes   | <pre>lumi scan: 10 nA</pre> |
+| 19210      | yes   | <pre>lumi scan: 20 nA</pre> |
+| 19211      | yes   | <pre>lumi scan: 30 nA</pre> |
+| 19212      | yes   | <pre>lumi scan: 30 nA</pre> |
+| 19213      | yes   | <pre>lumi scan: 40 nA</pre> |
+| 19214      | yes   | <pre>lumi scan: 50 nA</pre> |
+| 19215      | yes   | <pre>lumi scan: 60 nA</pre> |
+| 19216      | yes   | <pre>lumi scan: 75 nA</pre> |
+| 19217      | yes   | <pre>lumi scan: 75 nA</pre> |
+| 19218      | yes   | <pre>lumi scan: 90 nA</pre> |
+| 19219      | yes   | <pre>N/q slowly increases throughout the run</pre> |
 | 19220      | no    |  |
 | 19222      | no    |  |
 | 19223      | no    |  |
 | 19224      | no    |  |
 | 19225      | no    |  |
-| 19226      | no    |  |
-| 19228      | no    |  |
-| 19229      | no    |  |
-| 19231      | no    |  |
+| 19226      | yes   | <pre>DC HV scan: 10 10 11</pre> |
+| 19228      | yes   | <pre>DC HV scan: 10 12 11</pre> |
+| 19229      | yes   | <pre>DC HV scan: 10 11 10</pre> |
+| 19231      | yes   | <pre>alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run</pre> |
 | 19232      | no    |  |
 | 19233      | no    |  |
 | 19234      | no    |  |
