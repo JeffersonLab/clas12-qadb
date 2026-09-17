@@ -47,20 +47,20 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19237      | yes   | <pre>target evaporator alarm toward the end of the run, but N/q looks stable</pre> |
 | 19238      | no    |  |
 | 19239      | no    |  |
-| 19243      | no    |  |
-| 19244      | no    |  |
-| 19245      | no    |  |
+| 19243      | yes   | <pre>production; DC HV scan: 11 11 11</pre> |
+| 19244      | yes   | <pre>production; DC HV scan 10 12 10</pre> |
+| 19245      | yes   | <pre>production; DC HV scan 10 11 11</pre> |
 | 19246      | no    |  |
 | 19247      | no    |  |
 | 19248      | no    |  |
-| 19249      | no    |  |
-| 19250      | no    |  |
-| 19251      | no    |  |
-| 19252      | no    |  |
-| 19253      | no    |  |
-| 19254      | no    |  |
-| 19256      | no    |  |
-| 19257      | no    |  |
+| 19249      | yes   | <pre>lumi scan: 75 nA</pre> |
+| 19250      | yes   | <pre>lumi scan: 75 nA</pre> |
+| 19251      | yes   | <pre>lumi scan: 90 nA</pre> |
+| 19252      | yes   | <pre>lumi scan: 90 nA</pre> |
+| 19253      | yes   | <pre>DAQ test</pre> |
+| 19254      | yes   | <pre>trigger validation run</pre> |
+| 19256      | yes   | <pre>SVT studies</pre> |
+| 19257      | yes   | <pre>SVT studies</pre> |
 | 19258      | no    |  |
 | 19259      | no    |  |
 | 19260      | no    |  |
