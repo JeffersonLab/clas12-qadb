@@ -39,12 +39,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19228      | yes   | <pre>DC HV scan: 10 12 11</pre> |
 | 19229      | yes   | <pre>DC HV scan: 10 11 10</pre> |
 | 19231      | yes   | <pre>alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run</pre> |
-| 19232      | no    |  |
-| 19233      | no    |  |
-| 19234      | no    |  |
-| 19235      | no    |  |
-| 19236      | no    |  |
-| 19237      | no    |  |
+| 19232      | yes   | <pre>lumi scan: 60 nA</pre> |
+| 19233      | yes   | <pre>lumi scan: 75 nA</pre> |
+| 19234      | yes   | <pre>lumi scan: 75 nA</pre> |
+| 19235      | yes   | <pre>lumi scan: 90 nA; evaporator exhaust target alarms</pre> |
+| 19236      | yes   | <pre>target unintentionally empty, causing low trigger rates</pre> |
+| 19237      | yes   | <pre>target evaporator alarm toward the end of the run, but N/q looks stable</pre> |
 | 19238      | no    |  |
 | 19239      | no    |  |
 | 19243      | no    |  |

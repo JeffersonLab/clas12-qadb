@@ -1533,601 +1533,601 @@ RUN: 19231
 ==================================================================================
 RUN: 19232
 ----------------------------------------------------------------------------------
-19232 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19232 1     |
-19232 2               4-LowLiveTime[all]
-19232 3     |
-19232 4     |
-19232 5     |
-19232 6     |
-19232 7     |
-19232 8     |
-19232 9     |
-19232 10    |
-19232 11    |
-19232 12    |
-19232 13    |
-19232 14    |
-19232 15    |
-19232 16    |
-19232 17    |
-19232 18    |
-19232 19    |
-19232 20    |
-19232 21    |
-19232 22    |
-19232 23    |
-19232 24    |
-19232 25    |
-19232 26    |
-19232 27    |
-19232 28    |
-19232 29    |
-19232 30    |
-19232 31    |
-19232 32    |
-19232 33    |
-19232 34    |
-19232 35    |
-19232 36    |
-19232 37    |
-19232 38    |
-19232 39    |
-19232 40    |
-19232 41    |
-19232 42    |
-19232 43    |
-19232 44    |
-19232 45    |
-19232 46    |
-19232 47    |
-19232 48    |
-19232 49    |
-19232 50          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19232 0     :: lumi scan: 60 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19232 1     :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 2     :: lumi scan: 60 nA ::           4-LowLiveTime[all]                  5-Misc[all]
+19232 3     :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 4     :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 5     :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 6     :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 7     :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 8     :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 9     :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 10    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 11    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 12    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 13    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 14    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 15    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 16    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 17    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 18    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 19    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 20    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 21    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 22    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 23    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 24    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 25    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 26    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 27    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 28    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 29    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 30    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 31    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 32    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 33    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 34    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 35    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 36    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 37    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 38    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 39    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 40    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 41    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 42    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 43    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 44    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 45    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 46    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 47    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 48    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 49    :: lumi scan: 60 nA ::                  5-Misc[all]
+19232 50    :: lumi scan: 60 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19233
 ----------------------------------------------------------------------------------
-19233 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19233 1     |
-19233 2     |
-19233 3     |
-19233 4     |
-19233 5     |
-19233 6     |
-19233 7     |
-19233 8     |
-19233 9     |
-19233 10          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19233 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19233 1     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 2     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 3     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 4     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 5     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 6     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 7     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 8     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 9     :: lumi scan: 75 nA ::                  5-Misc[all]
+19233 10    :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19234
 ----------------------------------------------------------------------------------
-19234 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19234 1     |
-19234 2     |
-19234 3     |
-19234 4     |
-19234 5     |
-19234 6     |
-19234 7     |
-19234 8     |
-19234 9     |
-19234 10    |
-19234 11    |
-19234 12    |
-19234 13    |
-19234 14    |
-19234 15    |
-19234 16    |
-19234 17    |
-19234 18    |
-19234 19    |
-19234 20    |
-19234 21    |
-19234 22    |
-19234 23    |
-19234 24    |
-19234 25    |
-19234 26    |
-19234 27    |
-19234 28    |
-19234 29    |
-19234 30    |
-19234 31    |
-19234 32    |
-19234 33    |
-19234 34    |
-19234 35    |
-19234 36    |
-19234 37    |
-19234 38    |
-19234 39    |
-19234 40    |
-19234 41    |
-19234 42    |
-19234 43    |
-19234 44    |
-19234 45    |
-19234 46    |
-19234 47    |
-19234 48    |
-19234 49    |
-19234 50    |
-19234 51    |
-19234 52    |
-19234 53    |
-19234 54    |
-19234 55    |
-19234 56    |
-19234 57    |
-19234 58    |
-19234 59    |
-19234 60    |
-19234 61    |
-19234 62    |
-19234 63    |
-19234 64    |
-19234 65    |
-19234 66    |
-19234 67    |
-19234 68    |
-19234 69    |
-19234 70    |
-19234 71    |
-19234 72    |
-19234 73    |
-19234 74    |
-19234 75    |
-19234 76    |
-19234 77    |
-19234 78    |
-19234 79    |
-19234 80    |
-19234 81    |
-19234 82    |
-19234 83    |
-19234 84    |
-19234 85    |
-19234 86    |
-19234 87    |
-19234 88    |
-19234 89    |
-19234 90    |
-19234 91    |
-19234 92    |
-19234 93    |
-19234 94    |
-19234 95    |
-19234 96    |
-19234 97    |
-19234 98    |
-19234 99    |
-19234 100   |
-19234 101   |
-19234 102   |
-19234 103   |
-19234 104   |
-19234 105   |
-19234 106   |
-19234 107   |
-19234 108   |
-19234 109   |
-19234 110   |
-19234 111   |
-19234 112   |
-19234 113   |
-19234 114   |
-19234 115   |
-19234 116   |
-19234 117   |
-19234 118   |
-19234 119   |
-19234 120   |
-19234 121   |
-19234 122   |
-19234 123   |
-19234 124   |
-19234 125   |
-19234 126   |
-19234 127   |
-19234 128   |
-19234 129   |
-19234 130   |
-19234 131   |
-19234 132   |
-19234 133   |
-19234 134   |
-19234 135   |
-19234 136   |
-19234 137   |
-19234 138   |
-19234 139   |
-19234 140   |
-19234 141   |
-19234 142   |
-19234 143   |
-19234 144   |
-19234 145   |
-19234 146   |
-19234 147   |
-19234 148   |
-19234 149   |
-19234 150   |
-19234 151   |
-19234 152   |
-19234 153   |
-19234 154   |
-19234 155   |
-19234 156   |
-19234 157   |
-19234 158   |
-19234 159   |
-19234 160   |
-19234 161   |
-19234 162   |
-19234 163   |
-19234 164   |
-19234 165   |
-19234 166   |
-19234 167   |
-19234 168   |
-19234 169   |
-19234 170   |
-19234 171   |
-19234 172   |
-19234 173   |
-19234 174   |
-19234 175   |
-19234 176   |
-19234 177   |
-19234 178   |
-19234 179   |
-19234 180   |
-19234 181   |
-19234 182   |
-19234 183   |
-19234 184   |
-19234 185   |
-19234 186   |
-19234 187   |
-19234 188   |
-19234 189   |
-19234 190   |
-19234 191   |
-19234 192   |
-19234 193   |
-19234 194   |
-19234 195   |
-19234 196   |
-19234 197   |
-19234 198   |
-19234 199   |
-19234 200   |
-19234 201   |
-19234 202   |
-19234 203   |
-19234 204   |
-19234 205   |
-19234 206   |
-19234 207   |
-19234 208   |
-19234 209   |
-19234 210   |
-19234 211   |
-19234 212   |
-19234 213   |
-19234 214   |
-19234 215   |
-19234 216   |
-19234 217   |
-19234 218   |
-19234 219   |
-19234 220   |
-19234 221   |
-19234 222   |
-19234 223   |
-19234 224   |
-19234 225   |
-19234 226   |
-19234 227   |
-19234 228   |
-19234 229             4-LowLiveTime[all]
-19234 230   |
-19234 231   |
-19234 232   |
-19234 233   |
-19234 234         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19234 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19234 1     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 2     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 3     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 4     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 5     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 6     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 7     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 8     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 9     :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 10    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 11    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 12    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 13    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 14    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 15    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 16    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 17    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 18    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 19    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 20    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 21    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 22    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 23    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 24    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 25    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 26    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 27    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 28    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 29    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 30    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 31    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 32    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 33    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 34    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 35    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 36    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 37    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 38    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 39    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 40    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 41    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 42    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 43    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 44    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 45    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 46    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 47    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 48    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 49    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 50    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 51    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 52    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 53    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 54    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 55    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 56    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 57    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 58    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 59    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 60    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 61    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 62    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 63    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 64    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 65    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 66    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 67    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 68    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 69    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 70    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 71    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 72    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 73    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 74    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 75    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 76    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 77    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 78    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 79    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 80    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 81    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 82    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 83    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 84    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 85    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 86    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 87    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 88    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 89    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 90    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 91    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 92    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 93    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 94    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 95    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 96    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 97    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 98    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 99    :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 100   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 101   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 102   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 103   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 104   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 105   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 106   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 107   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 108   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 109   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 110   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 111   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 112   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 113   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 114   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 115   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 116   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 117   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 118   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 119   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 120   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 121   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 122   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 123   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 124   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 125   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 126   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 127   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 128   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 129   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 130   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 131   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 132   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 133   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 134   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 135   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 136   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 137   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 138   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 139   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 140   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 141   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 142   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 143   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 144   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 145   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 146   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 147   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 148   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 149   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 150   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 151   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 152   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 153   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 154   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 155   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 156   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 157   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 158   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 159   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 160   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 161   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 162   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 163   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 164   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 165   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 166   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 167   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 168   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 169   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 170   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 171   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 172   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 173   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 174   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 175   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 176   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 177   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 178   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 179   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 180   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 181   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 182   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 183   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 184   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 185   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 186   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 187   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 188   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 189   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 190   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 191   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 192   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 193   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 194   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 195   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 196   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 197   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 198   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 199   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 200   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 201   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 202   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 203   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 204   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 205   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 206   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 207   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 208   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 209   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 210   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 211   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 212   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 213   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 214   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 215   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 216   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 217   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 218   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 219   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 220   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 221   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 222   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 223   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 224   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 225   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 226   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 227   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 228   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 229   :: lumi scan: 75 nA ::           4-LowLiveTime[all]                  5-Misc[all]
+19234 230   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 231   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 232   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 233   :: lumi scan: 75 nA ::                  5-Misc[all]
+19234 234   :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19235
 ----------------------------------------------------------------------------------
-19235 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19235 1               4-LowLiveTime[all]
-19235 2               4-LowLiveTime[all]
-19235 3               4-LowLiveTime[all]
-19235 4               4-LowLiveTime[all]
-19235 5               4-LowLiveTime[all]
-19235 6               4-LowLiveTime[all]
-19235 7             2-MarginalOutlier[1]           4-LowLiveTime[all]
-19235 8     |
-19235 9     |
-19235 10    |
-19235 11    |
-19235 12    |
-19235 13    |
-19235 14    |
-19235 15    |
-19235 16    |
-19235 17    |
-19235 18    |
-19235 19    |
-19235 20    |
-19235 21    |
-19235 22    |
-19235 23              4-LowLiveTime[all]
-19235 24    |
-19235 25    |
-19235 26    |
-19235 27    |
-19235 28              4-LowLiveTime[all]
-19235 29    |
-19235 30    |
-19235 31    |
-19235 32    |
-19235 33              4-LowLiveTime[all]
-19235 34              4-LowLiveTime[all]
-19235 35              4-LowLiveTime[all]
-19235 36    |
-19235 37    |
-19235 38    |
-19235 39              4-LowLiveTime[all]
-19235 40    |
-19235 41    |
-19235 42    |
-19235 43              4-LowLiveTime[all]
-19235 44              4-LowLiveTime[all]
-19235 45              4-LowLiveTime[all]
-19235 46    |
-19235 47    |
-19235 48    |
-19235 49              4-LowLiveTime[all]
-19235 50              4-LowLiveTime[all]
-19235 51              4-LowLiveTime[all]
-19235 52              4-LowLiveTime[all]
-19235 53              4-LowLiveTime[all]
-19235 54              4-LowLiveTime[all]
-19235 55              4-LowLiveTime[all]
-19235 56              4-LowLiveTime[all]
-19235 57              4-LowLiveTime[all]
-19235 58              4-LowLiveTime[all]
-19235 59              4-LowLiveTime[all]
-19235 60              4-LowLiveTime[all]
-19235 61              4-LowLiveTime[all]
-19235 62              4-LowLiveTime[all]
-19235 63              4-LowLiveTime[all]
-19235 64              4-LowLiveTime[all]
-19235 65              4-LowLiveTime[all]
-19235 66              4-LowLiveTime[all]
-19235 67              4-LowLiveTime[all]
-19235 68              4-LowLiveTime[all]
-19235 69    |
-19235 70    |
-19235 71    |
-19235 72    |
-19235 73    |
-19235 74    |
-19235 75    |
-19235 76    |
-19235 77    |
-19235 78    |
-19235 79    |
-19235 80    |
-19235 81    |
-19235 82    |
-19235 83    |
-19235 84    |
-19235 85    |
-19235 86    |
-19235 87    |
-19235 88    |
-19235 89    |
-19235 90    |
-19235 91    |
-19235 92    |
-19235 93    |
-19235 94    |
-19235 95    |
-19235 96    |
-19235 97    |
-19235 98              4-LowLiveTime[all]
-19235 99    |
-19235 100             4-LowLiveTime[all]
-19235 101   |
-19235 102             4-LowLiveTime[all]
-19235 103   |
-19235 104   |
-19235 105   |
-19235 106   |
-19235 107   |
-19235 108   |
-19235 109   |
-19235 110   |
-19235 111   |
-19235 112   |
-19235 113   |
-19235 114   |
-19235 115   |
-19235 116   |
-19235 117   |
-19235 118             4-LowLiveTime[all]
-19235 119             4-LowLiveTime[all]
-19235 120             4-LowLiveTime[all]
-19235 121             4-LowLiveTime[all]
-19235 122   |
-19235 123   |
-19235 124   |
-19235 125   |
-19235 126             4-LowLiveTime[all]
-19235 127             4-LowLiveTime[all]
-19235 128             4-LowLiveTime[all]
-19235 129             4-LowLiveTime[all]
-19235 130             4-LowLiveTime[all]
-19235 131             4-LowLiveTime[all]
-19235 132             4-LowLiveTime[all]
-19235 133             4-LowLiveTime[all]
-19235 134             4-LowLiveTime[all]
-19235 135             4-LowLiveTime[all]
-19235 136             4-LowLiveTime[all]
-19235 137   |
-19235 138             4-LowLiveTime[all]
-19235 139   |
-19235 140   |
-19235 141             4-LowLiveTime[all]
-19235 142             4-LowLiveTime[all]
-19235 143             4-LowLiveTime[all]
-19235 144             4-LowLiveTime[all]
-19235 145             4-LowLiveTime[all]
-19235 146             4-LowLiveTime[all]
-19235 147             4-LowLiveTime[all]
-19235 148             4-LowLiveTime[all]
-19235 149             4-LowLiveTime[all]
-19235 150             4-LowLiveTime[all]
-19235 151             4-LowLiveTime[all]
-19235 152             4-LowLiveTime[all]
-19235 153             4-LowLiveTime[all]
-19235 154             4-LowLiveTime[all]
-19235 155             4-LowLiveTime[all]
-19235 156             4-LowLiveTime[all]
-19235 157             4-LowLiveTime[all]
-19235 158             4-LowLiveTime[all]
-19235 159             4-LowLiveTime[all]
-19235 160             4-LowLiveTime[all]
-19235 161             4-LowLiveTime[all]
-19235 162             4-LowLiveTime[all]
-19235 163             4-LowLiveTime[all]
-19235 164             4-LowLiveTime[all]
-19235 165             4-LowLiveTime[all]
-19235 166             4-LowLiveTime[all]
-19235 167             4-LowLiveTime[all]
-19235 168             4-LowLiveTime[all]
-19235 169             4-LowLiveTime[all]
-19235 170             4-LowLiveTime[all]
-19235 171             4-LowLiveTime[all]
-19235 172         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19235 0     :: lumi scan: 90 nA; evaporator exhaust target alarms ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19235 1     :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 2     :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 3     :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 4     :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 5     :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 6     :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 7     :: lumi scan: 90 nA; evaporator exhaust target alarms ::         2-MarginalOutlier[1]           4-LowLiveTime[all]                  5-Misc[all]
+19235 8     :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 9     :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 10    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 11    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 12    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 13    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 14    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 15    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 16    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 17    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 18    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 19    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 20    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 21    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 22    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 23    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 24    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 25    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 26    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 27    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 28    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 29    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 30    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 31    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 32    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 33    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 34    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 35    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 36    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 37    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 38    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 39    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 40    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 41    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 42    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 43    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 44    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 45    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 46    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 47    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 48    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 49    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 50    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 51    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 52    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 53    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 54    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 55    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 56    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 57    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 58    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 59    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 60    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 61    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 62    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 63    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 64    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 65    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 66    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 67    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 68    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 69    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 70    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 71    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 72    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 73    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 74    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 75    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 76    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 77    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 78    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 79    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 80    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 81    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 82    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 83    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 84    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 85    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 86    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 87    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 88    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 89    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 90    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 91    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 92    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 93    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 94    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 95    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 96    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 97    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 98    :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 99    :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 100   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 101   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 102   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 103   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 104   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 105   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 106   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 107   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 108   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 109   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 110   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 111   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 112   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 113   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 114   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 115   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 116   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 117   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 118   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 119   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 120   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 121   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 122   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 123   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 124   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 125   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 126   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 127   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 128   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 129   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 130   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 131   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 132   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 133   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 134   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 135   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 136   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 137   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 138   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 139   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 140   :: lumi scan: 90 nA; evaporator exhaust target alarms ::                  5-Misc[all]
+19235 141   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 142   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 143   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 144   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 145   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 146   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 147   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 148   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 149   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 150   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 151   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 152   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 153   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 154   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 155   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 156   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 157   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 158   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 159   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 160   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 161   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 162   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 163   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 164   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 165   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 166   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 167   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 168   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 169   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 170   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 171   :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19235 172   :: lumi scan: 90 nA; evaporator exhaust target alarms ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19236
 ----------------------------------------------------------------------------------
-19236 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19236 1              0-TotalOutlier[all]
-19236 2              0-TotalOutlier[all]
-19236 3              0-TotalOutlier[all]
-19236 4              0-TotalOutlier[all]
-19236 5              0-TotalOutlier[all]
-19236 6              0-TotalOutlier[all]
-19236 7              0-TotalOutlier[all]
-19236 8              0-TotalOutlier[all]
-19236 9              0-TotalOutlier[all]
-19236 10             0-TotalOutlier[all]
-19236 11             0-TotalOutlier[all]
-19236 12             0-TotalOutlier[all]
-19236 13             0-TotalOutlier[all]
-19236 14             0-TotalOutlier[all]
-19236 15             0-TotalOutlier[all]
-19236 16             0-TotalOutlier[all]
-19236 17             0-TotalOutlier[all]
-19236 18             0-TotalOutlier[all]
-19236 19             0-TotalOutlier[all]
-19236 20             0-TotalOutlier[all]
-19236 21             0-TotalOutlier[all]
-19236 22             0-TotalOutlier[all]
-19236 23             0-TotalOutlier[all]
-19236 24             0-TotalOutlier[all]
-19236 25             0-TotalOutlier[all]
-19236 26             0-TotalOutlier[all]
-19236 27             0-TotalOutlier[all]
-19236 28             0-TotalOutlier[all]
-19236 29             0-TotalOutlier[all]
-19236 30             0-TotalOutlier[all]
-19236 31             0-TotalOutlier[all]
-19236 32             0-TotalOutlier[all]
-19236 33             0-TotalOutlier[all]
-19236 34             0-TotalOutlier[all]
-19236 35             0-TotalOutlier[all]
-19236 36             0-TotalOutlier[all]
-19236 37             0-TotalOutlier[all]
-19236 38             0-TotalOutlier[all]
-19236 39             0-TotalOutlier[all]
-19236 40             0-TotalOutlier[all]
-19236 41             0-TotalOutlier[all]
-19236 42             0-TotalOutlier[all]
-19236 43             0-TotalOutlier[all]
-19236 44             0-TotalOutlier[all]
-19236 45             0-TotalOutlier[all]
-19236 46             0-TotalOutlier[all]
-19236 47             0-TotalOutlier[all]
-19236 48             0-TotalOutlier[all]
-19236 49             0-TotalOutlier[all]
-19236 50             0-TotalOutlier[all]
-19236 51             0-TotalOutlier[all]
-19236 52             0-TotalOutlier[all]
-19236 53             0-TotalOutlier[all]
-19236 54             0-TotalOutlier[all]
-19236 55             0-TotalOutlier[all]
-19236 56             0-TotalOutlier[all]
-19236 57             0-TotalOutlier[all]
-19236 58             0-TotalOutlier[all]
-19236 59             0-TotalOutlier[all]
-19236 60             0-TotalOutlier[all]
-19236 61             0-TotalOutlier[all]
-19236 62             0-TotalOutlier[all]
-19236 63             0-TotalOutlier[all]
-19236 64             0-TotalOutlier[all]
-19236 65             0-TotalOutlier[all]
-19236 66             0-TotalOutlier[all]
-19236 67             0-TotalOutlier[all]
-19236 68          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19236 0     :: target unintentionally empty, causing low trigger rates ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19236 1     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 2     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 3     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 4     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 5     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 6     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 7     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 8     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 9     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 10    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 11    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 12    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 13    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 14    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 15    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 16    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 17    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 18    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 19    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 20    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 21    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 22    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 23    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 24    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 25    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 26    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 27    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 28    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 29    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 30    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 31    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 32    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 33    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 34    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 35    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 36    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 37    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 38    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 39    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 40    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 41    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 42    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 43    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 44    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 45    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 46    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 47    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 48    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 49    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 50    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 51    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 52    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 53    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 54    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 55    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 56    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 57    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 58    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 59    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 60    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 61    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 62    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 63    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 64    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 65    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 66    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 67    :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
+19236 68    :: target unintentionally empty, causing low trigger rates ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19237
 ----------------------------------------------------------------------------------
-19237 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19237 1     |
-19237 2     |
-19237 3     |
-19237 4     |
-19237 5     |
-19237 6     |
-19237 7     |
-19237 8     |
-19237 9     |
-19237 10    |
-19237 11    |
-19237 12    |
-19237 13    |
-19237 14    |
-19237 15    |
-19237 16    |
-19237 17    |
-19237 18    |
-19237 19    |
-19237 20    |
-19237 21    |
-19237 22    |
-19237 23    |
-19237 24    |
-19237 25    |
-19237 26    |
-19237 27    |
-19237 28    |
-19237 29    |
-19237 30    |
-19237 31    |
-19237 32    |
-19237 33    |
-19237 34    |
-19237 35          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19237 0     :: target evaporator alarm toward the end of the run, but N/q looks stable ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19237 1     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 2     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 3     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 4     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 5     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 6     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 7     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 8     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 9     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 10    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 11    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 12    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 13    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 14    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 15    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 16    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 17    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 18    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 19    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 20    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 21    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 22    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 23    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 24    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 25    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 26    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 27    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 28    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 29    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 30    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 31    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 32    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 33    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 34    :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
+19237 35    :: target evaporator alarm toward the end of the run, but N/q looks stable ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19238
