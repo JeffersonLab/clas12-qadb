@@ -15,32 +15,32 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 19308      | no    |  |
-| 19316      | no    |  |
-| 19317      | no    |  |
-| 19318      | no    |  |
-| 19319      | no    |  |
-| 19321      | no    |  |
-| 19322      | no    |  |
-| 19323      | no    |  |
-| 19324      | no    |  |
+| 19308      | yes   | <pre>DAQ test</pre> |
+| 19316      | yes   | <pre>alignment run</pre> |
+| 19317      | yes   | <pre>alignment run</pre> |
+| 19318      | yes   | <pre>alignment run</pre> |
+| 19319      | yes   | <pre>alignment run</pre> |
+| 19321      | yes   | <pre>Zero-field run, empty target</pre> |
+| 19322      | yes   | <pre>alignment run; empty target</pre> |
+| 19323      | yes   | <pre>alignment run; cold/empty target</pre> |
+| 19324      | yes   | <pre>preliminary production run; some beam current fluctuation, reported in logbook, so beam current request was decreased</pre> |
 | 19325      | no    |  |
-| 19326      | no    |  |
-| 19327      | no    |  |
-| 19328      | no    |  |
-| 19329      | no    |  |
-| 19330      | no    |  |
+| 19326      | yes   | <pre>beam current lowered from 70.5 nA to 40 nA near the end of this run</pre> |
+| 19327      | yes   | <pre>DC threshold adjustments</pre> |
+| 19328      | yes   | <pre>DC threshold adjustments</pre> |
+| 19329      | yes   | <pre>DC threshold adjustments</pre> |
+| 19330      | yes   | <pre>DC tests; varying beam currents requested</pre> |
 | 19331      | no    |  |
 | 19333      | no    |  |
 | 19334      | no    |  |
-| 19335      | no    |  |
+| 19335      | yes   | <pre>higher data rate; N/q systematically lower than neighboring runs and are therefore marked as TotalOutliers</pre> |
 | 19336      | no    |  |
 | 19337      | no    |  |
 | 19338      | no    |  |
 | 19339      | no    |  |
 | 19340      | no    |  |
 | 19341      | no    |  |
-| 19342      | no    |  |
+| 19342      | yes   | <pre>higher data rate; N/q systematically lower than neighboring runs and are therefore marked as TotalOutliers</pre> |
 | 19343      | no    |  |
 | 19344      | no    |  |
 | 19345      | no    |  |
@@ -50,19 +50,19 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19349      | no    |  |
 | 19351      | no    |  |
 | 19352      | no    |  |
-| 19353      | no    |  |
-| 19354      | no    |  |
+| 19353      | yes   | <pre>some TDCs of FTOF P1B S6 are off</pre> |
+| 19354      | yes   | <pre>some TDCs of FTOF P1B S6 are off</pre> |
 | 19355      | no    |  |
 | 19357      | no    |  |
-| 19359      | no    |  |
-| 19360      | no    |  |
-| 19361      | no    |  |
-| 19362      | no    |  |
-| 19363      | no    |  |
-| 19364      | no    |  |
-| 19365      | no    |  |
-| 19366      | no    |  |
-| 19367      | no    |  |
+| 19359      | yes   | <pre>no RICH</pre> |
+| 19360      | yes   | <pre>no RICH</pre> |
+| 19361      | yes   | <pre>no RICH</pre> |
+| 19362      | yes   | <pre>no RICH</pre> |
+| 19363      | yes   | <pre>no RICH</pre> |
+| 19364      | yes   | <pre>no RICH</pre> |
+| 19365      | yes   | <pre>no RICH</pre> |
+| 19366      | yes   | <pre>no RICH</pre> |
+| 19367      | yes   | <pre>no RICH</pre> |
 | 19382      | no    |  |
 | 19384      | no    |  |
 | 19385      | no    |  |
@@ -77,7 +77,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19394      | no    |  |
 | 19395      | no    |  |
 | 19399      | no    |  |
-| 19400      | no    |  |
+| 19400      | yes   | <pre>no data in monitoring histograms</pre> |
 | 19401      | no    |  |
 | 19403      | no    |  |
 | 19405      | no    |  |
@@ -86,7 +86,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19409      | no    |  |
 | 19410      | no    |  |
 | 19411      | no    |  |
-| 19413      | no    |  |
+| 19413      | yes   | <pre>missing some ECAL sector 3 TDC channels</pre> |
 | 19414      | no    |  |
 | 19415      | no    |  |
 | 19416      | no    |  |
@@ -97,8 +97,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19421      | no    |  |
 | 19422      | no    |  |
 | 19423      | no    |  |
-| 19424      | no    |  |
-| 19425      | no    |  |
+| 19424      | yes   | <pre>issue with B_DAQ:livetime pulser PV</pre> |
+| 19425      | yes   | <pre>issue with B_DAQ:livetime pulser PV</pre> |
 | 19426      | no    |  |
 | 19427      | no    |  |
 | 19428      | no    |  |
@@ -112,7 +112,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19436      | no    |  |
 | 19437      | no    |  |
 | 19438      | no    |  |
-| 19439      | no    |  |
+| 19439      | yes   | <pre>DAQ, ECAL, LTCC, CND issues, see logbook</pre> |
 | 19440      | no    |  |
 | 19441      | no    |  |
 | 19442      | no    |  |
@@ -123,11 +123,11 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19448      | no    |  |
 | 19449      | no    |  |
 | 19450      | no    |  |
-| 19451      | no    |  |
+| 19451      | yes   | <pre>SVT problem, Junk</pre> |
 | 19452      | no    |  |
 | 19453      | no    |  |
 | 19454      | no    |  |
-| 19455      | no    |  |
+| 19455      | yes   | <pre>mon12 TDC phase plots look strange</pre> |
 | 19456      | no    |  |
 | 19457      | no    |  |
 | 19458      | no    |  |
@@ -150,7 +150,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19478      | no    |  |
 | 19479      | no    |  |
 | 19480      | no    |  |
-| 19481      | no    |  |
+| 19481      | yes   | <pre>issues with trigger bit 2</pre> |
 | 19482      | no    |  |
 | 19483      | no    |  |
 | 19485      | no    |  |
@@ -165,7 +165,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19494      | no    |  |
 | 19495      | no    |  |
 | 19496      | no    |  |
-| 19497      | no    |  |
+| 19497      | yes   | <pre>DC studies</pre> |
 | 19498      | no    |  |
 | 19499      | no    |  |
 | 19500      | no    |  |
