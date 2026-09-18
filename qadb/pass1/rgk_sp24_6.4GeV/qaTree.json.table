@@ -19100,991 +19100,991 @@ RUN: 19540
 19540 32    |
 19540 33              4-LowLiveTime[all]
 19540 34              4-LowLiveTime[all]
-19540 35               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 36               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 37               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 38               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 39               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 40               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 41               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 42               0-TotalOutlier[4]
-19540 43               0-TotalOutlier[4]
-19540 44               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 45               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 46               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 47               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 48               0-TotalOutlier[4]           4-LowLiveTime[all]
-19540 49               0-TotalOutlier[4]
-19540 50          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19540 35               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 36               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 37               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 38               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 39               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 40               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 41               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 42               0-TotalOutlier[4]              3-SectorLoss[4]
+19540 43               0-TotalOutlier[4]              3-SectorLoss[4]
+19540 44               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 45               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 46               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 47               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 48               0-TotalOutlier[4]              3-SectorLoss[4]           4-LowLiveTime[all]
+19540 49               0-TotalOutlier[4]              3-SectorLoss[4]
+19540 50          1-TerminalOutlier[all]              3-SectorLoss[4]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19541
 ----------------------------------------------------------------------------------
-19541 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19541 1             2-MarginalOutlier[6]
-19541 2     |
-19541 3     |
-19541 4     |
-19541 5     |
-19541 6     |
-19541 7     |
-19541 8     |
-19541 9     |
-19541 10    |
-19541 11    |
-19541 12    |
-19541 13    |
-19541 14            2-MarginalOutlier[4]
-19541 15               0-TotalOutlier[4]
-19541 16    |
-19541 17            2-MarginalOutlier[4]
-19541 18            2-MarginalOutlier[4]
-19541 19    |
-19541 20            2-MarginalOutlier[4]
-19541 21            2-MarginalOutlier[4]
-19541 22             0-TotalOutlier[all]
-19541 23             0-TotalOutlier[all]
-19541 24             0-TotalOutlier[all]
-19541 25             0-TotalOutlier[all]
-19541 26             0-TotalOutlier[all]
-19541 27             0-TotalOutlier[all]
-19541 28             0-TotalOutlier[all]
-19541 29             0-TotalOutlier[all]
-19541 30             0-TotalOutlier[all]
-19541 31             0-TotalOutlier[all]
-19541 32             0-TotalOutlier[all]
-19541 33             0-TotalOutlier[all]
-19541 34             0-TotalOutlier[all]
-19541 35             0-TotalOutlier[all]
-19541 36             0-TotalOutlier[all]
-19541 37             0-TotalOutlier[all]
-19541 38             0-TotalOutlier[all]
-19541 39             0-TotalOutlier[all]
-19541 40             0-TotalOutlier[all]
-19541 41             0-TotalOutlier[all]
-19541 42             0-TotalOutlier[all]
-19541 43            2-MarginalOutlier[2]
-19541 44              0-TotalOutlier[45]      2-MarginalOutlier[1236]
-19541 45               0-TotalOutlier[5]     2-MarginalOutlier[12346]
-19541 46           2-MarginalOutlier[16]
-19541 47    |
-19541 48           2-MarginalOutlier[25]
-19541 49           2-MarginalOutlier[36]
-19541 50    |
-19541 51    |
-19541 52          2-MarginalOutlier[126]
-19541 53    |
-19541 54    |
-19541 55    |
-19541 56    |
-19541 57    |
-19541 58    |
-19541 59    |
-19541 60    |
-19541 61    |
-19541 62    |
-19541 63    |
-19541 64    |
-19541 65    |
-19541 66    |
-19541 67    |
-19541 68    |
-19541 69    |
-19541 70             0-TotalOutlier[all]
-19541 71             0-TotalOutlier[all]
-19541 72             0-TotalOutlier[all]
-19541 73             0-TotalOutlier[all]
-19541 74             0-TotalOutlier[all]
-19541 75             0-TotalOutlier[all]
-19541 76             0-TotalOutlier[all]
-19541 77             0-TotalOutlier[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-19541 78             0-TotalOutlier[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-19541 79          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19541 0     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19541 1     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::         2-MarginalOutlier[6]                  5-Misc[all]
+19541 2     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 3     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 4     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 5     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 6     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 7     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 8     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 9     :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 10    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 11    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 12    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 13    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 14    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19541 15    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::            0-TotalOutlier[4]                  5-Misc[all]
+19541 16    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 17    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19541 18    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19541 19    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 20    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19541 21    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19541 22    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 23    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 24    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 25    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 26    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 27    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 28    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 29    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 30    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 31    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 32    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 33    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 34    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 35    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 36    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 37    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 38    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 39    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 40    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 41    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 42    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 43    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::         2-MarginalOutlier[2]                  5-Misc[all]
+19541 44    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::           0-TotalOutlier[45]      2-MarginalOutlier[1236]                  5-Misc[all]
+19541 45    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::            0-TotalOutlier[5]     2-MarginalOutlier[12346]                  5-Misc[all]
+19541 46    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::        2-MarginalOutlier[16]                  5-Misc[all]
+19541 47    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 48    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::        2-MarginalOutlier[25]                  5-Misc[all]
+19541 49    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::        2-MarginalOutlier[36]                  5-Misc[all]
+19541 50    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 51    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 52    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::       2-MarginalOutlier[126]                  5-Misc[all]
+19541 53    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 54    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 55    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 56    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 57    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 58    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 59    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 60    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 61    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 62    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 63    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 64    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 65    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 66    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 67    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 68    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 69    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::                  5-Misc[all]
+19541 70    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 71    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 72    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 73    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 74    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 75    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 76    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]
+19541 77    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+19541 78    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::          0-TotalOutlier[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+19541 79    :: empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19543
 ----------------------------------------------------------------------------------
-19543 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19543 1            2-MarginalOutlier[23]
-19543 2               0-TotalOutlier[12]       2-MarginalOutlier[356]
-19543 3     |
-19543 4     |
-19543 5     |
-19543 6     |
-19543 7     |
-19543 8     |
-19543 9     |
-19543 10    |
-19543 11         2-MarginalOutlier[1236]
-19543 12    |
-19543 13    |
-19543 14    |
-19543 15    |
-19543 16    |
-19543 17    |
-19543 18    |
-19543 19    |
-19543 20    |
-19543 21    |
-19543 22    |
-19543 23    |
-19543 24    |
-19543 25    |
-19543 26    |
-19543 27    |
-19543 28    |
-19543 29    |
-19543 30    |
-19543 31    |
-19543 32    |
-19543 33            2-MarginalOutlier[2]
-19543 34             0-TotalOutlier[126]        2-MarginalOutlier[35]
-19543 35           2-MarginalOutlier[26]
-19543 36    |
-19543 37    |
-19543 38    |
-19543 39    |
-19543 40    |
-19543 41    |
-19543 42    |
-19543 43    |
-19543 44    |
-19543 45    |
-19543 46    |
-19543 47    |
-19543 48    |
-19543 49    |
-19543 50    |
-19543 51    |
-19543 52    |
-19543 53    |
-19543 54            2-MarginalOutlier[6]
-19543 55    |
-19543 56            2-MarginalOutlier[2]
-19543 57    |
-19543 58            2-MarginalOutlier[2]
-19543 59    |
-19543 60    |
-19543 61    |
-19543 62    |
-19543 63    |
-19543 64    |
-19543 65    |
-19543 66    |
-19543 67    |
-19543 68         2-MarginalOutlier[1235]
-19543 69    |
-19543 70    |
-19543 71    |
-19543 72    |
-19543 73    |
-19543 74    |
-19543 75    |
-19543 76    |
-19543 77    |
-19543 78    |
-19543 79         2-MarginalOutlier[1235]
-19543 80    |
-19543 81    |
-19543 82    |
-19543 83               0-TotalOutlier[1]       2-MarginalOutlier[256]
-19543 84    |
-19543 85    |
-19543 86    |
-19543 87    |
-19543 88    |
-19543 89    |
-19543 90    |
-19543 91    |
-19543 92    |
-19543 93            2-MarginalOutlier[6]
-19543 94    |
-19543 95    |
-19543 96    |
-19543 97    |
-19543 98    |
-19543 99    |
-19543 100   |
-19543 101   |
-19543 102   |
-19543 103   |
-19543 104   |
-19543 105   |
-19543 106   |
-19543 107   |
-19543 108   |
-19543 109   |
-19543 110   |
-19543 111   |
-19543 112   |
-19543 113   |
-19543 114   |
-19543 115   |
-19543 116   |
-19543 117   |
-19543 118   |
-19543 119   |
-19543 120   |
-19543 121   |
-19543 122   |
-19543 123   |
-19543 124   |
-19543 125   |
-19543 126   |
-19543 127   |
-19543 128   |
-19543 129   |
-19543 130   |
-19543 131   |
-19543 132   |
-19543 133   |
-19543 134   |
-19543 135   |
-19543 136   |
-19543 137   |
-19543 138   |
-19543 139   |
-19543 140   |
-19543 141            0-TotalOutlier[all]
-19543 142          2-MarginalOutlier[23]
-19543 143   |
-19543 144   |
-19543 145   |
-19543 146           2-MarginalOutlier[4]
-19543 147           2-MarginalOutlier[4]
-19543 148              0-TotalOutlier[4]       2-MarginalOutlier[123]
-19543 149              0-TotalOutlier[4]
-19543 150           2-MarginalOutlier[4]
-19543 151              0-TotalOutlier[4]        2-MarginalOutlier[35]
-19543 152            0-TotalOutlier[234]        2-MarginalOutlier[15]
-19543 153              0-TotalOutlier[4]         2-MarginalOutlier[2]
-19543 154              0-TotalOutlier[4]       2-MarginalOutlier[236]
-19543 155              0-TotalOutlier[4]
-19543 156              0-TotalOutlier[4]         2-MarginalOutlier[1]
-19543 157   |
-19543 158         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19543 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19543 1     :: empty target run ::        2-MarginalOutlier[23]                  5-Misc[all]
+19543 2     :: empty target run ::           0-TotalOutlier[12]       2-MarginalOutlier[356]                  5-Misc[all]
+19543 3     :: empty target run ::                  5-Misc[all]
+19543 4     :: empty target run ::                  5-Misc[all]
+19543 5     :: empty target run ::                  5-Misc[all]
+19543 6     :: empty target run ::                  5-Misc[all]
+19543 7     :: empty target run ::                  5-Misc[all]
+19543 8     :: empty target run ::                  5-Misc[all]
+19543 9     :: empty target run ::                  5-Misc[all]
+19543 10    :: empty target run ::                  5-Misc[all]
+19543 11    :: empty target run ::      2-MarginalOutlier[1236]                  5-Misc[all]
+19543 12    :: empty target run ::                  5-Misc[all]
+19543 13    :: empty target run ::                  5-Misc[all]
+19543 14    :: empty target run ::                  5-Misc[all]
+19543 15    :: empty target run ::                  5-Misc[all]
+19543 16    :: empty target run ::                  5-Misc[all]
+19543 17    :: empty target run ::                  5-Misc[all]
+19543 18    :: empty target run ::                  5-Misc[all]
+19543 19    :: empty target run ::                  5-Misc[all]
+19543 20    :: empty target run ::                  5-Misc[all]
+19543 21    :: empty target run ::                  5-Misc[all]
+19543 22    :: empty target run ::                  5-Misc[all]
+19543 23    :: empty target run ::                  5-Misc[all]
+19543 24    :: empty target run ::                  5-Misc[all]
+19543 25    :: empty target run ::                  5-Misc[all]
+19543 26    :: empty target run ::                  5-Misc[all]
+19543 27    :: empty target run ::                  5-Misc[all]
+19543 28    :: empty target run ::                  5-Misc[all]
+19543 29    :: empty target run ::                  5-Misc[all]
+19543 30    :: empty target run ::                  5-Misc[all]
+19543 31    :: empty target run ::                  5-Misc[all]
+19543 32    :: empty target run ::                  5-Misc[all]
+19543 33    :: empty target run ::         2-MarginalOutlier[2]                  5-Misc[all]
+19543 34    :: empty target run ::          0-TotalOutlier[126]        2-MarginalOutlier[35]                  5-Misc[all]
+19543 35    :: empty target run ::        2-MarginalOutlier[26]                  5-Misc[all]
+19543 36    :: empty target run ::                  5-Misc[all]
+19543 37    :: empty target run ::                  5-Misc[all]
+19543 38    :: empty target run ::                  5-Misc[all]
+19543 39    :: empty target run ::                  5-Misc[all]
+19543 40    :: empty target run ::                  5-Misc[all]
+19543 41    :: empty target run ::                  5-Misc[all]
+19543 42    :: empty target run ::                  5-Misc[all]
+19543 43    :: empty target run ::                  5-Misc[all]
+19543 44    :: empty target run ::                  5-Misc[all]
+19543 45    :: empty target run ::                  5-Misc[all]
+19543 46    :: empty target run ::                  5-Misc[all]
+19543 47    :: empty target run ::                  5-Misc[all]
+19543 48    :: empty target run ::                  5-Misc[all]
+19543 49    :: empty target run ::                  5-Misc[all]
+19543 50    :: empty target run ::                  5-Misc[all]
+19543 51    :: empty target run ::                  5-Misc[all]
+19543 52    :: empty target run ::                  5-Misc[all]
+19543 53    :: empty target run ::                  5-Misc[all]
+19543 54    :: empty target run ::         2-MarginalOutlier[6]                  5-Misc[all]
+19543 55    :: empty target run ::                  5-Misc[all]
+19543 56    :: empty target run ::         2-MarginalOutlier[2]                  5-Misc[all]
+19543 57    :: empty target run ::                  5-Misc[all]
+19543 58    :: empty target run ::         2-MarginalOutlier[2]                  5-Misc[all]
+19543 59    :: empty target run ::                  5-Misc[all]
+19543 60    :: empty target run ::                  5-Misc[all]
+19543 61    :: empty target run ::                  5-Misc[all]
+19543 62    :: empty target run ::                  5-Misc[all]
+19543 63    :: empty target run ::                  5-Misc[all]
+19543 64    :: empty target run ::                  5-Misc[all]
+19543 65    :: empty target run ::                  5-Misc[all]
+19543 66    :: empty target run ::                  5-Misc[all]
+19543 67    :: empty target run ::                  5-Misc[all]
+19543 68    :: empty target run ::      2-MarginalOutlier[1235]                  5-Misc[all]
+19543 69    :: empty target run ::                  5-Misc[all]
+19543 70    :: empty target run ::                  5-Misc[all]
+19543 71    :: empty target run ::                  5-Misc[all]
+19543 72    :: empty target run ::                  5-Misc[all]
+19543 73    :: empty target run ::                  5-Misc[all]
+19543 74    :: empty target run ::                  5-Misc[all]
+19543 75    :: empty target run ::                  5-Misc[all]
+19543 76    :: empty target run ::                  5-Misc[all]
+19543 77    :: empty target run ::                  5-Misc[all]
+19543 78    :: empty target run ::                  5-Misc[all]
+19543 79    :: empty target run ::      2-MarginalOutlier[1235]                  5-Misc[all]
+19543 80    :: empty target run ::                  5-Misc[all]
+19543 81    :: empty target run ::                  5-Misc[all]
+19543 82    :: empty target run ::                  5-Misc[all]
+19543 83    :: empty target run ::            0-TotalOutlier[1]       2-MarginalOutlier[256]                  5-Misc[all]
+19543 84    :: empty target run ::                  5-Misc[all]
+19543 85    :: empty target run ::                  5-Misc[all]
+19543 86    :: empty target run ::                  5-Misc[all]
+19543 87    :: empty target run ::                  5-Misc[all]
+19543 88    :: empty target run ::                  5-Misc[all]
+19543 89    :: empty target run ::                  5-Misc[all]
+19543 90    :: empty target run ::                  5-Misc[all]
+19543 91    :: empty target run ::                  5-Misc[all]
+19543 92    :: empty target run ::                  5-Misc[all]
+19543 93    :: empty target run ::         2-MarginalOutlier[6]                  5-Misc[all]
+19543 94    :: empty target run ::                  5-Misc[all]
+19543 95    :: empty target run ::                  5-Misc[all]
+19543 96    :: empty target run ::                  5-Misc[all]
+19543 97    :: empty target run ::                  5-Misc[all]
+19543 98    :: empty target run ::                  5-Misc[all]
+19543 99    :: empty target run ::                  5-Misc[all]
+19543 100   :: empty target run ::                  5-Misc[all]
+19543 101   :: empty target run ::                  5-Misc[all]
+19543 102   :: empty target run ::                  5-Misc[all]
+19543 103   :: empty target run ::                  5-Misc[all]
+19543 104   :: empty target run ::                  5-Misc[all]
+19543 105   :: empty target run ::                  5-Misc[all]
+19543 106   :: empty target run ::                  5-Misc[all]
+19543 107   :: empty target run ::                  5-Misc[all]
+19543 108   :: empty target run ::                  5-Misc[all]
+19543 109   :: empty target run ::                  5-Misc[all]
+19543 110   :: empty target run ::                  5-Misc[all]
+19543 111   :: empty target run ::                  5-Misc[all]
+19543 112   :: empty target run ::                  5-Misc[all]
+19543 113   :: empty target run ::                  5-Misc[all]
+19543 114   :: empty target run ::                  5-Misc[all]
+19543 115   :: empty target run ::                  5-Misc[all]
+19543 116   :: empty target run ::                  5-Misc[all]
+19543 117   :: empty target run ::                  5-Misc[all]
+19543 118   :: empty target run ::                  5-Misc[all]
+19543 119   :: empty target run ::                  5-Misc[all]
+19543 120   :: empty target run ::                  5-Misc[all]
+19543 121   :: empty target run ::                  5-Misc[all]
+19543 122   :: empty target run ::                  5-Misc[all]
+19543 123   :: empty target run ::                  5-Misc[all]
+19543 124   :: empty target run ::                  5-Misc[all]
+19543 125   :: empty target run ::                  5-Misc[all]
+19543 126   :: empty target run ::                  5-Misc[all]
+19543 127   :: empty target run ::                  5-Misc[all]
+19543 128   :: empty target run ::                  5-Misc[all]
+19543 129   :: empty target run ::                  5-Misc[all]
+19543 130   :: empty target run ::                  5-Misc[all]
+19543 131   :: empty target run ::                  5-Misc[all]
+19543 132   :: empty target run ::                  5-Misc[all]
+19543 133   :: empty target run ::                  5-Misc[all]
+19543 134   :: empty target run ::                  5-Misc[all]
+19543 135   :: empty target run ::                  5-Misc[all]
+19543 136   :: empty target run ::                  5-Misc[all]
+19543 137   :: empty target run ::                  5-Misc[all]
+19543 138   :: empty target run ::                  5-Misc[all]
+19543 139   :: empty target run ::                  5-Misc[all]
+19543 140   :: empty target run ::                  5-Misc[all]
+19543 141   :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]
+19543 142   :: empty target run ::        2-MarginalOutlier[23]                  5-Misc[all]
+19543 143   :: empty target run ::                  5-Misc[all]
+19543 144   :: empty target run ::                  5-Misc[all]
+19543 145   :: empty target run ::                  5-Misc[all]
+19543 146   :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19543 147   :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19543 148   :: empty target run ::            0-TotalOutlier[4]       2-MarginalOutlier[123]                  5-Misc[all]
+19543 149   :: empty target run ::            0-TotalOutlier[4]                  5-Misc[all]
+19543 150   :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19543 151   :: empty target run ::            0-TotalOutlier[4]        2-MarginalOutlier[35]                  5-Misc[all]
+19543 152   :: empty target run ::          0-TotalOutlier[234]        2-MarginalOutlier[15]                  5-Misc[all]
+19543 153   :: empty target run ::            0-TotalOutlier[4]         2-MarginalOutlier[2]                  5-Misc[all]
+19543 154   :: empty target run ::            0-TotalOutlier[4]       2-MarginalOutlier[236]                  5-Misc[all]
+19543 155   :: empty target run ::            0-TotalOutlier[4]                  5-Misc[all]
+19543 156   :: empty target run ::            0-TotalOutlier[4]         2-MarginalOutlier[1]                  5-Misc[all]
+19543 157   :: empty target run ::                  5-Misc[all]
+19543 158   :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19544
 ----------------------------------------------------------------------------------
-19544 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19544 1              0-TotalOutlier[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-19544 2              0-TotalOutlier[all]       19-PossiblyNoBeam[all]
-19544 3              0-TotalOutlier[all]
-19544 4          2-MarginalOutlier[1235]
-19544 5     |
-19544 6     |
-19544 7     |
-19544 8     |
-19544 9     |
-19544 10    |
-19544 11    |
-19544 12    |
-19544 13    |
-19544 14            2-MarginalOutlier[4]
-19544 15    |
-19544 16            2-MarginalOutlier[4]
-19544 17            2-MarginalOutlier[4]
-19544 18    |
-19544 19    |
-19544 20            2-MarginalOutlier[4]
-19544 21               0-TotalOutlier[4]
-19544 22    |
-19544 23    |
-19544 24    |
-19544 25    |
-19544 26    |
-19544 27    |
-19544 28    |
-19544 29    |
-19544 30            2-MarginalOutlier[4]
-19544 31    |
-19544 32    |
-19544 33            2-MarginalOutlier[4]
-19544 34            2-MarginalOutlier[4]
-19544 35    |
-19544 36    |
-19544 37    |
-19544 38    |
-19544 39    |
-19544 40    |
-19544 41    |
-19544 42    |
-19544 43             0-TotalOutlier[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-19544 44          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19544 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19544 1     :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+19544 2     :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]       19-PossiblyNoBeam[all]
+19544 3     :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]
+19544 4     :: empty target run ::      2-MarginalOutlier[1235]                  5-Misc[all]
+19544 5     :: empty target run ::                  5-Misc[all]
+19544 6     :: empty target run ::                  5-Misc[all]
+19544 7     :: empty target run ::                  5-Misc[all]
+19544 8     :: empty target run ::                  5-Misc[all]
+19544 9     :: empty target run ::                  5-Misc[all]
+19544 10    :: empty target run ::                  5-Misc[all]
+19544 11    :: empty target run ::                  5-Misc[all]
+19544 12    :: empty target run ::                  5-Misc[all]
+19544 13    :: empty target run ::                  5-Misc[all]
+19544 14    :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19544 15    :: empty target run ::                  5-Misc[all]
+19544 16    :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19544 17    :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19544 18    :: empty target run ::                  5-Misc[all]
+19544 19    :: empty target run ::                  5-Misc[all]
+19544 20    :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19544 21    :: empty target run ::            0-TotalOutlier[4]                  5-Misc[all]
+19544 22    :: empty target run ::                  5-Misc[all]
+19544 23    :: empty target run ::                  5-Misc[all]
+19544 24    :: empty target run ::                  5-Misc[all]
+19544 25    :: empty target run ::                  5-Misc[all]
+19544 26    :: empty target run ::                  5-Misc[all]
+19544 27    :: empty target run ::                  5-Misc[all]
+19544 28    :: empty target run ::                  5-Misc[all]
+19544 29    :: empty target run ::                  5-Misc[all]
+19544 30    :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19544 31    :: empty target run ::                  5-Misc[all]
+19544 32    :: empty target run ::                  5-Misc[all]
+19544 33    :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19544 34    :: empty target run ::         2-MarginalOutlier[4]                  5-Misc[all]
+19544 35    :: empty target run ::                  5-Misc[all]
+19544 36    :: empty target run ::                  5-Misc[all]
+19544 37    :: empty target run ::                  5-Misc[all]
+19544 38    :: empty target run ::                  5-Misc[all]
+19544 39    :: empty target run ::                  5-Misc[all]
+19544 40    :: empty target run ::                  5-Misc[all]
+19544 41    :: empty target run ::                  5-Misc[all]
+19544 42    :: empty target run ::                  5-Misc[all]
+19544 43    :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+19544 44    :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19545
 ----------------------------------------------------------------------------------
-19545 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19545 1              0-TotalOutlier[345]
-19545 2              0-TotalOutlier[345]
-19545 3              0-TotalOutlier[345]
-19545 4              0-TotalOutlier[345]
-19545 5              0-TotalOutlier[345]
-19545 6              0-TotalOutlier[345]
-19545 7              0-TotalOutlier[345]
-19545 8              0-TotalOutlier[345]
-19545 9              0-TotalOutlier[345]
-19545 10             0-TotalOutlier[345]
-19545 11             0-TotalOutlier[345]
-19545 12             0-TotalOutlier[345]
-19545 13             0-TotalOutlier[345]
-19545 14             0-TotalOutlier[345]
-19545 15             0-TotalOutlier[345]
-19545 16             0-TotalOutlier[345]
-19545 17          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19545 0     :: empty target run ::       1-TerminalOutlier[all]            3-SectorLoss[345]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19545 1     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 2     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 3     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 4     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 5     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 6     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 7     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 8     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 9     :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 10    :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 11    :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 12    :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 13    :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 14    :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 15    :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 16    :: empty target run ::          0-TotalOutlier[345]            3-SectorLoss[345]                  5-Misc[all]
+19545 17    :: empty target run ::       1-TerminalOutlier[all]            3-SectorLoss[345]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19546
 ----------------------------------------------------------------------------------
-19546 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19546 1     |
-19546 2     |
-19546 3     |
-19546 4     |
-19546 5     |
-19546 6     |
-19546 7     |
-19546 8     |
-19546 9     |
-19546 10    |
-19546 11    |
-19546 12    |
-19546 13    |
-19546 14    |
-19546 15    |
-19546 16    |
-19546 17    |
-19546 18    |
-19546 19    |
-19546 20    |
-19546 21    |
-19546 22    |
-19546 23    |
-19546 24    |
-19546 25    |
-19546 26    |
-19546 27    |
-19546 28    |
-19546 29    |
-19546 30    |
-19546 31    |
-19546 32    |
-19546 33    |
-19546 34    |
-19546 35    |
-19546 36    |
-19546 37    |
-19546 38    |
-19546 39    |
-19546 40    |
-19546 41    |
-19546 42    |
-19546 43           0-TotalOutlier[12346]         2-MarginalOutlier[5]
-19546 44               0-TotalOutlier[4]
-19546 45    |
-19546 46    |
-19546 47    |
-19546 48    |
-19546 49    |
-19546 50    |
-19546 51    |
-19546 52    |
-19546 53    |
-19546 54    |
-19546 55    |
-19546 56    |
-19546 57    |
-19546 58    |
-19546 59    |
-19546 60    |
-19546 61    |
-19546 62    |
-19546 63    |
-19546 64    |
-19546 65    |
-19546 66    |
-19546 67    |
-19546 68    |
-19546 69    |
-19546 70    |
-19546 71    |
-19546 72    |
-19546 73    |
-19546 74    |
-19546 75    |
-19546 76    |
-19546 77    |
-19546 78    |
-19546 79    |
-19546 80    |
-19546 81    |
-19546 82    |
-19546 83    |
-19546 84    |
-19546 85    |
-19546 86    |
-19546 87    |
-19546 88    |
-19546 89    |
-19546 90    |
-19546 91    |
-19546 92    |
-19546 93    |
-19546 94    |
-19546 95    |
-19546 96    |
-19546 97    |
-19546 98    |
-19546 99    |
-19546 100   |
-19546 101   |
-19546 102   |
-19546 103   |
-19546 104   |
-19546 105   |
-19546 106   |
-19546 107   |
-19546 108   |
-19546 109   |
-19546 110   |
-19546 111   |
-19546 112   |
-19546 113   |
-19546 114   |
-19546 115   |
-19546 116   |
-19546 117   |
-19546 118   |
-19546 119   |
-19546 120   |
-19546 121   |
-19546 122   |
-19546 123   |
-19546 124   |
-19546 125   |
-19546 126   |
-19546 127   |
-19546 128   |
-19546 129   |
-19546 130   |
-19546 131   |
-19546 132   |
-19546 133   |
-19546 134   |
-19546 135   |
-19546 136   |
-19546 137   |
-19546 138   |
-19546 139   |
-19546 140   |
-19546 141   |
-19546 142   |
-19546 143   |
-19546 144   |
-19546 145   |
-19546 146   |
-19546 147   |
-19546 148   |
-19546 149   |
-19546 150   |
-19546 151   |
-19546 152   |
-19546 153         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19546 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19546 1     :: empty target run ::                  5-Misc[all]
+19546 2     :: empty target run ::                  5-Misc[all]
+19546 3     :: empty target run ::                  5-Misc[all]
+19546 4     :: empty target run ::                  5-Misc[all]
+19546 5     :: empty target run ::                  5-Misc[all]
+19546 6     :: empty target run ::                  5-Misc[all]
+19546 7     :: empty target run ::                  5-Misc[all]
+19546 8     :: empty target run ::                  5-Misc[all]
+19546 9     :: empty target run ::                  5-Misc[all]
+19546 10    :: empty target run ::                  5-Misc[all]
+19546 11    :: empty target run ::                  5-Misc[all]
+19546 12    :: empty target run ::                  5-Misc[all]
+19546 13    :: empty target run ::                  5-Misc[all]
+19546 14    :: empty target run ::                  5-Misc[all]
+19546 15    :: empty target run ::                  5-Misc[all]
+19546 16    :: empty target run ::                  5-Misc[all]
+19546 17    :: empty target run ::                  5-Misc[all]
+19546 18    :: empty target run ::                  5-Misc[all]
+19546 19    :: empty target run ::                  5-Misc[all]
+19546 20    :: empty target run ::                  5-Misc[all]
+19546 21    :: empty target run ::                  5-Misc[all]
+19546 22    :: empty target run ::                  5-Misc[all]
+19546 23    :: empty target run ::                  5-Misc[all]
+19546 24    :: empty target run ::                  5-Misc[all]
+19546 25    :: empty target run ::                  5-Misc[all]
+19546 26    :: empty target run ::                  5-Misc[all]
+19546 27    :: empty target run ::                  5-Misc[all]
+19546 28    :: empty target run ::                  5-Misc[all]
+19546 29    :: empty target run ::                  5-Misc[all]
+19546 30    :: empty target run ::                  5-Misc[all]
+19546 31    :: empty target run ::                  5-Misc[all]
+19546 32    :: empty target run ::                  5-Misc[all]
+19546 33    :: empty target run ::                  5-Misc[all]
+19546 34    :: empty target run ::                  5-Misc[all]
+19546 35    :: empty target run ::                  5-Misc[all]
+19546 36    :: empty target run ::                  5-Misc[all]
+19546 37    :: empty target run ::                  5-Misc[all]
+19546 38    :: empty target run ::                  5-Misc[all]
+19546 39    :: empty target run ::                  5-Misc[all]
+19546 40    :: empty target run ::                  5-Misc[all]
+19546 41    :: empty target run ::                  5-Misc[all]
+19546 42    :: empty target run ::                  5-Misc[all]
+19546 43    :: empty target run ::        0-TotalOutlier[12346]         2-MarginalOutlier[5]                  5-Misc[all]
+19546 44    :: empty target run ::            0-TotalOutlier[4]                  5-Misc[all]
+19546 45    :: empty target run ::                  5-Misc[all]
+19546 46    :: empty target run ::                  5-Misc[all]
+19546 47    :: empty target run ::                  5-Misc[all]
+19546 48    :: empty target run ::                  5-Misc[all]
+19546 49    :: empty target run ::                  5-Misc[all]
+19546 50    :: empty target run ::                  5-Misc[all]
+19546 51    :: empty target run ::                  5-Misc[all]
+19546 52    :: empty target run ::                  5-Misc[all]
+19546 53    :: empty target run ::                  5-Misc[all]
+19546 54    :: empty target run ::                  5-Misc[all]
+19546 55    :: empty target run ::                  5-Misc[all]
+19546 56    :: empty target run ::                  5-Misc[all]
+19546 57    :: empty target run ::                  5-Misc[all]
+19546 58    :: empty target run ::                  5-Misc[all]
+19546 59    :: empty target run ::                  5-Misc[all]
+19546 60    :: empty target run ::                  5-Misc[all]
+19546 61    :: empty target run ::                  5-Misc[all]
+19546 62    :: empty target run ::                  5-Misc[all]
+19546 63    :: empty target run ::                  5-Misc[all]
+19546 64    :: empty target run ::                  5-Misc[all]
+19546 65    :: empty target run ::                  5-Misc[all]
+19546 66    :: empty target run ::                  5-Misc[all]
+19546 67    :: empty target run ::                  5-Misc[all]
+19546 68    :: empty target run ::                  5-Misc[all]
+19546 69    :: empty target run ::                  5-Misc[all]
+19546 70    :: empty target run ::                  5-Misc[all]
+19546 71    :: empty target run ::                  5-Misc[all]
+19546 72    :: empty target run ::                  5-Misc[all]
+19546 73    :: empty target run ::                  5-Misc[all]
+19546 74    :: empty target run ::                  5-Misc[all]
+19546 75    :: empty target run ::                  5-Misc[all]
+19546 76    :: empty target run ::                  5-Misc[all]
+19546 77    :: empty target run ::                  5-Misc[all]
+19546 78    :: empty target run ::                  5-Misc[all]
+19546 79    :: empty target run ::                  5-Misc[all]
+19546 80    :: empty target run ::                  5-Misc[all]
+19546 81    :: empty target run ::                  5-Misc[all]
+19546 82    :: empty target run ::                  5-Misc[all]
+19546 83    :: empty target run ::                  5-Misc[all]
+19546 84    :: empty target run ::                  5-Misc[all]
+19546 85    :: empty target run ::                  5-Misc[all]
+19546 86    :: empty target run ::                  5-Misc[all]
+19546 87    :: empty target run ::                  5-Misc[all]
+19546 88    :: empty target run ::                  5-Misc[all]
+19546 89    :: empty target run ::                  5-Misc[all]
+19546 90    :: empty target run ::                  5-Misc[all]
+19546 91    :: empty target run ::                  5-Misc[all]
+19546 92    :: empty target run ::                  5-Misc[all]
+19546 93    :: empty target run ::                  5-Misc[all]
+19546 94    :: empty target run ::                  5-Misc[all]
+19546 95    :: empty target run ::                  5-Misc[all]
+19546 96    :: empty target run ::                  5-Misc[all]
+19546 97    :: empty target run ::                  5-Misc[all]
+19546 98    :: empty target run ::                  5-Misc[all]
+19546 99    :: empty target run ::                  5-Misc[all]
+19546 100   :: empty target run ::                  5-Misc[all]
+19546 101   :: empty target run ::                  5-Misc[all]
+19546 102   :: empty target run ::                  5-Misc[all]
+19546 103   :: empty target run ::                  5-Misc[all]
+19546 104   :: empty target run ::                  5-Misc[all]
+19546 105   :: empty target run ::                  5-Misc[all]
+19546 106   :: empty target run ::                  5-Misc[all]
+19546 107   :: empty target run ::                  5-Misc[all]
+19546 108   :: empty target run ::                  5-Misc[all]
+19546 109   :: empty target run ::                  5-Misc[all]
+19546 110   :: empty target run ::                  5-Misc[all]
+19546 111   :: empty target run ::                  5-Misc[all]
+19546 112   :: empty target run ::                  5-Misc[all]
+19546 113   :: empty target run ::                  5-Misc[all]
+19546 114   :: empty target run ::                  5-Misc[all]
+19546 115   :: empty target run ::                  5-Misc[all]
+19546 116   :: empty target run ::                  5-Misc[all]
+19546 117   :: empty target run ::                  5-Misc[all]
+19546 118   :: empty target run ::                  5-Misc[all]
+19546 119   :: empty target run ::                  5-Misc[all]
+19546 120   :: empty target run ::                  5-Misc[all]
+19546 121   :: empty target run ::                  5-Misc[all]
+19546 122   :: empty target run ::                  5-Misc[all]
+19546 123   :: empty target run ::                  5-Misc[all]
+19546 124   :: empty target run ::                  5-Misc[all]
+19546 125   :: empty target run ::                  5-Misc[all]
+19546 126   :: empty target run ::                  5-Misc[all]
+19546 127   :: empty target run ::                  5-Misc[all]
+19546 128   :: empty target run ::                  5-Misc[all]
+19546 129   :: empty target run ::                  5-Misc[all]
+19546 130   :: empty target run ::                  5-Misc[all]
+19546 131   :: empty target run ::                  5-Misc[all]
+19546 132   :: empty target run ::                  5-Misc[all]
+19546 133   :: empty target run ::                  5-Misc[all]
+19546 134   :: empty target run ::                  5-Misc[all]
+19546 135   :: empty target run ::                  5-Misc[all]
+19546 136   :: empty target run ::                  5-Misc[all]
+19546 137   :: empty target run ::                  5-Misc[all]
+19546 138   :: empty target run ::                  5-Misc[all]
+19546 139   :: empty target run ::                  5-Misc[all]
+19546 140   :: empty target run ::                  5-Misc[all]
+19546 141   :: empty target run ::                  5-Misc[all]
+19546 142   :: empty target run ::                  5-Misc[all]
+19546 143   :: empty target run ::                  5-Misc[all]
+19546 144   :: empty target run ::                  5-Misc[all]
+19546 145   :: empty target run ::                  5-Misc[all]
+19546 146   :: empty target run ::                  5-Misc[all]
+19546 147   :: empty target run ::                  5-Misc[all]
+19546 148   :: empty target run ::                  5-Misc[all]
+19546 149   :: empty target run ::                  5-Misc[all]
+19546 150   :: empty target run ::                  5-Misc[all]
+19546 151   :: empty target run ::                  5-Misc[all]
+19546 152   :: empty target run ::                  5-Misc[all]
+19546 153   :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19547
 ----------------------------------------------------------------------------------
-19547 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19547 1     |
-19547 2     |
-19547 3     |
-19547 4     |
-19547 5     |
-19547 6     |
-19547 7     |
-19547 8     |
-19547 9     |
-19547 10    |
-19547 11    |
-19547 12    |
-19547 13    |
-19547 14    |
-19547 15    |
-19547 16    |
-19547 17    |
-19547 18    |
-19547 19    |
-19547 20    |
-19547 21    |
-19547 22    |
-19547 23    |
-19547 24    |
-19547 25    |
-19547 26    |
-19547 27    |
-19547 28    |
-19547 29    |
-19547 30    |
-19547 31    |
-19547 32    |
-19547 33    |
-19547 34    |
-19547 35    |
-19547 36    |
-19547 37    |
-19547 38    |
-19547 39    |
-19547 40    |
-19547 41    |
-19547 42    |
-19547 43    |
-19547 44    |
-19547 45    |
-19547 46    |
-19547 47    |
-19547 48    |
-19547 49    |
-19547 50    |
-19547 51    |
-19547 52    |
-19547 53    |
-19547 54    |
-19547 55          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19547 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19547 1     :: empty target run ::                  5-Misc[all]
+19547 2     :: empty target run ::                  5-Misc[all]
+19547 3     :: empty target run ::                  5-Misc[all]
+19547 4     :: empty target run ::                  5-Misc[all]
+19547 5     :: empty target run ::                  5-Misc[all]
+19547 6     :: empty target run ::                  5-Misc[all]
+19547 7     :: empty target run ::                  5-Misc[all]
+19547 8     :: empty target run ::                  5-Misc[all]
+19547 9     :: empty target run ::                  5-Misc[all]
+19547 10    :: empty target run ::                  5-Misc[all]
+19547 11    :: empty target run ::                  5-Misc[all]
+19547 12    :: empty target run ::                  5-Misc[all]
+19547 13    :: empty target run ::                  5-Misc[all]
+19547 14    :: empty target run ::                  5-Misc[all]
+19547 15    :: empty target run ::                  5-Misc[all]
+19547 16    :: empty target run ::                  5-Misc[all]
+19547 17    :: empty target run ::                  5-Misc[all]
+19547 18    :: empty target run ::                  5-Misc[all]
+19547 19    :: empty target run ::                  5-Misc[all]
+19547 20    :: empty target run ::                  5-Misc[all]
+19547 21    :: empty target run ::                  5-Misc[all]
+19547 22    :: empty target run ::                  5-Misc[all]
+19547 23    :: empty target run ::                  5-Misc[all]
+19547 24    :: empty target run ::                  5-Misc[all]
+19547 25    :: empty target run ::                  5-Misc[all]
+19547 26    :: empty target run ::                  5-Misc[all]
+19547 27    :: empty target run ::                  5-Misc[all]
+19547 28    :: empty target run ::                  5-Misc[all]
+19547 29    :: empty target run ::                  5-Misc[all]
+19547 30    :: empty target run ::                  5-Misc[all]
+19547 31    :: empty target run ::                  5-Misc[all]
+19547 32    :: empty target run ::                  5-Misc[all]
+19547 33    :: empty target run ::                  5-Misc[all]
+19547 34    :: empty target run ::                  5-Misc[all]
+19547 35    :: empty target run ::                  5-Misc[all]
+19547 36    :: empty target run ::                  5-Misc[all]
+19547 37    :: empty target run ::                  5-Misc[all]
+19547 38    :: empty target run ::                  5-Misc[all]
+19547 39    :: empty target run ::                  5-Misc[all]
+19547 40    :: empty target run ::                  5-Misc[all]
+19547 41    :: empty target run ::                  5-Misc[all]
+19547 42    :: empty target run ::                  5-Misc[all]
+19547 43    :: empty target run ::                  5-Misc[all]
+19547 44    :: empty target run ::                  5-Misc[all]
+19547 45    :: empty target run ::                  5-Misc[all]
+19547 46    :: empty target run ::                  5-Misc[all]
+19547 47    :: empty target run ::                  5-Misc[all]
+19547 48    :: empty target run ::                  5-Misc[all]
+19547 49    :: empty target run ::                  5-Misc[all]
+19547 50    :: empty target run ::                  5-Misc[all]
+19547 51    :: empty target run ::                  5-Misc[all]
+19547 52    :: empty target run ::                  5-Misc[all]
+19547 53    :: empty target run ::                  5-Misc[all]
+19547 54    :: empty target run ::                  5-Misc[all]
+19547 55    :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19548
 ----------------------------------------------------------------------------------
-19548 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19548 1     |
-19548 2     |
-19548 3     |
-19548 4     |
-19548 5     |
-19548 6     |
-19548 7     |
-19548 8     |
-19548 9     |
-19548 10    |
-19548 11    |
-19548 12    |
-19548 13    |
-19548 14    |
-19548 15    |
-19548 16    |
-19548 17    |
-19548 18    |
-19548 19    |
-19548 20    |
-19548 21    |
-19548 22    |
-19548 23    |
-19548 24    |
-19548 25    |
-19548 26    |
-19548 27    |
-19548 28    |
-19548 29    |
-19548 30    |
-19548 31    |
-19548 32    |
-19548 33    |
-19548 34    |
-19548 35    |
-19548 36    |
-19548 37    |
-19548 38    |
-19548 39    |
-19548 40    |
-19548 41    |
-19548 42    |
-19548 43    |
-19548 44    |
-19548 45    |
-19548 46    |
-19548 47    |
-19548 48    |
-19548 49    |
-19548 50    |
-19548 51    |
-19548 52    |
-19548 53    |
-19548 54    |
-19548 55    |
-19548 56    |
-19548 57    |
-19548 58    |
-19548 59    |
-19548 60    |
-19548 61    |
-19548 62    |
-19548 63    |
-19548 64    |
-19548 65    |
-19548 66    |
-19548 67    |
-19548 68    |
-19548 69    |
-19548 70    |
-19548 71    |
-19548 72    |
-19548 73    |
-19548 74    |
-19548 75    |
-19548 76    |
-19548 77    |
-19548 78    |
-19548 79    |
-19548 80    |
-19548 81    |
-19548 82    |
-19548 83    |
-19548 84    |
-19548 85    |
-19548 86    |
-19548 87    |
-19548 88    |
-19548 89    |
-19548 90    |
-19548 91    |
-19548 92    |
-19548 93    |
-19548 94    |
-19548 95    |
-19548 96    |
-19548 97    |
-19548 98    |
-19548 99    |
-19548 100   |
-19548 101   |
-19548 102   |
-19548 103   |
-19548 104   |
-19548 105   |
-19548 106   |
-19548 107   |
-19548 108   |
-19548 109   |
-19548 110   |
-19548 111   |
-19548 112   |
-19548 113   |
-19548 114   |
-19548 115   |
-19548 116   |
-19548 117   |
-19548 118   |
-19548 119   |
-19548 120   |
-19548 121   |
-19548 122   |
-19548 123   |
-19548 124   |
-19548 125   |
-19548 126   |
-19548 127   |
-19548 128   |
-19548 129   |
-19548 130   |
-19548 131   |
-19548 132   |
-19548 133           2-MarginalOutlier[1]
-19548 134   |
-19548 135   |
-19548 136   |
-19548 137   |
-19548 138   |
-19548 139   |
-19548 140   |
-19548 141   |
-19548 142   |
-19548 143   |
-19548 144   |
-19548 145   |
-19548 146   |
-19548 147   |
-19548 148   |
-19548 149   |
-19548 150   |
-19548 151   |
-19548 152   |
-19548 153   |
-19548 154   |
-19548 155   |
-19548 156   |
-19548 157   |
-19548 158           2-MarginalOutlier[6]
-19548 159         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19548 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19548 1     :: empty target run ::                  5-Misc[all]
+19548 2     :: empty target run ::                  5-Misc[all]
+19548 3     :: empty target run ::                  5-Misc[all]
+19548 4     :: empty target run ::                  5-Misc[all]
+19548 5     :: empty target run ::                  5-Misc[all]
+19548 6     :: empty target run ::                  5-Misc[all]
+19548 7     :: empty target run ::                  5-Misc[all]
+19548 8     :: empty target run ::                  5-Misc[all]
+19548 9     :: empty target run ::                  5-Misc[all]
+19548 10    :: empty target run ::                  5-Misc[all]
+19548 11    :: empty target run ::                  5-Misc[all]
+19548 12    :: empty target run ::                  5-Misc[all]
+19548 13    :: empty target run ::                  5-Misc[all]
+19548 14    :: empty target run ::                  5-Misc[all]
+19548 15    :: empty target run ::                  5-Misc[all]
+19548 16    :: empty target run ::                  5-Misc[all]
+19548 17    :: empty target run ::                  5-Misc[all]
+19548 18    :: empty target run ::                  5-Misc[all]
+19548 19    :: empty target run ::                  5-Misc[all]
+19548 20    :: empty target run ::                  5-Misc[all]
+19548 21    :: empty target run ::                  5-Misc[all]
+19548 22    :: empty target run ::                  5-Misc[all]
+19548 23    :: empty target run ::                  5-Misc[all]
+19548 24    :: empty target run ::                  5-Misc[all]
+19548 25    :: empty target run ::                  5-Misc[all]
+19548 26    :: empty target run ::                  5-Misc[all]
+19548 27    :: empty target run ::                  5-Misc[all]
+19548 28    :: empty target run ::                  5-Misc[all]
+19548 29    :: empty target run ::                  5-Misc[all]
+19548 30    :: empty target run ::                  5-Misc[all]
+19548 31    :: empty target run ::                  5-Misc[all]
+19548 32    :: empty target run ::                  5-Misc[all]
+19548 33    :: empty target run ::                  5-Misc[all]
+19548 34    :: empty target run ::                  5-Misc[all]
+19548 35    :: empty target run ::                  5-Misc[all]
+19548 36    :: empty target run ::                  5-Misc[all]
+19548 37    :: empty target run ::                  5-Misc[all]
+19548 38    :: empty target run ::                  5-Misc[all]
+19548 39    :: empty target run ::                  5-Misc[all]
+19548 40    :: empty target run ::                  5-Misc[all]
+19548 41    :: empty target run ::                  5-Misc[all]
+19548 42    :: empty target run ::                  5-Misc[all]
+19548 43    :: empty target run ::                  5-Misc[all]
+19548 44    :: empty target run ::                  5-Misc[all]
+19548 45    :: empty target run ::                  5-Misc[all]
+19548 46    :: empty target run ::                  5-Misc[all]
+19548 47    :: empty target run ::                  5-Misc[all]
+19548 48    :: empty target run ::                  5-Misc[all]
+19548 49    :: empty target run ::                  5-Misc[all]
+19548 50    :: empty target run ::                  5-Misc[all]
+19548 51    :: empty target run ::                  5-Misc[all]
+19548 52    :: empty target run ::                  5-Misc[all]
+19548 53    :: empty target run ::                  5-Misc[all]
+19548 54    :: empty target run ::                  5-Misc[all]
+19548 55    :: empty target run ::                  5-Misc[all]
+19548 56    :: empty target run ::                  5-Misc[all]
+19548 57    :: empty target run ::                  5-Misc[all]
+19548 58    :: empty target run ::                  5-Misc[all]
+19548 59    :: empty target run ::                  5-Misc[all]
+19548 60    :: empty target run ::                  5-Misc[all]
+19548 61    :: empty target run ::                  5-Misc[all]
+19548 62    :: empty target run ::                  5-Misc[all]
+19548 63    :: empty target run ::                  5-Misc[all]
+19548 64    :: empty target run ::                  5-Misc[all]
+19548 65    :: empty target run ::                  5-Misc[all]
+19548 66    :: empty target run ::                  5-Misc[all]
+19548 67    :: empty target run ::                  5-Misc[all]
+19548 68    :: empty target run ::                  5-Misc[all]
+19548 69    :: empty target run ::                  5-Misc[all]
+19548 70    :: empty target run ::                  5-Misc[all]
+19548 71    :: empty target run ::                  5-Misc[all]
+19548 72    :: empty target run ::                  5-Misc[all]
+19548 73    :: empty target run ::                  5-Misc[all]
+19548 74    :: empty target run ::                  5-Misc[all]
+19548 75    :: empty target run ::                  5-Misc[all]
+19548 76    :: empty target run ::                  5-Misc[all]
+19548 77    :: empty target run ::                  5-Misc[all]
+19548 78    :: empty target run ::                  5-Misc[all]
+19548 79    :: empty target run ::                  5-Misc[all]
+19548 80    :: empty target run ::                  5-Misc[all]
+19548 81    :: empty target run ::                  5-Misc[all]
+19548 82    :: empty target run ::                  5-Misc[all]
+19548 83    :: empty target run ::                  5-Misc[all]
+19548 84    :: empty target run ::                  5-Misc[all]
+19548 85    :: empty target run ::                  5-Misc[all]
+19548 86    :: empty target run ::                  5-Misc[all]
+19548 87    :: empty target run ::                  5-Misc[all]
+19548 88    :: empty target run ::                  5-Misc[all]
+19548 89    :: empty target run ::                  5-Misc[all]
+19548 90    :: empty target run ::                  5-Misc[all]
+19548 91    :: empty target run ::                  5-Misc[all]
+19548 92    :: empty target run ::                  5-Misc[all]
+19548 93    :: empty target run ::                  5-Misc[all]
+19548 94    :: empty target run ::                  5-Misc[all]
+19548 95    :: empty target run ::                  5-Misc[all]
+19548 96    :: empty target run ::                  5-Misc[all]
+19548 97    :: empty target run ::                  5-Misc[all]
+19548 98    :: empty target run ::                  5-Misc[all]
+19548 99    :: empty target run ::                  5-Misc[all]
+19548 100   :: empty target run ::                  5-Misc[all]
+19548 101   :: empty target run ::                  5-Misc[all]
+19548 102   :: empty target run ::                  5-Misc[all]
+19548 103   :: empty target run ::                  5-Misc[all]
+19548 104   :: empty target run ::                  5-Misc[all]
+19548 105   :: empty target run ::                  5-Misc[all]
+19548 106   :: empty target run ::                  5-Misc[all]
+19548 107   :: empty target run ::                  5-Misc[all]
+19548 108   :: empty target run ::                  5-Misc[all]
+19548 109   :: empty target run ::                  5-Misc[all]
+19548 110   :: empty target run ::                  5-Misc[all]
+19548 111   :: empty target run ::                  5-Misc[all]
+19548 112   :: empty target run ::                  5-Misc[all]
+19548 113   :: empty target run ::                  5-Misc[all]
+19548 114   :: empty target run ::                  5-Misc[all]
+19548 115   :: empty target run ::                  5-Misc[all]
+19548 116   :: empty target run ::                  5-Misc[all]
+19548 117   :: empty target run ::                  5-Misc[all]
+19548 118   :: empty target run ::                  5-Misc[all]
+19548 119   :: empty target run ::                  5-Misc[all]
+19548 120   :: empty target run ::                  5-Misc[all]
+19548 121   :: empty target run ::                  5-Misc[all]
+19548 122   :: empty target run ::                  5-Misc[all]
+19548 123   :: empty target run ::                  5-Misc[all]
+19548 124   :: empty target run ::                  5-Misc[all]
+19548 125   :: empty target run ::                  5-Misc[all]
+19548 126   :: empty target run ::                  5-Misc[all]
+19548 127   :: empty target run ::                  5-Misc[all]
+19548 128   :: empty target run ::                  5-Misc[all]
+19548 129   :: empty target run ::                  5-Misc[all]
+19548 130   :: empty target run ::                  5-Misc[all]
+19548 131   :: empty target run ::                  5-Misc[all]
+19548 132   :: empty target run ::                  5-Misc[all]
+19548 133   :: empty target run ::         2-MarginalOutlier[1]                  5-Misc[all]
+19548 134   :: empty target run ::                  5-Misc[all]
+19548 135   :: empty target run ::                  5-Misc[all]
+19548 136   :: empty target run ::                  5-Misc[all]
+19548 137   :: empty target run ::                  5-Misc[all]
+19548 138   :: empty target run ::                  5-Misc[all]
+19548 139   :: empty target run ::                  5-Misc[all]
+19548 140   :: empty target run ::                  5-Misc[all]
+19548 141   :: empty target run ::                  5-Misc[all]
+19548 142   :: empty target run ::                  5-Misc[all]
+19548 143   :: empty target run ::                  5-Misc[all]
+19548 144   :: empty target run ::                  5-Misc[all]
+19548 145   :: empty target run ::                  5-Misc[all]
+19548 146   :: empty target run ::                  5-Misc[all]
+19548 147   :: empty target run ::                  5-Misc[all]
+19548 148   :: empty target run ::                  5-Misc[all]
+19548 149   :: empty target run ::                  5-Misc[all]
+19548 150   :: empty target run ::                  5-Misc[all]
+19548 151   :: empty target run ::                  5-Misc[all]
+19548 152   :: empty target run ::                  5-Misc[all]
+19548 153   :: empty target run ::                  5-Misc[all]
+19548 154   :: empty target run ::                  5-Misc[all]
+19548 155   :: empty target run ::                  5-Misc[all]
+19548 156   :: empty target run ::                  5-Misc[all]
+19548 157   :: empty target run ::                  5-Misc[all]
+19548 158   :: empty target run ::         2-MarginalOutlier[6]                  5-Misc[all]
+19548 159   :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19549
 ----------------------------------------------------------------------------------
-19549 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19549 1     |
-19549 2     |
-19549 3     |
-19549 4     |
-19549 5     |
-19549 6     |
-19549 7     |
-19549 8     |
-19549 9     |
-19549 10    |
-19549 11    |
-19549 12    |
-19549 13    |
-19549 14    |
-19549 15    |
-19549 16    |
-19549 17    |
-19549 18    |
-19549 19    |
-19549 20    |
-19549 21    |
-19549 22    |
-19549 23    |
-19549 24    |
-19549 25    |
-19549 26    |
-19549 27    |
-19549 28    |
-19549 29    |
-19549 30    |
-19549 31    |
-19549 32    |
-19549 33    |
-19549 34    |
-19549 35    |
-19549 36    |
-19549 37    |
-19549 38    |
-19549 39    |
-19549 40    |
-19549 41    |
-19549 42    |
-19549 43    |
-19549 44    |
-19549 45    |
-19549 46    |
-19549 47    |
-19549 48    |
-19549 49    |
-19549 50    |
-19549 51    |
-19549 52    |
-19549 53    |
-19549 54    |
-19549 55    |
-19549 56    |
-19549 57    |
-19549 58    |
-19549 59    |
-19549 60    |
-19549 61    |
-19549 62    |
-19549 63    |
-19549 64    |
-19549 65    |
-19549 66    |
-19549 67    |
-19549 68    |
-19549 69    |
-19549 70    |
-19549 71    |
-19549 72    |
-19549 73    |
-19549 74    |
-19549 75    |
-19549 76    |
-19549 77    |
-19549 78              0-TotalOutlier[26]      2-MarginalOutlier[1345]
-19549 79             0-TotalOutlier[all]
-19549 80              0-TotalOutlier[45]      2-MarginalOutlier[1236]
-19549 81    |
-19549 82    |
-19549 83    |
-19549 84    |
-19549 85    |
-19549 86    |
-19549 87    |
-19549 88    |
-19549 89    |
-19549 90    |
-19549 91    |
-19549 92    |
-19549 93    |
-19549 94    |
-19549 95    |
-19549 96    |
-19549 97    |
-19549 98    |
-19549 99    |
-19549 100   |
-19549 101   |
-19549 102   |
-19549 103   |
-19549 104   |
-19549 105   |
-19549 106   |
-19549 107         2-MarginalOutlier[134]
-19549 108            0-TotalOutlier[all]
-19549 109            0-TotalOutlier[all]
-19549 110   |
-19549 111   |
-19549 112   |
-19549 113   |
-19549 114   |
-19549 115   |
-19549 116   |
-19549 117   |
-19549 118   |
-19549 119   |
-19549 120   |
-19549 121   |
-19549 122   |
-19549 123   |
-19549 124   |
-19549 125   |
-19549 126   |
-19549 127   |
-19549 128   |
-19549 129   |
-19549 130   |
-19549 131   |
-19549 132   |
-19549 133   |
-19549 134   |
-19549 135   |
-19549 136   |
-19549 137   |
-19549 138   |
-19549 139   |
-19549 140   |
-19549 141   |
-19549 142   |
-19549 143   |
-19549 144   |
-19549 145   |
-19549 146   |
-19549 147   |
-19549 148   |
-19549 149   |
-19549 150   |
-19549 151         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19549 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19549 1     :: empty target run ::                  5-Misc[all]
+19549 2     :: empty target run ::                  5-Misc[all]
+19549 3     :: empty target run ::                  5-Misc[all]
+19549 4     :: empty target run ::                  5-Misc[all]
+19549 5     :: empty target run ::                  5-Misc[all]
+19549 6     :: empty target run ::                  5-Misc[all]
+19549 7     :: empty target run ::                  5-Misc[all]
+19549 8     :: empty target run ::                  5-Misc[all]
+19549 9     :: empty target run ::                  5-Misc[all]
+19549 10    :: empty target run ::                  5-Misc[all]
+19549 11    :: empty target run ::                  5-Misc[all]
+19549 12    :: empty target run ::                  5-Misc[all]
+19549 13    :: empty target run ::                  5-Misc[all]
+19549 14    :: empty target run ::                  5-Misc[all]
+19549 15    :: empty target run ::                  5-Misc[all]
+19549 16    :: empty target run ::                  5-Misc[all]
+19549 17    :: empty target run ::                  5-Misc[all]
+19549 18    :: empty target run ::                  5-Misc[all]
+19549 19    :: empty target run ::                  5-Misc[all]
+19549 20    :: empty target run ::                  5-Misc[all]
+19549 21    :: empty target run ::                  5-Misc[all]
+19549 22    :: empty target run ::                  5-Misc[all]
+19549 23    :: empty target run ::                  5-Misc[all]
+19549 24    :: empty target run ::                  5-Misc[all]
+19549 25    :: empty target run ::                  5-Misc[all]
+19549 26    :: empty target run ::                  5-Misc[all]
+19549 27    :: empty target run ::                  5-Misc[all]
+19549 28    :: empty target run ::                  5-Misc[all]
+19549 29    :: empty target run ::                  5-Misc[all]
+19549 30    :: empty target run ::                  5-Misc[all]
+19549 31    :: empty target run ::                  5-Misc[all]
+19549 32    :: empty target run ::                  5-Misc[all]
+19549 33    :: empty target run ::                  5-Misc[all]
+19549 34    :: empty target run ::                  5-Misc[all]
+19549 35    :: empty target run ::                  5-Misc[all]
+19549 36    :: empty target run ::                  5-Misc[all]
+19549 37    :: empty target run ::                  5-Misc[all]
+19549 38    :: empty target run ::                  5-Misc[all]
+19549 39    :: empty target run ::                  5-Misc[all]
+19549 40    :: empty target run ::                  5-Misc[all]
+19549 41    :: empty target run ::                  5-Misc[all]
+19549 42    :: empty target run ::                  5-Misc[all]
+19549 43    :: empty target run ::                  5-Misc[all]
+19549 44    :: empty target run ::                  5-Misc[all]
+19549 45    :: empty target run ::                  5-Misc[all]
+19549 46    :: empty target run ::                  5-Misc[all]
+19549 47    :: empty target run ::                  5-Misc[all]
+19549 48    :: empty target run ::                  5-Misc[all]
+19549 49    :: empty target run ::                  5-Misc[all]
+19549 50    :: empty target run ::                  5-Misc[all]
+19549 51    :: empty target run ::                  5-Misc[all]
+19549 52    :: empty target run ::                  5-Misc[all]
+19549 53    :: empty target run ::                  5-Misc[all]
+19549 54    :: empty target run ::                  5-Misc[all]
+19549 55    :: empty target run ::                  5-Misc[all]
+19549 56    :: empty target run ::                  5-Misc[all]
+19549 57    :: empty target run ::                  5-Misc[all]
+19549 58    :: empty target run ::                  5-Misc[all]
+19549 59    :: empty target run ::                  5-Misc[all]
+19549 60    :: empty target run ::                  5-Misc[all]
+19549 61    :: empty target run ::                  5-Misc[all]
+19549 62    :: empty target run ::                  5-Misc[all]
+19549 63    :: empty target run ::                  5-Misc[all]
+19549 64    :: empty target run ::                  5-Misc[all]
+19549 65    :: empty target run ::                  5-Misc[all]
+19549 66    :: empty target run ::                  5-Misc[all]
+19549 67    :: empty target run ::                  5-Misc[all]
+19549 68    :: empty target run ::                  5-Misc[all]
+19549 69    :: empty target run ::                  5-Misc[all]
+19549 70    :: empty target run ::                  5-Misc[all]
+19549 71    :: empty target run ::                  5-Misc[all]
+19549 72    :: empty target run ::                  5-Misc[all]
+19549 73    :: empty target run ::                  5-Misc[all]
+19549 74    :: empty target run ::                  5-Misc[all]
+19549 75    :: empty target run ::                  5-Misc[all]
+19549 76    :: empty target run ::                  5-Misc[all]
+19549 77    :: empty target run ::                  5-Misc[all]
+19549 78    :: empty target run ::           0-TotalOutlier[26]      2-MarginalOutlier[1345]                  5-Misc[all]
+19549 79    :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]
+19549 80    :: empty target run ::           0-TotalOutlier[45]      2-MarginalOutlier[1236]                  5-Misc[all]
+19549 81    :: empty target run ::                  5-Misc[all]
+19549 82    :: empty target run ::                  5-Misc[all]
+19549 83    :: empty target run ::                  5-Misc[all]
+19549 84    :: empty target run ::                  5-Misc[all]
+19549 85    :: empty target run ::                  5-Misc[all]
+19549 86    :: empty target run ::                  5-Misc[all]
+19549 87    :: empty target run ::                  5-Misc[all]
+19549 88    :: empty target run ::                  5-Misc[all]
+19549 89    :: empty target run ::                  5-Misc[all]
+19549 90    :: empty target run ::                  5-Misc[all]
+19549 91    :: empty target run ::                  5-Misc[all]
+19549 92    :: empty target run ::                  5-Misc[all]
+19549 93    :: empty target run ::                  5-Misc[all]
+19549 94    :: empty target run ::                  5-Misc[all]
+19549 95    :: empty target run ::                  5-Misc[all]
+19549 96    :: empty target run ::                  5-Misc[all]
+19549 97    :: empty target run ::                  5-Misc[all]
+19549 98    :: empty target run ::                  5-Misc[all]
+19549 99    :: empty target run ::                  5-Misc[all]
+19549 100   :: empty target run ::                  5-Misc[all]
+19549 101   :: empty target run ::                  5-Misc[all]
+19549 102   :: empty target run ::                  5-Misc[all]
+19549 103   :: empty target run ::                  5-Misc[all]
+19549 104   :: empty target run ::                  5-Misc[all]
+19549 105   :: empty target run ::                  5-Misc[all]
+19549 106   :: empty target run ::                  5-Misc[all]
+19549 107   :: empty target run ::       2-MarginalOutlier[134]                  5-Misc[all]
+19549 108   :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]
+19549 109   :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]
+19549 110   :: empty target run ::                  5-Misc[all]
+19549 111   :: empty target run ::                  5-Misc[all]
+19549 112   :: empty target run ::                  5-Misc[all]
+19549 113   :: empty target run ::                  5-Misc[all]
+19549 114   :: empty target run ::                  5-Misc[all]
+19549 115   :: empty target run ::                  5-Misc[all]
+19549 116   :: empty target run ::                  5-Misc[all]
+19549 117   :: empty target run ::                  5-Misc[all]
+19549 118   :: empty target run ::                  5-Misc[all]
+19549 119   :: empty target run ::                  5-Misc[all]
+19549 120   :: empty target run ::                  5-Misc[all]
+19549 121   :: empty target run ::                  5-Misc[all]
+19549 122   :: empty target run ::                  5-Misc[all]
+19549 123   :: empty target run ::                  5-Misc[all]
+19549 124   :: empty target run ::                  5-Misc[all]
+19549 125   :: empty target run ::                  5-Misc[all]
+19549 126   :: empty target run ::                  5-Misc[all]
+19549 127   :: empty target run ::                  5-Misc[all]
+19549 128   :: empty target run ::                  5-Misc[all]
+19549 129   :: empty target run ::                  5-Misc[all]
+19549 130   :: empty target run ::                  5-Misc[all]
+19549 131   :: empty target run ::                  5-Misc[all]
+19549 132   :: empty target run ::                  5-Misc[all]
+19549 133   :: empty target run ::                  5-Misc[all]
+19549 134   :: empty target run ::                  5-Misc[all]
+19549 135   :: empty target run ::                  5-Misc[all]
+19549 136   :: empty target run ::                  5-Misc[all]
+19549 137   :: empty target run ::                  5-Misc[all]
+19549 138   :: empty target run ::                  5-Misc[all]
+19549 139   :: empty target run ::                  5-Misc[all]
+19549 140   :: empty target run ::                  5-Misc[all]
+19549 141   :: empty target run ::                  5-Misc[all]
+19549 142   :: empty target run ::                  5-Misc[all]
+19549 143   :: empty target run ::                  5-Misc[all]
+19549 144   :: empty target run ::                  5-Misc[all]
+19549 145   :: empty target run ::                  5-Misc[all]
+19549 146   :: empty target run ::                  5-Misc[all]
+19549 147   :: empty target run ::                  5-Misc[all]
+19549 148   :: empty target run ::                  5-Misc[all]
+19549 149   :: empty target run ::                  5-Misc[all]
+19549 150   :: empty target run ::                  5-Misc[all]
+19549 151   :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19550
 ----------------------------------------------------------------------------------
-19550 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19550 1     |
-19550 2     |
-19550 3     |
-19550 4     |
-19550 5     |
-19550 6     |
-19550 7     |
-19550 8     |
-19550 9     |
-19550 10    |
-19550 11    |
-19550 12    |
-19550 13    |
-19550 14    |
-19550 15    |
-19550 16    |
-19550 17    |
-19550 18    |
-19550 19    |
-19550 20    |
-19550 21    |
-19550 22    |
-19550 23    |
-19550 24    |
-19550 25    |
-19550 26    |
-19550 27    |
-19550 28    |
-19550 29    |
-19550 30    |
-19550 31    |
-19550 32    |
-19550 33    |
-19550 34    |
-19550 35    |
-19550 36    |
-19550 37    |
-19550 38    |
-19550 39    |
-19550 40    |
-19550 41    |
-19550 42    |
-19550 43    |
-19550 44    |
-19550 45    |
-19550 46    |
-19550 47    |
-19550 48    |
-19550 49    |
-19550 50    |
-19550 51    |
-19550 52    |
-19550 53    |
-19550 54    |
-19550 55    |
-19550 56    |
-19550 57    |
-19550 58    |
-19550 59    |
-19550 60    |
-19550 61    |
-19550 62    |
-19550 63    |
-19550 64    |
-19550 65    |
-19550 66    |
-19550 67    |
-19550 68    |
-19550 69    |
-19550 70    |
-19550 71    |
-19550 72    |
-19550 73    |
-19550 74    |
-19550 75    |
-19550 76    |
-19550 77    |
-19550 78    |
-19550 79    |
-19550 80    |
-19550 81    |
-19550 82    |
-19550 83    |
-19550 84    |
-19550 85    |
-19550 86    |
-19550 87    |
-19550 88    |
-19550 89    |
-19550 90    |
-19550 91    |
-19550 92    |
-19550 93    |
-19550 94    |
-19550 95    |
-19550 96    |
-19550 97    |
-19550 98    |
-19550 99    |
-19550 100   |
-19550 101   |
-19550 102   |
-19550 103   |
-19550 104   |
-19550 105   |
-19550 106   |
-19550 107   |
-19550 108         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19550 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19550 1     :: empty target run ::                  5-Misc[all]
+19550 2     :: empty target run ::                  5-Misc[all]
+19550 3     :: empty target run ::                  5-Misc[all]
+19550 4     :: empty target run ::                  5-Misc[all]
+19550 5     :: empty target run ::                  5-Misc[all]
+19550 6     :: empty target run ::                  5-Misc[all]
+19550 7     :: empty target run ::                  5-Misc[all]
+19550 8     :: empty target run ::                  5-Misc[all]
+19550 9     :: empty target run ::                  5-Misc[all]
+19550 10    :: empty target run ::                  5-Misc[all]
+19550 11    :: empty target run ::                  5-Misc[all]
+19550 12    :: empty target run ::                  5-Misc[all]
+19550 13    :: empty target run ::                  5-Misc[all]
+19550 14    :: empty target run ::                  5-Misc[all]
+19550 15    :: empty target run ::                  5-Misc[all]
+19550 16    :: empty target run ::                  5-Misc[all]
+19550 17    :: empty target run ::                  5-Misc[all]
+19550 18    :: empty target run ::                  5-Misc[all]
+19550 19    :: empty target run ::                  5-Misc[all]
+19550 20    :: empty target run ::                  5-Misc[all]
+19550 21    :: empty target run ::                  5-Misc[all]
+19550 22    :: empty target run ::                  5-Misc[all]
+19550 23    :: empty target run ::                  5-Misc[all]
+19550 24    :: empty target run ::                  5-Misc[all]
+19550 25    :: empty target run ::                  5-Misc[all]
+19550 26    :: empty target run ::                  5-Misc[all]
+19550 27    :: empty target run ::                  5-Misc[all]
+19550 28    :: empty target run ::                  5-Misc[all]
+19550 29    :: empty target run ::                  5-Misc[all]
+19550 30    :: empty target run ::                  5-Misc[all]
+19550 31    :: empty target run ::                  5-Misc[all]
+19550 32    :: empty target run ::                  5-Misc[all]
+19550 33    :: empty target run ::                  5-Misc[all]
+19550 34    :: empty target run ::                  5-Misc[all]
+19550 35    :: empty target run ::                  5-Misc[all]
+19550 36    :: empty target run ::                  5-Misc[all]
+19550 37    :: empty target run ::                  5-Misc[all]
+19550 38    :: empty target run ::                  5-Misc[all]
+19550 39    :: empty target run ::                  5-Misc[all]
+19550 40    :: empty target run ::                  5-Misc[all]
+19550 41    :: empty target run ::                  5-Misc[all]
+19550 42    :: empty target run ::                  5-Misc[all]
+19550 43    :: empty target run ::                  5-Misc[all]
+19550 44    :: empty target run ::                  5-Misc[all]
+19550 45    :: empty target run ::                  5-Misc[all]
+19550 46    :: empty target run ::                  5-Misc[all]
+19550 47    :: empty target run ::                  5-Misc[all]
+19550 48    :: empty target run ::                  5-Misc[all]
+19550 49    :: empty target run ::                  5-Misc[all]
+19550 50    :: empty target run ::                  5-Misc[all]
+19550 51    :: empty target run ::                  5-Misc[all]
+19550 52    :: empty target run ::                  5-Misc[all]
+19550 53    :: empty target run ::                  5-Misc[all]
+19550 54    :: empty target run ::                  5-Misc[all]
+19550 55    :: empty target run ::                  5-Misc[all]
+19550 56    :: empty target run ::                  5-Misc[all]
+19550 57    :: empty target run ::                  5-Misc[all]
+19550 58    :: empty target run ::                  5-Misc[all]
+19550 59    :: empty target run ::                  5-Misc[all]
+19550 60    :: empty target run ::                  5-Misc[all]
+19550 61    :: empty target run ::                  5-Misc[all]
+19550 62    :: empty target run ::                  5-Misc[all]
+19550 63    :: empty target run ::                  5-Misc[all]
+19550 64    :: empty target run ::                  5-Misc[all]
+19550 65    :: empty target run ::                  5-Misc[all]
+19550 66    :: empty target run ::                  5-Misc[all]
+19550 67    :: empty target run ::                  5-Misc[all]
+19550 68    :: empty target run ::                  5-Misc[all]
+19550 69    :: empty target run ::                  5-Misc[all]
+19550 70    :: empty target run ::                  5-Misc[all]
+19550 71    :: empty target run ::                  5-Misc[all]
+19550 72    :: empty target run ::                  5-Misc[all]
+19550 73    :: empty target run ::                  5-Misc[all]
+19550 74    :: empty target run ::                  5-Misc[all]
+19550 75    :: empty target run ::                  5-Misc[all]
+19550 76    :: empty target run ::                  5-Misc[all]
+19550 77    :: empty target run ::                  5-Misc[all]
+19550 78    :: empty target run ::                  5-Misc[all]
+19550 79    :: empty target run ::                  5-Misc[all]
+19550 80    :: empty target run ::                  5-Misc[all]
+19550 81    :: empty target run ::                  5-Misc[all]
+19550 82    :: empty target run ::                  5-Misc[all]
+19550 83    :: empty target run ::                  5-Misc[all]
+19550 84    :: empty target run ::                  5-Misc[all]
+19550 85    :: empty target run ::                  5-Misc[all]
+19550 86    :: empty target run ::                  5-Misc[all]
+19550 87    :: empty target run ::                  5-Misc[all]
+19550 88    :: empty target run ::                  5-Misc[all]
+19550 89    :: empty target run ::                  5-Misc[all]
+19550 90    :: empty target run ::                  5-Misc[all]
+19550 91    :: empty target run ::                  5-Misc[all]
+19550 92    :: empty target run ::                  5-Misc[all]
+19550 93    :: empty target run ::                  5-Misc[all]
+19550 94    :: empty target run ::                  5-Misc[all]
+19550 95    :: empty target run ::                  5-Misc[all]
+19550 96    :: empty target run ::                  5-Misc[all]
+19550 97    :: empty target run ::                  5-Misc[all]
+19550 98    :: empty target run ::                  5-Misc[all]
+19550 99    :: empty target run ::                  5-Misc[all]
+19550 100   :: empty target run ::                  5-Misc[all]
+19550 101   :: empty target run ::                  5-Misc[all]
+19550 102   :: empty target run ::                  5-Misc[all]
+19550 103   :: empty target run ::                  5-Misc[all]
+19550 104   :: empty target run ::                  5-Misc[all]
+19550 105   :: empty target run ::                  5-Misc[all]
+19550 106   :: empty target run ::                  5-Misc[all]
+19550 107   :: empty target run ::                  5-Misc[all]
+19550 108   :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19551
