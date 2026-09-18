@@ -20463,10 +20463,10 @@ RUN: 19553
 19553 26    |
 19553 27    |
 19553 28    |
-19553 29               0-TotalOutlier[6]
-19553 30               0-TotalOutlier[6]
-19553 31               0-TotalOutlier[6]
-19553 32          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19553 29               0-TotalOutlier[6]              3-SectorLoss[6]
+19553 30               0-TotalOutlier[6]              3-SectorLoss[6]
+19553 31               0-TotalOutlier[6]              3-SectorLoss[6]
+19553 32          1-TerminalOutlier[all]              3-SectorLoss[6]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19554
@@ -21448,39 +21448,39 @@ RUN: 19558
 ==================================================================================
 RUN: 19559
 ----------------------------------------------------------------------------------
-19559 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19559 1               4-LowLiveTime[all]
-19559 2               4-LowLiveTime[all]
-19559 3               4-LowLiveTime[all]
-19559 4               4-LowLiveTime[all]
-19559 5               4-LowLiveTime[all]
-19559 6               4-LowLiveTime[all]
-19559 7               4-LowLiveTime[all]
-19559 8     |
-19559 9     |
-19559 10    |
-19559 11    |
-19559 12    |
-19559 13    |
-19559 14    |
-19559 15    |
-19559 16    |
-19559 17    |
-19559 18    |
-19559 19          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19559 0     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19559 1     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19559 2     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19559 3     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19559 4     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19559 5     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19559 6     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19559 7     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::           4-LowLiveTime[all]                  5-Misc[all]
+19559 8     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 9     :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 10    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 11    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 12    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 13    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 14    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 15    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 16    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 17    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 18    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::                  5-Misc[all]
+19559 19    :: HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19561
 ----------------------------------------------------------------------------------
-19561 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19561 1               4-LowLiveTime[all]
-19561 2               4-LowLiveTime[all]
-19561 3               4-LowLiveTime[all]
-19561 4               4-LowLiveTime[all]
-19561 5               4-LowLiveTime[all]
-19561 6     |
-19561 7             2-MarginalOutlier[5]
-19561 8           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19561 0     :: HVFTOF2 board 9 issue ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19561 1     :: HVFTOF2 board 9 issue ::           4-LowLiveTime[all]                  5-Misc[all]
+19561 2     :: HVFTOF2 board 9 issue ::           4-LowLiveTime[all]                  5-Misc[all]
+19561 3     :: HVFTOF2 board 9 issue ::           4-LowLiveTime[all]                  5-Misc[all]
+19561 4     :: HVFTOF2 board 9 issue ::           4-LowLiveTime[all]                  5-Misc[all]
+19561 5     :: HVFTOF2 board 9 issue ::           4-LowLiveTime[all]                  5-Misc[all]
+19561 6     :: HVFTOF2 board 9 issue ::                  5-Misc[all]
+19561 7     :: HVFTOF2 board 9 issue ::         2-MarginalOutlier[5]                  5-Misc[all]
+19561 8     :: HVFTOF2 board 9 issue ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19562
@@ -24296,15 +24296,15 @@ RUN: 19583
 ==================================================================================
 RUN: 19584
 ----------------------------------------------------------------------------------
-19584 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19584 1                0-TotalOutlier[3]
-19584 2                0-TotalOutlier[3]
-19584 3                0-TotalOutlier[3]
-19584 4                0-TotalOutlier[3]
-19584 5                0-TotalOutlier[3]
-19584 6                0-TotalOutlier[3]
-19584 7                0-TotalOutlier[3]
-19584 8           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19584 0           1-TerminalOutlier[all]              3-SectorLoss[3]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19584 1                0-TotalOutlier[3]              3-SectorLoss[3]
+19584 2                0-TotalOutlier[3]              3-SectorLoss[3]
+19584 3                0-TotalOutlier[3]              3-SectorLoss[3]
+19584 4                0-TotalOutlier[3]              3-SectorLoss[3]
+19584 5                0-TotalOutlier[3]              3-SectorLoss[3]
+19584 6                0-TotalOutlier[3]              3-SectorLoss[3]
+19584 7                0-TotalOutlier[3]              3-SectorLoss[3]
+19584 8           1-TerminalOutlier[all]              3-SectorLoss[3]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19585
@@ -25966,33 +25966,33 @@ RUN: 19598
 ==================================================================================
 RUN: 19599
 ----------------------------------------------------------------------------------
-19599 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19599 1                0-TotalOutlier[5]
-19599 2                0-TotalOutlier[5]
-19599 3                0-TotalOutlier[5]
-19599 4                0-TotalOutlier[5]
-19599 5                0-TotalOutlier[5]
-19599 6                0-TotalOutlier[5]
-19599 7                0-TotalOutlier[5]
-19599 8                0-TotalOutlier[5]
-19599 9                0-TotalOutlier[5]
-19599 10               0-TotalOutlier[5]
-19599 11               0-TotalOutlier[5]
-19599 12               0-TotalOutlier[5]
-19599 13               0-TotalOutlier[5]
-19599 14               0-TotalOutlier[5]
-19599 15               0-TotalOutlier[5]
-19599 16               0-TotalOutlier[5]
-19599 17               0-TotalOutlier[5]
-19599 18               0-TotalOutlier[5]
-19599 19               0-TotalOutlier[5]
-19599 20               0-TotalOutlier[5]
-19599 21               0-TotalOutlier[5]
-19599 22               0-TotalOutlier[5]
-19599 23               0-TotalOutlier[5]
-19599 24               0-TotalOutlier[5]
-19599 25               0-TotalOutlier[5]        2-MarginalOutlier[34]
-19599 26          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19599 0           1-TerminalOutlier[all]              3-SectorLoss[5]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19599 1                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 2                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 3                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 4                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 5                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 6                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 7                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 8                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 9                0-TotalOutlier[5]              3-SectorLoss[5]
+19599 10               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 11               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 12               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 13               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 14               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 15               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 16               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 17               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 18               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 19               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 20               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 21               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 22               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 23               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 24               0-TotalOutlier[5]              3-SectorLoss[5]
+19599 25               0-TotalOutlier[5]        2-MarginalOutlier[34]              3-SectorLoss[5]
+19599 26          1-TerminalOutlier[all]              3-SectorLoss[5]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19600
@@ -26076,644 +26076,644 @@ RUN: 19600
 ==================================================================================
 RUN: 19601
 ----------------------------------------------------------------------------------
-19601 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19601 1     |
-19601 2     |
-19601 3     |
-19601 4     |
-19601 5     |
-19601 6     |
-19601 7     |
-19601 8     |
-19601 9     |
-19601 10    |
-19601 11    |
-19601 12           2-MarginalOutlier[56]
-19601 13    |
-19601 14    |
-19601 15    |
-19601 16    |
-19601 17    |
-19601 18    |
-19601 19    |
-19601 20    |
-19601 21    |
-19601 22    |
-19601 23    |
-19601 24    |
-19601 25    |
-19601 26    |
-19601 27    |
-19601 28    |
-19601 29    |
-19601 30    |
-19601 31    |
-19601 32    |
-19601 33    |
-19601 34    |
-19601 35    |
-19601 36    |
-19601 37    |
-19601 38    |
-19601 39    |
-19601 40    |
-19601 41    |
-19601 42    |
-19601 43    |
-19601 44           2-MarginalOutlier[45]
-19601 45    |
-19601 46    |
-19601 47    |
-19601 48    |
-19601 49    |
-19601 50    |
-19601 51           2-MarginalOutlier[15]
-19601 52            2-MarginalOutlier[4]
-19601 53           2-MarginalOutlier[45]
-19601 54    |
-19601 55    |
-19601 56    |
-19601 57    |
-19601 58    |
-19601 59    |
-19601 60    |
-19601 61    |
-19601 62    |
-19601 63    |
-19601 64           2-MarginalOutlier[13]
-19601 65    |
-19601 66    |
-19601 67            2-MarginalOutlier[3]
-19601 68    |
-19601 69    |
-19601 70    |
-19601 71    |
-19601 72            2-MarginalOutlier[1]
-19601 73    |
-19601 74    |
-19601 75    |
-19601 76    |
-19601 77    |
-19601 78    |
-19601 79    |
-19601 80    |
-19601 81    |
-19601 82            2-MarginalOutlier[4]
-19601 83    |
-19601 84    |
-19601 85    |
-19601 86    |
-19601 87    |
-19601 88    |
-19601 89    |
-19601 90    |
-19601 91             0-TotalOutlier[all]
-19601 92    |
-19601 93    |
-19601 94    |
-19601 95    |
-19601 96            2-MarginalOutlier[3]
-19601 97    |
-19601 98    |
-19601 99            2-MarginalOutlier[5]
-19601 100   |
-19601 101   |
-19601 102   |
-19601 103   |
-19601 104   |
-19601 105   |
-19601 106   |
-19601 107   |
-19601 108           2-MarginalOutlier[4]
-19601 109            0-TotalOutlier[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
-19601 110        2-MarginalOutlier[3456]
-19601 111         2-MarginalOutlier[456]
-19601 112           2-MarginalOutlier[6]
-19601 113         2-MarginalOutlier[all]
-19601 114       2-MarginalOutlier[13456]
-19601 115   |
-19601 116   |
-19601 117   |
-19601 118   |
-19601 119   |
-19601 120   |
-19601 121   |
-19601 122   |
-19601 123   |
-19601 124   |
-19601 125   |
-19601 126   |
-19601 127   |
-19601 128   |
-19601 129   |
-19601 130   |
-19601 131   |
-19601 132   |
-19601 133   |
-19601 134   |
-19601 135   |
-19601 136   |
-19601 137   |
-19601 138   |
-19601 139   |
-19601 140   |
-19601 141   |
-19601 142   |
-19601 143   |
-19601 144   |
-19601 145   |
-19601 146   |
-19601 147   |
-19601 148   |
-19601 149   |
-19601 150   |
-19601 151           2-MarginalOutlier[3]
-19601 152   |
-19601 153   |
-19601 154   |
-19601 155   |
-19601 156   |
-19601 157   |
-19601 158   |
-19601 159   |
-19601 160       2-MarginalOutlier[23456]
-19601 161         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19601 0     :: no RICH ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19601 1     :: no RICH ::                  5-Misc[all]
+19601 2     :: no RICH ::                  5-Misc[all]
+19601 3     :: no RICH ::                  5-Misc[all]
+19601 4     :: no RICH ::                  5-Misc[all]
+19601 5     :: no RICH ::                  5-Misc[all]
+19601 6     :: no RICH ::                  5-Misc[all]
+19601 7     :: no RICH ::                  5-Misc[all]
+19601 8     :: no RICH ::                  5-Misc[all]
+19601 9     :: no RICH ::                  5-Misc[all]
+19601 10    :: no RICH ::                  5-Misc[all]
+19601 11    :: no RICH ::                  5-Misc[all]
+19601 12    :: no RICH ::        2-MarginalOutlier[56]                  5-Misc[all]
+19601 13    :: no RICH ::                  5-Misc[all]
+19601 14    :: no RICH ::                  5-Misc[all]
+19601 15    :: no RICH ::                  5-Misc[all]
+19601 16    :: no RICH ::                  5-Misc[all]
+19601 17    :: no RICH ::                  5-Misc[all]
+19601 18    :: no RICH ::                  5-Misc[all]
+19601 19    :: no RICH ::                  5-Misc[all]
+19601 20    :: no RICH ::                  5-Misc[all]
+19601 21    :: no RICH ::                  5-Misc[all]
+19601 22    :: no RICH ::                  5-Misc[all]
+19601 23    :: no RICH ::                  5-Misc[all]
+19601 24    :: no RICH ::                  5-Misc[all]
+19601 25    :: no RICH ::                  5-Misc[all]
+19601 26    :: no RICH ::                  5-Misc[all]
+19601 27    :: no RICH ::                  5-Misc[all]
+19601 28    :: no RICH ::                  5-Misc[all]
+19601 29    :: no RICH ::                  5-Misc[all]
+19601 30    :: no RICH ::                  5-Misc[all]
+19601 31    :: no RICH ::                  5-Misc[all]
+19601 32    :: no RICH ::                  5-Misc[all]
+19601 33    :: no RICH ::                  5-Misc[all]
+19601 34    :: no RICH ::                  5-Misc[all]
+19601 35    :: no RICH ::                  5-Misc[all]
+19601 36    :: no RICH ::                  5-Misc[all]
+19601 37    :: no RICH ::                  5-Misc[all]
+19601 38    :: no RICH ::                  5-Misc[all]
+19601 39    :: no RICH ::                  5-Misc[all]
+19601 40    :: no RICH ::                  5-Misc[all]
+19601 41    :: no RICH ::                  5-Misc[all]
+19601 42    :: no RICH ::                  5-Misc[all]
+19601 43    :: no RICH ::                  5-Misc[all]
+19601 44    :: no RICH ::        2-MarginalOutlier[45]                  5-Misc[all]
+19601 45    :: no RICH ::                  5-Misc[all]
+19601 46    :: no RICH ::                  5-Misc[all]
+19601 47    :: no RICH ::                  5-Misc[all]
+19601 48    :: no RICH ::                  5-Misc[all]
+19601 49    :: no RICH ::                  5-Misc[all]
+19601 50    :: no RICH ::                  5-Misc[all]
+19601 51    :: no RICH ::        2-MarginalOutlier[15]                  5-Misc[all]
+19601 52    :: no RICH ::         2-MarginalOutlier[4]                  5-Misc[all]
+19601 53    :: no RICH ::        2-MarginalOutlier[45]                  5-Misc[all]
+19601 54    :: no RICH ::                  5-Misc[all]
+19601 55    :: no RICH ::                  5-Misc[all]
+19601 56    :: no RICH ::                  5-Misc[all]
+19601 57    :: no RICH ::                  5-Misc[all]
+19601 58    :: no RICH ::                  5-Misc[all]
+19601 59    :: no RICH ::                  5-Misc[all]
+19601 60    :: no RICH ::                  5-Misc[all]
+19601 61    :: no RICH ::                  5-Misc[all]
+19601 62    :: no RICH ::                  5-Misc[all]
+19601 63    :: no RICH ::                  5-Misc[all]
+19601 64    :: no RICH ::        2-MarginalOutlier[13]                  5-Misc[all]
+19601 65    :: no RICH ::                  5-Misc[all]
+19601 66    :: no RICH ::                  5-Misc[all]
+19601 67    :: no RICH ::         2-MarginalOutlier[3]                  5-Misc[all]
+19601 68    :: no RICH ::                  5-Misc[all]
+19601 69    :: no RICH ::                  5-Misc[all]
+19601 70    :: no RICH ::                  5-Misc[all]
+19601 71    :: no RICH ::                  5-Misc[all]
+19601 72    :: no RICH ::         2-MarginalOutlier[1]                  5-Misc[all]
+19601 73    :: no RICH ::                  5-Misc[all]
+19601 74    :: no RICH ::                  5-Misc[all]
+19601 75    :: no RICH ::                  5-Misc[all]
+19601 76    :: no RICH ::                  5-Misc[all]
+19601 77    :: no RICH ::                  5-Misc[all]
+19601 78    :: no RICH ::                  5-Misc[all]
+19601 79    :: no RICH ::                  5-Misc[all]
+19601 80    :: no RICH ::                  5-Misc[all]
+19601 81    :: no RICH ::                  5-Misc[all]
+19601 82    :: no RICH ::         2-MarginalOutlier[4]                  5-Misc[all]
+19601 83    :: no RICH ::                  5-Misc[all]
+19601 84    :: no RICH ::                  5-Misc[all]
+19601 85    :: no RICH ::                  5-Misc[all]
+19601 86    :: no RICH ::                  5-Misc[all]
+19601 87    :: no RICH ::                  5-Misc[all]
+19601 88    :: no RICH ::                  5-Misc[all]
+19601 89    :: no RICH ::                  5-Misc[all]
+19601 90    :: no RICH ::                  5-Misc[all]
+19601 91    :: no RICH ::          0-TotalOutlier[all]                  5-Misc[all]
+19601 92    :: no RICH ::                  5-Misc[all]
+19601 93    :: no RICH ::                  5-Misc[all]
+19601 94    :: no RICH ::                  5-Misc[all]
+19601 95    :: no RICH ::                  5-Misc[all]
+19601 96    :: no RICH ::         2-MarginalOutlier[3]                  5-Misc[all]
+19601 97    :: no RICH ::                  5-Misc[all]
+19601 98    :: no RICH ::                  5-Misc[all]
+19601 99    :: no RICH ::         2-MarginalOutlier[5]                  5-Misc[all]
+19601 100   :: no RICH ::                  5-Misc[all]
+19601 101   :: no RICH ::                  5-Misc[all]
+19601 102   :: no RICH ::                  5-Misc[all]
+19601 103   :: no RICH ::                  5-Misc[all]
+19601 104   :: no RICH ::                  5-Misc[all]
+19601 105   :: no RICH ::                  5-Misc[all]
+19601 106   :: no RICH ::                  5-Misc[all]
+19601 107   :: no RICH ::                  5-Misc[all]
+19601 108   :: no RICH ::         2-MarginalOutlier[4]                  5-Misc[all]
+19601 109   :: no RICH ::          0-TotalOutlier[all]                  5-Misc[all]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
+19601 110   :: no RICH ::      2-MarginalOutlier[3456]                  5-Misc[all]
+19601 111   :: no RICH ::       2-MarginalOutlier[456]                  5-Misc[all]
+19601 112   :: no RICH ::         2-MarginalOutlier[6]                  5-Misc[all]
+19601 113   :: no RICH ::       2-MarginalOutlier[all]                  5-Misc[all]
+19601 114   :: no RICH ::     2-MarginalOutlier[13456]                  5-Misc[all]
+19601 115   :: no RICH ::                  5-Misc[all]
+19601 116   :: no RICH ::                  5-Misc[all]
+19601 117   :: no RICH ::                  5-Misc[all]
+19601 118   :: no RICH ::                  5-Misc[all]
+19601 119   :: no RICH ::                  5-Misc[all]
+19601 120   :: no RICH ::                  5-Misc[all]
+19601 121   :: no RICH ::                  5-Misc[all]
+19601 122   :: no RICH ::                  5-Misc[all]
+19601 123   :: no RICH ::                  5-Misc[all]
+19601 124   :: no RICH ::                  5-Misc[all]
+19601 125   :: no RICH ::                  5-Misc[all]
+19601 126   :: no RICH ::                  5-Misc[all]
+19601 127   :: no RICH ::                  5-Misc[all]
+19601 128   :: no RICH ::                  5-Misc[all]
+19601 129   :: no RICH ::                  5-Misc[all]
+19601 130   :: no RICH ::                  5-Misc[all]
+19601 131   :: no RICH ::                  5-Misc[all]
+19601 132   :: no RICH ::                  5-Misc[all]
+19601 133   :: no RICH ::                  5-Misc[all]
+19601 134   :: no RICH ::                  5-Misc[all]
+19601 135   :: no RICH ::                  5-Misc[all]
+19601 136   :: no RICH ::                  5-Misc[all]
+19601 137   :: no RICH ::                  5-Misc[all]
+19601 138   :: no RICH ::                  5-Misc[all]
+19601 139   :: no RICH ::                  5-Misc[all]
+19601 140   :: no RICH ::                  5-Misc[all]
+19601 141   :: no RICH ::                  5-Misc[all]
+19601 142   :: no RICH ::                  5-Misc[all]
+19601 143   :: no RICH ::                  5-Misc[all]
+19601 144   :: no RICH ::                  5-Misc[all]
+19601 145   :: no RICH ::                  5-Misc[all]
+19601 146   :: no RICH ::                  5-Misc[all]
+19601 147   :: no RICH ::                  5-Misc[all]
+19601 148   :: no RICH ::                  5-Misc[all]
+19601 149   :: no RICH ::                  5-Misc[all]
+19601 150   :: no RICH ::                  5-Misc[all]
+19601 151   :: no RICH ::         2-MarginalOutlier[3]                  5-Misc[all]
+19601 152   :: no RICH ::                  5-Misc[all]
+19601 153   :: no RICH ::                  5-Misc[all]
+19601 154   :: no RICH ::                  5-Misc[all]
+19601 155   :: no RICH ::                  5-Misc[all]
+19601 156   :: no RICH ::                  5-Misc[all]
+19601 157   :: no RICH ::                  5-Misc[all]
+19601 158   :: no RICH ::                  5-Misc[all]
+19601 159   :: no RICH ::                  5-Misc[all]
+19601 160   :: no RICH ::     2-MarginalOutlier[23456]                  5-Misc[all]
+19601 161   :: no RICH ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19602
 ----------------------------------------------------------------------------------
-19602 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19602 1               4-LowLiveTime[all]
-19602 2     |
-19602 3     |
-19602 4     |
-19602 5     |
-19602 6     |
-19602 7             2-MarginalOutlier[5]
-19602 8     |
-19602 9     |
-19602 10    |
-19602 11    |
-19602 12    |
-19602 13    |
-19602 14            2-MarginalOutlier[6]
-19602 15    |
-19602 16    |
-19602 17    |
-19602 18    |
-19602 19    |
-19602 20    |
-19602 21    |
-19602 22    |
-19602 23    |
-19602 24    |
-19602 25    |
-19602 26    |
-19602 27    |
-19602 28    |
-19602 29    |
-19602 30    |
-19602 31            2-MarginalOutlier[5]
-19602 32    |
-19602 33          2-MarginalOutlier[all]
-19602 34          2-MarginalOutlier[345]
-19602 35          2-MarginalOutlier[456]
-19602 36            2-MarginalOutlier[1]
-19602 37    |
-19602 38            2-MarginalOutlier[5]
-19602 39    |
-19602 40    |
-19602 41    |
-19602 42    |
-19602 43    |
-19602 44            2-MarginalOutlier[1]
-19602 45    |
-19602 46    |
-19602 47    |
-19602 48    |
-19602 49    |
-19602 50    |
-19602 51    |
-19602 52    |
-19602 53    |
-19602 54    |
-19602 55    |
-19602 56    |
-19602 57    |
-19602 58    |
-19602 59    |
-19602 60    |
-19602 61    |
-19602 62    |
-19602 63    |
-19602 64            2-MarginalOutlier[3]
-19602 65    |
-19602 66    |
-19602 67    |
-19602 68    |
-19602 69    |
-19602 70    |
-19602 71    |
-19602 72    |
-19602 73    |
-19602 74    |
-19602 75    |
-19602 76    |
-19602 77    |
-19602 78    |
-19602 79    |
-19602 80    |
-19602 81            2-MarginalOutlier[4]
-19602 82    |
-19602 83    |
-19602 84    |
-19602 85    |
-19602 86    |
-19602 87    |
-19602 88    |
-19602 89    |
-19602 90            2-MarginalOutlier[1]
-19602 91    |
-19602 92    |
-19602 93    |
-19602 94    |
-19602 95    |
-19602 96    |
-19602 97    |
-19602 98    |
-19602 99    |
-19602 100   |
-19602 101   |
-19602 102   |
-19602 103   |
-19602 104   |
-19602 105   |
-19602 106   |
-19602 107   |
-19602 108   |
-19602 109   |
-19602 110   |
-19602 111           2-MarginalOutlier[1]
-19602 112   |
-19602 113   |
-19602 114   |
-19602 115   |
-19602 116   |
-19602 117   |
-19602 118   |
-19602 119   |
-19602 120   |
-19602 121   |
-19602 122   |
-19602 123   |
-19602 124   |
-19602 125   |
-19602 126   |
-19602 127   |
-19602 128   |
-19602 129   |
-19602 130   |
-19602 131   |
-19602 132   |
-19602 133   |
-19602 134   |
-19602 135   |
-19602 136   |
-19602 137   |
-19602 138   |
-19602 139   |
-19602 140   |
-19602 141   |
-19602 142   |
-19602 143   |
-19602 144   |
-19602 145   |
-19602 146   |
-19602 147   |
-19602 148   |
-19602 149   |
-19602 150   |
-19602 151   |
-19602 152   |
-19602 153   |
-19602 154   |
-19602 155   |
-19602 156   |
-19602 157   |
-19602 158   |
-19602 159   |
-19602 160   |
-19602 161   |
-19602 162   |
-19602 163           2-MarginalOutlier[5]
-19602 164   |
-19602 165   |
-19602 166   |
-19602 167   |
-19602 168   |
-19602 169   |
-19602 170   |
-19602 171   |
-19602 172   |
-19602 173   |
-19602 174   |
-19602 175   |
-19602 176   |
-19602 177   |
-19602 178   |
-19602 179   |
-19602 180   |
-19602 181   |
-19602 182   |
-19602 183   |
-19602 184   |
-19602 185   |
-19602 186   |
-19602 187   |
-19602 188   |
-19602 189         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19602 0     :: no RICH ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19602 1     :: no RICH ::           4-LowLiveTime[all]                  5-Misc[all]
+19602 2     :: no RICH ::                  5-Misc[all]
+19602 3     :: no RICH ::                  5-Misc[all]
+19602 4     :: no RICH ::                  5-Misc[all]
+19602 5     :: no RICH ::                  5-Misc[all]
+19602 6     :: no RICH ::                  5-Misc[all]
+19602 7     :: no RICH ::         2-MarginalOutlier[5]                  5-Misc[all]
+19602 8     :: no RICH ::                  5-Misc[all]
+19602 9     :: no RICH ::                  5-Misc[all]
+19602 10    :: no RICH ::                  5-Misc[all]
+19602 11    :: no RICH ::                  5-Misc[all]
+19602 12    :: no RICH ::                  5-Misc[all]
+19602 13    :: no RICH ::                  5-Misc[all]
+19602 14    :: no RICH ::         2-MarginalOutlier[6]                  5-Misc[all]
+19602 15    :: no RICH ::                  5-Misc[all]
+19602 16    :: no RICH ::                  5-Misc[all]
+19602 17    :: no RICH ::                  5-Misc[all]
+19602 18    :: no RICH ::                  5-Misc[all]
+19602 19    :: no RICH ::                  5-Misc[all]
+19602 20    :: no RICH ::                  5-Misc[all]
+19602 21    :: no RICH ::                  5-Misc[all]
+19602 22    :: no RICH ::                  5-Misc[all]
+19602 23    :: no RICH ::                  5-Misc[all]
+19602 24    :: no RICH ::                  5-Misc[all]
+19602 25    :: no RICH ::                  5-Misc[all]
+19602 26    :: no RICH ::                  5-Misc[all]
+19602 27    :: no RICH ::                  5-Misc[all]
+19602 28    :: no RICH ::                  5-Misc[all]
+19602 29    :: no RICH ::                  5-Misc[all]
+19602 30    :: no RICH ::                  5-Misc[all]
+19602 31    :: no RICH ::         2-MarginalOutlier[5]                  5-Misc[all]
+19602 32    :: no RICH ::                  5-Misc[all]
+19602 33    :: no RICH ::       2-MarginalOutlier[all]                  5-Misc[all]
+19602 34    :: no RICH ::       2-MarginalOutlier[345]                  5-Misc[all]
+19602 35    :: no RICH ::       2-MarginalOutlier[456]                  5-Misc[all]
+19602 36    :: no RICH ::         2-MarginalOutlier[1]                  5-Misc[all]
+19602 37    :: no RICH ::                  5-Misc[all]
+19602 38    :: no RICH ::         2-MarginalOutlier[5]                  5-Misc[all]
+19602 39    :: no RICH ::                  5-Misc[all]
+19602 40    :: no RICH ::                  5-Misc[all]
+19602 41    :: no RICH ::                  5-Misc[all]
+19602 42    :: no RICH ::                  5-Misc[all]
+19602 43    :: no RICH ::                  5-Misc[all]
+19602 44    :: no RICH ::         2-MarginalOutlier[1]                  5-Misc[all]
+19602 45    :: no RICH ::                  5-Misc[all]
+19602 46    :: no RICH ::                  5-Misc[all]
+19602 47    :: no RICH ::                  5-Misc[all]
+19602 48    :: no RICH ::                  5-Misc[all]
+19602 49    :: no RICH ::                  5-Misc[all]
+19602 50    :: no RICH ::                  5-Misc[all]
+19602 51    :: no RICH ::                  5-Misc[all]
+19602 52    :: no RICH ::                  5-Misc[all]
+19602 53    :: no RICH ::                  5-Misc[all]
+19602 54    :: no RICH ::                  5-Misc[all]
+19602 55    :: no RICH ::                  5-Misc[all]
+19602 56    :: no RICH ::                  5-Misc[all]
+19602 57    :: no RICH ::                  5-Misc[all]
+19602 58    :: no RICH ::                  5-Misc[all]
+19602 59    :: no RICH ::                  5-Misc[all]
+19602 60    :: no RICH ::                  5-Misc[all]
+19602 61    :: no RICH ::                  5-Misc[all]
+19602 62    :: no RICH ::                  5-Misc[all]
+19602 63    :: no RICH ::                  5-Misc[all]
+19602 64    :: no RICH ::         2-MarginalOutlier[3]                  5-Misc[all]
+19602 65    :: no RICH ::                  5-Misc[all]
+19602 66    :: no RICH ::                  5-Misc[all]
+19602 67    :: no RICH ::                  5-Misc[all]
+19602 68    :: no RICH ::                  5-Misc[all]
+19602 69    :: no RICH ::                  5-Misc[all]
+19602 70    :: no RICH ::                  5-Misc[all]
+19602 71    :: no RICH ::                  5-Misc[all]
+19602 72    :: no RICH ::                  5-Misc[all]
+19602 73    :: no RICH ::                  5-Misc[all]
+19602 74    :: no RICH ::                  5-Misc[all]
+19602 75    :: no RICH ::                  5-Misc[all]
+19602 76    :: no RICH ::                  5-Misc[all]
+19602 77    :: no RICH ::                  5-Misc[all]
+19602 78    :: no RICH ::                  5-Misc[all]
+19602 79    :: no RICH ::                  5-Misc[all]
+19602 80    :: no RICH ::                  5-Misc[all]
+19602 81    :: no RICH ::         2-MarginalOutlier[4]                  5-Misc[all]
+19602 82    :: no RICH ::                  5-Misc[all]
+19602 83    :: no RICH ::                  5-Misc[all]
+19602 84    :: no RICH ::                  5-Misc[all]
+19602 85    :: no RICH ::                  5-Misc[all]
+19602 86    :: no RICH ::                  5-Misc[all]
+19602 87    :: no RICH ::                  5-Misc[all]
+19602 88    :: no RICH ::                  5-Misc[all]
+19602 89    :: no RICH ::                  5-Misc[all]
+19602 90    :: no RICH ::         2-MarginalOutlier[1]                  5-Misc[all]
+19602 91    :: no RICH ::                  5-Misc[all]
+19602 92    :: no RICH ::                  5-Misc[all]
+19602 93    :: no RICH ::                  5-Misc[all]
+19602 94    :: no RICH ::                  5-Misc[all]
+19602 95    :: no RICH ::                  5-Misc[all]
+19602 96    :: no RICH ::                  5-Misc[all]
+19602 97    :: no RICH ::                  5-Misc[all]
+19602 98    :: no RICH ::                  5-Misc[all]
+19602 99    :: no RICH ::                  5-Misc[all]
+19602 100   :: no RICH ::                  5-Misc[all]
+19602 101   :: no RICH ::                  5-Misc[all]
+19602 102   :: no RICH ::                  5-Misc[all]
+19602 103   :: no RICH ::                  5-Misc[all]
+19602 104   :: no RICH ::                  5-Misc[all]
+19602 105   :: no RICH ::                  5-Misc[all]
+19602 106   :: no RICH ::                  5-Misc[all]
+19602 107   :: no RICH ::                  5-Misc[all]
+19602 108   :: no RICH ::                  5-Misc[all]
+19602 109   :: no RICH ::                  5-Misc[all]
+19602 110   :: no RICH ::                  5-Misc[all]
+19602 111   :: no RICH ::         2-MarginalOutlier[1]                  5-Misc[all]
+19602 112   :: no RICH ::                  5-Misc[all]
+19602 113   :: no RICH ::                  5-Misc[all]
+19602 114   :: no RICH ::                  5-Misc[all]
+19602 115   :: no RICH ::                  5-Misc[all]
+19602 116   :: no RICH ::                  5-Misc[all]
+19602 117   :: no RICH ::                  5-Misc[all]
+19602 118   :: no RICH ::                  5-Misc[all]
+19602 119   :: no RICH ::                  5-Misc[all]
+19602 120   :: no RICH ::                  5-Misc[all]
+19602 121   :: no RICH ::                  5-Misc[all]
+19602 122   :: no RICH ::                  5-Misc[all]
+19602 123   :: no RICH ::                  5-Misc[all]
+19602 124   :: no RICH ::                  5-Misc[all]
+19602 125   :: no RICH ::                  5-Misc[all]
+19602 126   :: no RICH ::                  5-Misc[all]
+19602 127   :: no RICH ::                  5-Misc[all]
+19602 128   :: no RICH ::                  5-Misc[all]
+19602 129   :: no RICH ::                  5-Misc[all]
+19602 130   :: no RICH ::                  5-Misc[all]
+19602 131   :: no RICH ::                  5-Misc[all]
+19602 132   :: no RICH ::                  5-Misc[all]
+19602 133   :: no RICH ::                  5-Misc[all]
+19602 134   :: no RICH ::                  5-Misc[all]
+19602 135   :: no RICH ::                  5-Misc[all]
+19602 136   :: no RICH ::                  5-Misc[all]
+19602 137   :: no RICH ::                  5-Misc[all]
+19602 138   :: no RICH ::                  5-Misc[all]
+19602 139   :: no RICH ::                  5-Misc[all]
+19602 140   :: no RICH ::                  5-Misc[all]
+19602 141   :: no RICH ::                  5-Misc[all]
+19602 142   :: no RICH ::                  5-Misc[all]
+19602 143   :: no RICH ::                  5-Misc[all]
+19602 144   :: no RICH ::                  5-Misc[all]
+19602 145   :: no RICH ::                  5-Misc[all]
+19602 146   :: no RICH ::                  5-Misc[all]
+19602 147   :: no RICH ::                  5-Misc[all]
+19602 148   :: no RICH ::                  5-Misc[all]
+19602 149   :: no RICH ::                  5-Misc[all]
+19602 150   :: no RICH ::                  5-Misc[all]
+19602 151   :: no RICH ::                  5-Misc[all]
+19602 152   :: no RICH ::                  5-Misc[all]
+19602 153   :: no RICH ::                  5-Misc[all]
+19602 154   :: no RICH ::                  5-Misc[all]
+19602 155   :: no RICH ::                  5-Misc[all]
+19602 156   :: no RICH ::                  5-Misc[all]
+19602 157   :: no RICH ::                  5-Misc[all]
+19602 158   :: no RICH ::                  5-Misc[all]
+19602 159   :: no RICH ::                  5-Misc[all]
+19602 160   :: no RICH ::                  5-Misc[all]
+19602 161   :: no RICH ::                  5-Misc[all]
+19602 162   :: no RICH ::                  5-Misc[all]
+19602 163   :: no RICH ::         2-MarginalOutlier[5]                  5-Misc[all]
+19602 164   :: no RICH ::                  5-Misc[all]
+19602 165   :: no RICH ::                  5-Misc[all]
+19602 166   :: no RICH ::                  5-Misc[all]
+19602 167   :: no RICH ::                  5-Misc[all]
+19602 168   :: no RICH ::                  5-Misc[all]
+19602 169   :: no RICH ::                  5-Misc[all]
+19602 170   :: no RICH ::                  5-Misc[all]
+19602 171   :: no RICH ::                  5-Misc[all]
+19602 172   :: no RICH ::                  5-Misc[all]
+19602 173   :: no RICH ::                  5-Misc[all]
+19602 174   :: no RICH ::                  5-Misc[all]
+19602 175   :: no RICH ::                  5-Misc[all]
+19602 176   :: no RICH ::                  5-Misc[all]
+19602 177   :: no RICH ::                  5-Misc[all]
+19602 178   :: no RICH ::                  5-Misc[all]
+19602 179   :: no RICH ::                  5-Misc[all]
+19602 180   :: no RICH ::                  5-Misc[all]
+19602 181   :: no RICH ::                  5-Misc[all]
+19602 182   :: no RICH ::                  5-Misc[all]
+19602 183   :: no RICH ::                  5-Misc[all]
+19602 184   :: no RICH ::                  5-Misc[all]
+19602 185   :: no RICH ::                  5-Misc[all]
+19602 186   :: no RICH ::                  5-Misc[all]
+19602 187   :: no RICH ::                  5-Misc[all]
+19602 188   :: no RICH ::                  5-Misc[all]
+19602 189   :: no RICH ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19603
 ----------------------------------------------------------------------------------
-19603 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19603 1     |
-19603 2     |
-19603 3     |
-19603 4     |
-19603 5     |
-19603 6     |
-19603 7     |
-19603 8     |
-19603 9             2-MarginalOutlier[6]
-19603 10    |
-19603 11    |
-19603 12    |
-19603 13    |
-19603 14    |
-19603 15    |
-19603 16    |
-19603 17    |
-19603 18    |
-19603 19    |
-19603 20    |
-19603 21    |
-19603 22    |
-19603 23    |
-19603 24    |
-19603 25    |
-19603 26    |
-19603 27    |
-19603 28    |
-19603 29    |
-19603 30    |
-19603 31    |
-19603 32            2-MarginalOutlier[6]
-19603 33    |
-19603 34    |
-19603 35    |
-19603 36    |
-19603 37    |
-19603 38    |
-19603 39    |
-19603 40    |
-19603 41    |
-19603 42    |
-19603 43    |
-19603 44    |
-19603 45    |
-19603 46    |
-19603 47    |
-19603 48    |
-19603 49    |
-19603 50    |
-19603 51    |
-19603 52    |
-19603 53    |
-19603 54    |
-19603 55    |
-19603 56    |
-19603 57    |
-19603 58    |
-19603 59    |
-19603 60    |
-19603 61    |
-19603 62    |
-19603 63    |
-19603 64    |
-19603 65    |
-19603 66    |
-19603 67    |
-19603 68    |
-19603 69    |
-19603 70    |
-19603 71    |
-19603 72    |
-19603 73    |
-19603 74    |
-19603 75    |
-19603 76    |
-19603 77    |
-19603 78    |
-19603 79    |
-19603 80    |
-19603 81    |
-19603 82    |
-19603 83    |
-19603 84    |
-19603 85    |
-19603 86    |
-19603 87    |
-19603 88    |
-19603 89    |
-19603 90    |
-19603 91    |
-19603 92    |
-19603 93    |
-19603 94    |
-19603 95    |
-19603 96    |
-19603 97    |
-19603 98    |
-19603 99    |
-19603 100   |
-19603 101   |
-19603 102   |
-19603 103   |
-19603 104   |
-19603 105   |
-19603 106   |
-19603 107   |
-19603 108   |
-19603 109   |
-19603 110   |
-19603 111   |
-19603 112   |
-19603 113   |
-19603 114   |
-19603 115   |
-19603 116   |
-19603 117   |
-19603 118           2-MarginalOutlier[6]
-19603 119   |
-19603 120   |
-19603 121   |
-19603 122   |
-19603 123   |
-19603 124   |
-19603 125   |
-19603 126   |
-19603 127   |
-19603 128   |
-19603 129   |
-19603 130   |
-19603 131   |
-19603 132   |
-19603 133   |
-19603 134   |
-19603 135   |
-19603 136   |
-19603 137   |
-19603 138   |
-19603 139   |
-19603 140   |
-19603 141   |
-19603 142   |
-19603 143   |
-19603 144   |
-19603 145   |
-19603 146   |
-19603 147   |
-19603 148   |
-19603 149   |
-19603 150   |
-19603 151   |
-19603 152   |
-19603 153   |
-19603 154   |
-19603 155   |
-19603 156   |
-19603 157   |
-19603 158   |
-19603 159   |
-19603 160   |
-19603 161   |
-19603 162   |
-19603 163   |
-19603 164   |
-19603 165   |
-19603 166   |
-19603 167   |
-19603 168   |
-19603 169   |
-19603 170   |
-19603 171   |
-19603 172           2-MarginalOutlier[4]
-19603 173   |
-19603 174   |
-19603 175   |
-19603 176   |
-19603 177   |
-19603 178   |
-19603 179   |
-19603 180   |
-19603 181   |
-19603 182   |
-19603 183   |
-19603 184   |
-19603 185   |
-19603 186   |
-19603 187   |
-19603 188   |
-19603 189   |
-19603 190   |
-19603 191   |
-19603 192   |
-19603 193   |
-19603 194   |
-19603 195   |
-19603 196   |
-19603 197   |
-19603 198   |
-19603 199   |
-19603 200   |
-19603 201   |
-19603 202   |
-19603 203   |
-19603 204   |
-19603 205   |
-19603 206   |
-19603 207   |
-19603 208   |
-19603 209   |
-19603 210   |
-19603 211   |
-19603 212   |
-19603 213   |
-19603 214   |
-19603 215   |
-19603 216   |
-19603 217   |
-19603 218   |
-19603 219   |
-19603 220   |
-19603 221   |
-19603 222   |
-19603 223   |
-19603 224   |
-19603 225   |
-19603 226   |
-19603 227   |
-19603 228   |
-19603 229   |
-19603 230   |
-19603 231   |
-19603 232   |
-19603 233   |
-19603 234   |
-19603 235   |
-19603 236   |
-19603 237   |
-19603 238   |
-19603 239   |
-19603 240   |
-19603 241   |
-19603 242   |
-19603 243   |
-19603 244   |
-19603 245   |
-19603 246   |
-19603 247   |
-19603 248   |
-19603 249         1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19603 0     :: no RICH ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19603 1     :: no RICH ::                  5-Misc[all]
+19603 2     :: no RICH ::                  5-Misc[all]
+19603 3     :: no RICH ::                  5-Misc[all]
+19603 4     :: no RICH ::                  5-Misc[all]
+19603 5     :: no RICH ::                  5-Misc[all]
+19603 6     :: no RICH ::                  5-Misc[all]
+19603 7     :: no RICH ::                  5-Misc[all]
+19603 8     :: no RICH ::                  5-Misc[all]
+19603 9     :: no RICH ::         2-MarginalOutlier[6]                  5-Misc[all]
+19603 10    :: no RICH ::                  5-Misc[all]
+19603 11    :: no RICH ::                  5-Misc[all]
+19603 12    :: no RICH ::                  5-Misc[all]
+19603 13    :: no RICH ::                  5-Misc[all]
+19603 14    :: no RICH ::                  5-Misc[all]
+19603 15    :: no RICH ::                  5-Misc[all]
+19603 16    :: no RICH ::                  5-Misc[all]
+19603 17    :: no RICH ::                  5-Misc[all]
+19603 18    :: no RICH ::                  5-Misc[all]
+19603 19    :: no RICH ::                  5-Misc[all]
+19603 20    :: no RICH ::                  5-Misc[all]
+19603 21    :: no RICH ::                  5-Misc[all]
+19603 22    :: no RICH ::                  5-Misc[all]
+19603 23    :: no RICH ::                  5-Misc[all]
+19603 24    :: no RICH ::                  5-Misc[all]
+19603 25    :: no RICH ::                  5-Misc[all]
+19603 26    :: no RICH ::                  5-Misc[all]
+19603 27    :: no RICH ::                  5-Misc[all]
+19603 28    :: no RICH ::                  5-Misc[all]
+19603 29    :: no RICH ::                  5-Misc[all]
+19603 30    :: no RICH ::                  5-Misc[all]
+19603 31    :: no RICH ::                  5-Misc[all]
+19603 32    :: no RICH ::         2-MarginalOutlier[6]                  5-Misc[all]
+19603 33    :: no RICH ::                  5-Misc[all]
+19603 34    :: no RICH ::                  5-Misc[all]
+19603 35    :: no RICH ::                  5-Misc[all]
+19603 36    :: no RICH ::                  5-Misc[all]
+19603 37    :: no RICH ::                  5-Misc[all]
+19603 38    :: no RICH ::                  5-Misc[all]
+19603 39    :: no RICH ::                  5-Misc[all]
+19603 40    :: no RICH ::                  5-Misc[all]
+19603 41    :: no RICH ::                  5-Misc[all]
+19603 42    :: no RICH ::                  5-Misc[all]
+19603 43    :: no RICH ::                  5-Misc[all]
+19603 44    :: no RICH ::                  5-Misc[all]
+19603 45    :: no RICH ::                  5-Misc[all]
+19603 46    :: no RICH ::                  5-Misc[all]
+19603 47    :: no RICH ::                  5-Misc[all]
+19603 48    :: no RICH ::                  5-Misc[all]
+19603 49    :: no RICH ::                  5-Misc[all]
+19603 50    :: no RICH ::                  5-Misc[all]
+19603 51    :: no RICH ::                  5-Misc[all]
+19603 52    :: no RICH ::                  5-Misc[all]
+19603 53    :: no RICH ::                  5-Misc[all]
+19603 54    :: no RICH ::                  5-Misc[all]
+19603 55    :: no RICH ::                  5-Misc[all]
+19603 56    :: no RICH ::                  5-Misc[all]
+19603 57    :: no RICH ::                  5-Misc[all]
+19603 58    :: no RICH ::                  5-Misc[all]
+19603 59    :: no RICH ::                  5-Misc[all]
+19603 60    :: no RICH ::                  5-Misc[all]
+19603 61    :: no RICH ::                  5-Misc[all]
+19603 62    :: no RICH ::                  5-Misc[all]
+19603 63    :: no RICH ::                  5-Misc[all]
+19603 64    :: no RICH ::                  5-Misc[all]
+19603 65    :: no RICH ::                  5-Misc[all]
+19603 66    :: no RICH ::                  5-Misc[all]
+19603 67    :: no RICH ::                  5-Misc[all]
+19603 68    :: no RICH ::                  5-Misc[all]
+19603 69    :: no RICH ::                  5-Misc[all]
+19603 70    :: no RICH ::                  5-Misc[all]
+19603 71    :: no RICH ::                  5-Misc[all]
+19603 72    :: no RICH ::                  5-Misc[all]
+19603 73    :: no RICH ::                  5-Misc[all]
+19603 74    :: no RICH ::                  5-Misc[all]
+19603 75    :: no RICH ::                  5-Misc[all]
+19603 76    :: no RICH ::                  5-Misc[all]
+19603 77    :: no RICH ::                  5-Misc[all]
+19603 78    :: no RICH ::                  5-Misc[all]
+19603 79    :: no RICH ::                  5-Misc[all]
+19603 80    :: no RICH ::                  5-Misc[all]
+19603 81    :: no RICH ::                  5-Misc[all]
+19603 82    :: no RICH ::                  5-Misc[all]
+19603 83    :: no RICH ::                  5-Misc[all]
+19603 84    :: no RICH ::                  5-Misc[all]
+19603 85    :: no RICH ::                  5-Misc[all]
+19603 86    :: no RICH ::                  5-Misc[all]
+19603 87    :: no RICH ::                  5-Misc[all]
+19603 88    :: no RICH ::                  5-Misc[all]
+19603 89    :: no RICH ::                  5-Misc[all]
+19603 90    :: no RICH ::                  5-Misc[all]
+19603 91    :: no RICH ::                  5-Misc[all]
+19603 92    :: no RICH ::                  5-Misc[all]
+19603 93    :: no RICH ::                  5-Misc[all]
+19603 94    :: no RICH ::                  5-Misc[all]
+19603 95    :: no RICH ::                  5-Misc[all]
+19603 96    :: no RICH ::                  5-Misc[all]
+19603 97    :: no RICH ::                  5-Misc[all]
+19603 98    :: no RICH ::                  5-Misc[all]
+19603 99    :: no RICH ::                  5-Misc[all]
+19603 100   :: no RICH ::                  5-Misc[all]
+19603 101   :: no RICH ::                  5-Misc[all]
+19603 102   :: no RICH ::                  5-Misc[all]
+19603 103   :: no RICH ::                  5-Misc[all]
+19603 104   :: no RICH ::                  5-Misc[all]
+19603 105   :: no RICH ::                  5-Misc[all]
+19603 106   :: no RICH ::                  5-Misc[all]
+19603 107   :: no RICH ::                  5-Misc[all]
+19603 108   :: no RICH ::                  5-Misc[all]
+19603 109   :: no RICH ::                  5-Misc[all]
+19603 110   :: no RICH ::                  5-Misc[all]
+19603 111   :: no RICH ::                  5-Misc[all]
+19603 112   :: no RICH ::                  5-Misc[all]
+19603 113   :: no RICH ::                  5-Misc[all]
+19603 114   :: no RICH ::                  5-Misc[all]
+19603 115   :: no RICH ::                  5-Misc[all]
+19603 116   :: no RICH ::                  5-Misc[all]
+19603 117   :: no RICH ::                  5-Misc[all]
+19603 118   :: no RICH ::         2-MarginalOutlier[6]                  5-Misc[all]
+19603 119   :: no RICH ::                  5-Misc[all]
+19603 120   :: no RICH ::                  5-Misc[all]
+19603 121   :: no RICH ::                  5-Misc[all]
+19603 122   :: no RICH ::                  5-Misc[all]
+19603 123   :: no RICH ::                  5-Misc[all]
+19603 124   :: no RICH ::                  5-Misc[all]
+19603 125   :: no RICH ::                  5-Misc[all]
+19603 126   :: no RICH ::                  5-Misc[all]
+19603 127   :: no RICH ::                  5-Misc[all]
+19603 128   :: no RICH ::                  5-Misc[all]
+19603 129   :: no RICH ::                  5-Misc[all]
+19603 130   :: no RICH ::                  5-Misc[all]
+19603 131   :: no RICH ::                  5-Misc[all]
+19603 132   :: no RICH ::                  5-Misc[all]
+19603 133   :: no RICH ::                  5-Misc[all]
+19603 134   :: no RICH ::                  5-Misc[all]
+19603 135   :: no RICH ::                  5-Misc[all]
+19603 136   :: no RICH ::                  5-Misc[all]
+19603 137   :: no RICH ::                  5-Misc[all]
+19603 138   :: no RICH ::                  5-Misc[all]
+19603 139   :: no RICH ::                  5-Misc[all]
+19603 140   :: no RICH ::                  5-Misc[all]
+19603 141   :: no RICH ::                  5-Misc[all]
+19603 142   :: no RICH ::                  5-Misc[all]
+19603 143   :: no RICH ::                  5-Misc[all]
+19603 144   :: no RICH ::                  5-Misc[all]
+19603 145   :: no RICH ::                  5-Misc[all]
+19603 146   :: no RICH ::                  5-Misc[all]
+19603 147   :: no RICH ::                  5-Misc[all]
+19603 148   :: no RICH ::                  5-Misc[all]
+19603 149   :: no RICH ::                  5-Misc[all]
+19603 150   :: no RICH ::                  5-Misc[all]
+19603 151   :: no RICH ::                  5-Misc[all]
+19603 152   :: no RICH ::                  5-Misc[all]
+19603 153   :: no RICH ::                  5-Misc[all]
+19603 154   :: no RICH ::                  5-Misc[all]
+19603 155   :: no RICH ::                  5-Misc[all]
+19603 156   :: no RICH ::                  5-Misc[all]
+19603 157   :: no RICH ::                  5-Misc[all]
+19603 158   :: no RICH ::                  5-Misc[all]
+19603 159   :: no RICH ::                  5-Misc[all]
+19603 160   :: no RICH ::                  5-Misc[all]
+19603 161   :: no RICH ::                  5-Misc[all]
+19603 162   :: no RICH ::                  5-Misc[all]
+19603 163   :: no RICH ::                  5-Misc[all]
+19603 164   :: no RICH ::                  5-Misc[all]
+19603 165   :: no RICH ::                  5-Misc[all]
+19603 166   :: no RICH ::                  5-Misc[all]
+19603 167   :: no RICH ::                  5-Misc[all]
+19603 168   :: no RICH ::                  5-Misc[all]
+19603 169   :: no RICH ::                  5-Misc[all]
+19603 170   :: no RICH ::                  5-Misc[all]
+19603 171   :: no RICH ::                  5-Misc[all]
+19603 172   :: no RICH ::         2-MarginalOutlier[4]                  5-Misc[all]
+19603 173   :: no RICH ::                  5-Misc[all]
+19603 174   :: no RICH ::                  5-Misc[all]
+19603 175   :: no RICH ::                  5-Misc[all]
+19603 176   :: no RICH ::                  5-Misc[all]
+19603 177   :: no RICH ::                  5-Misc[all]
+19603 178   :: no RICH ::                  5-Misc[all]
+19603 179   :: no RICH ::                  5-Misc[all]
+19603 180   :: no RICH ::                  5-Misc[all]
+19603 181   :: no RICH ::                  5-Misc[all]
+19603 182   :: no RICH ::                  5-Misc[all]
+19603 183   :: no RICH ::                  5-Misc[all]
+19603 184   :: no RICH ::                  5-Misc[all]
+19603 185   :: no RICH ::                  5-Misc[all]
+19603 186   :: no RICH ::                  5-Misc[all]
+19603 187   :: no RICH ::                  5-Misc[all]
+19603 188   :: no RICH ::                  5-Misc[all]
+19603 189   :: no RICH ::                  5-Misc[all]
+19603 190   :: no RICH ::                  5-Misc[all]
+19603 191   :: no RICH ::                  5-Misc[all]
+19603 192   :: no RICH ::                  5-Misc[all]
+19603 193   :: no RICH ::                  5-Misc[all]
+19603 194   :: no RICH ::                  5-Misc[all]
+19603 195   :: no RICH ::                  5-Misc[all]
+19603 196   :: no RICH ::                  5-Misc[all]
+19603 197   :: no RICH ::                  5-Misc[all]
+19603 198   :: no RICH ::                  5-Misc[all]
+19603 199   :: no RICH ::                  5-Misc[all]
+19603 200   :: no RICH ::                  5-Misc[all]
+19603 201   :: no RICH ::                  5-Misc[all]
+19603 202   :: no RICH ::                  5-Misc[all]
+19603 203   :: no RICH ::                  5-Misc[all]
+19603 204   :: no RICH ::                  5-Misc[all]
+19603 205   :: no RICH ::                  5-Misc[all]
+19603 206   :: no RICH ::                  5-Misc[all]
+19603 207   :: no RICH ::                  5-Misc[all]
+19603 208   :: no RICH ::                  5-Misc[all]
+19603 209   :: no RICH ::                  5-Misc[all]
+19603 210   :: no RICH ::                  5-Misc[all]
+19603 211   :: no RICH ::                  5-Misc[all]
+19603 212   :: no RICH ::                  5-Misc[all]
+19603 213   :: no RICH ::                  5-Misc[all]
+19603 214   :: no RICH ::                  5-Misc[all]
+19603 215   :: no RICH ::                  5-Misc[all]
+19603 216   :: no RICH ::                  5-Misc[all]
+19603 217   :: no RICH ::                  5-Misc[all]
+19603 218   :: no RICH ::                  5-Misc[all]
+19603 219   :: no RICH ::                  5-Misc[all]
+19603 220   :: no RICH ::                  5-Misc[all]
+19603 221   :: no RICH ::                  5-Misc[all]
+19603 222   :: no RICH ::                  5-Misc[all]
+19603 223   :: no RICH ::                  5-Misc[all]
+19603 224   :: no RICH ::                  5-Misc[all]
+19603 225   :: no RICH ::                  5-Misc[all]
+19603 226   :: no RICH ::                  5-Misc[all]
+19603 227   :: no RICH ::                  5-Misc[all]
+19603 228   :: no RICH ::                  5-Misc[all]
+19603 229   :: no RICH ::                  5-Misc[all]
+19603 230   :: no RICH ::                  5-Misc[all]
+19603 231   :: no RICH ::                  5-Misc[all]
+19603 232   :: no RICH ::                  5-Misc[all]
+19603 233   :: no RICH ::                  5-Misc[all]
+19603 234   :: no RICH ::                  5-Misc[all]
+19603 235   :: no RICH ::                  5-Misc[all]
+19603 236   :: no RICH ::                  5-Misc[all]
+19603 237   :: no RICH ::                  5-Misc[all]
+19603 238   :: no RICH ::                  5-Misc[all]
+19603 239   :: no RICH ::                  5-Misc[all]
+19603 240   :: no RICH ::                  5-Misc[all]
+19603 241   :: no RICH ::                  5-Misc[all]
+19603 242   :: no RICH ::                  5-Misc[all]
+19603 243   :: no RICH ::                  5-Misc[all]
+19603 244   :: no RICH ::                  5-Misc[all]
+19603 245   :: no RICH ::                  5-Misc[all]
+19603 246   :: no RICH ::                  5-Misc[all]
+19603 247   :: no RICH ::                  5-Misc[all]
+19603 248   :: no RICH ::                  5-Misc[all]
+19603 249   :: no RICH ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19604
 ----------------------------------------------------------------------------------
-19604 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19604 1     |
-19604 2     |
-19604 3     |
-19604 4     |
-19604 5     |
-19604 6     |
-19604 7     |
-19604 8     |
-19604 9     |
-19604 10    |
-19604 11    |
-19604 12    |
-19604 13    |
-19604 14    |
-19604 15    |
-19604 16    |
-19604 17    |
-19604 18    |
-19604 19    |
-19604 20    |
-19604 21    |
-19604 22    |
-19604 23          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19604 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19604 1     :: empty target run ::                  5-Misc[all]
+19604 2     :: empty target run ::                  5-Misc[all]
+19604 3     :: empty target run ::                  5-Misc[all]
+19604 4     :: empty target run ::                  5-Misc[all]
+19604 5     :: empty target run ::                  5-Misc[all]
+19604 6     :: empty target run ::                  5-Misc[all]
+19604 7     :: empty target run ::                  5-Misc[all]
+19604 8     :: empty target run ::                  5-Misc[all]
+19604 9     :: empty target run ::                  5-Misc[all]
+19604 10    :: empty target run ::                  5-Misc[all]
+19604 11    :: empty target run ::                  5-Misc[all]
+19604 12    :: empty target run ::                  5-Misc[all]
+19604 13    :: empty target run ::                  5-Misc[all]
+19604 14    :: empty target run ::                  5-Misc[all]
+19604 15    :: empty target run ::                  5-Misc[all]
+19604 16    :: empty target run ::                  5-Misc[all]
+19604 17    :: empty target run ::                  5-Misc[all]
+19604 18    :: empty target run ::                  5-Misc[all]
+19604 19    :: empty target run ::                  5-Misc[all]
+19604 20    :: empty target run ::                  5-Misc[all]
+19604 21    :: empty target run ::                  5-Misc[all]
+19604 22    :: empty target run ::                  5-Misc[all]
+19604 23    :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19605

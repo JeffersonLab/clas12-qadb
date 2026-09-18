@@ -213,8 +213,8 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19556      | no    |  |
 | 19557      | no    |  |
 | 19558      | no    |  |
-| 19559      | no    |  |
-| 19561      | no    |  |
+| 19559      | yes   | <pre>HVFTOF2 board 9 issue; minor PCAL HV sector 2 alarms</pre> |
+| 19561      | yes   | <pre>HVFTOF2 board 9 issue</pre> |
 | 19562      | no    |  |
 | 19563      | no    |  |
 | 19564      | no    |  |
@@ -253,10 +253,10 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19598      | no    |  |
 | 19599      | no    |  |
 | 19600      | no    |  |
-| 19601      | no    |  |
-| 19602      | no    |  |
-| 19603      | no    |  |
-| 19604      | no    |  |
+| 19601      | yes   | <pre>no RICH</pre> |
+| 19602      | yes   | <pre>no RICH</pre> |
+| 19603      | yes   | <pre>no RICH</pre> |
+| 19604      | yes   | <pre>empty target run</pre> |
 | 19605      | no    |  |
 | 19606      | no    |  |
 | 19607      | no    |  |
