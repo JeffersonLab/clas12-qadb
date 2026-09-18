@@ -480,7 +480,20 @@ The following tables describe the available datasets in the _latest_ version of 
 ### :large_blue_diamond: Run Group K
 
 <details>
-<summary>Spring 2024 Pass 1</summary>
+<summary>Fall 2023 and Spring 2024 Pass 1</summary>
+
+| :minidisc: Dataset:    | `rgk_fa23_6.4GeV` (pass 1)  |
+| ---                    | ---                         |
+| **Status:**            | :x: QADB not yet produced   |
+| **Timelines:**         |                             |
+| **Data:**              |                             |
+| **Files Used for QA:** |                             |
+| **Runs:**              |                             |
+| **Issues with QADB:**  |                             |
+| **Cross Check:**       | Lucilla Lanza and Mike Wood |
+| **FC Charge Method:**  |                             |
+| **Cook:** `recharge`   |                             |
+| **Cook:** `coatjava`   |                             |
 
 | :minidisc: Dataset:    | `rgk_sp24_6.4GeV` (pass 1)  |
 | ---                    | ---                         |
