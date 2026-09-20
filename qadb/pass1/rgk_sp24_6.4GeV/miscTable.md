@@ -257,14 +257,14 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19602      | yes   | <pre>no RICH</pre> |
 | 19603      | yes   | <pre>no RICH</pre> |
 | 19604      | yes   | <pre>empty target run</pre> |
-| 19605      | no    |  |
-| 19606      | no    |  |
-| 19607      | no    |  |
-| 19608      | no    |  |
+| 19605      | yes   | <pre>lumi scan: 5 nA</pre> |
+| 19606      | yes   | <pre>lumi scan: 15 nA</pre> |
+| 19607      | yes   | <pre>lumi scan: 30 nA</pre> |
+| 19608      | yes   | <pre>lumi scan: 45 nA</pre> |
 | 19609      | no    |  |
-| 19610      | no    |  |
-| 19611      | no    |  |
-| 19612      | no    |  |
+| 19610      | yes   | <pre>trigger studies, for HTCC efficiency</pre> |
+| 19611      | yes   | <pre>trigger studies, for HTCC efficiency</pre> |
+| 19612      | yes   | <pre>trigger studies, for HTCC efficiency</pre> |
 | 19614      | no    |  |
 | 19615      | no    |  |
 | 19616      | no    |  |
@@ -272,10 +272,10 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19618      | no    |  |
 | 19620      | no    |  |
 | 19621      | no    |  |
-| 19623      | no    |  |
-| 19624      | no    |  |
+| 19623      | yes   | <pre>trigger studies, no HTCC in the trigger</pre> |
+| 19624      | yes   | <pre>trigger studies, no HTCC in the trigger</pre> |
 | 19625      | no    |  |
-| 19626      | no    |  |
+| 19626      | yes   | <pre>trigger studies, no HTCC in the trigger</pre> |
 | 19627      | no    |  |
 | 19628      | no    |  |
 | 19629      | no    |  |
