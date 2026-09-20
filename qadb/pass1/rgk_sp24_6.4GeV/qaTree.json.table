@@ -26719,31 +26719,31 @@ RUN: 19604
 RUN: 19605
 ----------------------------------------------------------------------------------
 19605 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19605 1         2-MarginalOutlier[12345]
-19605 2           2-MarginalOutlier[124]
-19605 3            2-MarginalOutlier[36]
-19605 4            2-MarginalOutlier[56]
-19605 5            2-MarginalOutlier[46]
-19605 6          2-MarginalOutlier[2456]
-19605 7          2-MarginalOutlier[2456]
-19605 8          2-MarginalOutlier[2346]
-19605 9             2-MarginalOutlier[4]
-19605 10            2-MarginalOutlier[2]
-19605 11          2-MarginalOutlier[124]
+19605 1            2-MarginalOutlier[14]
+19605 2             2-MarginalOutlier[1]
+19605 3             2-MarginalOutlier[4]
+19605 4     |
+19605 5     |
+19605 6     |
+19605 7     |
+19605 8     |
+19605 9     |
+19605 10    |
+19605 11    |
 19605 12    |
-19605 13          2-MarginalOutlier[245]
-19605 14          2-MarginalOutlier[456]
-19605 15            2-MarginalOutlier[3]
-19605 16         2-MarginalOutlier[2456]
-19605 17          2-MarginalOutlier[345]
-19605 18            2-MarginalOutlier[6]
-19605 19          2-MarginalOutlier[234]
-19605 20          2-MarginalOutlier[234]
-19605 21         2-MarginalOutlier[3456]
-19605 22           2-MarginalOutlier[25]
-19605 23        2-MarginalOutlier[23456]
-19605 24          2-MarginalOutlier[245]
-19605 25          2-MarginalOutlier[126]
+19605 13    |
+19605 14    |
+19605 15    |
+19605 16    |
+19605 17    |
+19605 18    |
+19605 19    |
+19605 20    |
+19605 21    |
+19605 22    |
+19605 23    |
+19605 24    |
+19605 25           2-MarginalOutlier[16]
 19605 26          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
@@ -26751,17 +26751,17 @@ RUN: 19606
 ----------------------------------------------------------------------------------
 19606 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19606 1     |
-19606 2            2-MarginalOutlier[35]
+19606 2             2-MarginalOutlier[5]
 19606 3     |
 19606 4     |
 19606 5     |
-19606 6             2-MarginalOutlier[1]
+19606 6     |
 19606 7     |
-19606 8     |
-19606 9            2-MarginalOutlier[13]
-19606 10           2-MarginalOutlier[13]
+19606 8             2-MarginalOutlier[2]
+19606 9     |
+19606 10    |
 19606 11    |
-19606 12            2-MarginalOutlier[1]
+19606 12    |
 19606 13    |
 19606 14    |
 19606 15          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
@@ -26770,33 +26770,33 @@ RUN: 19606
 RUN: 19607
 ----------------------------------------------------------------------------------
 19607 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19607 1            2-MarginalOutlier[13]
-19607 2             2-MarginalOutlier[1]
+19607 1     |
+19607 2     |
 19607 3     |
-19607 4             2-MarginalOutlier[1]
+19607 4     |
 19607 5     |
-19607 6             2-MarginalOutlier[3]
-19607 7     |
+19607 6     |
+19607 7            2-MarginalOutlier[46]
 19607 8     |
 19607 9             2-MarginalOutlier[6]
-19607 10            2-MarginalOutlier[5]
-19607 11           2-MarginalOutlier[15]
+19607 10    |
+19607 11            2-MarginalOutlier[6]
 19607 12          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19608
 ----------------------------------------------------------------------------------
 19608 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19608 1     |
+19608 1             2-MarginalOutlier[2]
 19608 2     |
 19608 3     |
-19608 4     |
-19608 5     |
+19608 4             2-MarginalOutlier[4]
+19608 5             2-MarginalOutlier[4]
 19608 6     |
-19608 7     |
-19608 8     |
+19608 7             2-MarginalOutlier[6]
+19608 8            2-MarginalOutlier[26]
 19608 9     |
-19608 10          2-MarginalOutlier[126]
+19608 10         2-MarginalOutlier[1236]
 19608 11          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
@@ -26852,8 +26852,8 @@ RUN: 19609
 19609 47    |
 19609 48    |
 19609 49    |
-19609 50            2-MarginalOutlier[3]
-19609 51           2-MarginalOutlier[46]
+19609 50    |
+19609 51            2-MarginalOutlier[4]
 19609 52    |
 19609 53    |
 19609 54    |
@@ -26950,7 +26950,7 @@ RUN: 19609
 19609 145   |
 19609 146   |
 19609 147   |
-19609 148           2-MarginalOutlier[3]
+19609 148   |
 19609 149   |
 19609 150   |
 19609 151   |
@@ -27001,170 +27001,170 @@ RUN: 19609
 RUN: 19610
 ----------------------------------------------------------------------------------
 19610 0           1-TerminalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
-19610 1               4-LowLiveTime[all]           11-BSAUnknown[all]
-19610 2               11-BSAUnknown[all]
-19610 3               11-BSAUnknown[all]
-19610 4               11-BSAUnknown[all]
-19610 5               11-BSAUnknown[all]
-19610 6               11-BSAUnknown[all]
-19610 7               11-BSAUnknown[all]
-19610 8               11-BSAUnknown[all]
-19610 9               11-BSAUnknown[all]
-19610 10              11-BSAUnknown[all]
-19610 11            2-MarginalOutlier[1]           11-BSAUnknown[all]
-19610 12              11-BSAUnknown[all]
-19610 13              11-BSAUnknown[all]
-19610 14              11-BSAUnknown[all]
-19610 15              11-BSAUnknown[all]
-19610 16              11-BSAUnknown[all]
-19610 17              11-BSAUnknown[all]
-19610 18              11-BSAUnknown[all]
-19610 19              11-BSAUnknown[all]
-19610 20              11-BSAUnknown[all]
-19610 21              11-BSAUnknown[all]
-19610 22              11-BSAUnknown[all]
-19610 23              11-BSAUnknown[all]
-19610 24              11-BSAUnknown[all]
-19610 25              11-BSAUnknown[all]
-19610 26              11-BSAUnknown[all]
-19610 27              11-BSAUnknown[all]
-19610 28              11-BSAUnknown[all]
-19610 29              11-BSAUnknown[all]
-19610 30              11-BSAUnknown[all]
-19610 31              11-BSAUnknown[all]
-19610 32              11-BSAUnknown[all]
-19610 33              11-BSAUnknown[all]
-19610 34              11-BSAUnknown[all]
-19610 35              11-BSAUnknown[all]
-19610 36              11-BSAUnknown[all]
-19610 37              11-BSAUnknown[all]
-19610 38              11-BSAUnknown[all]
-19610 39              11-BSAUnknown[all]
-19610 40              11-BSAUnknown[all]
-19610 41              11-BSAUnknown[all]
-19610 42              11-BSAUnknown[all]
-19610 43              11-BSAUnknown[all]
-19610 44              11-BSAUnknown[all]
-19610 45              11-BSAUnknown[all]
-19610 46              11-BSAUnknown[all]
-19610 47              11-BSAUnknown[all]
-19610 48              11-BSAUnknown[all]
-19610 49              11-BSAUnknown[all]
-19610 50              11-BSAUnknown[all]
-19610 51              11-BSAUnknown[all]
-19610 52              11-BSAUnknown[all]
-19610 53              11-BSAUnknown[all]
-19610 54              11-BSAUnknown[all]
-19610 55              11-BSAUnknown[all]
-19610 56              11-BSAUnknown[all]
-19610 57            2-MarginalOutlier[2]           11-BSAUnknown[all]
+19610 1              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19610 2              0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 3              0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 4              0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 5              0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 6              0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 7              0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 8              0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 9              0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 10             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 11             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 12             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 13             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 14             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 15             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 16             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 17             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 18             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 19             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 20             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 21             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 22             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 23             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 24             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 25             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 26             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 27             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 28             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 29             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 30             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 31             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 32             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 33             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 34             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 35             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 36             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 37             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 38             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 39             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 40             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 41             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 42             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 43             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 44             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 45             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 46             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 47             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 48             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 49             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 50             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 51             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 52             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 53             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 54             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 55             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 56             0-TotalOutlier[all]           11-BSAUnknown[all]
+19610 57             0-TotalOutlier[all]           11-BSAUnknown[all]
 19610 58          1-TerminalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19611
 ----------------------------------------------------------------------------------
 19611 0           1-TerminalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
-19611 1               4-LowLiveTime[all]           11-BSAUnknown[all]
-19611 2               11-BSAUnknown[all]
-19611 3               11-BSAUnknown[all]
-19611 4               11-BSAUnknown[all]
-19611 5               11-BSAUnknown[all]
-19611 6               11-BSAUnknown[all]
-19611 7               11-BSAUnknown[all]
-19611 8               11-BSAUnknown[all]
-19611 9               11-BSAUnknown[all]
-19611 10              11-BSAUnknown[all]
-19611 11              11-BSAUnknown[all]
-19611 12              11-BSAUnknown[all]
-19611 13              11-BSAUnknown[all]
-19611 14              11-BSAUnknown[all]
-19611 15              11-BSAUnknown[all]
-19611 16              11-BSAUnknown[all]
-19611 17              11-BSAUnknown[all]
-19611 18              11-BSAUnknown[all]
-19611 19              11-BSAUnknown[all]
-19611 20              11-BSAUnknown[all]
-19611 21              11-BSAUnknown[all]
-19611 22              11-BSAUnknown[all]
-19611 23              11-BSAUnknown[all]
-19611 24            2-MarginalOutlier[2]           11-BSAUnknown[all]
-19611 25              11-BSAUnknown[all]
-19611 26              11-BSAUnknown[all]
-19611 27              11-BSAUnknown[all]
-19611 28              11-BSAUnknown[all]
-19611 29              11-BSAUnknown[all]
-19611 30              11-BSAUnknown[all]
-19611 31              11-BSAUnknown[all]
-19611 32              11-BSAUnknown[all]
-19611 33              11-BSAUnknown[all]
-19611 34              11-BSAUnknown[all]
-19611 35              11-BSAUnknown[all]
-19611 36              11-BSAUnknown[all]
-19611 37              11-BSAUnknown[all]
-19611 38              11-BSAUnknown[all]
-19611 39              11-BSAUnknown[all]
-19611 40              11-BSAUnknown[all]
-19611 41            2-MarginalOutlier[2]           11-BSAUnknown[all]
-19611 42              11-BSAUnknown[all]
-19611 43            2-MarginalOutlier[2]           11-BSAUnknown[all]
-19611 44              11-BSAUnknown[all]
-19611 45              11-BSAUnknown[all]
-19611 46              11-BSAUnknown[all]
-19611 47              11-BSAUnknown[all]
-19611 48              11-BSAUnknown[all]
-19611 49              11-BSAUnknown[all]
-19611 50              11-BSAUnknown[all]
-19611 51              11-BSAUnknown[all]
-19611 52              11-BSAUnknown[all]
-19611 53              11-BSAUnknown[all]
-19611 54              11-BSAUnknown[all]
-19611 55              11-BSAUnknown[all]
-19611 56              11-BSAUnknown[all]
-19611 57              11-BSAUnknown[all]
+19611 1              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19611 2              0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 3              0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 4              0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 5              0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 6              0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 7              0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 8              0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 9              0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 10             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 11             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 12             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 13             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 14             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 15             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 16             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 17             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 18             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 19             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 20             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 21             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 22             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 23             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 24             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 25             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 26             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 27             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 28             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 29             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 30             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 31             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 32             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 33             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 34             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 35             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 36             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 37             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 38             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 39             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 40             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 41             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 42             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 43             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 44             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 45             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 46             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 47             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 48             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 49             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 50             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 51             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 52             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 53             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 54             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 55             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 56             0-TotalOutlier[all]           11-BSAUnknown[all]
+19611 57             0-TotalOutlier[all]           11-BSAUnknown[all]
 19611 58          1-TerminalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19612
 ----------------------------------------------------------------------------------
 19612 0           1-TerminalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
-19612 1               4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 2             2-MarginalOutlier[4]           4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 3               4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 4               4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 5               4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 6               4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 7               4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 8            2-MarginalOutlier[14]           4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 9               4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 10              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 11              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 12              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 13              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 14              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 15              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 16              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 17              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 18              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 19            2-MarginalOutlier[2]           4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 20              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 21              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 22              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 23              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 24              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 25              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 26              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 27              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 28              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 29              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 30            2-MarginalOutlier[5]           4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 31              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 32              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 33              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 34              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 35              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 36              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 37              4-LowLiveTime[all]           11-BSAUnknown[all]
-19612 38            2-MarginalOutlier[4]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 1              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 2              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 3              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 4              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 5              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 6              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 7              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 8              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 9              0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 10             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 11             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 12             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 13             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 14             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 15             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 16             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 17             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 18             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 19             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 20             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 21             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 22             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 23             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 24             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 25             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 26             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 27             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 28             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 29             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 30             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 31             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 32             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 33             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 34             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 35             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 36             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 37             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
+19612 38             0-TotalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]
 19612 39          1-TerminalOutlier[all]           4-LowLiveTime[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 
 ==================================================================================
@@ -27361,7 +27361,7 @@ RUN: 19615
 19615 4     |
 19615 5     |
 19615 6     |
-19615 7            2-MarginalOutlier[24]
+19615 7             2-MarginalOutlier[4]
 19615 8     |
 19615 9     |
 19615 10    |
@@ -27386,7 +27386,7 @@ RUN: 19615
 19615 29    |
 19615 30    |
 19615 31    |
-19615 32            2-MarginalOutlier[5]
+19615 32    |
 19615 33    |
 19615 34    |
 19615 35    |
@@ -28407,7 +28407,7 @@ RUN: 19621
 19621 115   |
 19621 116   |
 19621 117   |
-19621 118           2-MarginalOutlier[3]
+19621 118   |
 19621 119   |
 19621 120   |
 19621 121   |
@@ -28444,10 +28444,10 @@ RUN: 19623
 19623 8           2-MarginalOutlier[all]           4-LowLiveTime[all]
 19623 9           2-MarginalOutlier[all]           4-LowLiveTime[all]
 19623 10          2-MarginalOutlier[all]           4-LowLiveTime[all]
-19623 11          2-MarginalOutlier[all]           4-LowLiveTime[all]
+19623 11        2-MarginalOutlier[12346]           4-LowLiveTime[all]
 19623 12          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19623 13          2-MarginalOutlier[all]
-19623 14          2-MarginalOutlier[all]           4-LowLiveTime[all]
+19623 14        2-MarginalOutlier[13456]           4-LowLiveTime[all]
 19623 15          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 
 ==================================================================================
@@ -28723,7 +28723,7 @@ RUN: 19626
 19626 30          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19626 31          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19626 32          2-MarginalOutlier[all]           4-LowLiveTime[all]
-19626 33        2-MarginalOutlier[12456]
+19626 33         2-MarginalOutlier[1256]
 19626 34          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19626 35          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19626 36          2-MarginalOutlier[all]           4-LowLiveTime[all]
@@ -28753,7 +28753,7 @@ RUN: 19626
 19626 60          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19626 61          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19626 62          2-MarginalOutlier[all]           4-LowLiveTime[all]
-19626 63        2-MarginalOutlier[12456]
+19626 63         2-MarginalOutlier[1256]
 19626 64          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19626 65          2-MarginalOutlier[all]           4-LowLiveTime[all]
 19626 66          2-MarginalOutlier[all]           4-LowLiveTime[all]
