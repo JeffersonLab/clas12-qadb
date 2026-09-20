@@ -15,12 +15,12 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 
 | Run | `Misc` defect? | Unique Comments |
 | --- | ---            | ---             |
-| 19660      | no    |  |
-| 19662      | no    |  |
-| 19663      | no    |  |
-| 19664      | no    |  |
-| 19665      | no    |  |
-| 19666      | no    |  |
+| 19660      | yes   | <pre>lumi scan: 10 nA</pre> |
+| 19662      | yes   | <pre>lumi scan: 30 nA</pre> |
+| 19663      | yes   | <pre>lumi scan: 50 nA</pre> |
+| 19664      | yes   | <pre>lumi scan: 65 nA</pre> |
+| 19665      | yes   | <pre>lumi scan: 75 nA</pre> |
+| 19666      | yes   | <pre>lumi scan: 90 nA</pre> |
 | 19668      | no    |  |
 | 19669      | no    |  |
 | 19670      | no    |  |
@@ -79,7 +79,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19750      | no    |  |
 | 19751      | no    |  |
 | 19752      | no    |  |
-| 19753      | no    |  |
+| 19753      | yes   | <pre>HVECAL4 board 5 is not communicating</pre> |
 | 19754      | no    |  |
 | 19755      | no    |  |
 | 19756      | no    |  |

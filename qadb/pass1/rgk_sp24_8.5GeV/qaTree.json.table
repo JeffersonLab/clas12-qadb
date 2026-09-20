@@ -2,132 +2,132 @@
 ==================================================================================
 RUN: 19660
 ----------------------------------------------------------------------------------
-19660 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19660 1     |
-19660 2             2-MarginalOutlier[5]
-19660 3     |
-19660 4     |
-19660 5     |
-19660 6             2-MarginalOutlier[1]
-19660 7     |
-19660 8     |
-19660 9     |
-19660 10    |
-19660 11    |
-19660 12    |
-19660 13    |
-19660 14    |
-19660 15    |
-19660 16    |
-19660 17    |
-19660 18    |
-19660 19    |
-19660 20            2-MarginalOutlier[6]
-19660 21    |
-19660 22    |
-19660 23            2-MarginalOutlier[5]
-19660 24           2-MarginalOutlier[23]
-19660 25    |
-19660 26    |
-19660 27          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19660 0     :: lumi scan: 10 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19660 1     :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 2     :: lumi scan: 10 nA ::         2-MarginalOutlier[5]                  5-Misc[all]
+19660 3     :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 4     :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 5     :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 6     :: lumi scan: 10 nA ::         2-MarginalOutlier[1]                  5-Misc[all]
+19660 7     :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 8     :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 9     :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 10    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 11    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 12    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 13    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 14    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 15    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 16    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 17    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 18    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 19    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 20    :: lumi scan: 10 nA ::         2-MarginalOutlier[6]                  5-Misc[all]
+19660 21    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 22    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 23    :: lumi scan: 10 nA ::         2-MarginalOutlier[5]                  5-Misc[all]
+19660 24    :: lumi scan: 10 nA ::        2-MarginalOutlier[23]                  5-Misc[all]
+19660 25    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 26    :: lumi scan: 10 nA ::                  5-Misc[all]
+19660 27    :: lumi scan: 10 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19662
 ----------------------------------------------------------------------------------
-19662 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19662 1     |
-19662 2     |
-19662 3     |
-19662 4     |
-19662 5             2-MarginalOutlier[1]
-19662 6     |
-19662 7     |
-19662 8     |
-19662 9     |
-19662 10    |
-19662 11            2-MarginalOutlier[3]
-19662 12            2-MarginalOutlier[2]
-19662 13            2-MarginalOutlier[2]
-19662 14    |
-19662 15    |
-19662 16            2-MarginalOutlier[3]
-19662 17            2-MarginalOutlier[3]
-19662 18    |
-19662 19            2-MarginalOutlier[3]
-19662 20            2-MarginalOutlier[6]
-19662 21          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19662 0     :: lumi scan: 30 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19662 1     :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 2     :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 3     :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 4     :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 5     :: lumi scan: 30 nA ::         2-MarginalOutlier[1]                  5-Misc[all]
+19662 6     :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 7     :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 8     :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 9     :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 10    :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 11    :: lumi scan: 30 nA ::         2-MarginalOutlier[3]                  5-Misc[all]
+19662 12    :: lumi scan: 30 nA ::         2-MarginalOutlier[2]                  5-Misc[all]
+19662 13    :: lumi scan: 30 nA ::         2-MarginalOutlier[2]                  5-Misc[all]
+19662 14    :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 15    :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 16    :: lumi scan: 30 nA ::         2-MarginalOutlier[3]                  5-Misc[all]
+19662 17    :: lumi scan: 30 nA ::         2-MarginalOutlier[3]                  5-Misc[all]
+19662 18    :: lumi scan: 30 nA ::                  5-Misc[all]
+19662 19    :: lumi scan: 30 nA ::         2-MarginalOutlier[3]                  5-Misc[all]
+19662 20    :: lumi scan: 30 nA ::         2-MarginalOutlier[6]                  5-Misc[all]
+19662 21    :: lumi scan: 30 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19663
 ----------------------------------------------------------------------------------
-19663 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19663 1           2-MarginalOutlier[125]
-19663 2             2-MarginalOutlier[3]
-19663 3     |
-19663 4     |
-19663 5     |
-19663 6     |
-19663 7     |
-19663 8             2-MarginalOutlier[6]
-19663 9     |
-19663 10    |
-19663 11    |
-19663 12           2-MarginalOutlier[56]
-19663 13    |
-19663 14          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19663 0     :: lumi scan: 50 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19663 1     :: lumi scan: 50 nA ::       2-MarginalOutlier[125]                  5-Misc[all]
+19663 2     :: lumi scan: 50 nA ::         2-MarginalOutlier[3]                  5-Misc[all]
+19663 3     :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 4     :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 5     :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 6     :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 7     :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 8     :: lumi scan: 50 nA ::         2-MarginalOutlier[6]                  5-Misc[all]
+19663 9     :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 10    :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 11    :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 12    :: lumi scan: 50 nA ::        2-MarginalOutlier[56]                  5-Misc[all]
+19663 13    :: lumi scan: 50 nA ::                  5-Misc[all]
+19663 14    :: lumi scan: 50 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19664
 ----------------------------------------------------------------------------------
-19664 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19664 1               4-LowLiveTime[all]
-19664 2     |
-19664 3     |
-19664 4     |
-19664 5     |
-19664 6     |
-19664 7     |
-19664 8     |
-19664 9          2-MarginalOutlier[2345]
-19664 10    |
-19664 11    |
-19664 12    |
-19664 13          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19664 0     :: lumi scan: 65 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19664 1     :: lumi scan: 65 nA ::           4-LowLiveTime[all]                  5-Misc[all]
+19664 2     :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 3     :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 4     :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 5     :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 6     :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 7     :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 8     :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 9     :: lumi scan: 65 nA ::      2-MarginalOutlier[2345]                  5-Misc[all]
+19664 10    :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 11    :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 12    :: lumi scan: 65 nA ::                  5-Misc[all]
+19664 13    :: lumi scan: 65 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19665
 ----------------------------------------------------------------------------------
-19665 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19665 1     |
-19665 2     |
-19665 3     |
-19665 4     |
-19665 5     |
-19665 6     |
-19665 7     |
-19665 8     |
-19665 9     |
-19665 10    |
-19665 11    |
-19665 12            2-MarginalOutlier[2]
-19665 13          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19665 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19665 1     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 2     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 3     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 4     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 5     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 6     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 7     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 8     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 9     :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 10    :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 11    :: lumi scan: 75 nA ::                  5-Misc[all]
+19665 12    :: lumi scan: 75 nA ::         2-MarginalOutlier[2]                  5-Misc[all]
+19665 13    :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19666
 ----------------------------------------------------------------------------------
-19666 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
-19666 1     |
-19666 2     |
-19666 3     |
-19666 4     |
-19666 5     |
-19666 6     |
-19666 7     |
-19666 8     |
-19666 9     |
-19666 10    |
-19666 11    |
-19666 12          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19666 0     :: lumi scan: 90 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
+19666 1     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 2     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 3     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 4     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 5     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 6     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 7     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 8     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 9     :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 10    :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 11    :: lumi scan: 90 nA ::                  5-Misc[all]
+19666 12    :: lumi scan: 90 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19668
@@ -7981,29 +7981,29 @@ RUN: 19753
 19753 7     |
 19753 8     |
 19753 9     |
-19753 10            2-MarginalOutlier[4]
-19753 11            2-MarginalOutlier[4]
-19753 12    |
-19753 13    |
-19753 14            2-MarginalOutlier[4]
-19753 15            2-MarginalOutlier[4]
-19753 16            2-MarginalOutlier[4]
-19753 17            2-MarginalOutlier[4]
-19753 18            2-MarginalOutlier[4]
-19753 19            2-MarginalOutlier[4]
-19753 20            2-MarginalOutlier[4]
-19753 21    |
-19753 22    |
-19753 23    |
-19753 24    |
-19753 25    |
-19753 26    |
-19753 27    |
-19753 28    |
-19753 29            2-MarginalOutlier[4]
-19753 30            2-MarginalOutlier[4]
-19753 31            2-MarginalOutlier[4]
-19753 32          1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
+19753 10    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 11    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 12    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 13    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 14    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 15    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 16    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 17    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 18    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 19    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 20    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 21    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 22    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 23    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 24    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 25    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 26    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 27    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 28    :: HVECAL4 board 5 is not communicating ::              3-SectorLoss[4]                    5-Misc[4]
+19753 29    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 30    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 31    :: HVECAL4 board 5 is not communicating ::         2-MarginalOutlier[4]              3-SectorLoss[4]                    5-Misc[4]
+19753 32    :: HVECAL4 board 5 is not communicating ::       1-TerminalOutlier[all]              3-SectorLoss[4]           4-LowLiveTime[all]                    5-Misc[4]        18-ChargeUnknown[all]
 
 ==================================================================================
 RUN: 19754
