@@ -1,0 +1,65 @@
+[project]
+site_name          = "QADB Documentation"
+repo_url           = "https://github.com/JeffersonLab/clas12-qadb"
+use_directory_urls = false
+extra              = { homepage = "index.html" }
+nav = [
+  { "🟣 Home"               = "index.md" },
+  { "⭐ Usage Guide"        = "usage.md" },
+  { "⭐ Defect Bits"        = "bitdefs.md" },
+  { "⭐ Available Datasets" = "datasets.md" },
+  { "💻 Setup"              = "setup.md" },
+  { "💻 Maintenance"        = "maintenance.md" },
+  { "💻 QA Ground Rules"    = "rules.md" },
+]
+
+[project.theme]
+variant = "classic"
+logo = "logo.png"
+favicon = "logo.png"
+features = [
+  "content.code.copy",
+  "content.code.select",
+  "content.tooltips",
+  "search.suggest",
+]
+[[project.theme.palette]]
+media       = "(prefers-color-scheme)"
+primary     = "purple"
+accent      = "green"
+toggle.icon = "material/brightness-auto"
+toggle.name = "Switch to light mode"
+[[project.theme.palette]]
+media       = "(prefers-color-scheme: light)"
+scheme      = "default"
+primary     = "purple"
+accent      = "green"
+toggle.icon = "material/weather-sunny"
+toggle.name = "Switch to dark mode"
+[[project.theme.palette]]
+media       = "(prefers-color-scheme: dark)"
+scheme      = "slate"
+primary     = "purple"
+accent      = "green"
+toggle.icon = "material/weather-night"
+toggle.name = "Switch to system preference"
+
+[project.plugins]
+search = {}
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+pymdownx.inlinehilite = {}
+pymdownx.snippets = {}
+pymdownx.details = {}
+"pymdownx.highlight" = { anchor_linenums = true, line_spans = "__span", pygments_lang_class = true }
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+[[project.markdown_extensions."pymdownx.superfences".custom_fences]]
+name   = "mermaid"
+class  = "mermaid"
+format = "pymdownx.superfences.fence_code_format"
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true

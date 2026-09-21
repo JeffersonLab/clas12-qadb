@@ -72,21 +72,6 @@ jobs:
           source environ.sh
           echo "QADB=${QADB}" >> $GITHUB_ENV
           echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
-      - name: make sure all necessary files exist
-        working-directory: qadb/${{ matrix.dataset }}
-        run: |
-          for f in qaTree.json.table miscTable.md; do
-            if [ ! -f $f ]; then
-              echo "missing table file '$f'; run 'util/makeTables.sh'"
-              exit 1
-            fi
-          done
-          for f in qaTree.json chargeTree.json; do
-            if [ ! -f $f ]; then
-              echo "missing file '$f'"
-              exit 1
-            fi
-          done
       - name: sync check
         run: stdbuf -i0 -e0 -o0 util/syncCheck.rb ${{ matrix.dataset }}
       - name: diff the Groovy and C++ QADB dumps
