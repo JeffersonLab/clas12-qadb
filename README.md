@@ -482,44 +482,44 @@ The following tables describe the available datasets in the _latest_ version of 
 <details>
 <summary>Fall 2023 and Spring 2024 Pass 1</summary>
 
-| :minidisc: Dataset:    | `rgk_fa23_6.4GeV` (pass 1)  |
-| ---                    | ---                         |
-| **Status:**            | :x: QADB not yet produced   |
-| **Timelines:**         |                             |
-| **Data:**              |                             |
-| **Files Used for QA:** |                             |
-| **Runs:**              |                             |
-| **Issues with QADB:**  |                             |
-| **Cross Check:**       | Lucilla Lanza and Mike Wood |
-| **FC Charge Method:**  |                             |
-| **Cook:** `recharge`   |                             |
-| **Cook:** `coatjava`   |                             |
+| :minidisc: Dataset:    | `rgk_fa23_6.4GeV` (pass 1)                                           |
+| ---                    | ---                                                                  |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                            |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/rgk_fa23_6.4GeV/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/fall2023/pass1/6395MeV/dst`     |
+| **Files Used for QA:** | full DST files                                                       |
+| **Runs:**              | 19204 - 19260                                                        |
+| **Issues with QADB:**  | :white_check_mark: None                                              |
+| **Cross Check:**       | Bhawani Singh                                                        |
+| **FC Charge Method:**  | Used as is                                                           |
+| **Cook:** `recharge`   | `false` (note: `README.json` file not on tape)                       |
+| **Cook:** `coatjava`   | 13.8.2 (note: `README.json` file not on tape)                        |
 
-| :minidisc: Dataset:    | `rgk_sp24_6.4GeV` (pass 1)  |
-| ---                    | ---                         |
-| **Status:**            | :x: QADB not yet produced   |
-| **Timelines:**         |                             |
-| **Data:**              |                             |
-| **Files Used for QA:** |                             |
-| **Runs:**              |                             |
-| **Issues with QADB:**  |                             |
-| **Cross Check:**       | Lucilla Lanza and Mike Wood |
-| **FC Charge Method:**  |                             |
-| **Cook:** `recharge`   |                             |
-| **Cook:** `coatjava`   |                             |
+| :minidisc: Dataset:    | `rgk_sp24_6.4GeV` (pass 1)                                           |
+| ---                    | ---                                                                  |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                            |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/rgk_sp24_6.4GeV/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/spring2024/pass1/6395MeV/dst`   |
+| **Files Used for QA:** | full DST files                                                       |
+| **Runs:**              | 19308 - 19659                                                        |
+| **Issues with QADB:**  | :white_check_mark: None                                              |
+| **Cross Check:**       | Bhawani Singh                                                        |
+| **FC Charge Method:**  | Used as is                                                           |
+| **Cook:** `recharge`   | `false` (note: `README.json` file not on tape)                       |
+| **Cook:** `coatjava`   | 13.8.2 (note: `README.json` file not on tape)                        |
 
-| :minidisc: Dataset:    | `rgk_sp24_8.5GeV` (pass 1)  |
-| ---                    | ---                         |
-| **Status:**            | :x: QADB not yet produced   |
-| **Timelines:**         |                             |
-| **Data:**              |                             |
-| **Files Used for QA:** |                             |
-| **Runs:**              |                             |
-| **Issues with QADB:**  |                             |
-| **Cross Check:**       | Lucilla Lanza and Mike Wood |
-| **FC Charge Method:**  |                             |
-| **Cook:** `recharge`   |                             |
-| **Cook:** `coatjava`   |                             |
+| :minidisc: Dataset:    | `rgk_sp24_8.5GeV` (pass 1)                                           |
+| ---                    | ---                                                                  |
+| **Status:**            | :green_circle: Latest Cook and Up to Date                            |
+| **Timelines:**         | <https://clas12mon.jlab.org/rgk/pass1/qa/rgk_sp24_8.5GeV/tlsummary/> |
+| **Data:**              | `/cache/clas12/rg-k/production/recon/spring2024/pass1/8477MeV/dst`   |
+| **Files Used for QA:** | full DST files                                                       |
+| **Runs:**              | 19660 - 19893                                                        |
+| **Issues with QADB:**  | :white_check_mark: None                                              |
+| **Cross Check:**       | Bhawani Singh                                                        |
+| **FC Charge Method:**  | Used as is                                                           |
+| **Cook:** `recharge`   | `false` (note: `README.json` file not on tape)                       |
+| **Cook:** `coatjava`   | 13.8.2 (note: `README.json` file not on tape)                        |
 
 </details>
 
