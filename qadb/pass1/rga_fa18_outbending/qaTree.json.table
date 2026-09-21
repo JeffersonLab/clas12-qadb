@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 5422
+https://clas12mon.jlab.org/runs/summaries/?run=5422&runmax=5522&runmin=5322
+----------------------------------------------------------------------------------
+  user_comment:               outb dc validation, forward tagger high voltages were not on 
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               29.2738
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_outb_dc_validation.cnf
 ----------------------------------------------------------------------------------
 5422 0     :: outbending DC validation; FT HV not on ::       1-TerminalOutlier[all]                  5-Misc[all]
 5422 5     :: outbending DC validation; FT HV not on ::                  5-Misc[all]
@@ -10,6 +18,14 @@ RUN: 5422
 
 ==================================================================================
 RUN: 5423
+https://clas12mon.jlab.org/runs/summaries/?run=5423&runmax=5523&runmin=5323
+----------------------------------------------------------------------------------
+  user_comment:               v22_0_outb_dc_validation.cnf
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               38.0207
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_outb_dc_validation.cnf
 ----------------------------------------------------------------------------------
 5423 0     :: DC validation; appears to be good run ::      2-MarginalOutlier[1345]
 5423 5     :: DC validation; appears to be good run :: |
@@ -70,6 +86,14 @@ RUN: 5423
 
 ==================================================================================
 RUN: 5424
+https://clas12mon.jlab.org/runs/summaries/?run=5424&runmax=5524&runmin=5324
+----------------------------------------------------------------------------------
+  user_comment:               no_dc_roads.cnf, good run, keep!
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               -0.00649446
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5424 0     |
 5424 5     |
@@ -296,6 +320,14 @@ RUN: 5424
 
 ==================================================================================
 RUN: 5425
+https://clas12mon.jlab.org/runs/summaries/?run=5425&runmax=5525&runmin=5325
+----------------------------------------------------------------------------------
+  user_comment:               triger_v22_0_no_dc_roads.cnf
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               0.00541205
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5425 0     |
 5425 5     |
@@ -526,6 +558,14 @@ RUN: 5425
 
 ==================================================================================
 RUN: 5426
+https://clas12mon.jlab.org/runs/summaries/?run=5426&runmax=5526&runmin=5326
+----------------------------------------------------------------------------------
+  user_comment:               no dc road trigger
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               0.0129889
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5426 0     |
 5426 5     |
@@ -590,6 +630,14 @@ RUN: 5426
 
 ==================================================================================
 RUN: 5428
+https://clas12mon.jlab.org/runs/summaries/?run=5428&runmax=5528&runmin=5328
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               39.1681
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5428 0           1-TerminalOutlier[all]
 5428 5     |
@@ -825,6 +873,14 @@ RUN: 5428
 
 ==================================================================================
 RUN: 5429
+https://clas12mon.jlab.org/runs/summaries/?run=5429&runmax=5529&runmin=5329
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               39.3337
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5429 0     |
 5429 5     |
@@ -1034,6 +1090,14 @@ RUN: 5429
 
 ==================================================================================
 RUN: 5430
+https://clas12mon.jlab.org/runs/summaries/?run=5430&runmax=5530&runmin=5330
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               39.2688
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5430 0           2-MarginalOutlier[all]
 5430 5     |
@@ -1258,6 +1322,14 @@ RUN: 5430
 
 ==================================================================================
 RUN: 5431
+https://clas12mon.jlab.org/runs/summaries/?run=5431&runmax=5531&runmin=5331
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               -0.0162362
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5431 0         1-TerminalOutlier[13456]              3-SectorLoss[2]
 5431 5                  3-SectorLoss[2]
@@ -1348,6 +1420,14 @@ RUN: 5431
 
 ==================================================================================
 RUN: 5432
+https://clas12mon.jlab.org/runs/summaries/?run=5432&runmax=5532&runmin=5332
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.615
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5432 0     |
 5432 5     |
@@ -1571,6 +1651,14 @@ RUN: 5432
 
 ==================================================================================
 RUN: 5434
+https://clas12mon.jlab.org/runs/summaries/?run=5434&runmax=5534&runmin=5334
+----------------------------------------------------------------------------------
+  user_comment:               no connection ECAL sector 2
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               39.429
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5434 0     :: no connection to ECAL sector 2, but N/F looks normal :: |
 5434 5     :: no connection to ECAL sector 2, but N/F looks normal :: |
@@ -1794,6 +1882,14 @@ RUN: 5434
 
 ==================================================================================
 RUN: 5435
+https://clas12mon.jlab.org/runs/summaries/?run=5435&runmax=5535&runmin=5335
+----------------------------------------------------------------------------------
+  user_comment:               null
+  target:                     null
+  beam_current_request:       null
+  beam_current:               0.0194834
+  run_type:                   null
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5435 0     |
 5435 5     |
@@ -2017,6 +2113,14 @@ RUN: 5435
 
 ==================================================================================
 RUN: 5436
+https://clas12mon.jlab.org/runs/summaries/?run=5436&runmax=5536&runmin=5336
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40
+  beam_current:               39.1843
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5436 0     |
 5436 5     |
@@ -2248,6 +2352,14 @@ RUN: 5436
 
 ==================================================================================
 RUN: 5437
+https://clas12mon.jlab.org/runs/summaries/?run=5437&runmax=5537&runmin=5337
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40
+  beam_current:               0.00865928
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5437 0     |
 5437 5     |
@@ -2343,6 +2455,14 @@ RUN: 5437
 
 ==================================================================================
 RUN: 5438
+https://clas12mon.jlab.org/runs/summaries/?run=5438&runmax=5538&runmin=5338
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               37.8281
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5438 0           1-TerminalOutlier[all]
 5438 5     |
@@ -2542,6 +2662,14 @@ RUN: 5438
 
 ==================================================================================
 RUN: 5439
+https://clas12mon.jlab.org/runs/summaries/?run=5439&runmax=5539&runmin=5339
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.9743
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5439 0         1-TerminalOutlier[13456]              3-SectorLoss[2]
 5439 5                  3-SectorLoss[2]
@@ -2560,6 +2688,14 @@ RUN: 5439
 
 ==================================================================================
 RUN: 5440
+https://clas12mon.jlab.org/runs/summaries/?run=5440&runmax=5540&runmin=5340
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               41.176
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5440 0           1-TerminalOutlier[all]
 5440 5     |
@@ -2788,6 +2924,14 @@ RUN: 5440
 
 ==================================================================================
 RUN: 5441
+https://clas12mon.jlab.org/runs/summaries/?run=5441&runmax=5541&runmin=5341
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               35.5647
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5441 0           1-TerminalOutlier[all]
 5441 5     |
@@ -3014,6 +3158,14 @@ RUN: 5441
 
 ==================================================================================
 RUN: 5442
+https://clas12mon.jlab.org/runs/summaries/?run=5442&runmax=5542&runmin=5342
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.5641
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5442 0     |
 5442 5     |
@@ -3162,6 +3314,14 @@ RUN: 5442
 
 ==================================================================================
 RUN: 5443
+https://clas12mon.jlab.org/runs/summaries/?run=5443&runmax=5543&runmin=5343
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               4.5905
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5443 0     :: low current run (5 nA); N/F higher than normal ::     1-TerminalOutlier[12346]         2-MarginalOutlier[5]                  5-Misc[all]
 5443 5     :: low current run (5 nA); N/F higher than normal ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -3192,6 +3352,14 @@ RUN: 5443
 
 ==================================================================================
 RUN: 5444
+https://clas12mon.jlab.org/runs/summaries/?run=5444&runmax=5544&runmin=5344
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       20 nA
+  beam_current:               18.927
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5444 0     :: low current run (20 nA); N/F higher than normal ::                  5-Misc[all]
 5444 5     :: low current run (20 nA); N/F higher than normal ::        2-MarginalOutlier[23]                  5-Misc[all]
@@ -3267,6 +3435,14 @@ RUN: 5444
 
 ==================================================================================
 RUN: 5445
+https://clas12mon.jlab.org/runs/summaries/?run=5445&runmax=5545&runmin=5345
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               39.2947
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5445 0           1-TerminalOutlier[346]       2-MarginalOutlier[125]
 5445 5     |
@@ -3491,6 +3667,14 @@ RUN: 5445
 
 ==================================================================================
 RUN: 5447
+https://clas12mon.jlab.org/runs/summaries/?run=5447&runmax=5547&runmin=5347
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               39.9983
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5447 0           1-TerminalOutlier[all]
 5447 5     |
@@ -3725,6 +3909,14 @@ RUN: 5447
 
 ==================================================================================
 RUN: 5448
+https://clas12mon.jlab.org/runs/summaries/?run=5448&runmax=5548&runmin=5348
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               39.049
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5448 0     :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however ::       1-TerminalOutlier[all]                  5-Misc[all]
 5448 5     :: DVCS N/Q with exclusivity cuts is 25% lower than adjacent runs; trigger N/Q is normal, however ::                  5-Misc[all]
@@ -3988,6 +4180,14 @@ RUN: 5448
 
 ==================================================================================
 RUN: 5449
+https://clas12mon.jlab.org/runs/summaries/?run=5449&runmax=5549&runmin=5349
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.0305
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5449 0         2-MarginalOutlier[12456]
 5449 5     |
@@ -4208,6 +4408,14 @@ RUN: 5449
 
 ==================================================================================
 RUN: 5450
+https://clas12mon.jlab.org/runs/summaries/?run=5450&runmax=5550&runmin=5350
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.5706
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5450 0     |
 5450 5     |
@@ -4227,6 +4435,14 @@ RUN: 5450
 
 ==================================================================================
 RUN: 5451
+https://clas12mon.jlab.org/runs/summaries/?run=5451&runmax=5551&runmin=5351
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.6929
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5451 0           1-TerminalOutlier[all]
 5451 5     |
@@ -4414,6 +4630,14 @@ RUN: 5451
 
 ==================================================================================
 RUN: 5452
+https://clas12mon.jlab.org/runs/summaries/?run=5452&runmax=5552&runmin=5352
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               39.7158
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5452 0     |
 5452 5     |
@@ -4642,6 +4866,14 @@ RUN: 5452
 
 ==================================================================================
 RUN: 5453
+https://clas12mon.jlab.org/runs/summaries/?run=5453&runmax=5553&runmin=5353
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               36.816
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5453 0          1-TerminalOutlier[1245]        2-MarginalOutlier[36]
 5453 5     |
@@ -4833,6 +5065,14 @@ RUN: 5453
 
 ==================================================================================
 RUN: 5454
+https://clas12mon.jlab.org/runs/summaries/?run=5454&runmax=5554&runmin=5354
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               -0.0487085
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5454 0     |
 5454 5     |
@@ -5070,6 +5310,14 @@ RUN: 5454
 
 ==================================================================================
 RUN: 5455
+https://clas12mon.jlab.org/runs/summaries/?run=5455&runmax=5555&runmin=5355
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               39.0598
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5455 0         2-MarginalOutlier[13456]
 5455 5     |
@@ -5290,6 +5538,14 @@ RUN: 5455
 
 ==================================================================================
 RUN: 5456
+https://clas12mon.jlab.org/runs/summaries/?run=5456&runmax=5556&runmin=5356
+----------------------------------------------------------------------------------
+  user_comment:               low current run at 15 nA, for luminosity dependence study
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               40.1996
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5456 0     :: low current run (15 nA) for luminosity dependence study; N/F was drifting upward throughout this run ::              3-SectorLoss[5]                  5-Misc[all]
 5456 5     :: low current run (15 nA) for luminosity dependence study; N/F was drifting upward throughout this run ::              3-SectorLoss[5]                  5-Misc[all]
@@ -5516,6 +5772,14 @@ RUN: 5456
 
 ==================================================================================
 RUN: 5457
+https://clas12mon.jlab.org/runs/summaries/?run=5457&runmax=5557&runmin=5357
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       16 nA
+  beam_current:               10.3857
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5457 0     :: low current run (16 nA); N/F higher than usual ::              3-SectorLoss[2]                  5-Misc[all]
 5457 5     :: low current run (16 nA); N/F higher than usual ::            0-TotalOutlier[6]      2-MarginalOutlier[1345]              3-SectorLoss[2]                  5-Misc[all]
@@ -5524,6 +5788,14 @@ RUN: 5457
 
 ==================================================================================
 RUN: 5460
+https://clas12mon.jlab.org/runs/summaries/?run=5460&runmax=5560&runmin=5360
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.8769
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5460 0           2-MarginalOutlier[all]
 5460 5     |
@@ -5722,6 +5994,14 @@ RUN: 5460
 
 ==================================================================================
 RUN: 5462
+https://clas12mon.jlab.org/runs/summaries/?run=5462&runmax=5562&runmin=5362
+----------------------------------------------------------------------------------
+  user_comment:               dc42 links down
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               0.0
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5462 0     :: hardly any beam ::              3-SectorLoss[4]                  5-Misc[all]
 5462 5     :: hardly any beam ::              3-SectorLoss[4]                  5-Misc[all]
@@ -5732,6 +6012,14 @@ RUN: 5462
 
 ==================================================================================
 RUN: 5464
+https://clas12mon.jlab.org/runs/summaries/?run=5464&runmax=5564&runmin=5364
+----------------------------------------------------------------------------------
+  user_comment:               daq test
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               -0.00432964
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5464 0     |
 5464 5     |
@@ -5978,6 +6266,14 @@ RUN: 5464
 
 ==================================================================================
 RUN: 5465
+https://clas12mon.jlab.org/runs/summaries/?run=5465&runmax=5565&runmin=5365
+----------------------------------------------------------------------------------
+  user_comment:               DC Sector 1 HV trip at the end of run
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.5565
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5465 0           1-TerminalOutlier[all]
 5465 5     |
@@ -6068,6 +6364,14 @@ RUN: 5465
 
 ==================================================================================
 RUN: 5466
+https://clas12mon.jlab.org/runs/summaries/?run=5466&runmax=5566&runmin=5366
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               0.023813
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5466 0     |
 5466 5     |
@@ -6161,6 +6465,14 @@ RUN: 5466
 
 ==================================================================================
 RUN: 5467
+https://clas12mon.jlab.org/runs/summaries/?run=5467&runmax=5567&runmin=5367
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               0.0173186
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5467 0     |
 5467 5     |
@@ -6404,6 +6716,14 @@ RUN: 5467
 
 ==================================================================================
 RUN: 5468
+https://clas12mon.jlab.org/runs/summaries/?run=5468&runmax=5568&runmin=5368
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               8.77402
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5468 0     |
 5468 5     |
@@ -6625,6 +6945,14 @@ RUN: 5468
 
 ==================================================================================
 RUN: 5469
+https://clas12mon.jlab.org/runs/summaries/?run=5469&runmax=5569&runmin=5369
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               39.2785
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5469 0           1-TerminalOutlier[all]
 5469 5     |
@@ -6750,6 +7078,14 @@ RUN: 5469
 
 ==================================================================================
 RUN: 5470
+https://clas12mon.jlab.org/runs/summaries/?run=5470&runmax=5570&runmin=5370
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               39.049
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5470 0           1-TerminalOutlier[135]       2-MarginalOutlier[246]
 5470 5     |
@@ -6835,6 +7171,14 @@ RUN: 5470
 
 ==================================================================================
 RUN: 5471
+https://clas12mon.jlab.org/runs/summaries/?run=5471&runmax=5571&runmin=5371
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               38.34
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5471 0     |
 5471 5     |
@@ -7024,6 +7368,14 @@ RUN: 5471
 
 ==================================================================================
 RUN: 5472
+https://clas12mon.jlab.org/runs/summaries/?run=5472&runmax=5572&runmin=5372
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               37.8356
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5472 0             1-TerminalOutlier[5]     2-MarginalOutlier[12346]
 5472 5     |
@@ -7171,6 +7523,14 @@ RUN: 5472
 
 ==================================================================================
 RUN: 5473
+https://clas12mon.jlab.org/runs/summaries/?run=5473&runmax=5573&runmin=5373
+----------------------------------------------------------------------------------
+  user_comment:               beam unstable through the run
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               38.707
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5473 0     |
 5473 5     |
@@ -7238,6 +7598,14 @@ RUN: 5473
 
 ==================================================================================
 RUN: 5474
+https://clas12mon.jlab.org/runs/summaries/?run=5474&runmax=5574&runmin=5374
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               0.0313899
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5474 0     |
 5474 5     |
@@ -7466,6 +7834,14 @@ RUN: 5474
 
 ==================================================================================
 RUN: 5475
+https://clas12mon.jlab.org/runs/summaries/?run=5475&runmax=5575&runmin=5375
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               -0.0151537
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5475 0             1-TerminalOutlier[4]     2-MarginalOutlier[12356]
 5475 5     |
@@ -7693,6 +8069,14 @@ RUN: 5475
 
 ==================================================================================
 RUN: 5476
+https://clas12mon.jlab.org/runs/summaries/?run=5476&runmax=5576&runmin=5376
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               38.9938
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5476 0           1-TerminalOutlier[all]
 5476 5     |
@@ -7809,6 +8193,14 @@ RUN: 5476
 
 ==================================================================================
 RUN: 5478
+https://clas12mon.jlab.org/runs/summaries/?run=5478&runmax=5578&runmin=5378
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40
+  beam_current:               38.9592
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5478 0     |
 5478 5     |
@@ -8035,6 +8427,14 @@ RUN: 5478
 
 ==================================================================================
 RUN: 5479
+https://clas12mon.jlab.org/runs/summaries/?run=5479&runmax=5579&runmin=5379
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40
+  beam_current:               39.2298
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5479 0           1-TerminalOutlier[all]
 5479 5     |
@@ -8261,6 +8661,14 @@ RUN: 5479
 
 ==================================================================================
 RUN: 5480
+https://clas12mon.jlab.org/runs/summaries/?run=5480&runmax=5580&runmin=5380
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               -0.00432964
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5480 0           1-TerminalOutlier[all]
 5480 5     |
@@ -8379,6 +8787,14 @@ RUN: 5480
 
 ==================================================================================
 RUN: 5481
+https://clas12mon.jlab.org/runs/summaries/?run=5481&runmax=5581&runmin=5381
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               38.5121
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5481 0     |
 5481 5     |
@@ -8610,6 +9026,14 @@ RUN: 5481
 
 ==================================================================================
 RUN: 5482
+https://clas12mon.jlab.org/runs/summaries/?run=5482&runmax=5582&runmin=5382
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               -0.0205658
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5482 0     |
 5482 5     |
@@ -8836,6 +9260,14 @@ RUN: 5482
 
 ==================================================================================
 RUN: 5483
+https://clas12mon.jlab.org/runs/summaries/?run=5483&runmax=5583&runmin=5383
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               38.8856
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5483 0           1-TerminalOutlier[all]
 5483 5     |
@@ -9075,6 +9507,14 @@ RUN: 5483
 
 ==================================================================================
 RUN: 5485
+https://clas12mon.jlab.org/runs/summaries/?run=5485&runmax=5585&runmin=5385
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               38.6875
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5485 0           1-TerminalOutlier[all]
 5485 5     |
@@ -9300,6 +9740,14 @@ RUN: 5485
 
 ==================================================================================
 RUN: 5486
+https://clas12mon.jlab.org/runs/summaries/?run=5486&runmax=5586&runmin=5386
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               39.259
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5486 0           1-TerminalOutlier[all]
 5486 5     |
@@ -9526,6 +9974,14 @@ RUN: 5486
 
 ==================================================================================
 RUN: 5487
+https://clas12mon.jlab.org/runs/summaries/?run=5487&runmax=5587&runmin=5387
+----------------------------------------------------------------------------------
+  user_comment:               Ended early due to injector trip
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               -0.0129889
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5487 0     |
 5487 5     |
@@ -9698,6 +10154,14 @@ RUN: 5487
 
 ==================================================================================
 RUN: 5495
+https://clas12mon.jlab.org/runs/summaries/?run=5495&runmax=5595&runmin=5395
+----------------------------------------------------------------------------------
+  user_comment:               BST occupancy plots empty
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               39.1291
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5495 0     :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective ::                  5-Misc[all]
 5495 5     :: BST occupancy plots empty; SVT alarm; run looks good from QA perspective ::                  5-Misc[all]
@@ -9744,6 +10208,14 @@ RUN: 5495
 
 ==================================================================================
 RUN: 5496
+https://clas12mon.jlab.org/runs/summaries/?run=5496&runmax=5596&runmin=5396
+----------------------------------------------------------------------------------
+  user_comment:               empty BST occupancy
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               -0.023813
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5496 0     :: BST occupancy plots still empty; very short run; looks ok from QA perspective ::                  5-Misc[all]
 5496 5     :: BST occupancy plots still empty; very short run; looks ok from QA perspective ::                  5-Misc[all]
@@ -9751,6 +10223,14 @@ RUN: 5496
 
 ==================================================================================
 RUN: 5497
+https://clas12mon.jlab.org/runs/summaries/?run=5497&runmax=5597&runmin=5397
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               37.289
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5497 0           1-TerminalOutlier[all]
 5497 5     |
@@ -9988,6 +10468,14 @@ RUN: 5497
 
 ==================================================================================
 RUN: 5498
+https://clas12mon.jlab.org/runs/summaries/?run=5498&runmax=5598&runmin=5398
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               38.7947
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5498 0           1-TerminalOutlier[all]
 5498 5     |
@@ -10095,6 +10583,14 @@ RUN: 5498
 
 ==================================================================================
 RUN: 5499
+https://clas12mon.jlab.org/runs/summaries/?run=5499&runmax=5599&runmin=5399
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               33.0135
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5499 0           1-TerminalOutlier[all]
 5499 5     |
@@ -10318,6 +10814,14 @@ RUN: 5499
 
 ==================================================================================
 RUN: 5500
+https://clas12mon.jlab.org/runs/summaries/?run=5500&runmax=5600&runmin=5400
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               -0.00865928
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_0_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5500 0           2-MarginalOutlier[456]
 5500 5     |
@@ -10557,6 +11061,14 @@ RUN: 5500
 
 ==================================================================================
 RUN: 5504
+https://clas12mon.jlab.org/runs/summaries/?run=5504&runmax=5604&runmin=5404
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               0.0313899
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5504 0     |
 5504 5     |
@@ -10578,6 +11090,14 @@ RUN: 5504
 
 ==================================================================================
 RUN: 5505
+https://clas12mon.jlab.org/runs/summaries/?run=5505&runmax=5605&runmin=5405
+----------------------------------------------------------------------------------
+  user_comment:               sterted with 40nA, then increased to 50
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               41.0244
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5505 0     :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run ::                  5-Misc[all]
 5505 5     :: for RGA pass1 outbending data,  this marks the run where the current changed from 40 to 50 nA; it changed about halfway through this run ::                  5-Misc[all]
@@ -10710,6 +11230,14 @@ RUN: 5505
 
 ==================================================================================
 RUN: 5507
+https://clas12mon.jlab.org/runs/summaries/?run=5507&runmax=5607&runmin=5407
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               -0.0411316
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5507 0     |
 5507 5     |
@@ -10949,6 +11477,14 @@ RUN: 5507
 
 ==================================================================================
 RUN: 5516
+https://clas12mon.jlab.org/runs/summaries/?run=5516&runmax=5616&runmin=5416
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               48.6045
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5516 0           1-TerminalOutlier[all]
 5516 5     |
@@ -11200,6 +11736,14 @@ RUN: 5516
 
 ==================================================================================
 RUN: 5517
+https://clas12mon.jlab.org/runs/summaries/?run=5517&runmax=5617&runmin=5417
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               48.7788
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5517 0           1-TerminalOutlier[all]
 5517 5     |
@@ -11539,6 +12083,14 @@ RUN: 5517
 
 ==================================================================================
 RUN: 5518
+https://clas12mon.jlab.org/runs/summaries/?run=5518&runmax=5618&runmin=5418
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               48.9769
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5518 0     |
 5518 5     |
@@ -11684,6 +12236,14 @@ RUN: 5518
 
 ==================================================================================
 RUN: 5519
+https://clas12mon.jlab.org/runs/summaries/?run=5519&runmax=5619&runmin=5419
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.6545
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5519 0           1-TerminalOutlier[all]
 5519 5     |
@@ -11929,6 +12489,14 @@ RUN: 5519
 
 ==================================================================================
 RUN: 5520
+https://clas12mon.jlab.org/runs/summaries/?run=5520&runmax=5620&runmin=5420
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               -0.0248954
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5520 0            2-MarginalOutlier[35]
 5520 5     |
@@ -12176,6 +12744,14 @@ RUN: 5520
 
 ==================================================================================
 RUN: 5521
+https://clas12mon.jlab.org/runs/summaries/?run=5521&runmax=5621&runmin=5421
+----------------------------------------------------------------------------------
+  user_comment:               problems with SVT (latchup)
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.00865928
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5521 0     :: SVT latchup problem; QA looks ok :: |
 5521 5     :: SVT latchup problem; QA looks ok :: |
@@ -12246,6 +12822,14 @@ RUN: 5521
 
 ==================================================================================
 RUN: 5522
+https://clas12mon.jlab.org/runs/summaries/?run=5522&runmax=5622&runmin=5422
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.8903
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5522 0           1-TerminalOutlier[all]
 5522 5     |
@@ -12408,6 +12992,14 @@ RUN: 5522
 
 ==================================================================================
 RUN: 5523
+https://clas12mon.jlab.org/runs/summaries/?run=5523&runmax=5623&runmin=5423
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               32.9594
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5523 0     |
 5523 5     |
@@ -12654,6 +13246,14 @@ RUN: 5523
 
 ==================================================================================
 RUN: 5524
+https://clas12mon.jlab.org/runs/summaries/?run=5524&runmax=5624&runmin=5424
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0205658
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5524 0     |
 5524 5     |
@@ -12812,6 +13412,14 @@ RUN: 5524
 
 ==================================================================================
 RUN: 5525
+https://clas12mon.jlab.org/runs/summaries/?run=5525&runmax=5625&runmin=5425
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.7162
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5525 0           1-TerminalOutlier[all]
 5525 5     |
@@ -13073,6 +13681,14 @@ RUN: 5525
 
 ==================================================================================
 RUN: 5526
+https://clas12mon.jlab.org/runs/summaries/?run=5526&runmax=5626&runmin=5426
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               47.0524
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5526 0     |
 5526 5     |
@@ -13318,6 +13934,14 @@ RUN: 5526
 
 ==================================================================================
 RUN: 5527
+https://clas12mon.jlab.org/runs/summaries/?run=5527&runmax=5627&runmin=5427
+----------------------------------------------------------------------------------
+  user_comment:               Production data
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               49.0884
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5527 0     |
 5527 5     |
@@ -13669,6 +14293,14 @@ RUN: 5527
 
 ==================================================================================
 RUN: 5528
+https://clas12mon.jlab.org/runs/summaries/?run=5528&runmax=5628&runmin=5428
+----------------------------------------------------------------------------------
+  user_comment:               Production Run
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               48.9975
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5528 0           1-TerminalOutlier[all]
 5528 5     |
@@ -14010,6 +14642,14 @@ RUN: 5528
 
 ==================================================================================
 RUN: 5530
+https://clas12mon.jlab.org/runs/summaries/?run=5530&runmax=5630&runmin=5430
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               49.0029
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5530 0     |
 5530 5     |
@@ -14258,6 +14898,14 @@ RUN: 5530
 
 ==================================================================================
 RUN: 5532
+https://clas12mon.jlab.org/runs/summaries/?run=5532&runmax=5632&runmin=5432
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               48.308
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5532 0     |
 5532 5     |
@@ -14503,6 +15151,14 @@ RUN: 5532
 
 ==================================================================================
 RUN: 5533
+https://clas12mon.jlab.org/runs/summaries/?run=5533&runmax=5633&runmin=5433
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               48.7247
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5533 0     |
 5533 5     |
@@ -14744,6 +15400,14 @@ RUN: 5533
 
 ==================================================================================
 RUN: 5534
+https://clas12mon.jlab.org/runs/summaries/?run=5534&runmax=5634&runmin=5434
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.0797
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5534 0           1-TerminalOutlier[all]
 5534 5     |
@@ -14982,6 +15646,14 @@ RUN: 5534
 
 ==================================================================================
 RUN: 5535
+https://clas12mon.jlab.org/runs/summaries/?run=5535&runmax=5635&runmin=5435
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0119065
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5535 0     |
 5535 5     |
@@ -15248,6 +15920,14 @@ RUN: 5535
 
 ==================================================================================
 RUN: 5536
+https://clas12mon.jlab.org/runs/summaries/?run=5536&runmax=5636&runmin=5436
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               48.2116
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5536 0     |
 5536 5     |
@@ -15452,6 +16132,14 @@ RUN: 5536
 
 ==================================================================================
 RUN: 5537
+https://clas12mon.jlab.org/runs/summaries/?run=5537&runmax=5637&runmin=5437
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.0786
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5537 0           1-TerminalOutlier[all]
 5537 5     |
@@ -15703,6 +16391,14 @@ RUN: 5537
 
 ==================================================================================
 RUN: 5538
+https://clas12mon.jlab.org/runs/summaries/?run=5538&runmax=5638&runmin=5438
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.1672
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5538 0           1-TerminalOutlier[all]
 5538 5     |
@@ -15965,6 +16661,14 @@ RUN: 5538
 
 ==================================================================================
 RUN: 5540
+https://clas12mon.jlab.org/runs/summaries/?run=5540&runmax=5640&runmin=5440
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               47.4604
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5540 0           1-TerminalOutlier[all]
 5540 5     |
@@ -16219,6 +16923,14 @@ RUN: 5540
 
 ==================================================================================
 RUN: 5541
+https://clas12mon.jlab.org/runs/summaries/?run=5541&runmax=5641&runmin=5441
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               31.7125
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5541 0     |
 5541 5     |
@@ -16439,6 +17151,14 @@ RUN: 5541
 
 ==================================================================================
 RUN: 5542
+https://clas12mon.jlab.org/runs/summaries/?run=5542&runmax=5642&runmin=5442
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               47.9876
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5542 0     :: TRGbit 2 not present ::     1-TerminalOutlier[13456]              3-SectorLoss[2]                  5-Misc[all]
 5542 5     :: TRGbit 2 not present ::              3-SectorLoss[2]                  5-Misc[all]
@@ -16453,6 +17173,14 @@ RUN: 5542
 
 ==================================================================================
 RUN: 5543
+https://clas12mon.jlab.org/runs/summaries/?run=5543&runmax=5643&runmin=5443
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.1142
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5543 0     |
 5543 5     |
@@ -16726,6 +17454,14 @@ RUN: 5543
 
 ==================================================================================
 RUN: 5544
+https://clas12mon.jlab.org/runs/summaries/?run=5544&runmax=5644&runmin=5444
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.5656
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5544 0           1-TerminalOutlier[145]       2-MarginalOutlier[236]
 5544 5     |
@@ -16995,6 +17731,14 @@ RUN: 5544
 
 ==================================================================================
 RUN: 5545
+https://clas12mon.jlab.org/runs/summaries/?run=5545&runmax=5645&runmin=5445
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.1414
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5545 0           1-TerminalOutlier[all]
 5545 5     |
@@ -17068,6 +17812,14 @@ RUN: 5545
 
 ==================================================================================
 RUN: 5546
+https://clas12mon.jlab.org/runs/summaries/?run=5546&runmax=5646&runmin=5446
+----------------------------------------------------------------------------------
+  user_comment:               previous run adcftof6vtp crash
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               33.8502
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5546 0           1-TerminalOutlier[all]
 5546 5     |
@@ -17085,6 +17837,14 @@ RUN: 5546
 
 ==================================================================================
 RUN: 5547
+https://clas12mon.jlab.org/runs/summaries/?run=5547&runmax=5647&runmin=5447
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.5104
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5547 0     |
 5547 5     |
@@ -17329,6 +18089,14 @@ RUN: 5547
 
 ==================================================================================
 RUN: 5548
+https://clas12mon.jlab.org/runs/summaries/?run=5548&runmax=5648&runmin=5448
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.9022
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5548 0     |
 5548 5     |
@@ -17603,6 +18371,14 @@ RUN: 5548
 
 ==================================================================================
 RUN: 5549
+https://clas12mon.jlab.org/runs/summaries/?run=5549&runmax=5649&runmin=5449
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.8448
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5549 0           1-TerminalOutlier[all]
 5549 5     |
@@ -17868,6 +18644,14 @@ RUN: 5549
 
 ==================================================================================
 RUN: 5550
+https://clas12mon.jlab.org/runs/summaries/?run=5550&runmax=5650&runmin=5450
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               47.5827
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5550 0           1-TerminalOutlier[all]
 5550 5     |
@@ -18114,6 +18898,14 @@ RUN: 5550
 
 ==================================================================================
 RUN: 5551
+https://clas12mon.jlab.org/runs/summaries/?run=5551&runmax=5651&runmin=5451
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.7864
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5551 0           1-TerminalOutlier[all]
 5551 5     |
@@ -18360,6 +19152,14 @@ RUN: 5551
 
 ==================================================================================
 RUN: 5552
+https://clas12mon.jlab.org/runs/summaries/?run=5552&runmax=5652&runmin=5452
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.9401
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5552 0           1-TerminalOutlier[all]
 5552 5     |
@@ -18612,6 +19412,14 @@ RUN: 5552
 
 ==================================================================================
 RUN: 5554
+https://clas12mon.jlab.org/runs/summaries/?run=5554&runmax=5654&runmin=5454
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.8818
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5554 0     :: sector 1 was lower than normal, but not by much; marked as sectorLoss anyway ::     1-TerminalOutlier[23456]              3-SectorLoss[1]
 5554 5     :: sector 1 was lower than normal, but not by much; marked as sectorLoss anyway ::              3-SectorLoss[1]
@@ -18857,6 +19665,14 @@ RUN: 5554
 
 ==================================================================================
 RUN: 5555
+https://clas12mon.jlab.org/runs/summaries/?run=5555&runmax=5655&runmin=5455
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.6013
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5555 0     |
 5555 5     |
@@ -19106,6 +19922,14 @@ RUN: 5555
 
 ==================================================================================
 RUN: 5556
+https://clas12mon.jlab.org/runs/summaries/?run=5556&runmax=5656&runmin=5456
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.0299
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5556 0     |
 5556 5     |
@@ -19383,6 +20207,14 @@ RUN: 5556
 
 ==================================================================================
 RUN: 5557
+https://clas12mon.jlab.org/runs/summaries/?run=5557&runmax=5657&runmin=5457
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.86
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5557 0           1-TerminalOutlier[all]
 5557 5     |
@@ -19645,6 +20477,14 @@ RUN: 5557
 
 ==================================================================================
 RUN: 5558
+https://clas12mon.jlab.org/runs/summaries/?run=5558&runmax=5658&runmin=5458
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.322
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5558 0     |
 5558 5     |
@@ -19893,6 +20733,14 @@ RUN: 5558
 
 ==================================================================================
 RUN: 5559
+https://clas12mon.jlab.org/runs/summaries/?run=5559&runmax=5659&runmin=5459
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.1629
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5559 0     |
 5559 5     |
@@ -20103,6 +20951,14 @@ RUN: 5559
 
 ==================================================================================
 RUN: 5561
+https://clas12mon.jlab.org/runs/summaries/?run=5561&runmax=5661&runmin=5461
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.3384
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5561 0                  3-SectorLoss[4]
 5561 5                  3-SectorLoss[4]
@@ -20221,6 +21077,14 @@ RUN: 5561
 
 ==================================================================================
 RUN: 5562
+https://clas12mon.jlab.org/runs/summaries/?run=5562&runmax=5662&runmin=5462
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.5266
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5562 0     |
 5562 5     |
@@ -20233,6 +21097,14 @@ RUN: 5562
 
 ==================================================================================
 RUN: 5564
+https://clas12mon.jlab.org/runs/summaries/?run=5564&runmax=5664&runmin=5464
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               4.5905
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5564 0     :: low current run; fraction of events with defined helicity is low ::       1-TerminalOutlier[all]                  5-Misc[all]
 5564 5     :: low current run; fraction of events with defined helicity is low ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -20256,6 +21128,14 @@ RUN: 5564
 
 ==================================================================================
 RUN: 5565
+https://clas12mon.jlab.org/runs/summaries/?run=5565&runmax=5665&runmin=5465
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5nA
+  beam_current:               4.01574
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5565 0     :: low current run; fraction of events with defined helicity is low ::       1-TerminalOutlier[all]                  5-Misc[all]
 5565 5     :: low current run; fraction of events with defined helicity is low ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -20263,6 +21143,14 @@ RUN: 5565
 
 ==================================================================================
 RUN: 5566
+https://clas12mon.jlab.org/runs/summaries/?run=5566&runmax=5666&runmin=5466
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               4.22032
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5566 0     :: low current run; fraction of events with defined helicity is low ::       1-TerminalOutlier[all]                  5-Misc[all]
 5566 5     :: low current run; fraction of events with defined helicity is low ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -20302,6 +21190,14 @@ RUN: 5566
 
 ==================================================================================
 RUN: 5567
+https://clas12mon.jlab.org/runs/summaries/?run=5567&runmax=5667&runmin=5467
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0140713
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5567 0     :: fraction of events with defined helicity is low ::                  5-Misc[all]
 5567 5     :: fraction of events with defined helicity is low ::                  5-Misc[all]
@@ -20374,6 +21270,14 @@ RUN: 5567
 
 ==================================================================================
 RUN: 5569
+https://clas12mon.jlab.org/runs/summaries/?run=5569&runmax=5669&runmin=5469
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               47.7191
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5569 0     |
 5569 5     |
@@ -20645,6 +21549,14 @@ RUN: 5569
 
 ==================================================================================
 RUN: 5570
+https://clas12mon.jlab.org/runs/summaries/?run=5570&runmax=5670&runmin=5470
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.5385
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5570 0           1-TerminalOutlier[all]
 5570 5     |
@@ -20904,6 +21816,14 @@ RUN: 5570
 
 ==================================================================================
 RUN: 5571
+https://clas12mon.jlab.org/runs/summaries/?run=5571&runmax=5671&runmin=5471
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0259778
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5571 0     |
 5571 5     |
@@ -21041,6 +21961,14 @@ RUN: 5571
 
 ==================================================================================
 RUN: 5572
+https://clas12mon.jlab.org/runs/summaries/?run=5572&runmax=5672&runmin=5472
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0259778
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5572 0           1-TerminalOutlier[all]
 5572 5     |
@@ -21140,6 +22068,14 @@ RUN: 5572
 
 ==================================================================================
 RUN: 5573
+https://clas12mon.jlab.org/runs/summaries/?run=5573&runmax=5673&runmin=5473
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               45.7426
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5573 0     |
 5573 5     |
@@ -21420,6 +22356,14 @@ RUN: 5573
 
 ==================================================================================
 RUN: 5574
+https://clas12mon.jlab.org/runs/summaries/?run=5574&runmax=5674&runmin=5474
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.3709
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5574 0     |
 5574 5     |
@@ -21664,6 +22608,14 @@ RUN: 5574
 
 ==================================================================================
 RUN: 5577
+https://clas12mon.jlab.org/runs/summaries/?run=5577&runmax=5677&runmin=5477
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.8396
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5577 0           1-TerminalOutlier[all]
 5577 5     |
@@ -21910,6 +22862,14 @@ RUN: 5577
 
 ==================================================================================
 RUN: 5578
+https://clas12mon.jlab.org/runs/summaries/?run=5578&runmax=5678&runmin=5478
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.6522
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5578 0     |
 5578 5     |
@@ -22077,6 +23037,14 @@ RUN: 5578
 
 ==================================================================================
 RUN: 5581
+https://clas12mon.jlab.org/runs/summaries/?run=5581&runmax=5681&runmin=5481
+----------------------------------------------------------------------------------
+  user_comment:               RGK-trigger GTP bit27 only 
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.1815
+  run_type:                   PROD66_TEST
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/FT/rgk_validation.cnf
 ----------------------------------------------------------------------------------
 5581 0     :: RGK trigger test ::       1-TerminalOutlier[all]                  5-Misc[all]
 5581 5     :: RGK trigger test ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -22086,6 +23054,14 @@ RUN: 5581
 
 ==================================================================================
 RUN: 5584
+https://clas12mon.jlab.org/runs/summaries/?run=5584&runmax=5684&runmin=5484
+----------------------------------------------------------------------------------
+  user_comment:               RGK trigger testing
+  target:                     LH2
+  beam_current_request:       10 nA
+  beam_current:               9.79581
+  run_type:                   PROD66_TEST
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/FT/rgk_validation.cnf
 ----------------------------------------------------------------------------------
 5584 0     :: RGK trigger test ::       1-TerminalOutlier[all]                  5-Misc[all]
 5584 5     :: RGK trigger test ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -22143,6 +23119,14 @@ RUN: 5584
 
 ==================================================================================
 RUN: 5586
+https://clas12mon.jlab.org/runs/summaries/?run=5586&runmax=5686&runmin=5486
+----------------------------------------------------------------------------------
+  user_comment:               empty target
+  target:                     LH2
+  beam_current_request:       100nA
+  beam_current:               72.6795
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/FT/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5586 0     :: empty target ::       1-TerminalOutlier[all]                  5-Misc[all]
 5586 5     :: empty target ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -22152,6 +23136,14 @@ RUN: 5586
 
 ==================================================================================
 RUN: 5589
+https://clas12mon.jlab.org/runs/summaries/?run=5589&runmax=5689&runmin=5489
+----------------------------------------------------------------------------------
+  user_comment:               empty target
+  target:                     LH2
+  beam_current_request:       140 nA
+  beam_current:               17.259
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5589 0     :: empty target ::       1-TerminalOutlier[all]                  5-Misc[all]
 5589 5     :: empty target ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -22214,6 +23206,14 @@ RUN: 5589
 
 ==================================================================================
 RUN: 5590
+https://clas12mon.jlab.org/runs/summaries/?run=5590&runmax=5690&runmin=5490
+----------------------------------------------------------------------------------
+  user_comment:               empty target
+  target:                     LH2
+  beam_current_request:       140 nA
+  beam_current:               96.6733
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5590 0     :: empty target ::       1-TerminalOutlier[all]                  5-Misc[all]
 5590 5     :: empty target ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -22240,6 +23240,14 @@ RUN: 5590
 
 ==================================================================================
 RUN: 5591
+https://clas12mon.jlab.org/runs/summaries/?run=5591&runmax=5691&runmin=5491
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.742
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5591 0     |
 5591 5     |
@@ -22513,6 +23521,14 @@ RUN: 5591
 
 ==================================================================================
 RUN: 5592
+https://clas12mon.jlab.org/runs/summaries/?run=5592&runmax=5692&runmin=5492
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               46.9008
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5592 0           1-TerminalOutlier[all]
 5592 5     |
@@ -22626,6 +23642,14 @@ RUN: 5592
 
 ==================================================================================
 RUN: 5594
+https://clas12mon.jlab.org/runs/summaries/?run=5594&runmax=5694&runmin=5494
+----------------------------------------------------------------------------------
+  user_comment:               new trigger file
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               15.6906
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_FT.cnf
 ----------------------------------------------------------------------------------
 5594 0           2-MarginalOutlier[all]
 5594 5     |
@@ -22640,6 +23664,14 @@ RUN: 5594
 
 ==================================================================================
 RUN: 5595
+https://clas12mon.jlab.org/runs/summaries/?run=5595&runmax=5695&runmin=5495
+----------------------------------------------------------------------------------
+  user_comment:               30 min test
+  target:                     LH2
+  beam_current_request:       70 nA
+  beam_current:               44.5412
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_FT.cnf
 ----------------------------------------------------------------------------------
 5595 0     :: higher current run (70 nA); N/F a bit lower than normal, but run is otherwise okay; no FT trigger ::       1-TerminalOutlier[all]                  5-Misc[all]
 5595 5     :: higher current run (70 nA); N/F a bit lower than normal, but run is otherwise okay; no FT trigger ::                  5-Misc[all]
@@ -22709,6 +23741,14 @@ RUN: 5595
 
 ==================================================================================
 RUN: 5597
+https://clas12mon.jlab.org/runs/summaries/?run=5597&runmax=5697&runmin=5497
+----------------------------------------------------------------------------------
+  user_comment:               still no_FT trigger
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.5495
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_FT.cnf
 ----------------------------------------------------------------------------------
 5597 0     :: no FT trigger ::       1-TerminalOutlier[all]
 5597 5     :: no FT trigger :: |
@@ -22774,6 +23814,14 @@ RUN: 5597
 
 ==================================================================================
 RUN: 5598
+https://clas12mon.jlab.org/runs/summaries/?run=5598&runmax=5698&runmin=5498
+----------------------------------------------------------------------------------
+  user_comment:               Ended run after alarm indicated low livetime
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               38.313
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5598 0     |
 5598 5     |
@@ -22876,6 +23924,14 @@ RUN: 5598
 
 ==================================================================================
 RUN: 5600
+https://clas12mon.jlab.org/runs/summaries/?run=5600&runmax=5700&runmin=5500
+----------------------------------------------------------------------------------
+  user_comment:               RICH alarm for tile 0,18
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.1057
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5600 0     |
 5600 5     |
@@ -22886,6 +23942,14 @@ RUN: 5600
 
 ==================================================================================
 RUN: 5601
+https://clas12mon.jlab.org/runs/summaries/?run=5601&runmax=5701&runmin=5501
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.6891
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5601 0     |
 5601 5     |
@@ -23081,6 +24145,14 @@ RUN: 5601
 
 ==================================================================================
 RUN: 5602
+https://clas12mon.jlab.org/runs/summaries/?run=5602&runmax=5702&runmin=5502
+----------------------------------------------------------------------------------
+  user_comment:               5 nA for the first 5 minutes of data taking
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.00541205
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5602 0     |
 5602 5             2-MarginalOutlier[2]
@@ -23324,6 +24396,14 @@ RUN: 5602
 
 ==================================================================================
 RUN: 5603
+https://clas12mon.jlab.org/runs/summaries/?run=5603&runmax=5703&runmin=5503
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.1966
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5603 0     |
 5603 5     |
@@ -23574,6 +24654,14 @@ RUN: 5603
 
 ==================================================================================
 RUN: 5604
+https://clas12mon.jlab.org/runs/summaries/?run=5604&runmax=5704&runmin=5504
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               44.0963
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5604 0     |
 5604 5     |
@@ -23595,6 +24683,14 @@ RUN: 5604
 
 ==================================================================================
 RUN: 5606
+https://clas12mon.jlab.org/runs/summaries/?run=5606&runmax=5706&runmin=5506
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               45.8736
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5606 0           1-TerminalOutlier[all]
 5606 5     |
@@ -23852,6 +24948,14 @@ RUN: 5606
 
 ==================================================================================
 RUN: 5607
+https://clas12mon.jlab.org/runs/summaries/?run=5607&runmax=5707&runmin=5507
+----------------------------------------------------------------------------------
+  user_comment:               Stopped the run earlier, since there will be no be for undertain amount of time
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               15.3594
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5607 0           1-TerminalOutlier[all]
 5607 5     |
@@ -23911,11 +25015,27 @@ RUN: 5607
 
 ==================================================================================
 RUN: 5609
+https://clas12mon.jlab.org/runs/summaries/?run=5609&runmax=5709&runmin=5509
+----------------------------------------------------------------------------------
+  user_comment:               test daq with no beam
+  target:                     LH2
+  beam_current_request:       none
+  beam_current:               0.00432964
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5609 0     :: DAQ test with no beam ::       1-TerminalOutlier[all]                  5-Misc[all]
 
 ==================================================================================
 RUN: 5610
+https://clas12mon.jlab.org/runs/summaries/?run=5610&runmax=5710&runmin=5510
+----------------------------------------------------------------------------------
+  user_comment:               test DAQ with beam
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               4.77776
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5610 0     :: missing SVT strip ::       1-TerminalOutlier[156]       2-MarginalOutlier[234]                  5-Misc[all]
 5610 5     :: missing SVT strip ::                  5-Misc[all]
@@ -23938,6 +25058,14 @@ RUN: 5610
 
 ==================================================================================
 RUN: 5611
+https://clas12mon.jlab.org/runs/summaries/?run=5611&runmax=5711&runmin=5511
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               -0.0378844
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5611 0     |
 5611 5     |
@@ -24182,6 +25310,14 @@ RUN: 5611
 
 ==================================================================================
 RUN: 5612
+https://clas12mon.jlab.org/runs/summaries/?run=5612&runmax=5712&runmin=5512
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.2939
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5612 0     |
 5612 5     |
@@ -24451,6 +25587,14 @@ RUN: 5612
 
 ==================================================================================
 RUN: 5613
+https://clas12mon.jlab.org/runs/summaries/?run=5613&runmax=5713&runmin=5513
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               6.15891
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5613 0           1-TerminalOutlier[all]
 5613 5     |
@@ -24707,6 +25851,14 @@ RUN: 5613
 
 ==================================================================================
 RUN: 5614
+https://clas12mon.jlab.org/runs/summaries/?run=5614&runmax=5714&runmin=5514
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.7182
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5614 0     |
 5614 5     |
@@ -24905,6 +26057,14 @@ RUN: 5614
 
 ==================================================================================
 RUN: 5615
+https://clas12mon.jlab.org/runs/summaries/?run=5615&runmax=5715&runmin=5515
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               -0.00324723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5615 0     :: low current at beginning of this run ::       1-TerminalOutlier[all]
 5615 5     :: low current at beginning of this run ::          0-TotalOutlier[all]
@@ -25151,6 +26311,14 @@ RUN: 5615
 
 ==================================================================================
 RUN: 5616
+https://clas12mon.jlab.org/runs/summaries/?run=5616&runmax=5716&runmin=5516
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               47.8382
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5616 0     |
 5616 5     |
@@ -25410,6 +26578,14 @@ RUN: 5616
 
 ==================================================================================
 RUN: 5617
+https://clas12mon.jlab.org/runs/summaries/?run=5617&runmax=5717&runmin=5517
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               47.8371
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5617 0     :: missing SVT strip ::                  5-Misc[all]
 5617 5     :: missing SVT strip ::                  5-Misc[all]
@@ -25421,6 +26597,14 @@ RUN: 5617
 
 ==================================================================================
 RUN: 5618
+https://clas12mon.jlab.org/runs/summaries/?run=5618&runmax=5718&runmin=5518
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               32.0231
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5618 0           1-TerminalOutlier[all]
 5618 5     |
@@ -25457,6 +26641,14 @@ RUN: 5618
 
 ==================================================================================
 RUN: 5619
+https://clas12mon.jlab.org/runs/summaries/?run=5619&runmax=5719&runmin=5519
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               49.3384
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5619 0             1-TerminalOutlier[4]     2-MarginalOutlier[12356]
 5619 5     |
@@ -25610,6 +26802,14 @@ RUN: 5619
 
 ==================================================================================
 RUN: 5620
+https://clas12mon.jlab.org/runs/summaries/?run=5620&runmax=5720&runmin=5520
+----------------------------------------------------------------------------------
+  user_comment:               beam back after 5 hours, trig rate -vs- beam current
+  target:                     LH2
+  beam_current_request:       5nA
+  beam_current:               -0.018401
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5620 0     :: test run after accelerator downtime; increasing current ::       1-TerminalOutlier[123]       2-MarginalOutlier[456]                  5-Misc[all]
 5620 5     :: test run after accelerator downtime; increasing current ::       2-MarginalOutlier[123]                  5-Misc[all]
@@ -25628,6 +26828,14 @@ RUN: 5620
 
 ==================================================================================
 RUN: 5621
+https://clas12mon.jlab.org/runs/summaries/?run=5621&runmax=5721&runmin=5521
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.5872
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5621 0     :: CND TDC empty ::       1-TerminalOutlier[all]                  5-Misc[all]
 5621 5     :: CND TDC empty ::                  5-Misc[all]
@@ -25674,6 +26882,14 @@ RUN: 5621
 
 ==================================================================================
 RUN: 5623
+https://clas12mon.jlab.org/runs/summaries/?run=5623&runmax=5723&runmin=5523
+----------------------------------------------------------------------------------
+  user_comment:               Prod, CND ToF problem
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               40.1423
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5623 0     :: CND TDC empty; `roc_reboot` issued mid-run ::       1-TerminalOutlier[all]                  5-Misc[all]
 5623 5     :: CND TDC empty; `roc_reboot` issued mid-run ::                  5-Misc[all]
@@ -25718,6 +26934,14 @@ RUN: 5623
 
 ==================================================================================
 RUN: 5624
+https://clas12mon.jlab.org/runs/summaries/?run=5624&runmax=5724&runmin=5524
+----------------------------------------------------------------------------------
+  user_comment:               Prod, CND TDC problem solved
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0357195
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5624 0     |
 5624 5     |
@@ -25963,6 +27187,14 @@ RUN: 5624
 
 ==================================================================================
 RUN: 5625
+https://clas12mon.jlab.org/runs/summaries/?run=5625&runmax=5725&runmin=5525
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               51.9449
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5625 0           1-TerminalOutlier[all]
 5625 5     |
@@ -26209,6 +27441,14 @@ RUN: 5625
 
 ==================================================================================
 RUN: 5626
+https://clas12mon.jlab.org/runs/summaries/?run=5626&runmax=5726&runmin=5526
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.5515
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5626 0     |
 5626 5     |
@@ -26454,6 +27694,14 @@ RUN: 5626
 
 ==================================================================================
 RUN: 5627
+https://clas12mon.jlab.org/runs/summaries/?run=5627&runmax=5727&runmin=5527
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               40.9822
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5627 0           1-TerminalOutlier[all]
 5627 5     |
@@ -26475,6 +27723,14 @@ RUN: 5627
 
 ==================================================================================
 RUN: 5628
+https://clas12mon.jlab.org/runs/summaries/?run=5628&runmax=5728&runmin=5528
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.1208
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5628 0     |
 5628 5     |
@@ -26734,6 +27990,14 @@ RUN: 5628
 
 ==================================================================================
 RUN: 5629
+https://clas12mon.jlab.org/runs/summaries/?run=5629&runmax=5729&runmin=5529
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.5105
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5629 0           2-MarginalOutlier[all]
 5629 5     |
@@ -26933,6 +28197,14 @@ RUN: 5629
 
 ==================================================================================
 RUN: 5630
+https://clas12mon.jlab.org/runs/summaries/?run=5630&runmax=5730&runmin=5530
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               50.6059
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5630 0           1-TerminalOutlier[all]
 5630 5     |
@@ -27192,6 +28464,14 @@ RUN: 5630
 
 ==================================================================================
 RUN: 5631
+https://clas12mon.jlab.org/runs/summaries/?run=5631&runmax=5731&runmin=5531
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               50.226
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5631 0     |
 5631 5     |
@@ -27437,6 +28717,14 @@ RUN: 5631
 
 ==================================================================================
 RUN: 5632
+https://clas12mon.jlab.org/runs/summaries/?run=5632&runmax=5732&runmin=5532
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.8383
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5632 0     |
 5632 5     |
@@ -27691,6 +28979,14 @@ RUN: 5632
 
 ==================================================================================
 RUN: 5633
+https://clas12mon.jlab.org/runs/summaries/?run=5633&runmax=5733&runmin=5533
+----------------------------------------------------------------------------------
+  user_comment:               Run stopped for Roc issues
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               47.4128
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5633 0     |
 5633 5     |
@@ -27758,11 +29054,27 @@ RUN: 5633
 
 ==================================================================================
 RUN: 5634
+https://clas12mon.jlab.org/runs/summaries/?run=5634&runmax=5734&runmin=5534
+----------------------------------------------------------------------------------
+  user_comment:               Junk
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.1943
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5634 0     :: junk ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
 
 ==================================================================================
 RUN: 5635
+https://clas12mon.jlab.org/runs/summaries/?run=5635&runmax=5735&runmin=5535
+----------------------------------------------------------------------------------
+  user_comment:               Good run
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               0.66027
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5635 0           1-TerminalOutlier[all]
 5635 5     |
@@ -28018,6 +29330,14 @@ RUN: 5635
 
 ==================================================================================
 RUN: 5637
+https://clas12mon.jlab.org/runs/summaries/?run=5637&runmax=5737&runmin=5537
+----------------------------------------------------------------------------------
+  user_comment:               DCHV trip at the very end of the run. Otherwise the run was OK. 
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.0406
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5637 0     |
 5637 5     |
@@ -28172,6 +29492,14 @@ RUN: 5637
 
 ==================================================================================
 RUN: 5638
+https://clas12mon.jlab.org/runs/summaries/?run=5638&runmax=5738&runmin=5538
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.5115
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5638 0           1-TerminalOutlier[all]
 5638 5     |
@@ -28395,6 +29723,14 @@ RUN: 5638
 
 ==================================================================================
 RUN: 5639
+https://clas12mon.jlab.org/runs/summaries/?run=5639&runmax=5739&runmin=5539
+----------------------------------------------------------------------------------
+  user_comment:               Triger bit 20 problems at the end of run. 
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               -0.00541205
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5639 0     |
 5639 5     |
@@ -28610,6 +29946,14 @@ RUN: 5639
 
 ==================================================================================
 RUN: 5641
+https://clas12mon.jlab.org/runs/summaries/?run=5641&runmax=5741&runmin=5541
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.0288
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5641 0           1-TerminalOutlier[all]
 5641 5     |
@@ -28855,6 +30199,14 @@ RUN: 5641
 
 ==================================================================================
 RUN: 5643
+https://clas12mon.jlab.org/runs/summaries/?run=5643&runmax=5743&runmin=5543
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               42.2411
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5643 0     |
 5643 5     |
@@ -28928,6 +30280,14 @@ RUN: 5643
 
 ==================================================================================
 RUN: 5644
+https://clas12mon.jlab.org/runs/summaries/?run=5644&runmax=5744&runmin=5544
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.8026
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5644 0           1-TerminalOutlier[all]
 5644 5     |
@@ -29054,6 +30414,14 @@ RUN: 5644
 
 ==================================================================================
 RUN: 5645
+https://clas12mon.jlab.org/runs/summaries/?run=5645&runmax=5745&runmin=5545
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0248954
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5645 0     |
 5645 5     |
@@ -29142,6 +30510,14 @@ RUN: 5645
 
 ==================================================================================
 RUN: 5646
+https://clas12mon.jlab.org/runs/summaries/?run=5646&runmax=5746&runmin=5546
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.4952
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5646 0           1-TerminalOutlier[all]
 5646 5     |
@@ -29403,6 +30779,14 @@ RUN: 5646
 
 ==================================================================================
 RUN: 5647
+https://clas12mon.jlab.org/runs/summaries/?run=5647&runmax=5747&runmin=5547
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.9944
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5647 0           1-TerminalOutlier[all]
 5647 5              0-TotalOutlier[all]
@@ -29661,6 +31045,14 @@ RUN: 5647
 
 ==================================================================================
 RUN: 5648
+https://clas12mon.jlab.org/runs/summaries/?run=5648&runmax=5748&runmin=5548
+----------------------------------------------------------------------------------
+  user_comment:               slot6/tdc1 tdcpcal2 error at 89M
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.8363
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5648 0     |
 5648 5     |
@@ -29908,6 +31300,14 @@ RUN: 5648
 
 ==================================================================================
 RUN: 5649
+https://clas12mon.jlab.org/runs/summaries/?run=5649&runmax=5749&runmin=5549
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.3642
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5649 0     |
 5649 5     |
@@ -30154,6 +31554,14 @@ RUN: 5649
 
 ==================================================================================
 RUN: 5650
+https://clas12mon.jlab.org/runs/summaries/?run=5650&runmax=5750&runmin=5550
+----------------------------------------------------------------------------------
+  user_comment:               trigger issue stop run
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.0125
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5650 0           1-TerminalOutlier[all]
 5650 5     |
@@ -30176,6 +31584,14 @@ RUN: 5650
 
 ==================================================================================
 RUN: 5651
+https://clas12mon.jlab.org/runs/summaries/?run=5651&runmax=5751&runmin=5551
+----------------------------------------------------------------------------------
+  user_comment:               Stop run Ftof scaler pb
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               45.2902
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5651 0           1-TerminalOutlier[all]
 5651 5     |
@@ -30295,6 +31711,14 @@ RUN: 5651
 
 ==================================================================================
 RUN: 5652
+https://clas12mon.jlab.org/runs/summaries/?run=5652&runmax=5752&runmin=5552
+----------------------------------------------------------------------------------
+  user_comment:               Problem with scalers in EPICS GUI. Stopped the run to try solve the issue. Not sure if it is junk. 
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               47.9248
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5652 0           1-TerminalOutlier[all]
 5652 5     |
@@ -30337,6 +31761,14 @@ RUN: 5652
 
 ==================================================================================
 RUN: 5654
+https://clas12mon.jlab.org/runs/summaries/?run=5654&runmax=5754&runmin=5554
+----------------------------------------------------------------------------------
+  user_comment:               Good run, no problems noticed
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               45.3606
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5654 0           1-TerminalOutlier[all]
 5654 5     |
@@ -30587,6 +32019,14 @@ RUN: 5654
 
 ==================================================================================
 RUN: 5655
+https://clas12mon.jlab.org/runs/summaries/?run=5655&runmax=5755&runmin=5555
+----------------------------------------------------------------------------------
+  user_comment:               There was a MINOR gas alarm at the end of the run, should not affect the run. 
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.1997
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5655 0     |
 5655 5     |
@@ -30832,6 +32272,14 @@ RUN: 5655
 
 ==================================================================================
 RUN: 5656
+https://clas12mon.jlab.org/runs/summaries/?run=5656&runmax=5756&runmin=5556
+----------------------------------------------------------------------------------
+  user_comment:               Solenoid tripped. Detectors were turned off at the end of te run when there was no beam. 
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.7162
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5656 0     |
 5656 5     |
@@ -30983,6 +32431,14 @@ RUN: 5656
 
 ==================================================================================
 RUN: 5662
+https://clas12mon.jlab.org/runs/summaries/?run=5662&runmax=5762&runmin=5562
+----------------------------------------------------------------------------------
+  user_comment:               One magnet down in the accelerator / stop run
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               48.7214
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5662 0           1-TerminalOutlier[all]
 5662 5     |
@@ -31201,6 +32657,14 @@ RUN: 5662
 
 ==================================================================================
 RUN: 5663
+https://clas12mon.jlab.org/runs/summaries/?run=5663&runmax=5763&runmin=5563
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.6716
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5663 0     |
 5663 5     |
@@ -31448,6 +32912,14 @@ RUN: 5663
 
 ==================================================================================
 RUN: 5664
+https://clas12mon.jlab.org/runs/summaries/?run=5664&runmax=5764&runmin=5564
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.3265
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5664 0     |
 5664 5     |
@@ -31703,6 +33175,14 @@ RUN: 5664
 
 ==================================================================================
 RUN: 5665
+https://clas12mon.jlab.org/runs/summaries/?run=5665&runmax=5765&runmin=5565
+----------------------------------------------------------------------------------
+  user_comment:               Rich issue
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               49.4423
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5665 0     |
 5665 5     |
@@ -31720,6 +33200,14 @@ RUN: 5665
 
 ==================================================================================
 RUN: 5666
+https://clas12mon.jlab.org/runs/summaries/?run=5666&runmax=5766&runmin=5566
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               0.00865928
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5666 0     |
 5666 5     |

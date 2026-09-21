@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 3211
+https://clas12mon.jlab.org/runs/summaries/?run=3211&runmax=3311&runmin=3111
+----------------------------------------------------------------------------------
+  user_comment:               Velery studies trigger #3
+  target:                     LH2
+  beam_current_request:       25 nA
+  beam_current:               2.45862
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3211 0     :: trigger studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]        18-ChargeUnknown[all]
 3211 1     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]             10-BSAWrong[all]
@@ -20,6 +28,14 @@ RUN: 3211
 
 ==================================================================================
 RUN: 3215
+https://clas12mon.jlab.org/runs/summaries/?run=3215&runmax=3315&runmin=3115
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               3.03288
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3215 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 3215 1               4-LowLiveTime[all]
@@ -127,6 +143,14 @@ RUN: 3215
 
 ==================================================================================
 RUN: 3216
+https://clas12mon.jlab.org/runs/summaries/?run=3216&runmax=3316&runmin=3116
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.1482
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3216 0     :: DAQ crash, ROC issues ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 3216 1     :: DAQ crash, ROC issues ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -144,6 +168,14 @@ RUN: 3216
 
 ==================================================================================
 RUN: 3218
+https://clas12mon.jlab.org/runs/summaries/?run=3218&runmax=3318&runmin=3118
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               4.41404E-4
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3218 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 3218 1             2-MarginalOutlier[5]           4-LowLiveTime[all]
@@ -241,6 +273,14 @@ RUN: 3218
 
 ==================================================================================
 RUN: 3219
+https://clas12mon.jlab.org/runs/summaries/?run=3219&runmax=3319&runmin=3119
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.0362
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3219 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 3219 1               4-LowLiveTime[all]
@@ -358,6 +398,14 @@ RUN: 3219
 
 ==================================================================================
 RUN: 3222
+https://clas12mon.jlab.org/runs/summaries/?run=3222&runmax=3322&runmin=3122
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       25nA
+  beam_current:               0.0
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3222 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 3222 1              0-TotalOutlier[all]       19-PossiblyNoBeam[all]
@@ -466,6 +514,14 @@ RUN: 3222
 
 ==================================================================================
 RUN: 3249
+https://clas12mon.jlab.org/runs/summaries/?run=3249&runmax=3349&runmin=3149
+----------------------------------------------------------------------------------
+  user_comment:               new PCAL firmware
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.15857
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3249 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3249 1               4-LowLiveTime[all]
@@ -608,6 +664,14 @@ RUN: 3249
 
 ==================================================================================
 RUN: 3252
+https://clas12mon.jlab.org/runs/summaries/?run=3252&runmax=3352&runmin=3152
+----------------------------------------------------------------------------------
+  user_comment:               trigger studies
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.18164
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/random_v3.cnf
 ----------------------------------------------------------------------------------
 3252 0     :: trigger studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 3252 1     :: trigger studies ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]           11-BSAUnknown[all]
@@ -892,6 +956,14 @@ RUN: 3252
 
 ==================================================================================
 RUN: 3253
+https://clas12mon.jlab.org/runs/summaries/?run=3253&runmax=3353&runmin=3153
+----------------------------------------------------------------------------------
+  user_comment:               old PCAL firmware
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.17711
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3253 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3253 1               4-LowLiveTime[all]
@@ -941,6 +1013,14 @@ RUN: 3253
 
 ==================================================================================
 RUN: 3254
+https://clas12mon.jlab.org/runs/summaries/?run=3254&runmax=3354&runmin=3154
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       30
+  beam_current:               3.07559
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3254 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3254 1               4-LowLiveTime[all]
@@ -994,6 +1074,14 @@ RUN: 3254
 
 ==================================================================================
 RUN: 3255
+https://clas12mon.jlab.org/runs/summaries/?run=3255&runmax=3355&runmin=3155
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       30
+  beam_current:               3.11488
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3255 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3255 1              0-TotalOutlier[345]       2-MarginalOutlier[126]           4-LowLiveTime[all]
@@ -1075,6 +1163,14 @@ RUN: 3255
 
 ==================================================================================
 RUN: 3260
+https://clas12mon.jlab.org/runs/summaries/?run=3260&runmax=3360&runmin=3160
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.10892
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3260 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3260 1               4-LowLiveTime[all]
@@ -1184,6 +1280,14 @@ RUN: 3260
 
 ==================================================================================
 RUN: 3261
+https://clas12mon.jlab.org/runs/summaries/?run=3261&runmax=3361&runmin=3161
+----------------------------------------------------------------------------------
+  user_comment:               production (updated trigger)
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               6.62106E-4
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3261 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3261 1               4-LowLiveTime[all]
@@ -1269,6 +1373,14 @@ RUN: 3261
 
 ==================================================================================
 RUN: 3262
+https://clas12mon.jlab.org/runs/summaries/?run=3262&runmax=3362&runmin=3162
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.09667
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3262 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3262 1               4-LowLiveTime[all]
@@ -1360,6 +1472,14 @@ RUN: 3262
 
 ==================================================================================
 RUN: 3266
+https://clas12mon.jlab.org/runs/summaries/?run=3266&runmax=3366&runmin=3166
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               2.38402
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3266 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3266 1               4-LowLiveTime[all]
@@ -1462,6 +1582,14 @@ RUN: 3266
 
 ==================================================================================
 RUN: 3267
+https://clas12mon.jlab.org/runs/summaries/?run=3267&runmax=3367&runmin=3167
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               3.0832
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3267 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3267 1               4-LowLiveTime[all]
@@ -1559,6 +1687,14 @@ RUN: 3267
 
 ==================================================================================
 RUN: 3269
+https://clas12mon.jlab.org/runs/summaries/?run=3269&runmax=3369&runmin=3169
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.0245
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3269 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3269 1     |
@@ -1671,6 +1807,14 @@ RUN: 3269
 
 ==================================================================================
 RUN: 3270
+https://clas12mon.jlab.org/runs/summaries/?run=3270&runmax=3370&runmin=3170
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               -0.00132421
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3270 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3270 1     |
@@ -1771,6 +1915,14 @@ RUN: 3270
 
 ==================================================================================
 RUN: 3278
+https://clas12mon.jlab.org/runs/summaries/?run=3278&runmax=3378&runmin=3178
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.12635
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3278 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3278 1               4-LowLiveTime[all]
@@ -1928,6 +2080,14 @@ RUN: 3278
 
 ==================================================================================
 RUN: 3279
+https://clas12mon.jlab.org/runs/summaries/?run=3279&runmax=3379&runmin=3179
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               3.13474
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3279 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3279 1               4-LowLiveTime[all]
@@ -2067,6 +2227,14 @@ RUN: 3279
 
 ==================================================================================
 RUN: 3280
+https://clas12mon.jlab.org/runs/summaries/?run=3280&runmax=3380&runmin=3180
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               3.13639
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3280 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3280 1               4-LowLiveTime[all]
@@ -2176,6 +2344,14 @@ RUN: 3280
 
 ==================================================================================
 RUN: 3281
+https://clas12mon.jlab.org/runs/summaries/?run=3281&runmax=3381&runmin=3181
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               -5.51755E-4
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3281 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3281 1              0-TotalOutlier[all]           4-LowLiveTime[all]
@@ -2296,6 +2472,14 @@ RUN: 3281
 
 ==================================================================================
 RUN: 3282
+https://clas12mon.jlab.org/runs/summaries/?run=3282&runmax=3382&runmin=3182
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.08707
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3282 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3282 1               4-LowLiveTime[all]
@@ -2404,6 +2588,14 @@ RUN: 3282
 
 ==================================================================================
 RUN: 3285
+https://clas12mon.jlab.org/runs/summaries/?run=3285&runmax=3385&runmin=3185
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               2.50916
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3285 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3285 1              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]
@@ -2498,6 +2690,14 @@ RUN: 3285
 
 ==================================================================================
 RUN: 3288
+https://clas12mon.jlab.org/runs/summaries/?run=3288&runmax=3388&runmin=3188
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               2.82344
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3288 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3288 1               4-LowLiveTime[all]
@@ -2637,6 +2837,14 @@ RUN: 3288
 
 ==================================================================================
 RUN: 3289
+https://clas12mon.jlab.org/runs/summaries/?run=3289&runmax=3389&runmin=3189
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.08144
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3289 0     :: no timestamp info and possible trigger electrons issue for most of this run; QADB binning untrustworthy ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3289 1     :: no timestamp info and possible trigger electrons issue for most of this run; QADB binning untrustworthy ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]       17-ChargeNegative[all]
@@ -2679,6 +2887,14 @@ RUN: 3289
 
 ==================================================================================
 RUN: 3290
+https://clas12mon.jlab.org/runs/summaries/?run=3290&runmax=3390&runmin=3190
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               3.14434
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3290 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3290 1               4-LowLiveTime[all]
@@ -2793,6 +3009,14 @@ RUN: 3290
 
 ==================================================================================
 RUN: 3293
+https://clas12mon.jlab.org/runs/summaries/?run=3293&runmax=3393&runmin=3193
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               -5.51755E-4
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v3.cnf
 ----------------------------------------------------------------------------------
 3293 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3293 1               4-LowLiveTime[all]
@@ -2885,6 +3109,14 @@ RUN: 3293
 
 ==================================================================================
 RUN: 3863
+https://clas12mon.jlab.org/runs/summaries/?run=3863&runmax=3963&runmin=3763
+----------------------------------------------------------------------------------
+  user_comment:               empty target
+  target:                     empty
+  beam_current_request:       150nA
+  beam_current:               107.784
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3863 0     :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3863 1     :: empty target ::                  5-Misc[all]
@@ -2997,6 +3229,14 @@ RUN: 3863
 
 ==================================================================================
 RUN: 3864
+https://clas12mon.jlab.org/runs/summaries/?run=3864&runmax=3964&runmin=3764
+----------------------------------------------------------------------------------
+  user_comment:               empty target
+  target:                     LH2
+  beam_current_request:       empty
+  beam_current:               119.634
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3864 0     :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3864 1     :: empty target ::                  5-Misc[all]
@@ -3099,6 +3339,14 @@ RUN: 3864
 
 ==================================================================================
 RUN: 3865
+https://clas12mon.jlab.org/runs/summaries/?run=3865&runmax=3965&runmin=3765
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     empty target
+  beam_current_request:       150 nA
+  beam_current:               154.385
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3865 0     :: empty target ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3865 1     :: empty target ::                  5-Misc[all]
@@ -3155,6 +3403,14 @@ RUN: 3865
 
 ==================================================================================
 RUN: 3867
+https://clas12mon.jlab.org/runs/summaries/?run=3867&runmax=3967&runmin=3767
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               41.3773
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3867 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3867 1              0-TotalOutlier[145]       2-MarginalOutlier[236]
@@ -3313,6 +3569,14 @@ RUN: 3867
 
 ==================================================================================
 RUN: 3874
+https://clas12mon.jlab.org/runs/summaries/?run=3874&runmax=3974&runmin=3774
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               31.8813
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3874 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3874 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]
@@ -3347,6 +3611,14 @@ RUN: 3874
 
 ==================================================================================
 RUN: 3875
+https://clas12mon.jlab.org/runs/summaries/?run=3875&runmax=3975&runmin=3775
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.094
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3875 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3875 1               4-LowLiveTime[all]
@@ -3489,6 +3761,14 @@ RUN: 3875
 
 ==================================================================================
 RUN: 3876
+https://clas12mon.jlab.org/runs/summaries/?run=3876&runmax=3976&runmin=3776
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.8608
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3876 0           1-TerminalOutlier[all]              3-SectorLoss[1]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3876 1                0-TotalOutlier[1]              3-SectorLoss[1]           4-LowLiveTime[all]
@@ -3525,6 +3805,14 @@ RUN: 3876
 
 ==================================================================================
 RUN: 3877
+https://clas12mon.jlab.org/runs/summaries/?run=3877&runmax=3977&runmin=3777
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               45.5424
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3877 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3877 1     |
@@ -3665,6 +3953,14 @@ RUN: 3877
 
 ==================================================================================
 RUN: 3878
+https://clas12mon.jlab.org/runs/summaries/?run=3878&runmax=3978&runmin=3778
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               -0.0108241
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3878 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3878 1     |
@@ -3742,6 +4038,14 @@ RUN: 3878
 
 ==================================================================================
 RUN: 3879
+https://clas12mon.jlab.org/runs/summaries/?run=3879&runmax=3979&runmin=3779
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               44.6678
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3879 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3879 1     |
@@ -3896,6 +4200,14 @@ RUN: 3879
 
 ==================================================================================
 RUN: 3880
+https://clas12mon.jlab.org/runs/summaries/?run=3880&runmax=3980&runmin=3780
+----------------------------------------------------------------------------------
+  user_comment:               prod run
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               47.2169
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3880 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3880 1               4-LowLiveTime[all]
@@ -4027,6 +4339,14 @@ RUN: 3880
 
 ==================================================================================
 RUN: 3881
+https://clas12mon.jlab.org/runs/summaries/?run=3881&runmax=3981&runmin=3781
+----------------------------------------------------------------------------------
+  user_comment:               we have to reboot the ROC
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.0219
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3881 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3881 1     |
@@ -4091,6 +4411,14 @@ RUN: 3881
 
 ==================================================================================
 RUN: 3882
+https://clas12mon.jlab.org/runs/summaries/?run=3882&runmax=3982&runmin=3782
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.6053
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3882 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3882 1     |
@@ -4223,6 +4551,14 @@ RUN: 3882
 
 ==================================================================================
 RUN: 3883
+https://clas12mon.jlab.org/runs/summaries/?run=3883&runmax=3983&runmin=3783
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.3315
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3883 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3883 1               4-LowLiveTime[all]
@@ -4354,6 +4690,14 @@ RUN: 3883
 
 ==================================================================================
 RUN: 3884
+https://clas12mon.jlab.org/runs/summaries/?run=3884&runmax=3984&runmin=3784
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.0728
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3884 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3884 1     |
@@ -4417,6 +4761,14 @@ RUN: 3884
 
 ==================================================================================
 RUN: 3885
+https://clas12mon.jlab.org/runs/summaries/?run=3885&runmax=3985&runmin=3785
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.3369
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3885 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3885 1               4-LowLiveTime[all]
@@ -4552,6 +4904,14 @@ RUN: 3885
 
 ==================================================================================
 RUN: 3888
+https://clas12mon.jlab.org/runs/summaries/?run=3888&runmax=3988&runmin=3788
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.2471
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3888 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3888 1               4-LowLiveTime[all]
@@ -4683,6 +5043,14 @@ RUN: 3888
 
 ==================================================================================
 RUN: 3889
+https://clas12mon.jlab.org/runs/summaries/?run=3889&runmax=3989&runmin=3789
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.2698
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3889 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3889 1     |
@@ -4813,6 +5181,14 @@ RUN: 3889
 
 ==================================================================================
 RUN: 3891
+https://clas12mon.jlab.org/runs/summaries/?run=3891&runmax=3991&runmin=3791
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               47.0502
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3891 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3891 1               4-LowLiveTime[all]
@@ -4939,6 +5315,14 @@ RUN: 3891
 
 ==================================================================================
 RUN: 3892
+https://clas12mon.jlab.org/runs/summaries/?run=3892&runmax=3992&runmin=3792
+----------------------------------------------------------------------------------
+  user_comment:               DC reg1 holdoff=1000ns
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               47.0794
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3892 0     :: N/F systematically lower than that from adjacent runs; DC reg1 holdoff=1000ns ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3892 1     :: N/F systematically lower than that from adjacent runs; DC reg1 holdoff=1000ns ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -5004,6 +5388,14 @@ RUN: 3892
 
 ==================================================================================
 RUN: 3893
+https://clas12mon.jlab.org/runs/summaries/?run=3893&runmax=3993&runmin=3793
+----------------------------------------------------------------------------------
+  user_comment:               DC reg1 back to 350ns holdoff
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               47.8057
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3893 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3893 1     |
@@ -5117,6 +5509,14 @@ RUN: 3893
 
 ==================================================================================
 RUN: 3898
+https://clas12mon.jlab.org/runs/summaries/?run=3898&runmax=3998&runmin=3798
+----------------------------------------------------------------------------------
+  user_comment:               DAQ problem, triggers
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.8402
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3898 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3898 1     |
@@ -5141,6 +5541,14 @@ RUN: 3898
 
 ==================================================================================
 RUN: 3899
+https://clas12mon.jlab.org/runs/summaries/?run=3899&runmax=3999&runmin=3799
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               -0.0259778
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3899 0     :: N/F systematically under cut line for all sectors ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3899 1     :: N/F systematically under cut line for all sectors ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -5167,6 +5575,14 @@ RUN: 3899
 
 ==================================================================================
 RUN: 3903
+https://clas12mon.jlab.org/runs/summaries/?run=3903&runmax=4003&runmin=3803
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.7569
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3903 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3903 1     |
@@ -5225,6 +5641,14 @@ RUN: 3903
 
 ==================================================================================
 RUN: 3905
+https://clas12mon.jlab.org/runs/summaries/?run=3905&runmax=4005&runmin=3805
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               37.3356
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3905 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3905 1     |
@@ -5266,6 +5690,14 @@ RUN: 3905
 
 ==================================================================================
 RUN: 3907
+https://clas12mon.jlab.org/runs/summaries/?run=3907&runmax=4007&runmin=3807
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.4462
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3907 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3907 1               4-LowLiveTime[all]
@@ -5404,6 +5836,14 @@ RUN: 3907
 
 ==================================================================================
 RUN: 3908
+https://clas12mon.jlab.org/runs/summaries/?run=3908&runmax=4008&runmin=3808
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.1442
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3908 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3908 1               4-LowLiveTime[all]
@@ -5536,6 +5976,14 @@ RUN: 3908
 
 ==================================================================================
 RUN: 3910
+https://clas12mon.jlab.org/runs/summaries/?run=3910&runmax=4010&runmin=3810
+----------------------------------------------------------------------------------
+  user_comment:               suspected target problem
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               47.1768
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3910 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3910 1     |
@@ -5613,6 +6061,14 @@ RUN: 3910
 
 ==================================================================================
 RUN: 3911
+https://clas12mon.jlab.org/runs/summaries/?run=3911&runmax=4011&runmin=3811
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               -0.00541205
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3911 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3911 1               4-LowLiveTime[all]
@@ -5646,6 +6102,14 @@ RUN: 3911
 
 ==================================================================================
 RUN: 3912
+https://clas12mon.jlab.org/runs/summaries/?run=3912&runmax=4012&runmin=3812
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               0.00541205
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3912 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3912 1               4-LowLiveTime[all]
@@ -5675,6 +6139,14 @@ RUN: 3912
 
 ==================================================================================
 RUN: 3913
+https://clas12mon.jlab.org/runs/summaries/?run=3913&runmax=4013&runmin=3813
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               -0.00541205
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3913 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3913 1                0-TotalOutlier[4]     2-MarginalOutlier[12356]
@@ -5705,6 +6177,14 @@ RUN: 3913
 
 ==================================================================================
 RUN: 3915
+https://clas12mon.jlab.org/runs/summaries/?run=3915&runmax=4015&runmin=3815
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.1475
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3915 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3915 1     |
@@ -5756,6 +6236,14 @@ RUN: 3915
 
 ==================================================================================
 RUN: 3916
+https://clas12mon.jlab.org/runs/summaries/?run=3916&runmax=4016&runmin=3816
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               32.206
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3916 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3916 1     |
@@ -5891,6 +6379,14 @@ RUN: 3916
 
 ==================================================================================
 RUN: 3917
+https://clas12mon.jlab.org/runs/summaries/?run=3917&runmax=4017&runmin=3817
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.8445
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3917 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3917 1     |
@@ -5960,6 +6456,14 @@ RUN: 3917
 
 ==================================================================================
 RUN: 3919
+https://clas12mon.jlab.org/runs/summaries/?run=3919&runmax=4019&runmin=3819
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               46.6584
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3919 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3919 1     |
@@ -5985,6 +6489,14 @@ RUN: 3919
 
 ==================================================================================
 RUN: 3920
+https://clas12mon.jlab.org/runs/summaries/?run=3920&runmax=4020&runmin=3820
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               47.337
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3920 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3920 1               4-LowLiveTime[all]
@@ -6034,6 +6546,14 @@ RUN: 3920
 
 ==================================================================================
 RUN: 3921
+https://clas12mon.jlab.org/runs/summaries/?run=3921&runmax=4021&runmin=3821
+----------------------------------------------------------------------------------
+  user_comment:               tdcecal1 started to show error flag at the end of the run
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               45.5099
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3921 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3921 1     |
@@ -6153,6 +6673,14 @@ RUN: 3921
 
 ==================================================================================
 RUN: 3923
+https://clas12mon.jlab.org/runs/summaries/?run=3923&runmax=4023&runmin=3823
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.4895
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3923 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3923 1     |
@@ -6293,6 +6821,14 @@ RUN: 3923
 
 ==================================================================================
 RUN: 3924
+https://clas12mon.jlab.org/runs/summaries/?run=3924&runmax=4024&runmin=3824
+----------------------------------------------------------------------------------
+  user_comment:               FT trigger problem
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.3737
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3924 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3924 1     |
@@ -6322,6 +6858,14 @@ RUN: 3924
 
 ==================================================================================
 RUN: 3925
+https://clas12mon.jlab.org/runs/summaries/?run=3925&runmax=4025&runmin=3825
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               29.7165
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12.cnf
 ----------------------------------------------------------------------------------
 3925 0     :: FD sectors 2 and 3 have low counts; FT has relatively large number of trigger electrons ::       1-TerminalOutlier[all]             3-SectorLoss[23]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3925 1     :: FD sectors 2 and 3 have low counts; FT has relatively large number of trigger electrons ::           0-TotalOutlier[23]             3-SectorLoss[23]                  5-Misc[all]          6-TotalOutlierFT[1]
@@ -6456,6 +7000,14 @@ RUN: 3925
 
 ==================================================================================
 RUN: 3926
+https://clas12mon.jlab.org/runs/summaries/?run=3926&runmax=4026&runmin=3826
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               47.7722
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3926 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3926 1     |
@@ -6478,6 +7030,14 @@ RUN: 3926
 
 ==================================================================================
 RUN: 3927
+https://clas12mon.jlab.org/runs/summaries/?run=3927&runmax=4027&runmin=3827
+----------------------------------------------------------------------------------
+  user_comment:               disk got full
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               45.9353
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3927 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3927 1               4-LowLiveTime[all]
@@ -6563,6 +7123,14 @@ RUN: 3927
 
 ==================================================================================
 RUN: 3928
+https://clas12mon.jlab.org/runs/summaries/?run=3928&runmax=4028&runmin=3828
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               45.9288
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3928 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3928 1               4-LowLiveTime[all]
@@ -6604,6 +7172,14 @@ RUN: 3928
 
 ==================================================================================
 RUN: 3929
+https://clas12mon.jlab.org/runs/summaries/?run=3929&runmax=4029&runmin=3829
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               41.2788
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3929 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3929 1               4-LowLiveTime[all]
@@ -6729,6 +7305,14 @@ RUN: 3929
 
 ==================================================================================
 RUN: 3930
+https://clas12mon.jlab.org/runs/summaries/?run=3930&runmax=4030&runmin=3830
+----------------------------------------------------------------------------------
+  user_comment:               vacuum problems caused early end
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.7255
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3930 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3930 1               4-LowLiveTime[all]
@@ -6777,6 +7361,14 @@ RUN: 3930
 
 ==================================================================================
 RUN: 3932
+https://clas12mon.jlab.org/runs/summaries/?run=3932&runmax=4032&runmin=3832
+----------------------------------------------------------------------------------
+  user_comment:               restart after run fail
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               47.1833
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3932 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3932 1     |
@@ -6908,6 +7500,14 @@ RUN: 3932
 
 ==================================================================================
 RUN: 3933
+https://clas12mon.jlab.org/runs/summaries/?run=3933&runmax=4033&runmin=3833
+----------------------------------------------------------------------------------
+  user_comment:               end run due to trigger rate aerror
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.9571
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3933 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3933 1               4-LowLiveTime[all]
@@ -7034,6 +7634,14 @@ RUN: 3933
 
 ==================================================================================
 RUN: 3934
+https://clas12mon.jlab.org/runs/summaries/?run=3934&runmax=4034&runmin=3834
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               45.4959
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3934 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3934 1     |
@@ -7159,6 +7767,14 @@ RUN: 3934
 
 ==================================================================================
 RUN: 3936
+https://clas12mon.jlab.org/runs/summaries/?run=3936&runmax=4036&runmin=3836
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               32.7104
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_2.cnf
 ----------------------------------------------------------------------------------
 3936 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3936 1     |
@@ -7191,6 +7807,14 @@ RUN: 3936
 
 ==================================================================================
 RUN: 3938
+https://clas12mon.jlab.org/runs/summaries/?run=3938&runmax=4038&runmin=3838
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               0.0227306
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3938 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3938 1               4-LowLiveTime[all]
@@ -7300,6 +7924,14 @@ RUN: 3938
 
 ==================================================================================
 RUN: 3939
+https://clas12mon.jlab.org/runs/summaries/?run=3939&runmax=4039&runmin=3839
+----------------------------------------------------------------------------------
+  user_comment:               stopped due to accelerator problems
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               0.00216482
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3939 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3939 1     |
@@ -7323,6 +7955,14 @@ RUN: 3939
 
 ==================================================================================
 RUN: 3940
+https://clas12mon.jlab.org/runs/summaries/?run=3940&runmax=4040&runmin=3840
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               -0.00216482
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3940 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3940 1               4-LowLiveTime[all]
@@ -7454,6 +8094,14 @@ RUN: 3940
 
 ==================================================================================
 RUN: 3941
+https://clas12mon.jlab.org/runs/summaries/?run=3941&runmax=4041&runmin=3841
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.0652
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3941 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3941 1               4-LowLiveTime[all]
@@ -7584,6 +8232,14 @@ RUN: 3941
 
 ==================================================================================
 RUN: 3943
+https://clas12mon.jlab.org/runs/summaries/?run=3943&runmax=4043&runmin=3843
+----------------------------------------------------------------------------------
+  user_comment:               Some questions as to FMT MM flat disks based on mon12
+  target:                     LH2
+  beam_current_request:       45
+  beam_current:               46.3769
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3943 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3943 1     |
@@ -7723,6 +8379,14 @@ RUN: 3943
 
 ==================================================================================
 RUN: 3944
+https://clas12mon.jlab.org/runs/summaries/?run=3944&runmax=4044&runmin=3844
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45
+  beam_current:               47.8956
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3944 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3944 1     |
@@ -7853,6 +8517,14 @@ RUN: 3944
 
 ==================================================================================
 RUN: 3945
+https://clas12mon.jlab.org/runs/summaries/?run=3945&runmax=4045&runmin=3845
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45
+  beam_current:               46.4689
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3945 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3945 1               4-LowLiveTime[all]
@@ -7919,6 +8591,14 @@ RUN: 3945
 
 ==================================================================================
 RUN: 3946
+https://clas12mon.jlab.org/runs/summaries/?run=3946&runmax=4046&runmin=3846
+----------------------------------------------------------------------------------
+  user_comment:               restsart after roc problem
+  target:                     LH2
+  beam_current_request:       45
+  beam_current:               46.6032
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3946 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3946 1               4-LowLiveTime[all]
@@ -8048,6 +8728,14 @@ RUN: 3946
 
 ==================================================================================
 RUN: 3947
+https://clas12mon.jlab.org/runs/summaries/?run=3947&runmax=4047&runmin=3847
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.1676
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3947 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3947 1               4-LowLiveTime[all]
@@ -8181,6 +8869,14 @@ RUN: 3947
 
 ==================================================================================
 RUN: 3948
+https://clas12mon.jlab.org/runs/summaries/?run=3948&runmax=4048&runmin=3848
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               45.117
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3948 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3948 1     |
@@ -8313,6 +9009,14 @@ RUN: 3948
 
 ==================================================================================
 RUN: 3949
+https://clas12mon.jlab.org/runs/summaries/?run=3949&runmax=4049&runmin=3849
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.3964
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3949 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3949 1           2-MarginalOutlier[all]           4-LowLiveTime[all]
@@ -8358,6 +9062,14 @@ RUN: 3949
 
 ==================================================================================
 RUN: 3950
+https://clas12mon.jlab.org/runs/summaries/?run=3950&runmax=4050&runmin=3850
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       45
+  beam_current:               22.7826
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3950 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3950 1            2-MarginalOutlier[12]
@@ -8501,6 +9213,14 @@ RUN: 3950
 
 ==================================================================================
 RUN: 3951
+https://clas12mon.jlab.org/runs/summaries/?run=3951&runmax=4051&runmin=3851
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.9755
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3951 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3951 1     |
@@ -8535,6 +9255,14 @@ RUN: 3951
 
 ==================================================================================
 RUN: 3953
+https://clas12mon.jlab.org/runs/summaries/?run=3953&runmax=4053&runmin=3853
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.5923
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3953 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3953 1               4-LowLiveTime[all]
@@ -8545,6 +9273,14 @@ RUN: 3953
 
 ==================================================================================
 RUN: 3954
+https://clas12mon.jlab.org/runs/summaries/?run=3954&runmax=4054&runmin=3854
+----------------------------------------------------------------------------------
+  user_comment:               Beam Down
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.4949
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3954 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3954 1               4-LowLiveTime[all]
@@ -8678,6 +9414,14 @@ RUN: 3954
 
 ==================================================================================
 RUN: 3958
+https://clas12mon.jlab.org/runs/summaries/?run=3958&runmax=4058&runmin=3858
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               0.00865928
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3958 0           1-TerminalOutlier[all]              3-SectorLoss[6]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3958 1              0-TotalOutlier[all]              3-SectorLoss[6]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
@@ -8836,6 +9580,14 @@ RUN: 3958
 
 ==================================================================================
 RUN: 3959
+https://clas12mon.jlab.org/runs/summaries/?run=3959&runmax=4059&runmin=3859
+----------------------------------------------------------------------------------
+  user_comment:               Productiion
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               -0.00216482
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3959 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3959 1             2-MarginalOutlier[5]
@@ -8962,6 +9714,14 @@ RUN: 3959
 
 ==================================================================================
 RUN: 3963
+https://clas12mon.jlab.org/runs/summaries/?run=3963&runmax=4063&runmin=3863
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               47.4301
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3963 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3963 1         2-MarginalOutlier[13456]           4-LowLiveTime[all]
@@ -9056,6 +9816,14 @@ RUN: 3963
 
 ==================================================================================
 RUN: 3964
+https://clas12mon.jlab.org/runs/summaries/?run=3964&runmax=4064&runmin=3864
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               45.9721
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3964 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3964 1     |
@@ -9127,6 +9895,14 @@ RUN: 3964
 
 ==================================================================================
 RUN: 3965
+https://clas12mon.jlab.org/runs/summaries/?run=3965&runmax=4065&runmin=3865
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               45.5089
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3965 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3965 1     |
@@ -9264,6 +10040,14 @@ RUN: 3965
 
 ==================================================================================
 RUN: 3967
+https://clas12mon.jlab.org/runs/summaries/?run=3967&runmax=4067&runmin=3867
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               0.0140713
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3967 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3967 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
@@ -9392,6 +10176,14 @@ RUN: 3967
 
 ==================================================================================
 RUN: 3968
+https://clas12mon.jlab.org/runs/summaries/?run=3968&runmax=4068&runmin=3868
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               11.6781
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3968 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3968 1               4-LowLiveTime[all]
@@ -9520,6 +10312,14 @@ RUN: 3968
 
 ==================================================================================
 RUN: 3969
+https://clas12mon.jlab.org/runs/summaries/?run=3969&runmax=4069&runmin=3869
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.0269
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3969 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3969 1               4-LowLiveTime[all]
@@ -9555,6 +10355,14 @@ RUN: 3969
 
 ==================================================================================
 RUN: 3970
+https://clas12mon.jlab.org/runs/summaries/?run=3970&runmax=4070&runmin=3870
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               8.76211
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3970 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3970 1         2-MarginalOutlier[23456]
@@ -9580,6 +10388,14 @@ RUN: 3970
 
 ==================================================================================
 RUN: 3971
+https://clas12mon.jlab.org/runs/summaries/?run=3971&runmax=4071&runmin=3871
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               31.2762
+  run_type:                   PROD
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3971 0     :: beam current changed from 30 to 45 nA during this run; relatively high number of FT electrons ::       1-TerminalOutlier[all]              3-SectorLoss[5]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3971 1     :: beam current changed from 30 to 45 nA during this run; relatively high number of FT electrons ::            0-TotalOutlier[5]              3-SectorLoss[5]           4-LowLiveTime[all]                  5-Misc[all]       8-MarginalOutlierFT[1]
@@ -9749,6 +10565,14 @@ RUN: 3971
 
 ==================================================================================
 RUN: 3973
+https://clas12mon.jlab.org/runs/summaries/?run=3973&runmax=4073&runmin=3873
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               34.2269
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3973 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3973 1     |
@@ -9881,6 +10705,14 @@ RUN: 3973
 
 ==================================================================================
 RUN: 3975
+https://clas12mon.jlab.org/runs/summaries/?run=3975&runmax=4075&runmin=3875
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.959
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3975 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3975 1               4-LowLiveTime[all]
@@ -10004,6 +10836,14 @@ RUN: 3975
 
 ==================================================================================
 RUN: 3982
+https://clas12mon.jlab.org/runs/summaries/?run=3982&runmax=4082&runmin=3882
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               41.1586
+  run_type:                   PROD_noRICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3982 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3982 1     |
@@ -10108,6 +10948,14 @@ RUN: 3982
 
 ==================================================================================
 RUN: 3985
+https://clas12mon.jlab.org/runs/summaries/?run=3985&runmax=4085&runmin=3885
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               45.5056
+  run_type:                   PROD_noRICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3985 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3985 1     |
@@ -10237,6 +11085,14 @@ RUN: 3985
 
 ==================================================================================
 RUN: 3986
+https://clas12mon.jlab.org/runs/summaries/?run=3986&runmax=4086&runmin=3886
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               47.153
+  run_type:                   PROD_noRICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3986 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3986 1     |
@@ -10341,6 +11197,14 @@ RUN: 3986
 
 ==================================================================================
 RUN: 3987
+https://clas12mon.jlab.org/runs/summaries/?run=3987&runmax=4087&runmin=3887
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               46.0576
+  run_type:                   PROD_noRICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v12_3.cnf
 ----------------------------------------------------------------------------------
 3987 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 3987 1     |

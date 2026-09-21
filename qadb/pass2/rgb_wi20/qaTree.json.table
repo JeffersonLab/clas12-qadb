@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 11323
+https://clas12mon.jlab.org/runs/summaries/?run=11323&runmax=11423&runmin=11223
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       5nA
+  beam_current:               5.62305
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11323 0     :: low lumi run, 5 nA; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11323 1     :: low lumi run, 5 nA; during setup period ::                  5-Misc[all]
@@ -13,6 +21,14 @@ RUN: 11323
 
 ==================================================================================
 RUN: 11324
+https://clas12mon.jlab.org/runs/summaries/?run=11324&runmax=11424&runmin=11224
+----------------------------------------------------------------------------------
+  user_comment:               10 nA production run
+  target:                     LD2 
+  beam_current_request:       10 nA
+  beam_current:               5.59952
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11324 0     :: low lumi run, 10 nA; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11324 1     :: low lumi run, 10 nA; during setup period ::                  5-Misc[all]
@@ -353,6 +369,14 @@ RUN: 11324
 
 ==================================================================================
 RUN: 11325
+https://clas12mon.jlab.org/runs/summaries/?run=11325&runmax=11425&runmin=11225
+----------------------------------------------------------------------------------
+  user_comment:               10 nA production run
+  target:                     LD2 
+  beam_current_request:       10 nA
+  beam_current:               9.97431
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11325 0     :: low lumi run, 10 nA; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11325 1     :: low lumi run, 10 nA; during setup period ::                  5-Misc[all]
@@ -684,6 +708,14 @@ RUN: 11325
 
 ==================================================================================
 RUN: 11326
+https://clas12mon.jlab.org/runs/summaries/?run=11326&runmax=11426&runmin=11226
+----------------------------------------------------------------------------------
+  user_comment:               Short run at 30 nA to make sure DAQ is good
+  target:                     LD2 
+  beam_current_request:       30 nA
+  beam_current:               30.1465
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11326 0     :: Short run at 30 nA to make sure DAQ is good; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11326 1     :: Short run at 30 nA to make sure DAQ is good; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -734,6 +766,14 @@ RUN: 11326
 
 ==================================================================================
 RUN: 11327
+https://clas12mon.jlab.org/runs/summaries/?run=11327&runmax=11427&runmin=11227
+----------------------------------------------------------------------------------
+  user_comment:               50 nA production run - lots of problems with DC HV trips
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               50.9508
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11327 0     :: 50 nA production run - lots of problems with DC HV trips; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11327 1     :: 50 nA production run - lots of problems with DC HV trips; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -772,6 +812,14 @@ RUN: 11327
 
 ==================================================================================
 RUN: 11328
+https://clas12mon.jlab.org/runs/summaries/?run=11328&runmax=11428&runmin=11228
+----------------------------------------------------------------------------------
+  user_comment:               40 nA production run - 50 nA caused too many problems with DC HV. Stopped for spin dance!
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.9262
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11328 0     :: during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11328 1     :: during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -1095,6 +1143,14 @@ RUN: 11328
 
 ==================================================================================
 RUN: 11329
+https://clas12mon.jlab.org/runs/summaries/?run=11329&runmax=11429&runmin=11229
+----------------------------------------------------------------------------------
+  user_comment:               during spin dance
+  target:                     LD2 
+  beam_current_request:       20 nA
+  beam_current:               20.3658
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11329 0     :: low lumi run, 20 nA; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11329 1     :: low lumi run, 20 nA; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -1612,6 +1668,14 @@ RUN: 11329
 
 ==================================================================================
 RUN: 11330
+https://clas12mon.jlab.org/runs/summaries/?run=11330&runmax=11430&runmin=11230
+----------------------------------------------------------------------------------
+  user_comment:               polarization unchanged
+  target:                     LD2 
+  beam_current_request:       20 nA
+  beam_current:               7.32877
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11330 0     :: low lumi run, 20 nA; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11330 1     :: low lumi run, 20 nA; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -2003,6 +2067,14 @@ RUN: 11330
 
 ==================================================================================
 RUN: 11331
+https://clas12mon.jlab.org/runs/summaries/?run=11331&runmax=11431&runmin=11231
+----------------------------------------------------------------------------------
+  user_comment:               spin dance starting now
+  target:                     LD2 
+  beam_current_request:       
+  beam_current:               -0.0318738
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11331 0     :: Taken during spin dance (20nA); during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11331 1     :: Taken during spin dance (20nA); during setup period ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
@@ -2046,6 +2118,14 @@ RUN: 11331
 
 ==================================================================================
 RUN: 11336
+https://clas12mon.jlab.org/runs/summaries/?run=11336&runmax=11436&runmin=11236
+----------------------------------------------------------------------------------
+  user_comment:               attempt to take a production run
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               55.3812
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11336 0     :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11336 1     :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low; during setup period ::                  5-Misc[all]
@@ -2086,6 +2166,14 @@ RUN: 11336
 
 ==================================================================================
 RUN: 11338
+https://clas12mon.jlab.org/runs/summaries/?run=11338&runmax=11438&runmin=11238
+----------------------------------------------------------------------------------
+  user_comment:               production run Large fluctuations in Livetime
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               -0.0175855
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11338 0     :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11338 1     :: low livetime (0.7-0.8) for most of the run; fraction of events with defined helicity is low; during setup period ::                  5-Misc[all]
@@ -2339,6 +2427,14 @@ RUN: 11338
 
 ==================================================================================
 RUN: 11339
+https://clas12mon.jlab.org/runs/summaries/?run=11339&runmax=11439&runmin=11239
+----------------------------------------------------------------------------------
+  user_comment:               production Many trips
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               -0.0153873
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11339 0     :: during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11339 1     :: during setup period ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       19-PossiblyNoBeam[all]
@@ -2564,6 +2660,14 @@ RUN: 11339
 
 ==================================================================================
 RUN: 11340
+https://clas12mon.jlab.org/runs/summaries/?run=11340&runmax=11440&runmin=11240
+----------------------------------------------------------------------------------
+  user_comment:               Production Problems with beam modulation
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               43.3945
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11340 0     :: beam modulation problems; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11340 1     :: beam modulation problems; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -2875,6 +2979,14 @@ RUN: 11340
 
 ==================================================================================
 RUN: 11341
+https://clas12mon.jlab.org/runs/summaries/?run=11341&runmax=11441&runmin=11241
+----------------------------------------------------------------------------------
+  user_comment:               Beam Modulation TESTS and production
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               0.00329729
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11341 0     :: beam modulation problems; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11341 1     :: beam modulation problems; during setup period ::                  5-Misc[all]           16-ChargeHigh[all]
@@ -3097,6 +3209,14 @@ RUN: 11341
 
 ==================================================================================
 RUN: 11342
+https://clas12mon.jlab.org/runs/summaries/?run=11342&runmax=11442&runmin=11242
+----------------------------------------------------------------------------------
+  user_comment:               production, trigger timing bad
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               54.4118
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11342 0     :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11342 1     :: beam modulation problems; bad trigger timing; fraction of events with defined helicity is low; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3133,6 +3253,14 @@ RUN: 11342
 
 ==================================================================================
 RUN: 11345
+https://clas12mon.jlab.org/runs/summaries/?run=11345&runmax=11445&runmin=11245
+----------------------------------------------------------------------------------
+  user_comment:               trigger problem test
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               54.8866
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11345 0     :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11345 1     :: low livetime (0.7) for most of the run; fraction of events with defined helicity is low; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3180,6 +3308,14 @@ RUN: 11345
 
 ==================================================================================
 RUN: 11347
+https://clas12mon.jlab.org/runs/summaries/?run=11347&runmax=11447&runmin=11247
+----------------------------------------------------------------------------------
+  user_comment:               lowered beam current and rebooted mvt1 and mvt2
+  target:                     LD2 
+  beam_current_request:       30 -40 nA
+  beam_current:               0.023081
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11347 0     :: varied beam current; RF phase tuning; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11347 1     :: varied beam current; RF phase tuning; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3228,6 +3364,14 @@ RUN: 11347
 
 ==================================================================================
 RUN: 11348
+https://clas12mon.jlab.org/runs/summaries/?run=11348&runmax=11448&runmin=11248
+----------------------------------------------------------------------------------
+  user_comment:               RF Phse angle at -23
+  target:                     LD2 
+  beam_current_request:       39 nA
+  beam_current:               42.28
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11348 0     :: continued RF phase tuning; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11348 1     :: continued RF phase tuning; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3281,6 +3425,14 @@ RUN: 11348
 
 ==================================================================================
 RUN: 11352
+https://clas12mon.jlab.org/runs/summaries/?run=11352&runmax=11452&runmin=11252
+----------------------------------------------------------------------------------
+  user_comment:               RF Phase = -29
+  target:                     LD2 
+  beam_current_request:       39 nA
+  beam_current:               21.7995
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11352 0     :: RF phase tuning; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11352 1     :: RF phase tuning; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3303,6 +3455,14 @@ RUN: 11352
 
 ==================================================================================
 RUN: 11354
+https://clas12mon.jlab.org/runs/summaries/?run=11354&runmax=11454&runmin=11254
+----------------------------------------------------------------------------------
+  user_comment:               RF phase =-22
+  target:                     LD2 
+  beam_current_request:       39 nA
+  beam_current:               0.0
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11354 0     :: RF phase tuning; fraction of events with defined helicity is low; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11354 1     :: RF phase tuning; fraction of events with defined helicity is low; during setup period ::        0-TotalOutlier[12345]                  5-Misc[all]
@@ -3321,6 +3481,14 @@ RUN: 11354
 
 ==================================================================================
 RUN: 11356
+https://clas12mon.jlab.org/runs/summaries/?run=11356&runmax=11456&runmin=11256
+----------------------------------------------------------------------------------
+  user_comment:               RF phase = -28
+  target:                     LD2 
+  beam_current_request:       39 nA
+  beam_current:               40.6456
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11356 0     :: RF phase tuning; varied beam current; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11356 1     :: RF phase tuning; varied beam current; during setup period ::                  5-Misc[all]
@@ -3356,6 +3524,14 @@ RUN: 11356
 
 ==================================================================================
 RUN: 11357
+https://clas12mon.jlab.org/runs/summaries/?run=11357&runmax=11457&runmin=11257
+----------------------------------------------------------------------------------
+  user_comment:               RF phase angle = -28
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               54.126
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11357 0     :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11357 1     :: low livetime (0.75) for most of the run; fraction of events with defined helicity is low; during setup period ::                  5-Misc[all]
@@ -3677,6 +3853,14 @@ RUN: 11357
 
 ==================================================================================
 RUN: 11358
+https://clas12mon.jlab.org/runs/summaries/?run=11358&runmax=11458&runmin=11258
+----------------------------------------------------------------------------------
+  user_comment:               changed 2C21A X position from -0.1 to -0.2 mm
+  target:                     LD2 
+  beam_current_request:       48 nA
+  beam_current:               52.2312
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11358 0     :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11358 1     :: low livetime (0.8) for most of the run; fraction of events with defined helicity is low; during setup period ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3784,6 +3968,14 @@ RUN: 11358
 
 ==================================================================================
 RUN: 11361
+https://clas12mon.jlab.org/runs/summaries/?run=11361&runmax=11461&runmin=11261
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               0.0131891
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11361 0     :: FC charge issue at beginning of run; during setup period ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11361 1     :: FC charge issue at beginning of run; during setup period ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
@@ -4095,6 +4287,14 @@ RUN: 11361
 
 ==================================================================================
 RUN: 11362
+https://clas12mon.jlab.org/runs/summaries/?run=11362&runmax=11462&runmin=11262
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               38.7321
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11362 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11362 1               4-LowLiveTime[all]       8-MarginalOutlierFT[1]
@@ -4576,6 +4776,14 @@ RUN: 11362
 
 ==================================================================================
 RUN: 11363
+https://clas12mon.jlab.org/runs/summaries/?run=11363&runmax=11463&runmin=11263
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               38.542
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11363 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11363 1     |
@@ -5052,6 +5260,14 @@ RUN: 11363
 
 ==================================================================================
 RUN: 11364
+https://clas12mon.jlab.org/runs/summaries/?run=11364&runmax=11464&runmin=11264
+----------------------------------------------------------------------------------
+  user_comment:               Production , RF Phase = -20 degrees
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               38.5343
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11364 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11364 1               4-LowLiveTime[all]
@@ -5533,6 +5749,14 @@ RUN: 11364
 
 ==================================================================================
 RUN: 11365
+https://clas12mon.jlab.org/runs/summaries/?run=11365&runmax=11465&runmin=11265
+----------------------------------------------------------------------------------
+  user_comment:               Moved 2C21A X position from -0.3 to -0.2 mm
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               37.9023
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11365 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11365 1               4-LowLiveTime[all]
@@ -5997,6 +6221,14 @@ RUN: 11365
 
 ==================================================================================
 RUN: 11366
+https://clas12mon.jlab.org/runs/summaries/?run=11366&runmax=11466&runmin=11266
+----------------------------------------------------------------------------------
+  user_comment:               Gun started tripping at end of run Moved the 2H01 Y position from -2.0 mm to -2.2 mm
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               38.2034
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11366 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11366 1               4-LowLiveTime[all]
@@ -6452,6 +6684,14 @@ RUN: 11366
 
 ==================================================================================
 RUN: 11367
+https://clas12mon.jlab.org/runs/summaries/?run=11367&runmax=11467&runmin=11267
+----------------------------------------------------------------------------------
+  user_comment:               Back after Injector Gun work
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               37.5451
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11367 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11367 1           2-MarginalOutlier[124]           4-LowLiveTime[all]
@@ -6738,6 +6978,14 @@ RUN: 11367
 
 ==================================================================================
 RUN: 11368
+https://clas12mon.jlab.org/runs/summaries/?run=11368&runmax=11468&runmin=11268
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       35nA
+  beam_current:               0.0153873
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11368 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11368 1     |
@@ -7269,6 +7517,14 @@ RUN: 11368
 
 ==================================================================================
 RUN: 11370
+https://clas12mon.jlab.org/runs/summaries/?run=11370&runmax=11470&runmin=11270
+----------------------------------------------------------------------------------
+  user_comment:               First Production run after being down during the previous 2 shifts
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               13.5233
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11370 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11370 1               4-LowLiveTime[all]
@@ -7750,6 +8006,14 @@ RUN: 11370
 
 ==================================================================================
 RUN: 11372
+https://clas12mon.jlab.org/runs/summaries/?run=11372&runmax=11472&runmin=11272
+----------------------------------------------------------------------------------
+  user_comment:               suing trigger file rgb_v9_1.trg 
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               54.2601
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 11372 0     :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11372 1     :: used different trigger file, rgb_v9_1.cnf; N/F lower than usual; Beam current changed to 50 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -7941,6 +8205,14 @@ RUN: 11372
 
 ==================================================================================
 RUN: 11373
+https://clas12mon.jlab.org/runs/summaries/?run=11373&runmax=11473&runmin=11273
+----------------------------------------------------------------------------------
+  user_comment:               Back to rgb_inbending_v9_1.trg trigger file
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               37.6484
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11373 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11373 1               4-LowLiveTime[all]           16-ChargeHigh[all]
@@ -8425,6 +8697,14 @@ RUN: 11373
 
 ==================================================================================
 RUN: 11374
+https://clas12mon.jlab.org/runs/summaries/?run=11374&runmax=11474&runmin=11274
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       35nA
+  beam_current:               -0.0527566
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11374 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11374 1     |
@@ -8867,6 +9147,14 @@ RUN: 11374
 
 ==================================================================================
 RUN: 11375
+https://clas12mon.jlab.org/runs/summaries/?run=11375&runmax=11475&runmin=11275
+----------------------------------------------------------------------------------
+  user_comment:               HWP in
+  target:                     LD2 
+  beam_current_request:       35nA
+  beam_current:               37.7561
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11375 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11375 1               4-LowLiveTime[all]
@@ -9346,6 +9634,14 @@ RUN: 11375
 
 ==================================================================================
 RUN: 11376
+https://clas12mon.jlab.org/runs/summaries/?run=11376&runmax=11476&runmin=11276
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       35nA
+  beam_current:               38.0782
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11376 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11376 1               4-LowLiveTime[all]           16-ChargeHigh[all]
@@ -9824,6 +10120,14 @@ RUN: 11376
 
 ==================================================================================
 RUN: 11378
+https://clas12mon.jlab.org/runs/summaries/?run=11378&runmax=11478&runmin=11278
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               -0.0186846
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11378 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11378 1             2-MarginalOutlier[6]           16-ChargeHigh[all]
@@ -10113,6 +10417,14 @@ RUN: 11378
 
 ==================================================================================
 RUN: 11379
+https://clas12mon.jlab.org/runs/summaries/?run=11379&runmax=11479&runmin=11279
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               37.7605
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11379 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11379 1               4-LowLiveTime[all]
@@ -10346,6 +10658,14 @@ RUN: 11379
 
 ==================================================================================
 RUN: 11381
+https://clas12mon.jlab.org/runs/summaries/?run=11381&runmax=11481&runmin=11281
+----------------------------------------------------------------------------------
+  user_comment:               Production, first run after Wien angle change
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               37.378
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11381 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11381 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
@@ -10743,6 +11063,14 @@ RUN: 11381
 
 ==================================================================================
 RUN: 11383
+https://clas12mon.jlab.org/runs/summaries/?run=11383&runmax=11483&runmin=11283
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       35 na
+  beam_current:               38.165
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11383 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11383 1     |
@@ -10963,6 +11291,14 @@ RUN: 11383
 
 ==================================================================================
 RUN: 11386
+https://clas12mon.jlab.org/runs/summaries/?run=11386&runmax=11486&runmin=11286
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       35nA
+  beam_current:               38.0221
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11386 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11386 1               4-LowLiveTime[all]
@@ -11467,6 +11803,14 @@ RUN: 11386
 
 ==================================================================================
 RUN: 11387
+https://clas12mon.jlab.org/runs/summaries/?run=11387&runmax=11487&runmin=11287
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               0.0263783
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11387 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11387 1               4-LowLiveTime[all]
@@ -11700,6 +12044,14 @@ RUN: 11387
 
 ==================================================================================
 RUN: 11389
+https://clas12mon.jlab.org/runs/summaries/?run=11389&runmax=11489&runmin=11289
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               -0.00989186
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11389 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11389 1            2-MarginalOutlier[14]           16-ChargeHigh[all]
@@ -12183,6 +12535,14 @@ RUN: 11389
 
 ==================================================================================
 RUN: 11390
+https://clas12mon.jlab.org/runs/summaries/?run=11390&runmax=11490&runmin=11290
+----------------------------------------------------------------------------------
+  user_comment:               production data
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               0.0142882
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11390 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11390 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
@@ -12460,6 +12820,14 @@ RUN: 11390
 
 ==================================================================================
 RUN: 11394
+https://clas12mon.jlab.org/runs/summaries/?run=11394&runmax=11494&runmin=11294
+----------------------------------------------------------------------------------
+  user_comment:               BMT S2L1 is off, RICH pmt 335 is dark, stopped run because Hall C is changing HWP
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               -0.0450629
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11394 0     :: FC charge issue at beginning of run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11394 1     :: FC charge issue at beginning of run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
@@ -12781,6 +13149,14 @@ RUN: 11394
 
 ==================================================================================
 RUN: 11395
+https://clas12mon.jlab.org/runs/summaries/?run=11395&runmax=11495&runmin=11295
+----------------------------------------------------------------------------------
+  user_comment:               production run, stopped because of the issue with injector.
+  target:                     LD2 
+  beam_current_request:       35 nA
+  beam_current:               0.0428647
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11395 0     :: FC charge issue at beginning of run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11395 1     :: FC charge issue at beginning of run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
@@ -13215,6 +13591,14 @@ RUN: 11395
 
 ==================================================================================
 RUN: 11396
+https://clas12mon.jlab.org/runs/summaries/?run=11396&runmax=11496&runmin=11296
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               6.20329
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11396 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11396 1               4-LowLiveTime[all]           16-ChargeHigh[all]
@@ -13557,6 +13941,14 @@ RUN: 11396
 
 ==================================================================================
 RUN: 11397
+https://clas12mon.jlab.org/runs/summaries/?run=11397&runmax=11497&runmin=11297
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               -0.00439638
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11397 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11397 1               4-LowLiveTime[all]
@@ -13641,6 +14033,14 @@ RUN: 11397
 
 ==================================================================================
 RUN: 11398
+https://clas12mon.jlab.org/runs/summaries/?run=11398&runmax=11498&runmin=11298
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               45.1321
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11398 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11398 1               4-LowLiveTime[all]
@@ -14009,6 +14409,14 @@ RUN: 11398
 
 ==================================================================================
 RUN: 11399
+https://clas12mon.jlab.org/runs/summaries/?run=11399&runmax=11499&runmin=11299
+----------------------------------------------------------------------------------
+  user_comment:               prod data
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               45.119
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11399 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11399 1               4-LowLiveTime[all]
@@ -14151,6 +14559,14 @@ RUN: 11399
 
 ==================================================================================
 RUN: 11400
+https://clas12mon.jlab.org/runs/summaries/?run=11400&runmax=11500&runmin=11300
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               45.3849
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11400 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11400 1               4-LowLiveTime[all]
@@ -14343,6 +14759,14 @@ RUN: 11400
 
 ==================================================================================
 RUN: 11401
+https://clas12mon.jlab.org/runs/summaries/?run=11401&runmax=11501&runmin=11301
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               0.0384683
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11401 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11401 1     |
@@ -14719,6 +15143,14 @@ RUN: 11401
 
 ==================================================================================
 RUN: 11402
+https://clas12mon.jlab.org/runs/summaries/?run=11402&runmax=11502&runmin=11302
+----------------------------------------------------------------------------------
+  user_comment:               prod, disabled BMT S2L1 strip
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               42.879
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11402 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11402 1               4-LowLiveTime[all]
@@ -15110,6 +15542,14 @@ RUN: 11402
 
 ==================================================================================
 RUN: 11403
+https://clas12mon.jlab.org/runs/summaries/?run=11403&runmax=11503&runmin=11303
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               45.1838
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11403 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11403 1               4-LowLiveTime[all]
@@ -15407,6 +15847,14 @@ RUN: 11403
 
 ==================================================================================
 RUN: 11404
+https://clas12mon.jlab.org/runs/summaries/?run=11404&runmax=11504&runmin=11304
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               0.023081
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11404 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11404 1               4-LowLiveTime[all]           16-ChargeHigh[all]
@@ -15741,6 +16189,14 @@ RUN: 11404
 
 ==================================================================================
 RUN: 11412
+https://clas12mon.jlab.org/runs/summaries/?run=11412&runmax=11512&runmin=11312
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               48.624
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11412 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11412 1               4-LowLiveTime[all]
@@ -16074,6 +16530,14 @@ RUN: 11412
 
 ==================================================================================
 RUN: 11413
+https://clas12mon.jlab.org/runs/summaries/?run=11413&runmax=11513&runmin=11313
+----------------------------------------------------------------------------------
+  user_comment:               production - ended early due to downtime event
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               51.4596
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11413 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11413 1               4-LowLiveTime[all]
@@ -16259,6 +16723,14 @@ RUN: 11413
 
 ==================================================================================
 RUN: 11414
+https://clas12mon.jlab.org/runs/summaries/?run=11414&runmax=11514&runmin=11314
+----------------------------------------------------------------------------------
+  user_comment:               production beam off 50% FTC FADC y asy flucgtuating
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               0.0560539
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11414 0     :: FC charge issue at beginning of run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11414 1     :: FC charge issue at beginning of run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
@@ -16589,6 +17061,14 @@ RUN: 11414
 
 ==================================================================================
 RUN: 11415
+https://clas12mon.jlab.org/runs/summaries/?run=11415&runmax=11515&runmin=11315
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.9812
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11415 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11415 1               4-LowLiveTime[all]
@@ -16923,6 +17403,14 @@ RUN: 11415
 
 ==================================================================================
 RUN: 11416
+https://clas12mon.jlab.org/runs/summaries/?run=11416&runmax=11516&runmin=11316
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               49.2032
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11416 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11416 1               4-LowLiveTime[all]
@@ -17275,6 +17763,14 @@ RUN: 11416
 
 ==================================================================================
 RUN: 11417
+https://clas12mon.jlab.org/runs/summaries/?run=11417&runmax=11517&runmin=11317
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50
+  beam_current:               49.1318
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11417 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11417 1     |
@@ -17601,6 +18097,14 @@ RUN: 11417
 
 ==================================================================================
 RUN: 11418
+https://clas12mon.jlab.org/runs/summaries/?run=11418&runmax=11518&runmin=11318
+----------------------------------------------------------------------------------
+  user_comment:               Production, ended early, but should be good.
+  target:                     LD2 
+  beam_current_request:       50
+  beam_current:               48.868
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11418 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11418 1               4-LowLiveTime[all]
@@ -17705,6 +18209,14 @@ RUN: 11418
 
 ==================================================================================
 RUN: 11419
+https://clas12mon.jlab.org/runs/summaries/?run=11419&runmax=11519&runmin=11319
+----------------------------------------------------------------------------------
+  user_comment:               Production run, 50 nA (small but good)
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               49.4527
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11419 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11419 1     |
@@ -17759,6 +18271,14 @@ RUN: 11419
 
 ==================================================================================
 RUN: 11420
+https://clas12mon.jlab.org/runs/summaries/?run=11420&runmax=11520&runmin=11320
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.3778
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11420 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11420 1               4-LowLiveTime[all]
@@ -18070,6 +18590,14 @@ RUN: 11420
 
 ==================================================================================
 RUN: 11421
+https://clas12mon.jlab.org/runs/summaries/?run=11421&runmax=11521&runmin=11321
+----------------------------------------------------------------------------------
+  user_comment:               Production, short run
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               0.0252792
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11421 0     :: FC charge issue at beginning of run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11421 1     :: FC charge issue at beginning of run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
@@ -18103,6 +18631,14 @@ RUN: 11421
 
 ==================================================================================
 RUN: 11422
+https://clas12mon.jlab.org/runs/summaries/?run=11422&runmax=11522&runmin=11322
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.3382
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11422 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11422 1               4-LowLiveTime[all]
@@ -18476,6 +19012,14 @@ RUN: 11422
 
 ==================================================================================
 RUN: 11423
+https://clas12mon.jlab.org/runs/summaries/?run=11423&runmax=11523&runmin=11323
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               10.5997
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11423 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11423 1               4-LowLiveTime[all]
@@ -18764,6 +19308,14 @@ RUN: 11423
 
 ==================================================================================
 RUN: 11429
+https://clas12mon.jlab.org/runs/summaries/?run=11429&runmax=11529&runmin=11329
+----------------------------------------------------------------------------------
+  user_comment:               production; ended early due to adcecal3 ROC
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               -0.0516575
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11429 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11429 1               4-LowLiveTime[all]
@@ -18920,6 +19472,14 @@ RUN: 11429
 
 ==================================================================================
 RUN: 11430
+https://clas12mon.jlab.org/runs/summaries/?run=11430&runmax=11530&runmin=11330
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.7726
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11430 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11430 1     |
@@ -19315,6 +19875,14 @@ RUN: 11430
 
 ==================================================================================
 RUN: 11432
+https://clas12mon.jlab.org/runs/summaries/?run=11432&runmax=11532&runmin=11332
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               37.1252
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11432 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11432 1               4-LowLiveTime[all]
@@ -19707,6 +20275,14 @@ RUN: 11432
 
 ==================================================================================
 RUN: 11433
+https://clas12mon.jlab.org/runs/summaries/?run=11433&runmax=11533&runmin=11333
+----------------------------------------------------------------------------------
+  user_comment:               Production HWP to go out
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.2748
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11433 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11433 1     |
@@ -20075,6 +20651,14 @@ RUN: 11433
 
 ==================================================================================
 RUN: 11434
+https://clas12mon.jlab.org/runs/summaries/?run=11434&runmax=11534&runmin=11334
+----------------------------------------------------------------------------------
+  user_comment:               Production: Half Wave Plate OUT!!!
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.9924
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11434 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11434 1               4-LowLiveTime[all]
@@ -20365,6 +20949,14 @@ RUN: 11434
 
 ==================================================================================
 RUN: 11435
+https://clas12mon.jlab.org/runs/summaries/?run=11435&runmax=11535&runmin=11335
+----------------------------------------------------------------------------------
+  user_comment:               Production, recovery from CODA crash
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.5637
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11435 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11435 1               4-LowLiveTime[all]
@@ -20748,6 +21340,14 @@ RUN: 11435
 
 ==================================================================================
 RUN: 11436
+https://clas12mon.jlab.org/runs/summaries/?run=11436&runmax=11536&runmin=11336
+----------------------------------------------------------------------------------
+  user_comment:               Production, last run with HWP ougt
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.0704
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11436 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11436 1               4-LowLiveTime[all]
@@ -21042,6 +21642,14 @@ RUN: 11436
 
 ==================================================================================
 RUN: 11437
+https://clas12mon.jlab.org/runs/summaries/?run=11437&runmax=11537&runmin=11337
+----------------------------------------------------------------------------------
+  user_comment:               Production, HWP IN
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.5925
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11437 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11437 1               4-LowLiveTime[all]
@@ -21438,6 +22046,14 @@ RUN: 11437
 
 ==================================================================================
 RUN: 11438
+https://clas12mon.jlab.org/runs/summaries/?run=11438&runmax=11538&runmin=11338
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.7837
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11438 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11438 1               4-LowLiveTime[all]
@@ -21807,6 +22423,14 @@ RUN: 11438
 
 ==================================================================================
 RUN: 11439
+https://clas12mon.jlab.org/runs/summaries/?run=11439&runmax=11539&runmin=11339
+----------------------------------------------------------------------------------
+  user_comment:               ended before 1/2 wave plate switched
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.4452
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11439 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11439 1               4-LowLiveTime[all]
@@ -21971,6 +22595,14 @@ RUN: 11439
 
 ==================================================================================
 RUN: 11440
+https://clas12mon.jlab.org/runs/summaries/?run=11440&runmax=11540&runmin=11340
+----------------------------------------------------------------------------------
+  user_comment:               1/2 wave plate out
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.6231
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11440 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11440 1               4-LowLiveTime[all]
@@ -22365,6 +22997,14 @@ RUN: 11440
 
 ==================================================================================
 RUN: 11441
+https://clas12mon.jlab.org/runs/summaries/?run=11441&runmax=11541&runmin=11341
+----------------------------------------------------------------------------------
+  user_comment:               1/2 wave plate OUT
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               45.0046
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11441 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11441 1               4-LowLiveTime[all]
@@ -22553,6 +23193,14 @@ RUN: 11441
 
 ==================================================================================
 RUN: 11442
+https://clas12mon.jlab.org/runs/summaries/?run=11442&runmax=11542&runmin=11342
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       45nA
+  beam_current:               43.5923
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11442 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11442 1               4-LowLiveTime[all]
@@ -22919,6 +23567,14 @@ RUN: 11442
 
 ==================================================================================
 RUN: 11443
+https://clas12mon.jlab.org/runs/summaries/?run=11443&runmax=11543&runmin=11343
+----------------------------------------------------------------------------------
+  user_comment:               Production, ended early due to fft noise
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.4958
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11443 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11443 1               4-LowLiveTime[all]
@@ -22994,6 +23650,14 @@ RUN: 11443
 
 ==================================================================================
 RUN: 11444
+https://clas12mon.jlab.org/runs/summaries/?run=11444&runmax=11544&runmin=11344
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.4483
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11444 0     :: FC charge issue at beginning of run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11444 1     :: FC charge issue at beginning of run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
@@ -23366,6 +24030,14 @@ RUN: 11444
 
 ==================================================================================
 RUN: 11445
+https://clas12mon.jlab.org/runs/summaries/?run=11445&runmax=11545&runmin=11345
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               42.7999
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11445 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11445 1               4-LowLiveTime[all]
@@ -23777,6 +24449,14 @@ RUN: 11445
 
 ==================================================================================
 RUN: 11446
+https://clas12mon.jlab.org/runs/summaries/?run=11446&runmax=11546&runmin=11346
+----------------------------------------------------------------------------------
+  user_comment:               Production Full D2
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.4276
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11446 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11446 1               4-LowLiveTime[all]
@@ -24242,6 +24922,14 @@ RUN: 11446
 
 ==================================================================================
 RUN: 11447
+https://clas12mon.jlab.org/runs/summaries/?run=11447&runmax=11547&runmin=11347
+----------------------------------------------------------------------------------
+  user_comment:               Production, no beam last 20min
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               45.4168
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11447 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11447 1               4-LowLiveTime[all]
@@ -24368,6 +25056,14 @@ RUN: 11447
 
 ==================================================================================
 RUN: 11449
+https://clas12mon.jlab.org/runs/summaries/?run=11449&runmax=11549&runmin=11349
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               13.5694
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11449 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11449 1               4-LowLiveTime[all]
@@ -24749,6 +25445,14 @@ RUN: 11449
 
 ==================================================================================
 RUN: 11450
+https://clas12mon.jlab.org/runs/summaries/?run=11450&runmax=11550&runmin=11350
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.3122
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11450 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11450 1               4-LowLiveTime[all]
@@ -25132,6 +25836,14 @@ RUN: 11450
 
 ==================================================================================
 RUN: 11451
+https://clas12mon.jlab.org/runs/summaries/?run=11451&runmax=11551&runmin=11351
+----------------------------------------------------------------------------------
+  user_comment:               end run early for HWP change
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.6914
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11451 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11451 1               4-LowLiveTime[all]
@@ -25150,6 +25862,14 @@ RUN: 11451
 
 ==================================================================================
 RUN: 11458
+https://clas12mon.jlab.org/runs/summaries/?run=11458&runmax=11558&runmin=11358
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       45nA
+  beam_current:               0.010991
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11458 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11458 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]        19-PossiblyNoBeam[35]
@@ -25519,6 +26239,14 @@ RUN: 11458
 
 ==================================================================================
 RUN: 11460
+https://clas12mon.jlab.org/runs/summaries/?run=11460&runmax=11560&runmin=11360
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.5024
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11460 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11460 1               4-LowLiveTime[all]
@@ -25891,6 +26619,14 @@ RUN: 11460
 
 ==================================================================================
 RUN: 11462
+https://clas12mon.jlab.org/runs/summaries/?run=11462&runmax=11562&runmin=11362
+----------------------------------------------------------------------------------
+  user_comment:               Production  (good)
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.0814
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11462 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11462 1               4-LowLiveTime[all]
@@ -26180,6 +26916,14 @@ RUN: 11462
 
 ==================================================================================
 RUN: 11463
+https://clas12mon.jlab.org/runs/summaries/?run=11463&runmax=11563&runmin=11363
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               0.0362701
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11463 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11463 1               4-LowLiveTime[all]
@@ -26282,6 +27026,14 @@ RUN: 11463
 
 ==================================================================================
 RUN: 11465
+https://clas12mon.jlab.org/runs/summaries/?run=11465&runmax=11565&runmin=11365
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.877
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11465 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11465 1               4-LowLiveTime[all]
@@ -26540,6 +27292,14 @@ RUN: 11465
 
 ==================================================================================
 RUN: 11466
+https://clas12mon.jlab.org/runs/summaries/?run=11466&runmax=11566&runmin=11366
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.4694
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11466 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11466 1               4-LowLiveTime[all]
@@ -26920,6 +27680,14 @@ RUN: 11466
 
 ==================================================================================
 RUN: 11467
+https://clas12mon.jlab.org/runs/summaries/?run=11467&runmax=11567&runmin=11367
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.2188
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11467 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11467 1               4-LowLiveTime[all]
@@ -27287,6 +28055,14 @@ RUN: 11467
 
 ==================================================================================
 RUN: 11468
+https://clas12mon.jlab.org/runs/summaries/?run=11468&runmax=11568&runmin=11368
+----------------------------------------------------------------------------------
+  user_comment:               production run 
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               -0.0593511
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11468 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11468 1     |
@@ -27384,6 +28160,14 @@ RUN: 11468
 
 ==================================================================================
 RUN: 11469
+https://clas12mon.jlab.org/runs/summaries/?run=11469&runmax=11569&runmin=11369
+----------------------------------------------------------------------------------
+  user_comment:               production run 
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.8066
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11469 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11469 1               4-LowLiveTime[all]
@@ -27449,6 +28233,14 @@ RUN: 11469
 
 ==================================================================================
 RUN: 11470
+https://clas12mon.jlab.org/runs/summaries/?run=11470&runmax=11570&runmin=11370
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.4177
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11470 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11470 1               4-LowLiveTime[all]
@@ -27822,6 +28614,14 @@ RUN: 11470
 
 ==================================================================================
 RUN: 11471
+https://clas12mon.jlab.org/runs/summaries/?run=11471&runmax=11571&runmin=11371
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.4925
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11471 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11471 1               4-LowLiveTime[all]
@@ -28217,6 +29017,14 @@ RUN: 11471
 
 ==================================================================================
 RUN: 11472
+https://clas12mon.jlab.org/runs/summaries/?run=11472&runmax=11572&runmin=11372
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.4595
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11472 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11472 1               4-LowLiveTime[all]
@@ -28590,6 +29398,14 @@ RUN: 11472
 
 ==================================================================================
 RUN: 11473
+https://clas12mon.jlab.org/runs/summaries/?run=11473&runmax=11573&runmin=11373
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.1474
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11473 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11473 1               4-LowLiveTime[all]           16-ChargeHigh[all]
@@ -28975,6 +29791,14 @@ RUN: 11473
 
 ==================================================================================
 RUN: 11474
+https://clas12mon.jlab.org/runs/summaries/?run=11474&runmax=11574&runmin=11374
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       45nA
+  beam_current:               43.8616
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11474 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11474 1               4-LowLiveTime[all]
@@ -29351,6 +30175,14 @@ RUN: 11474
 
 ==================================================================================
 RUN: 11475
+https://clas12mon.jlab.org/runs/summaries/?run=11475&runmax=11575&runmin=11375
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.9583
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11475 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11475 1               4-LowLiveTime[all]
@@ -29723,6 +30555,14 @@ RUN: 11475
 
 ==================================================================================
 RUN: 11476
+https://clas12mon.jlab.org/runs/summaries/?run=11476&runmax=11576&runmin=11376
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.9374
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11476 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11476 1               4-LowLiveTime[all]
@@ -30097,6 +30937,14 @@ RUN: 11476
 
 ==================================================================================
 RUN: 11477
+https://clas12mon.jlab.org/runs/summaries/?run=11477&runmax=11577&runmin=11377
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               -0.0274774
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11477 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11477 1     |
@@ -30492,6 +31340,14 @@ RUN: 11477
 
 ==================================================================================
 RUN: 11479
+https://clas12mon.jlab.org/runs/summaries/?run=11479&runmax=11579&runmin=11379
+----------------------------------------------------------------------------------
+  user_comment:               production run: ended due to depletion in FTTRK occupancies
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.9715
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11479 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11479 1               4-LowLiveTime[all]
@@ -30674,6 +31530,14 @@ RUN: 11479
 
 ==================================================================================
 RUN: 11480
+https://clas12mon.jlab.org/runs/summaries/?run=11480&runmax=11580&runmin=11380
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.9726
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11480 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11480 1               4-LowLiveTime[all]
@@ -31053,6 +31917,14 @@ RUN: 11480
 
 ==================================================================================
 RUN: 11481
+https://clas12mon.jlab.org/runs/summaries/?run=11481&runmax=11581&runmin=11381
+----------------------------------------------------------------------------------
+  user_comment:               production run  
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.4177
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11481 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11481 1               4-LowLiveTime[all]
@@ -31457,6 +32329,14 @@ RUN: 11481
 
 ==================================================================================
 RUN: 11483
+https://clas12mon.jlab.org/runs/summaries/?run=11483&runmax=11583&runmin=11383
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               -0.0318738
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11483 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11483 1     |
@@ -31706,6 +32586,14 @@ RUN: 11483
 
 ==================================================================================
 RUN: 11484
+https://clas12mon.jlab.org/runs/summaries/?run=11484&runmax=11584&runmin=11384
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.132
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11484 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11484 1               4-LowLiveTime[all]
@@ -31857,6 +32745,14 @@ RUN: 11484
 
 ==================================================================================
 RUN: 11485
+https://clas12mon.jlab.org/runs/summaries/?run=11485&runmax=11585&runmin=11385
+----------------------------------------------------------------------------------
+  user_comment:               production run at low luminosity
+  target:                     LD2 
+  beam_current_request:       10 nA
+  beam_current:               9.86108
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11485 0     :: low lumi run, 10 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11485 1     :: low lumi run, 10 nA ::                  5-Misc[all]
@@ -32012,6 +32908,14 @@ RUN: 11485
 
 ==================================================================================
 RUN: 11486
+https://clas12mon.jlab.org/runs/summaries/?run=11486&runmax=11586&runmin=11386
+----------------------------------------------------------------------------------
+  user_comment:               production run, DAQ crashed because of mmft1
+  target:                     LD2 
+  beam_current_request:       10 nA
+  beam_current:               9.49179
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11486 0     :: low lumi run, 10 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11486 1     :: low lumi run, 10 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -32236,6 +33140,14 @@ RUN: 11486
 
 ==================================================================================
 RUN: 11487
+https://clas12mon.jlab.org/runs/summaries/?run=11487&runmax=11587&runmin=11387
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       10 nA
+  beam_current:               0.0670448
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11487 0     :: low lumi run, 10 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11487 1     :: low lumi run, 10 nA ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]       17-ChargeNegative[all]       19-PossiblyNoBeam[456]
@@ -32316,6 +33228,14 @@ RUN: 11487
 
 ==================================================================================
 RUN: 11490
+https://clas12mon.jlab.org/runs/summaries/?run=11490&runmax=11590&runmin=11390
+----------------------------------------------------------------------------------
+  user_comment:               Production run 
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               42.9592
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11490 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11490 1               4-LowLiveTime[all]
@@ -32707,6 +33627,14 @@ RUN: 11490
 
 ==================================================================================
 RUN: 11491
+https://clas12mon.jlab.org/runs/summaries/?run=11491&runmax=11591&runmin=11391
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               17.5405
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11491 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11491 1     |
@@ -32780,6 +33708,14 @@ RUN: 11491
 
 ==================================================================================
 RUN: 11492
+https://clas12mon.jlab.org/runs/summaries/?run=11492&runmax=11592&runmin=11392
+----------------------------------------------------------------------------------
+  user_comment:               Production - 2 tile MVT layer 1 off
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               44.9189
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11492 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11492 1               4-LowLiveTime[all]
@@ -33192,6 +34128,14 @@ RUN: 11492
 
 ==================================================================================
 RUN: 11493
+https://clas12mon.jlab.org/runs/summaries/?run=11493&runmax=11593&runmin=11393
+----------------------------------------------------------------------------------
+  user_comment:               Production - HWP IN
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               0.00659457
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11493 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11493 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]       17-ChargeNegative[all]       19-PossiblyNoBeam[all]
@@ -33586,6 +34530,14 @@ RUN: 11493
 
 ==================================================================================
 RUN: 11494
+https://clas12mon.jlab.org/runs/summaries/?run=11494&runmax=11594&runmin=11394
+----------------------------------------------------------------------------------
+  user_comment:               Production 
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               7.61453
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11494 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11494 1               4-LowLiveTime[all]
@@ -33983,6 +34935,14 @@ RUN: 11494
 
 ==================================================================================
 RUN: 11495
+https://clas12mon.jlab.org/runs/summaries/?run=11495&runmax=11595&runmin=11395
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       45 nA
+  beam_current:               43.7956
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11495 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11495 1               4-LowLiveTime[all]
@@ -34383,6 +35343,14 @@ RUN: 11495
 
 ==================================================================================
 RUN: 11496
+https://clas12mon.jlab.org/runs/summaries/?run=11496&runmax=11596&runmin=11396
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50
+  beam_current:               0.0153873
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11496 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11496 1           2-MarginalOutlier[all]           4-LowLiveTime[all]           16-ChargeHigh[all]
@@ -34457,6 +35425,14 @@ RUN: 11496
 
 ==================================================================================
 RUN: 11497
+https://clas12mon.jlab.org/runs/summaries/?run=11497&runmax=11597&runmin=11397
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       
+  beam_current:               49.3021
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11497 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11497 1               4-LowLiveTime[all]
@@ -34645,6 +35621,14 @@ RUN: 11497
 
 ==================================================================================
 RUN: 11498
+https://clas12mon.jlab.org/runs/summaries/?run=11498&runmax=11598&runmin=11398
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       
+  beam_current:               47.4853
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11498 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11498 1               4-LowLiveTime[all]
@@ -34772,6 +35756,14 @@ RUN: 11498
 
 ==================================================================================
 RUN: 11499
+https://clas12mon.jlab.org/runs/summaries/?run=11499&runmax=11599&runmin=11399
+----------------------------------------------------------------------------------
+  user_comment:               Production - very trippy beam
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               -0.0252792
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11499 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11499 1              0-TotalOutlier[all]
@@ -35068,6 +36060,14 @@ RUN: 11499
 
 ==================================================================================
 RUN: 11501
+https://clas12mon.jlab.org/runs/summaries/?run=11501&runmax=11601&runmin=11401
+----------------------------------------------------------------------------------
+  user_comment:               production - good run, ended due to beam down
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.147
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11501 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11501 1               4-LowLiveTime[all]
@@ -35100,6 +36100,14 @@ RUN: 11501
 
 ==================================================================================
 RUN: 11502
+https://clas12mon.jlab.org/runs/summaries/?run=11502&runmax=11602&runmin=11402
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               26.608
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11502 0     :: beam current oscillations: https://logbooks.jlab.org/entry/3770100 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11502 1     :: beam current oscillations: https://logbooks.jlab.org/entry/3770100 ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -35442,6 +36450,14 @@ RUN: 11502
 
 ==================================================================================
 RUN: 11504
+https://clas12mon.jlab.org/runs/summaries/?run=11504&runmax=11604&runmin=11404
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.5393
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11504 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11504 1               4-LowLiveTime[all]
@@ -35785,6 +36801,14 @@ RUN: 11504
 
 ==================================================================================
 RUN: 11505
+https://clas12mon.jlab.org/runs/summaries/?run=11505&runmax=11605&runmin=11405
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.0656
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11505 0     :: FC charge issue at beginning of run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11505 1     :: FC charge issue at beginning of run ::          0-TotalOutlier[all]                  5-Misc[all]           16-ChargeHigh[all]
@@ -36162,6 +37186,14 @@ RUN: 11505
 
 ==================================================================================
 RUN: 11506
+https://clas12mon.jlab.org/runs/summaries/?run=11506&runmax=11606&runmin=11406
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.5229
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11506 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11506 1               4-LowLiveTime[all]
@@ -36515,6 +37547,14 @@ RUN: 11506
 
 ==================================================================================
 RUN: 11507
+https://clas12mon.jlab.org/runs/summaries/?run=11507&runmax=11607&runmin=11407
+----------------------------------------------------------------------------------
+  user_comment:               RICH issue... Had to stop it
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               47.87
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11507 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11507 1               4-LowLiveTime[all]
@@ -36536,6 +37576,14 @@ RUN: 11507
 
 ==================================================================================
 RUN: 11508
+https://clas12mon.jlab.org/runs/summaries/?run=11508&runmax=11608&runmin=11408
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               46.3532
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11508 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 11508 1               4-LowLiveTime[all]           11-BSAUnknown[all]
@@ -36546,6 +37594,14 @@ RUN: 11508
 
 ==================================================================================
 RUN: 11509
+https://clas12mon.jlab.org/runs/summaries/?run=11509&runmax=11609&runmin=11409
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               46.4675
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11509 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11509 1               4-LowLiveTime[all]
@@ -36701,6 +37757,14 @@ RUN: 11509
 
 ==================================================================================
 RUN: 11510
+https://clas12mon.jlab.org/runs/summaries/?run=11510&runmax=11610&runmin=11410
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       
+  beam_current:               47.9107
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11510 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11510 1               4-LowLiveTime[all]
@@ -37095,6 +38159,14 @@ RUN: 11510
 
 ==================================================================================
 RUN: 11511
+https://clas12mon.jlab.org/runs/summaries/?run=11511&runmax=11611&runmin=11411
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       
+  beam_current:               48.4173
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11511 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11511 1               4-LowLiveTime[all]
@@ -37401,6 +38473,14 @@ RUN: 11511
 
 ==================================================================================
 RUN: 11512
+https://clas12mon.jlab.org/runs/summaries/?run=11512&runmax=11612&runmin=11412
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       50
+  beam_current:               37.3703
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11512 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11512 1               4-LowLiveTime[all]
@@ -37741,6 +38821,14 @@ RUN: 11512
 
 ==================================================================================
 RUN: 11513
+https://clas12mon.jlab.org/runs/summaries/?run=11513&runmax=11613&runmin=11413
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       50
+  beam_current:               49.7472
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11513 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11513 1               4-LowLiveTime[all]
@@ -38077,6 +39165,14 @@ RUN: 11513
 
 ==================================================================================
 RUN: 11514
+https://clas12mon.jlab.org/runs/summaries/?run=11514&runmax=11614&runmin=11414
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               47.6161
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11514 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11514 1               4-LowLiveTime[all]
@@ -38413,6 +39509,14 @@ RUN: 11514
 
 ==================================================================================
 RUN: 11515
+https://clas12mon.jlab.org/runs/summaries/?run=11515&runmax=11615&runmin=11415
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               -0.10991
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11515 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11515 1     |
@@ -38767,6 +39871,14 @@ RUN: 11515
 
 ==================================================================================
 RUN: 11516
+https://clas12mon.jlab.org/runs/summaries/?run=11516&runmax=11616&runmin=11416
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.5272
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11516 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11516 1               4-LowLiveTime[all]
@@ -39140,6 +40252,14 @@ RUN: 11516
 
 ==================================================================================
 RUN: 11517
+https://clas12mon.jlab.org/runs/summaries/?run=11517&runmax=11617&runmin=11417
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               -0.0318738
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11517 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11517 1          2-MarginalOutlier[2346]
@@ -39526,6 +40646,14 @@ RUN: 11517
 
 ==================================================================================
 RUN: 11518
+https://clas12mon.jlab.org/runs/summaries/?run=11518&runmax=11618&runmin=11418
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               46.9072
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11518 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11518 1               4-LowLiveTime[all]
@@ -39892,6 +41020,14 @@ RUN: 11518
 
 ==================================================================================
 RUN: 11519
+https://clas12mon.jlab.org/runs/summaries/?run=11519&runmax=11619&runmin=11419
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               47.3743
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11519 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11519 1               4-LowLiveTime[all]
@@ -40058,6 +41194,14 @@ RUN: 11519
 
 ==================================================================================
 RUN: 11521
+https://clas12mon.jlab.org/runs/summaries/?run=11521&runmax=11621&runmin=11421
+----------------------------------------------------------------------------------
+  user_comment:               Bad beam quality: Multiple DC channel trips due to beam current spikes
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               47.6414
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11521 0     :: Bad beam quality: Multiple DC channel trips due to beam current spikes ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11521 1     :: Bad beam quality: Multiple DC channel trips due to beam current spikes ::       2-MarginalOutlier[123]                  5-Misc[all]
@@ -40149,6 +41293,14 @@ RUN: 11521
 
 ==================================================================================
 RUN: 11522
+https://clas12mon.jlab.org/runs/summaries/?run=11522&runmax=11622&runmin=11422
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.1843
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11522 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11522 1               4-LowLiveTime[all]
@@ -40504,6 +41656,14 @@ RUN: 11522
 
 ==================================================================================
 RUN: 11524
+https://clas12mon.jlab.org/runs/summaries/?run=11524&runmax=11624&runmin=11424
+----------------------------------------------------------------------------------
+  user_comment:               Production run at 40 nA
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               38.2672
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11524 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11524 1               4-LowLiveTime[all]
@@ -40980,6 +42140,14 @@ RUN: 11524
 
 ==================================================================================
 RUN: 11525
+https://clas12mon.jlab.org/runs/summaries/?run=11525&runmax=11625&runmin=11425
+----------------------------------------------------------------------------------
+  user_comment:               DAQ froze at end of run
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               47.7689
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11525 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11525 1               4-LowLiveTime[all]
@@ -41227,6 +42395,14 @@ RUN: 11525
 
 ==================================================================================
 RUN: 11528
+https://clas12mon.jlab.org/runs/summaries/?run=11528&runmax=11628&runmin=11428
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.3426
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11528 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11528 1               4-LowLiveTime[all]
@@ -41573,6 +42749,14 @@ RUN: 11528
 
 ==================================================================================
 RUN: 11529
+https://clas12mon.jlab.org/runs/summaries/?run=11529&runmax=11629&runmin=11429
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               47.8205
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11529 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11529 1               4-LowLiveTime[all]
@@ -41883,6 +43067,14 @@ RUN: 11529
 
 ==================================================================================
 RUN: 11530
+https://clas12mon.jlab.org/runs/summaries/?run=11530&runmax=11630&runmin=11430
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               46.8467
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11530 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11530 1     |
@@ -42244,6 +43436,14 @@ RUN: 11530
 
 ==================================================================================
 RUN: 11531
+https://clas12mon.jlab.org/runs/summaries/?run=11531&runmax=11631&runmin=11431
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.9405
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11531 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11531 1               4-LowLiveTime[all]
@@ -42608,6 +43808,14 @@ RUN: 11531
 
 ==================================================================================
 RUN: 11532
+https://clas12mon.jlab.org/runs/summaries/?run=11532&runmax=11632&runmin=11432
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               -0.035171
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11532 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11532 1     |
@@ -42637,6 +43845,14 @@ RUN: 11532
 
 ==================================================================================
 RUN: 11533
+https://clas12mon.jlab.org/runs/summaries/?run=11533&runmax=11633&runmin=11433
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               46.938
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11533 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11533 1     |
@@ -42907,6 +44123,14 @@ RUN: 11533
 
 ==================================================================================
 RUN: 11534
+https://clas12mon.jlab.org/runs/summaries/?run=11534&runmax=11634&runmin=11434
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               0.0208828
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11534 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11534 1              0-TotalOutlier[all]
@@ -43272,6 +44496,14 @@ RUN: 11534
 
 ==================================================================================
 RUN: 11535
+https://clas12mon.jlab.org/runs/summaries/?run=11535&runmax=11635&runmin=11435
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               49.7099
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11535 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11535 1               4-LowLiveTime[all]
@@ -43344,6 +44576,14 @@ RUN: 11535
 
 ==================================================================================
 RUN: 11536
+https://clas12mon.jlab.org/runs/summaries/?run=11536&runmax=11636&runmin=11436
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               49.3692
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11536 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11536 1               4-LowLiveTime[all]
@@ -43689,6 +44929,14 @@ RUN: 11536
 
 ==================================================================================
 RUN: 11537
+https://clas12mon.jlab.org/runs/summaries/?run=11537&runmax=11637&runmin=11437
+----------------------------------------------------------------------------------
+  user_comment:               production: DAQ crashed sector 3
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               49.3505
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11537 0           1-TerminalOutlier[all]              3-SectorLoss[3]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 11537 1                0-TotalOutlier[3]              3-SectorLoss[3]           4-LowLiveTime[all]           11-BSAUnknown[all]
@@ -43705,6 +44953,14 @@ RUN: 11537
 
 ==================================================================================
 RUN: 11538
+https://clas12mon.jlab.org/runs/summaries/?run=11538&runmax=11638&runmin=11438
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               50.1748
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11538 0           1-TerminalOutlier[all]              3-SectorLoss[3]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11538 1                0-TotalOutlier[3]              3-SectorLoss[3]           4-LowLiveTime[all]
@@ -43732,6 +44988,14 @@ RUN: 11538
 
 ==================================================================================
 RUN: 11539
+https://clas12mon.jlab.org/runs/summaries/?run=11539&runmax=11639&runmin=11439
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               49.445
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11539 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11539 1               4-LowLiveTime[all]
@@ -43984,6 +45248,14 @@ RUN: 11539
 
 ==================================================================================
 RUN: 11540
+https://clas12mon.jlab.org/runs/summaries/?run=11540&runmax=11640&runmin=11440
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               47.8348
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11540 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11540 1               4-LowLiveTime[all]
@@ -44167,6 +45439,14 @@ RUN: 11540
 
 ==================================================================================
 RUN: 11541
+https://clas12mon.jlab.org/runs/summaries/?run=11541&runmax=11641&runmin=11441
+----------------------------------------------------------------------------------
+  user_comment:               Production running - unstable beam
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               39.6279
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11541 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11541 1     |
@@ -44257,6 +45537,14 @@ RUN: 11541
 
 ==================================================================================
 RUN: 11544
+https://clas12mon.jlab.org/runs/summaries/?run=11544&runmax=11644&runmin=11444
+----------------------------------------------------------------------------------
+  user_comment:               Production running
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               50.9409
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11544 0     :: poor beam current stability ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11544 1     :: poor beam current stability ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -44591,6 +45879,14 @@ RUN: 11544
 
 ==================================================================================
 RUN: 11545
+https://clas12mon.jlab.org/runs/summaries/?run=11545&runmax=11645&runmin=11445
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               24.9758
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11545 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11545 1               4-LowLiveTime[all]
@@ -44954,6 +46250,14 @@ RUN: 11545
 
 ==================================================================================
 RUN: 11546
+https://clas12mon.jlab.org/runs/summaries/?run=11546&runmax=11646&runmin=11446
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               49.6923
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11546 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11546 1               4-LowLiveTime[all]
@@ -45277,6 +46581,14 @@ RUN: 11546
 
 ==================================================================================
 RUN: 11548
+https://clas12mon.jlab.org/runs/summaries/?run=11548&runmax=11648&runmin=11448
+----------------------------------------------------------------------------------
+  user_comment:               production - HWP OUT - beam goes off
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               -0.00879276
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11548 0     :: the beam is pretty awful and this run is junk, says the logbook ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11548 1     :: the beam is pretty awful and this run is junk, says the logbook ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
@@ -45311,6 +46623,14 @@ RUN: 11548
 
 ==================================================================================
 RUN: 11550
+https://clas12mon.jlab.org/runs/summaries/?run=11550&runmax=11650&runmin=11450
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               48.5789
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11550 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11550 1               4-LowLiveTime[all]
@@ -45388,6 +46708,14 @@ RUN: 11550
 
 ==================================================================================
 RUN: 11553
+https://clas12mon.jlab.org/runs/summaries/?run=11553&runmax=11653&runmin=11453
+----------------------------------------------------------------------------------
+  user_comment:               production - short run due to beam gone away, but it is good
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               -0.0494593
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11553 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11553 1          2-MarginalOutlier[1345]       8-MarginalOutlierFT[1]
@@ -45438,6 +46766,14 @@ RUN: 11553
 
 ==================================================================================
 RUN: 11554
+https://clas12mon.jlab.org/runs/summaries/?run=11554&runmax=11654&runmin=11454
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               -0.0472611
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11554 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11554 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]           16-ChargeHigh[all]
@@ -45765,6 +47101,14 @@ RUN: 11554
 
 ==================================================================================
 RUN: 11556
+https://clas12mon.jlab.org/runs/summaries/?run=11556&runmax=11656&runmin=11456
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               -0.0329729
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11556 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11556 1              0-TotalOutlier[all]
@@ -46074,6 +47418,14 @@ RUN: 11556
 
 ==================================================================================
 RUN: 11557
+https://clas12mon.jlab.org/runs/summaries/?run=11557&runmax=11657&runmin=11457
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               -0.0219819
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11557 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11557 1     |
@@ -46455,6 +47807,14 @@ RUN: 11557
 
 ==================================================================================
 RUN: 11560
+https://clas12mon.jlab.org/runs/summaries/?run=11560&runmax=11660&runmin=11460
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               51.6586
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11560 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11560 1               4-LowLiveTime[all]
@@ -46703,6 +48063,14 @@ RUN: 11560
 
 ==================================================================================
 RUN: 11561
+https://clas12mon.jlab.org/runs/summaries/?run=11561&runmax=11661&runmin=11461
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               51.4003
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11561 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11561 1     |
@@ -47023,6 +48391,14 @@ RUN: 11561
 
 ==================================================================================
 RUN: 11562
+https://clas12mon.jlab.org/runs/summaries/?run=11562&runmax=11662&runmin=11462
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               51.4497
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11562 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11562 1               4-LowLiveTime[all]
@@ -47363,6 +48739,14 @@ RUN: 11562
 
 ==================================================================================
 RUN: 11563
+https://clas12mon.jlab.org/runs/summaries/?run=11563&runmax=11663&runmin=11463
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               0.010991
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11563 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11563 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]
@@ -47747,6 +49131,14 @@ RUN: 11563
 
 ==================================================================================
 RUN: 11564
+https://clas12mon.jlab.org/runs/summaries/?run=11564&runmax=11664&runmin=11464
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               51.5849
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11564 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11564 1               4-LowLiveTime[all]
@@ -48084,6 +49476,14 @@ RUN: 11564
 
 ==================================================================================
 RUN: 11565
+https://clas12mon.jlab.org/runs/summaries/?run=11565&runmax=11665&runmin=11465
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               0.0252792
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11565 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11565 1               4-LowLiveTime[all]
@@ -48438,6 +49838,14 @@ RUN: 11565
 
 ==================================================================================
 RUN: 11566
+https://clas12mon.jlab.org/runs/summaries/?run=11566&runmax=11666&runmin=11466
+----------------------------------------------------------------------------------
+  user_comment:               production - HWP IN
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               51.0057
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11566 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11566 1               4-LowLiveTime[all]
@@ -48797,6 +50205,14 @@ RUN: 11566
 
 ==================================================================================
 RUN: 11567
+https://clas12mon.jlab.org/runs/summaries/?run=11567&runmax=11667&runmin=11467
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               51.2816
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11567 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11567 1               4-LowLiveTime[all]
@@ -49136,6 +50552,14 @@ RUN: 11567
 
 ==================================================================================
 RUN: 11568
+https://clas12mon.jlab.org/runs/summaries/?run=11568&runmax=11668&runmin=11468
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50 nA
+  beam_current:               -0.00989186
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11568 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11568 1     |
@@ -49473,6 +50897,14 @@ RUN: 11568
 
 ==================================================================================
 RUN: 11569
+https://clas12mon.jlab.org/runs/summaries/?run=11569&runmax=11669&runmin=11469
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               51.8531
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11569 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11569 1               4-LowLiveTime[all]
@@ -49812,6 +51244,14 @@ RUN: 11569
 
 ==================================================================================
 RUN: 11570
+https://clas12mon.jlab.org/runs/summaries/?run=11570&runmax=11670&runmin=11470
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               51.2079
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11570 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11570 1               4-LowLiveTime[all]
@@ -50160,6 +51600,14 @@ RUN: 11570
 
 ==================================================================================
 RUN: 11571
+https://clas12mon.jlab.org/runs/summaries/?run=11571&runmax=11671&runmin=11471
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       50nA
+  beam_current:               -0.0153873
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1.cnf
 ----------------------------------------------------------------------------------
 11571 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 11571 1               4-LowLiveTime[all]

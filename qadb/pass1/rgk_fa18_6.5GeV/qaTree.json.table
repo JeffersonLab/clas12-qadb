@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 5875
+https://clas12mon.jlab.org/runs/summaries/?run=5875&runmax=5975&runmin=5775
+----------------------------------------------------------------------------------
+  user_comment:               300 MeV trigger 
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               4.68437
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5875 0     :: N/F low, gradually decreasing with file number ::                  5-Misc[all]
 5875 5     :: N/F low, gradually decreasing with file number ::                  5-Misc[all]
@@ -49,6 +57,14 @@ RUN: 5875
 
 ==================================================================================
 RUN: 5877
+https://clas12mon.jlab.org/runs/summaries/?run=5877&runmax=5977&runmin=5777
+----------------------------------------------------------------------------------
+  user_comment:               Long run with 10 nA and 150 MeV trigger
+  target:                     LH2
+  beam_current_request:       10 nA
+  beam_current:               1.09248
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_150MeV.cnf
 ----------------------------------------------------------------------------------
 5877 0     :: N/F is high for the whole run ::       2-MarginalOutlier[all]                  5-Misc[all]
 5877 5     :: N/F is high for the whole run ::       2-MarginalOutlier[all]                  5-Misc[all]
@@ -136,6 +152,14 @@ RUN: 5877
 
 ==================================================================================
 RUN: 5878
+https://clas12mon.jlab.org/runs/summaries/?run=5878&runmax=5978&runmin=5778
+----------------------------------------------------------------------------------
+  user_comment:               Restart after HV dropouts on FTOF Sector 3 and PCAL sector 3
+  target:                     LH2
+  beam_current_request:       10 nA
+  beam_current:               8.14509
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_150MeV.cnf
 ----------------------------------------------------------------------------------
 5878 0     :: N/F is high for the whole run ::                  5-Misc[all]
 5878 5     :: N/F is high for the whole run ::         2-MarginalOutlier[2]                  5-Misc[all]
@@ -160,6 +184,14 @@ RUN: 5878
 
 ==================================================================================
 RUN: 5879
+https://clas12mon.jlab.org/runs/summaries/?run=5879&runmax=5979&runmin=5779
+----------------------------------------------------------------------------------
+  user_comment:               production; 200MeV trigger
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               31.8293
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5879 0             2-MarginalOutlier[6]
 5879 5     |
@@ -324,6 +356,14 @@ RUN: 5879
 
 ==================================================================================
 RUN: 5880
+https://clas12mon.jlab.org/runs/summaries/?run=5880&runmax=5980&runmin=5780
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               0.0449211
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5880 0     |
 5880 5     |
@@ -409,6 +449,14 @@ RUN: 5880
 
 ==================================================================================
 RUN: 5881
+https://clas12mon.jlab.org/runs/summaries/?run=5881&runmax=5981&runmin=5781
+----------------------------------------------------------------------------------
+  user_comment:               production; trigger rgk_v6_200MeV.trg
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               31.3424
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5881 0     |
 5881 5     |
@@ -572,6 +620,14 @@ RUN: 5881
 
 ==================================================================================
 RUN: 5883
+https://clas12mon.jlab.org/runs/summaries/?run=5883&runmax=5983&runmin=5783
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               30.8913
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5883 0         2-MarginalOutlier[23456]
 5883 5     |
@@ -649,6 +705,14 @@ RUN: 5883
 
 ==================================================================================
 RUN: 5884
+https://clas12mon.jlab.org/runs/summaries/?run=5884&runmax=5984&runmin=5784
+----------------------------------------------------------------------------------
+  user_comment:               mvt1/mvt2 crash
+  target:                     LH2
+  beam_current_request:       75nA
+  beam_current:               59.206
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5884 0     :: Ended run: mvt1/mvt2 crashed. ::       1-TerminalOutlier[all]                  5-Misc[all]
 5884 5     :: Ended run: mvt1/mvt2 crashed. ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -716,6 +780,14 @@ RUN: 5884
 
 ==================================================================================
 RUN: 5885
+https://clas12mon.jlab.org/runs/summaries/?run=5885&runmax=5985&runmin=5785
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       75nA
+  beam_current:               -0.00179684
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5885 0     :: slightly low value of N/F ::       1-TerminalOutlier[all]                  5-Misc[all]
 5885 5     :: slightly low value of N/F ::                  5-Misc[all]
@@ -1362,6 +1434,14 @@ RUN: 5885
 
 ==================================================================================
 RUN: 5886
+https://clas12mon.jlab.org/runs/summaries/?run=5886&runmax=5986&runmin=5786
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               53.6124
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5886 0           1-TerminalOutlier[all]
 5886 5     |
@@ -1562,6 +1642,14 @@ RUN: 5886
 
 ==================================================================================
 RUN: 5887
+https://clas12mon.jlab.org/runs/summaries/?run=5887&runmax=5987&runmin=5787
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.0014
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5887 0     |
 5887 5     |
@@ -1698,6 +1786,14 @@ RUN: 5887
 
 ==================================================================================
 RUN: 5889
+https://clas12mon.jlab.org/runs/summaries/?run=5889&runmax=5989&runmin=5789
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA with 300 MeV trigger
+  beam_current:               53.3034
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5889 0           1-TerminalOutlier[all]
 5889 5     |
@@ -1898,6 +1994,14 @@ RUN: 5889
 
 ==================================================================================
 RUN: 5890
+https://clas12mon.jlab.org/runs/summaries/?run=5890&runmax=5990&runmin=5790
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA, 300 MeV trigger
+  beam_current:               55.6432
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5890 0           1-TerminalOutlier[all]
 5890 5     |
@@ -2097,6 +2201,14 @@ RUN: 5890
 
 ==================================================================================
 RUN: 5891
+https://clas12mon.jlab.org/runs/summaries/?run=5891&runmax=5991&runmin=5791
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA with 300 MeV trigger
+  beam_current:               56.1939
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5891 0           1-TerminalOutlier[all]
 5891 5     |
@@ -2297,6 +2409,14 @@ RUN: 5891
 
 ==================================================================================
 RUN: 5892
+https://clas12mon.jlab.org/runs/summaries/?run=5892&runmax=5992&runmin=5792
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA, 300 MeV trigger
+  beam_current:               55.5421
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5892 0           1-TerminalOutlier[all]
 5892 5     |
@@ -2496,6 +2616,14 @@ RUN: 5892
 
 ==================================================================================
 RUN: 5893
+https://clas12mon.jlab.org/runs/summaries/?run=5893&runmax=5993&runmin=5793
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA 300 MeV trigger
+  beam_current:               56.0422
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5893 0     |
 5893 5     |
@@ -2696,6 +2824,14 @@ RUN: 5893
 
 ==================================================================================
 RUN: 5894
+https://clas12mon.jlab.org/runs/summaries/?run=5894&runmax=5994&runmin=5794
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA 300 MeV trigger
+  beam_current:               56.6115
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5894 0               4-LowLiveTime[all]
 5894 5     |
@@ -2899,6 +3035,14 @@ RUN: 5894
 
 ==================================================================================
 RUN: 5895
+https://clas12mon.jlab.org/runs/summaries/?run=5895&runmax=5995&runmin=5795
+----------------------------------------------------------------------------------
+  user_comment:               production run with 300MeV trigger threshold
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.3793
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5895 0           1-TerminalOutlier[all]
 5895 5     |
@@ -3099,6 +3243,14 @@ RUN: 5895
 
 ==================================================================================
 RUN: 5896
+https://clas12mon.jlab.org/runs/summaries/?run=5896&runmax=5996&runmin=5796
+----------------------------------------------------------------------------------
+  user_comment:               production with 300MeV trigger thresholds
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.8549
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5896 0     |
 5896 5     |
@@ -3300,6 +3452,14 @@ RUN: 5896
 
 ==================================================================================
 RUN: 5897
+https://clas12mon.jlab.org/runs/summaries/?run=5897&runmax=5997&runmin=5797
+----------------------------------------------------------------------------------
+  user_comment:               production with 300MeV trigger thresholds
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.5329
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5897 0     |
 5897 5     |
@@ -3500,6 +3660,14 @@ RUN: 5897
 
 ==================================================================================
 RUN: 5898
+https://clas12mon.jlab.org/runs/summaries/?run=5898&runmax=5998&runmin=5798
+----------------------------------------------------------------------------------
+  user_comment:               production with 300MeV trigger thresholds
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.6283
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5898 0     |
 5898 5     |
@@ -3703,6 +3871,14 @@ RUN: 5898
 
 ==================================================================================
 RUN: 5899
+https://clas12mon.jlab.org/runs/summaries/?run=5899&runmax=5999&runmin=5799
+----------------------------------------------------------------------------------
+  user_comment:               production with 300MeV trigger thresholds
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               -0.00187294
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5899 0             1-TerminalOutlier[3]     2-MarginalOutlier[12456]
 5899 5     |
@@ -3922,6 +4098,14 @@ RUN: 5899
 
 ==================================================================================
 RUN: 5900
+https://clas12mon.jlab.org/runs/summaries/?run=5900&runmax=6000&runmin=5800
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.1751
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5900 0     |
 5900 5     |
@@ -4133,6 +4317,14 @@ RUN: 5900
 
 ==================================================================================
 RUN: 5901
+https://clas12mon.jlab.org/runs/summaries/?run=5901&runmax=6001&runmin=5801
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.8773
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5901 0     |
 5901 5     |
@@ -4334,6 +4526,14 @@ RUN: 5901
 
 ==================================================================================
 RUN: 5904
+https://clas12mon.jlab.org/runs/summaries/?run=5904&runmax=6004&runmin=5804
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.2014
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5904 0     |
 5904 5     |
@@ -4540,6 +4740,14 @@ RUN: 5904
 
 ==================================================================================
 RUN: 5905
+https://clas12mon.jlab.org/runs/summaries/?run=5905&runmax=6005&runmin=5805
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.3568
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5905 0     |
 5905 5     |
@@ -4746,6 +4954,14 @@ RUN: 5905
 
 ==================================================================================
 RUN: 5906
+https://clas12mon.jlab.org/runs/summaries/?run=5906&runmax=6006&runmin=5806
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 Na
+  beam_current:               55.9747
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5906 0     |
 5906 5     |
@@ -4946,6 +5162,14 @@ RUN: 5906
 
 ==================================================================================
 RUN: 5907
+https://clas12mon.jlab.org/runs/summaries/?run=5907&runmax=6007&runmin=5807
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.0553
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5907 0     |
 5907 5     |
@@ -5048,6 +5272,14 @@ RUN: 5907
 
 ==================================================================================
 RUN: 5909
+https://clas12mon.jlab.org/runs/summaries/?run=5909&runmax=6009&runmin=5809
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.9206
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5909 0     |
 5909 5     |
@@ -5248,6 +5480,14 @@ RUN: 5909
 
 ==================================================================================
 RUN: 5910
+https://clas12mon.jlab.org/runs/summaries/?run=5910&runmax=6010&runmin=5810
+----------------------------------------------------------------------------------
+  user_comment:               Many beam trips at the end
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.8511
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5910 0           1-TerminalOutlier[all]
 5910 5     |
@@ -5419,6 +5659,14 @@ RUN: 5910
 
 ==================================================================================
 RUN: 5911
+https://clas12mon.jlab.org/runs/summaries/?run=5911&runmax=6011&runmin=5811
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.9017
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5911 0     |
 5911 5     |
@@ -5619,6 +5867,14 @@ RUN: 5911
 
 ==================================================================================
 RUN: 5912
+https://clas12mon.jlab.org/runs/summaries/?run=5912&runmax=6012&runmin=5812
+----------------------------------------------------------------------------------
+  user_comment:               Stopped early. 20+min without beam at the end.
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.9392
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5912 0           1-TerminalOutlier[all]
 5912 5     |
@@ -5633,6 +5889,14 @@ RUN: 5912
 
 ==================================================================================
 RUN: 5913
+https://clas12mon.jlab.org/runs/summaries/?run=5913&runmax=6013&runmin=5813
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.9129
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5913 0     |
 5913 5     |
@@ -5833,6 +6097,14 @@ RUN: 5913
 
 ==================================================================================
 RUN: 5914
+https://clas12mon.jlab.org/runs/summaries/?run=5914&runmax=6014&runmin=5814
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.2649
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5914 0           1-TerminalOutlier[all]
 5914 5     |
@@ -6032,6 +6304,14 @@ RUN: 5914
 
 ==================================================================================
 RUN: 5915
+https://clas12mon.jlab.org/runs/summaries/?run=5915&runmax=6015&runmin=5815
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.1658
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5915 0           1-TerminalOutlier[all]
 5915 5     |
@@ -6232,6 +6512,14 @@ RUN: 5915
 
 ==================================================================================
 RUN: 5916
+https://clas12mon.jlab.org/runs/summaries/?run=5916&runmax=6016&runmin=5816
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.9598
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5916 0     |
 5916 5     |
@@ -6333,6 +6621,14 @@ RUN: 5916
 
 ==================================================================================
 RUN: 5917
+https://clas12mon.jlab.org/runs/summaries/?run=5917&runmax=6017&runmin=5817
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.426
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5917 0     |
 5917 5     |
@@ -6542,6 +6838,14 @@ RUN: 5917
 
 ==================================================================================
 RUN: 5918
+https://clas12mon.jlab.org/runs/summaries/?run=5918&runmax=6018&runmin=5818
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.4392
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5918 0           1-TerminalOutlier[all]
 5918 5     |
@@ -6744,6 +7048,14 @@ RUN: 5918
 
 ==================================================================================
 RUN: 5919
+https://clas12mon.jlab.org/runs/summaries/?run=5919&runmax=6019&runmin=5819
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.3194
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5919 0     :: Low number of files. ::       1-TerminalOutlier[all]
 5919 5     :: Low number of files. :: |
@@ -6752,6 +7064,14 @@ RUN: 5919
 
 ==================================================================================
 RUN: 5920
+https://clas12mon.jlab.org/runs/summaries/?run=5920&runmax=6020&runmin=5820
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               43.3661
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5920 0     |
 5920 5     |
@@ -6951,6 +7271,14 @@ RUN: 5920
 
 ==================================================================================
 RUN: 5922
+https://clas12mon.jlab.org/runs/summaries/?run=5922&runmax=6022&runmin=5822
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.7425
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5922 0     |
 5922 5     |
@@ -7150,6 +7478,14 @@ RUN: 5922
 
 ==================================================================================
 RUN: 5923
+https://clas12mon.jlab.org/runs/summaries/?run=5923&runmax=6023&runmin=5823
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.3136
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5923 0           1-TerminalOutlier[all]
 5923 5     |
@@ -7350,6 +7686,14 @@ RUN: 5923
 
 ==================================================================================
 RUN: 5924
+https://clas12mon.jlab.org/runs/summaries/?run=5924&runmax=6024&runmin=5824
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               0.0149835
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5924 0     |
 5924 5     |
@@ -7547,6 +7891,14 @@ RUN: 5924
 
 ==================================================================================
 RUN: 5925
+https://clas12mon.jlab.org/runs/summaries/?run=5925&runmax=6025&runmin=5825
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.0347
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5925 0     |
 5925 5     |
@@ -7746,6 +8098,14 @@ RUN: 5925
 
 ==================================================================================
 RUN: 5926
+https://clas12mon.jlab.org/runs/summaries/?run=5926&runmax=6026&runmin=5826
+----------------------------------------------------------------------------------
+  user_comment:               Short (but good) run, beam stopped.
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               -0.0187294
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5926 0     |
 5926 5     |
@@ -7766,6 +8126,14 @@ RUN: 5926
 
 ==================================================================================
 RUN: 5928
+https://clas12mon.jlab.org/runs/summaries/?run=5928&runmax=6028&runmin=5828
+----------------------------------------------------------------------------------
+  user_comment:               RF diff and RF2adc look strange
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               64.1595
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5928 0     |
 5928 5     |
@@ -7971,6 +8339,14 @@ RUN: 5928
 
 ==================================================================================
 RUN: 5929
+https://clas12mon.jlab.org/runs/summaries/?run=5929&runmax=6029&runmin=5829
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.4411
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5929 0     |
 5929 5     |
@@ -8171,6 +8547,14 @@ RUN: 5929
 
 ==================================================================================
 RUN: 5931
+https://clas12mon.jlab.org/runs/summaries/?run=5931&runmax=6031&runmin=5831
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.3137
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5931 0     |
 5931 5     |
@@ -8370,6 +8754,14 @@ RUN: 5931
 
 ==================================================================================
 RUN: 5932
+https://clas12mon.jlab.org/runs/summaries/?run=5932&runmax=6032&runmin=5832
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.3194
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5932 0     |
 5932 5     |
@@ -8570,6 +8962,14 @@ RUN: 5932
 
 ==================================================================================
 RUN: 5933
+https://clas12mon.jlab.org/runs/summaries/?run=5933&runmax=6033&runmin=5833
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.765
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5933 0           1-TerminalOutlier[all]
 5933 5     |
@@ -8770,6 +9170,14 @@ RUN: 5933
 
 ==================================================================================
 RUN: 5934
+https://clas12mon.jlab.org/runs/summaries/?run=5934&runmax=6034&runmin=5834
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.3343
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5934 0           1-TerminalOutlier[all]
 5934 5     |
@@ -8970,6 +9378,14 @@ RUN: 5934
 
 ==================================================================================
 RUN: 5935
+https://clas12mon.jlab.org/runs/summaries/?run=5935&runmax=6035&runmin=5835
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.5329
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5935 0           1-TerminalOutlier[all]
 5935 5     |
@@ -9169,6 +9585,14 @@ RUN: 5935
 
 ==================================================================================
 RUN: 5936
+https://clas12mon.jlab.org/runs/summaries/?run=5936&runmax=6036&runmin=5836
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.8212
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5936 0     |
 5936 5     |
@@ -9239,6 +9663,14 @@ RUN: 5936
 
 ==================================================================================
 RUN: 5937
+https://clas12mon.jlab.org/runs/summaries/?run=5937&runmax=6037&runmin=5837
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.5984
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5937 0     |
 5937 5     |
@@ -9439,6 +9871,14 @@ RUN: 5937
 
 ==================================================================================
 RUN: 5938
+https://clas12mon.jlab.org/runs/summaries/?run=5938&runmax=6038&runmin=5838
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.9148
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5938 0           1-TerminalOutlier[all]
 5938 5     |
@@ -9514,6 +9954,14 @@ RUN: 5938
 
 ==================================================================================
 RUN: 5939
+https://clas12mon.jlab.org/runs/summaries/?run=5939&runmax=6039&runmin=5839
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.8006
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5939 0           1-TerminalOutlier[all]
 5939 5     |
@@ -9713,6 +10161,14 @@ RUN: 5939
 
 ==================================================================================
 RUN: 5940
+https://clas12mon.jlab.org/runs/summaries/?run=5940&runmax=6040&runmin=5840
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.6808
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5940 0     |
 5940 5     |
@@ -9911,6 +10367,14 @@ RUN: 5940
 
 ==================================================================================
 RUN: 5941
+https://clas12mon.jlab.org/runs/summaries/?run=5941&runmax=6041&runmin=5841
+----------------------------------------------------------------------------------
+  user_comment:               Just did RICH recovery.
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.9747
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5941 0     |
 5941 5     |
@@ -10110,6 +10574,14 @@ RUN: 5941
 
 ==================================================================================
 RUN: 5942
+https://clas12mon.jlab.org/runs/summaries/?run=5942&runmax=6042&runmin=5842
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.4018
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5942 0     |
 5942 5     |
@@ -10315,6 +10787,14 @@ RUN: 5942
 
 ==================================================================================
 RUN: 5943
+https://clas12mon.jlab.org/runs/summaries/?run=5943&runmax=6043&runmin=5843
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.3381
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5943 0     |
 5943 5     |
@@ -10354,11 +10834,27 @@ RUN: 5943
 
 ==================================================================================
 RUN: 5944
+https://clas12mon.jlab.org/runs/summaries/?run=5944&runmax=6044&runmin=5844
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               56.5254
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5944 0     :: Junk, reboot roc tdcecal6. BSA irregularities. ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 5949
+https://clas12mon.jlab.org/runs/summaries/?run=5949&runmax=6049&runmin=5849
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.5441
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5949 0     |
 5949 5     |
@@ -10559,6 +11055,14 @@ RUN: 5949
 
 ==================================================================================
 RUN: 5950
+https://clas12mon.jlab.org/runs/summaries/?run=5950&runmax=6050&runmin=5850
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.4353
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5950 0     |
 5950 5     |
@@ -10773,6 +11277,14 @@ RUN: 5950
 
 ==================================================================================
 RUN: 5951
+https://clas12mon.jlab.org/runs/summaries/?run=5951&runmax=6051&runmin=5851
+----------------------------------------------------------------------------------
+  user_comment:               Excellent run!
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.3887
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5951 0     |
 5951 5     |
@@ -10974,6 +11486,14 @@ RUN: 5951
 
 ==================================================================================
 RUN: 5952
+https://clas12mon.jlab.org/runs/summaries/?run=5952&runmax=6052&runmin=5852
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.8775
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5952 0           1-TerminalOutlier[all]
 5952 5     |
@@ -11174,6 +11694,14 @@ RUN: 5952
 
 ==================================================================================
 RUN: 5953
+https://clas12mon.jlab.org/runs/summaries/?run=5953&runmax=6053&runmin=5853
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.2238
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5953 0           1-TerminalOutlier[all]
 5953 5     |
@@ -11374,6 +11902,14 @@ RUN: 5953
 
 ==================================================================================
 RUN: 5954
+https://clas12mon.jlab.org/runs/summaries/?run=5954&runmax=6054&runmin=5854
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.5909
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5954 0     |
 5954 5     |
@@ -11574,6 +12110,14 @@ RUN: 5954
 
 ==================================================================================
 RUN: 5955
+https://clas12mon.jlab.org/runs/summaries/?run=5955&runmax=6055&runmin=5855
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.3437
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5955 0           1-TerminalOutlier[all]
 5955 5     |
@@ -11779,6 +12323,14 @@ RUN: 5955
 
 ==================================================================================
 RUN: 5956
+https://clas12mon.jlab.org/runs/summaries/?run=5956&runmax=6056&runmin=5856
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.6901
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5956 0           1-TerminalOutlier[all]
 5956 5     |
@@ -11980,6 +12532,14 @@ RUN: 5956
 
 ==================================================================================
 RUN: 5957
+https://clas12mon.jlab.org/runs/summaries/?run=5957&runmax=6057&runmin=5857
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               -0.0187294
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5957 0     |
 5957 5     |
@@ -12179,6 +12739,14 @@ RUN: 5957
 
 ==================================================================================
 RUN: 5958
+https://clas12mon.jlab.org/runs/summaries/?run=5958&runmax=6058&runmin=5858
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.3119
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5958 0           1-TerminalOutlier[all]
 5958 5     |
@@ -12426,6 +12994,14 @@ RUN: 5958
 
 ==================================================================================
 RUN: 5962
+https://clas12mon.jlab.org/runs/summaries/?run=5962&runmax=6062&runmin=5862
+----------------------------------------------------------------------------------
+  user_comment:               First run after beam studies
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               55.4616
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5962 0     |
 5962 5     |
@@ -12627,6 +13203,14 @@ RUN: 5962
 
 ==================================================================================
 RUN: 5963
+https://clas12mon.jlab.org/runs/summaries/?run=5963&runmax=6063&runmin=5863
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 nA
+  beam_current:               57.3439
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5963 0     |
 5963 5     |
@@ -12868,6 +13452,14 @@ RUN: 5963
 
 ==================================================================================
 RUN: 5964
+https://clas12mon.jlab.org/runs/summaries/?run=5964&runmax=6064&runmin=5864
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60 Na
+  beam_current:               56.2931
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5964 0     |
 5964 5     |
@@ -13067,6 +13659,14 @@ RUN: 5964
 
 ==================================================================================
 RUN: 5965
+https://clas12mon.jlab.org/runs/summaries/?run=5965&runmax=6065&runmin=5865
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.2407
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5965 0           1-TerminalOutlier[all]
 5965 5     |
@@ -13266,6 +13866,14 @@ RUN: 5965
 
 ==================================================================================
 RUN: 5966
+https://clas12mon.jlab.org/runs/summaries/?run=5966&runmax=6066&runmin=5866
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               57.1809
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5966 0           1-TerminalOutlier[all]
 5966 5     |
@@ -13465,6 +14073,14 @@ RUN: 5966
 
 ==================================================================================
 RUN: 5967
+https://clas12mon.jlab.org/runs/summaries/?run=5967&runmax=6067&runmin=5867
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.0028
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5967 0           1-TerminalOutlier[all]
 5967 5     |
@@ -13663,6 +14279,14 @@ RUN: 5967
 
 ==================================================================================
 RUN: 5968
+https://clas12mon.jlab.org/runs/summaries/?run=5968&runmax=6068&runmin=5868
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.8886
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5968 0     |
 5968 5     |
@@ -13863,6 +14487,14 @@ RUN: 5968
 
 ==================================================================================
 RUN: 5969
+https://clas12mon.jlab.org/runs/summaries/?run=5969&runmax=6069&runmin=5869
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               55.9991
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5969 0     |
 5969 5     |
@@ -14062,6 +14694,14 @@ RUN: 5969
 
 ==================================================================================
 RUN: 5970
+https://clas12mon.jlab.org/runs/summaries/?run=5970&runmax=6070&runmin=5870
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       60nA
+  beam_current:               56.6378
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5970 0           1-TerminalOutlier[all]
 5970 5     |
@@ -14262,6 +14902,14 @@ RUN: 5970
 
 ==================================================================================
 RUN: 5971
+https://clas12mon.jlab.org/runs/summaries/?run=5971&runmax=6071&runmin=5871
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               56.0347
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5971 0     |
 5971 5     |
@@ -14462,22 +15110,54 @@ RUN: 5971
 
 ==================================================================================
 RUN: 5972
+https://clas12mon.jlab.org/runs/summaries/?run=5972&runmax=6072&runmin=5872
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               55.2349
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV.cnf
 ----------------------------------------------------------------------------------
 5972 0     :: BSA irregularity. Notes from logbook: run 5972 ended with only 935 thousand events because they noticed that they did not start a new trigger configuration and beam current. ::                  5-Misc[all]
 5972 5     :: BSA irregularity. Notes from logbook: run 5972 ended with only 935 thousand events because they noticed that they did not start a new trigger configuration and beam current. ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 5973
+https://clas12mon.jlab.org/runs/summaries/?run=5973&runmax=6073&runmin=5873
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               32.3532
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5973 0     :: Junk, DAQ error. BSA irregularities. ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 5974
+https://clas12mon.jlab.org/runs/summaries/?run=5974&runmax=6074&runmin=5874
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35
+  beam_current:               32.2689
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5974 0     :: Junk, DAQ error. BSA irregularities. ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 5975
+https://clas12mon.jlab.org/runs/summaries/?run=5975&runmax=6075&runmin=5875
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               32.5499
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5975 0     |
 5975 5     |
@@ -14643,6 +15323,14 @@ RUN: 5975
 
 ==================================================================================
 RUN: 5976
+https://clas12mon.jlab.org/runs/summaries/?run=5976&runmax=6076&runmin=5876
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               33.0106
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5976 0     |
 5976 5     |
@@ -14807,6 +15495,14 @@ RUN: 5976
 
 ==================================================================================
 RUN: 5977
+https://clas12mon.jlab.org/runs/summaries/?run=5977&runmax=6077&runmin=5877
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               32.651
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5977 0         1-TerminalOutlier[12346]              3-SectorLoss[5]
 5977 5                  3-SectorLoss[5]
@@ -14971,6 +15667,14 @@ RUN: 5977
 
 ==================================================================================
 RUN: 5978
+https://clas12mon.jlab.org/runs/summaries/?run=5978&runmax=6078&runmin=5878
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               32.2951
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5978 0           1-TerminalOutlier[all]
 5978 5     |
@@ -15136,6 +15840,14 @@ RUN: 5978
 
 ==================================================================================
 RUN: 5979
+https://clas12mon.jlab.org/runs/summaries/?run=5979&runmax=6079&runmin=5879
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               33.2915
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5979 0     |
 5979 5     |
@@ -15300,6 +16012,14 @@ RUN: 5979
 
 ==================================================================================
 RUN: 5980
+https://clas12mon.jlab.org/runs/summaries/?run=5980&runmax=6080&runmin=5880
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               32.1678
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5980 0           1-TerminalOutlier[all]
 5980 5     |
@@ -15464,6 +16184,14 @@ RUN: 5980
 
 ==================================================================================
 RUN: 5981
+https://clas12mon.jlab.org/runs/summaries/?run=5981&runmax=6081&runmin=5881
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               32.3775
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5981 0     |
 5981 5     |
@@ -15628,6 +16356,14 @@ RUN: 5981
 
 ==================================================================================
 RUN: 5982
+https://clas12mon.jlab.org/runs/summaries/?run=5982&runmax=6082&runmin=5882
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35
+  beam_current:               32.7184
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5982 0           1-TerminalOutlier[all]
 5982 5     |
@@ -15792,6 +16528,14 @@ RUN: 5982
 
 ==================================================================================
 RUN: 5983
+https://clas12mon.jlab.org/runs/summaries/?run=5983&runmax=6083&runmin=5883
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35
+  beam_current:               33.1192
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5983 0     |
 5983 5     |
@@ -15956,6 +16700,14 @@ RUN: 5983
 
 ==================================================================================
 RUN: 5984
+https://clas12mon.jlab.org/runs/summaries/?run=5984&runmax=6084&runmin=5884
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35
+  beam_current:               0.00561883
+  run_type:                   PROD66_NOFT
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_200MeV.cnf
 ----------------------------------------------------------------------------------
 5984 0           2-MarginalOutlier[all]
 5984 5     |
@@ -16009,6 +16761,14 @@ RUN: 5984
 
 ==================================================================================
 RUN: 5985
+https://clas12mon.jlab.org/runs/summaries/?run=5985&runmax=6085&runmin=5885
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35
+  beam_current:               null
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 null
 ----------------------------------------------------------------------------------
 5985 0     |
 5985 5     |
@@ -16069,6 +16829,14 @@ RUN: 5985
 
 ==================================================================================
 RUN: 5986
+https://clas12mon.jlab.org/runs/summaries/?run=5986&runmax=6086&runmin=5886
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5
+  beam_current:               null
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 null
 ----------------------------------------------------------------------------------
 5986 0     |
 5986 5     |
@@ -16092,6 +16860,14 @@ RUN: 5986
 
 ==================================================================================
 RUN: 5987
+https://clas12mon.jlab.org/runs/summaries/?run=5987&runmax=6087&runmin=5887
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5
+  beam_current:               null
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 null
 ----------------------------------------------------------------------------------
 5987 0     |
 5987 5     |
@@ -16115,6 +16891,14 @@ RUN: 5987
 
 ==================================================================================
 RUN: 5988
+https://clas12mon.jlab.org/runs/summaries/?run=5988&runmax=6088&runmin=5888
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5
+  beam_current:               null
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 null
 ----------------------------------------------------------------------------------
 5988 0     |
 5988 5     |
@@ -16129,6 +16913,14 @@ RUN: 5988
 
 ==================================================================================
 RUN: 5990
+https://clas12mon.jlab.org/runs/summaries/?run=5990&runmax=6090&runmin=5890
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5
+  beam_current:               null
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 null
 ----------------------------------------------------------------------------------
 5990 0     |
 5990 5     |
@@ -16149,6 +16941,14 @@ RUN: 5990
 
 ==================================================================================
 RUN: 5991
+https://clas12mon.jlab.org/runs/summaries/?run=5991&runmax=6091&runmin=5891
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               8.78035
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV_random_30kHz.cnf
 ----------------------------------------------------------------------------------
 5991 0     :: BSA irregularity. ::           4-LowLiveTime[all]                  5-Misc[all]
 5991 5     :: BSA irregularity. ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -16296,6 +17096,14 @@ RUN: 5991
 
 ==================================================================================
 RUN: 5992
+https://clas12mon.jlab.org/runs/summaries/?run=5992&runmax=6092&runmin=5892
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               33.3009
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV_random_30kHz.cnf
 ----------------------------------------------------------------------------------
 5992 0     :: BSA irregularity. ::           4-LowLiveTime[all]                  5-Misc[all]
 5992 5     :: BSA irregularity. ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -16521,6 +17329,14 @@ RUN: 5992
 
 ==================================================================================
 RUN: 5993
+https://clas12mon.jlab.org/runs/summaries/?run=5993&runmax=6093&runmin=5893
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               56.1901
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV_random_30kHz.cnf
 ----------------------------------------------------------------------------------
 5993 0     :: BSA irregularity. ::           4-LowLiveTime[all]                  5-Misc[all]
 5993 5     :: BSA irregularity. ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -16815,6 +17631,14 @@ RUN: 5993
 
 ==================================================================================
 RUN: 5994
+https://clas12mon.jlab.org/runs/summaries/?run=5994&runmax=6094&runmin=5894
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       75
+  beam_current:               69.812
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_300MeV_random_30kHz.cnf
 ----------------------------------------------------------------------------------
 5994 0     :: BSA irregularity. ::           4-LowLiveTime[all]                  5-Misc[all]
 5994 5     :: BSA irregularity. ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -17139,6 +17963,14 @@ RUN: 5994
 
 ==================================================================================
 RUN: 5995
+https://clas12mon.jlab.org/runs/summaries/?run=5995&runmax=6095&runmin=5895
+----------------------------------------------------------------------------------
+  user_comment:               Empty target run
+  target:                     LH2
+  beam_current_request:       150
+  beam_current:               0.0355859
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_150MeV.cnf
 ----------------------------------------------------------------------------------
 5995 0     :: Empty target. BSA irregularity. N/F is sistematically higher than accepted range. ::       1-TerminalOutlier[all]                  5-Misc[all]
 5995 5     :: Empty target. BSA irregularity. N/F is sistematically higher than accepted range. ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -17258,6 +18090,14 @@ RUN: 5995
 
 ==================================================================================
 RUN: 5996
+https://clas12mon.jlab.org/runs/summaries/?run=5996&runmax=6096&runmin=5896
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35
+  beam_current:               -0.0299671
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_150MeV.cnf
 ----------------------------------------------------------------------------------
 5996 0           2-MarginalOutlier[all]
 5996 5     |
@@ -17426,6 +18266,14 @@ RUN: 5996
 
 ==================================================================================
 RUN: 5997
+https://clas12mon.jlab.org/runs/summaries/?run=5997&runmax=6097&runmin=5897
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               34.7899
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_150MeV.cnf
 ----------------------------------------------------------------------------------
 5997 0     |
 5997 5     |
@@ -17594,6 +18442,14 @@ RUN: 5997
 
 ==================================================================================
 RUN: 5998
+https://clas12mon.jlab.org/runs/summaries/?run=5998&runmax=6098&runmin=5898
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               35.2413
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_150MeV.cnf
 ----------------------------------------------------------------------------------
 5998 0           2-MarginalOutlier[all]
 5998 5     |
@@ -17762,6 +18618,14 @@ RUN: 5998
 
 ==================================================================================
 RUN: 5999
+https://clas12mon.jlab.org/runs/summaries/?run=5999&runmax=6099&runmin=5899
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               34.7449
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_150MeV.cnf
 ----------------------------------------------------------------------------------
 5999 0     |
 5999 5     |
@@ -17930,6 +18794,14 @@ RUN: 5999
 
 ==================================================================================
 RUN: 6000
+https://clas12mon.jlab.org/runs/summaries/?run=6000&runmax=6100&runmin=5900
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               35.3892
+  run_type:                   PROD66_NOFT_NORICH
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v6_150MeV.cnf
 ----------------------------------------------------------------------------------
 6000 0          2-MarginalOutlier[1256]
 6000 5     |

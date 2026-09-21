@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 5674
+https://clas12mon.jlab.org/runs/summaries/?run=5674&runmax=5774&runmin=5574
+----------------------------------------------------------------------------------
+  user_comment:               Beam adjustment over the run, not really for physics analysis
+  target:                     LH2
+  beam_current_request:       5nA
+  beam_current:               4.75086
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5674 0     :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis. ::                  5-Misc[all]
 5674 5     :: on Lucilla's list of bad runs. Beam adjustment over the run, not really for physics analysis. ::                  5-Misc[all]
@@ -11,6 +19,14 @@ RUN: 5674
 
 ==================================================================================
 RUN: 5675
+https://clas12mon.jlab.org/runs/summaries/?run=5675&runmax=5775&runmin=5575
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       20nA
+  beam_current:               13.0235
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5675 0     :: on Lucilla's list of bad runs ::                  5-Misc[all]
 5675 5     :: on Lucilla's list of bad runs ::                  5-Misc[all]
@@ -30,6 +46,14 @@ RUN: 5675
 
 ==================================================================================
 RUN: 5676
+https://clas12mon.jlab.org/runs/summaries/?run=5676&runmax=5776&runmin=5576
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               30.266
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5676 0     :: on Lucilla's list of bad runs ::                  5-Misc[all]
 5676 5     :: on Lucilla's list of bad runs ::                  5-Misc[all]
@@ -40,6 +64,14 @@ RUN: 5676
 
 ==================================================================================
 RUN: 5677
+https://clas12mon.jlab.org/runs/summaries/?run=5677&runmax=5777&runmin=5577
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       40nA/35nA
+  beam_current:               29.975
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5677 0     ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk ::       1-TerminalOutlier[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 5677 5     ::  on Lucilla's list of bad runs; N/F is sistematically higher for the whole run. Junk ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
@@ -61,11 +93,27 @@ RUN: 5677
 
 ==================================================================================
 RUN: 5678
+https://clas12mon.jlab.org/runs/summaries/?run=5678&runmax=5778&runmin=5578
+----------------------------------------------------------------------------------
+  user_comment:               current scanning
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               4.72211
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5678 0     :: on Lucilla's list of bad runs. Junk. ::       1-TerminalOutlier[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5679
+https://clas12mon.jlab.org/runs/summaries/?run=5679&runmax=5779&runmin=5579
+----------------------------------------------------------------------------------
+  user_comment:               Beam scan
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               4.75265
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5679 0     :: on Lucilla's list of bad runs; Junk ::       1-TerminalOutlier[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 5679 5     :: on Lucilla's list of bad runs; Junk ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
@@ -87,12 +135,28 @@ RUN: 5679
 
 ==================================================================================
 RUN: 5680
+https://clas12mon.jlab.org/runs/summaries/?run=5680&runmax=5780&runmin=5580
+----------------------------------------------------------------------------------
+  user_comment:               Lumi scan
+  target:                     LH2
+  beam_current_request:       10 nA
+  beam_current:               10.5996
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5680 0     :: on Lucilla's list of bad runs; Junk ::                  5-Misc[all]
 5680 5     :: on Lucilla's list of bad runs; Junk ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 5681
+https://clas12mon.jlab.org/runs/summaries/?run=5681&runmax=5781&runmin=5581
+----------------------------------------------------------------------------------
+  user_comment:               Lumi Scan
+  target:                     LH2
+  beam_current_request:       10nA
+  beam_current:               -0.0413274
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5681 0     |
 5681 5     |
@@ -133,6 +197,14 @@ RUN: 5681
 
 ==================================================================================
 RUN: 5682
+https://clas12mon.jlab.org/runs/summaries/?run=5682&runmax=5782&runmin=5582
+----------------------------------------------------------------------------------
+  user_comment:               Lumi Scan
+  target:                     LH2
+  beam_current_request:       20 nA
+  beam_current:               8.98422
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5682 0     |
 5682 5     |
@@ -182,6 +254,14 @@ RUN: 5682
 
 ==================================================================================
 RUN: 5683
+https://clas12mon.jlab.org/runs/summaries/?run=5683&runmax=5783&runmin=5583
+----------------------------------------------------------------------------------
+  user_comment:               Lmi Scan
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               32.2102
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5683 0     |
 5683 5     |
@@ -266,6 +346,14 @@ RUN: 5683
 
 ==================================================================================
 RUN: 5684
+https://clas12mon.jlab.org/runs/summaries/?run=5684&runmax=5784&runmin=5584
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               -0.0107811
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/trigger_v22_1_no_dc_roads.cnf
 ----------------------------------------------------------------------------------
 5684 0     :: N/F slightly lower than the median for the whole run; Wrong helicity sign ::                  5-Misc[all]
 5684 5     :: N/F slightly lower than the median for the whole run; Wrong helicity sign ::                  5-Misc[all]
@@ -307,21 +395,53 @@ RUN: 5684
 
 ==================================================================================
 RUN: 5685
+https://clas12mon.jlab.org/runs/summaries/?run=5685&runmax=5785&runmin=5585
+----------------------------------------------------------------------------------
+  user_comment:               DAQ test
+  target:                     LH2
+  beam_current_request:       0 nA
+  beam_current:               0.0161716
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5685 0     :: Junk ::       1-TerminalOutlier[all]                  5-Misc[all]
 
 ==================================================================================
 RUN: 5686
+https://clas12mon.jlab.org/runs/summaries/?run=5686&runmax=5786&runmin=5586
+----------------------------------------------------------------------------------
+  user_comment:               DAQ test
+  target:                     LH2
+  beam_current_request:       0nA
+  beam_current:               -0.0377337
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v22_1.cnf
 ----------------------------------------------------------------------------------
 5686 0     :: Junk ::       1-TerminalOutlier[all]                  5-Misc[all]
 
 ==================================================================================
 RUN: 5688
+https://clas12mon.jlab.org/runs/summaries/?run=5688&runmax=5788&runmin=5588
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               -0.0269527
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v0.cnf
 ----------------------------------------------------------------------------------
 5688 0     :: Junk ::       1-TerminalOutlier[all]                  5-Misc[all]
 
 ==================================================================================
 RUN: 5689
+https://clas12mon.jlab.org/runs/summaries/?run=5689&runmax=5789&runmin=5589
+----------------------------------------------------------------------------------
+  user_comment:               Detector text
+  target:                     LH2
+  beam_current_request:       5nA
+  beam_current:               4.09321
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5689 0     :: Detector test, wrong helicity sign ::                  5-Misc[all]
 5689 5     :: Detector test, wrong helicity sign ::                  5-Misc[all]
@@ -329,6 +449,14 @@ RUN: 5689
 
 ==================================================================================
 RUN: 5690
+https://clas12mon.jlab.org/runs/summaries/?run=5690&runmax=5790&runmin=5590
+----------------------------------------------------------------------------------
+  user_comment:               Trigger studies
+  target:                     LH2
+  beam_current_request:       20nA
+  beam_current:               21.2692
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5690 0     :: trigger studies, wrong helicity sign ::                  5-Misc[all]
 5690 5     :: trigger studies, wrong helicity sign ::                  5-Misc[all]
@@ -341,6 +469,14 @@ RUN: 5690
 
 ==================================================================================
 RUN: 5691
+https://clas12mon.jlab.org/runs/summaries/?run=5691&runmax=5791&runmin=5591
+----------------------------------------------------------------------------------
+  user_comment:               Trigger studies
+  target:                     LH2
+  beam_current_request:       30nA
+  beam_current:               30.9381
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5691 0     :: Trigger studies, wrong helicity sign ::                  5-Misc[all]
 5691 5     :: Trigger studies, wrong helicity sign ::                  5-Misc[all]
@@ -366,6 +502,14 @@ RUN: 5691
 
 ==================================================================================
 RUN: 5692
+https://clas12mon.jlab.org/runs/summaries/?run=5692&runmax=5792&runmin=5592
+----------------------------------------------------------------------------------
+  user_comment:               Trigger test
+  target:                     LH2
+  beam_current_request:       40 nA
+  beam_current:               41.1064
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5692 0     :: Trigger test, wrong helicity sign ::                  5-Misc[all]
 5692 5     :: Trigger test, wrong helicity sign ::                  5-Misc[all]
@@ -383,6 +527,14 @@ RUN: 5692
 
 ==================================================================================
 RUN: 5693
+https://clas12mon.jlab.org/runs/summaries/?run=5693&runmax=5793&runmin=5593
+----------------------------------------------------------------------------------
+  user_comment:               Trigger studies
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               53.5064
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5693 0     :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign ::           4-LowLiveTime[all]                  5-Misc[all]
 5693 5     :: N/F slightly lower than the median for the whole run. Trigger studies, wrong helicity sign ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -395,6 +547,14 @@ RUN: 5693
 
 ==================================================================================
 RUN: 5694
+https://clas12mon.jlab.org/runs/summaries/?run=5694&runmax=5794&runmin=5594
+----------------------------------------------------------------------------------
+  user_comment:               Production run / good run  
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               36.3555
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5694 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5694 5     |
@@ -455,6 +615,14 @@ RUN: 5694
 
 ==================================================================================
 RUN: 5695
+https://clas12mon.jlab.org/runs/summaries/?run=5695&runmax=5795&runmin=5595
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               36.679
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5695 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5695 5     |
@@ -511,6 +679,14 @@ RUN: 5695
 
 ==================================================================================
 RUN: 5696
+https://clas12mon.jlab.org/runs/summaries/?run=5696&runmax=5796&runmin=5596
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               31.443
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5696 0     |
 5696 5     |
@@ -675,6 +851,14 @@ RUN: 5696
 
 ==================================================================================
 RUN: 5698
+https://clas12mon.jlab.org/runs/summaries/?run=5698&runmax=5798&runmin=5598
+----------------------------------------------------------------------------------
+  user_comment:               good run (production)
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               31.6245
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5698 0     |
 5698 5     |
@@ -867,6 +1051,14 @@ RUN: 5698
 
 ==================================================================================
 RUN: 5699
+https://clas12mon.jlab.org/runs/summaries/?run=5699&runmax=5799&runmin=5599
+----------------------------------------------------------------------------------
+  user_comment:               good run (production)
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               32.433
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5699 0     |
 5699 5     |
@@ -1060,6 +1252,14 @@ RUN: 5699
 
 ==================================================================================
 RUN: 5700
+https://clas12mon.jlab.org/runs/summaries/?run=5700&runmax=5800&runmin=5600
+----------------------------------------------------------------------------------
+  user_comment:               good run (production)
+  target:                     LH2
+  beam_current_request:       30 nA
+  beam_current:               32.1671
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5700 0     |
 5700 5     |
@@ -1253,6 +1453,14 @@ RUN: 5700
 
 ==================================================================================
 RUN: 5701
+https://clas12mon.jlab.org/runs/summaries/?run=5701&runmax=5801&runmin=5601
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               37.2647
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5701 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5701 5     |
@@ -1459,6 +1667,14 @@ RUN: 5701
 
 ==================================================================================
 RUN: 5702
+https://clas12mon.jlab.org/runs/summaries/?run=5702&runmax=5802&runmin=5602
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               36.9413
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5702 0         1-TerminalOutlier[13456]         2-MarginalOutlier[2]       7-TerminalOutlierFT[1]
 5702 5     |
@@ -1675,6 +1891,14 @@ RUN: 5702
 
 ==================================================================================
 RUN: 5703
+https://clas12mon.jlab.org/runs/summaries/?run=5703&runmax=5803&runmin=5603
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               37.3079
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5703 0         1-TerminalOutlier[13456]         2-MarginalOutlier[2]       7-TerminalOutlierFT[1]
 5703 5     |
@@ -1882,6 +2106,14 @@ RUN: 5703
 
 ==================================================================================
 RUN: 5704
+https://clas12mon.jlab.org/runs/summaries/?run=5704&runmax=5804&runmin=5604
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               36.2262
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5704 0     |
 5704 5     |
@@ -2088,6 +2320,14 @@ RUN: 5704
 
 ==================================================================================
 RUN: 5705
+https://clas12mon.jlab.org/runs/summaries/?run=5705&runmax=5805&runmin=5605
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.4013
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5705 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5705 5     |
@@ -2293,6 +2533,14 @@ RUN: 5705
 
 ==================================================================================
 RUN: 5706
+https://clas12mon.jlab.org/runs/summaries/?run=5706&runmax=5806&runmin=5606
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               36.9916
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5706 0     :: The run was stopped due to missing of many channels in ECAL and FTOF TDCs occupancies. ::              3-SectorLoss[5]       8-MarginalOutlierFT[1]                  9-LossFT[1]
 5706 5     :: The run was stopped due to missing of many channels in ECAL and FTOF TDCs occupancies. ::              3-SectorLoss[5]       8-MarginalOutlierFT[1]                  9-LossFT[1]
@@ -2391,6 +2639,14 @@ RUN: 5706
 
 ==================================================================================
 RUN: 5707
+https://clas12mon.jlab.org/runs/summaries/?run=5707&runmax=5807&runmin=5607
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               38.3231
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5707 0     |
 5707 5     |
@@ -2596,6 +2852,14 @@ RUN: 5707
 
 ==================================================================================
 RUN: 5708
+https://clas12mon.jlab.org/runs/summaries/?run=5708&runmax=5808&runmin=5608
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.3025
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5708 0     |
 5708 5     |
@@ -2642,6 +2906,14 @@ RUN: 5708
 
 ==================================================================================
 RUN: 5715
+https://clas12mon.jlab.org/runs/summaries/?run=5715&runmax=5815&runmin=5615
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.3726
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5715 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5715 5     |
@@ -2846,6 +3118,14 @@ RUN: 5715
 
 ==================================================================================
 RUN: 5716
+https://clas12mon.jlab.org/runs/summaries/?run=5716&runmax=5816&runmin=5616
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               27.8295
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5716 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5716 5     |
@@ -3050,6 +3330,14 @@ RUN: 5716
 
 ==================================================================================
 RUN: 5717
+https://clas12mon.jlab.org/runs/summaries/?run=5717&runmax=5817&runmin=5617
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               36.8173
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5717 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5717 5     |
@@ -3253,6 +3541,14 @@ RUN: 5717
 
 ==================================================================================
 RUN: 5718
+https://clas12mon.jlab.org/runs/summaries/?run=5718&runmax=5818&runmin=5618
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               36.458
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5718 0     |
 5718 5     |
@@ -3457,6 +3753,14 @@ RUN: 5718
 
 ==================================================================================
 RUN: 5720
+https://clas12mon.jlab.org/runs/summaries/?run=5720&runmax=5820&runmin=5620
+----------------------------------------------------------------------------------
+  user_comment:               good run
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.59
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5720 0     |
 5720 5     |
@@ -3662,6 +3966,14 @@ RUN: 5720
 
 ==================================================================================
 RUN: 5722
+https://clas12mon.jlab.org/runs/summaries/?run=5722&runmax=5822&runmin=5622
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               36.9216
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5722 0     |
 5722 5     |
@@ -3870,6 +4182,14 @@ RUN: 5722
 
 ==================================================================================
 RUN: 5723
+https://clas12mon.jlab.org/runs/summaries/?run=5723&runmax=5823&runmin=5623
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.4337
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5723 0     |
 5723 5     |
@@ -4074,6 +4394,14 @@ RUN: 5723
 
 ==================================================================================
 RUN: 5724
+https://clas12mon.jlab.org/runs/summaries/?run=5724&runmax=5824&runmin=5624
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               -0.0772643
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5724 0     |
 5724 5     |
@@ -4280,6 +4608,14 @@ RUN: 5724
 
 ==================================================================================
 RUN: 5725
+https://clas12mon.jlab.org/runs/summaries/?run=5725&runmax=5825&runmin=5625
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               36.5622
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5725 0     |
 5725 5     |
@@ -4508,6 +4844,14 @@ RUN: 5725
 
 ==================================================================================
 RUN: 5726
+https://clas12mon.jlab.org/runs/summaries/?run=5726&runmax=5826&runmin=5626
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               36.3915
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5726 0     |
 5726 5     |
@@ -4705,6 +5049,14 @@ RUN: 5726
 
 ==================================================================================
 RUN: 5727
+https://clas12mon.jlab.org/runs/summaries/?run=5727&runmax=5827&runmin=5627
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.4426
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5727 0     |
 5727 5     |
@@ -4900,6 +5252,14 @@ RUN: 5727
 
 ==================================================================================
 RUN: 5728
+https://clas12mon.jlab.org/runs/summaries/?run=5728&runmax=5828&runmin=5628
+----------------------------------------------------------------------------------
+  user_comment:               end run early because of resetting shunt magnet MXU6S06.
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               0.0
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5728 0     |
 5728 5     |
@@ -4940,6 +5300,14 @@ RUN: 5728
 
 ==================================================================================
 RUN: 5729
+https://clas12mon.jlab.org/runs/summaries/?run=5729&runmax=5829&runmin=5629
+----------------------------------------------------------------------------------
+  user_comment:               1st run after beam off for > 4hr
+  target:                     LH2
+  beam_current_request:       Prod @ 35 nA
+  beam_current:               36.6179
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5729 0     |
 5729 5     |
@@ -5142,6 +5510,14 @@ RUN: 5729
 
 ==================================================================================
 RUN: 5732
+https://clas12mon.jlab.org/runs/summaries/?run=5732&runmax=5832&runmin=5632
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       Prod 35 nA 
+  beam_current:               36.8694
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5732 0     |
 5732 5     |
@@ -5344,6 +5720,14 @@ RUN: 5732
 
 ==================================================================================
 RUN: 5733
+https://clas12mon.jlab.org/runs/summaries/?run=5733&runmax=5833&runmin=5633
+----------------------------------------------------------------------------------
+  user_comment:               Prod, RICH recovery button clicked before run
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               35.0241
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5733 0     |
 5733 5     |
@@ -5557,6 +5941,14 @@ RUN: 5733
 
 ==================================================================================
 RUN: 5734
+https://clas12mon.jlab.org/runs/summaries/?run=5734&runmax=5834&runmin=5634
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               35.6763
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5734 0     |
 5734 5     |
@@ -5766,6 +6158,14 @@ RUN: 5734
 
 ==================================================================================
 RUN: 5735
+https://clas12mon.jlab.org/runs/summaries/?run=5735&runmax=5835&runmin=5635
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.5415
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5735 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5735 5     |
@@ -5973,6 +6373,14 @@ RUN: 5735
 
 ==================================================================================
 RUN: 5736
+https://clas12mon.jlab.org/runs/summaries/?run=5736&runmax=5836&runmin=5636
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.2827
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5736 0     |
 5736 5     |
@@ -6179,6 +6587,14 @@ RUN: 5736
 
 ==================================================================================
 RUN: 5739
+https://clas12mon.jlab.org/runs/summaries/?run=5739&runmax=5839&runmin=5639
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               36.7509
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5739 0     |
 5739 5     |
@@ -6392,11 +6808,27 @@ RUN: 5739
 
 ==================================================================================
 RUN: 5741
+https://clas12mon.jlab.org/runs/summaries/?run=5741&runmax=5841&runmin=5641
+----------------------------------------------------------------------------------
+  user_comment:               Junk
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               0.0431243
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5741 0     :: on Lucilla's list of bad runs; Junk ::         1-TerminalOutlier[1]                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5742
+https://clas12mon.jlab.org/runs/summaries/?run=5742&runmax=5842&runmin=5642
+----------------------------------------------------------------------------------
+  user_comment:               NO SVT INFO
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               19.9288
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5742 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5742 5     |
@@ -6427,6 +6859,14 @@ RUN: 5742
 
 ==================================================================================
 RUN: 5743
+https://clas12mon.jlab.org/runs/summaries/?run=5743&runmax=5843&runmin=5643
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nS
+  beam_current:               37.5846
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5743 0     |
 5743 5     |
@@ -6632,6 +7072,14 @@ RUN: 5743
 
 ==================================================================================
 RUN: 5745
+https://clas12mon.jlab.org/runs/summaries/?run=5745&runmax=5845&runmin=5645
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35nA
+  beam_current:               -0.00718738
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5745 0     :: noticed a slight decrease in N/F that persists for several runs afterward ::                    5-Misc[2]
 5745 5     :: noticed a slight decrease in N/F that persists for several runs afterward ::                    5-Misc[2]
@@ -6839,6 +7287,14 @@ RUN: 5745
 
 ==================================================================================
 RUN: 5746
+https://clas12mon.jlab.org/runs/summaries/?run=5746&runmax=5846&runmin=5646
+----------------------------------------------------------------------------------
+  user_comment:               Beam studies begin for ~ 5 hours
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               37.8002
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5746 0     :: helicity sign is wrong ::                  5-Misc[all]
 5746 5     :: helicity sign is wrong ::                  5-Misc[all]
@@ -7016,6 +7472,14 @@ RUN: 5746
 
 ==================================================================================
 RUN: 5749
+https://clas12mon.jlab.org/runs/summaries/?run=5749&runmax=5849&runmin=5649
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     empty
+  beam_current_request:       150 nA
+  beam_current:               155.382
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5749 0     :: empty target run ::       1-TerminalOutlier[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 5749 5     :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
@@ -7114,6 +7578,14 @@ RUN: 5749
 
 ==================================================================================
 RUN: 5750
+https://clas12mon.jlab.org/runs/summaries/?run=5750&runmax=5850&runmin=5650
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               0.0147937
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5750 0     :: noticed a slight decrease in N/F for sector 2 that persists for all the run. ::                    5-Misc[2]
 5750 5     :: noticed a slight decrease in N/F for sector 2 that persists for all the run. ::                    5-Misc[2]
@@ -7324,6 +7796,14 @@ RUN: 5750
 
 ==================================================================================
 RUN: 5751
+https://clas12mon.jlab.org/runs/summaries/?run=5751&runmax=5851&runmin=5651
+----------------------------------------------------------------------------------
+  user_comment:               DC Occapancy looks peculiar in all Sectors except 1
+  target:                     LH2
+  beam_current_request:       35 nA
+  beam_current:               33.5407
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5751 0     :: noticed a slight decrease in N/F for sector 2. ::                    5-Misc[2]
 5751 5     :: noticed a slight decrease in N/F for sector 2. ::                    5-Misc[2]
@@ -7387,6 +7867,14 @@ RUN: 5751
 
 ==================================================================================
 RUN: 5753
+https://clas12mon.jlab.org/runs/summaries/?run=5753&runmax=5853&runmin=5653
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               11.3452
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v2.cnf
 ----------------------------------------------------------------------------------
 5753 0     :: noticed a slight decrease in N/F for sector 2 that persists for all the run. ::       2-MarginalOutlier[235]                    5-Misc[2]
 5753 5     :: noticed a slight decrease in N/F for sector 2 that persists for all the run. ::                    5-Misc[2]
@@ -7485,6 +7973,14 @@ RUN: 5753
 
 ==================================================================================
 RUN: 5758
+https://clas12mon.jlab.org/runs/summaries/?run=5758&runmax=5858&runmin=5658
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.9423
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rkk_v4.cnf
 ----------------------------------------------------------------------------------
 5758 0     |
 5758 5     |
@@ -7701,6 +8197,14 @@ RUN: 5758
 
 ==================================================================================
 RUN: 5759
+https://clas12mon.jlab.org/runs/summaries/?run=5759&runmax=5859&runmin=5659
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               0.0
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rkk_v4.cnf
 ----------------------------------------------------------------------------------
 5759 0     |
 5759 5     |
@@ -7924,6 +8428,14 @@ RUN: 5759
 
 ==================================================================================
 RUN: 5760
+https://clas12mon.jlab.org/runs/summaries/?run=5760&runmax=5860&runmin=5660
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.4492
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5760 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5760 5     |
@@ -8002,6 +8514,14 @@ RUN: 5760
 
 ==================================================================================
 RUN: 5761
+https://clas12mon.jlab.org/runs/summaries/?run=5761&runmax=5861&runmin=5661
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.6366
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5761 0     |
 5761 5     |
@@ -8051,16 +8571,40 @@ RUN: 5761
 
 ==================================================================================
 RUN: 5762
+https://clas12mon.jlab.org/runs/summaries/?run=5762&runmax=5862&runmin=5662
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               44.1445
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5762 0     :: only one file (DAQ error) ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5763
+https://clas12mon.jlab.org/runs/summaries/?run=5763&runmax=5863&runmin=5663
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               21.4657
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5763 0     :: only one file (DAQ error) ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5765
+https://clas12mon.jlab.org/runs/summaries/?run=5765&runmax=5865&runmin=5665
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               44.4355
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5765 0           1-TerminalOutlier[all]       8-MarginalOutlierFT[1]
 5765 5     |
@@ -8156,6 +8700,14 @@ RUN: 5765
 
 ==================================================================================
 RUN: 5766
+https://clas12mon.jlab.org/runs/summaries/?run=5766&runmax=5866&runmin=5666
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               29.6171
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5766 0             1-TerminalOutlier[4]     2-MarginalOutlier[12356]
 5766 5     |
@@ -8196,6 +8748,14 @@ RUN: 5766
 
 ==================================================================================
 RUN: 5767
+https://clas12mon.jlab.org/runs/summaries/?run=5767&runmax=5867&runmin=5667
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               19.7529
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5767 0             2-MarginalOutlier[6]
 5767 5           8-MarginalOutlierFT[1]
@@ -8365,6 +8925,14 @@ RUN: 5767
 
 ==================================================================================
 RUN: 5768
+https://clas12mon.jlab.org/runs/summaries/?run=5768&runmax=5868&runmin=5668
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5nA
+  beam_current:               4.54661
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5768 0     :: Low value of defined helicity fraction, 0.87521 ::                  5-Misc[all]       8-MarginalOutlierFT[1]
 5768 5     :: Low value of defined helicity fraction, 0.87521 ::                  5-Misc[all]       8-MarginalOutlierFT[1]
@@ -8381,6 +8949,14 @@ RUN: 5768
 
 ==================================================================================
 RUN: 5769
+https://clas12mon.jlab.org/runs/summaries/?run=5769&runmax=5869&runmin=5669
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       5 nA
+  beam_current:               4.56305
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5769 0     :: Low value of defined helicity fraction, 0.88323 ::                  5-Misc[all]
 5769 5     :: Low value of defined helicity fraction, 0.88323 ::                  5-Misc[all]       8-MarginalOutlierFT[1]
@@ -8402,6 +8978,14 @@ RUN: 5769
 
 ==================================================================================
 RUN: 5772
+https://clas12mon.jlab.org/runs/summaries/?run=5772&runmax=5872&runmin=5672
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               37.3049
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5772 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5772 5     |
@@ -8694,6 +9278,14 @@ RUN: 5772
 
 ==================================================================================
 RUN: 5774
+https://clas12mon.jlab.org/runs/summaries/?run=5774&runmax=5874&runmin=5674
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               29.2078
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rkk_v4.cnf
 ----------------------------------------------------------------------------------
 5774 0     :: BSA irregularity ::                  5-Misc[all]
 5774 5     :: BSA irregularity ::                  5-Misc[all]
@@ -8712,6 +9304,14 @@ RUN: 5774
 
 ==================================================================================
 RUN: 5777
+https://clas12mon.jlab.org/runs/summaries/?run=5777&runmax=5877&runmin=5677
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.127
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5777 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5777 5     |
@@ -8873,6 +9473,14 @@ RUN: 5777
 
 ==================================================================================
 RUN: 5787
+https://clas12mon.jlab.org/runs/summaries/?run=5787&runmax=5887&runmin=5687
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.2766
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5787 0     |
 5787 5     |
@@ -8901,6 +9509,14 @@ RUN: 5787
 
 ==================================================================================
 RUN: 5788
+https://clas12mon.jlab.org/runs/summaries/?run=5788&runmax=5888&runmin=5688
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               -0.01315
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5788 0     |
 5788 5     |
@@ -9050,6 +9666,14 @@ RUN: 5788
 
 ==================================================================================
 RUN: 5789
+https://clas12mon.jlab.org/runs/summaries/?run=5789&runmax=5889&runmin=5689
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.5791
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5789 0     |
 5789 5     |
@@ -9195,6 +9819,14 @@ RUN: 5789
 
 ==================================================================================
 RUN: 5790
+https://clas12mon.jlab.org/runs/summaries/?run=5790&runmax=5890&runmin=5690
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               24.5888
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5790 0     |
 5790 5     |
@@ -9281,6 +9913,14 @@ RUN: 5790
 
 ==================================================================================
 RUN: 5791
+https://clas12mon.jlab.org/runs/summaries/?run=5791&runmax=5891&runmin=5691
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               42.8361
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5791 0     |
 5791 5     |
@@ -9373,6 +10013,14 @@ RUN: 5791
 
 ==================================================================================
 RUN: 5792
+https://clas12mon.jlab.org/runs/summaries/?run=5792&runmax=5892&runmin=5692
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.6875
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5792 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5792 5     |
@@ -9533,6 +10181,14 @@ RUN: 5792
 
 ==================================================================================
 RUN: 5793
+https://clas12mon.jlab.org/runs/summaries/?run=5793&runmax=5893&runmin=5693
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.2372
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5793 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5793 5     |
@@ -9757,6 +10413,14 @@ RUN: 5793
 
 ==================================================================================
 RUN: 5794
+https://clas12mon.jlab.org/runs/summaries/?run=5794&runmax=5894&runmin=5694
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.2569
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5794 0     |
 5794 5     |
@@ -9967,6 +10631,14 @@ RUN: 5794
 
 ==================================================================================
 RUN: 5795
+https://clas12mon.jlab.org/runs/summaries/?run=5795&runmax=5895&runmin=5695
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               44.0853
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5795 0     |
 5795 5     |
@@ -10085,6 +10757,14 @@ RUN: 5795
 
 ==================================================================================
 RUN: 5796
+https://clas12mon.jlab.org/runs/summaries/?run=5796&runmax=5896&runmin=5696
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.0531
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5796 0     |
 5796 5     |
@@ -10225,6 +10905,14 @@ RUN: 5796
 
 ==================================================================================
 RUN: 5797
+https://clas12mon.jlab.org/runs/summaries/?run=5797&runmax=5897&runmin=5697
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA  
+  beam_current:               43.6119
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5797 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5797 5     |
@@ -10382,6 +11070,14 @@ RUN: 5797
 
 ==================================================================================
 RUN: 5798
+https://clas12mon.jlab.org/runs/summaries/?run=5798&runmax=5898&runmin=5698
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.5133
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5798 0     |
 5798 5     |
@@ -10409,6 +11105,14 @@ RUN: 5798
 
 ==================================================================================
 RUN: 5799
+https://clas12mon.jlab.org/runs/summaries/?run=5799&runmax=5899&runmin=5699
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               44.3681
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5799 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5799 5     |
@@ -10542,12 +11246,28 @@ RUN: 5799
 
 ==================================================================================
 RUN: 5800
+https://clas12mon.jlab.org/runs/summaries/?run=5800&runmax=5900&runmin=5700
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               0.0410937
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5800 0           7-TerminalOutlierFT[1]
 5800 5           8-MarginalOutlierFT[1]
 
 ==================================================================================
 RUN: 5801
+https://clas12mon.jlab.org/runs/summaries/?run=5801&runmax=5901&runmin=5701
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.3204
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5801 0     |
 5801 5     |
@@ -10665,6 +11385,14 @@ RUN: 5801
 
 ==================================================================================
 RUN: 5802
+https://clas12mon.jlab.org/runs/summaries/?run=5802&runmax=5902&runmin=5702
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.0607
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5802 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5802 5     |
@@ -10694,6 +11422,14 @@ RUN: 5802
 
 ==================================================================================
 RUN: 5803
+https://clas12mon.jlab.org/runs/summaries/?run=5803&runmax=5903&runmin=5703
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               0.0164375
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5803 0     |
 5803 5     |
@@ -10725,6 +11461,14 @@ RUN: 5803
 
 ==================================================================================
 RUN: 5804
+https://clas12mon.jlab.org/runs/summaries/?run=5804&runmax=5904&runmin=5704
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45
+  beam_current:               43.9111
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5804 0     |
 5804 5     |
@@ -10835,6 +11579,14 @@ RUN: 5804
 
 ==================================================================================
 RUN: 5806
+https://clas12mon.jlab.org/runs/summaries/?run=5806&runmax=5906&runmin=5706
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.2086
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5806 0     |
 5806 5     |
@@ -11137,6 +11889,14 @@ RUN: 5806
 
 ==================================================================================
 RUN: 5807
+https://clas12mon.jlab.org/runs/summaries/?run=5807&runmax=5907&runmin=5707
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.5505
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5807 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5807 5     |
@@ -11324,6 +12084,14 @@ RUN: 5807
 
 ==================================================================================
 RUN: 5808
+https://clas12mon.jlab.org/runs/summaries/?run=5808&runmax=5908&runmin=5708
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               23.6305
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5808 0     :: BSA irregularity ::     1-TerminalOutlier[13456]         2-MarginalOutlier[2]                  5-Misc[all]       8-MarginalOutlierFT[1]
 5808 5     :: BSA irregularity ::                  5-Misc[all]
@@ -11331,6 +12099,14 @@ RUN: 5808
 
 ==================================================================================
 RUN: 5809
+https://clas12mon.jlab.org/runs/summaries/?run=5809&runmax=5909&runmin=5709
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               3.25627
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5809 0     :: on Lucilla's list of bad runs ::      2-MarginalOutlier[2346]                  5-Misc[all]       7-TerminalOutlierFT[1]
 5809 5     :: on Lucilla's list of bad runs ::       2-MarginalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
@@ -11405,6 +12181,14 @@ RUN: 5809
 
 ==================================================================================
 RUN: 5810
+https://clas12mon.jlab.org/runs/summaries/?run=5810&runmax=5910&runmin=5710
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               3.66885
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5810 0     |
 5810 5     |
@@ -11464,6 +12248,14 @@ RUN: 5810
 
 ==================================================================================
 RUN: 5811
+https://clas12mon.jlab.org/runs/summaries/?run=5811&runmax=5911&runmin=5711
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               42.5172
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5811 0     |
 5811 5     |
@@ -11505,6 +12297,14 @@ RUN: 5811
 
 ==================================================================================
 RUN: 5812
+https://clas12mon.jlab.org/runs/summaries/?run=5812&runmax=5912&runmin=5712
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.2224
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5812 0         1-TerminalOutlier[12346]              3-SectorLoss[5]       7-TerminalOutlierFT[1]                  9-LossFT[1]
 5812 5                  3-SectorLoss[5]          6-TotalOutlierFT[1]                  9-LossFT[1]
@@ -11516,6 +12316,14 @@ RUN: 5812
 
 ==================================================================================
 RUN: 5813
+https://clas12mon.jlab.org/runs/summaries/?run=5813&runmax=5913&runmin=5713
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               10.9654
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5813 0     |
 5813 5     |
@@ -11743,6 +12551,14 @@ RUN: 5813
 
 ==================================================================================
 RUN: 5814
+https://clas12mon.jlab.org/runs/summaries/?run=5814&runmax=5914&runmin=5714
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               42.7572
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5814 0     |
 5814 5     |
@@ -12042,6 +12858,14 @@ RUN: 5814
 
 ==================================================================================
 RUN: 5815
+https://clas12mon.jlab.org/runs/summaries/?run=5815&runmax=5915&runmin=5715
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.9769
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5815 0     |
 5815 5     |
@@ -12078,6 +12902,14 @@ RUN: 5815
 
 ==================================================================================
 RUN: 5816
+https://clas12mon.jlab.org/runs/summaries/?run=5816&runmax=5916&runmin=5716
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.3046
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5816 0     |
 5816 5     |
@@ -12208,6 +13040,14 @@ RUN: 5816
 
 ==================================================================================
 RUN: 5817
+https://clas12mon.jlab.org/runs/summaries/?run=5817&runmax=5917&runmin=5717
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.1731
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5817 0     |
 5817 5     |
@@ -12307,6 +13147,14 @@ RUN: 5817
 
 ==================================================================================
 RUN: 5821
+https://clas12mon.jlab.org/runs/summaries/?run=5821&runmax=5921&runmin=5721
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.2766
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5821 0         1-TerminalOutlier[13456]         2-MarginalOutlier[2]       7-TerminalOutlierFT[1]
 5821 5     |
@@ -12423,6 +13271,14 @@ RUN: 5821
 
 ==================================================================================
 RUN: 5822
+https://clas12mon.jlab.org/runs/summaries/?run=5822&runmax=5922&runmin=5722
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.9736
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5822 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5822 5     |
@@ -12454,6 +13310,14 @@ RUN: 5822
 
 ==================================================================================
 RUN: 5823
+https://clas12mon.jlab.org/runs/summaries/?run=5823&runmax=5923&runmin=5723
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               -0.0032875
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5823 0          2-MarginalOutlier[1256]       8-MarginalOutlierFT[1]
 5823 5     |
@@ -12660,6 +13524,14 @@ RUN: 5823
 
 ==================================================================================
 RUN: 5824
+https://clas12mon.jlab.org/runs/summaries/?run=5824&runmax=5924&runmin=5724
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.0432
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5824 0     |
 5824 5     |
@@ -12724,6 +13596,14 @@ RUN: 5824
 
 ==================================================================================
 RUN: 5825
+https://clas12mon.jlab.org/runs/summaries/?run=5825&runmax=5925&runmin=5725
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.4393
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5825 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5825 5     |
@@ -12733,6 +13613,14 @@ RUN: 5825
 
 ==================================================================================
 RUN: 5826
+https://clas12mon.jlab.org/runs/summaries/?run=5826&runmax=5926&runmin=5726
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.7303
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5826 0     |
 5826 5     |
@@ -12872,6 +13760,14 @@ RUN: 5826
 
 ==================================================================================
 RUN: 5827
+https://clas12mon.jlab.org/runs/summaries/?run=5827&runmax=5927&runmin=5727
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               43.4624
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5827 0     :: irregularity in the defined helicity fraction ::       1-TerminalOutlier[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 5827 5     :: irregularity in the defined helicity fraction ::                  5-Misc[all]
@@ -12887,6 +13783,14 @@ RUN: 5827
 
 ==================================================================================
 RUN: 5828
+https://clas12mon.jlab.org/runs/summaries/?run=5828&runmax=5928&runmin=5728
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45
+  beam_current:               43.3835
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5828 0     |
 5828 5     |
@@ -12981,6 +13885,14 @@ RUN: 5828
 
 ==================================================================================
 RUN: 5829
+https://clas12mon.jlab.org/runs/summaries/?run=5829&runmax=5929&runmin=5729
+----------------------------------------------------------------------------------
+  user_comment:               trying mmft1 unpack
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.4492
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5829 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5829 5     |
@@ -13022,6 +13934,14 @@ RUN: 5829
 
 ==================================================================================
 RUN: 5830
+https://clas12mon.jlab.org/runs/summaries/?run=5830&runmax=5930&runmin=5730
+----------------------------------------------------------------------------------
+  user_comment:               mmft1 no DiagGuiServer
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.0985
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5830 0     |
 5830 5     |
@@ -13039,6 +13959,14 @@ RUN: 5830
 
 ==================================================================================
 RUN: 5832
+https://clas12mon.jlab.org/runs/summaries/?run=5832&runmax=5932&runmin=5732
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.4377
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5832 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5832 5     |
@@ -13167,6 +14095,14 @@ RUN: 5832
 
 ==================================================================================
 RUN: 5835
+https://clas12mon.jlab.org/runs/summaries/?run=5835&runmax=5935&runmin=5735
+----------------------------------------------------------------------------------
+  user_comment:               new trigger rgk_v5
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               -0.0345187
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v5.cnf
 ----------------------------------------------------------------------------------
 5835 0           8-MarginalOutlierFT[1]
 5835 5     |
@@ -13220,6 +14156,14 @@ RUN: 5835
 
 ==================================================================================
 RUN: 5836
+https://clas12mon.jlab.org/runs/summaries/?run=5836&runmax=5936&runmin=5736
+----------------------------------------------------------------------------------
+  user_comment:               buffer_level=5
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               20.6718
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v5.cnf
 ----------------------------------------------------------------------------------
 5836 0     |
 5836 5     |
@@ -13254,6 +14198,14 @@ RUN: 5836
 
 ==================================================================================
 RUN: 5838
+https://clas12mon.jlab.org/runs/summaries/?run=5838&runmax=5938&runmin=5738
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35
+  beam_current:               34.7965
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v5.cnf
 ----------------------------------------------------------------------------------
 5838 0     :: Beam spin asimmetry irregularity ::                  5-Misc[all]
 5838 5     :: Beam spin asimmetry irregularity ::                  5-Misc[all]
@@ -13267,6 +14219,14 @@ RUN: 5838
 
 ==================================================================================
 RUN: 5839
+https://clas12mon.jlab.org/runs/summaries/?run=5839&runmax=5939&runmin=5739
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       35
+  beam_current:               33.4075
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v5.cnf
 ----------------------------------------------------------------------------------
 5839 0     |
 5839 5     |
@@ -13281,16 +14241,40 @@ RUN: 5839
 
 ==================================================================================
 RUN: 5841
+https://clas12mon.jlab.org/runs/summaries/?run=5841&runmax=5941&runmin=5741
+----------------------------------------------------------------------------------
+  user_comment:               daq test
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               -0.01315
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v5.cnf
 ----------------------------------------------------------------------------------
 5841 0     :: Junk ::       1-TerminalOutlier[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5843
+https://clas12mon.jlab.org/runs/summaries/?run=5843&runmax=5943&runmin=5743
+----------------------------------------------------------------------------------
+  user_comment:               daq test
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               0.0
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v5.cnf
 ----------------------------------------------------------------------------------
 5843 0     :: Junk ::       1-TerminalOutlier[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5844
+https://clas12mon.jlab.org/runs/summaries/?run=5844&runmax=5944&runmin=5744
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.0942
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v5.cnf
 ----------------------------------------------------------------------------------
 5844 0     |
 5844 5     |
@@ -13576,6 +14560,14 @@ RUN: 5844
 
 ==================================================================================
 RUN: 5845
+https://clas12mon.jlab.org/runs/summaries/?run=5845&runmax=5945&runmin=5745
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.9621
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v5.cnf
 ----------------------------------------------------------------------------------
 5845 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5845 5     |
@@ -13903,6 +14895,14 @@ RUN: 5845
 
 ==================================================================================
 RUN: 5846
+https://clas12mon.jlab.org/runs/summaries/?run=5846&runmax=5946&runmin=5746
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.1862
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5846 0     |
 5846 5     |
@@ -14168,6 +15168,14 @@ RUN: 5846
 
 ==================================================================================
 RUN: 5847
+https://clas12mon.jlab.org/runs/summaries/?run=5847&runmax=5947&runmin=5747
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               41.3633
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5847 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5847 5     |
@@ -14399,6 +15407,14 @@ RUN: 5847
 
 ==================================================================================
 RUN: 5848
+https://clas12mon.jlab.org/runs/summaries/?run=5848&runmax=5948&runmin=5748
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               44.3072
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5848 0     |
 5848 5     |
@@ -14626,6 +15642,14 @@ RUN: 5848
 
 ==================================================================================
 RUN: 5849
+https://clas12mon.jlab.org/runs/summaries/?run=5849&runmax=5949&runmin=5749
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.6547
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5849 0     |
 5849 5     |
@@ -14855,6 +15879,14 @@ RUN: 5849
 
 ==================================================================================
 RUN: 5850
+https://clas12mon.jlab.org/runs/summaries/?run=5850&runmax=5950&runmin=5750
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.7385
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5850 0     |
 5850 5     |
@@ -15024,6 +16056,14 @@ RUN: 5850
 
 ==================================================================================
 RUN: 5851
+https://clas12mon.jlab.org/runs/summaries/?run=5851&runmax=5951&runmin=5751
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               -0.0230125
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5851 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5851 5     |
@@ -15252,6 +16292,14 @@ RUN: 5851
 
 ==================================================================================
 RUN: 5852
+https://clas12mon.jlab.org/runs/summaries/?run=5852&runmax=5952&runmin=5752
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               44.876
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5852 0     |
 5852 5     |
@@ -15406,6 +16454,14 @@ RUN: 5852
 
 ==================================================================================
 RUN: 5853
+https://clas12mon.jlab.org/runs/summaries/?run=5853&runmax=5953&runmin=5753
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               -0.019725
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5853 0                  3-SectorLoss[1]
 5853 5                  3-SectorLoss[1]          6-TotalOutlierFT[1]                  9-LossFT[1]
@@ -15429,6 +16485,14 @@ RUN: 5853
 
 ==================================================================================
 RUN: 5854
+https://clas12mon.jlab.org/runs/summaries/?run=5854&runmax=5954&runmin=5754
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               30.8992
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5854 0           1-TerminalOutlier[all]       8-MarginalOutlierFT[1]
 5854 5     |
@@ -15658,6 +16722,14 @@ RUN: 5854
 
 ==================================================================================
 RUN: 5855
+https://clas12mon.jlab.org/runs/summaries/?run=5855&runmax=5955&runmin=5755
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.4295
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5855 0     |
 5855 5     |
@@ -15961,6 +17033,14 @@ RUN: 5855
 
 ==================================================================================
 RUN: 5856
+https://clas12mon.jlab.org/runs/summaries/?run=5856&runmax=5956&runmin=5756
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.7812
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5856 0     |
 5856 5     |
@@ -16346,6 +17426,14 @@ RUN: 5856
 
 ==================================================================================
 RUN: 5857
+https://clas12mon.jlab.org/runs/summaries/?run=5857&runmax=5957&runmin=5757
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               42.7654
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5857 0     |
 5857 5     |
@@ -16614,6 +17702,14 @@ RUN: 5857
 
 ==================================================================================
 RUN: 5858
+https://clas12mon.jlab.org/runs/summaries/?run=5858&runmax=5958&runmin=5758
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               17.0588
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5858 0         2-MarginalOutlier[13456]
 5858 5     |
@@ -16821,6 +17917,14 @@ RUN: 5858
 
 ==================================================================================
 RUN: 5859
+https://clas12mon.jlab.org/runs/summaries/?run=5859&runmax=5959&runmin=5759
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               40.8389
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5859 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5859 5     |
@@ -16836,16 +17940,40 @@ RUN: 5859
 
 ==================================================================================
 RUN: 5860
+https://clas12mon.jlab.org/runs/summaries/?run=5860&runmax=5960&runmin=5760
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.6497
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5860 0     :: Junk ::                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5861
+https://clas12mon.jlab.org/runs/summaries/?run=5861&runmax=5961&runmin=5761
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.6185
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5861 0     :: Junk ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5862
+https://clas12mon.jlab.org/runs/summaries/?run=5862&runmax=5962&runmin=5762
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.2678
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5862 0     :: Junk, only 27 files ::         1-TerminalOutlier[2]                    5-Misc[2]       7-TerminalOutlierFT[1]
 5862 5     :: Junk, only 27 files ::            0-TotalOutlier[2]                    5-Misc[2]          6-TotalOutlierFT[1]
@@ -16856,11 +17984,27 @@ RUN: 5862
 
 ==================================================================================
 RUN: 5863
+https://clas12mon.jlab.org/runs/summaries/?run=5863&runmax=5963&runmin=5763
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.2678
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5863 0     :: Junk ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]
 
 ==================================================================================
 RUN: 5864
+https://clas12mon.jlab.org/runs/summaries/?run=5864&runmax=5964&runmin=5764
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.8979
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5864 0     |
 5864 5     |
@@ -17069,6 +18213,14 @@ RUN: 5864
 
 ==================================================================================
 RUN: 5865
+https://clas12mon.jlab.org/runs/summaries/?run=5865&runmax=5965&runmin=5765
+----------------------------------------------------------------------------------
+  user_comment:               junk
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               1.64868
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5865 0     :: junk run ::                  5-Misc[all]
 5865 5     :: junk run ::                  5-Misc[all]
@@ -17092,6 +18244,14 @@ RUN: 5865
 
 ==================================================================================
 RUN: 5866
+https://clas12mon.jlab.org/runs/summaries/?run=5866&runmax=5966&runmin=5766
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45 nA
+  beam_current:               43.7697
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5866 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5866 5     |
@@ -17174,6 +18334,14 @@ RUN: 5866
 
 ==================================================================================
 RUN: 5867
+https://clas12mon.jlab.org/runs/summaries/?run=5867&runmax=5967&runmin=5767
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               44.2333
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5867 0           1-TerminalOutlier[all]       7-TerminalOutlierFT[1]
 5867 5     |
@@ -17401,6 +18569,14 @@ RUN: 5867
 
 ==================================================================================
 RUN: 5868
+https://clas12mon.jlab.org/runs/summaries/?run=5868&runmax=5968&runmin=5768
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               28.4401
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5868 0     |
 5868 5     |
@@ -17461,6 +18637,14 @@ RUN: 5868
 
 ==================================================================================
 RUN: 5869
+https://clas12mon.jlab.org/runs/summaries/?run=5869&runmax=5969&runmin=5769
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               43.7155
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5869 0     |
 5869 5     |
@@ -17560,6 +18744,14 @@ RUN: 5869
 
 ==================================================================================
 RUN: 5870
+https://clas12mon.jlab.org/runs/summaries/?run=5870&runmax=5970&runmin=5770
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       45nA
+  beam_current:               -0.00821874
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgk_v4.cnf
 ----------------------------------------------------------------------------------
 5870 0     |
 5870 5     |

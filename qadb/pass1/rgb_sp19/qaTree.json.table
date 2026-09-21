@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 6156
+https://clas12mon.jlab.org/runs/summaries/?run=6156&runmax=6256&runmin=6056
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       20
+  beam_current:               19.6663
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v0.cnf
 ----------------------------------------------------------------------------------
 6156 0     |
 6156 5     |
@@ -60,6 +68,14 @@ RUN: 6156
 
 ==================================================================================
 RUN: 6157
+https://clas12mon.jlab.org/runs/summaries/?run=6157&runmax=6257&runmin=6057
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       20nA
+  beam_current:               -0.0129889
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v0.cnf
 ----------------------------------------------------------------------------------
 6157 0     |
 6157 5     |
@@ -120,6 +136,14 @@ RUN: 6157
 
 ==================================================================================
 RUN: 6164
+https://clas12mon.jlab.org/runs/summaries/?run=6164&runmax=6264&runmin=6064
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               5.01697
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v0.cnf
 ----------------------------------------------------------------------------------
 6164 0     |
 6164 5     |
@@ -306,6 +330,14 @@ RUN: 6164
 
 ==================================================================================
 RUN: 6167
+https://clas12mon.jlab.org/runs/summaries/?run=6167&runmax=6267&runmin=6067
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       10 nA
+  beam_current:               10.1097
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v0.cnf
 ----------------------------------------------------------------------------------
 6167 0     :: 10 nA run ::                  5-Misc[all]
 6167 5     :: 10 nA run ::                  5-Misc[all]
@@ -325,6 +357,14 @@ RUN: 6167
 
 ==================================================================================
 RUN: 6168
+https://clas12mon.jlab.org/runs/summaries/?run=6168&runmax=6268&runmin=6068
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       10
+  beam_current:               0.0140713
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v0.cnf
 ----------------------------------------------------------------------------------
 6168 0     :: 10 nA run ::                  5-Misc[all]
 6168 5     :: 10 nA run ::                  5-Misc[all]
@@ -334,6 +374,14 @@ RUN: 6168
 
 ==================================================================================
 RUN: 6169
+https://clas12mon.jlab.org/runs/summaries/?run=6169&runmax=6269&runmin=6069
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       10 nA
+  beam_current:               9.80231
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v0.cnf
 ----------------------------------------------------------------------------------
 6169 0     :: 10 nA run ::                  5-Misc[all]
 6169 5     :: 10 nA run ::                  5-Misc[all]
@@ -353,6 +401,14 @@ RUN: 6169
 
 ==================================================================================
 RUN: 6170
+https://clas12mon.jlab.org/runs/summaries/?run=6170&runmax=6270&runmin=6070
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       10 nA
+  beam_current:               10.1227
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v0.cnf
 ----------------------------------------------------------------------------------
 6170 0     :: 10 nA run ::                  5-Misc[all]
 6170 5     :: 10 nA run ::                  5-Misc[all]
@@ -381,6 +437,14 @@ RUN: 6170
 
 ==================================================================================
 RUN: 6189
+https://clas12mon.jlab.org/runs/summaries/?run=6189&runmax=6289&runmin=6089
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.00324723
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v1.cnf
 ----------------------------------------------------------------------------------
 6189 0           1-TerminalOutlier[all]           4-LowLiveTime[all]
 6189 5     |
@@ -509,6 +573,14 @@ RUN: 6189
 
 ==================================================================================
 RUN: 6190
+https://clas12mon.jlab.org/runs/summaries/?run=6190&runmax=6290&runmin=6090
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.0151537
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v1.cnf
 ----------------------------------------------------------------------------------
 6190 0     |
 6190 5     |
@@ -553,6 +625,14 @@ RUN: 6190
 
 ==================================================================================
 RUN: 6191
+https://clas12mon.jlab.org/runs/summaries/?run=6191&runmax=6291&runmin=6091
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               44.342
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6191 0     |
 6191 5     |
@@ -671,6 +751,14 @@ RUN: 6191
 
 ==================================================================================
 RUN: 6193
+https://clas12mon.jlab.org/runs/summaries/?run=6193&runmax=6293&runmin=6093
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.044
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6193 0     |
 6193 5     |
@@ -816,6 +904,14 @@ RUN: 6193
 
 ==================================================================================
 RUN: 6194
+https://clas12mon.jlab.org/runs/summaries/?run=6194&runmax=6294&runmin=6094
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.3546
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6194 0     |
 6194 5     |
@@ -842,6 +938,14 @@ RUN: 6194
 
 ==================================================================================
 RUN: 6197
+https://clas12mon.jlab.org/runs/summaries/?run=6197&runmax=6297&runmin=6097
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.0173186
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6197 0     |
 6197 5     |
@@ -939,6 +1043,14 @@ RUN: 6197
 
 ==================================================================================
 RUN: 6198
+https://clas12mon.jlab.org/runs/summaries/?run=6198&runmax=6298&runmin=6098
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               0.0129889
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6198 0     |
 6198 5     |
@@ -1055,12 +1167,28 @@ RUN: 6198
 
 ==================================================================================
 RUN: 6199
+https://clas12mon.jlab.org/runs/summaries/?run=6199&runmax=6299&runmin=6099
+----------------------------------------------------------------------------------
+  user_comment:               production run - short - lot of beam trips
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.0292251
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6199 0     :: short and trippy run ::                  5-Misc[all]
 6199 5     :: short and trippy run ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 6200
+https://clas12mon.jlab.org/runs/summaries/?run=6200&runmax=6300&runmin=6100
+----------------------------------------------------------------------------------
+  user_comment:               production run - still frequent beam trips
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.94
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6200 0     |
 6200 5     |
@@ -1096,6 +1224,14 @@ RUN: 6200
 
 ==================================================================================
 RUN: 6201
+https://clas12mon.jlab.org/runs/summaries/?run=6201&runmax=6301&runmin=6101
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.0368019
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6201 0           1-TerminalOutlier[all]
 6201 5     |
@@ -1174,6 +1310,14 @@ RUN: 6201
 
 ==================================================================================
 RUN: 6202
+https://clas12mon.jlab.org/runs/summaries/?run=6202&runmax=6302&runmin=6102
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               34.5484
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6202 0     |
 6202 5     |
@@ -1288,6 +1432,14 @@ RUN: 6202
 
 ==================================================================================
 RUN: 6204
+https://clas12mon.jlab.org/runs/summaries/?run=6204&runmax=6304&runmin=6104
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               -0.0129889
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6204 0     |
 6204 5     |
@@ -1427,6 +1579,14 @@ RUN: 6204
 
 ==================================================================================
 RUN: 6206
+https://clas12mon.jlab.org/runs/summaries/?run=6206&runmax=6306&runmin=6106
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.0324723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6206 0     |
 6206 5     |
@@ -1450,6 +1610,14 @@ RUN: 6206
 
 ==================================================================================
 RUN: 6208
+https://clas12mon.jlab.org/runs/summaries/?run=6208&runmax=6308&runmin=6108
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               0.0162362
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6208 0     |
 6208 5     |
@@ -1571,6 +1739,14 @@ RUN: 6208
 
 ==================================================================================
 RUN: 6209
+https://clas12mon.jlab.org/runs/summaries/?run=6209&runmax=6309&runmin=6109
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               34.3048
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6209 0     |
 6209 5     |
@@ -1628,6 +1804,14 @@ RUN: 6209
 
 ==================================================================================
 RUN: 6210
+https://clas12mon.jlab.org/runs/summaries/?run=6210&runmax=6310&runmin=6110
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.2724
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v2.cnf
 ----------------------------------------------------------------------------------
 6210 0     |
 6210 5     |
@@ -1684,6 +1868,14 @@ RUN: 6210
 
 ==================================================================================
 RUN: 6214
+https://clas12mon.jlab.org/runs/summaries/?run=6214&runmax=6314&runmin=6114
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2
+  beam_current_request:       35
+  beam_current:               34.5094
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6214 0     |
 6214 5     |
@@ -1881,6 +2073,14 @@ RUN: 6214
 
 ==================================================================================
 RUN: 6215
+https://clas12mon.jlab.org/runs/summaries/?run=6215&runmax=6315&runmin=6115
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       35
+  beam_current:               33.7582
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6215 0               4-LowLiveTime[all]
 6215 5     |
@@ -2111,6 +2311,14 @@ RUN: 6215
 
 ==================================================================================
 RUN: 6216
+https://clas12mon.jlab.org/runs/summaries/?run=6216&runmax=6316&runmin=6116
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       35
+  beam_current:               22.3539
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6216 0           1-TerminalOutlier[all]
 6216 5     |
@@ -2186,6 +2394,14 @@ RUN: 6216
 
 ==================================================================================
 RUN: 6218
+https://clas12mon.jlab.org/runs/summaries/?run=6218&runmax=6318&runmin=6118
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.00974169
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6218 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6218 5     :: FC charge issue (RUN::scaler:fcupgated) ::           0-TotalOutlier[25]      2-MarginalOutlier[1346]                  5-Misc[all]
@@ -2299,6 +2515,14 @@ RUN: 6218
 
 ==================================================================================
 RUN: 6219
+https://clas12mon.jlab.org/runs/summaries/?run=6219&runmax=6319&runmin=6119
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.00324723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6219 0               4-LowLiveTime[all]
 6219 5     |
@@ -2350,6 +2574,14 @@ RUN: 6219
 
 ==================================================================================
 RUN: 6220
+https://clas12mon.jlab.org/runs/summaries/?run=6220&runmax=6320&runmin=6120
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.7225
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6220 0               4-LowLiveTime[all]
 6220 5     |
@@ -2436,6 +2668,14 @@ RUN: 6220
 
 ==================================================================================
 RUN: 6221
+https://clas12mon.jlab.org/runs/summaries/?run=6221&runmax=6321&runmin=6121
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.3579
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6221 0               4-LowLiveTime[all]
 6221 5     |
@@ -2668,6 +2908,14 @@ RUN: 6221
 
 ==================================================================================
 RUN: 6222
+https://clas12mon.jlab.org/runs/summaries/?run=6222&runmax=6322&runmin=6122
+----------------------------------------------------------------------------------
+  user_comment:               production. Lots of beam trips and MVT channel trips.  
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.0194834
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6222 0     |
 6222 5     |
@@ -2714,6 +2962,14 @@ RUN: 6222
 
 ==================================================================================
 RUN: 6223
+https://clas12mon.jlab.org/runs/summaries/?run=6223&runmax=6323&runmin=6123
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.00216482
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6223 0     |
 6223 5            0-TotalOutlier[12346]         2-MarginalOutlier[5]           4-LowLiveTime[all]
@@ -2933,6 +3189,14 @@ RUN: 6223
 
 ==================================================================================
 RUN: 6224
+https://clas12mon.jlab.org/runs/summaries/?run=6224&runmax=6324&runmin=6124
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               34.1176
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6224 0               4-LowLiveTime[all]
 6224 5     |
@@ -3192,6 +3456,14 @@ RUN: 6224
 
 ==================================================================================
 RUN: 6225
+https://clas12mon.jlab.org/runs/summaries/?run=6225&runmax=6325&runmin=6125
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.00324723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6225 0     |
 6225 5     |
@@ -3352,6 +3624,14 @@ RUN: 6225
 
 ==================================================================================
 RUN: 6226
+https://clas12mon.jlab.org/runs/summaries/?run=6226&runmax=6326&runmin=6126
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       5 nA
+  beam_current:               -0.00216482
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6226 0     :: 5 nA run ::                  5-Misc[all]
 6226 5     :: 5 nA run ::                  5-Misc[all]
@@ -3380,6 +3660,14 @@ RUN: 6226
 
 ==================================================================================
 RUN: 6227
+https://clas12mon.jlab.org/runs/summaries/?run=6227&runmax=6327&runmin=6127
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       15 nA
+  beam_current:               14.5649
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6227 0     :: 15 nA run ::                  5-Misc[all]
 6227 5     :: 15 nA run ::                  5-Misc[all]
@@ -3436,6 +3724,14 @@ RUN: 6227
 
 ==================================================================================
 RUN: 6233
+https://clas12mon.jlab.org/runs/summaries/?run=6233&runmax=6333&runmin=6133
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.149
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6233 0               4-LowLiveTime[all]
 6233 5     |
@@ -3661,6 +3957,14 @@ RUN: 6233
 
 ==================================================================================
 RUN: 6235
+https://clas12mon.jlab.org/runs/summaries/?run=6235&runmax=6335&runmin=6135
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.9541
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6235 0     |
 6235 5     |
@@ -3881,6 +4185,14 @@ RUN: 6235
 
 ==================================================================================
 RUN: 6236
+https://clas12mon.jlab.org/runs/summaries/?run=6236&runmax=6336&runmin=6136
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.1078
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6236 0               4-LowLiveTime[all]
 6236 5     |
@@ -4083,6 +4395,14 @@ RUN: 6236
 
 ==================================================================================
 RUN: 6237
+https://clas12mon.jlab.org/runs/summaries/?run=6237&runmax=6337&runmin=6137
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.8827
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6237 0               4-LowLiveTime[all]
 6237 5     |
@@ -4257,6 +4577,14 @@ RUN: 6237
 
 ==================================================================================
 RUN: 6239
+https://clas12mon.jlab.org/runs/summaries/?run=6239&runmax=6339&runmin=6139
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               1.44285
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6239 0          2-MarginalOutlier[1236]           4-LowLiveTime[all]
 6239 5     |
@@ -4429,6 +4757,14 @@ RUN: 6239
 
 ==================================================================================
 RUN: 6240
+https://clas12mon.jlab.org/runs/summaries/?run=6240&runmax=6340&runmin=6140
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.0324723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6240 0     |
 6240 5     |
@@ -4700,6 +5036,14 @@ RUN: 6240
 
 ==================================================================================
 RUN: 6241
+https://clas12mon.jlab.org/runs/summaries/?run=6241&runmax=6341&runmin=6141
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.00432964
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v3.cnf
 ----------------------------------------------------------------------------------
 6241 0           1-TerminalOutlier[all]
 6241 5               4-LowLiveTime[all]
@@ -4742,6 +5086,14 @@ RUN: 6241
 
 ==================================================================================
 RUN: 6242
+https://clas12mon.jlab.org/runs/summaries/?run=6242&runmax=6342&runmin=6142
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.2615
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v4.cnf
 ----------------------------------------------------------------------------------
 6242 0     |
 6242 5     |
@@ -4796,6 +5148,14 @@ RUN: 6242
 
 ==================================================================================
 RUN: 6243
+https://clas12mon.jlab.org/runs/summaries/?run=6243&runmax=6343&runmin=6143
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.2052
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6243 0     |
 6243 5     |
@@ -4847,6 +5207,14 @@ RUN: 6243
 
 ==================================================================================
 RUN: 6244
+https://clas12mon.jlab.org/runs/summaries/?run=6244&runmax=6344&runmin=6144
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.0129889
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6244 0     |
 6244 5     |
@@ -4994,6 +5362,14 @@ RUN: 6244
 
 ==================================================================================
 RUN: 6245
+https://clas12mon.jlab.org/runs/summaries/?run=6245&runmax=6345&runmin=6145
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.9585
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6245 0               4-LowLiveTime[all]
 6245 5     |
@@ -5142,6 +5518,14 @@ RUN: 6245
 
 ==================================================================================
 RUN: 6247
+https://clas12mon.jlab.org/runs/summaries/?run=6247&runmax=6347&runmin=6147
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.00649446
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6247 0     |
 6247 5     |
@@ -5279,6 +5663,14 @@ RUN: 6247
 
 ==================================================================================
 RUN: 6248
+https://clas12mon.jlab.org/runs/summaries/?run=6248&runmax=6348&runmin=6148
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.00324723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6248 0     |
 6248 5     |
@@ -5324,6 +5716,14 @@ RUN: 6248
 
 ==================================================================================
 RUN: 6249
+https://clas12mon.jlab.org/runs/summaries/?run=6249&runmax=6349&runmin=6149
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               -0.00108241
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6249 0     |
 6249 5     |
@@ -5476,6 +5876,14 @@ RUN: 6249
 
 ==================================================================================
 RUN: 6250
+https://clas12mon.jlab.org/runs/summaries/?run=6250&runmax=6350&runmin=6150
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.0
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6250 0             2-MarginalOutlier[3]
 6250 5     |
@@ -5548,6 +5956,14 @@ RUN: 6250
 
 ==================================================================================
 RUN: 6251
+https://clas12mon.jlab.org/runs/summaries/?run=6251&runmax=6351&runmin=6151
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.611
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6251 0               4-LowLiveTime[all]
 6251 5     |
@@ -5680,6 +6096,14 @@ RUN: 6251
 
 ==================================================================================
 RUN: 6252
+https://clas12mon.jlab.org/runs/summaries/?run=6252&runmax=6352&runmin=6152
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.00541205
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6252 0           1-TerminalOutlier[all]           4-LowLiveTime[all]
 6252 5     |
@@ -5873,6 +6297,14 @@ RUN: 6252
 
 ==================================================================================
 RUN: 6253
+https://clas12mon.jlab.org/runs/summaries/?run=6253&runmax=6353&runmin=6153
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.8415
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6253 0     |
 6253 5     |
@@ -6034,12 +6466,28 @@ RUN: 6253
 
 ==================================================================================
 RUN: 6254
+https://clas12mon.jlab.org/runs/summaries/?run=6254&runmax=6354&runmin=6154
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.69
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6254 0     :: beam issue ::                  5-Misc[all]
 6254 5     :: beam issue ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 6255
+https://clas12mon.jlab.org/runs/summaries/?run=6255&runmax=6355&runmin=6155
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               0.018401
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6255 0     |
 6255 5     |
@@ -6171,6 +6619,14 @@ RUN: 6255
 
 ==================================================================================
 RUN: 6256
+https://clas12mon.jlab.org/runs/summaries/?run=6256&runmax=6356&runmin=6156
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               34.3416
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6256 0     |
 6256 5     |
@@ -6310,6 +6766,14 @@ RUN: 6256
 
 ==================================================================================
 RUN: 6257
+https://clas12mon.jlab.org/runs/summaries/?run=6257&runmax=6357&runmin=6157
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               0.0216482
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6257 0     |
 6257 5     |
@@ -6490,6 +6954,14 @@ RUN: 6257
 
 ==================================================================================
 RUN: 6258
+https://clas12mon.jlab.org/runs/summaries/?run=6258&runmax=6358&runmin=6158
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.9119
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6258 0               4-LowLiveTime[all]
 6258 5     |
@@ -6670,6 +7142,14 @@ RUN: 6258
 
 ==================================================================================
 RUN: 6259
+https://clas12mon.jlab.org/runs/summaries/?run=6259&runmax=6359&runmin=6159
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.176
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6259 0               4-LowLiveTime[all]
 6259 5     |
@@ -6863,6 +7343,14 @@ RUN: 6259
 
 ==================================================================================
 RUN: 6260
+https://clas12mon.jlab.org/runs/summaries/?run=6260&runmax=6360&runmin=6160
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       35
+  beam_current:               4.33072
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6260 0               4-LowLiveTime[all]
 6260 5     |
@@ -7010,12 +7498,28 @@ RUN: 6260
 
 ==================================================================================
 RUN: 6262
+https://clas12mon.jlab.org/runs/summaries/?run=6262&runmax=6362&runmin=6162
+----------------------------------------------------------------------------------
+  user_comment:               Resuming DAQ after cryomodule failure
+  target:                     LD2
+  beam_current_request:       150 nA
+  beam_current:               143.515
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6262 0     :: empty target run ::                  5-Misc[all]
 6262 5     :: empty target run ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 6263
+https://clas12mon.jlab.org/runs/summaries/?run=6263&runmax=6363&runmin=6163
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       150 nA
+  beam_current:               -0.0205658
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6263 0     :: empty target run ::                  5-Misc[all]
 6263 5     :: empty target run ::                  5-Misc[all]
@@ -7081,11 +7585,27 @@ RUN: 6263
 
 ==================================================================================
 RUN: 6265
+https://clas12mon.jlab.org/runs/summaries/?run=6265&runmax=6365&runmin=6165
+----------------------------------------------------------------------------------
+  user_comment:               band harp wire run
+  target:                     LD2
+  beam_current_request:       10nA
+  beam_current:               -0.00324723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6265 0     :: harp wire as target, for BAND ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 6266
+https://clas12mon.jlab.org/runs/summaries/?run=6266&runmax=6366&runmin=6166
+----------------------------------------------------------------------------------
+  user_comment:               production after vtp libraries changed
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               -0.0173186
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6266 0               4-LowLiveTime[all]
 6266 5             2-MarginalOutlier[4]
@@ -7096,6 +7616,14 @@ RUN: 6266
 
 ==================================================================================
 RUN: 6285
+https://clas12mon.jlab.org/runs/summaries/?run=6285&runmax=6385&runmin=6185
+----------------------------------------------------------------------------------
+  user_comment:               production with v6 trigger
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               -0.00541205
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v6.cnf
 ----------------------------------------------------------------------------------
 6285 0                  3-SectorLoss[6]
 6285 5                  3-SectorLoss[6]
@@ -7112,6 +7640,14 @@ RUN: 6285
 
 ==================================================================================
 RUN: 6286
+https://clas12mon.jlab.org/runs/summaries/?run=6286&runmax=6386&runmin=6186
+----------------------------------------------------------------------------------
+  user_comment:               rgb_v6 trigger
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               34.1132
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v6.cnf
 ----------------------------------------------------------------------------------
 6286 0               4-LowLiveTime[all]
 6286 5     |
@@ -7165,12 +7701,28 @@ RUN: 6286
 
 ==================================================================================
 RUN: 6287
+https://clas12mon.jlab.org/runs/summaries/?run=6287&runmax=6387&runmin=6187
+----------------------------------------------------------------------------------
+  user_comment:               production trigger v5 - mmft1 problem
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               -0.00649446
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6287 0     :: DC and ROC problems ::                  5-Misc[all]
 6287 5     :: DC and ROC problems ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 6288
+https://clas12mon.jlab.org/runs/summaries/?run=6288&runmax=6388&runmin=6188
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       35nA
+  beam_current:               37.7685
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6288 0               4-LowLiveTime[all]
 6288 5     |
@@ -7441,6 +7993,14 @@ RUN: 6288
 
 ==================================================================================
 RUN: 6289
+https://clas12mon.jlab.org/runs/summaries/?run=6289&runmax=6389&runmin=6189
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2
+  beam_current_request:       35na
+  beam_current:               33.9314
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6289 0               4-LowLiveTime[all]
 6289 5     |
@@ -7826,6 +8386,14 @@ RUN: 6289
 
 ==================================================================================
 RUN: 6296
+https://clas12mon.jlab.org/runs/summaries/?run=6296&runmax=6396&runmin=6196
+----------------------------------------------------------------------------------
+  user_comment:               Production, LD2, rgb_v5
+  target:                     LD2
+  beam_current_request:       35 nA
+  beam_current:               33.5157
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v5.cnf
 ----------------------------------------------------------------------------------
 6296 0               4-LowLiveTime[all]
 6296 5     |
@@ -8036,6 +8604,14 @@ RUN: 6296
 
 ==================================================================================
 RUN: 6298
+https://clas12mon.jlab.org/runs/summaries/?run=6298&runmax=6398&runmin=6198
+----------------------------------------------------------------------------------
+  user_comment:               Production with new trigger configuration, current started at 35 nA, then increased to 50 nA
+  target:                     LD2
+  beam_current_request:       35-50 nA
+  beam_current:               34.3871
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v7.cnf
 ----------------------------------------------------------------------------------
 6298 0             2-MarginalOutlier[4]
 6298 5            2-MarginalOutlier[46]
@@ -8239,6 +8815,14 @@ RUN: 6298
 
 ==================================================================================
 RUN: 6299
+https://clas12mon.jlab.org/runs/summaries/?run=6299&runmax=6399&runmin=6199
+----------------------------------------------------------------------------------
+  user_comment:               switched to PROD66_PIN
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               25.1671
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v7.cnf
 ----------------------------------------------------------------------------------
 6299 0               4-LowLiveTime[all]
 6299 5     |
@@ -8311,6 +8895,14 @@ RUN: 6299
 
 ==================================================================================
 RUN: 6302
+https://clas12mon.jlab.org/runs/summaries/?run=6302&runmax=6402&runmin=6202
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.0335547
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6302 0     |
 6302 5     |
@@ -8841,6 +9433,14 @@ RUN: 6302
 
 ==================================================================================
 RUN: 6303
+https://clas12mon.jlab.org/runs/summaries/?run=6303&runmax=6403&runmin=6203
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.2993
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6303 0     |
 6303 5     |
@@ -9213,6 +9813,14 @@ RUN: 6303
 
 ==================================================================================
 RUN: 6305
+https://clas12mon.jlab.org/runs/summaries/?run=6305&runmax=6405&runmin=6205
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.8849
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6305 0               4-LowLiveTime[all]
 6305 5     |
@@ -9538,6 +10146,14 @@ RUN: 6305
 
 ==================================================================================
 RUN: 6307
+https://clas12mon.jlab.org/runs/summaries/?run=6307&runmax=6407&runmin=6207
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               48.4476
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6307 0               4-LowLiveTime[all]
 6307 5     |
@@ -10014,6 +10630,14 @@ RUN: 6307
 
 ==================================================================================
 RUN: 6308
+https://clas12mon.jlab.org/runs/summaries/?run=6308&runmax=6408&runmin=6208
+----------------------------------------------------------------------------------
+  user_comment:               solenoid quenched 
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.5289
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6308 0               4-LowLiveTime[all]
 6308 5     |
@@ -10077,6 +10701,14 @@ RUN: 6308
 
 ==================================================================================
 RUN: 6310
+https://clas12mon.jlab.org/runs/summaries/?run=6310&runmax=6410&runmin=6210
+----------------------------------------------------------------------------------
+  user_comment:               Production Run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               47.5005
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6310 0               4-LowLiveTime[all]
 6310 5     |
@@ -10599,6 +11231,14 @@ RUN: 6310
 
 ==================================================================================
 RUN: 6311
+https://clas12mon.jlab.org/runs/summaries/?run=6311&runmax=6411&runmin=6211
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.6924
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6311 0     |
 6311 5     |
@@ -11066,6 +11706,14 @@ RUN: 6311
 
 ==================================================================================
 RUN: 6313
+https://clas12mon.jlab.org/runs/summaries/?run=6313&runmax=6413&runmin=6213
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               -0.00432964
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6313 0     |
 6313 5     |
@@ -11568,6 +12216,14 @@ RUN: 6313
 
 ==================================================================================
 RUN: 6321
+https://clas12mon.jlab.org/runs/summaries/?run=6321&runmax=6421&runmin=6221
+----------------------------------------------------------------------------------
+  user_comment:               another restart, worked, production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               46.8326
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8.cnf
 ----------------------------------------------------------------------------------
 6321 0               4-LowLiveTime[all]
 6321 5     |
@@ -12076,12 +12732,28 @@ RUN: 6321
 
 ==================================================================================
 RUN: 6322
+https://clas12mon.jlab.org/runs/summaries/?run=6322&runmax=6422&runmin=6222
+----------------------------------------------------------------------------------
+  user_comment:               low luminosity run
+  target:                     LD2
+  beam_current_request:       5 nA (low luminosity run)
+  beam_current:               4.5353
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6322 0     :: low lumi run ::                  5-Misc[all]
 6322 5     :: low lumi run ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 6323
+https://clas12mon.jlab.org/runs/summaries/?run=6323&runmax=6423&runmin=6223
+----------------------------------------------------------------------------------
+  user_comment:               after DAQ problem with adcftof5
+  target:                     LD2
+  beam_current_request:       5 nA (low luminosity)
+  beam_current:               4.16836
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6323 0     :: low lumi run ::                  5-Misc[all]
 6323 5     :: low lumi run ::                  5-Misc[all]
@@ -12098,6 +12770,14 @@ RUN: 6323
 
 ==================================================================================
 RUN: 6326
+https://clas12mon.jlab.org/runs/summaries/?run=6326&runmax=6426&runmin=6226
+----------------------------------------------------------------------------------
+  user_comment:               trigger:rgb_v8_1
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.7777
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6326 0     |
 6326 5     |
@@ -12581,6 +13261,14 @@ RUN: 6326
 
 ==================================================================================
 RUN: 6327
+https://clas12mon.jlab.org/runs/summaries/?run=6327&runmax=6427&runmin=6227
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.7085
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6327 0     |
 6327 5     |
@@ -13082,6 +13770,14 @@ RUN: 6327
 
 ==================================================================================
 RUN: 6328
+https://clas12mon.jlab.org/runs/summaries/?run=6328&runmax=6428&runmin=6228
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.5742
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6328 0     |
 6328 5     |
@@ -13608,6 +14304,14 @@ RUN: 6328
 
 ==================================================================================
 RUN: 6329
+https://clas12mon.jlab.org/runs/summaries/?run=6329&runmax=6429&runmin=6229
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.6242
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6329 0               4-LowLiveTime[all]
 6329 5     |
@@ -14138,6 +14842,14 @@ RUN: 6329
 
 ==================================================================================
 RUN: 6330
+https://clas12mon.jlab.org/runs/summaries/?run=6330&runmax=6430&runmin=6230
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.0808
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6330 0               4-LowLiveTime[all]
 6330 5     |
@@ -14626,6 +15338,14 @@ RUN: 6330
 
 ==================================================================================
 RUN: 6331
+https://clas12mon.jlab.org/runs/summaries/?run=6331&runmax=6431&runmin=6231
+----------------------------------------------------------------------------------
+  user_comment:               Production run, DAQ crashed
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               48.9184
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6331 0               4-LowLiveTime[all]
 6331 5     |
@@ -14904,6 +15624,14 @@ RUN: 6331
 
 ==================================================================================
 RUN: 6333
+https://clas12mon.jlab.org/runs/summaries/?run=6333&runmax=6433&runmin=6233
+----------------------------------------------------------------------------------
+  user_comment:               {rod
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               -0.00216482
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6333 0     |
 6333 5     |
@@ -15396,6 +16124,14 @@ RUN: 6333
 
 ==================================================================================
 RUN: 6334
+https://clas12mon.jlab.org/runs/summaries/?run=6334&runmax=6434&runmin=6234
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               49.1685
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6334 0               4-LowLiveTime[all]
 6334 5     |
@@ -15413,6 +16149,14 @@ RUN: 6334
 
 ==================================================================================
 RUN: 6335
+https://clas12mon.jlab.org/runs/summaries/?run=6335&runmax=6435&runmin=6235
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.0129889
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6335 0     |
 6335 5     |
@@ -15921,6 +16665,14 @@ RUN: 6335
 
 ==================================================================================
 RUN: 6336
+https://clas12mon.jlab.org/runs/summaries/?run=6336&runmax=6436&runmin=6236
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.3536
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6336 0     |
 6336 5     |
@@ -16439,6 +17191,14 @@ RUN: 6336
 
 ==================================================================================
 RUN: 6337
+https://clas12mon.jlab.org/runs/summaries/?run=6337&runmax=6437&runmin=6237
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.2053
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6337 0     |
 6337 5     |
@@ -16939,6 +17699,14 @@ RUN: 6337
 
 ==================================================================================
 RUN: 6338
+https://clas12mon.jlab.org/runs/summaries/?run=6338&runmax=6438&runmin=6238
+----------------------------------------------------------------------------------
+  user_comment:               production - possible DC communication problems
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               29.5433
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6338 0               4-LowLiveTime[all]
 6338 5     |
@@ -17091,6 +17859,14 @@ RUN: 6338
 
 ==================================================================================
 RUN: 6339
+https://clas12mon.jlab.org/runs/summaries/?run=6339&runmax=6439&runmin=6239
+----------------------------------------------------------------------------------
+  user_comment:               production - getting DC HV alarms, but no sign of problems
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.7919
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6339 0               4-LowLiveTime[all]
 6339 5     |
@@ -17327,6 +18103,14 @@ RUN: 6339
 
 ==================================================================================
 RUN: 6340
+https://clas12mon.jlab.org/runs/summaries/?run=6340&runmax=6440&runmin=6240
+----------------------------------------------------------------------------------
+  user_comment:               Prod run after magnets ramped down
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               31.1171
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6340 0     |
 6340 5     |
@@ -17880,6 +18664,14 @@ RUN: 6340
 
 ==================================================================================
 RUN: 6341
+https://clas12mon.jlab.org/runs/summaries/?run=6341&runmax=6441&runmin=6241
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               50.0929
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6341 0     |
 6341 5     |
@@ -18077,6 +18869,14 @@ RUN: 6341
 
 ==================================================================================
 RUN: 6342
+https://clas12mon.jlab.org/runs/summaries/?run=6342&runmax=6442&runmin=6242
+----------------------------------------------------------------------------------
+  user_comment:               alignment run
+  target:                     LD2
+  beam_current_request:       5 nA
+  beam_current:               4.12939
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1_zerofield.cnf
 ----------------------------------------------------------------------------------
 6342 0     :: zero-field alignment run ::                  5-Misc[all]
 6342 5     :: zero-field alignment run ::                  5-Misc[all]
@@ -18085,6 +18885,14 @@ RUN: 6342
 
 ==================================================================================
 RUN: 6346
+https://clas12mon.jlab.org/runs/summaries/?run=6346&runmax=6446&runmin=6246
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               0.00432964
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6346 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6346 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -18596,6 +19404,14 @@ RUN: 6346
 
 ==================================================================================
 RUN: 6347
+https://clas12mon.jlab.org/runs/summaries/?run=6347&runmax=6447&runmin=6247
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               48.2993
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6347 0               4-LowLiveTime[all]
 6347 5                0-TotalOutlier[2]
@@ -18798,6 +19614,14 @@ RUN: 6347
 
 ==================================================================================
 RUN: 6348
+https://clas12mon.jlab.org/runs/summaries/?run=6348&runmax=6448&runmin=6248
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               48.5179
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6348 0     |
 6348 5     |
@@ -19002,6 +19826,14 @@ RUN: 6348
 
 ==================================================================================
 RUN: 6349
+https://clas12mon.jlab.org/runs/summaries/?run=6349&runmax=6449&runmin=6249
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               1.62362
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6349 0               4-LowLiveTime[all]
 6349 5     |
@@ -19230,6 +20062,14 @@ RUN: 6349
 
 ==================================================================================
 RUN: 6350
+https://clas12mon.jlab.org/runs/summaries/?run=6350&runmax=6450&runmin=6250
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       150 nA
+  beam_current:               57.8245
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6350 0     :: empty target run ::                  5-Misc[all]
 6350 5     :: empty target run ::                  5-Misc[all]
@@ -19302,6 +20142,14 @@ RUN: 6350
 
 ==================================================================================
 RUN: 6351
+https://clas12mon.jlab.org/runs/summaries/?run=6351&runmax=6451&runmin=6251
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               -0.0519557
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6351 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6351 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -19789,6 +20637,14 @@ RUN: 6351
 
 ==================================================================================
 RUN: 6352
+https://clas12mon.jlab.org/runs/summaries/?run=6352&runmax=6452&runmin=6252
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               -0.0140713
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6352 0     |
 6352 5     |
@@ -20156,6 +21012,14 @@ RUN: 6352
 
 ==================================================================================
 RUN: 6353
+https://clas12mon.jlab.org/runs/summaries/?run=6353&runmax=6453&runmin=6253
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               -0.0216482
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6353 0         2-MarginalOutlier[12346]
 6353 5             2-MarginalOutlier[4]
@@ -20399,6 +21263,14 @@ RUN: 6353
 
 ==================================================================================
 RUN: 6354
+https://clas12mon.jlab.org/runs/summaries/?run=6354&runmax=6454&runmin=6254
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               39.6595
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v8_1.cnf
 ----------------------------------------------------------------------------------
 6354 0     |
 6354 5     |
@@ -20481,6 +21353,14 @@ RUN: 6354
 
 ==================================================================================
 RUN: 6356
+https://clas12mon.jlab.org/runs/summaries/?run=6356&runmax=6456&runmin=6256
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               -0.0162362
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6356 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6356 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -20777,6 +21657,14 @@ RUN: 6356
 
 ==================================================================================
 RUN: 6357
+https://clas12mon.jlab.org/runs/summaries/?run=6357&runmax=6457&runmin=6257
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.0173186
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6357 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6357 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -20962,6 +21850,14 @@ RUN: 6357
 
 ==================================================================================
 RUN: 6359
+https://clas12mon.jlab.org/runs/summaries/?run=6359&runmax=6459&runmin=6259
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               48.4714
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6359 0     |
 6359 5     |
@@ -20997,6 +21893,14 @@ RUN: 6359
 
 ==================================================================================
 RUN: 6361
+https://clas12mon.jlab.org/runs/summaries/?run=6361&runmax=6461&runmin=6261
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               47.8425
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6361 0     |
 6361 5     |
@@ -21226,6 +22130,14 @@ RUN: 6361
 
 ==================================================================================
 RUN: 6362
+https://clas12mon.jlab.org/runs/summaries/?run=6362&runmax=6462&runmin=6262
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               48.8275
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6362 0               4-LowLiveTime[all]
 6362 5     |
@@ -21647,6 +22559,14 @@ RUN: 6362
 
 ==================================================================================
 RUN: 6363
+https://clas12mon.jlab.org/runs/summaries/?run=6363&runmax=6463&runmin=6263
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.1023
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6363 0     |
 6363 5     |
@@ -22106,6 +23026,14 @@ RUN: 6363
 
 ==================================================================================
 RUN: 6366
+https://clas12mon.jlab.org/runs/summaries/?run=6366&runmax=6466&runmin=6266
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.3383
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6366 0     |
 6366 5     |
@@ -22523,6 +23451,14 @@ RUN: 6366
 
 ==================================================================================
 RUN: 6367
+https://clas12mon.jlab.org/runs/summaries/?run=6367&runmax=6467&runmin=6267
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               18.6672
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6367 0               4-LowLiveTime[all]
 6367 5     |
@@ -22806,6 +23742,14 @@ RUN: 6367
 
 ==================================================================================
 RUN: 6368
+https://clas12mon.jlab.org/runs/summaries/?run=6368&runmax=6468&runmin=6268
+----------------------------------------------------------------------------------
+  user_comment:               production run 50nA
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               -0.0216482
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6368 0     |
 6368 5     |
@@ -23225,6 +24169,14 @@ RUN: 6368
 
 ==================================================================================
 RUN: 6369
+https://clas12mon.jlab.org/runs/summaries/?run=6369&runmax=6469&runmin=6269
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               49.2388
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6369 0               4-LowLiveTime[all]
 6369 5     |
@@ -23560,6 +24512,14 @@ RUN: 6369
 
 ==================================================================================
 RUN: 6370
+https://clas12mon.jlab.org/runs/summaries/?run=6370&runmax=6470&runmin=6270
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               12.3839
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6370 0     |
 6370 5     |
@@ -24007,6 +24967,14 @@ RUN: 6370
 
 ==================================================================================
 RUN: 6371
+https://clas12mon.jlab.org/runs/summaries/?run=6371&runmax=6471&runmin=6271
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               5.26809
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6371 0     :: low lumi run ::                  5-Misc[all]
 6371 5     :: low lumi run ::                  5-Misc[all]
@@ -24021,6 +24989,14 @@ RUN: 6371
 
 ==================================================================================
 RUN: 6373
+https://clas12mon.jlab.org/runs/summaries/?run=6373&runmax=6473&runmin=6273
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       5
+  beam_current:               5.24969
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6373 0     :: low lumi run ::                  5-Misc[all]
 6373 5     :: low lumi run ::                  5-Misc[all]
@@ -24032,6 +25008,14 @@ RUN: 6373
 
 ==================================================================================
 RUN: 6374
+https://clas12mon.jlab.org/runs/summaries/?run=6374&runmax=6474&runmin=6274
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       5
+  beam_current:               5.08841
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6374 0     :: low lumi run ::                  5-Misc[all]
 6374 5     :: low lumi run ::                  5-Misc[all]
@@ -24044,6 +25028,14 @@ RUN: 6374
 
 ==================================================================================
 RUN: 6377
+https://clas12mon.jlab.org/runs/summaries/?run=6377&runmax=6477&runmin=6277
+----------------------------------------------------------------------------------
+  user_comment:               Half wave plate was IN
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               48.3523
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6377 0     |
 6377 5     |
@@ -24360,6 +25352,14 @@ RUN: 6377
 
 ==================================================================================
 RUN: 6378
+https://clas12mon.jlab.org/runs/summaries/?run=6378&runmax=6478&runmin=6278
+----------------------------------------------------------------------------------
+  user_comment:               HWP is OUT again
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               0.023813
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6378 0     :: wrong helicity sign, since piPlus BSA has opposite sign than expected ::                  5-Misc[all]
 6378 5     :: wrong helicity sign, since piPlus BSA has opposite sign than expected ::                  5-Misc[all]
@@ -24738,6 +25738,14 @@ RUN: 6378
 
 ==================================================================================
 RUN: 6379
+https://clas12mon.jlab.org/runs/summaries/?run=6379&runmax=6479&runmin=6279
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               49.5343
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6379 0     |
 6379 5     |
@@ -25081,6 +26089,14 @@ RUN: 6379
 
 ==================================================================================
 RUN: 6380
+https://clas12mon.jlab.org/runs/summaries/?run=6380&runmax=6480&runmin=6280
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               48.7074
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6380 0     |
 6380 5     |
@@ -25522,6 +26538,14 @@ RUN: 6380
 
 ==================================================================================
 RUN: 6381
+https://clas12mon.jlab.org/runs/summaries/?run=6381&runmax=6481&runmin=6281
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               4.91955
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6381 0               4-LowLiveTime[all]
 6381 5     |
@@ -25891,6 +26915,14 @@ RUN: 6381
 
 ==================================================================================
 RUN: 6382
+https://clas12mon.jlab.org/runs/summaries/?run=6382&runmax=6482&runmin=6282
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               49.2713
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6382 0               4-LowLiveTime[all]
 6382 5     |
@@ -26208,6 +27240,14 @@ RUN: 6382
 
 ==================================================================================
 RUN: 6383
+https://clas12mon.jlab.org/runs/summaries/?run=6383&runmax=6483&runmin=6283
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               -0.0216482
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6383 0     |
 6383 5     |
@@ -26564,6 +27604,14 @@ RUN: 6383
 
 ==================================================================================
 RUN: 6384
+https://clas12mon.jlab.org/runs/summaries/?run=6384&runmax=6484&runmin=6284
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               49.1825
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6384 0               4-LowLiveTime[all]
 6384 5     |
@@ -26732,6 +27780,14 @@ RUN: 6384
 
 ==================================================================================
 RUN: 6385
+https://clas12mon.jlab.org/runs/summaries/?run=6385&runmax=6485&runmin=6285
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               0.0162362
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6385 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
 6385 5     :: FC charge issue (RUN::scaler:fcupgated) ::      2-MarginalOutlier[1346]           4-LowLiveTime[all]                  5-Misc[all]
@@ -26816,6 +27872,14 @@ RUN: 6385
 
 ==================================================================================
 RUN: 6386
+https://clas12mon.jlab.org/runs/summaries/?run=6386&runmax=6486&runmin=6286
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               49.4607
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9.cnf
 ----------------------------------------------------------------------------------
 6386 0     |
 6386 5     |
@@ -26898,6 +27962,14 @@ RUN: 6386
 
 ==================================================================================
 RUN: 6389
+https://clas12mon.jlab.org/runs/summaries/?run=6389&runmax=6489&runmin=6289
+----------------------------------------------------------------------------------
+  user_comment:               Empty target run at high current
+  target:                     LD2
+  beam_current_request:       150nA
+  beam_current:               -0.00108241
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6389 0     :: empty target run ::                  5-Misc[all]
 6389 5     :: empty target run ::                  5-Misc[all]
@@ -26928,6 +28000,14 @@ RUN: 6389
 
 ==================================================================================
 RUN: 6396
+https://clas12mon.jlab.org/runs/summaries/?run=6396&runmax=6496&runmin=6296
+----------------------------------------------------------------------------------
+  user_comment:               no MVT1
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               48.8048
+  run_type:                   PROD66_nomvt1
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6396 0               4-LowLiveTime[all]
 6396 5     |
@@ -26985,6 +28065,14 @@ RUN: 6396
 
 ==================================================================================
 RUN: 6399
+https://clas12mon.jlab.org/runs/summaries/?run=6399&runmax=6499&runmin=6299
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               -0.00324723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6399 0           1-TerminalOutlier[all]
 6399 5          2-MarginalOutlier[1234]           4-LowLiveTime[all]
@@ -27226,6 +28314,14 @@ RUN: 6399
 
 ==================================================================================
 RUN: 6420
+https://clas12mon.jlab.org/runs/summaries/?run=6420&runmax=6520&runmin=6320
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               47.244
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6420 0               4-LowLiveTime[all]
 6420 5     |
@@ -27681,6 +28777,14 @@ RUN: 6420
 
 ==================================================================================
 RUN: 6421
+https://clas12mon.jlab.org/runs/summaries/?run=6421&runmax=6521&runmin=6321
+----------------------------------------------------------------------------------
+  user_comment:               production 50nA
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               45.918
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6421 0               4-LowLiveTime[all]
 6421 5     |
@@ -28082,6 +29186,14 @@ RUN: 6421
 
 ==================================================================================
 RUN: 6422
+https://clas12mon.jlab.org/runs/summaries/?run=6422&runmax=6522&runmin=6322
+----------------------------------------------------------------------------------
+  user_comment:               production 50nA
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               46.3585
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6422 0     |
 6422 5     |
@@ -28462,6 +29574,14 @@ RUN: 6422
 
 ==================================================================================
 RUN: 6426
+https://clas12mon.jlab.org/runs/summaries/?run=6426&runmax=6526&runmin=6326
+----------------------------------------------------------------------------------
+  user_comment:               good run,
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               46.9095
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6426 0               4-LowLiveTime[all]
 6426 5     |
@@ -28779,6 +29899,14 @@ RUN: 6426
 
 ==================================================================================
 RUN: 6428
+https://clas12mon.jlab.org/runs/summaries/?run=6428&runmax=6528&runmin=6328
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               31.1182
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6428 0     |
 6428 5     |
@@ -29188,6 +30316,14 @@ RUN: 6428
 
 ==================================================================================
 RUN: 6429
+https://clas12mon.jlab.org/runs/summaries/?run=6429&runmax=6529&runmin=6329
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               46.6129
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6429 0               4-LowLiveTime[all]
 6429 5     |
@@ -29647,6 +30783,14 @@ RUN: 6429
 
 ==================================================================================
 RUN: 6430
+https://clas12mon.jlab.org/runs/summaries/?run=6430&runmax=6530&runmin=6330
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               46.1886
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6430 0     |
 6430 5     |
@@ -29741,6 +30885,14 @@ RUN: 6430
 
 ==================================================================================
 RUN: 6431
+https://clas12mon.jlab.org/runs/summaries/?run=6431&runmax=6531&runmin=6331
+----------------------------------------------------------------------------------
+  user_comment:               production at 50 nA
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               0.0194834
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6431 0           1-TerminalOutlier[all]           4-LowLiveTime[all]
 6431 5            2-MarginalOutlier[26]           4-LowLiveTime[all]
@@ -30106,6 +31258,14 @@ RUN: 6431
 
 ==================================================================================
 RUN: 6432
+https://clas12mon.jlab.org/runs/summaries/?run=6432&runmax=6532&runmin=6332
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               45.642
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6432 0               4-LowLiveTime[all]
 6432 5     |
@@ -30541,6 +31701,14 @@ RUN: 6432
 
 ==================================================================================
 RUN: 6433
+https://clas12mon.jlab.org/runs/summaries/?run=6433&runmax=6533&runmin=6333
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               43.9978
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6433 0               4-LowLiveTime[all]
 6433 5     |
@@ -31065,6 +32233,14 @@ RUN: 6433
 
 ==================================================================================
 RUN: 6437
+https://clas12mon.jlab.org/runs/summaries/?run=6437&runmax=6537&runmin=6337
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               34.9185
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6437 0               4-LowLiveTime[all]
 6437 5     |
@@ -31247,6 +32423,14 @@ RUN: 6437
 
 ==================================================================================
 RUN: 6442
+https://clas12mon.jlab.org/runs/summaries/?run=6442&runmax=6542&runmin=6342
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               42.3179
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6442 0               4-LowLiveTime[all]
 6442 5     |
@@ -31717,6 +32901,14 @@ RUN: 6442
 
 ==================================================================================
 RUN: 6443
+https://clas12mon.jlab.org/runs/summaries/?run=6443&runmax=6543&runmin=6343
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               47.6953
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6443 0     |
 6443 5     |
@@ -32193,6 +33385,14 @@ RUN: 6443
 
 ==================================================================================
 RUN: 6444
+https://clas12mon.jlab.org/runs/summaries/?run=6444&runmax=6544&runmin=6344
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               48.7691
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6444 0     |
 6444 5     |
@@ -32285,6 +33485,14 @@ RUN: 6444
 
 ==================================================================================
 RUN: 6445
+https://clas12mon.jlab.org/runs/summaries/?run=6445&runmax=6545&runmin=6345
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               45.9602
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6445 0               4-LowLiveTime[all]
 6445 5     |
@@ -32740,12 +33948,28 @@ RUN: 6445
 
 ==================================================================================
 RUN: 6446
+https://clas12mon.jlab.org/runs/summaries/?run=6446&runmax=6546&runmin=6346
+----------------------------------------------------------------------------------
+  user_comment:               Low Lumi 5 nA
+  target:                     LD2
+  beam_current_request:       5nA
+  beam_current:               -0.0205658
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6446 0     :: low lumi run ::                  5-Misc[all]
 6446 5     :: low lumi run ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 6447
+https://clas12mon.jlab.org/runs/summaries/?run=6447&runmax=6547&runmin=6347
+----------------------------------------------------------------------------------
+  user_comment:               low luminosity production
+  target:                     LD2
+  beam_current_request:       5nA
+  beam_current:               4.35562
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6447 0     :: low lumi run ::                  5-Misc[all]
 6447 5     :: low lumi run ::                  5-Misc[all]
@@ -32766,6 +33990,14 @@ RUN: 6447
 
 ==================================================================================
 RUN: 6448
+https://clas12mon.jlab.org/runs/summaries/?run=6448&runmax=6548&runmin=6348
+----------------------------------------------------------------------------------
+  user_comment:               low luminosity production
+  target:                     LD2
+  beam_current_request:       5 nA
+  beam_current:               -0.00865928
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6448 0     :: low lumi run ::                  5-Misc[all]
 6448 5     :: low lumi run ::                  5-Misc[all]
@@ -32786,6 +34018,14 @@ RUN: 6448
 
 ==================================================================================
 RUN: 6449
+https://clas12mon.jlab.org/runs/summaries/?run=6449&runmax=6549&runmin=6349
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.532
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6449 0               4-LowLiveTime[all]
 6449 5     |
@@ -33219,6 +34459,14 @@ RUN: 6449
 
 ==================================================================================
 RUN: 6450
+https://clas12mon.jlab.org/runs/summaries/?run=6450&runmax=6550&runmin=6350
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               46.8294
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6450 0     |
 6450 5     |
@@ -33676,6 +34924,14 @@ RUN: 6450
 
 ==================================================================================
 RUN: 6451
+https://clas12mon.jlab.org/runs/summaries/?run=6451&runmax=6551&runmin=6351
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               46.2633
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6451 0     |
 6451 5     |
@@ -34120,6 +35376,14 @@ RUN: 6451
 
 ==================================================================================
 RUN: 6452
+https://clas12mon.jlab.org/runs/summaries/?run=6452&runmax=6552&runmin=6352
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               46.1442
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6452 0               4-LowLiveTime[all]
 6452 5     |
@@ -34597,6 +35861,14 @@ RUN: 6452
 
 ==================================================================================
 RUN: 6453
+https://clas12mon.jlab.org/runs/summaries/?run=6453&runmax=6553&runmin=6353
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               -0.0281427
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6453 0     |
 6453 5     |
@@ -35039,6 +36311,14 @@ RUN: 6453
 
 ==================================================================================
 RUN: 6454
+https://clas12mon.jlab.org/runs/summaries/?run=6454&runmax=6554&runmin=6354
+----------------------------------------------------------------------------------
+  user_comment:               production, no beam last 20 minutes
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.4817
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6454 0     |
 6454 5     |
@@ -35192,6 +36472,14 @@ RUN: 6454
 
 ==================================================================================
 RUN: 6455
+https://clas12mon.jlab.org/runs/summaries/?run=6455&runmax=6555&runmin=6355
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.00936977
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6455 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6455 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -35655,6 +36943,14 @@ RUN: 6455
 
 ==================================================================================
 RUN: 6456
+https://clas12mon.jlab.org/runs/summaries/?run=6456&runmax=6556&runmin=6356
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               51.1215
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6456 0     |
 6456 5     |
@@ -36098,6 +37394,14 @@ RUN: 6456
 
 ==================================================================================
 RUN: 6457
+https://clas12mon.jlab.org/runs/summaries/?run=6457&runmax=6557&runmin=6357
+----------------------------------------------------------------------------------
+  user_comment:               Ended because of iocvmesvt disconnected
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               50.0744
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6457 0               4-LowLiveTime[all]
 6457 5     |
@@ -36276,6 +37580,14 @@ RUN: 6457
 
 ==================================================================================
 RUN: 6458
+https://clas12mon.jlab.org/runs/summaries/?run=6458&runmax=6558&runmin=6358
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               50.3637
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6458 0     |
 6458 5     |
@@ -36680,6 +37992,14 @@ RUN: 6458
 
 ==================================================================================
 RUN: 6459
+https://clas12mon.jlab.org/runs/summaries/?run=6459&runmax=6559&runmin=6359
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               49.1831
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6459 0               4-LowLiveTime[all]
 6459 5     |
@@ -36875,6 +38195,14 @@ RUN: 6459
 
 ==================================================================================
 RUN: 6460
+https://clas12mon.jlab.org/runs/summaries/?run=6460&runmax=6560&runmin=6360
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               -0.00702733
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6460 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6460 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -36915,6 +38243,14 @@ RUN: 6460
 
 ==================================================================================
 RUN: 6461
+https://clas12mon.jlab.org/runs/summaries/?run=6461&runmax=6561&runmin=6361
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               50.8181
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6461 0               4-LowLiveTime[all]
 6461 5     |
@@ -37329,6 +38665,14 @@ RUN: 6461
 
 ==================================================================================
 RUN: 6462
+https://clas12mon.jlab.org/runs/summaries/?run=6462&runmax=6562&runmin=6362
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               49.4185
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6462 0               4-LowLiveTime[all]
 6462 5     |
@@ -37781,6 +39125,14 @@ RUN: 6462
 
 ==================================================================================
 RUN: 6463
+https://clas12mon.jlab.org/runs/summaries/?run=6463&runmax=6563&runmin=6363
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               49.5848
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6463 0               4-LowLiveTime[all]
 6463 5     |
@@ -38171,6 +39523,14 @@ RUN: 6463
 
 ==================================================================================
 RUN: 6464
+https://clas12mon.jlab.org/runs/summaries/?run=6464&runmax=6564&runmin=6364
+----------------------------------------------------------------------------------
+  user_comment:               Production problem with adcecal5 at the end of the run
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               42.7777
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6464 0     |
 6464 5     |
@@ -38382,6 +39742,14 @@ RUN: 6464
 
 ==================================================================================
 RUN: 6465
+https://clas12mon.jlab.org/runs/summaries/?run=6465&runmax=6565&runmin=6365
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               50.5897
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6465 0     |
 6465 5     |
@@ -38863,6 +40231,14 @@ RUN: 6465
 
 ==================================================================================
 RUN: 6466
+https://clas12mon.jlab.org/runs/summaries/?run=6466&runmax=6566&runmin=6366
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               -0.010541
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6466 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6466 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -39332,6 +40708,14 @@ RUN: 6466
 
 ==================================================================================
 RUN: 6467
+https://clas12mon.jlab.org/runs/summaries/?run=6467&runmax=6567&runmin=6367
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               50.6893
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6467 0               4-LowLiveTime[all]
 6467 5     |
@@ -39791,6 +41175,14 @@ RUN: 6467
 
 ==================================================================================
 RUN: 6468
+https://clas12mon.jlab.org/runs/summaries/?run=6468&runmax=6568&runmin=6368
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               51.0512
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6468 0     |
 6468 5     |
@@ -39937,6 +41329,14 @@ RUN: 6468
 
 ==================================================================================
 RUN: 6470
+https://clas12mon.jlab.org/runs/summaries/?run=6470&runmax=6570&runmin=6370
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               0.0304517
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6470 0     :: FC charge issue (RUN::scaler:fcupgated) ::                  5-Misc[all]
 6470 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -40183,6 +41583,14 @@ RUN: 6470
 
 ==================================================================================
 RUN: 6471
+https://clas12mon.jlab.org/runs/summaries/?run=6471&runmax=6571&runmin=6371
+----------------------------------------------------------------------------------
+  user_comment:               short run ended due to no beam
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.0281093
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6471 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6471 5     :: FC charge issue (RUN::scaler:fcupgated) ::      2-MarginalOutlier[1346]           4-LowLiveTime[all]                  5-Misc[all]
@@ -40227,6 +41635,14 @@ RUN: 6471
 
 ==================================================================================
 RUN: 6472
+https://clas12mon.jlab.org/runs/summaries/?run=6472&runmax=6572&runmin=6372
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               -0.00936977
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6472 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6472 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -40736,6 +42152,14 @@ RUN: 6472
 
 ==================================================================================
 RUN: 6473
+https://clas12mon.jlab.org/runs/summaries/?run=6473&runmax=6573&runmin=6373
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               48.6361
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6473 0     |
 6473 5     |
@@ -40868,6 +42292,14 @@ RUN: 6473
 
 ==================================================================================
 RUN: 6474
+https://clas12mon.jlab.org/runs/summaries/?run=6474&runmax=6574&runmin=6374
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               35.399
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6474 0               4-LowLiveTime[all]
 6474 5     |
@@ -41384,6 +42816,14 @@ RUN: 6474
 
 ==================================================================================
 RUN: 6475
+https://clas12mon.jlab.org/runs/summaries/?run=6475&runmax=6575&runmin=6375
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               51.5443
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6475 0               4-LowLiveTime[all]
 6475 5     |
@@ -41887,6 +43327,14 @@ RUN: 6475
 
 ==================================================================================
 RUN: 6476
+https://clas12mon.jlab.org/runs/summaries/?run=6476&runmax=6576&runmin=6376
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               0.0234244
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6476 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 6476 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -42211,6 +43659,14 @@ RUN: 6476
 
 ==================================================================================
 RUN: 6479
+https://clas12mon.jlab.org/runs/summaries/?run=6479&runmax=6579&runmin=6379
+----------------------------------------------------------------------------------
+  user_comment:               Production Run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               53.2894
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6479 0     |
 6479 5     |
@@ -42733,6 +44189,14 @@ RUN: 6479
 
 ==================================================================================
 RUN: 6481
+https://clas12mon.jlab.org/runs/summaries/?run=6481&runmax=6581&runmin=6381
+----------------------------------------------------------------------------------
+  user_comment:               Production Run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               52.2505
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6481 0               4-LowLiveTime[all]
 6481 5     |
@@ -43230,6 +44694,14 @@ RUN: 6481
 
 ==================================================================================
 RUN: 6482
+https://clas12mon.jlab.org/runs/summaries/?run=6482&runmax=6582&runmin=6382
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               49.627
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6482 0     |
 6482 5     |
@@ -43730,6 +45202,14 @@ RUN: 6482
 
 ==================================================================================
 RUN: 6483
+https://clas12mon.jlab.org/runs/summaries/?run=6483&runmax=6583&runmin=6383
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               34.0181
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6483 0               4-LowLiveTime[all]
 6483 5     |
@@ -44076,6 +45556,14 @@ RUN: 6483
 
 ==================================================================================
 RUN: 6484
+https://clas12mon.jlab.org/runs/summaries/?run=6484&runmax=6584&runmin=6384
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               52.1837
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6484 0     |
 6484 5     |
@@ -44549,6 +46037,14 @@ RUN: 6484
 
 ==================================================================================
 RUN: 6485
+https://clas12mon.jlab.org/runs/summaries/?run=6485&runmax=6585&runmin=6385
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               -0.0245956
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6485 0          1-TerminalOutlier[3456]        2-MarginalOutlier[12]
 6485 5     |
@@ -44775,6 +46271,14 @@ RUN: 6485
 
 ==================================================================================
 RUN: 6486
+https://clas12mon.jlab.org/runs/summaries/?run=6486&runmax=6586&runmin=6386
+----------------------------------------------------------------------------------
+  user_comment:               Production Run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.6143
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6486 0               4-LowLiveTime[all]
 6486 5     |
@@ -45271,6 +46775,14 @@ RUN: 6486
 
 ==================================================================================
 RUN: 6488
+https://clas12mon.jlab.org/runs/summaries/?run=6488&runmax=6588&runmin=6388
+----------------------------------------------------------------------------------
+  user_comment:               Production Run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.8542
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6488 0     |
 6488 5     |
@@ -45770,6 +47282,14 @@ RUN: 6488
 
 ==================================================================================
 RUN: 6489
+https://clas12mon.jlab.org/runs/summaries/?run=6489&runmax=6589&runmin=6389
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.6492
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6489 0     |
 6489 5     |
@@ -46217,6 +47737,14 @@ RUN: 6489
 
 ==================================================================================
 RUN: 6491
+https://clas12mon.jlab.org/runs/summaries/?run=6491&runmax=6591&runmin=6391
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.00819855
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6491 0     |
 6491 5     |
@@ -46687,6 +48215,14 @@ RUN: 6491
 
 ==================================================================================
 RUN: 6492
+https://clas12mon.jlab.org/runs/summaries/?run=6492&runmax=6592&runmin=6392
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.0117122
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6492 0     |
 6492 5     |
@@ -47143,6 +48679,14 @@ RUN: 6492
 
 ==================================================================================
 RUN: 6498
+https://clas12mon.jlab.org/runs/summaries/?run=6498&runmax=6598&runmin=6398
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               50.6834
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6498 0               4-LowLiveTime[all]
 6498 5     |
@@ -47564,6 +49108,14 @@ RUN: 6498
 
 ==================================================================================
 RUN: 6499
+https://clas12mon.jlab.org/runs/summaries/?run=6499&runmax=6599&runmin=6399
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               48.9711
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6499 0     |
 6499 5     |
@@ -47972,6 +49524,14 @@ RUN: 6499
 
 ==================================================================================
 RUN: 6501
+https://clas12mon.jlab.org/runs/summaries/?run=6501&runmax=6601&runmin=6401
+----------------------------------------------------------------------------------
+  user_comment:               Production 
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.8343
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6501 0     |
 6501 5     |
@@ -48487,6 +50047,14 @@ RUN: 6501
 
 ==================================================================================
 RUN: 6502
+https://clas12mon.jlab.org/runs/summaries/?run=6502&runmax=6602&runmin=6402
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.6319
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6502 0               4-LowLiveTime[all]
 6502 5     |
@@ -48988,6 +50556,14 @@ RUN: 6502
 
 ==================================================================================
 RUN: 6510
+https://clas12mon.jlab.org/runs/summaries/?run=6510&runmax=6610&runmin=6410
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               50.1095
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1.cnf
 ----------------------------------------------------------------------------------
 6510 0               4-LowLiveTime[all]
 6510 5     |
@@ -49160,6 +50736,14 @@ RUN: 6510
 
 ==================================================================================
 RUN: 6511
+https://clas12mon.jlab.org/runs/summaries/?run=6511&runmax=6611&runmin=6411
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               52.4215
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6511 0               4-LowLiveTime[all]
 6511 5     |
@@ -49492,6 +51076,14 @@ RUN: 6511
 
 ==================================================================================
 RUN: 6512
+https://clas12mon.jlab.org/runs/summaries/?run=6512&runmax=6612&runmin=6412
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.2817
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6512 0               4-LowLiveTime[all]
 6512 5     |
@@ -49892,6 +51484,14 @@ RUN: 6512
 
 ==================================================================================
 RUN: 6513
+https://clas12mon.jlab.org/runs/summaries/?run=6513&runmax=6613&runmin=6413
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               0.0140547
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6513 0     |
 6513 5     |
@@ -50402,6 +52002,14 @@ RUN: 6513
 
 ==================================================================================
 RUN: 6514
+https://clas12mon.jlab.org/runs/summaries/?run=6514&runmax=6614&runmin=6414
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               51.6087
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6514 0          2-MarginalOutlier[1356]
 6514 5     |
@@ -50875,6 +52483,14 @@ RUN: 6514
 
 ==================================================================================
 RUN: 6515
+https://clas12mon.jlab.org/runs/summaries/?run=6515&runmax=6615&runmin=6415
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               32.3503
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6515 0               4-LowLiveTime[all]
 6515 5     |
@@ -51344,6 +52960,14 @@ RUN: 6515
 
 ==================================================================================
 RUN: 6516
+https://clas12mon.jlab.org/runs/summaries/?run=6516&runmax=6616&runmin=6416
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.7101
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6516 0     |
 6516 5     |
@@ -51389,6 +53013,14 @@ RUN: 6516
 
 ==================================================================================
 RUN: 6522
+https://clas12mon.jlab.org/runs/summaries/?run=6522&runmax=6622&runmin=6422
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.0187395
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6522 0               4-LowLiveTime[all]
 6522 5     |
@@ -51845,6 +53477,14 @@ RUN: 6522
 
 ==================================================================================
 RUN: 6523
+https://clas12mon.jlab.org/runs/summaries/?run=6523&runmax=6623&runmin=6423
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               51.8008
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6523 0               4-LowLiveTime[all]
 6523 5     |
@@ -52299,6 +53939,14 @@ RUN: 6523
 
 ==================================================================================
 RUN: 6524
+https://clas12mon.jlab.org/runs/summaries/?run=6524&runmax=6624&runmin=6424
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               52.0256
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6524 0     |
 6524 5     |
@@ -52780,6 +54428,14 @@ RUN: 6524
 
 ==================================================================================
 RUN: 6525
+https://clas12mon.jlab.org/runs/summaries/?run=6525&runmax=6625&runmin=6425
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               51.4822
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6525 0     |
 6525 5     |
@@ -53169,6 +54825,14 @@ RUN: 6525
 
 ==================================================================================
 RUN: 6546
+https://clas12mon.jlab.org/runs/summaries/?run=6546&runmax=6646&runmin=6446
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               51.4025
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6546 0     |
 6546 5     |
@@ -53482,6 +55146,14 @@ RUN: 6546
 
 ==================================================================================
 RUN: 6547
+https://clas12mon.jlab.org/runs/summaries/?run=6547&runmax=6647&runmin=6447
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               53.8
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6547 0     |
 6547 5     |
@@ -53816,6 +55488,14 @@ RUN: 6547
 
 ==================================================================================
 RUN: 6548
+https://clas12mon.jlab.org/runs/summaries/?run=6548&runmax=6648&runmin=6448
+----------------------------------------------------------------------------------
+  user_comment:               Production Run
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               0.0175683
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6548 0             1-TerminalOutlier[4]        2-MarginalOutlier[12]
 6548 5     |
@@ -54125,6 +55805,14 @@ RUN: 6548
 
 ==================================================================================
 RUN: 6549
+https://clas12mon.jlab.org/runs/summaries/?run=6549&runmax=6649&runmin=6449
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               51.18
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6549 0               4-LowLiveTime[all]
 6549 5     |
@@ -54432,6 +56120,14 @@ RUN: 6549
 
 ==================================================================================
 RUN: 6550
+https://clas12mon.jlab.org/runs/summaries/?run=6550&runmax=6650&runmin=6450
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               51.9366
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6550 0               4-LowLiveTime[all]
 6550 5     |
@@ -54738,11 +56434,27 @@ RUN: 6550
 
 ==================================================================================
 RUN: 6551
+https://clas12mon.jlab.org/runs/summaries/?run=6551&runmax=6651&runmin=6451
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               52.5562
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6551 0     :: ROC busy ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 6557
+https://clas12mon.jlab.org/runs/summaries/?run=6557&runmax=6657&runmin=6457
+----------------------------------------------------------------------------------
+  user_comment:               run OK
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               51.857
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6557 0               4-LowLiveTime[all]
 6557 5     |
@@ -55052,6 +56764,14 @@ RUN: 6557
 
 ==================================================================================
 RUN: 6558
+https://clas12mon.jlab.org/runs/summaries/?run=6558&runmax=6658&runmin=6458
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               51.4307
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6558 0     |
 6558 5     |
@@ -55254,6 +56974,14 @@ RUN: 6558
 
 ==================================================================================
 RUN: 6559
+https://clas12mon.jlab.org/runs/summaries/?run=6559&runmax=6659&runmin=6459
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               52.5328
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6559 0     |
 6559 5     |
@@ -55559,6 +57287,14 @@ RUN: 6559
 
 ==================================================================================
 RUN: 6560
+https://clas12mon.jlab.org/runs/summaries/?run=6560&runmax=6660&runmin=6460
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               51.4037
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6560 0               4-LowLiveTime[all]
 6560 5     |
@@ -55764,6 +57500,14 @@ RUN: 6560
 
 ==================================================================================
 RUN: 6561
+https://clas12mon.jlab.org/runs/summaries/?run=6561&runmax=6661&runmin=6461
+----------------------------------------------------------------------------------
+  user_comment:               may be production run, beam tune to hall C, beam in hall b unstable
+  target:                     LD2
+  beam_current_request:       20 nA
+  beam_current:               20.6451
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6561 0     :: beam tune for hall C; beam in hall B unstable ::                  5-Misc[all]
 6561 5     :: beam tune for hall C; beam in hall B unstable ::                  5-Misc[all]
@@ -55772,6 +57516,14 @@ RUN: 6561
 
 ==================================================================================
 RUN: 6562
+https://clas12mon.jlab.org/runs/summaries/?run=6562&runmax=6662&runmin=6462
+----------------------------------------------------------------------------------
+  user_comment:               production run (possibly due to unstable beam)
+  target:                     LD2
+  beam_current_request:       40 nA/ 50 nA
+  beam_current:               0.021082
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6562 0               4-LowLiveTime[all]
 6562 5     |
@@ -55800,6 +57552,14 @@ RUN: 6562
 
 ==================================================================================
 RUN: 6563
+https://clas12mon.jlab.org/runs/summaries/?run=6563&runmax=6663&runmin=6463
+----------------------------------------------------------------------------------
+  user_comment:               production run (potentially, unstable beam due to tuning to Hall C)
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.6858
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6563 0     |
 6563 5     |
@@ -55925,6 +57685,14 @@ RUN: 6563
 
 ==================================================================================
 RUN: 6565
+https://clas12mon.jlab.org/runs/summaries/?run=6565&runmax=6665&runmin=6465
+----------------------------------------------------------------------------------
+  user_comment:               production run (MVT sec1 L5 off for 10 min)
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               0.0140547
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6565 0     |
 6565 5     |
@@ -56229,6 +57997,14 @@ RUN: 6565
 
 ==================================================================================
 RUN: 6566
+https://clas12mon.jlab.org/runs/summaries/?run=6566&runmax=6666&runmin=6466
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               52.9778
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6566 0     |
 6566 5     |
@@ -56533,6 +58309,14 @@ RUN: 6566
 
 ==================================================================================
 RUN: 6567
+https://clas12mon.jlab.org/runs/summaries/?run=6567&runmax=6667&runmin=6467
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               51.2608
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6567 0               4-LowLiveTime[all]
 6567 5     |
@@ -56837,6 +58621,14 @@ RUN: 6567
 
 ==================================================================================
 RUN: 6568
+https://clas12mon.jlab.org/runs/summaries/?run=6568&runmax=6668&runmin=6468
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               51.522
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6568 0     |
 6568 5     |
@@ -56852,6 +58644,14 @@ RUN: 6568
 
 ==================================================================================
 RUN: 6569
+https://clas12mon.jlab.org/runs/summaries/?run=6569&runmax=6669&runmin=6469
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               48.6197
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6569 0     |
 6569 5     |
@@ -57155,6 +58955,14 @@ RUN: 6569
 
 ==================================================================================
 RUN: 6570
+https://clas12mon.jlab.org/runs/summaries/?run=6570&runmax=6670&runmin=6470
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               -0.0948689
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6570 0               4-LowLiveTime[all]
 6570 5     |
@@ -57462,6 +59270,14 @@ RUN: 6570
 
 ==================================================================================
 RUN: 6571
+https://clas12mon.jlab.org/runs/summaries/?run=6571&runmax=6671&runmin=6471
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               -0.0456776
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6571 0     |
 6571 5     |
@@ -57776,6 +59592,14 @@ RUN: 6571
 
 ==================================================================================
 RUN: 6572
+https://clas12mon.jlab.org/runs/summaries/?run=6572&runmax=6672&runmin=6472
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               50.5148
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6572 0     |
 6572 5     |
@@ -58082,6 +59906,14 @@ RUN: 6572
 
 ==================================================================================
 RUN: 6573
+https://clas12mon.jlab.org/runs/summaries/?run=6573&runmax=6673&runmin=6473
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               51.1824
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6573 0               4-LowLiveTime[all]
 6573 5     |
@@ -58386,6 +60218,14 @@ RUN: 6573
 
 ==================================================================================
 RUN: 6576
+https://clas12mon.jlab.org/runs/summaries/?run=6576&runmax=6676&runmin=6476
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               52.1018
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6576 0               4-LowLiveTime[all]
 6576 5     |
@@ -58688,6 +60528,14 @@ RUN: 6576
 
 ==================================================================================
 RUN: 6577
+https://clas12mon.jlab.org/runs/summaries/?run=6577&runmax=6677&runmin=6477
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.8275
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6577 0               4-LowLiveTime[all]
 6577 5     |
@@ -58992,6 +60840,14 @@ RUN: 6577
 
 ==================================================================================
 RUN: 6578
+https://clas12mon.jlab.org/runs/summaries/?run=6578&runmax=6678&runmin=6478
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.975
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6578 0               4-LowLiveTime[all]
 6578 5     |
@@ -59210,6 +61066,14 @@ RUN: 6578
 
 ==================================================================================
 RUN: 6581
+https://clas12mon.jlab.org/runs/summaries/?run=6581&runmax=6681&runmin=6481
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               51.7082
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6581 0               4-LowLiveTime[all]
 6581 5     |
@@ -59251,6 +61115,14 @@ RUN: 6581
 
 ==================================================================================
 RUN: 6582
+https://clas12mon.jlab.org/runs/summaries/?run=6582&runmax=6682&runmin=6482
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               50.8825
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6582 0               4-LowLiveTime[all]
 6582 5     |
@@ -59375,6 +61247,14 @@ RUN: 6582
 
 ==================================================================================
 RUN: 6585
+https://clas12mon.jlab.org/runs/summaries/?run=6585&runmax=6685&runmin=6485
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               51.1987
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6585 0     |
 6585 5     |
@@ -59678,6 +61558,14 @@ RUN: 6585
 
 ==================================================================================
 RUN: 6586
+https://clas12mon.jlab.org/runs/summaries/?run=6586&runmax=6686&runmin=6486
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               52.9099
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6586 0               4-LowLiveTime[all]
 6586 5     |
@@ -59981,6 +61869,14 @@ RUN: 6586
 
 ==================================================================================
 RUN: 6587
+https://clas12mon.jlab.org/runs/summaries/?run=6587&runmax=6687&runmin=6487
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       
+  beam_current:               50.7689
+  run_type:                   PROD65
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6587 0     |
 6587 5     |
@@ -60185,6 +62081,14 @@ RUN: 6587
 
 ==================================================================================
 RUN: 6589
+https://clas12mon.jlab.org/runs/summaries/?run=6589&runmax=6689&runmin=6489
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               51.0851
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6589 0               4-LowLiveTime[all]
 6589 5     |
@@ -60239,6 +62143,14 @@ RUN: 6589
 
 ==================================================================================
 RUN: 6590
+https://clas12mon.jlab.org/runs/summaries/?run=6590&runmax=6690&runmin=6490
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               50.5569
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6590 0               4-LowLiveTime[all]
 6590 5     |
@@ -60553,6 +62465,14 @@ RUN: 6590
 
 ==================================================================================
 RUN: 6591
+https://clas12mon.jlab.org/runs/summaries/?run=6591&runmax=6691&runmin=6491
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               49.2569
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6591 0           1-TerminalOutlier[all]           4-LowLiveTime[all]
 6591 5     |
@@ -60862,6 +62782,14 @@ RUN: 6591
 
 ==================================================================================
 RUN: 6592
+https://clas12mon.jlab.org/runs/summaries/?run=6592&runmax=6692&runmin=6492
+----------------------------------------------------------------------------------
+  user_comment:               trigger raet alarm at the end of this run
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               51.6157
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6592 0     |
 6592 5     |
@@ -60977,6 +62905,14 @@ RUN: 6592
 
 ==================================================================================
 RUN: 6593
+https://clas12mon.jlab.org/runs/summaries/?run=6593&runmax=6693&runmin=6493
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               50.7385
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6593 0               4-LowLiveTime[all]
 6593 5     |
@@ -61281,6 +63217,14 @@ RUN: 6593
 
 ==================================================================================
 RUN: 6595
+https://clas12mon.jlab.org/runs/summaries/?run=6595&runmax=6695&runmin=6495
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               51.3182
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6595 0     |
 6595 5     |
@@ -61600,6 +63544,14 @@ RUN: 6595
 
 ==================================================================================
 RUN: 6596
+https://clas12mon.jlab.org/runs/summaries/?run=6596&runmax=6696&runmin=6496
+----------------------------------------------------------------------------------
+  user_comment:               production run, sector 5 tdc pcal and ecal rocs give error messages.
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.2032
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6596 0                  3-SectorLoss[5]           4-LowLiveTime[all]
 6596 5                  3-SectorLoss[5]
@@ -61689,6 +63641,14 @@ RUN: 6596
 
 ==================================================================================
 RUN: 6597
+https://clas12mon.jlab.org/runs/summaries/?run=6597&runmax=6697&runmin=6497
+----------------------------------------------------------------------------------
+  user_comment:               production run (end of run, no DAQ rates)
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               31.9287
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6597 0     |
 6597 5     |
@@ -61784,6 +63744,14 @@ RUN: 6597
 
 ==================================================================================
 RUN: 6598
+https://clas12mon.jlab.org/runs/summaries/?run=6598&runmax=6698&runmin=6498
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.5159
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6598 0     |
 6598 5     |
@@ -61804,6 +63772,14 @@ RUN: 6598
 
 ==================================================================================
 RUN: 6599
+https://clas12mon.jlab.org/runs/summaries/?run=6599&runmax=6699&runmin=6499
+----------------------------------------------------------------------------------
+  user_comment:               empty target run
+  target:                     Empty
+  beam_current_request:       150 nA
+  beam_current:               150.415
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6599 0     :: empty target run ::                  5-Misc[all]
 6599 5     :: empty target run ::                  5-Misc[all]
@@ -61884,6 +63860,14 @@ RUN: 6599
 
 ==================================================================================
 RUN: 6601
+https://clas12mon.jlab.org/runs/summaries/?run=6601&runmax=6701&runmin=6501
+----------------------------------------------------------------------------------
+  user_comment:               empty target, 150nA, production
+  target:                     empty
+  beam_current_request:       
+  beam_current:               151.228
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6601 0     :: empty target run ::                  5-Misc[all]
 6601 5     :: empty target run ::                  5-Misc[all]
@@ -61939,6 +63923,14 @@ RUN: 6601
 
 ==================================================================================
 RUN: 6603
+https://clas12mon.jlab.org/runs/summaries/?run=6603&runmax=6703&runmin=6503
+----------------------------------------------------------------------------------
+  user_comment:               empty target, 150nA
+  target:                     empty 
+  beam_current_request:       150 na
+  beam_current:               149.002
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v10.cnf
 ----------------------------------------------------------------------------------
 6603 0     :: empty target run ::                  5-Misc[all]
 6603 5     :: empty target run ::                  5-Misc[all]

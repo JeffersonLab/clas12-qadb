@@ -887,8 +887,7 @@ Documentation for QADB maintenance and revision
   * [ ] `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and
     `chargeTree.json` to that directory
   * [ ] add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
-  * [x] ~~run `util/makeTables.sh`~~ a pre-commit hook will take care of this
-  * [x] ~~update customized QA criteria sets, such as `OkForAsymmetry`~~ this function is no longer maintained
+  * [ ] run `util/makeTables.sh` for this dataset
   * [ ] update the above table of datasets
   * [ ] submit a pull request
 

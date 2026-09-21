@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 11093
+https://clas12mon.jlab.org/runs/summaries/?run=11093&runmax=11193&runmin=10993
+----------------------------------------------------------------------------------
+  user_comment:               Production Running new trigger. Ended run because trigger rate in S4 dropped
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.3603
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11093 0               4-LowLiveTime[all]
 11093 5     |
@@ -168,6 +176,14 @@ RUN: 11093
 
 ==================================================================================
 RUN: 11094
+https://clas12mon.jlab.org/runs/summaries/?run=11094&runmax=11194&runmin=10994
+----------------------------------------------------------------------------------
+  user_comment:               New production run
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.7946
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11094 0               4-LowLiveTime[all]
 11094 5     |
@@ -360,6 +376,14 @@ RUN: 11094
 
 ==================================================================================
 RUN: 11095
+https://clas12mon.jlab.org/runs/summaries/?run=11095&runmax=11195&runmin=10995
+----------------------------------------------------------------------------------
+  user_comment:               Changed config to PROD66. Normal Production Run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.9433
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11095 0               4-LowLiveTime[all]
 11095 5     |
@@ -652,6 +676,14 @@ RUN: 11095
 
 ==================================================================================
 RUN: 11096
+https://clas12mon.jlab.org/runs/summaries/?run=11096&runmax=11196&runmin=10996
+----------------------------------------------------------------------------------
+  user_comment:               Regular Production Run - aborted
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.7775
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11096 0               4-LowLiveTime[all]
 11096 5     |
@@ -678,6 +710,14 @@ RUN: 11096
 
 ==================================================================================
 RUN: 11097
+https://clas12mon.jlab.org/runs/summaries/?run=11097&runmax=11197&runmin=10997
+----------------------------------------------------------------------------------
+  user_comment:               Production run. Deadtime 100% at end of run.
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.1624
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11097 0               4-LowLiveTime[all]
 11097 5     |
@@ -856,6 +896,14 @@ RUN: 11097
 
 ==================================================================================
 RUN: 11098
+https://clas12mon.jlab.org/runs/summaries/?run=11098&runmax=11198&runmin=10998
+----------------------------------------------------------------------------------
+  user_comment:               null
+  target:                     null
+  beam_current_request:       null
+  beam_current:               -0.00855703
+  run_type:                   null
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11098 0               4-LowLiveTime[all]
 11098 5               4-LowLiveTime[all]
@@ -885,6 +933,14 @@ RUN: 11098
 
 ==================================================================================
 RUN: 11099
+https://clas12mon.jlab.org/runs/summaries/?run=11099&runmax=11199&runmin=10999
+----------------------------------------------------------------------------------
+  user_comment:               Try again for a production run.
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.6598
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11099 0               4-LowLiveTime[all]
 11099 5     |
@@ -1165,6 +1221,14 @@ RUN: 11099
 
 ==================================================================================
 RUN: 11100
+https://clas12mon.jlab.org/runs/summaries/?run=11100&runmax=11200&runmin=11000
+----------------------------------------------------------------------------------
+  user_comment:               regular production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.6427
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11100 0               4-LowLiveTime[all]
 11100 5     |
@@ -1264,6 +1328,14 @@ RUN: 11100
 
 ==================================================================================
 RUN: 11101
+https://clas12mon.jlab.org/runs/summaries/?run=11101&runmax=11201&runmin=11001
+----------------------------------------------------------------------------------
+  user_comment:               New production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               41.0395
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11101 0               4-LowLiveTime[all]
 11101 5     |
@@ -1565,6 +1637,14 @@ RUN: 11101
 
 ==================================================================================
 RUN: 11102
+https://clas12mon.jlab.org/runs/summaries/?run=11102&runmax=11202&runmin=11002
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.4801
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11102 0               4-LowLiveTime[all]
 11102 5     |
@@ -1854,6 +1934,14 @@ RUN: 11102
 
 ==================================================================================
 RUN: 11103
+https://clas12mon.jlab.org/runs/summaries/?run=11103&runmax=11203&runmin=11003
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.7785
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11103 0               4-LowLiveTime[all]
 11103 5     |
@@ -1998,6 +2086,14 @@ RUN: 11103
 
 ==================================================================================
 RUN: 11107
+https://clas12mon.jlab.org/runs/summaries/?run=11107&runmax=11207&runmin=11007
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.5999
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11107 0               4-LowLiveTime[all]
 11107 5     |
@@ -2287,6 +2383,14 @@ RUN: 11107
 
 ==================================================================================
 RUN: 11108
+https://clas12mon.jlab.org/runs/summaries/?run=11108&runmax=11208&runmin=11008
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.3967
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11108 0               4-LowLiveTime[all]
 11108 5     |
@@ -2571,6 +2675,14 @@ RUN: 11108
 
 ==================================================================================
 RUN: 11109
+https://clas12mon.jlab.org/runs/summaries/?run=11109&runmax=11209&runmin=11009
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.6224
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11109 0               4-LowLiveTime[all]
 11109 5               4-LowLiveTime[all]
@@ -2853,6 +2965,14 @@ RUN: 11109
 
 ==================================================================================
 RUN: 11110
+https://clas12mon.jlab.org/runs/summaries/?run=11110&runmax=11210&runmin=11010
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.54
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11110 0               4-LowLiveTime[all]
 11110 5     |
@@ -3146,6 +3266,14 @@ RUN: 11110
 
 ==================================================================================
 RUN: 11111
+https://clas12mon.jlab.org/runs/summaries/?run=11111&runmax=11211&runmin=11011
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.9721
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11111 0               4-LowLiveTime[all]
 11111 5     |
@@ -3191,6 +3319,14 @@ RUN: 11111
 
 ==================================================================================
 RUN: 11113
+https://clas12mon.jlab.org/runs/summaries/?run=11113&runmax=11213&runmin=11013
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.4127
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11113 0               4-LowLiveTime[all]
 11113 5               4-LowLiveTime[all]
@@ -3745,6 +3881,14 @@ RUN: 11113
 
 ==================================================================================
 RUN: 11114
+https://clas12mon.jlab.org/runs/summaries/?run=11114&runmax=11214&runmin=11014
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               39.9656
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11114 0     |
 11114 5     |
@@ -4317,6 +4461,14 @@ RUN: 11114
 
 ==================================================================================
 RUN: 11117
+https://clas12mon.jlab.org/runs/summaries/?run=11117&runmax=11217&runmin=11017
+----------------------------------------------------------------------------------
+  user_comment:               low lum run; ended after 51M events since beam will be off for 1 hour
+  target:                     LD2 
+  beam_current_request:       7nA
+  beam_current:               7.15796
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11117 0     :: low lumi run ::                  5-Misc[all]
 11117 5     :: low lumi run ::                  5-Misc[all]
@@ -4399,6 +4551,14 @@ RUN: 11117
 
 ==================================================================================
 RUN: 11119
+https://clas12mon.jlab.org/runs/summaries/?run=11119&runmax=11219&runmin=11019
+----------------------------------------------------------------------------------
+  user_comment:               2nd Empty target run - first was junk
+  target:                     Empty 
+  beam_current_request:       130 nA
+  beam_current:               126.24
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11119 0     :: empty target run ::                  5-Misc[all]
 11119 5     :: empty target run ::                  5-Misc[all]
@@ -4504,6 +4664,14 @@ RUN: 11119
 
 ==================================================================================
 RUN: 11120
+https://clas12mon.jlab.org/runs/summaries/?run=11120&runmax=11220&runmin=11020
+----------------------------------------------------------------------------------
+  user_comment:               full target, low lumi run
+  target:                     LD2 
+  beam_current_request:       7 nA
+  beam_current:               7.09164
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11120 0     :: low lumi run ::                  5-Misc[all]
 11120 5     :: low lumi run ::                  5-Misc[all]
@@ -4584,6 +4752,14 @@ RUN: 11120
 
 ==================================================================================
 RUN: 11121
+https://clas12mon.jlab.org/runs/summaries/?run=11121&runmax=11221&runmin=11021
+----------------------------------------------------------------------------------
+  user_comment:               Production run; bad BOM towards the end
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.493
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11121 0               4-LowLiveTime[all]
 11121 5     |
@@ -4862,6 +5038,14 @@ RUN: 11121
 
 ==================================================================================
 RUN: 11122
+https://clas12mon.jlab.org/runs/summaries/?run=11122&runmax=11222&runmin=11022
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.1549
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11122 0          2-MarginalOutlier[1234]           4-LowLiveTime[all]
 11122 5               4-LowLiveTime[all]
@@ -5164,6 +5348,14 @@ RUN: 11122
 
 ==================================================================================
 RUN: 11124
+https://clas12mon.jlab.org/runs/summaries/?run=11124&runmax=11224&runmin=11024
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.9475
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11124 0               4-LowLiveTime[all]
 11124 5     |
@@ -5719,6 +5911,14 @@ RUN: 11124
 
 ==================================================================================
 RUN: 11125
+https://clas12mon.jlab.org/runs/summaries/?run=11125&runmax=11225&runmin=11025
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.7176
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11125 0               4-LowLiveTime[all]
 11125 5     |
@@ -6269,6 +6469,14 @@ RUN: 11125
 
 ==================================================================================
 RUN: 11126
+https://clas12mon.jlab.org/runs/summaries/?run=11126&runmax=11226&runmin=11026
+----------------------------------------------------------------------------------
+  user_comment:               Normal Production Run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.8609
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11126 0               4-LowLiveTime[all]
 11126 5               4-LowLiveTime[all]
@@ -6821,6 +7029,14 @@ RUN: 11126
 
 ==================================================================================
 RUN: 11127
+https://clas12mon.jlab.org/runs/summaries/?run=11127&runmax=11227&runmin=11027
+----------------------------------------------------------------------------------
+  user_comment:               Normal Production run after reboot of mmft1
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.8438
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11127 0               4-LowLiveTime[all]
 11127 5     |
@@ -7333,6 +7549,14 @@ RUN: 11127
 
 ==================================================================================
 RUN: 11128
+https://clas12mon.jlab.org/runs/summaries/?run=11128&runmax=11228&runmin=11028
+----------------------------------------------------------------------------------
+  user_comment:               YAPR (yet another production run
+  target:                     LD2 
+  beam_current_request:       
+  beam_current:               41.201
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11128 0               4-LowLiveTime[all]
 11128 5               4-LowLiveTime[all]
@@ -7398,6 +7622,14 @@ RUN: 11128
 
 ==================================================================================
 RUN: 11129
+https://clas12mon.jlab.org/runs/summaries/?run=11129&runmax=11229&runmin=11029
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.6587
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11129 0               4-LowLiveTime[all]
 11129 5     |
@@ -7952,6 +8184,14 @@ RUN: 11129
 
 ==================================================================================
 RUN: 11132
+https://clas12mon.jlab.org/runs/summaries/?run=11132&runmax=11232&runmin=11032
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.6502
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11132 0               4-LowLiveTime[all]
 11132 5     |
@@ -8135,6 +8375,14 @@ RUN: 11132
 
 ==================================================================================
 RUN: 11143
+https://clas12mon.jlab.org/runs/summaries/?run=11143&runmax=11243&runmin=11043
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               0.0566904
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11143 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 11143 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -8309,6 +8557,14 @@ RUN: 11143
 
 ==================================================================================
 RUN: 11156
+https://clas12mon.jlab.org/runs/summaries/?run=11156&runmax=11256&runmin=11056
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.309
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11156 0               4-LowLiveTime[all]
 11156 5     |
@@ -8874,6 +9130,14 @@ RUN: 11156
 
 ==================================================================================
 RUN: 11158
+https://clas12mon.jlab.org/runs/summaries/?run=11158&runmax=11258&runmin=11058
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.9208
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11158 0     |
 11158 5               4-LowLiveTime[all]
@@ -9449,6 +9713,14 @@ RUN: 11158
 
 ==================================================================================
 RUN: 11159
+https://clas12mon.jlab.org/runs/summaries/?run=11159&runmax=11259&runmin=11059
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               39.7057
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11159 0     |
 11159 5     |
@@ -10022,6 +10294,14 @@ RUN: 11159
 
 ==================================================================================
 RUN: 11160
+https://clas12mon.jlab.org/runs/summaries/?run=11160&runmax=11260&runmin=11060
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               13.6207
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11160 0               4-LowLiveTime[all]
 11160 5     |
@@ -10067,6 +10347,14 @@ RUN: 11160
 
 ==================================================================================
 RUN: 11162
+https://clas12mon.jlab.org/runs/summaries/?run=11162&runmax=11262&runmin=11062
+----------------------------------------------------------------------------------
+  user_comment:               no beam for last 20 minutes
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               -0.0331585
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11162 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 11162 5     :: FC charge issue (RUN::scaler:fcupgated) ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -10159,6 +10447,14 @@ RUN: 11162
 
 ==================================================================================
 RUN: 11165
+https://clas12mon.jlab.org/runs/summaries/?run=11165&runmax=11265&runmin=11065
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.7914
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11165 0     |
 11165 5     |
@@ -10435,6 +10731,14 @@ RUN: 11165
 
 ==================================================================================
 RUN: 11171
+https://clas12mon.jlab.org/runs/summaries/?run=11171&runmax=11271&runmin=11071
+----------------------------------------------------------------------------------
+  user_comment:               Production Run - ended due to trigger alarm
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.8673
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11171 0               4-LowLiveTime[all]
 11171 5     |
@@ -10695,6 +10999,14 @@ RUN: 11171
 
 ==================================================================================
 RUN: 11174
+https://clas12mon.jlab.org/runs/summaries/?run=11174&runmax=11274&runmin=11074
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.1924
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11174 0     |
 11174 5               4-LowLiveTime[all]
@@ -10975,6 +11287,14 @@ RUN: 11174
 
 ==================================================================================
 RUN: 11175
+https://clas12mon.jlab.org/runs/summaries/?run=11175&runmax=11275&runmin=11075
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.7764
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11175 0               4-LowLiveTime[all]
 11175 5     |
@@ -11239,6 +11559,14 @@ RUN: 11175
 
 ==================================================================================
 RUN: 11176
+https://clas12mon.jlab.org/runs/summaries/?run=11176&runmax=11276&runmin=11076
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.8096
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11176 0               4-LowLiveTime[all]
 11176 5     |
@@ -11518,6 +11846,14 @@ RUN: 11176
 
 ==================================================================================
 RUN: 11178
+https://clas12mon.jlab.org/runs/summaries/?run=11178&runmax=11278&runmin=11078
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.8031
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11178 0               4-LowLiveTime[all]
 11178 5     |
@@ -11683,6 +12019,14 @@ RUN: 11178
 
 ==================================================================================
 RUN: 11179
+https://clas12mon.jlab.org/runs/summaries/?run=11179&runmax=11279&runmin=11079
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.8663
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11179 0               4-LowLiveTime[all]
 11179 5     |
@@ -11773,6 +12117,14 @@ RUN: 11179
 
 ==================================================================================
 RUN: 11180
+https://clas12mon.jlab.org/runs/summaries/?run=11180&runmax=11280&runmin=11080
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.6823
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11180 0               4-LowLiveTime[all]
 11180 5     |
@@ -11975,6 +12327,14 @@ RUN: 11180
 
 ==================================================================================
 RUN: 11182
+https://clas12mon.jlab.org/runs/summaries/?run=11182&runmax=11282&runmin=11082
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.3689
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11182 0               4-LowLiveTime[all]
 11182 5     |
@@ -12260,6 +12620,14 @@ RUN: 11182
 
 ==================================================================================
 RUN: 11183
+https://clas12mon.jlab.org/runs/summaries/?run=11183&runmax=11283&runmin=11083
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               0.0224622
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11183 0     |
 11183 5               4-LowLiveTime[all]
@@ -12373,6 +12741,14 @@ RUN: 11183
 
 ==================================================================================
 RUN: 11189
+https://clas12mon.jlab.org/runs/summaries/?run=11189&runmax=11289&runmin=11089
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               41.2535
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11189 0               4-LowLiveTime[all]
 11189 5           2-MarginalOutlier[all]
@@ -12505,6 +12881,14 @@ RUN: 11189
 
 ==================================================================================
 RUN: 11190
+https://clas12mon.jlab.org/runs/summaries/?run=11190&runmax=11290&runmin=11090
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.524
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11190 0     :: FC charge issue (RUN::scaler:fcupgated) ::       1-TerminalOutlier[all]                  5-Misc[all]
 11190 5     :: FC charge issue (RUN::scaler:fcupgated) ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -12598,6 +12982,14 @@ RUN: 11190
 
 ==================================================================================
 RUN: 11193
+https://clas12mon.jlab.org/runs/summaries/?run=11193&runmax=11293&runmin=11093
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               26.7611
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11193 0               4-LowLiveTime[all]
 11193 5     |
@@ -12878,6 +13270,14 @@ RUN: 11193
 
 ==================================================================================
 RUN: 11194
+https://clas12mon.jlab.org/runs/summaries/?run=11194&runmax=11294&runmin=11094
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.4224
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11194 0               4-LowLiveTime[all]
 11194 5     |
@@ -13163,6 +13563,14 @@ RUN: 11194
 
 ==================================================================================
 RUN: 11195
+https://clas12mon.jlab.org/runs/summaries/?run=11195&runmax=11295&runmin=11095
+----------------------------------------------------------------------------------
+  user_comment:               Junk
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.8342
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11195 0               4-LowLiveTime[all]
 11195 5     |
@@ -13186,6 +13594,14 @@ RUN: 11195
 
 ==================================================================================
 RUN: 11197
+https://clas12mon.jlab.org/runs/summaries/?run=11197&runmax=11297&runmin=11097
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.355
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11197 0               4-LowLiveTime[all]
 11197 5     |
@@ -13436,6 +13852,14 @@ RUN: 11197
 
 ==================================================================================
 RUN: 11198
+https://clas12mon.jlab.org/runs/summaries/?run=11198&runmax=11298&runmin=11098
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               0.020323
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11198 0          2-MarginalOutlier[1456]           4-LowLiveTime[all]
 11198 5               4-LowLiveTime[all]
@@ -13466,6 +13890,14 @@ RUN: 11198
 
 ==================================================================================
 RUN: 11199
+https://clas12mon.jlab.org/runs/summaries/?run=11199&runmax=11299&runmin=11099
+----------------------------------------------------------------------------------
+  user_comment:               Production, 100M events
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.9839
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11199 0               4-LowLiveTime[all]
 11199 5     |
@@ -13741,6 +14173,14 @@ RUN: 11199
 
 ==================================================================================
 RUN: 11200
+https://clas12mon.jlab.org/runs/summaries/?run=11200&runmax=11300&runmin=11100
+----------------------------------------------------------------------------------
+  user_comment:               Low luminosity run at 7nA
+  target:                     LD2 
+  beam_current_request:       7nA
+  beam_current:               3.8635
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11200 0     :: low lumi run ::              3-SectorLoss[4]                  5-Misc[all]
 11200 5     :: low lumi run ::              3-SectorLoss[4]                  5-Misc[all]
@@ -13748,6 +14188,14 @@ RUN: 11200
 
 ==================================================================================
 RUN: 11201
+https://clas12mon.jlab.org/runs/summaries/?run=11201&runmax=11301&runmin=11101
+----------------------------------------------------------------------------------
+  user_comment:               Low luminosity run
+  target:                     LD2 
+  beam_current_request:       7nA
+  beam_current:               7.03923
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11201 0     :: low lumi run ::                  5-Misc[all]
 11201 5     :: low lumi run ::                  5-Misc[all]
@@ -13756,6 +14204,14 @@ RUN: 11201
 
 ==================================================================================
 RUN: 11202
+https://clas12mon.jlab.org/runs/summaries/?run=11202&runmax=11302&runmin=11102
+----------------------------------------------------------------------------------
+  user_comment:               Low luminosity run
+  target:                     LD2 
+  beam_current_request:       7nA
+  beam_current:               3.92126
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11202 0     :: low lumi run ::                  5-Misc[all]
 11202 5     :: low lumi run ::                  5-Misc[all]
@@ -13765,6 +14221,14 @@ RUN: 11202
 
 ==================================================================================
 RUN: 11203
+https://clas12mon.jlab.org/runs/summaries/?run=11203&runmax=11303&runmin=11103
+----------------------------------------------------------------------------------
+  user_comment:               prod low luminosity
+  target:                     LD2 
+  beam_current_request:       7nA
+  beam_current:               -0.0224622
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11203 0     :: low lumi run ::                  5-Misc[all]
 11203 5     :: low lumi run ::                  5-Misc[all]
@@ -13772,6 +14236,14 @@ RUN: 11203
 
 ==================================================================================
 RUN: 11206
+https://clas12mon.jlab.org/runs/summaries/?run=11206&runmax=11306&runmin=11106
+----------------------------------------------------------------------------------
+  user_comment:               Low luminosity run (HWP IN)
+  target:                     LD2 
+  beam_current_request:       7nA
+  beam_current:               7.08095
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11206 0     :: low lumi run; HWP in ::                  5-Misc[all]
 11206 5     :: low lumi run; HWP in ::                  5-Misc[all]
@@ -13803,6 +14275,14 @@ RUN: 11206
 
 ==================================================================================
 RUN: 11207
+https://clas12mon.jlab.org/runs/summaries/?run=11207&runmax=11307&runmin=11107
+----------------------------------------------------------------------------------
+  user_comment:               Low luminosity run (HWP OUT)
+  target:                     LD2 
+  beam_current_request:       7nA
+  beam_current:               7.1847
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11207 0     :: low lumi run; HWP out ::                  5-Misc[all]
 11207 5     :: low lumi run; HWP out ::                  5-Misc[all]
@@ -13853,6 +14333,14 @@ RUN: 11207
 
 ==================================================================================
 RUN: 11210
+https://clas12mon.jlab.org/runs/summaries/?run=11210&runmax=11310&runmin=11110
+----------------------------------------------------------------------------------
+  user_comment:               LD2 @ 20 nA
+  target:                     LD2 
+  beam_current_request:       20 nA
+  beam_current:               20.5465
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11210 0     :: 20 nA run ::                  5-Misc[all]
 11210 5     :: 20 nA run ::                  5-Misc[all]
@@ -14064,6 +14552,14 @@ RUN: 11210
 
 ==================================================================================
 RUN: 11211
+https://clas12mon.jlab.org/runs/summaries/?run=11211&runmax=11311&runmin=11111
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.8588
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11211 0               4-LowLiveTime[all]
 11211 5     |
@@ -14434,6 +14930,14 @@ RUN: 11211
 
 ==================================================================================
 RUN: 11212
+https://clas12mon.jlab.org/runs/summaries/?run=11212&runmax=11312&runmin=11112
+----------------------------------------------------------------------------------
+  user_comment:               LD2 @ 40 nA, HWP Out
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.2972
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11212 0                  3-SectorLoss[4]           4-LowLiveTime[all]
 11212 5                  3-SectorLoss[4]
@@ -14797,6 +15301,14 @@ RUN: 11212
 
 ==================================================================================
 RUN: 11213
+https://clas12mon.jlab.org/runs/summaries/?run=11213&runmax=11313&runmin=11113
+----------------------------------------------------------------------------------
+  user_comment:               Prod @40nA, HWP IN
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.7304
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11213 0               4-LowLiveTime[all]
 11213 5               4-LowLiveTime[all]
@@ -15196,6 +15708,14 @@ RUN: 11213
 
 ==================================================================================
 RUN: 11214
+https://clas12mon.jlab.org/runs/summaries/?run=11214&runmax=11314&runmin=11114
+----------------------------------------------------------------------------------
+  user_comment:               Prod@40nA
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.9016
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11214 0               4-LowLiveTime[all]
 11214 5     |
@@ -15548,6 +16068,14 @@ RUN: 11214
 
 ==================================================================================
 RUN: 11215
+https://clas12mon.jlab.org/runs/summaries/?run=11215&runmax=11315&runmin=11115
+----------------------------------------------------------------------------------
+  user_comment:               Prod@40nA
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.5946
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11215 0               4-LowLiveTime[all]
 11215 5               4-LowLiveTime[all]
@@ -15683,6 +16211,14 @@ RUN: 11215
 
 ==================================================================================
 RUN: 11218
+https://clas12mon.jlab.org/runs/summaries/?run=11218&runmax=11318&runmin=11118
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               41.1604
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11218 0               4-LowLiveTime[all]
 11218 5     |
@@ -15698,6 +16234,14 @@ RUN: 11218
 
 ==================================================================================
 RUN: 11220
+https://clas12mon.jlab.org/runs/summaries/?run=11220&runmax=11320&runmin=11120
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               -0.00962666
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11220 0               4-LowLiveTime[all]
 11220 5     |
@@ -15980,6 +16524,14 @@ RUN: 11220
 
 ==================================================================================
 RUN: 11221
+https://clas12mon.jlab.org/runs/summaries/?run=11221&runmax=11321&runmin=11121
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               0.0149748
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11221 0          2-MarginalOutlier[1234]           4-LowLiveTime[all]
 11221 5               4-LowLiveTime[all]
@@ -16263,6 +16815,14 @@ RUN: 11221
 
 ==================================================================================
 RUN: 11222
+https://clas12mon.jlab.org/runs/summaries/?run=11222&runmax=11322&runmin=11122
+----------------------------------------------------------------------------------
+  user_comment:               prod (HWP OUT). Trig bit 4 problem caused us to stop run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.6684
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11222 0             2-MarginalOutlier[6]           4-LowLiveTime[all]
 11222 5     |
@@ -16390,6 +16950,14 @@ RUN: 11222
 
 ==================================================================================
 RUN: 11223
+https://clas12mon.jlab.org/runs/summaries/?run=11223&runmax=11323&runmin=11123
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.9679
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11223 0               4-LowLiveTime[all]
 11223 5     |
@@ -16678,6 +17246,14 @@ RUN: 11223
 
 ==================================================================================
 RUN: 11225
+https://clas12mon.jlab.org/runs/summaries/?run=11225&runmax=11325&runmin=11125
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.4726
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11225 0               4-LowLiveTime[all]
 11225 5     |
@@ -16772,6 +17348,14 @@ RUN: 11225
 
 ==================================================================================
 RUN: 11226
+https://clas12mon.jlab.org/runs/summaries/?run=11226&runmax=11326&runmin=11126
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.9283
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11226 0               4-LowLiveTime[all]
 11226 5     |
@@ -16803,6 +17387,14 @@ RUN: 11226
 
 ==================================================================================
 RUN: 11230
+https://clas12mon.jlab.org/runs/summaries/?run=11230&runmax=11330&runmin=11130
+----------------------------------------------------------------------------------
+  user_comment:               prod with trigger V14
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.5721
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v14_1.cnf
 ----------------------------------------------------------------------------------
 11230 0               4-LowLiveTime[all]
 11230 5               4-LowLiveTime[all]
@@ -17082,6 +17674,14 @@ RUN: 11230
 
 ==================================================================================
 RUN: 11231
+https://clas12mon.jlab.org/runs/summaries/?run=11231&runmax=11331&runmin=11131
+----------------------------------------------------------------------------------
+  user_comment:               PROD, trigger V12
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.8213
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11231 0     |
 11231 5     |
@@ -17359,6 +17959,14 @@ RUN: 11231
 
 ==================================================================================
 RUN: 11232
+https://clas12mon.jlab.org/runs/summaries/?run=11232&runmax=11332&runmin=11132
+----------------------------------------------------------------------------------
+  user_comment:               PROD run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               0.0106963
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11232 0               4-LowLiveTime[all]
 11232 5               4-LowLiveTime[all]
@@ -17500,6 +18108,14 @@ RUN: 11232
 
 ==================================================================================
 RUN: 11233
+https://clas12mon.jlab.org/runs/summaries/?run=11233&runmax=11333&runmin=11133
+----------------------------------------------------------------------------------
+  user_comment:               PROD run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.8994
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11233 0               4-LowLiveTime[all]
 11233 5     |
@@ -17543,6 +18159,14 @@ RUN: 11233
 
 ==================================================================================
 RUN: 11234
+https://clas12mon.jlab.org/runs/summaries/?run=11234&runmax=11334&runmin=11134
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.9347
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11234 0               4-LowLiveTime[all]
 11234 5     |
@@ -17778,6 +18402,14 @@ RUN: 11234
 
 ==================================================================================
 RUN: 11235
+https://clas12mon.jlab.org/runs/summaries/?run=11235&runmax=11335&runmin=11135
+----------------------------------------------------------------------------------
+  user_comment:               PROD run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.7219
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11235 0               4-LowLiveTime[all]
 11235 5     |
@@ -17981,6 +18613,14 @@ RUN: 11235
 
 ==================================================================================
 RUN: 11238
+https://clas12mon.jlab.org/runs/summaries/?run=11238&runmax=11338&runmin=11138
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.8866
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11238 0               4-LowLiveTime[all]
 11238 5     |
@@ -18529,6 +19169,14 @@ RUN: 11238
 
 ==================================================================================
 RUN: 11239
+https://clas12mon.jlab.org/runs/summaries/?run=11239&runmax=11339&runmin=11139
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.7614
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11239 0               4-LowLiveTime[all]
 11239 5     |
@@ -18822,6 +19470,14 @@ RUN: 11239
 
 ==================================================================================
 RUN: 11241
+https://clas12mon.jlab.org/runs/summaries/?run=11241&runmax=11341&runmin=11141
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.1582
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11241 0               4-LowLiveTime[all]
 11241 5               4-LowLiveTime[all]
@@ -18935,6 +19591,14 @@ RUN: 11241
 
 ==================================================================================
 RUN: 11243
+https://clas12mon.jlab.org/runs/summaries/?run=11243&runmax=11343&runmin=11143
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.6545
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11243 0               4-LowLiveTime[all]
 11243 5     |
@@ -18959,6 +19623,14 @@ RUN: 11243
 
 ==================================================================================
 RUN: 11244
+https://clas12mon.jlab.org/runs/summaries/?run=11244&runmax=11344&runmin=11144
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.3272
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11244 0                  3-SectorLoss[4]           4-LowLiveTime[all]
 11244 5                  3-SectorLoss[4]
@@ -18971,6 +19643,14 @@ RUN: 11244
 
 ==================================================================================
 RUN: 11247
+https://clas12mon.jlab.org/runs/summaries/?run=11247&runmax=11347&runmin=11147
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               -0.0363674
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11247 0               4-LowLiveTime[all]
 11247 5     |
@@ -19003,6 +19683,14 @@ RUN: 11247
 
 ==================================================================================
 RUN: 11248
+https://clas12mon.jlab.org/runs/summaries/?run=11248&runmax=11348&runmin=11148
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.555
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11248 0               4-LowLiveTime[all]
 11248 5     |
@@ -19273,6 +19961,14 @@ RUN: 11248
 
 ==================================================================================
 RUN: 11250
+https://clas12mon.jlab.org/runs/summaries/?run=11250&runmax=11350&runmin=11150
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.4662
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11250 0               4-LowLiveTime[all]
 11250 5     |
@@ -19557,6 +20253,14 @@ RUN: 11250
 
 ==================================================================================
 RUN: 11251
+https://clas12mon.jlab.org/runs/summaries/?run=11251&runmax=11351&runmin=11151
+----------------------------------------------------------------------------------
+  user_comment:               PROD run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.8844
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11251 0               4-LowLiveTime[all]
 11251 5               4-LowLiveTime[all]
@@ -19834,6 +20538,14 @@ RUN: 11251
 
 ==================================================================================
 RUN: 11252
+https://clas12mon.jlab.org/runs/summaries/?run=11252&runmax=11352&runmin=11152
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.586
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11252 0               4-LowLiveTime[all]
 11252 5     |
@@ -19933,6 +20645,14 @@ RUN: 11252
 
 ==================================================================================
 RUN: 11253
+https://clas12mon.jlab.org/runs/summaries/?run=11253&runmax=11353&runmin=11153
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.0533
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11253 0               4-LowLiveTime[all]
 11253 5     |
@@ -20215,6 +20935,14 @@ RUN: 11253
 
 ==================================================================================
 RUN: 11254
+https://clas12mon.jlab.org/runs/summaries/?run=11254&runmax=11354&runmin=11154
+----------------------------------------------------------------------------------
+  user_comment:               PROD run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.5315
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11254 0               4-LowLiveTime[all]
 11254 5     |
@@ -20275,6 +21003,14 @@ RUN: 11254
 
 ==================================================================================
 RUN: 11256
+https://clas12mon.jlab.org/runs/summaries/?run=11256&runmax=11356&runmin=11156
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.6031
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11256 0               4-LowLiveTime[all]
 11256 5         2-MarginalOutlier[12346]
@@ -20550,6 +21286,14 @@ RUN: 11256
 
 ==================================================================================
 RUN: 11257
+https://clas12mon.jlab.org/runs/summaries/?run=11257&runmax=11357&runmin=11157
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               40.5336
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11257 0          2-MarginalOutlier[1346]           4-LowLiveTime[all]
 11257 5     |
@@ -20824,6 +21568,14 @@ RUN: 11257
 
 ==================================================================================
 RUN: 11258
+https://clas12mon.jlab.org/runs/summaries/?run=11258&runmax=11358&runmin=11158
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40 nA
+  beam_current:               -0.0246015
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11258 0     |
 11258 5         2-MarginalOutlier[12346]
@@ -20878,6 +21630,14 @@ RUN: 11258
 
 ==================================================================================
 RUN: 11265
+https://clas12mon.jlab.org/runs/summaries/?run=11265&runmax=11365&runmin=11165
+----------------------------------------------------------------------------------
+  user_comment:               Good Prod run
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               39.1613
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11265 0     |
 11265 5     |
@@ -21163,6 +21923,14 @@ RUN: 11265
 
 ==================================================================================
 RUN: 11266
+https://clas12mon.jlab.org/runs/summaries/?run=11266&runmax=11366&runmin=11166
+----------------------------------------------------------------------------------
+  user_comment:               PROD run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.8245
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11266 0                  3-SectorLoss[6]           4-LowLiveTime[all]
 11266 5                  3-SectorLoss[6]           4-LowLiveTime[all]
@@ -21216,6 +21984,14 @@ RUN: 11266
 
 ==================================================================================
 RUN: 11268
+https://clas12mon.jlab.org/runs/summaries/?run=11268&runmax=11368&runmin=11168
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.8031
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11268 0               4-LowLiveTime[all]
 11268 5     |
@@ -21263,6 +22039,14 @@ RUN: 11268
 
 ==================================================================================
 RUN: 11269
+https://clas12mon.jlab.org/runs/summaries/?run=11269&runmax=11369&runmin=11169
+----------------------------------------------------------------------------------
+  user_comment:               Prod run
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.9315
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11269 0               4-LowLiveTime[all]
 11269 5     |
@@ -21540,6 +22324,14 @@ RUN: 11269
 
 ==================================================================================
 RUN: 11270
+https://clas12mon.jlab.org/runs/summaries/?run=11270&runmax=11370&runmin=11170
+----------------------------------------------------------------------------------
+  user_comment:               Prod run
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.662
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11270 0               4-LowLiveTime[all]
 11270 5               4-LowLiveTime[all]
@@ -21824,6 +22616,14 @@ RUN: 11270
 
 ==================================================================================
 RUN: 11272
+https://clas12mon.jlab.org/runs/summaries/?run=11272&runmax=11372&runmin=11172
+----------------------------------------------------------------------------------
+  user_comment:               Prod
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               40.5218
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11272 0               4-LowLiveTime[all]
 11272 5     |
@@ -22108,6 +22908,14 @@ RUN: 11272
 
 ==================================================================================
 RUN: 11273
+https://clas12mon.jlab.org/runs/summaries/?run=11273&runmax=11373&runmin=11173
+----------------------------------------------------------------------------------
+  user_comment:               Prod run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               41.723
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11273 0               4-LowLiveTime[all]
 11273 5     |
@@ -22376,6 +23184,14 @@ RUN: 11273
 
 ==================================================================================
 RUN: 11274
+https://clas12mon.jlab.org/runs/summaries/?run=11274&runmax=11374&runmin=11174
+----------------------------------------------------------------------------------
+  user_comment:               Prod run
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.11
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11274 0               4-LowLiveTime[all]
 11274 5     |
@@ -22662,6 +23478,14 @@ RUN: 11274
 
 ==================================================================================
 RUN: 11276
+https://clas12mon.jlab.org/runs/summaries/?run=11276&runmax=11376&runmin=11176
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               -0.0310192
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11276 0            2-MarginalOutlier[36]
 11276 5     |
@@ -22697,6 +23521,14 @@ RUN: 11276
 
 ==================================================================================
 RUN: 11277
+https://clas12mon.jlab.org/runs/summaries/?run=11277&runmax=11377&runmin=11177
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               40.1967
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11277 0               4-LowLiveTime[all]
 11277 5     |
@@ -22939,6 +23771,14 @@ RUN: 11277
 
 ==================================================================================
 RUN: 11279
+https://clas12mon.jlab.org/runs/summaries/?run=11279&runmax=11379&runmin=11179
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               39.7111
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11279 0               4-LowLiveTime[all]
 11279 5     |
@@ -22975,6 +23815,14 @@ RUN: 11279
 
 ==================================================================================
 RUN: 11282
+https://clas12mon.jlab.org/runs/summaries/?run=11282&runmax=11382&runmin=11182
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       40nA
+  beam_current:               39.848
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11282 0               4-LowLiveTime[all]
 11282 5     |
@@ -23266,6 +24114,14 @@ RUN: 11282
 
 ==================================================================================
 RUN: 11283
+https://clas12mon.jlab.org/runs/summaries/?run=11283&runmax=11383&runmin=11183
+----------------------------------------------------------------------------------
+  user_comment:               good run
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               0.0171141
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_outbending_v12_1.cnf
 ----------------------------------------------------------------------------------
 11283 0     |
 11283 5     |
@@ -23291,6 +24147,14 @@ RUN: 11283
 
 ==================================================================================
 RUN: 11286
+https://clas12mon.jlab.org/runs/summaries/?run=11286&runmax=11386&runmin=11186
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       
+  beam_current:               -0.00430369
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11286 0                  3-SectorLoss[4]
 11286 5                  3-SectorLoss[4]
@@ -23298,11 +24162,27 @@ RUN: 11286
 
 ==================================================================================
 RUN: 11287
+https://clas12mon.jlab.org/runs/summaries/?run=11287&runmax=11387&runmin=11187
+----------------------------------------------------------------------------------
+  user_comment:               updating trigger file
+  target:                     LD2 
+  beam_current_request:       30 nA
+  beam_current:               30.8561
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11287 0     :: updating trigger file ::                  5-Misc[all]
 
 ==================================================================================
 RUN: 11288
+https://clas12mon.jlab.org/runs/summaries/?run=11288&runmax=11388&runmin=11188
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       30 nA
+  beam_current:               -5.51755E-4
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11288 0     |
 11288 5     |
@@ -23314,6 +24194,14 @@ RUN: 11288
 
 ==================================================================================
 RUN: 11289
+https://clas12mon.jlab.org/runs/summaries/?run=11289&runmax=11389&runmin=11189
+----------------------------------------------------------------------------------
+  user_comment:               stopped because sector 4 trigger bit went to zero
+  target:                     LD2 
+  beam_current_request:       30nA
+  beam_current:               -0.00617965
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11289 0               4-LowLiveTime[all]
 11289 5     |
@@ -23368,6 +24256,14 @@ RUN: 11289
 
 ==================================================================================
 RUN: 11290
+https://clas12mon.jlab.org/runs/summaries/?run=11290&runmax=11390&runmin=11190
+----------------------------------------------------------------------------------
+  user_comment:               restarted due to trigger for sector 4 dropping to zero during previous run
+  target:                     LD2 
+  beam_current_request:       30 nA
+  beam_current:               30.3047
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11290 0     |
 11290 5     |
@@ -23586,6 +24482,14 @@ RUN: 11290
 
 ==================================================================================
 RUN: 11291
+https://clas12mon.jlab.org/runs/summaries/?run=11291&runmax=11391&runmin=11191
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       30nA
+  beam_current:               30.6776
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11291 0               4-LowLiveTime[all]
 11291 5     |
@@ -23642,6 +24546,14 @@ RUN: 11291
 
 ==================================================================================
 RUN: 11292
+https://clas12mon.jlab.org/runs/summaries/?run=11292&runmax=11392&runmin=11192
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       30nA
+  beam_current:               30.812
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11292 0                 3-SectorLoss[14]
 11292 5                 3-SectorLoss[14]
@@ -23651,6 +24563,14 @@ RUN: 11292
 
 ==================================================================================
 RUN: 11293
+https://clas12mon.jlab.org/runs/summaries/?run=11293&runmax=11393&runmin=11193
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       30nA
+  beam_current:               29.7747
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11293 0                3-SectorLoss[146]
 11293 5                3-SectorLoss[146]
@@ -23668,6 +24588,14 @@ RUN: 11293
 
 ==================================================================================
 RUN: 11294
+https://clas12mon.jlab.org/runs/summaries/?run=11294&runmax=11394&runmin=11194
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       30nA
+  beam_current:               31.2609
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11294 0                  3-SectorLoss[4]           4-LowLiveTime[all]
 11294 5                  3-SectorLoss[4]
@@ -23886,6 +24814,14 @@ RUN: 11294
 
 ==================================================================================
 RUN: 11295
+https://clas12mon.jlab.org/runs/summaries/?run=11295&runmax=11395&runmin=11195
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       30nA
+  beam_current:               30.3041
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11295 0     |
 11295 5     |
@@ -23912,6 +24848,14 @@ RUN: 11295
 
 ==================================================================================
 RUN: 11296
+https://clas12mon.jlab.org/runs/summaries/?run=11296&runmax=11396&runmin=11196
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2 
+  beam_current_request:       30nA
+  beam_current:               35.4745
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11296 0                  3-SectorLoss[4]           4-LowLiveTime[all]
 11296 5                  3-SectorLoss[4]
@@ -24005,6 +24949,14 @@ RUN: 11296
 
 ==================================================================================
 RUN: 11297
+https://clas12mon.jlab.org/runs/summaries/?run=11297&runmax=11397&runmin=11197
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       
+  beam_current:               36.0382
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11297 0               4-LowLiveTime[all]
 11297 5     |
@@ -24145,6 +25097,14 @@ RUN: 11297
 
 ==================================================================================
 RUN: 11298
+https://clas12mon.jlab.org/runs/summaries/?run=11298&runmax=11398&runmin=11198
+----------------------------------------------------------------------------------
+  user_comment:               null
+  target:                     null
+  beam_current_request:       null
+  beam_current:               34.545
+  run_type:                   null
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11298 0                 3-SectorLoss[34]           4-LowLiveTime[all]
 11298 5                 3-SectorLoss[34]
@@ -24157,6 +25117,14 @@ RUN: 11298
 
 ==================================================================================
 RUN: 11299
+https://clas12mon.jlab.org/runs/summaries/?run=11299&runmax=11399&runmin=11199
+----------------------------------------------------------------------------------
+  user_comment:               Fcup beam blocker in
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               0.00275877
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11299 0                  3-SectorLoss[4]
 11299 5                  3-SectorLoss[4]
@@ -24448,6 +25416,14 @@ RUN: 11299
 
 ==================================================================================
 RUN: 11300
+https://clas12mon.jlab.org/runs/summaries/?run=11300&runmax=11400&runmin=11200
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2 
+  beam_current_request:       40
+  beam_current:               79.7056
+  run_type:                   PROD66_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgb_inbending_v9_1_BAND_FT.cnf
 ----------------------------------------------------------------------------------
 11300 0                  3-SectorLoss[4]           4-LowLiveTime[all]
 11300 5                  3-SectorLoss[4]

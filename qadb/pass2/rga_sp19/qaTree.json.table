@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 6616
+https://clas12mon.jlab.org/runs/summaries/?run=6616&runmax=6716&runmin=6516
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2
+  beam_current_request:       5na
+  beam_current:               5.31032
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v1.cnf
 ----------------------------------------------------------------------------------
 6616 0     :: low lumi run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6616 1     :: low lumi run ::                  5-Misc[all]             10-BSAWrong[all]
@@ -80,6 +88,14 @@ RUN: 6616
 
 ==================================================================================
 RUN: 6618
+https://clas12mon.jlab.org/runs/summaries/?run=6618&runmax=6718&runmin=6518
+----------------------------------------------------------------------------------
+  user_comment:               low-intensity run with production configuration
+  target:                     LD2
+  beam_current_request:       10 nA
+  beam_current:               10.6148
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v1.cnf
 ----------------------------------------------------------------------------------
 6618 0     :: low lumi run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6618 1     :: low lumi run ::                  5-Misc[all]             10-BSAWrong[all]
@@ -279,6 +295,14 @@ RUN: 6618
 
 ==================================================================================
 RUN: 6619
+https://clas12mon.jlab.org/runs/summaries/?run=6619&runmax=6719&runmin=6519
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               50.8228
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v1.cnf
 ----------------------------------------------------------------------------------
 6619 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6619 1                 10-BSAWrong[all]
@@ -488,6 +512,14 @@ RUN: 6619
 
 ==================================================================================
 RUN: 6620
+https://clas12mon.jlab.org/runs/summaries/?run=6620&runmax=6720&runmin=6520
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               29.7396
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v1.cnf
 ----------------------------------------------------------------------------------
 6620 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6620 1               4-LowLiveTime[all]             10-BSAWrong[all]
@@ -720,6 +752,14 @@ RUN: 6620
 
 ==================================================================================
 RUN: 6631
+https://clas12mon.jlab.org/runs/summaries/?run=6631&runmax=6731&runmin=6531
+----------------------------------------------------------------------------------
+  user_comment:               after beam pass change in Hall C
+  target:                     LD2
+  beam_current_request:       5 nA
+  beam_current:               5.30914
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v1.cnf
 ----------------------------------------------------------------------------------
 6631 0     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6631 1     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::                  5-Misc[all]             10-BSAWrong[all]
@@ -883,6 +923,14 @@ RUN: 6631
 
 ==================================================================================
 RUN: 6632
+https://clas12mon.jlab.org/runs/summaries/?run=6632&runmax=6732&runmin=6532
+----------------------------------------------------------------------------------
+  user_comment:               Production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               51.5208
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6632 0     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6632 1     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::                  5-Misc[all]             10-BSAWrong[all]
@@ -962,6 +1010,14 @@ RUN: 6632
 
 ==================================================================================
 RUN: 6636
+https://clas12mon.jlab.org/runs/summaries/?run=6636&runmax=6736&runmin=6536
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               51.0605
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6636 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6636 1                 10-BSAWrong[all]
@@ -1188,6 +1244,14 @@ RUN: 6636
 
 ==================================================================================
 RUN: 6637
+https://clas12mon.jlab.org/runs/summaries/?run=6637&runmax=6737&runmin=6537
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               -0.021082
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6637 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6637 1                 10-BSAWrong[all]
@@ -1290,6 +1354,14 @@ RUN: 6637
 
 ==================================================================================
 RUN: 6638
+https://clas12mon.jlab.org/runs/summaries/?run=6638&runmax=6738&runmin=6538
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               0.0140547
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6638 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6638 1                 10-BSAWrong[all]
@@ -1356,6 +1428,14 @@ RUN: 6638
 
 ==================================================================================
 RUN: 6639
+https://clas12mon.jlab.org/runs/summaries/?run=6639&runmax=6739&runmin=6539
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LH2
+  beam_current_request:       50na
+  beam_current:               0.00351366
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6639 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6639 1                 10-BSAWrong[all]
@@ -1431,6 +1511,14 @@ RUN: 6639
 
 ==================================================================================
 RUN: 6640
+https://clas12mon.jlab.org/runs/summaries/?run=6640&runmax=6740&runmin=6540
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.2585
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6640 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6640 1                 10-BSAWrong[all]
@@ -1639,6 +1727,14 @@ RUN: 6640
 
 ==================================================================================
 RUN: 6642
+https://clas12mon.jlab.org/runs/summaries/?run=6642&runmax=6742&runmin=6542
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.559
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6642 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6642 1                 10-BSAWrong[all]
@@ -1732,6 +1828,14 @@ RUN: 6642
 
 ==================================================================================
 RUN: 6645
+https://clas12mon.jlab.org/runs/summaries/?run=6645&runmax=6745&runmin=6545
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LD2
+  beam_current_request:       50nA
+  beam_current:               50.7045
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6645 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6645 1                 10-BSAWrong[all]
@@ -1878,6 +1982,14 @@ RUN: 6645
 
 ==================================================================================
 RUN: 6647
+https://clas12mon.jlab.org/runs/summaries/?run=6647&runmax=6747&runmin=6547
+----------------------------------------------------------------------------------
+  user_comment:               hopefully production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               51.2304
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6647 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6647 1                 10-BSAWrong[all]
@@ -2085,6 +2197,14 @@ RUN: 6647
 
 ==================================================================================
 RUN: 6648
+https://clas12mon.jlab.org/runs/summaries/?run=6648&runmax=6748&runmin=6548
+----------------------------------------------------------------------------------
+  user_comment:               FTTrak noisy channel
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.6621
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6648 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6648 1                 10-BSAWrong[all]
@@ -2150,6 +2270,14 @@ RUN: 6648
 
 ==================================================================================
 RUN: 6650
+https://clas12mon.jlab.org/runs/summaries/?run=6650&runmax=6750&runmin=6550
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               50.1411
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6650 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6650 1                 10-BSAWrong[all]
@@ -2170,6 +2298,14 @@ RUN: 6650
 
 ==================================================================================
 RUN: 6651
+https://clas12mon.jlab.org/runs/summaries/?run=6651&runmax=6751&runmin=6551
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               50.4246
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6651 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6651 1                 10-BSAWrong[all]
@@ -2319,6 +2455,14 @@ RUN: 6651
 
 ==================================================================================
 RUN: 6652
+https://clas12mon.jlab.org/runs/summaries/?run=6652&runmax=6752&runmin=6552
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LD2
+  beam_current_request:       50 nA
+  beam_current:               49.299
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6652 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6652 1                 10-BSAWrong[all]
@@ -2358,6 +2502,14 @@ RUN: 6652
 
 ==================================================================================
 RUN: 6654
+https://clas12mon.jlab.org/runs/summaries/?run=6654&runmax=6754&runmin=6554
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               51.0125
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6654 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6654 1                 10-BSAWrong[all]
@@ -2405,6 +2557,14 @@ RUN: 6654
 
 ==================================================================================
 RUN: 6655
+https://clas12mon.jlab.org/runs/summaries/?run=6655&runmax=6755&runmin=6555
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LD2
+  beam_current_request:       50
+  beam_current:               51.1941
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6655 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6655 1                 10-BSAWrong[all]
@@ -2588,6 +2748,14 @@ RUN: 6655
 
 ==================================================================================
 RUN: 6656
+https://clas12mon.jlab.org/runs/summaries/?run=6656&runmax=6756&runmin=6556
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               0.113608
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6656 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6656 1                 10-BSAWrong[all]
@@ -2817,6 +2985,14 @@ RUN: 6656
 
 ==================================================================================
 RUN: 6657
+https://clas12mon.jlab.org/runs/summaries/?run=6657&runmax=6757&runmin=6557
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.4939
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6657 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6657 1                 10-BSAWrong[all]
@@ -3030,6 +3206,14 @@ RUN: 6657
 
 ==================================================================================
 RUN: 6658
+https://clas12mon.jlab.org/runs/summaries/?run=6658&runmax=6758&runmin=6558
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               -0.0327942
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6658 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6658 1                 10-BSAWrong[all]
@@ -3065,6 +3249,14 @@ RUN: 6658
 
 ==================================================================================
 RUN: 6660
+https://clas12mon.jlab.org/runs/summaries/?run=6660&runmax=6760&runmin=6560
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LD2
+  beam_current_request:       10.2
+  beam_current:               49.5649
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6660 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6660 1                 10-BSAWrong[all]
@@ -3271,6 +3463,14 @@ RUN: 6660
 
 ==================================================================================
 RUN: 6661
+https://clas12mon.jlab.org/runs/summaries/?run=6661&runmax=6761&runmin=6561
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       10.2 GeV
+  beam_current:               51.337
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6661 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6661 1                 10-BSAWrong[all]
@@ -3490,6 +3690,14 @@ RUN: 6661
 
 ==================================================================================
 RUN: 6662
+https://clas12mon.jlab.org/runs/summaries/?run=6662&runmax=6762&runmin=6562
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               52.4274
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6662 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6662 1                 10-BSAWrong[all]
@@ -3700,6 +3908,14 @@ RUN: 6662
 
 ==================================================================================
 RUN: 6663
+https://clas12mon.jlab.org/runs/summaries/?run=6663&runmax=6763&runmin=6563
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               51.3288
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6663 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6663 1              0-TotalOutlier[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]
@@ -3859,6 +4075,14 @@ RUN: 6663
 
 ==================================================================================
 RUN: 6664
+https://clas12mon.jlab.org/runs/summaries/?run=6664&runmax=6764&runmin=6564
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.6649
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6664 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6664 1                 10-BSAWrong[all]
@@ -4041,6 +4265,14 @@ RUN: 6664
 
 ==================================================================================
 RUN: 6665
+https://clas12mon.jlab.org/runs/summaries/?run=6665&runmax=6765&runmin=6565
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               52.5585
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6665 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6665 1                 10-BSAWrong[all]
@@ -4130,6 +4362,14 @@ RUN: 6665
 
 ==================================================================================
 RUN: 6666
+https://clas12mon.jlab.org/runs/summaries/?run=6666&runmax=6766&runmin=6566
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               52.1615
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6666 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6666 1                 10-BSAWrong[all]
@@ -4239,6 +4479,14 @@ RUN: 6666
 
 ==================================================================================
 RUN: 6667
+https://clas12mon.jlab.org/runs/summaries/?run=6667&runmax=6767&runmin=6567
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       10.2
+  beam_current:               0.0374791
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6667 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6667 1                 10-BSAWrong[all]
@@ -4459,6 +4707,14 @@ RUN: 6667
 
 ==================================================================================
 RUN: 6668
+https://clas12mon.jlab.org/runs/summaries/?run=6668&runmax=6768&runmin=6568
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       10.2
+  beam_current:               50.5429
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6668 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6668 1                 10-BSAWrong[all]
@@ -4667,6 +4923,14 @@ RUN: 6668
 
 ==================================================================================
 RUN: 6669
+https://clas12mon.jlab.org/runs/summaries/?run=6669&runmax=6769&runmin=6569
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               52.9228
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6669 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6669 1                 10-BSAWrong[all]
@@ -4781,6 +5045,14 @@ RUN: 6669
 
 ==================================================================================
 RUN: 6670
+https://clas12mon.jlab.org/runs/summaries/?run=6670&runmax=6770&runmin=6570
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               0.00819855
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6670 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6670 1                 10-BSAWrong[all]
@@ -4874,6 +5146,14 @@ RUN: 6670
 
 ==================================================================================
 RUN: 6672
+https://clas12mon.jlab.org/runs/summaries/?run=6672&runmax=6772&runmin=6572
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50
+  beam_current:               50.5394
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6672 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6672 1                 10-BSAWrong[all]
@@ -5109,6 +5389,14 @@ RUN: 6672
 
 ==================================================================================
 RUN: 6673
+https://clas12mon.jlab.org/runs/summaries/?run=6673&runmax=6773&runmin=6573
+----------------------------------------------------------------------------------
+  user_comment:               Run ended early due to DC gas problems
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               50.8989
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6673 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6673 1                 10-BSAWrong[all]
@@ -5215,6 +5503,14 @@ RUN: 6673
 
 ==================================================================================
 RUN: 6675
+https://clas12mon.jlab.org/runs/summaries/?run=6675&runmax=6775&runmin=6575
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0222532
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6675 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6675 1                 10-BSAWrong[all]
@@ -5444,6 +5740,14 @@ RUN: 6675
 
 ==================================================================================
 RUN: 6676
+https://clas12mon.jlab.org/runs/summaries/?run=6676&runmax=6776&runmin=6576
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.0067
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6676 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6676 1                 10-BSAWrong[all]
@@ -5529,6 +5833,14 @@ RUN: 6676
 
 ==================================================================================
 RUN: 6677
+https://clas12mon.jlab.org/runs/summaries/?run=6677&runmax=6777&runmin=6577
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               50.9013
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6677 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6677 1                 10-BSAWrong[all]
@@ -5738,6 +6050,14 @@ RUN: 6677
 
 ==================================================================================
 RUN: 6678
+https://clas12mon.jlab.org/runs/summaries/?run=6678&runmax=6778&runmin=6578
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               50.9774
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6678 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6678 1                 10-BSAWrong[all]
@@ -5942,6 +6262,14 @@ RUN: 6678
 
 ==================================================================================
 RUN: 6680
+https://clas12mon.jlab.org/runs/summaries/?run=6680&runmax=6780&runmin=6580
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               50.1201
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6680 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6680 1                 10-BSAWrong[all]
@@ -6109,6 +6437,14 @@ RUN: 6680
 
 ==================================================================================
 RUN: 6682
+https://clas12mon.jlab.org/runs/summaries/?run=6682&runmax=6782&runmin=6582
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               -0.0117122
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6682 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6682 1                 10-BSAWrong[all]
@@ -6203,6 +6539,14 @@ RUN: 6682
 
 ==================================================================================
 RUN: 6683
+https://clas12mon.jlab.org/runs/summaries/?run=6683&runmax=6783&runmin=6583
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               -0.0245956
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6683 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6683 1                 10-BSAWrong[all]
@@ -6433,6 +6777,14 @@ RUN: 6683
 
 ==================================================================================
 RUN: 6684
+https://clas12mon.jlab.org/runs/summaries/?run=6684&runmax=6784&runmin=6584
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               51.1542
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6684 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6684 1                 10-BSAWrong[all]
@@ -6562,6 +6914,14 @@ RUN: 6684
 
 ==================================================================================
 RUN: 6685
+https://clas12mon.jlab.org/runs/summaries/?run=6685&runmax=6785&runmin=6585
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               51.8441
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6685 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6685 1                 10-BSAWrong[all]
@@ -6782,6 +7142,14 @@ RUN: 6685
 
 ==================================================================================
 RUN: 6687
+https://clas12mon.jlab.org/runs/summaries/?run=6687&runmax=6787&runmin=6587
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0573898
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6687 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6687 1                 10-BSAWrong[all]
@@ -6863,6 +7231,14 @@ RUN: 6687
 
 ==================================================================================
 RUN: 6688
+https://clas12mon.jlab.org/runs/summaries/?run=6688&runmax=6788&runmin=6588
+----------------------------------------------------------------------------------
+  user_comment:               PROD
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.9666
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6688 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6688 1                 10-BSAWrong[all]
@@ -7067,6 +7443,14 @@ RUN: 6688
 
 ==================================================================================
 RUN: 6689
+https://clas12mon.jlab.org/runs/summaries/?run=6689&runmax=6789&runmin=6589
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               50.4574
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6689 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6689 1                 10-BSAWrong[all]
@@ -7295,6 +7679,14 @@ RUN: 6689
 
 ==================================================================================
 RUN: 6691
+https://clas12mon.jlab.org/runs/summaries/?run=6691&runmax=6791&runmin=6591
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0175683
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6691 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6691 1              0-TotalOutlier[all]             10-BSAWrong[all]
@@ -7518,6 +7910,14 @@ RUN: 6691
 
 ==================================================================================
 RUN: 6692
+https://clas12mon.jlab.org/runs/summaries/?run=6692&runmax=6792&runmin=6592
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.9901
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6692 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6692 1                 10-BSAWrong[all]
@@ -7741,6 +8141,14 @@ RUN: 6692
 
 ==================================================================================
 RUN: 6693
+https://clas12mon.jlab.org/runs/summaries/?run=6693&runmax=6793&runmin=6593
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               50.5581
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6693 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6693 1                 10-BSAWrong[all]
@@ -7825,6 +8233,14 @@ RUN: 6693
 
 ==================================================================================
 RUN: 6694
+https://clas12mon.jlab.org/runs/summaries/?run=6694&runmax=6794&runmin=6594
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               50.8849
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6694 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6694 1              0-TotalOutlier[456]        2-MarginalOutlier[12]           4-LowLiveTime[all]             10-BSAWrong[all]
@@ -8055,6 +8471,14 @@ RUN: 6694
 
 ==================================================================================
 RUN: 6695
+https://clas12mon.jlab.org/runs/summaries/?run=6695&runmax=6795&runmin=6595
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               49.3517
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6695 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6695 1                 10-BSAWrong[all]
@@ -8176,6 +8600,14 @@ RUN: 6695
 
 ==================================================================================
 RUN: 6696
+https://clas12mon.jlab.org/runs/summaries/?run=6696&runmax=6796&runmin=6596
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               0.0281093
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6696 0     :: FC charge issue ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6696 1     :: FC charge issue ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]
@@ -8206,6 +8638,14 @@ RUN: 6696
 
 ==================================================================================
 RUN: 6697
+https://clas12mon.jlab.org/runs/summaries/?run=6697&runmax=6797&runmin=6597
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               0.00351366
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6697 0     :: FC charge issue ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6697 1     :: FC charge issue ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]           16-ChargeHigh[all]
@@ -8441,6 +8881,14 @@ RUN: 6697
 
 ==================================================================================
 RUN: 6698
+https://clas12mon.jlab.org/runs/summaries/?run=6698&runmax=6798&runmin=6598
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.135862
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6698 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6698 1                 10-BSAWrong[all]
@@ -8630,6 +9078,14 @@ RUN: 6698
 
 ==================================================================================
 RUN: 6699
+https://clas12mon.jlab.org/runs/summaries/?run=6699&runmax=6799&runmin=6599
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.141718
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6699 0     :: FC charge issue ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6699 1     :: FC charge issue ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]       17-ChargeNegative[all]
@@ -8695,6 +9151,14 @@ RUN: 6699
 
 ==================================================================================
 RUN: 6704
+https://clas12mon.jlab.org/runs/summaries/?run=6704&runmax=6804&runmin=6604
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               50.0943
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6704 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6704 1                 10-BSAWrong[all]
@@ -8916,6 +9380,14 @@ RUN: 6704
 
 ==================================================================================
 RUN: 6705
+https://clas12mon.jlab.org/runs/summaries/?run=6705&runmax=6805&runmin=6605
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               48.9465
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6705 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6705 1                 10-BSAWrong[all]
@@ -9148,6 +9620,14 @@ RUN: 6705
 
 ==================================================================================
 RUN: 6706
+https://clas12mon.jlab.org/runs/summaries/?run=6706&runmax=6806&runmin=6606
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               50.1938
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6706 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6706 1                 10-BSAWrong[all]
@@ -9369,6 +9849,14 @@ RUN: 6706
 
 ==================================================================================
 RUN: 6707
+https://clas12mon.jlab.org/runs/summaries/?run=6707&runmax=6807&runmin=6607
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               51.3006
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6707 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6707 1                 10-BSAWrong[all]
@@ -9439,6 +9927,14 @@ RUN: 6707
 
 ==================================================================================
 RUN: 6708
+https://clas12mon.jlab.org/runs/summaries/?run=6708&runmax=6808&runmin=6608
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               53.2742
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6708 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6708 1                 10-BSAWrong[all]
@@ -9581,6 +10077,14 @@ RUN: 6708
 
 ==================================================================================
 RUN: 6709
+https://clas12mon.jlab.org/runs/summaries/?run=6709&runmax=6809&runmin=6609
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.0605
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6709 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6709 1                 10-BSAWrong[all]
@@ -9750,6 +10254,14 @@ RUN: 6709
 
 ==================================================================================
 RUN: 6710
+https://clas12mon.jlab.org/runs/summaries/?run=6710&runmax=6810&runmin=6610
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               0.170998
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6710 0     :: FC charge issue ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6710 1     :: FC charge issue ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]           16-ChargeHigh[all]
@@ -9946,6 +10458,14 @@ RUN: 6710
 
 ==================================================================================
 RUN: 6711
+https://clas12mon.jlab.org/runs/summaries/?run=6711&runmax=6811&runmin=6611
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               53.0868
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6711 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6711 1                 10-BSAWrong[all]
@@ -10170,6 +10690,14 @@ RUN: 6711
 
 ==================================================================================
 RUN: 6712
+https://clas12mon.jlab.org/runs/summaries/?run=6712&runmax=6812&runmin=6612
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               11.2215
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6712 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6712 1                 10-BSAWrong[all]
@@ -10395,6 +10923,14 @@ RUN: 6712
 
 ==================================================================================
 RUN: 6713
+https://clas12mon.jlab.org/runs/summaries/?run=6713&runmax=6813&runmin=6613
+----------------------------------------------------------------------------------
+  user_comment:               Good run.  Several beam excursions.
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               53.2624
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6713 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6713 1                 10-BSAWrong[all]
@@ -10583,6 +11119,14 @@ RUN: 6713
 
 ==================================================================================
 RUN: 6714
+https://clas12mon.jlab.org/runs/summaries/?run=6714&runmax=6814&runmin=6614
+----------------------------------------------------------------------------------
+  user_comment:               Ended run with DC gas alarm
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               53.5435
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6714 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6714 1                 10-BSAWrong[all]
@@ -10701,6 +11245,14 @@ RUN: 6714
 
 ==================================================================================
 RUN: 6715
+https://clas12mon.jlab.org/runs/summaries/?run=6715&runmax=6815&runmin=6615
+----------------------------------------------------------------------------------
+  user_comment:               New run after DC CO2 GAS PRESS alarm
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.8511
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6715 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6715 1                 10-BSAWrong[all]
@@ -10929,6 +11481,14 @@ RUN: 6715
 
 ==================================================================================
 RUN: 6716
+https://clas12mon.jlab.org/runs/summaries/?run=6716&runmax=6816&runmin=6616
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               53.1383
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6716 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6716 1                 10-BSAWrong[all]
@@ -11140,6 +11700,14 @@ RUN: 6716
 
 ==================================================================================
 RUN: 6717
+https://clas12mon.jlab.org/runs/summaries/?run=6717&runmax=6817&runmin=6617
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.6626
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6717 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6717 1                 10-BSAWrong[all]
@@ -11367,6 +11935,14 @@ RUN: 6717
 
 ==================================================================================
 RUN: 6718
+https://clas12mon.jlab.org/runs/summaries/?run=6718&runmax=6818&runmin=6618
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               50.1048
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6718 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6718 1                 10-BSAWrong[all]
@@ -11594,6 +12170,14 @@ RUN: 6718
 
 ==================================================================================
 RUN: 6719
+https://clas12mon.jlab.org/runs/summaries/?run=6719&runmax=6819&runmin=6619
+----------------------------------------------------------------------------------
+  user_comment:               Last run before randoms trigger runs
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               53.4487
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6719 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6719 1                 10-BSAWrong[all]
@@ -11683,6 +12267,14 @@ RUN: 6719
 
 ==================================================================================
 RUN: 6722
+https://clas12mon.jlab.org/runs/summaries/?run=6722&runmax=6822&runmin=6622
+----------------------------------------------------------------------------------
+  user_comment:               rgb_v9_1_faraday_noprescale
+  target:                     LH2
+  beam_current_request:       10 nA
+  beam_current:               102.136
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rgb_v9_1_faraday_noprescale.cnf
 ----------------------------------------------------------------------------------
 6722 0     :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6722 1     :: rgb_v9_1_faraday_noprescale trigger configuration; beam current is 10 nA ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]
@@ -11808,6 +12400,14 @@ RUN: 6722
 
 ==================================================================================
 RUN: 6723
+https://clas12mon.jlab.org/runs/summaries/?run=6723&runmax=6823&runmin=6623
+----------------------------------------------------------------------------------
+  user_comment:               rga_v2
+  target:                     LH2
+  beam_current_request:       10 nA
+  beam_current:               10.5703
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6723 0     :: low lumi run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6723 1     :: low lumi run ::                  5-Misc[all]             10-BSAWrong[all]
@@ -12120,6 +12720,14 @@ RUN: 6723
 
 ==================================================================================
 RUN: 6724
+https://clas12mon.jlab.org/runs/summaries/?run=6724&runmax=6824&runmin=6624
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     empty
+  beam_current_request:       150nA
+  beam_current:               0.304517
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6724 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6724 1     :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]
@@ -12306,6 +12914,14 @@ RUN: 6724
 
 ==================================================================================
 RUN: 6725
+https://clas12mon.jlab.org/runs/summaries/?run=6725&runmax=6825&runmin=6625
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     empty
+  beam_current_request:       150nA
+  beam_current:               145.308
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6725 0     :: empty target run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]        18-ChargeUnknown[all]
 6725 1     :: empty target run ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]
@@ -12378,6 +12994,14 @@ RUN: 6725
 
 ==================================================================================
 RUN: 6728
+https://clas12mon.jlab.org/runs/summaries/?run=6728&runmax=6828&runmin=6628
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               50.9247
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6728 0           1-TerminalOutlier[all]              3-SectorLoss[6]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6728 1                0-TotalOutlier[6]              3-SectorLoss[6]             10-BSAWrong[all]
@@ -12591,6 +13215,14 @@ RUN: 6728
 
 ==================================================================================
 RUN: 6729
+https://clas12mon.jlab.org/runs/summaries/?run=6729&runmax=6829&runmin=6629
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               52.8982
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6729 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6729 1                 10-BSAWrong[all]
@@ -12768,6 +13400,14 @@ RUN: 6729
 
 ==================================================================================
 RUN: 6730
+https://clas12mon.jlab.org/runs/summaries/?run=6730&runmax=6830&runmin=6630
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               48.0423
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6730 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6730 1                 10-BSAWrong[all]
@@ -12948,6 +13588,14 @@ RUN: 6730
 
 ==================================================================================
 RUN: 6731
+https://clas12mon.jlab.org/runs/summaries/?run=6731&runmax=6831&runmin=6631
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               44.6751
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6731 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6731 1                 10-BSAWrong[all]
@@ -13135,6 +13783,14 @@ RUN: 6731
 
 ==================================================================================
 RUN: 6732
+https://clas12mon.jlab.org/runs/summaries/?run=6732&runmax=6832&runmin=6632
+----------------------------------------------------------------------------------
+  user_comment:               Ending run for RICH access
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               51.0442
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6732 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6732 1                 10-BSAWrong[all]
@@ -13218,6 +13874,14 @@ RUN: 6732
 
 ==================================================================================
 RUN: 6733
+https://clas12mon.jlab.org/runs/summaries/?run=6733&runmax=6833&runmin=6633
+----------------------------------------------------------------------------------
+  user_comment:               First run after RICH access
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.0538762
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6733 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6733 1              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]
@@ -13435,6 +14099,14 @@ RUN: 6733
 
 ==================================================================================
 RUN: 6734
+https://clas12mon.jlab.org/runs/summaries/?run=6734&runmax=6834&runmin=6634
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.372448
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6734 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6734 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -13663,6 +14335,14 @@ RUN: 6734
 
 ==================================================================================
 RUN: 6736
+https://clas12mon.jlab.org/runs/summaries/?run=6736&runmax=6836&runmin=6636
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               51.2561
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6736 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6736 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -13884,6 +14564,14 @@ RUN: 6736
 
 ==================================================================================
 RUN: 6737
+https://clas12mon.jlab.org/runs/summaries/?run=6737&runmax=6837&runmin=6637
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               0.0726157
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6737 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6737 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -14104,6 +14792,14 @@ RUN: 6737
 
 ==================================================================================
 RUN: 6738
+https://clas12mon.jlab.org/runs/summaries/?run=6738&runmax=6838&runmin=6638
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               52.6546
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6738 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6738 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -14317,6 +15013,14 @@ RUN: 6738
 
 ==================================================================================
 RUN: 6739
+https://clas12mon.jlab.org/runs/summaries/?run=6739&runmax=6839&runmin=6639
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.324428
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6739 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6739 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -14517,6 +15221,14 @@ RUN: 6739
 
 ==================================================================================
 RUN: 6740
+https://clas12mon.jlab.org/runs/summaries/?run=6740&runmax=6840&runmin=6640
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50Na
+  beam_current:               52.5316
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6740 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6740 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -14742,6 +15454,14 @@ RUN: 6740
 
 ==================================================================================
 RUN: 6741
+https://clas12mon.jlab.org/runs/summaries/?run=6741&runmax=6841&runmin=6641
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               52.3149
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6741 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6741 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -14978,6 +15698,14 @@ RUN: 6741
 
 ==================================================================================
 RUN: 6742
+https://clas12mon.jlab.org/runs/summaries/?run=6742&runmax=6842&runmin=6642
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               52.3091
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6742 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6742 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -15004,6 +15732,14 @@ RUN: 6742
 
 ==================================================================================
 RUN: 6743
+https://clas12mon.jlab.org/runs/summaries/?run=6743&runmax=6843&runmin=6643
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       
+  beam_current:               52.3911
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6743 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6743 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -15222,6 +15958,14 @@ RUN: 6743
 
 ==================================================================================
 RUN: 6744
+https://clas12mon.jlab.org/runs/summaries/?run=6744&runmax=6844&runmin=6644
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               0.0163971
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6744 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6744 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -15393,6 +16137,14 @@ RUN: 6744
 
 ==================================================================================
 RUN: 6746
+https://clas12mon.jlab.org/runs/summaries/?run=6746&runmax=6846&runmin=6646
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               42.6067
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6746 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6746 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -15623,6 +16375,14 @@ RUN: 6746
 
 ==================================================================================
 RUN: 6747
+https://clas12mon.jlab.org/runs/summaries/?run=6747&runmax=6847&runmin=6647
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               49.7874
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6747 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6747 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -15849,6 +16609,14 @@ RUN: 6747
 
 ==================================================================================
 RUN: 6748
+https://clas12mon.jlab.org/runs/summaries/?run=6748&runmax=6848&runmin=6648
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               -0.00702733
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6748 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6748 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -16067,6 +16835,14 @@ RUN: 6748
 
 ==================================================================================
 RUN: 6749
+https://clas12mon.jlab.org/runs/summaries/?run=6749&runmax=6849&runmin=6649
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               51.0559
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6749 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6749 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -16118,6 +16894,14 @@ RUN: 6749
 
 ==================================================================================
 RUN: 6750
+https://clas12mon.jlab.org/runs/summaries/?run=6750&runmax=6850&runmin=6650
+----------------------------------------------------------------------------------
+  user_comment:               production, no beam for last ~20 min
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               25.3616
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6750 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6750 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -16269,6 +17053,14 @@ RUN: 6750
 
 ==================================================================================
 RUN: 6753
+https://clas12mon.jlab.org/runs/summaries/?run=6753&runmax=6853&runmin=6653
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               0.148745
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6753 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6753 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -16338,6 +17130,14 @@ RUN: 6753
 
 ==================================================================================
 RUN: 6754
+https://clas12mon.jlab.org/runs/summaries/?run=6754&runmax=6854&runmin=6654
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               11.1875
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6754 0     :: FC charge issue; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6754 1     :: FC charge issue; FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::          0-TotalOutlier[all]                  5-Misc[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]
@@ -16378,6 +17178,14 @@ RUN: 6754
 
 ==================================================================================
 RUN: 6755
+https://clas12mon.jlab.org/runs/summaries/?run=6755&runmax=6855&runmin=6655
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50nA 
+  beam_current:               0.213162
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6755 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6755 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -16409,6 +17217,14 @@ RUN: 6755
 
 ==================================================================================
 RUN: 6756
+https://clas12mon.jlab.org/runs/summaries/?run=6756&runmax=6856&runmin=6656
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               50.5347
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6756 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6756 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -16551,6 +17367,14 @@ RUN: 6756
 
 ==================================================================================
 RUN: 6757
+https://clas12mon.jlab.org/runs/summaries/?run=6757&runmax=6857&runmin=6657
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       40nA
+  beam_current:               44.0988
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6757 0     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                    5-Misc[6]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6757 1     :: FADC failure in ECAL sector 6; see https://logbooks.jlab.org/entry/3678262 ::                    5-Misc[6]             10-BSAWrong[all]
@@ -16593,6 +17417,14 @@ RUN: 6757
 
 ==================================================================================
 RUN: 6759
+https://clas12mon.jlab.org/runs/summaries/?run=6759&runmax=6859&runmin=6659
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               0.429838
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6759 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6759 1                 10-BSAWrong[all]
@@ -16717,6 +17549,14 @@ RUN: 6759
 
 ==================================================================================
 RUN: 6760
+https://clas12mon.jlab.org/runs/summaries/?run=6760&runmax=6860&runmin=6660
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               51.3428
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6760 0     :: FC charge issue ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6760 1     :: FC charge issue ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]       17-ChargeNegative[all]
@@ -16924,6 +17764,14 @@ RUN: 6760
 
 ==================================================================================
 RUN: 6762
+https://clas12mon.jlab.org/runs/summaries/?run=6762&runmax=6862&runmin=6662
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               52.8947
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6762 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6762 1                 10-BSAWrong[all]
@@ -17155,6 +18003,14 @@ RUN: 6762
 
 ==================================================================================
 RUN: 6763
+https://clas12mon.jlab.org/runs/summaries/?run=6763&runmax=6863&runmin=6663
+----------------------------------------------------------------------------------
+  user_comment:               No beam for last ~20 minutes of run
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               52.1392
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6763 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6763 1                 10-BSAWrong[all]
@@ -17176,6 +18032,14 @@ RUN: 6763
 
 ==================================================================================
 RUN: 6764
+https://clas12mon.jlab.org/runs/summaries/?run=6764&runmax=6864&runmin=6664
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               52.7483
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6764 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6764 1                 10-BSAWrong[all]
@@ -17238,6 +18102,14 @@ RUN: 6764
 
 ==================================================================================
 RUN: 6765
+https://clas12mon.jlab.org/runs/summaries/?run=6765&runmax=6865&runmin=6665
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               0.728499
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6765 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6765 1              0-TotalOutlier[all]           4-LowLiveTime[all]          6-TotalOutlierFT[1]             10-BSAWrong[all]
@@ -17454,6 +18326,14 @@ RUN: 6765
 
 ==================================================================================
 RUN: 6767
+https://clas12mon.jlab.org/runs/summaries/?run=6767&runmax=6867&runmin=6667
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               52.8537
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6767 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6767 1                 10-BSAWrong[all]
@@ -17671,6 +18551,14 @@ RUN: 6767
 
 ==================================================================================
 RUN: 6768
+https://clas12mon.jlab.org/runs/summaries/?run=6768&runmax=6868&runmin=6668
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               52.0748
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6768 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6768 1                 10-BSAWrong[all]
@@ -17881,6 +18769,14 @@ RUN: 6768
 
 ==================================================================================
 RUN: 6769
+https://clas12mon.jlab.org/runs/summaries/?run=6769&runmax=6869&runmin=6669
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               52.6019
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6769 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6769 1                 10-BSAWrong[all]
@@ -17972,6 +18868,14 @@ RUN: 6769
 
 ==================================================================================
 RUN: 6775
+https://clas12mon.jlab.org/runs/summaries/?run=6775&runmax=6875&runmin=6675
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               52.7073
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6775 0     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6775 1     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::                  5-Misc[all]             10-BSAWrong[all]
@@ -18205,6 +19109,14 @@ RUN: 6775
 
 ==================================================================================
 RUN: 6776
+https://clas12mon.jlab.org/runs/summaries/?run=6776&runmax=6876&runmin=6676
+----------------------------------------------------------------------------------
+  user_comment:               Production. No beam for last ~30 minutes
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               53.5037
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6776 0     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6776 1     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::                  5-Misc[all]             10-BSAWrong[all]
@@ -18408,6 +19320,14 @@ RUN: 6776
 
 ==================================================================================
 RUN: 6777
+https://clas12mon.jlab.org/runs/summaries/?run=6777&runmax=6877&runmin=6677
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               50.8743
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6777 0     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6777 1     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::                  5-Misc[all]             10-BSAWrong[all]
@@ -18642,6 +19562,14 @@ RUN: 6777
 
 ==================================================================================
 RUN: 6778
+https://clas12mon.jlab.org/runs/summaries/?run=6778&runmax=6878&runmin=6678
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.3662
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6778 0     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6778 1     :: fraction of events with defined helicity is low; pi+ beam asymmetry looks normal ::                  5-Misc[all]             10-BSAWrong[all]
@@ -18825,6 +19753,14 @@ RUN: 6778
 
 ==================================================================================
 RUN: 6779
+https://clas12mon.jlab.org/runs/summaries/?run=6779&runmax=6879&runmin=6679
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2
+  beam_current_request:       50nA
+  beam_current:               51.3604
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6779 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6779 1                 10-BSAWrong[all]
@@ -19044,6 +19980,14 @@ RUN: 6779
 
 ==================================================================================
 RUN: 6780
+https://clas12mon.jlab.org/runs/summaries/?run=6780&runmax=6880&runmin=6680
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               1.09158
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6780 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6780 1                 10-BSAWrong[all]
@@ -19263,6 +20207,14 @@ RUN: 6780
 
 ==================================================================================
 RUN: 6781
+https://clas12mon.jlab.org/runs/summaries/?run=6781&runmax=6881&runmin=6681
+----------------------------------------------------------------------------------
+  user_comment:               PROD - no beam for last ~30 minutes
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               52.6019
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6781 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6781 1                 10-BSAWrong[all]
@@ -19404,6 +20356,14 @@ RUN: 6781
 
 ==================================================================================
 RUN: 6783
+https://clas12mon.jlab.org/runs/summaries/?run=6783&runmax=6883&runmin=6683
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2
+  beam_current_request:       50 nA
+  beam_current:               50.9914
+  run_type:                   PROD66
+  run_config:                 /usr/clas12/release/1.3.2/parms/trigger/rga_v2.cnf
 ----------------------------------------------------------------------------------
 6783 0           1-TerminalOutlier[all]           4-LowLiveTime[all]       7-TerminalOutlierFT[1]             10-BSAWrong[all]        18-ChargeUnknown[all]
 6783 1                 10-BSAWrong[all]
