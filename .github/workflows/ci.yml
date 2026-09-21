@@ -100,6 +100,7 @@ jobs:
       options: --user root
     steps:
       - uses: actions/checkout@v7
+      - run: util/makeTables.sh all
       - run: python -m pip install -r requirements.txt
       - run: zensical build
       - run: mv site pages
