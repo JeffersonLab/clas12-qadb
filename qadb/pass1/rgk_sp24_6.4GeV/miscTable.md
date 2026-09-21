@@ -196,7 +196,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19538      | no    |  |
 | 19539      | no    |  |
 | 19540      | no    |  |
-| 19541      | yes   | <pre>empty target run; beam current is lower than subsequent empty target runs, which is the only reason N/q is outlying for this run</pre> |
+| 19541      | yes   | <pre>empty target run; beam current varying throughout the run</pre> |
 | 19543      | yes   | <pre>empty target run</pre> |
 | 19544      | yes   | <pre>empty target run</pre> |
 | 19545      | yes   | <pre>empty target run</pre> |
