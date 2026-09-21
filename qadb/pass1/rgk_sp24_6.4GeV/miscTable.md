@@ -127,7 +127,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19452      | no    |  |
 | 19453      | no    |  |
 | 19454      | no    |  |
-| 19455      | yes   | <pre>mon12 TDC phase plots look strange</pre> |
+| 19455      | yes   | <pre>mon12 TDC phase plots look strange; event number vs. timestamp is not monotonic</pre> |
 | 19456      | no    |  |
 | 19457      | no    |  |
 | 19458      | no    |  |
