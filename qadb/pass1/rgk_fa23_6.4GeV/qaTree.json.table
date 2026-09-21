@@ -1,6 +1,14 @@
 
 ==================================================================================
 RUN: 19204
+https://clas12mon.jlab.org/runs/summaries/?run=19204&runmax=19304&runmin=19104
+----------------------------------------------------------------------------------
+  user_comment:               Trigger Validation, noDC roads electron
+  target:                     LH2 
+  beam_current_request:       60nA
+  beam_current:               29.7755
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_validation.cnf
 ----------------------------------------------------------------------------------
 19204 0     :: Trigger Validation, noDC roads electron ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19204 1     :: Trigger Validation, noDC roads electron ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -75,6 +83,14 @@ RUN: 19204
 
 ==================================================================================
 RUN: 19205
+https://clas12mon.jlab.org/runs/summaries/?run=19205&runmax=19305&runmin=19105
+----------------------------------------------------------------------------------
+  user_comment:               random trigger
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               35.6302
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_v1.0_30kHz_150MeV.cnf
 ----------------------------------------------------------------------------------
 19205 0     :: random trigger ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 19205 1     :: random trigger ::           4-LowLiveTime[all]                  5-Misc[all]           11-BSAUnknown[all]
@@ -141,6 +157,14 @@ RUN: 19205
 
 ==================================================================================
 RUN: 19206
+https://clas12mon.jlab.org/runs/summaries/?run=19206&runmax=19306&runmin=19106
+----------------------------------------------------------------------------------
+  user_comment:               trigger studies
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               38.2902
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_v1.0_30kHz_150MeV.cnf
 ----------------------------------------------------------------------------------
 19206 0     :: trigger studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 19206 1     :: trigger studies ::           4-LowLiveTime[all]                  5-Misc[all]           11-BSAUnknown[all]
@@ -298,6 +322,14 @@ RUN: 19206
 
 ==================================================================================
 RUN: 19208
+https://clas12mon.jlab.org/runs/summaries/?run=19208&runmax=19308&runmin=19108
+----------------------------------------------------------------------------------
+  user_comment:               random trigger
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               37.2376
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_v1.0_30kHz_150MeV.cnf
 ----------------------------------------------------------------------------------
 19208 0     :: random trigger ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]           11-BSAUnknown[all]        18-ChargeUnknown[all]
 19208 1     :: random trigger ::           4-LowLiveTime[all]                  5-Misc[all]           11-BSAUnknown[all]
@@ -375,6 +407,14 @@ RUN: 19208
 
 ==================================================================================
 RUN: 19209
+https://clas12mon.jlab.org/runs/summaries/?run=19209&runmax=19309&runmin=19109
+----------------------------------------------------------------------------------
+  user_comment:               
+  target:                     LH2 
+  beam_current_request:       10 nA
+  beam_current:               11.4235
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19209 0     :: lumi scan: 10 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19209 1     :: lumi scan: 10 nA ::                  5-Misc[all]
@@ -438,6 +478,14 @@ RUN: 19209
 
 ==================================================================================
 RUN: 19210
+https://clas12mon.jlab.org/runs/summaries/?run=19210&runmax=19310&runmin=19110
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       20 nA
+  beam_current:               16.7505
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19210 0     :: lumi scan: 20 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19210 1     :: lumi scan: 20 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -482,6 +530,14 @@ RUN: 19210
 
 ==================================================================================
 RUN: 19211
+https://clas12mon.jlab.org/runs/summaries/?run=19211&runmax=19311&runmin=19111
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       30 nA
+  beam_current:               21.2845
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19211 0     :: lumi scan: 30 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19211 1     :: lumi scan: 30 nA ::         2-MarginalOutlier[2]                  5-Misc[all]
@@ -505,6 +561,14 @@ RUN: 19211
 
 ==================================================================================
 RUN: 19212
+https://clas12mon.jlab.org/runs/summaries/?run=19212&runmax=19312&runmin=19112
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       30 nA
+  beam_current:               21.5031
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19212 0     :: lumi scan: 30 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19212 1     :: lumi scan: 30 nA ::            0-TotalOutlier[4]     2-MarginalOutlier[12356]           4-LowLiveTime[all]                  5-Misc[all]
@@ -527,6 +591,14 @@ RUN: 19212
 
 ==================================================================================
 RUN: 19213
+https://clas12mon.jlab.org/runs/summaries/?run=19213&runmax=19313&runmin=19113
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               25.164
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19213 0     :: lumi scan: 40 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19213 1     :: lumi scan: 40 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -555,6 +627,14 @@ RUN: 19213
 
 ==================================================================================
 RUN: 19214
+https://clas12mon.jlab.org/runs/summaries/?run=19214&runmax=19314&runmin=19114
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       50 nA
+  beam_current:               30.2061
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19214 0     :: lumi scan: 50 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19214 1     :: lumi scan: 50 nA ::                  5-Misc[all]
@@ -582,6 +662,14 @@ RUN: 19214
 
 ==================================================================================
 RUN: 19215
+https://clas12mon.jlab.org/runs/summaries/?run=19215&runmax=19315&runmin=19115
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               34.4617
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19215 0     :: lumi scan: 60 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19215 1     :: lumi scan: 60 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -609,6 +697,14 @@ RUN: 19215
 
 ==================================================================================
 RUN: 19216
+https://clas12mon.jlab.org/runs/summaries/?run=19216&runmax=19316&runmin=19116
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               40.2309
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19216 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19216 1     :: lumi scan: 75 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -626,6 +722,14 @@ RUN: 19216
 
 ==================================================================================
 RUN: 19217
+https://clas12mon.jlab.org/runs/summaries/?run=19217&runmax=19317&runmin=19117
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               43.1231
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19217 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19217 1     :: lumi scan: 75 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -653,6 +757,14 @@ RUN: 19217
 
 ==================================================================================
 RUN: 19218
+https://clas12mon.jlab.org/runs/summaries/?run=19218&runmax=19318&runmin=19118
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       90 nA
+  beam_current:               48.2773
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19218 0     :: lumi scan: 90 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19218 1     :: lumi scan: 90 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -673,6 +785,14 @@ RUN: 19218
 
 ==================================================================================
 RUN: 19219
+https://clas12mon.jlab.org/runs/summaries/?run=19219&runmax=19319&runmin=19119
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               31.6134
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19219 0     :: N/q slowly increases throughout the run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19219 1     :: N/q slowly increases throughout the run ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -718,6 +838,14 @@ RUN: 19219
 
 ==================================================================================
 RUN: 19220
+https://clas12mon.jlab.org/runs/summaries/?run=19220&runmax=19320&runmin=19120
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               28.5587
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19220 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19220 1               4-LowLiveTime[all]
@@ -818,6 +946,14 @@ RUN: 19220
 
 ==================================================================================
 RUN: 19222
+https://clas12mon.jlab.org/runs/summaries/?run=19222&runmax=19322&runmin=19122
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               27.8731
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19222 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19222 1     |
@@ -934,6 +1070,14 @@ RUN: 19222
 
 ==================================================================================
 RUN: 19223
+https://clas12mon.jlab.org/runs/summaries/?run=19223&runmax=19323&runmin=19123
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               27.6337
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19223 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19223 1     |
@@ -1050,6 +1194,14 @@ RUN: 19223
 
 ==================================================================================
 RUN: 19224
+https://clas12mon.jlab.org/runs/summaries/?run=19224&runmax=19324&runmin=19124
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               27.9937
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19224 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19224 1     |
@@ -1167,6 +1319,14 @@ RUN: 19224
 
 ==================================================================================
 RUN: 19225
+https://clas12mon.jlab.org/runs/summaries/?run=19225&runmax=19325&runmin=19125
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               27.8425
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19225 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19225 1     |
@@ -1223,6 +1383,14 @@ RUN: 19225
 
 ==================================================================================
 RUN: 19226
+https://clas12mon.jlab.org/runs/summaries/?run=19226&runmax=19326&runmin=19126
+----------------------------------------------------------------------------------
+  user_comment:               DC HV scan
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               27.6161
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19226 0     :: DC HV scan: 10 10 11 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19226 1     :: DC HV scan: 10 10 11 ::                  5-Misc[all]
@@ -1262,6 +1430,14 @@ RUN: 19226
 
 ==================================================================================
 RUN: 19228
+https://clas12mon.jlab.org/runs/summaries/?run=19228&runmax=19328&runmin=19128
+----------------------------------------------------------------------------------
+  user_comment:               10,12,11
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               27.8338
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19228 0     :: DC HV scan: 10 12 11 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19228 1     :: DC HV scan: 10 12 11 ::                  5-Misc[all]
@@ -1364,6 +1540,14 @@ RUN: 19228
 
 ==================================================================================
 RUN: 19229
+https://clas12mon.jlab.org/runs/summaries/?run=19229&runmax=19329&runmin=19129
+----------------------------------------------------------------------------------
+  user_comment:               HV scan 10 11 10
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               27.9947
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19229 0     :: DC HV scan: 10 11 10 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19229 1     :: DC HV scan: 10 11 10 ::                  5-Misc[all]
@@ -1471,6 +1655,14 @@ RUN: 19229
 
 ==================================================================================
 RUN: 19231
+https://clas12mon.jlab.org/runs/summaries/?run=19231&runmax=19331&runmin=19131
+----------------------------------------------------------------------------------
+  user_comment:               60 nA, Post DC HV comms problem, switch to production, 10 11 11 on DC HV
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               35.9177
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19231 0     :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19231 1     :: alarms on the CLAS12 trigger presumably due to increase to 60 nA; normalized alarm rate limits set; N/q high, decreasing throughout the run ::          0-TotalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]
@@ -1532,6 +1724,14 @@ RUN: 19231
 
 ==================================================================================
 RUN: 19232
+https://clas12mon.jlab.org/runs/summaries/?run=19232&runmax=19332&runmin=19132
+----------------------------------------------------------------------------------
+  user_comment:               Prod run, 10 11 11
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               38.3546
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19232 0     :: lumi scan: 60 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19232 1     :: lumi scan: 60 nA ::                  5-Misc[all]
@@ -1587,6 +1787,14 @@ RUN: 19232
 
 ==================================================================================
 RUN: 19233
+https://clas12mon.jlab.org/runs/summaries/?run=19233&runmax=19333&runmin=19133
+----------------------------------------------------------------------------------
+  user_comment:               production run
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               44.4062
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19233 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19233 1     :: lumi scan: 75 nA ::                  5-Misc[all]
@@ -1602,6 +1810,14 @@ RUN: 19233
 
 ==================================================================================
 RUN: 19234
+https://clas12mon.jlab.org/runs/summaries/?run=19234&runmax=19334&runmin=19134
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               45.6277
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19234 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19234 1     :: lumi scan: 75 nA ::                  5-Misc[all]
@@ -1841,6 +2057,14 @@ RUN: 19234
 
 ==================================================================================
 RUN: 19235
+https://clas12mon.jlab.org/runs/summaries/?run=19235&runmax=19335&runmin=19135
+----------------------------------------------------------------------------------
+  user_comment:               production
+  target:                     LH2 
+  beam_current_request:       90 nA
+  beam_current:               53.4997
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19235 0     :: lumi scan: 90 nA; evaporator exhaust target alarms ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19235 1     :: lumi scan: 90 nA; evaporator exhaust target alarms ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -2018,6 +2242,14 @@ RUN: 19235
 
 ==================================================================================
 RUN: 19236
+https://clas12mon.jlab.org/runs/summaries/?run=19236&runmax=19336&runmin=19136
+----------------------------------------------------------------------------------
+  user_comment:               production, empty target issues
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               32.3815
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19236 0     :: target unintentionally empty, causing low trigger rates ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19236 1     :: target unintentionally empty, causing low trigger rates ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -2091,6 +2323,14 @@ RUN: 19236
 
 ==================================================================================
 RUN: 19237
+https://clas12mon.jlab.org/runs/summaries/?run=19237&runmax=19337&runmin=19137
+----------------------------------------------------------------------------------
+  user_comment:               Production, test run to see if target has been filled
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               31.6462
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19237 0     :: target evaporator alarm toward the end of the run, but N/q looks stable ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19237 1     :: target evaporator alarm toward the end of the run, but N/q looks stable ::                  5-Misc[all]
@@ -2131,6 +2371,14 @@ RUN: 19237
 
 ==================================================================================
 RUN: 19238
+https://clas12mon.jlab.org/runs/summaries/?run=19238&runmax=19338&runmin=19138
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               30.7733
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19238 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19238 1               4-LowLiveTime[all]
@@ -2219,6 +2467,14 @@ RUN: 19238
 
 ==================================================================================
 RUN: 19239
+https://clas12mon.jlab.org/runs/summaries/?run=19239&runmax=19339&runmin=19139
+----------------------------------------------------------------------------------
+  user_comment:               Production
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               0.936769
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19239 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19239 1               4-LowLiveTime[all]
@@ -2313,6 +2569,14 @@ RUN: 19239
 
 ==================================================================================
 RUN: 19243
+https://clas12mon.jlab.org/runs/summaries/?run=19243&runmax=19343&runmin=19143
+----------------------------------------------------------------------------------
+  user_comment:               prod
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               30.3778
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19243 0     :: production; DC HV scan: 11 11 11 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19243 1     :: production; DC HV scan: 11 11 11 ::                  5-Misc[all]
@@ -2386,6 +2650,14 @@ RUN: 19243
 
 ==================================================================================
 RUN: 19244
+https://clas12mon.jlab.org/runs/summaries/?run=19244&runmax=19344&runmin=19144
+----------------------------------------------------------------------------------
+  user_comment:               10 12 10
+  target:                     LH2 
+  beam_current_request:       40 nA
+  beam_current:               30.7618
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19244 0     :: production; DC HV scan 10 12 10 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19244 1     :: production; DC HV scan 10 12 10 ::                  5-Misc[all]
@@ -2466,6 +2738,14 @@ RUN: 19244
 
 ==================================================================================
 RUN: 19245
+https://clas12mon.jlab.org/runs/summaries/?run=19245&runmax=19345&runmin=19145
+----------------------------------------------------------------------------------
+  user_comment:               10 11 11 prod run
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               26.9194
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19245 0     :: production; DC HV scan 10 11 11 ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19245 1     :: production; DC HV scan 10 11 11 ::            0-TotalOutlier[1]     2-MarginalOutlier[23456]           4-LowLiveTime[all]                  5-Misc[all]
@@ -2502,6 +2782,14 @@ RUN: 19245
 
 ==================================================================================
 RUN: 19246
+https://clas12mon.jlab.org/runs/summaries/?run=19246&runmax=19346&runmin=19146
+----------------------------------------------------------------------------------
+  user_comment:               10 11 11
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               40.3338
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19246 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19246 1               4-LowLiveTime[all]
@@ -2596,6 +2884,14 @@ RUN: 19246
 
 ==================================================================================
 RUN: 19247
+https://clas12mon.jlab.org/runs/summaries/?run=19247&runmax=19347&runmin=19147
+----------------------------------------------------------------------------------
+  user_comment:               10 11 11
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               40.8306
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19247 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19247 1               4-LowLiveTime[all]
@@ -2625,6 +2921,14 @@ RUN: 19247
 
 ==================================================================================
 RUN: 19248
+https://clas12mon.jlab.org/runs/summaries/?run=19248&runmax=19348&runmin=19148
+----------------------------------------------------------------------------------
+  user_comment:               10 11 11
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               41.0166
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19248 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19248 1               4-LowLiveTime[all]
@@ -2666,6 +2970,14 @@ RUN: 19248
 
 ==================================================================================
 RUN: 19249
+https://clas12mon.jlab.org/runs/summaries/?run=19249&runmax=19349&runmin=19149
+----------------------------------------------------------------------------------
+  user_comment:               10 11 11
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               47.1694
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19249 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19249 1     :: lumi scan: 75 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -2781,6 +3093,14 @@ RUN: 19249
 
 ==================================================================================
 RUN: 19250
+https://clas12mon.jlab.org/runs/summaries/?run=19250&runmax=19350&runmin=19150
+----------------------------------------------------------------------------------
+  user_comment:               10 11 11
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               49.3586
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19250 0     :: lumi scan: 75 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19250 1     :: lumi scan: 75 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -2921,6 +3241,14 @@ RUN: 19250
 
 ==================================================================================
 RUN: 19251
+https://clas12mon.jlab.org/runs/summaries/?run=19251&runmax=19351&runmin=19151
+----------------------------------------------------------------------------------
+  user_comment:               10 11 11
+  target:                     LH2 
+  beam_current_request:       90 nA
+  beam_current:               54.5867
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19251 0     :: lumi scan: 90 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19251 1     :: lumi scan: 90 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -2947,6 +3275,14 @@ RUN: 19251
 
 ==================================================================================
 RUN: 19252
+https://clas12mon.jlab.org/runs/summaries/?run=19252&runmax=19352&runmin=19152
+----------------------------------------------------------------------------------
+  user_comment:               10 11 11
+  target:                     LH2 
+  beam_current_request:       90 nA
+  beam_current:               56.5719
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19252 0     :: lumi scan: 90 nA ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19252 1     :: lumi scan: 90 nA ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3048,6 +3384,14 @@ RUN: 19252
 
 ==================================================================================
 RUN: 19253
+https://clas12mon.jlab.org/runs/summaries/?run=19253&runmax=19353&runmin=19153
+----------------------------------------------------------------------------------
+  user_comment:               daq test
+  target:                     LH2 
+  beam_current_request:       0
+  beam_current:               6.27025
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_validation.cnf
 ----------------------------------------------------------------------------------
 19253 0     :: DAQ test ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19253 1     :: DAQ test ::          0-TotalOutlier[all]                  5-Misc[all]
@@ -3062,6 +3406,14 @@ RUN: 19253
 
 ==================================================================================
 RUN: 19254
+https://clas12mon.jlab.org/runs/summaries/?run=19254&runmax=19354&runmin=19154
+----------------------------------------------------------------------------------
+  user_comment:               Trigger validation
+  target:                     LH2 
+  beam_current_request:       60
+  beam_current:               -0.00176561
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_validation.cnf
 ----------------------------------------------------------------------------------
 19254 0     :: trigger validation run ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19254 1     :: trigger validation run ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3118,6 +3470,14 @@ RUN: 19254
 
 ==================================================================================
 RUN: 19256
+https://clas12mon.jlab.org/runs/summaries/?run=19256&runmax=19356&runmin=19156
+----------------------------------------------------------------------------------
+  user_comment:               BMT 5 samples 2
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               45.1002
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19256 0     :: SVT studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19256 1     :: SVT studies ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3130,6 +3490,14 @@ RUN: 19256
 
 ==================================================================================
 RUN: 19257
+https://clas12mon.jlab.org/runs/summaries/?run=19257&runmax=19357&runmin=19157
+----------------------------------------------------------------------------------
+  user_comment:               5 samples ZsChkSmp 1
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               47.0523
+  run_type:                   PROD67_PIN
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19257 0     :: SVT studies ::       1-TerminalOutlier[all]           4-LowLiveTime[all]                  5-Misc[all]        18-ChargeUnknown[all]
 19257 1     :: SVT studies ::           4-LowLiveTime[all]                  5-Misc[all]
@@ -3141,6 +3509,14 @@ RUN: 19257
 
 ==================================================================================
 RUN: 19258
+https://clas12mon.jlab.org/runs/summaries/?run=19258&runmax=19358&runmin=19158
+----------------------------------------------------------------------------------
+  user_comment:               trigger threshold 200 MeV
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               42.5177
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19258 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19258 1               4-LowLiveTime[all]
@@ -3230,6 +3606,14 @@ RUN: 19258
 
 ==================================================================================
 RUN: 19259
+https://clas12mon.jlab.org/runs/summaries/?run=19259&runmax=19359&runmin=19159
+----------------------------------------------------------------------------------
+  user_comment:               300 MeV threshold
+  target:                     LH2 
+  beam_current_request:       75 nA
+  beam_current:               46.2593
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_300MeV.cnf
 ----------------------------------------------------------------------------------
 19259 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19259 1               4-LowLiveTime[all]
@@ -3339,6 +3723,14 @@ RUN: 19259
 
 ==================================================================================
 RUN: 19260
+https://clas12mon.jlab.org/runs/summaries/?run=19260&runmax=19360&runmin=19160
+----------------------------------------------------------------------------------
+  user_comment:               200 MeV threshold
+  target:                     LH2 
+  beam_current_request:       60 nA
+  beam_current:               41.7569
+  run_type:                   PROD67
+  run_config:                 /usr/clas12/release/1.4.0/parms/trigger/rgk_noDC_v1.0_200MeV.cnf
 ----------------------------------------------------------------------------------
 19260 0           1-TerminalOutlier[all]           4-LowLiveTime[all]        18-ChargeUnknown[all]
 19260 1               4-LowLiveTime[all]
