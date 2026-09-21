@@ -87,7 +87,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19758      | no    |  |
 | 19759      | no    |  |
 | 19760      | no    |  |
-| 19762      | no    |  |
+| 19762      | yes   | <pre>beam current fluctuated to 5 nA</pre> |
 | 19763      | no    |  |
 | 19764      | no    |  |
 | 19765      | no    |  |
@@ -102,7 +102,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19774      | no    |  |
 | 19775      | no    |  |
 | 19776      | no    |  |
-| 19777      | no    |  |
+| 19777      | yes   | <pre>issue with TDCs on FTOF Sector 3 P1A left</pre> |
 | 19778      | no    |  |
 | 19779      | no    |  |
 | 19780      | no    |  |
@@ -132,17 +132,17 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19811      | no    |  |
 | 19812      | no    |  |
 | 19813      | no    |  |
-| 19814      | no    |  |
-| 19815      | no    |  |
-| 19817      | no    |  |
-| 19818      | no    |  |
-| 19819      | no    |  |
-| 19820      | no    |  |
-| 19821      | no    |  |
-| 19822      | no    |  |
-| 19823      | no    |  |
-| 19824      | no    |  |
-| 19825      | no    |  |
+| 19814      | yes   | <pre>empty target run</pre> |
+| 19815      | yes   | <pre>empty target run</pre> |
+| 19817      | yes   | <pre>empty target run</pre> |
+| 19818      | yes   | <pre>empty target run</pre> |
+| 19819      | yes   | <pre>empty target run</pre> |
+| 19820      | yes   | <pre>empty target run</pre> |
+| 19821      | yes   | <pre>empty target run</pre><pre>empty target run; FC charge decreased slightly during the sector-1 SectorLoss</pre> |
+| 19822      | yes   | <pre>empty target run</pre> |
+| 19823      | yes   | <pre>lumi scan: 5 nA</pre> |
+| 19824      | yes   | <pre>lumi scan: 30 nA</pre> |
+| 19825      | yes   | <pre>lumi scan: 50 nA</pre> |
 | 19826      | no    |  |
 | 19827      | no    |  |
 | 19828      | no    |  |
@@ -152,7 +152,7 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19832      | no    |  |
 | 19833      | no    |  |
 | 19834      | no    |  |
-| 19835      | no    |  |
+| 19835      | yes   | <pre>RICH PMTs down</pre> |
 | 19836      | no    |  |
 | 19837      | no    |  |
 | 19838      | no    |  |
@@ -163,10 +163,10 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19846      | no    |  |
 | 19847      | no    |  |
 | 19848      | no    |  |
-| 19849      | no    |  |
-| 19850      | no    |  |
-| 19851      | no    |  |
-| 19852      | no    |  |
+| 19849      | yes   | <pre>DC test run</pre> |
+| 19850      | yes   | <pre>90 nA test run</pre> |
+| 19851      | yes   | <pre>Test run with noHTCC trigger file</pre> |
+| 19852      | yes   | <pre>Test with noHTCC trigger config</pre> |
 | 19853      | no    |  |
 | 19854      | no    |  |
 | 19855      | no    |  |
@@ -203,5 +203,5 @@ See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin infor
 | 19889      | no    |  |
 | 19890      | no    |  |
 | 19891      | no    |  |
-| 19892      | no    |  |
+| 19892      | yes   | <pre>tdcftof5 occupancy issue</pre> |
 | 19893      | no    |  |
