@@ -954,7 +954,7 @@ when CmdMisc
 
 For each run, the table shows:
 - `Misc` defect?:
-  - \"yes\" if _any_ of the QA bins in this runs has the `Misc` defect
+  - \"yes\" if _any_ of the QA bins in this run has the `Misc` defect
   - this does not mean this defect is present for the entire run
 - Unique Comments:
   - each QA bin can have its own comment, which is usually set when a bin has the `Misc` defect

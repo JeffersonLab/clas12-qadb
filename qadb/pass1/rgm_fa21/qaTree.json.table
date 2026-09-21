@@ -69383,7 +69383,7 @@ RUN: 15807
 https://clas12mon.jlab.org/runs/summaries/?run=15807&runmax=15907&runmin=15707
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               72.2166
   run_type:                   PROD67_noVTPread
@@ -69397,7 +69397,7 @@ RUN: 15809
 https://clas12mon.jlab.org/runs/summaries/?run=15809&runmax=15909&runmin=15709
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               70.212
   run_type:                   PROD67_noVTPread
@@ -69412,7 +69412,7 @@ RUN: 15810
 https://clas12mon.jlab.org/runs/summaries/?run=15810&runmax=15910&runmin=15710
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               72.0451
   run_type:                   PROD67_noVTPread
@@ -69431,7 +69431,7 @@ RUN: 15811
 https://clas12mon.jlab.org/runs/summaries/?run=15811&runmax=15911&runmin=15711
 ----------------------------------------------------------------------------------
   user_comment:               prod; beam down significantly during run.
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               0.00903002
   run_type:                   PROD67_noVTPread
@@ -69499,7 +69499,7 @@ RUN: 15812
 https://clas12mon.jlab.org/runs/summaries/?run=15812&runmax=15912&runmin=15712
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               15.1632
   run_type:                   PROD67_noVTPread
@@ -69596,7 +69596,7 @@ RUN: 15814
 https://clas12mon.jlab.org/runs/summaries/?run=15814&runmax=15914&runmin=15714
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               71.1782
   run_type:                   PROD67_noVTPread
@@ -69638,7 +69638,7 @@ RUN: 15815
 https://clas12mon.jlab.org/runs/summaries/?run=15815&runmax=15915&runmin=15715
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               70.8296
   run_type:                   PROD67_noVTPread
@@ -69659,7 +69659,7 @@ RUN: 15816
 https://clas12mon.jlab.org/runs/summaries/?run=15816&runmax=15916&runmin=15716
 ----------------------------------------------------------------------------------
   user_comment:               
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               0.0523741
   run_type:                   PROD67_noVTPread
@@ -69672,7 +69672,7 @@ RUN: 15818
 https://clas12mon.jlab.org/runs/summaries/?run=15818&runmax=15918&runmin=15718
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90
   beam_current:               70.6725
   run_type:                   PROD67_noVTPread
@@ -69774,7 +69774,7 @@ RUN: 15819
 https://clas12mon.jlab.org/runs/summaries/?run=15819&runmax=15919&runmin=15719
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               0.0539921
   run_type:                   PROD67_noVTPread
@@ -69829,7 +69829,7 @@ RUN: 15820
 https://clas12mon.jlab.org/runs/summaries/?run=15820&runmax=15920&runmin=15720
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               88.007
   run_type:                   PROD67_noVTPread
@@ -69987,7 +69987,7 @@ RUN: 15821
 https://clas12mon.jlab.org/runs/summaries/?run=15821&runmax=15921&runmin=15721
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               90.5109
   run_type:                   PROD67_noVTPread
@@ -70000,7 +70000,7 @@ RUN: 15822
 https://clas12mon.jlab.org/runs/summaries/?run=15822&runmax=15922&runmin=15722
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               86.844
   run_type:                   PROD67_noVTPread
@@ -70080,7 +70080,7 @@ RUN: 15823
 https://clas12mon.jlab.org/runs/summaries/?run=15823&runmax=15923&runmin=15723
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               87.7461
   run_type:                   PROD67_noVTPread
@@ -70098,7 +70098,7 @@ RUN: 15824
 https://clas12mon.jlab.org/runs/summaries/?run=15824&runmax=15924&runmin=15724
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               89.2264
   run_type:                   PROD67_noVTPread
@@ -70113,7 +70113,7 @@ RUN: 15825
 https://clas12mon.jlab.org/runs/summaries/?run=15825&runmax=15925&runmin=15725
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               89.4671
   run_type:                   PROD67_noVTPread
@@ -70244,7 +70244,7 @@ RUN: 15826
 https://clas12mon.jlab.org/runs/summaries/?run=15826&runmax=15926&runmin=15726
 ----------------------------------------------------------------------------------
   user_comment:               prod
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               91.2038
   run_type:                   PROD67_noVTPread
@@ -70395,7 +70395,7 @@ RUN: 15827
 https://clas12mon.jlab.org/runs/summaries/?run=15827&runmax=15927&runmin=15727
 ----------------------------------------------------------------------------------
   user_comment:               Prod.  Ended due to target change.
-  target:                     Sn (x4) 
+  target:                     Sn
   beam_current_request:       90 nA
   beam_current:               89.2286
   run_type:                   PROD67_noVTPread
