@@ -110,7 +110,7 @@ jobs:
           path: pages/
 
   deploy_web_pages:
-    # if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     needs: [ generate_documentation ]
     permissions:
       pages: write
