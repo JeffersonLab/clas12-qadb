@@ -2,25 +2,25 @@
   {
     "bit_number": 0,
     "bit_name": "TotalOutlier",
-    "description": "Outlier FD electron N/F, but not `TerminalOutlier` or `MarginalOutlier`",
+    "description": "Outlier FD electron N/q, but not `TerminalOutlier` or `MarginalOutlier`",
     "documentation": ""
   },
   {
     "bit_number": 1,
     "bit_name": "TerminalOutlier",
-    "description": "Outlier FD electron N/F of first or last QA bin of run",
+    "description": "Outlier FD electron N/q of first or last QA bin of run",
     "documentation": ""
   },
   {
     "bit_number": 2,
     "bit_name": "MarginalOutlier",
-    "description": "Marginal FD electron outlier N/F, within one standard deviation of cut line",
+    "description": "Marginal FD electron outlier N/q, within one standard deviation of cut line",
     "documentation": ""
   },
   {
     "bit_number": 3,
     "bit_name": "SectorLoss",
-    "description": "FD electron N/F is an outlier and is diminished for several consecutive QA bins",
+    "description": "FD electron N/q is an outlier and is diminished for several consecutive QA bins",
     "documentation": "For older datasets (RG-A,B,K,M pass 1), this bit _replaced_ the assignment of `TotalOutlier`, `TerminalOutlier`, and `MarginalOutlier`; newer datasets only add the `SectorLoss` bit and do not remove the outlier bits."
   },
   {
@@ -38,25 +38,25 @@
   {
     "bit_number": 6,
     "bit_name": "TotalOutlierFT",
-    "description": "Outlier FT electron N/F, but not `TerminalOutlierFT` or `MarginalOutlierFT`",
+    "description": "Outlier FT electron N/q, but not `TerminalOutlierFT` or `MarginalOutlierFT`",
     "documentation": "_cf_. `TotalOutlier`."
   },
   {
     "bit_number": 7,
     "bit_name": "TerminalOutlierFT",
-    "description": "Outlier FT electron N/F of first or last QA bin of run",
+    "description": "Outlier FT electron N/q of first or last QA bin of run",
     "documentation": "_cf_. `TerminalOutlier`."
   },
   {
     "bit_number": 8,
     "bit_name": "MarginalOutlierFT",
-    "description": "Marginal FT electron outlier N/F, within one standard deviation of cut line",
+    "description": "Marginal FT electron outlier N/q, within one standard deviation of cut line",
     "documentation": "_cf_. `MarginalOutlier`."
   },
   {
     "bit_number": 9,
     "bit_name": "LossFT",
-    "description": "FT electron N/F is an outlier and is diminished for several consecutive QA bins",
+    "description": "FT electron N/q is an outlier and is diminished for several consecutive QA bins",
     "documentation": "_cf_. `SectorLoss`."
   },
   {
@@ -116,7 +116,7 @@
   {
     "bit_number": 19,
     "bit_name": "PossiblyNoBeam",
-    "description": "Both N and F are low, indicating the beam was possibly off",
+    "description": "Both N and q are low, indicating the beam was possibly off",
     "documentation": "NOTE: the assignment criteria of this bit are still under study."
   }
 ]

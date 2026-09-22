@@ -72,21 +72,6 @@ jobs:
           source environ.sh
           echo "QADB=${QADB}" >> $GITHUB_ENV
           echo "JYPATH=${JYPATH}" >> $GITHUB_ENV
-      - name: make sure all necessary files exist # since pre-commit.ci auto-fix bot will not `git add` *new* files, we fallback to checking their existence here
-        working-directory: qadb/${{ matrix.dataset }}
-        run: |
-          for f in qaTree.json.table miscTable.md; do
-            if [ ! -f $f ]; then
-              echo "missing table file '$f'; run pre-commit hook manually and commit new file(s)"
-              exit 1
-            fi
-          done
-          for f in qaTree.json chargeTree.json; do
-            if [ ! -f $f ]; then
-              echo "missing file '$f'"
-              exit 1
-            fi
-          done
       - name: sync check
         run: stdbuf -i0 -e0 -o0 util/syncCheck.rb ${{ matrix.dataset }}
       - name: diff the Groovy and C++ QADB dumps
@@ -108,10 +93,42 @@ jobs:
           retention-days: 3
           path: artifacts/*
 
+  generate_documentation:
+    runs-on: ubuntu-latest
+    container:
+      image: codecr.jlab.org/hallb/clas12/container-forge/analysis:latest # need `run-groovy` from `coatjava`
+      options: --user root
+    steps:
+      - uses: actions/checkout@v7
+      - run: util/makeTables.sh all
+      - run: python -m pip install -r requirements.txt
+      - run: zensical build
+      - run: mv site pages
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          retention-days: 7
+          path: pages/
+
+  deploy_web_pages:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: [ generate_documentation ]
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: deployment
+        id: deployment
+        uses: actions/deploy-pages@v5
+
   # report status for github status check (successful only if all `test_dataset` jobs pass)
   report:
     runs-on: ubuntu-latest
     needs:
       - test_dataset
+      - generate_documentation
     steps:
       - run: echo success

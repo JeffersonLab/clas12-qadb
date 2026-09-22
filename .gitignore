@@ -10,3 +10,5 @@ tmp/*
 srcC/lib/*
 *.pcm
 *Dict.cxx
+/docs/tables
+/site

@@ -8,7 +8,7 @@ require 'rubygems/text'
 include Gem::Text # for `format_text`
 
 # version number
-VERSION = '3.5.0'
+VERSION = '3.6.0'
 
 # get software info
 TopDir  = File.realpath(File.join __dir__, '..')
@@ -951,17 +951,19 @@ when CmdMisc
     puts out_hash.to_yaml
   when 'markdown'
     puts """# Misc Defect Comments Table
+#{opts[:datasets].size==1 ? "## Dataset: `#{opts[:datasets].first}`" : ''}
 
 For each run, the table shows:
-- `Misc` defect?:
-  - \"yes\" if _any_ of the QA bins in this runs has the `Misc` defect
-  - this does not mean this defect is present for the entire run
-- Unique Comments:
-  - each QA bin can have its own comment, which is usually set when a bin has the `Misc` defect
-  - not all bins have to have the same comment
-  - this table shows the _unique_ comments that are found for this run
 
-See [the QADB table file](qaTree.json.table) for more detailed, bin-by-bin information.
+- `Misc` defect?:
+    - \"yes\" if _any_ of the QA bins in this run has the `Misc` defect
+    - this does not mean this defect is present for the entire run
+- Unique Comments:
+    - each QA bin can have its own comment, which is usually set when a bin has the `Misc` defect
+    - not all bins have to have the same comment
+    - this table shows the _unique_ comments that are found for this run
+
+See [the QADB Text File](qaTree.txt) for more detailed, bin-by-bin information.
 
 ### Misc Comments
 
