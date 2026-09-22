@@ -35,8 +35,20 @@ mkdir -p $outdir
 rm -r $outdir
 mkdir -p $outdir
 
+# start index pages
+txtindex=$outdir/index_txt.md
+miscindex=$outdir/index_misc.md
+echo """# Index of QADB Text Files
+""" > $txtindex
+echo """# Index of \`Misc\` Bit Tables
+""" > $miscindex
+
 # loop over dataset(s)
 for dataset in ${datasets[@]}; do
+
+  # populate index pages
+  echo "- [\`$dataset\`]($dataset/qaTree.txt)" >> $txtindex
+  echo "- [\`$dataset\`]($dataset/miscTable.md)" >> $miscindex
 
   # define inputs and outputs
   infile=$QADB/qadb/$dataset/qaTree.json
@@ -51,6 +63,7 @@ for dataset in ${datasets[@]}; do
   echo "dataset: $dataset" > $txtfile
   cat $infile.table >> $txtfile
   rm $infile.table
+  echo "[+] produced $txtfile"
 
   # produce `miscTable.md` file
   echo "[+] producing miscTable.md file from $infile ..."

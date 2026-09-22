@@ -2,7 +2,7 @@
 
 <img src="logo_large.png"/>
 
-**Q**uality **A**ssurance **D**ata**B**ase
+<center><strong>Q</strong>uality <strong>A</strong>ssurance <strong>D</strong>ata<strong>B</strong>ase</center>
 
 :arrow_upper_left: See links to the left for guidance
 

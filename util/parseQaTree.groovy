@@ -162,4 +162,3 @@ ${head.join("\n")}
 }
 
 outfileW.close()
-System.out.println("[+] produced $outfile")

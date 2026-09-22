@@ -1,4 +1,3 @@
-*[QADB]: Quality Assurance Database
 *[QA bin]: a set of consecutive events for which QA defect bits are assigned
 *[QA bins]: a set of consecutive events for which QA defect bits are assigned
 *[defect bit]: a bit (of a binary number) that is 1 if the QA bin exhibits the corresponding defect or 0 if not

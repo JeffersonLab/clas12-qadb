@@ -9,18 +9,18 @@ Documentation for QADB maintenance and revision
   dataset, follow the following procedure:
     - [ ] `mkdir qadb/pass${pass}/${dataset}/`, then copy the final `qaTree.json` and `chargeTree.json` to that directory
     - [ ] add/update a symlink to this dataset in `qadb/latest`, if this is a new Pass
-    - [ ] update the above table of datasets
+    - [ ] update the [table of datasets](datasets.md)
     - [ ] submit a pull request
 
 ## Adding new defect bits
-* defect bits must be added in the following places:
-  * Groovy:
-    * `src/clasqa/Tools.groovy` (copy from `clasqa` repository version)
-    * `src/clasqa/QADB.groovy`
-    * `src/examples/dumpQADB.groovy` (optional)
-  * C++:
-    * `srcC/include/QADB.h`
-    * `srcC/examples/dumpQADB.cpp` (optional)
-  * Documentation:
-    * `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate
-      Markdown table for `README.md`
+Defect bits must be added in the following places:
+
+- Groovy:
+    - `src/clasqa/Tools.groovy` (copy from `clasqa` repository version)
+    - `src/clasqa/QADB.groovy`
+    - `src/examples/dumpQADB.groovy` (optional)
+- C++:
+    - `srcC/include/QADB.h`
+    - `srcC/examples/dumpQADB.cpp` (optional)
+- Documentation:
+    - `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate Markdown table for the [table of bit definitions](bitdefs.md)
