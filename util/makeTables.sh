@@ -45,6 +45,10 @@ echo """# Index of \`Misc\` Bit Tables
 
 # loop over dataset(s)
 for dataset in ${datasets[@]}; do
+  echo """
+
+
+  """
 
   # populate index pages
   echo "- [\`$dataset\`]($dataset/qaTree.txt)" >> $txtindex
@@ -57,7 +61,7 @@ for dataset in ${datasets[@]}; do
   mkdir -p $outdir/$dataset
 
   # produce `qaTree.json.table` file
-  echo "[+] producing qaTree.json.table file from $infile ..."
+  echo "[+] producing qaTree.txt file for $dataset ..."
   [ ! -f $infile ] && echo "ERROR: file '$infile' doesn't exist" >&2 && exit 1
   run-groovy $QADB/util/parseQaTree.groovy $infile
   echo "dataset: $dataset" > $txtfile
@@ -66,7 +70,7 @@ for dataset in ${datasets[@]}; do
   echo "[+] produced $txtfile"
 
   # produce `miscTable.md` file
-  echo "[+] producing miscTable.md file from $infile ..."
+  echo "[+] producing miscTable.md file for $dataset ..."
   qadb-info misc --datasets $dataset --markdown > $miscfile
   echo "[+] produced $miscfile"
 done
