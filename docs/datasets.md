@@ -5,17 +5,17 @@ Here is an example table, to show what information is provided for each dataset:
 
 !!! info "example cook"
     ??? success "example dataset"
-        | **Status:**            | the current status of the QADB for these data             |
-        | ---                    | ---                                                       |
-        | **Links:**             | links to timelines, `Misc` bit table, and QADB text file  |
-        | **Data:**              | location of the data on disk                              |
-        | **Files Used for QA:** | which files were used, _e.g._, DSTs or a specific train   |
-        | **Runs:**              | run number range                                          |
-        | **Issues with QADB:**  | any specific issue with the QADB for these data           |
-        | **Cross Check:**       | who cross checked the QADB production                     |
-        | **FC Charge Method:**  | any corrections or details about the Faraday Cup charge   |
-        | **Cook:** `recharge`   | whether or not the `recharge` option was used for cooking |
-        | **Cook:** `coatjava`   | the version of `coatjava` used to cook                    |
+        | **Status:**            | the current status of the QADB for these data               |
+        | ---                    | ---                                                         |
+        | **Links:**             | links to timelines, `Misc` bit table, and QADB text file    |
+        | **Data:**              | location of the data on disk                                |
+        | **Files Used for QA:** | which files were used, _e.g._, DSTs or a specific train     |
+        | **Runs:**              | run number range                                            |
+        | **Issues with QADB:**  | links to any specific issue(s) with the QADB for these data |
+        | **Cross Check:**       | who cross checked the QADB production                       |
+        | **FC Charge Method:**  | any corrections or details about the Faraday Cup charge     |
+        | **Cook:** `recharge`   | whether or not the `recharge` option was used for cooking   |
+        | **Cook:** `coatjava`   | the version of `coatjava` used to cook                      |
 
 ## Run Group A
 

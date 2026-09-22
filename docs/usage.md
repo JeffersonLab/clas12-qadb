@@ -67,11 +67,11 @@ qa.CheckForDefect("Misc");
 
 // decide which runs for which you care about the 'Misc' defect bit or not
 std::vector<int> allow_these_misc_assignments = {
-  5875,    // N/F low, gradually decreasing with file number
-  // 5877,    // N/F is high for the whole run
-  // 5878,    // N/F is high for the whole run
+  5875,    // N/q low, gradually decreasing with file number
+  // 5877,    // N/q is high for the whole run
+  // 5878,    // N/q is high for the whole run
   5884,    // Ended run: mvt1/mvt2 crashed.
-  5885,    // slightly low value of N/F
+  5885,    // slightly low value of N/q
 };
 /* TIP: you can generate this list and comments using `qadb-info`,
    e.g., for RG-K datasets:
@@ -86,8 +86,8 @@ std::vector<int> allow_these_misc_assignments = {
    >>> qadb-info misc --datasets rgk_fa18_6.5GeV,rgk_fa18_7.5GeV --code '//'
 
        misc_qa_runs = [
-         5875,    // N/F low, gradually decreasing with file number
-         5877,    // N/F is high for the whole run
+         5875,    // N/q low, gradually decreasing with file number
+         5877,    // N/q is high for the whole run
          ...
        ]
  */

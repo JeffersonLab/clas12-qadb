@@ -52,7 +52,7 @@ abbr = {}
 admonition = {}
 attr_list = {}
 pymdownx.inlinehilite = {}
-pymdownx.snippets = {}
+pymdownx.snippets.auto_append = ["glossary.md"]
 pymdownx.details = {}
 "pymdownx.highlight" = { anchor_linenums = true, line_spans = "__span", pygments_lang_class = true }
 pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
