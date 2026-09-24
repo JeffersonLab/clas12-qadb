@@ -18,11 +18,11 @@ unless ch_json.keys.sort == qa_json.keys.sort
         "  only in #{ch_file}: #{(ch_json.keys - qa_json.keys).inspect}\n" \
         "  only in #{qa_file}: #{(qa_json.keys - ch_json.keys).inspect}"
 end
-ch_json.each do |run, bins|
-  next if bins.keys.sort == qa_json[run].keys.sort
-  abort "ERROR: Bin numbers differ for run #{run}:\n" \
-        "  only in #{ch_file}: #{(bins.keys - qa_json[run].keys).inspect}\n" \
-        "  only in #{qa_file}: #{(qa_json[run].keys - bins.keys).inspect}"
+ch_json.each do |runnum, bins|
+  next if bins.keys.sort == qa_json[runnum].keys.sort
+  abort "ERROR: Bin numbers differ for run #{runnum}:\n" \
+        "  only in #{ch_file}: #{(bins.keys - qa_json[runnum].keys).inspect}\n" \
+        "  only in #{qa_file}: #{(qa_json[runnum].keys - bins.keys).inspect}"
 end
 
 ##################################################################################
@@ -76,44 +76,52 @@ end
 # main
 ##################################################################################
 
+# raw output columns and rows
+col_names = nil
+raw_rows  = []
 
+# loop over each run and its QA bins
+key_sort(qa_json).each do |runnum|
+  key_sort(qa_json[runnum]).each do |binnum|
 
+    # flatten and merge this bin's hashes from `qaTree.json` and `chargeTree.json`
+    flat_hash = flatten_bin(qa_json[runnum][binnum])
+      .merge(flatten_bin(ch_json[runnum][binnum]))
 
-
-
-
-# Build the rows.
-columns = nil
-rows    = []
-
-key_sort(ch_json).each do |run|
-  key_sort(ch_json[run]).each do |bin|
-    fields = flatten_bin(ch_json[run][bin]).merge(flatten_bin(qa_json[run][bin]))
-
-    columns ||= fields.keys
-    unless fields.keys == columns
-      abort "Inconsistent columns at run #{run}, bin #{bin}:\n" \
-            "  expected #{columns.inspect}\n  got      #{fields.keys.inspect}"
+    # verify the flattened keys are consistent
+    col_names ||= flat_hash.keys
+    unless flat_hash.keys == col_names
+      abort "ERROR: Inconsistent columns at run #{runnum}, bin #{binnum}:\n" \
+            "  expected #{col_names.inspect}\n  got      #{flat_hash.keys.inspect}"
     end
 
-    rows << [run.to_i, bin.to_i] + fields.values
+    # append to output rows
+    raw_rows << [runnum.to_i, binnum.to_i] + flat_hash.values
   end
 end
 
-header = ['run', 'bin'] + columns
+# prepend run number and bin number to `col_names`
+col_names.prepend 'runnum', 'binnum'
+
+
+
+
+
+
+
 
 # Format every cell as text, then right-align each column.
-table  = [header] + rows.map { |r| r.map(&:to_s) }
-widths = header.each_index.map { |i| table.map { |r| r[i].length }.max }
+table  = [col_names] + raw_rows.map { |r| r.map(&:to_s) }
+widths = col_names.each_index.map { |i| table.map { |r| r[i].length }.max }
 
 lines = table.each_with_index.map do |r, idx|
   line = r.each_with_index.map { |cell, i| cell.rjust(widths[i]) }.join('  ')
-  idx.zero? ? "# #{line}" : "  #{line}"   # '#' marks the header as a comment
+  idx.zero? ? "# #{line}" : "  #{line}"   # '#' marks the col_names as a comment
 end
 
 if out_file
   File.write(out_file, lines.join("\n") + "\n")
-  warn "Wrote #{rows.length} rows x #{header.length} columns to #{out_file}"
+  warn "Wrote #{raw_rows.length} rows x #{col_names.length} columns to #{out_file}"
 else
   puts lines
 end
