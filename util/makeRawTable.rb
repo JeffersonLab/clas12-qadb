@@ -1,14 +1,16 @@
 #!/usr/bin/env ruby
-# produce raw ASCII file from qaTree.json + chargeTree.json
+# produce a raw ASCII table file from qaTree.json + chargeTree.json
 
 require 'json'
 
 # parse arguments
-if ARGV.length < 2
-  warn "Usage: #{$PROGRAM_NAME} [qaTree.json] [chargeTree.json] [output.txt]"
+if ARGV.length != 3
+  warn "Usage: #{$PROGRAM_NAME} [dataset] [input_dir] [output_basename]"
   exit 1
 end
-qa_file, ch_file, out_file = ARGV
+dataset, in_dir, out_basename = ARGV
+qa_file = "#{in_dir}/qaTree.json"
+ch_file = "#{in_dir}/chargeTree.json"
 qa_json = JSON.parse(File.read(qa_file))
 ch_json = JSON.parse(File.read(ch_file))
 
@@ -36,23 +38,33 @@ def bits2mask(list)
   end
 end
 
+# debug printer
+def debug(msg)
+  puts msg if false
+end
+
 # flatten one bin's hash into an ordered { column_name => number } hash; ignores comments
 def flatten_bin(fields)
   out = {}
   fields.each do |key, val|
+    debug "key=#{key} val=#{val}"
     case val
     when Numeric
       out[key] = val
+      debug "  write(L1) #{key} => #{val}"
     when Hash
       val.each do |sub_key, sub_val|
+        debug "sub_key=#{sub_key} sub_val=#{sub_val}"
         out_key = "#{key}_#{sub_key}"
         case sub_val
         when Numeric
           out[out_key] = sub_val
+          debug "  write(L2) #{out_key} => #{sub_val}"
         when Array
-          case sub_key
+          case key
           when 'sectorDefects'
             out[out_key] = bits2mask(sub_val)
+            debug "  write(L2) #{out_key} => bits2mask(#{sub_val})"
           else
             raise "unknown Array-type for key '#{sub_key}'"
           end
@@ -103,25 +115,48 @@ end
 # prepend run number and bin number to `col_names`
 col_names.prepend 'runnum', 'binnum'
 
+# output columns
+File.open("#{out_basename}.columns.md", 'w') do |o|
+  col_desc = {
+    'runnum'              => 'Run number',
+    'binnum'              => 'QA bin number',
+    'evnumMin'            => 'Event number minimum',
+    'evnumMax'            => 'Event number maximum',
+    'sectorDefects_1'     => 'Defect bit field for sector 1',
+    'sectorDefects_2'     => 'Defect bit field for sector 2',
+    'sectorDefects_3'     => 'Defect bit field for sector 3',
+    'sectorDefects_4'     => 'Defect bit field for sector 4',
+    'sectorDefects_5'     => 'Defect bit field for sector 5',
+    'sectorDefects_6'     => 'Defect bit field for sector 6',
+    'defect'              => 'Full defect bit field: OR of sectors\' defect bit fields',
+    'fcChargeMin'         => 'DAQ-gated DSC2-scalers FC charge at lower bin boundary (or minimum, for older DBs)',
+    'fcChargeMax'         => 'DAQ-gated DSC2-scalers FC charge at upper bin boundary (or maximum, for older DBs)',
+    'ufcChargeMin'        => 'Ungated DSC2-scalers FC charge at lower bin boundary (or minimum, for older DBs)',
+    'ufcChargeMax'        => 'Ungated DSC2-scalers FC charge at upper bin boundary (or maximum, for older DBs)',
+    'livetime'            => 'Live time',
+    'nElec_1'             => 'Number of FD trigger electrons for sector 1',
+    'nElec_2'             => 'Number of FD trigger electrons for sector 2',
+    'nElec_3'             => 'Number of FD trigger electrons for sector 3',
+    'nElec_4'             => 'Number of FD trigger electrons for sector 4',
+    'nElec_5'             => 'Number of FD trigger electrons for sector 5',
+    'nElec_6'             => 'Number of FD trigger electrons for sector 6',
+    'fcChargeHelicity_-1' => 'DAQ-gated STRUCK-scalers charge latched to helicity = -1',
+    'fcChargeHelicity_0'  => 'DAQ-gated STRUCK-scalers charge latched to helicity = 0',
+    'fcChargeHelicity_1'  => 'DAQ-gated STRUCK-scalers charge latched to helicity = +1',
+  }
+  o.puts """# Raw Table Columns for `#{dataset}`
 
-
-
-
-
-
-
-# Format every cell as text, then right-align each column.
-table  = [col_names] + raw_rows.map { |r| r.map(&:to_s) }
-widths = col_names.each_index.map { |i| table.map { |r| r[i].length }.max }
-
-lines = table.each_with_index.map do |r, idx|
-  line = r.each_with_index.map { |cell, i| cell.rjust(widths[i]) }.join('  ')
-  idx.zero? ? "# #{line}" : "  #{line}"   # '#' marks the col_names as a comment
+  | Column | Description |
+  | --- | --- |"""
+  col_names.each_with_index do |col,idx|
+    raise "unknown column name '#{col}'" unless col_desc.has_key? col
+    o.puts "| #{(idx+1).to_s} | #{col_desc[col]} |"
+  end
 end
 
-if out_file
-  File.write(out_file, lines.join("\n") + "\n")
-  warn "Wrote #{raw_rows.length} rows x #{col_names.length} columns to #{out_file}"
-else
-  puts lines
+# output rows
+File.open("#{out_basename}.table.txt", 'w') do |o|
+  raw_rows.each do |row|
+    o.puts row.join(' ')
+  end
 end

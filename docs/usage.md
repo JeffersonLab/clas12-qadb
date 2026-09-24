@@ -191,7 +191,9 @@ auto total_charge_for_negative_helicity  = qa.GetAccumulatedChargeHL(-1);
 auto total_charge_for_undefined_helicity = qa.GetAccumulatedChargeHL(0);
 ```
 
-## Machine Access: JSON Files
+## Machine Access: Files
+
+### JSON Files
 
 The QADB files are organized by dataset: one subdirectory of [`qadb/`](https://github.com/JeffersonLab/clas12-qadb/tree/main/qadb) per dataset.
 Each directory contains the QADB itself, stored in `json` files, meant for programmatic access.
@@ -202,7 +204,6 @@ The dataset directories are organized by cook number (pass):
   - within each `pass*/` directory are subdirectories for each dataset
 - the `latest/` directory contains symbolic links to the _latest_ cook of each dataset with a QADB
 
-### `qaTree.json`
 The QADB defects are stored as JSON files in `qaTree.json`; the format is a tree:
 ```
 qaTree.json ─┬─ run number 1
@@ -225,7 +226,6 @@ For each bin, the following variables are defined:
 - `defect` is a decimal representation of the `OR` of each sector's defect bits, for example, `11=0b1011` means that the `OR` of the defect bit lists is `[0,1,3]`
 - `comment` stores an optional comment regarding the QA result
 
-### `chargeTree.json`
 The charge is also stored in JSON files in `chargeTree.json`, with a similar format:
 ```
 chargeTree.json ─┬─ run number 1
@@ -252,6 +252,12 @@ For each bin, the following variables are defined:
 - `ufcChargeMin` and `ufcChargeMax` represent the minimum and maximum FC charge, but not gated by the DAQ
 - the difference between the maximum and minimum charge is the accumulated charge in that bin
 - `nElec` lists the number of electrons from each sector
+
+### Raw ASCII Tables
+
+Raw ASCII tables, with all of the QADB information (except for comments) are available for reading the QADB without a JSON parser.
+
+See the [Index of Raw Tables](tables/index_raw.md) to download them.
 
 
 ## How to Access the FC Charge
