@@ -1,6 +1,7 @@
 # we used to use pre-commit hooks here, but we have removed them; however,
 # pre-commit.ci still runs and we're currently unable to stop it, so this
 # file just exists to satisfy pre-commit.ci and does nothing
+# FIXME: get rid of this if migrated from `github.com/JeffersonLab/clas12-qadb` to gitlab
 ci:
   autofix_prs: false
 repos: []
