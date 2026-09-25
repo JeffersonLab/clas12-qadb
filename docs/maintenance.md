@@ -23,4 +23,4 @@ Defect bits must be added in the following places:
     - `srcC/include/QADB.h`
     - `srcC/examples/dumpQADB.cpp` (optional)
 - Documentation:
-    - `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate Markdown table for the [table of bit definitions](bitdefs.md)
+    - `qadb/defect_definitions.json`, then use `util/makeDefectMarkdown.rb` to generate Markdown table for the [table of bit definitions](tables/bitdefs.md)
