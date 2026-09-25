@@ -8,14 +8,14 @@ if [ $# -ne 1 ]; then
   exit 2
 fi
 num_threads=$1
-echo "producing docs in $DOCDIR"
-echo "using $num_threads threads"
 
 # make output dir
 DOCDIR=$QADB/docs/tables
 mkdir -p $DOCDIR
 rm -r $DOCDIR
 mkdir -p $DOCDIR
+echo "producing docs in $DOCDIR"
+echo "using $num_threads threads"
 
 # make defect bits table
 $QADB/util/docs/makeDefectTable.rb $DOCDIR/bitdefs.md
