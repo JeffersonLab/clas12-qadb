@@ -31,8 +31,5 @@ git submodule update --init --recursive
 message "build C++ tests"
 build srcC/tests
 
-message "build utilities"
-build util
-
 message "done"
 echo "Installed to $QADB"
