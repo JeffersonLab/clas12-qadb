@@ -876,8 +876,8 @@ when CmdCharge
   end
   case opts[:output]
   when nil
-    header1 = ['',        '',           'DAQ-gated',    'full (ungated)', 'pos.-helicity', 'neg.-helicity', 'zero-helicity', 'total helicity', '% diff (helicity -']
-    header2 = ['dataset', 'run number', 'integrated q', 'integrated q',   'latched q',     'latched q',     'latched q',     'latched q',      '- ungated int. q)']
+    header1 = ['',        '',           'DAQ-gated',         'full (ungated)',    'pos.-helicity',  'neg.-helicity',  'zero-helicity',  'total helicity', '% diff (helicity -']
+    header2 = ['dataset', 'run number', 'integrated q [nC]', 'integrated q [nC]', 'latched q [nC]', 'latched q [nC]', 'latched q [nC]', 'latched q [nC]', '- ungated int. q)']
     col_size = [ header1.max.size, header2.max.size, selected_datasets.max_by(&:length).length ].max
     divider = header1.map{ |it| '-'*col_size }
     row = Proc.new do |cols|

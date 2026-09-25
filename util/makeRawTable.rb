@@ -128,11 +128,11 @@ File.open("#{out_basename}.columns.md", 'w') do |o|
     'sectorDefects_4'     => 'Defect bit field for sector 4',
     'sectorDefects_5'     => 'Defect bit field for sector 5',
     'sectorDefects_6'     => 'Defect bit field for sector 6',
-    'defect'              => 'Full defect bit field: OR of sectors\' defect bit fields',
-    'fcChargeMin'         => 'DAQ-gated DSC2-scalers FC charge at lower bin boundary (or minimum, for older DBs)',
-    'fcChargeMax'         => 'DAQ-gated DSC2-scalers FC charge at upper bin boundary (or maximum, for older DBs)',
-    'ufcChargeMin'        => 'Ungated DSC2-scalers FC charge at lower bin boundary (or minimum, for older DBs)',
-    'ufcChargeMax'        => 'Ungated DSC2-scalers FC charge at upper bin boundary (or maximum, for older DBs)',
+    'defect'              => 'Full defect bit field: <code>OR</code> of sectors\' defect bit fields',
+    'fcChargeMin'         => 'DAQ-gated integrated FC charge [nC] at bin lower boundary, or zero for newer DBs, or bin minimum for older DBs',
+    'fcChargeMax'         => 'DAQ-gated integrated FC charge [nC] at bin upper boundary, or bin maximum for older DBs; subtract <code>fcChargeMin</code> for total bin\'s charge',
+    'ufcChargeMin'        => 'Full (ungated) integrated FC charge [nC] at bin lower boundary, or zero for newer DBs, or bin minimum for older DBs',
+    'ufcChargeMax'        => 'Full (ungated) integrated FC charge [nC] at bin upper boundary, or bin maximum for older DBs; subtract <code>ufcChargeMin</code> for total bin\'s charge',
     'livetime'            => 'Live time',
     'nElec_1'             => 'Number of FD trigger electrons for sector 1',
     'nElec_2'             => 'Number of FD trigger electrons for sector 2',
@@ -140,18 +140,36 @@ File.open("#{out_basename}.columns.md", 'w') do |o|
     'nElec_4'             => 'Number of FD trigger electrons for sector 4',
     'nElec_5'             => 'Number of FD trigger electrons for sector 5',
     'nElec_6'             => 'Number of FD trigger electrons for sector 6',
-    'fcChargeHelicity_-1' => 'DAQ-gated STRUCK-scalers charge latched to helicity = -1',
-    'fcChargeHelicity_0'  => 'DAQ-gated STRUCK-scalers charge latched to helicity = 0',
-    'fcChargeHelicity_1'  => 'DAQ-gated STRUCK-scalers charge latched to helicity = +1',
+    'fcChargeHelicity_-1' => 'DAQ-gated charge [nC] latched to negative beam helicity states',
+    'fcChargeHelicity_0'  => 'DAQ-gated charge [nC] latched to invalid/undefined beam helicity states',
+    'fcChargeHelicity_1'  => 'DAQ-gated charge [nC] latched to positive beam helicity states',
   }
   o.puts """# Raw Table Columns for `#{dataset}`
 
-  | Column | Description |
-  | --- | --- |"""
+<table>
+  <colgroup>
+    <col style=\"width: 5%\">
+    <col style=\"width: 30%\">
+    <col style=\"width: 65%\">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Column</th>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>"""
   col_names.each_with_index do |col,idx|
     raise "unknown column name '#{col}'" unless col_desc.has_key? col
-    o.puts "| #{(idx+1).to_s} | #{col_desc[col]} |"
+    o.puts "    <tr>"
+    o.puts "      <td>#{idx+1}</td>"
+    o.puts "      <td><code>#{col}</code></td>"
+    o.puts "      <td>#{col_desc[col]}</td>"
+    o.puts "    </tr>"
   end
+  o.puts """  </tbody>
+</table>"""
 end
 
 # output rows
