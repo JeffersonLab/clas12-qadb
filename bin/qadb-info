@@ -50,23 +50,37 @@ def note_list_syntax(o_, command_)
 end
 
 # handle dataset selection argument in option parser
-def on_dataset_selection(o_, opts_, command_)
+def on_dataset_selection(o_, opts_)
   o_.on('-d', '--datasets LIST', Array, 'list of datasets to include;', "run `#{ExeName} #{CmdPrint}` for dataset info", 'default: all the latest cooks\' datasets (which may be slow!)') do |a|
     opts_[:datasets] = a
   end
 end
 
 # handle run group selection argument in option parser
-def on_rungroup_selection(o_, opts_, command_)
+def on_rungroup_selection(o_, opts_)
   o_.on('-R', '--run-group RUN_GROUP', String, 'only include datasets for this run group') do |a|
     opts_[:run_group] = a
   end
 end
 
 # handle run selection argument in option parser
-def on_run_selection(o_, opts_, command_)
+def on_run_selection(o_, opts_)
   o_.on('-r', '--runs LIST', Array, 'list of runs to include', 'default: all of them of the datasets from `--datasets`') do |a|
     opts_[:runs] = a
+  end
+end
+
+# handle bin selection argument in option parser
+def on_bin_selection(o_, opts_)
+  o_.on('-b', '--bins LIST', Array, 'list of QA bins to include, for each run from `--runs`', 'default: all of them') do |a|
+    opts_[:bins] = a
+  end
+end
+
+# handle event selection argument in option parser
+def on_event_selection(o_, opts_)
+  o_.on('-e', '--events LIST', Array, 'list of event numbers to include, for each run from `--runs`', 'default: all of them') do |a|
+    opts_[:events] = a.map &:to_i
   end
 end
 
@@ -270,7 +284,7 @@ subcommand_parser = {
     end
     o.separator ''
     o.separator 'FILTERING OPTIONS'
-    on_rungroup_selection o, opts, CmdPrint
+    on_rungroup_selection o, opts
     o.on('-L', '--[no-]latest', 'only list the "latest" cooks\' datasets', 'default: lists all datasets') do |a|
       opts[:only_latest] = a
     end
@@ -287,7 +301,7 @@ subcommand_parser = {
     o.on('-S', '--[no-]simple', 'just print the list of runs, sorted by run number', 'default: print table, sorted by dataset and goodness') do |a|
       opts[CmdRuns][:simple] = a
     end
-    on_run_selection o, opts, CmdRuns
+    on_run_selection o, opts
     o.on('--good', 'apply GOOD RUN filtering (see below)', 'default: no goodness filtering') do |a|
       opts[CmdRuns][:good][:enable] = true
     end
@@ -312,8 +326,8 @@ subcommand_parser = {
     o.on('--all', 'use all datasets') do |a|
       # no-op, since 1 user argument will just use all the defaults
     end
-    on_dataset_selection o, opts, CmdRuns
-    on_rungroup_selection o, opts, CmdRuns
+    on_dataset_selection o, opts
+    on_rungroup_selection o, opts
     o.separator ''
     print_examples CmdRuns, o
     o.separator ''
@@ -330,8 +344,10 @@ subcommand_parser = {
       -> #{ExeName} is a new program, please report any issues
     CAUTION ======================================================================= CAUTION"""
     note_list_syntax o, CmdCharge
-    on_dataset_selection o, opts, CmdCharge
-    on_run_selection     o, opts, CmdCharge
+    on_dataset_selection o, opts
+    on_run_selection     o, opts
+    on_bin_selection     o, opts
+    on_event_selection   o, opts
     on_verbose o, opts
     o.separator """
 QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
@@ -380,8 +396,8 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
   CmdMisc => OptionParser.new do |o|
     command_banner o, CmdMisc
     note_list_syntax o, CmdMisc
-    on_dataset_selection o, opts, CmdMisc
-    on_run_selection     o, opts, CmdMisc
+    on_dataset_selection o, opts
+    on_run_selection     o, opts
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
     o.separator '''
@@ -433,19 +449,14 @@ QA FILTERING OPTIONS: calculate the charge filtered by QA criteria
       -> instead, see the documentation for more efficient ways
     CAUTION ======================================================================= CAUTION"""
     note_list_syntax o, CmdQuery
-    on_dataset_selection o, opts, CmdQuery
-    on_run_selection o,     opts, CmdQuery
+    on_dataset_selection o, opts
+    on_run_selection o,     opts
     o.separator ''
     o.separator '''QUERY OPTIONS:
-    Choose one of these to restrict which bins are printed, otherwise
-    all bins from the dataset/run list(s) will be included
+    Choose one of these to restrict which bins are printed
     '''
-    o.on('-b', '--bins LIST', Array, 'list of QA bins to include') do |a|
-      opts[:bins] = a
-    end
-    o.on('-e', '--events LIST', Array, 'list of event numbers to include') do |a|
-      opts[:events] = a.map &:to_i
-    end
+    on_bin_selection   o, opts
+    on_event_selection o, opts
     o.separator ''
     o.separator 'OUTPUT OPTIONS'
     o.on('--json', 'output JSON format (the default)', 'TIP: pipe through `jq` for readability') do |a|
@@ -593,7 +604,7 @@ end
 
 # determine list of bins for each run, if the user requested specific events or bins
 selected_bins = Hash.new
-if Command == CmdQuery
+if Command == CmdQuery or Command == CmdCharge
   unless opts[:bins].empty? and opts[:events].empty?
     verb.call "handling user specified bin/event selection..."
     option_conflict '--bins', '--events' if opts[:bins].length>0 and opts[:events].length>0
@@ -788,6 +799,11 @@ when CmdCharge
     hlCharge     = { '1' => 0.0, '-1' => 0.0, '0' => 0.0 }
     has_hlCharge = false
     chargeTree[runnum].each do |binnum, charge_h|
+
+      # binnum filter
+      unless selected_bins.empty?
+        next unless selected_bins[runnum].include? binnum
+      end
 
       # QA filter
       allowed = true
