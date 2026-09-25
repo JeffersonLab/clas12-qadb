@@ -8,6 +8,8 @@ if [ $# -ne 1 ]; then
   exit 2
 fi
 num_threads=$1
+echo "producing docs in $DOCDIR"
+echo "using $num_threads threads"
 
 # make output dir
 DOCDIR=$QADB/docs/tables
@@ -73,7 +75,7 @@ done
 table_jobs=$QADB/docs/tables/make.sh
 > $table_jobs
 for dataset in ${datasets[@]}; do
-  echo "$QADB/docs/src/makeAllTables.sh $dataset $DOCDIR" >> $table_jobs
+  echo "$QADB/util/docs/makeAllTables.sh $dataset $DOCDIR" >> $table_jobs
 done
 parallel -j $num_threads --line-buffer --tagstring "(job{#})>>>" {} 2>&1 :::: $table_jobs 2>&1
 rm $table_jobs
