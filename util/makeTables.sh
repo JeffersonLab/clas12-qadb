@@ -38,10 +38,23 @@ mkdir -p $outdir
 # start index pages
 txtindex=$outdir/index_txt.md
 miscindex=$outdir/index_misc.md
+rawindex=$outdir/index_raw.md
 echo """# Index of QADB Text Files
+
+These are human-readable text files; see [Usage Guide](../usage.md) for more information.
+
 """ > $txtindex
 echo """# Index of \`Misc\` Bit Tables
+
+These are tables of \`Misc\` bit assignments for each run.
 """ > $miscindex
+echo """# Index of Raw Table Files
+
+These are raw ASCII tables with all of the QADB information, except for comments. The tables just contain numbers, while
+the table columns are provided in a separate file.
+
+| Dataset | Table | Columns |
+| --- | --- | --- |""" > $rawindex
 
 # loop over dataset(s)
 for dataset in ${datasets[@]}; do
@@ -50,17 +63,19 @@ for dataset in ${datasets[@]}; do
 
   """
 
+  # define inputs and outputs
+  qadir=$QADB/qadb/$dataset
+  infile=$qadir/qaTree.json
+  txtfile=$outdir/$dataset/qaTree.txt
+  miscfile=$outdir/$dataset/miscTable.md
+  rawbase=$outdir/$dataset/qaRaw
+  mkdir -p $outdir/$dataset
+
   # populate index pages
   echo "- [\`$dataset\`]($dataset/qaTree.txt)" >> $txtindex
   echo "- [\`$dataset\`]($dataset/miscTable.md)" >> $miscindex
+  echo "| \`$dataset\` | [Table]($dataset/qaRaw.table.txt) | [Columns]($dataset/qaRaw.columns.md) |" >> $rawindex
 
-  # define inputs and outputs
-  infile=$QADB/qadb/$dataset/qaTree.json
-  txtfile=$outdir/$dataset/qaTree.txt
-  miscfile=$outdir/$dataset/miscTable.md
-  mkdir -p $outdir/$dataset
-
-  # produce `qaTree.json.table` file
   echo "[+] producing qaTree.txt file for $dataset ..."
   [ ! -f $infile ] && echo "ERROR: file '$infile' doesn't exist" >&2 && exit 1
   run-groovy $QADB/util/parseQaTree.groovy $infile
@@ -69,8 +84,11 @@ for dataset in ${datasets[@]}; do
   rm $infile.table
   echo "[+] produced $txtfile"
 
-  # produce `miscTable.md` file
   echo "[+] producing miscTable.md file for $dataset ..."
   qadb-info misc --datasets $dataset --markdown > $miscfile
   echo "[+] produced $miscfile"
+
+  echo "[+] producing qaRaw.* files for $dataset ..."
+  $QADB/util/makeRawTable.rb $dataset $qadir $rawbase
+  echo "[+] produced $rawbase.*"
 done
