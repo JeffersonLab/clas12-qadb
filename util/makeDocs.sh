@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# produces additional documentation for zensical
 set -euo pipefail
 
 source $(dirname $0)/../environ.sh
@@ -49,7 +50,7 @@ done
 
 # build raw file index page
 rawindex=$DOCDIR/index_raw.md
-echo '''# Index of Raw Table Files
+echo '''# Index of Raw ASCII Table Files
 
 These are raw ASCII tables with all of the QADB information, except for comments. The tables just contain numbers, while
 the table columns are provided in a separate file.

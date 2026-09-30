@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# runs the other scripts in this directory to produce table files
 
 set -euo pipefail
 source environ.sh
