@@ -3,6 +3,37 @@
 
 require 'json'
 
+# all possible column names, their types (integer or real), and descriptions
+COLUMN_DEFS = {
+  'runnum'              => { :type => :integer, :desc => 'Run number' },
+  'binnum'              => { :type => :integer, :desc => 'QA bin number' },
+  'evnumMin'            => { :type => :integer, :desc => 'Event number minimum' },
+  'evnumMax'            => { :type => :integer, :desc => 'Event number maximum' },
+  'sectorDefects_1'     => { :type => :integer, :desc => 'Defect bit field for sector 1' },
+  'sectorDefects_2'     => { :type => :integer, :desc => 'Defect bit field for sector 2' },
+  'sectorDefects_3'     => { :type => :integer, :desc => 'Defect bit field for sector 3' },
+  'sectorDefects_4'     => { :type => :integer, :desc => 'Defect bit field for sector 4' },
+  'sectorDefects_5'     => { :type => :integer, :desc => 'Defect bit field for sector 5' },
+  'sectorDefects_6'     => { :type => :integer, :desc => 'Defect bit field for sector 6' },
+  'defect'              => { :type => :integer, :desc => 'Full defect bit field: <code>OR</code> of sectors\' defect bit fields' },
+  'fcChargeMin'         => { :type => :real,    :desc => 'DAQ-gated integrated FC charge [nC] at bin lower boundary, or zero for newer DBs, or bin minimum for older DBs' },
+  'fcChargeMax'         => { :type => :real,    :desc => 'DAQ-gated integrated FC charge [nC] at bin upper boundary, or bin maximum for older DBs; subtract <code>fcChargeMin</code> for total bin\'s charge' },
+  'ufcChargeMin'        => { :type => :real,    :desc => 'Full (ungated) integrated FC charge [nC] at bin lower boundary, or zero for newer DBs, or bin minimum for older DBs' },
+  'ufcChargeMax'        => { :type => :real,    :desc => 'Full (ungated) integrated FC charge [nC] at bin upper boundary, or bin maximum for older DBs; subtract <code>ufcChargeMin</code> for total bin\'s charge' },
+  'livetime'            => { :type => :real,    :desc => 'Live time' },
+  'nElec_1'             => { :type => :integer, :desc => 'Number of FD trigger electrons for sector 1' },
+  'nElec_2'             => { :type => :integer, :desc => 'Number of FD trigger electrons for sector 2' },
+  'nElec_3'             => { :type => :integer, :desc => 'Number of FD trigger electrons for sector 3' },
+  'nElec_4'             => { :type => :integer, :desc => 'Number of FD trigger electrons for sector 4' },
+  'nElec_5'             => { :type => :integer, :desc => 'Number of FD trigger electrons for sector 5' },
+  'nElec_6'             => { :type => :integer, :desc => 'Number of FD trigger electrons for sector 6' },
+  'fcChargeHelicity_-1' => { :type => :real,    :desc => 'DAQ-gated charge [nC] latched to negative beam helicity states' },
+  'fcChargeHelicity_0'  => { :type => :real,    :desc => 'DAQ-gated charge [nC] latched to invalid/undefined beam helicity states' },
+  'fcChargeHelicity_1'  => { :type => :real,    :desc => 'DAQ-gated charge [nC] latched to positive beam helicity states' },
+}
+
+##################################################################################
+
 # parse arguments
 if ARGV.length != 3
   warn "Usage: #{$PROGRAM_NAME} [dataset] [input_dir] [output_basename]"
@@ -107,8 +138,18 @@ key_sort(qa_json).each do |runnum|
             "  expected #{col_names.inspect}\n  got      #{flat_hash.keys.inspect}"
     end
 
+    # stringify the values
+    val_strings = flat_hash.map do |col_name, val|
+      raise "unknown column name '#{col_name}'" unless COLUMN_DEFS.has_key? col_name
+      case COLUMN_DEFS[col_name][:type]
+      when :integer then val.to_i.to_s
+      when :real    then val.to_f.to_s
+      else raise "unknown column type for column '#{col_name}'"
+      end
+    end
+
     # append to output rows
-    raw_rows << [runnum.to_i, binnum.to_i] + flat_hash.values
+    raw_rows << [runnum.to_i.to_s, binnum.to_i.to_s] + val_strings
   end
 end
 
@@ -117,33 +158,6 @@ col_names.prepend 'runnum', 'binnum'
 
 # output columns
 File.open("#{out_basename}.columns.md", 'w') do |o|
-  col_desc = {
-    'runnum'              => 'Run number',
-    'binnum'              => 'QA bin number',
-    'evnumMin'            => 'Event number minimum',
-    'evnumMax'            => 'Event number maximum',
-    'sectorDefects_1'     => 'Defect bit field for sector 1',
-    'sectorDefects_2'     => 'Defect bit field for sector 2',
-    'sectorDefects_3'     => 'Defect bit field for sector 3',
-    'sectorDefects_4'     => 'Defect bit field for sector 4',
-    'sectorDefects_5'     => 'Defect bit field for sector 5',
-    'sectorDefects_6'     => 'Defect bit field for sector 6',
-    'defect'              => 'Full defect bit field: <code>OR</code> of sectors\' defect bit fields',
-    'fcChargeMin'         => 'DAQ-gated integrated FC charge [nC] at bin lower boundary, or zero for newer DBs, or bin minimum for older DBs',
-    'fcChargeMax'         => 'DAQ-gated integrated FC charge [nC] at bin upper boundary, or bin maximum for older DBs; subtract <code>fcChargeMin</code> for total bin\'s charge',
-    'ufcChargeMin'        => 'Full (ungated) integrated FC charge [nC] at bin lower boundary, or zero for newer DBs, or bin minimum for older DBs',
-    'ufcChargeMax'        => 'Full (ungated) integrated FC charge [nC] at bin upper boundary, or bin maximum for older DBs; subtract <code>ufcChargeMin</code> for total bin\'s charge',
-    'livetime'            => 'Live time',
-    'nElec_1'             => 'Number of FD trigger electrons for sector 1',
-    'nElec_2'             => 'Number of FD trigger electrons for sector 2',
-    'nElec_3'             => 'Number of FD trigger electrons for sector 3',
-    'nElec_4'             => 'Number of FD trigger electrons for sector 4',
-    'nElec_5'             => 'Number of FD trigger electrons for sector 5',
-    'nElec_6'             => 'Number of FD trigger electrons for sector 6',
-    'fcChargeHelicity_-1' => 'DAQ-gated charge [nC] latched to negative beam helicity states',
-    'fcChargeHelicity_0'  => 'DAQ-gated charge [nC] latched to invalid/undefined beam helicity states',
-    'fcChargeHelicity_1'  => 'DAQ-gated charge [nC] latched to positive beam helicity states',
-  }
   o.puts """# Raw Table Columns for `#{dataset}`
 
 <table>
@@ -160,12 +174,12 @@ File.open("#{out_basename}.columns.md", 'w') do |o|
     </tr>
   </thead>
   <tbody>"""
-  col_names.each_with_index do |col,idx|
-    raise "unknown column name '#{col}'" unless col_desc.has_key? col
+  col_names.each_with_index do |col_name, idx|
+    raise "unknown column name '#{col_name}'" unless COLUMN_DEFS.has_key? col_name
     o.puts "    <tr>"
     o.puts "      <td>#{idx+1}</td>"
-    o.puts "      <td><code>#{col}</code></td>"
-    o.puts "      <td>#{col_desc[col]}</td>"
+    o.puts "      <td><code>#{col_name}</code></td>"
+    o.puts "      <td>#{COLUMN_DEFS[col_name][:desc]}</td>"
     o.puts "    </tr>"
   end
   o.puts """  </tbody>
