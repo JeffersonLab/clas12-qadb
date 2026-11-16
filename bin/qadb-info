@@ -983,14 +983,15 @@ See [the QADB Text File](qaTree.txt) for more detailed, bin-by-bin information.
 
 ### Misc Comments
 
-| Run | `Misc` defect? | Unique Comments |
-| --- | ---            | ---             |
+| Run | Logbook Link | `Misc` defect? | Unique Comments |
+| --- | ---          | ---            | ---             |
 """
     out_hash.each do |runnum, h|
       md_comments = h[:comments].keys.map{ |comment| "<pre>#{comment}</pre>" }
       md_has_misc_bit = h[:has_misc_bit] ? "yes" : "no"
       puts '| ' + [
         runnum.ljust(10),
+        "[Logbook](https://clas12mon.jlab.org/runs/summaries/?run=#{runnum}&runmax=#{runnum.to_i+30}&runmin=#{runnum.to_i-30})",
         md_has_misc_bit.ljust(5),
         md_comments.join(''),
       ].join(' | ') + ' |'
